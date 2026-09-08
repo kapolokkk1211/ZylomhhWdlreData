@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
 import Combobox from './Combobox';
+import { readBasket, toggleBasket, subscribeBasket } from '@/lib/basket';
 
 const fmt = (tpl, n, total) => String(tpl).replace('{n}', n).replace('{total}', total);
 
@@ -28,6 +29,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const [verified, setVerified] = useState(false);
   const [statf, setStatf] = useState({ stat: 'ATK', op: '>', val: '' }); // one stat filter; blank value = off
   const [sort, setSort] = useState({ key: null, dir: 'desc' }); // key: null | 'rank' | 'stat'
+  const [basket, setBasket] = useState([]);
+  useEffect(() => { setBasket(readBasket()); return subscribeBasket(setBasket); }, []);
+  const inBasket = useMemo(() => new Set(basket), [basket]);
 
   // ?family=Star etc. from the old /star URL redirect. Read once on mount.
   useEffect(() => {
@@ -173,6 +177,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
 
         {anyFilter ? <button type="button" className="toggle" onClick={reset}>{strings.reset}</button> : null}
 
+        <a className={`toggle basket-link${basket.length ? ' has' : ''}`} href={`/${lang}/simulator`} title={strings.basketHelp}>
+          ★ {strings.basket} {basket.length ? <b>{basket.length}</b> : null}
+        </a>
         <span className="count">{fmt(strings.showing, sorted.length, rows.length)}</span>
       </div>
 
@@ -210,6 +217,15 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     {g.row[16] === 1 && <span className="warn-mark" title={strings.lvWarning}> !</span>}
                   </td>
                   <td className="c-name">
+                    <button
+                      type="button"
+                      className={`bk${inBasket.has(g.row[0]) ? ' on' : ''}`}
+                      title={inBasket.has(g.row[0]) ? strings.basketRemove : strings.basketAdd}
+                      aria-pressed={inBasket.has(g.row[0])}
+                      onClick={() => setBasket(toggleBasket(g.row[0]))}
+                    >
+                      {inBasket.has(g.row[0]) ? '★' : '☆'}
+                    </button>
                     <span className="nm">
                       {name(g.row)}
                       <span

@@ -666,3 +666,24 @@ html[data-view="desktop"] .site-head .wrap { min-width: 0; }
 /* mobile: keep the intro short so the data is one thumb-flick away */
 html[data-view="mobile"] .page-head .lede { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 html[data-view="mobile"] .page-head .note { display: none; }
+
+/* ---------- shortlist ---------- */
+.bk { border: 0; background: transparent; cursor: pointer; font-size: 15px; color: var(--ink-faint); padding: 0 6px 0 0; vertical-align: 1px; line-height: 1; }
+.bk:hover, .bk.on { color: var(--star); }
+.basket-link { text-decoration: none; }
+.basket-link.has { border-color: var(--star); color: var(--star); font-weight: 600; }
+.basket-link b { background: var(--star); color: #fff; border-radius: 10px; padding: 0 7px; font-size: 11px; margin-left: 2px; }
+.sim-side { display: grid; gap: 14px; position: sticky; top: 70px; }
+.sim-side .sim-steps { position: static; }
+.sim-basket { border: 1px solid var(--star); border-radius: 10px; background: var(--surface); padding: 14px 16px; box-shadow: var(--shadow); }
+.sim-basket h3 { margin: 0 0 4px; font-family: var(--font-display); font-size: 17px; }
+.sim-basket-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; max-height: 320px; overflow: auto; }
+.sim-basket-list li { display: flex; justify-content: space-between; gap: 8px; align-items: center; padding: 6px 8px; border: 1px solid var(--line-soft); border-radius: 8px; background: var(--surface-2); }
+.sim-basket-name { min-width: 0; font-size: 13px; line-height: 1.3; }
+.sim-basket-name b { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-basket-actions { display: flex; gap: 4px; flex-shrink: 0; }
+.sim-basket-actions .chip:disabled { opacity: .45; cursor: default; }
+.sim-selinfo { font-size: 13px; margin: 6px 0; padding: 6px 8px; border-radius: 7px; background: var(--star-bg); }
+.sim-node { cursor: pointer; }
+.sim-node.sel { outline: 3px solid var(--star); outline-offset: 2px; }
+html[data-view="mobile"] .sim-side { position: static; }

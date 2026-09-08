@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Combobox from './Combobox';
 import { buildIndex, parseRecipe, resolve } from '@/lib/recipe';
+import { readBasket, writeBasket, subscribeBasket } from '@/lib/basket';
 
 /* compact row indices: 0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw */
 
@@ -23,6 +24,9 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
   const [hydrated, setHydrated] = useState(false);
   const [zoom, setZoom] = useState(1);
   const [editNote, setEditNote] = useState(null);
+  const [selected, setSelected] = useState(null); // node id the shortlist adds under
+  const [basket, setBasket] = useState([]);
+  useEffect(() => { setBasket(readBasket()); return subscribeBasket(setBasket); }, []);
   const viewRef = useRef(null);
 
   // restore
@@ -99,6 +103,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     setTree((t) => (t ? walk(t) : t));
   };
   const remove = (id) => {
+    if (selected === id) setSelected(null);
     if (tree && tree.id === id) { setTree(null); return; }
     const walk = (n) => ({ ...n, children: n.children.filter((c) => c.id !== id).map(walk) });
     setTree((t) => (t ? walk(t) : t));
@@ -112,6 +117,9 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     update(parentId, (n) => ({ ...n, children: [...n.children, child] }));
     setAdding(null); setAddText('');
   };
+  const startTree = (itemId) => { const n = mkItem(itemId); setTree(n); setSelected(n.id); };
+  const findNode = (id) => { const f = (n) => (n.id === id ? n : n.children.map(f).find(Boolean)); return tree ? f(tree) : null; };
+  const selectedNode = selected ? findNode(selected) : null;
   const loadRecipe = (n) => {
     const r = byId.get(n.itemId); if (!r) return;
     const alts = parseRecipe(r[10]); if (!alts.length) return;
@@ -214,6 +222,42 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     a.click();
   };
 
+  /* ---- shortlist panel ---- */
+  const basketRows = basket.map((id) => byId.get(id)).filter(Boolean);
+  const basketPanel = (
+    <div className="sim-basket">
+      <h3>★ {strings.basketTitle} <span className="sim-dim">({basketRows.length})</span></h3>
+      <p className="sim-dim" style={{ marginTop: 0 }}>{strings.basketHelp}</p>
+      {tree && (
+        <div className="sim-selinfo">
+          {strings.selected}: {selectedNode ? <b>{info(selectedNode).name}</b> : <span className="sim-dim">{strings.basketNoSel}</span>}
+        </div>
+      )}
+      {basketRows.length === 0 && <div className="sim-dim">{strings.basketEmpty}</div>}
+      <ul className="sim-basket-list">
+        {basketRows.map((r) => (
+          <li key={r[0]}>
+            <div className="sim-basket-name">
+              <b>{lang === 'th' ? r[8] || r[6] : r[6]}</b>
+              <span className="sim-dim"> r{r[3]} · {labels.family[r[1]]?.label}</span>
+            </div>
+            <div className="sim-basket-actions">
+              {!tree ? (
+                <button type="button" className="chip on" onClick={() => startTree(r[0])}>{strings.basketAsRoot}</button>
+              ) : (
+                <button type="button" className="chip on" disabled={!selectedNode} title={selectedNode ? `${strings.basketAddUnder} ${info(selectedNode).name}` : strings.basketNoSel} onClick={() => selectedNode && addChild(selectedNode.id, mkItem(r[0]))}>
+                  ＋ {strings.basketAddUnder}
+                </button>
+              )}
+              <button type="button" className="chip" title={strings.remove} onClick={() => writeBasket(basket.filter((x) => x !== r[0]))}>✕</button>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {basketRows.length > 0 && <button type="button" className="chip" style={{ marginTop: 8 }} onClick={() => writeBasket([])}>{strings.basketClear}</button>}
+    </div>
+  );
+
   /* ---- render ---- */
   const renderAdd = (n) => (
     <div className="sim-add" onMouseDown={(e) => e.stopPropagation()}>
@@ -229,7 +273,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     <>
       <div className="controls" style={{ position: 'static' }}>
         {!tree ? (
-          <Combobox value="" onChange={(k) => k && setTree(mkItem(k))} options={options} allLabel={strings.pickTarget} width={420} noAll limit={60} />
+          <Combobox value="" onChange={(k) => k && startTree(k)} options={options} allLabel={strings.pickTarget} width={420} noAll limit={60} />
         ) : (
           <>
             <button type="button" className="toggle" data-on="1" onClick={exportPng}>⤓ {strings.savePng}</button>
@@ -239,7 +283,12 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
         )}
       </div>
 
-      {!tree && <div className="empty">{strings.emptyHint}</div>}
+      {!tree && (
+        <div className="sim-grid">
+          <div className="empty">{strings.emptyHint}</div>
+          {basketPanel}
+        </div>
+      )}
 
       {tree && layout && (
         <div className="sim-grid">
@@ -263,7 +312,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
                   {layout.nodes.map((p) => {
                     const i = info(p.n);
                     return (
-                      <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, height: NODE_H }}>
+                      <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}${selected === p.n.id ? ' sel' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, height: NODE_H }} onClick={() => setSelected(p.n.id)}>
                         <div className="sim-node-name" title={`${i.alt}${i.stats ? ` · ${i.stats}` : ''}`}>{i.name}</div>
                         <div className="sim-node-meta">{i.rank != null ? `r${i.rank}` : ''}{i.rank != null && i.family ? ' · ' : ''}{i.family}</div>
                         {editNote === p.n.id ? (
@@ -286,7 +335,9 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
             </div>
           </section>
 
-          <aside className="sim-steps">
+          <aside className="sim-side">
+          {basketPanel}
+          <div className="sim-steps">
             <h3>{strings.stepsTitle}</h3>
             <p className="sim-dim" style={{ marginTop: 0 }}>{strings.stepsHelp}</p>
             <ol>
@@ -298,6 +349,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
               ))}
             </ol>
             {steps.length === 0 && <div className="sim-dim">{strings.expandHint}</div>}
+          </div>
           </aside>
         </div>
       )}

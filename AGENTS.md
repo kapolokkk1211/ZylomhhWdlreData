@@ -23,7 +23,8 @@ content/data/          ← the entire data layer. Edit these, not the components
   glossary.json          71 terms (no page any more; kept as reference data)
 lib/ui.js              ← every interface string, in both languages
 lib/data.js            ← loads the JSON, projects compact rows for the client
-lib/recipe.js          ← recipe-string parser + resolver used by the simulator
+lib/recipe.js          ← recipe-string parser + resolver used by the planner's ⇣ button
+lib/basket.js          ← the shortlist: ids starred on the compound page, consumed on the planner (localStorage)
 app/[lang]/compounds   ← the front page (/, /th, /en all redirect here)
 app/[lang]/materials   ← material index with shop filter
 app/[lang]/simulator   ← the planner: a free-form tree (target on top, ≤20 deep) the player
