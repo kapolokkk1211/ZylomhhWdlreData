@@ -26,7 +26,8 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const [lo, setLo] = useState('');
   const [hi, setHi] = useState('');
   const [verified, setVerified] = useState(false);
-  const [statf, setStatf] = useState([]); // [{stat, op, val}]
+  const [statf, setStatf] = useState({ stat: 'ATK', op: '>', val: '' }); // one stat filter; blank value = off
+  const [sort, setSort] = useState({ key: null, dir: 'desc' }); // key: null | 'rank' | 'stat'
 
   // ?family=Star etc. from the old /star URL redirect. Read once on mount.
   useEffect(() => {
@@ -38,10 +39,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     } catch {}
   }, []);
 
-  const activeStat = useMemo(
-    () => statf.filter((f) => f.stat && f.val !== '' && !Number.isNaN(Number(f.val))),
-    [statf],
-  );
+  const statActive = statf.val !== '' && !Number.isNaN(Number(statf.val));
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
@@ -52,10 +50,10 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
       if (slot && r[5] !== slot) return false;
       if (r[3] < L || r[3] > H) return false;
       if (verified && !TRUSTED.has(r[12])) return false;
-      for (const f of activeStat) {
-        const hit = r[20].find((s) => s[0] === f.stat);
+      if (statActive) {
+        const hit = r[20].find((s) => s[0] === statf.stat);
         if (!hit) return false;
-        if (!cmp[f.op](hit[1], Number(f.val))) return false;
+        if (!cmp[statf.op](hit[1], Number(statf.val))) return false;
       }
       if (term) {
         const hay = `${r[6]} ${r[7]} ${r[8] || ''} ${r[9]} ${r[10] || ''} ${r[11] || ''} ${
@@ -65,12 +63,31 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
       }
       return true;
     });
-  }, [rows, q, fam, slot, lo, hi, verified, activeStat, labels]);
+  }, [rows, q, fam, slot, lo, hi, verified, statActive, statf, labels]);
+
+  // One sort key at a time. Sorted views are flat (no family headings).
+  const sorted = useMemo(() => {
+    if (!sort.key) return filtered;
+    const dir = sort.dir === 'asc' ? 1 : -1;
+    const val = (r) => {
+      if (sort.key === 'rank') return r[3];
+      const hit = r[20].find((s) => s[0] === statf.stat);
+      return hit ? hit[1] : null;
+    };
+    return [...filtered].sort((a, b) => {
+      const va = val(a), vb = val(b);
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1; // rows without the stat go last either way
+      if (vb == null) return -1;
+      return (va - vb) * dir || a[3] - b[3];
+    });
+  }, [filtered, sort, statf.stat]);
 
   const grouped = useMemo(() => {
+    if (sort.key) return sorted.map((r) => ({ row: r }));
     const out = [];
     let current = null;
-    for (const r of filtered) {
+    for (const r of sorted) {
       // Star rows group by rank band (they're one family, 92 deep); others by family.
       const key = r[1] === 'Star' ? `Star:${r[19]}` : r[1];
       if (key !== current) {
@@ -85,10 +102,12 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
       out.push({ row: r });
     }
     return out;
-  }, [filtered, labels, strings]);
+  }, [sorted, sort.key, labels, strings]);
 
-  const anyFilter = q || fam || slot || lo || hi || verified || statf.length;
-  const reset = () => { setQ(''); setFam(''); setSlot(''); setLo(''); setHi(''); setVerified(false); setStatf([]); };
+  const anyFilter = q || fam || slot || lo || hi || verified || statActive || sort.key;
+  const reset = () => { setQ(''); setFam(''); setSlot(''); setLo(''); setHi(''); setVerified(false); setStatf({ stat: 'ATK', op: '>', val: '' }); setSort({ key: null, dir: 'desc' }); };
+  const toggleSort = (key) => setSort((s) => (s.key === key ? { key, dir: s.dir === 'desc' ? 'asc' : 'desc' } : { key, dir: 'desc' }));
+  const arrow = (key) => (sort.key === key ? (sort.dir === 'desc' ? ' ▼' : ' ▲') : '');
 
   const name = (r) => (lang === 'th' ? r[8] || r[6] : r[6]);
   const altName = (r) => {
@@ -99,7 +118,6 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   };
   const recipe = (r) => (lang === 'th' ? r[11] || r[10] : r[10]);
 
-  const setF = (i, patch) => setStatf((a) => a.map((f, j) => (j === i ? { ...f, ...patch } : f)));
 
   return (
     <>
@@ -121,24 +139,31 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
           <input type="number" min="0" max="60" value={hi} onChange={(e) => setHi(e.target.value)} placeholder={strings.rankTo} aria-label={strings.rankTo} />
         </span>
 
-        <div className="statf" role="group" aria-label={strings.statFilter}>
-          {statf.map((f, i) => (
-            <span className="statf-row" key={i}>
-              <select value={f.stat} onChange={(e) => setF(i, { stat: e.target.value })} aria-label={strings.stat}>
-                {options.stats.map((s) => (
-                  <option key={s.key} value={s.key}>{s.key}</option>
-                ))}
-              </select>
-              <select value={f.op} onChange={(e) => setF(i, { op: e.target.value })} aria-label="op">
-                {OPS.map((o) => <option key={o} value={o}>{o === '>=' ? '≥' : o === '<=' ? '≤' : o}</option>)}
-              </select>
-              <input type="number" value={f.val} onChange={(e) => setF(i, { val: e.target.value })} placeholder="0" aria-label={strings.value} />
-              <button type="button" className="rm" aria-label={strings.remove} onClick={() => setStatf((a) => a.filter((_, j) => j !== i))}>×</button>
-            </span>
-          ))}
-          <button type="button" className="statf-add" onClick={() => setStatf((a) => [...a, { stat: 'ATK', op: '>', val: '' }])}>
-            + {strings.statFilter}
-          </button>
+        <span className="statf-row" role="group" aria-label={strings.statFilter}>
+          <select value={statf.stat} onChange={(e) => setStatf((f) => ({ ...f, stat: e.target.value }))} aria-label={strings.stat}>
+            {options.stats.map((st) => (
+              <option key={st.key} value={st.key}>{st.key}</option>
+            ))}
+          </select>
+          <select value={statf.op} onChange={(e) => setStatf((f) => ({ ...f, op: e.target.value }))} aria-label="op">
+            {OPS.map((o) => <option key={o} value={o}>{o === '>=' ? '≥' : o === '<=' ? '≤' : o}</option>)}
+          </select>
+          <input
+            type="number"
+            value={statf.val}
+            onChange={(e) => setStatf((f) => ({ ...f, val: e.target.value }))}
+            placeholder={strings.value}
+            aria-label={strings.value}
+          />
+          {statActive && (
+            <button type="button" className="rm" aria-label={strings.remove} onClick={() => setStatf((f) => ({ ...f, val: '' }))}>×</button>
+          )}
+        </span>
+
+        <div className="seg" role="group" aria-label={strings.sort}>
+          <button type="button" aria-pressed={!sort.key} onClick={() => setSort({ key: null, dir: 'desc' })}>{strings.sortDefault}</button>
+          <button type="button" aria-pressed={sort.key === 'rank'} onClick={() => toggleSort('rank')}>{strings.rank}{arrow('rank')}</button>
+          <button type="button" aria-pressed={sort.key === 'stat'} onClick={() => toggleSort('stat')}>{statf.stat}{arrow('stat')}</button>
         </div>
 
         <label className="toggle" data-on={verified ? '1' : '0'}>
@@ -148,19 +173,19 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
 
         {anyFilter ? <button type="button" className="toggle" onClick={reset}>{strings.reset}</button> : null}
 
-        <span className="count">{fmt(strings.showing, filtered.length, rows.length)}</span>
+        <span className="count">{fmt(strings.showing, sorted.length, rows.length)}</span>
       </div>
 
       <div className="scroll">
         <table>
           <thead>
             <tr>
-              <th style={{ width: 66 }}>{strings.rank}</th>
+              <th style={{ width: 66, cursor: 'pointer' }} onClick={() => toggleSort('rank')} title={strings.sort}>{strings.rank}{arrow('rank')}</th>
               <th style={{ width: 48 }}>{strings.lv}</th>
               <th>{strings.item}</th>
               <th style={{ width: 92 }}>{strings.slot}</th>
               <th style={{ width: 150 }}>{strings.families}</th>
-              <th style={{ width: 160 }}>{strings.stats}</th>
+              <th style={{ width: 160, cursor: 'pointer' }} onClick={() => toggleSort('stat')} title={strings.sort}>{strings.stats}{sort.key === 'stat' ? ` · ${statf.stat}${arrow('stat')}` : ''}</th>
               <th>{strings.recipe}</th>
             </tr>
           </thead>
