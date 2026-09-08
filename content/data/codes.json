@@ -1,0 +1,656 @@
+{
+ "families": [
+  {
+   "key": "Steel",
+   "name": {
+    "en": "Steel",
+    "cn": "鋼",
+    "th": "เหล็กกล้า"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Iron",
+   "name": {
+    "en": "Iron",
+    "cn": "鐵",
+    "th": "เหล็ก"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Copper",
+   "name": {
+    "en": "Copper",
+    "cn": "銅",
+    "th": "ทองแดง"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "PureIron",
+   "name": {
+    "en": "Pure Iron",
+    "cn": "赤鐵",
+    "th": "เหล็กแดง"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Alum",
+   "name": {
+    "en": "Aluminium",
+    "cn": "鋁",
+    "th": "อะลูมิเนียม"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Titan",
+   "name": {
+    "en": "Titanium",
+    "cn": "鈦",
+    "th": "ไทเทเนียม"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Gold",
+   "name": {
+    "en": "Gold",
+    "cn": "金",
+    "th": "ทอง"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Silver",
+   "name": {
+    "en": "Silver",
+    "cn": "銀",
+    "th": "เงิน"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Platinum",
+   "name": {
+    "en": "Platinum",
+    "cn": "白銀",
+    "th": "แพลตินัม"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Tin",
+   "name": {
+    "en": "Tin",
+    "cn": "錫",
+    "th": "ดีบุก"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Lead",
+   "name": {
+    "en": "Lead",
+    "cn": "鉛",
+    "th": "ตะกั่ว"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Rock",
+   "name": {
+    "en": "Rock",
+    "cn": "岩石",
+    "th": "หิน"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Wood",
+   "name": {
+    "en": "Wood",
+    "cn": "木",
+    "th": "ไม้"
+   },
+   "thConfirmed": true,
+   "group": "p",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Grass",
+   "name": {
+    "en": "Grass",
+    "cn": "草",
+    "th": "หญ้า"
+   },
+   "thConfirmed": true,
+   "group": "p",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Flower",
+   "name": {
+    "en": "Flower",
+    "cn": "花",
+    "th": "ดอกไม้"
+   },
+   "thConfirmed": true,
+   "group": "p",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Leaf",
+   "name": {
+    "en": "Leaf",
+    "cn": "葉",
+    "th": "ใบไม้"
+   },
+   "thConfirmed": false,
+   "group": "p",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Nylon",
+   "name": {
+    "en": "Nylon",
+    "cn": "尼龍",
+    "th": "ไนลอน"
+   },
+   "thConfirmed": false,
+   "group": "p",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Leather",
+   "name": {
+    "en": "Leather",
+    "cn": "皮",
+    "th": "หนัง"
+   },
+   "thConfirmed": false,
+   "group": "a",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Fur",
+   "name": {
+    "en": "Fur",
+    "cn": "毛皮",
+    "th": "ขนสัตว์"
+   },
+   "thConfirmed": false,
+   "group": "a",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Feather",
+   "name": {
+    "en": "Feather",
+    "cn": "羽毛",
+    "th": "ขนนก"
+   },
+   "thConfirmed": true,
+   "group": "a",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Bone",
+   "name": {
+    "en": "Beast Bone",
+    "cn": "獸骨",
+    "th": "กระดูกสัตว์"
+   },
+   "thConfirmed": false,
+   "group": "a",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Shell",
+   "name": {
+    "en": "Hard Shell",
+    "cn": "硬殼",
+    "th": "เปลือกแข็ง"
+   },
+   "thConfirmed": false,
+   "group": "a",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Crystal",
+   "name": {
+    "en": "Crystal",
+    "cn": "水晶",
+    "th": "คริสตัล"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Gem",
+   "name": {
+    "en": "Gem",
+    "cn": "寶石",
+    "th": "อัญมณี"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Diamond",
+   "name": {
+    "en": "Diamond",
+    "cn": "鑽石",
+    "th": "เพชร"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Jade",
+   "name": {
+    "en": "Jade",
+    "cn": "玉",
+    "th": "หยก"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "MagicJade",
+   "name": {
+    "en": "Magic Jade",
+    "cn": "魔玉",
+    "th": "หยกเวทมนตร์"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Cluster",
+   "name": {
+    "en": "Crystal Cluster",
+    "cn": "結晶",
+    "th": "ผลึก"
+   },
+   "thConfirmed": false,
+   "group": "g",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Gum",
+   "name": {
+    "en": "Gum",
+    "cn": "膠質",
+    "th": "ยาง"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "complete",
+   "note": null
+  },
+  {
+   "key": "Water",
+   "name": {
+    "en": "Water",
+    "cn": "水",
+    "th": "น้ำ"
+   },
+   "thConfirmed": false,
+   "group": "o",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Coal",
+   "name": {
+    "en": "Coal",
+    "cn": "煤",
+    "th": "ถ่านหิน"
+   },
+   "thConfirmed": false,
+   "group": "m",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Sulfur",
+   "name": {
+    "en": "Sulfur",
+    "cn": "硫磺",
+    "th": "กำมะถัน"
+   },
+   "thConfirmed": false,
+   "group": "m",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Silicon",
+   "name": {
+    "en": "Silicon",
+    "cn": "矽",
+    "th": "ซิลิคอน"
+   },
+   "thConfirmed": false,
+   "group": "m",
+   "coverage": "partial-to-rank-30",
+   "note": null
+  },
+  {
+   "key": "Star",
+   "name": {
+    "en": "Starlight",
+    "cn": "星耀",
+    "th": "ประกายดาว"
+   },
+   "thConfirmed": true,
+   "group": "s",
+   "coverage": "separate",
+   "note": "Re-exclusive family. Not in legacy Wonderland Online. Data lives in the Star Family Codex, not the compendium."
+  }
+ ],
+ "slots": [
+  {
+   "key": "blade",
+   "name": {
+    "en": "Blade",
+    "cn": "刀",
+    "th": "ใบมีด"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "sword",
+   "name": {
+    "en": "Sword",
+    "cn": "劍",
+    "th": "ดาบ"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "claw",
+   "name": {
+    "en": "Claw",
+    "cn": "爪",
+    "th": "กรงเล็บ"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "spear",
+   "name": {
+    "en": "Spear",
+    "cn": "槍",
+    "th": "หอก"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "axe",
+   "name": {
+    "en": "Axe",
+    "cn": "斧",
+    "th": "ขวาน"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "hammer",
+   "name": {
+    "en": "Hammer",
+    "cn": "槌",
+    "th": "ค้อน"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "bow",
+   "name": {
+    "en": "Bow",
+    "cn": "弓",
+    "th": "ธนู"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "staff",
+   "name": {
+    "en": "Staff",
+    "cn": "杖",
+    "th": "ไม้เท้า"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "fan",
+   "name": {
+    "en": "Fan",
+    "cn": "魔",
+    "th": "พัด"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "armor",
+   "name": {
+    "en": "Armor",
+    "cn": "衣",
+    "th": "เสื้อเกราะ"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "helm",
+   "name": {
+    "en": "Helm",
+    "cn": "帽",
+    "th": "หมวก"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "boots",
+   "name": {
+    "en": "Boots",
+    "cn": "鞋",
+    "th": "รองเท้า"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "bracer",
+   "name": {
+    "en": "Bracer",
+    "cn": "腕",
+    "th": "ที่ปกป้องมือ"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "accessory",
+   "name": {
+    "en": "Accessory",
+    "cn": "特",
+    "th": "อุปกรณ์พิเศษ"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "material",
+   "name": {
+    "en": "Material",
+    "cn": "物",
+    "th": "วัตถุดิบ"
+   },
+   "thConfirmed": true
+  }
+ ],
+ "stats": [
+  {
+   "key": "ATK",
+   "name": {
+    "en": "ATK",
+    "cn": "攻擊力",
+    "th": "พลังโจมตี"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "DEF",
+   "name": {
+    "en": "DEF",
+    "cn": "防禦力",
+    "th": "พลังป้องกัน"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "MATK",
+   "name": {
+    "en": "MATK",
+    "cn": "魔攻",
+    "th": "พลังโจมตีเวท"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "MDEF",
+   "name": {
+    "en": "MDEF",
+    "cn": "魔防",
+    "th": "พลังป้องกันเวท"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "SPD",
+   "name": {
+    "en": "SPD",
+    "cn": "速度",
+    "th": "ความเร็ว"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "HP",
+   "name": {
+    "en": "HP",
+    "cn": "生命",
+    "th": "พลังชีวิต"
+   },
+   "thConfirmed": false
+  },
+  {
+   "key": "SP",
+   "name": {
+    "en": "SP",
+    "cn": "魔力",
+    "th": "พลังเวท"
+   },
+   "thConfirmed": false
+  }
+ ],
+ "confidence": [
+  {
+   "key": "RE-verified",
+   "name": {
+    "en": "Verified in Re",
+    "th": "ยืนยันแล้วใน Re"
+   },
+   "desc": "Confirmed by a source about Re: Star Ark itself"
+  },
+  {
+   "key": "RE-reported",
+   "name": {
+    "en": "Reported",
+    "th": "มีรายงาน"
+   },
+   "desc": "From the Re community sheet or TW guide sites — likely right, not personally verified"
+  },
+  {
+   "key": "LEGACY",
+   "name": {
+    "en": "Legacy WLO",
+    "th": "ข้อมูลเกมเก่า"
+   },
+   "desc": "From Wonderland Online 2004. Same engine, but numbers may be re-tuned"
+  },
+  {
+   "key": "INFER",
+   "name": {
+    "en": "Inferred",
+    "th": "คาดการณ์"
+   },
+   "desc": "Cross-referenced inference, not directly sourced"
+  },
+  {
+   "key": "KK-tested",
+   "name": {
+    "en": "Tested in-game",
+    "th": "ทดสอบเองในเกม"
+   },
+   "desc": "KK confirmed it in the live Thai client. Highest confidence"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+[
+ {
+  "key": "kelan",
+  "name": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "thStatus": "unverified",
+  "note": "Starting continent — status on the TH map not confirmed"
+ },
+ {
+  "key": "welling",
+  "name": {
+   "en": "Welling Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวลลิง"
+  },
+  "thStatus": "unverified",
+  "note": null
+ },
+ {
+  "key": "holy",
+  "name": {
+   "en": "Holy Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านโฮลี"
+  },
+  "thStatus": "unverified",
+  "note": null
+ },
+ {
+  "key": "australia",
+  "name": {
+   "en": "Australia (Oslya)",
+   "cn": "澳洲",
+   "th": "ออสเตรเลีย"
+  },
+  "thStatus": "open",
+  "note": "Lv 65 gate"
+ },
+ {
+  "key": "easter-island",
+  "name": {
+   "en": "Easter Island",
+   "cn": "復活島",
+   "th": "เกาะอีสเตอร์"
+  },
+  "thStatus": "open",
+  "note": "No level gate"
+ },
+ {
+  "key": "india",
+  "name": {
+   "en": "India (Calcutta)",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "thStatus": "open",
+  "note": "Lv 105 gate"
+ },
+ {
+  "key": "antarctica",
+  "name": {
+   "en": "Antarctica",
+   "cn": "南極",
+   "th": "แอนตาร์กติกา"
+  },
+  "thStatus": "open",
+  "note": "Lv 85 gate"
+ },
+ {
+  "key": "maya",
+  "name": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "inca",
+  "name": {
+   "en": "Inca",
+   "cn": "印加",
+   "th": "อินคา"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "athens",
+  "name": {
+   "en": "Athens",
+   "cn": "雅典",
+   "th": "เอเธนส์"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "china",
+  "name": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "thStatus": "closed",
+  "note": "Legacy transcriptions call this shop \"Fishing Village\""
+ },
+ {
+  "key": "changan",
+  "name": {
+   "en": "Chang'an",
+   "cn": "長安",
+   "th": "ฉางอาน"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "japan",
+  "name": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "thStatus": "closed",
+  "note": "Legacy transcriptions call this shop \"Kyoto\""
+ },
+ {
+  "key": "korea",
+  "name": {
+   "en": "Korea",
+   "cn": "朝鮮",
+   "th": "เกาหลี"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "egypt",
+  "name": {
+   "en": "Egypt",
+   "cn": "埃及",
+   "th": "อียิปต์"
+  },
+  "thStatus": "closed",
+  "note": "The rank-18 town. Legacy transcriptions call it \"Cairo\""
+ },
+ {
+  "key": "bangkok",
+  "name": {
+   "en": "Bangkok",
+   "cn": "曼谷",
+   "th": "กรุงเทพฯ"
+  },
+  "thStatus": "closed",
+  "note": null
+ },
+ {
+  "key": "whale-island",
+  "name": {
+   "en": "Whale Island",
+   "cn": "巨鯨島",
+   "th": "เกาะวาฬยักษ์"
+  },
+  "thStatus": "closed",
+  "note": "Also the source of the elemental Star Dust drops"
+ },
+ {
+  "key": "rome",
+  "name": {
+   "en": "Rome",
+   "cn": "羅馬",
+   "th": "โรม"
+  },
+  "thStatus": "unverified",
+  "note": "Legacy attribution only"
+ },
+ {
+  "key": "persia",
+  "name": {
+   "en": "Persia",
+   "cn": "波斯",
+   "th": "เปอร์เซีย"
+  },
+  "thStatus": "unverified",
+  "note": "Legacy attribution only"
+ },
+ {
+  "key": "universal-isle",
+  "name": {
+   "en": "Universal Isle",
+   "cn": "宇宙島",
+   "th": "เกาะจักรวาล"
+  },
+  "thStatus": "unverified",
+  "note": "Legacy attribution only"
+ },
+ {
+  "key": "yamataikoku",
+  "name": {
+   "en": "Yamataikoku",
+   "cn": "邪馬台國",
+   "th": "ยามาไทโคขุ"
+  },
+  "thStatus": "unverified",
+  "note": "Legacy attribution only"
+ },
+ {
+  "key": "hawaii",
+  "name": {
+   "en": "Hawaii",
+   "cn": "夏威夷",
+   "th": "ฮาวาย"
+  },
+  "thStatus": "not-in-re",
+  "note": "⚠️ The Re sheet has NO Hawaii shop. Every rank-18 refined material in Re comes from 高級煉金卷(RE版) / \"8-12購買\" instead. Legacy Hawaii rows are kept only as a legacy note."
+ }
+]

@@ -1,0 +1,722 @@
+{
+ "system": [
+  {
+   "name": {
+    "en": "Compounding",
+    "cn": "合成",
+    "th": "การรวม"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "The probabilistic alchemy pot"
+  },
+  {
+   "name": {
+    "en": "Alchemy",
+    "cn": "煉金術",
+    "th": "วิชาเล่นแร่"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "The skill"
+  },
+  {
+   "name": {
+    "en": "Primary Alchemy",
+    "cn": "初階煉金術",
+    "th": "วิชาเล่นแร่ขั้นต้น"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Tier 1. Max climb +4. Cheapest — use it to convert materials"
+  },
+  {
+   "name": {
+    "en": "Junior Alchemy",
+    "cn": "中階煉金術",
+    "th": "วิชาเล่นแร่ขั้นกลาง"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-OFFICIAL",
+   "note": "Tier 2. Max climb +4"
+  },
+  {
+   "name": {
+    "en": "Superior Alchemy",
+    "cn": "高階煉金術",
+    "th": "วิชาเล่นแร่ขั้นสูง"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Tier 3. Max climb +5. Save it for the final climb"
+  },
+  {
+   "name": {
+    "en": "Alchemy Encyclopedia Vol. 1–4",
+    "cn": "煉金百科 書1–書4",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Goes LAST in the recipe. +1…+4 rank and success rate. The expensive part of any recipe"
+  },
+  {
+   "name": {
+    "en": "Item rank",
+    "cn": "物等",
+    "th": "เลเวลไอเทม"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-OFFICIAL",
+   "note": "= equip level ÷ 2. CONFIRMED in the live Thai client — read it straight off any tooltip"
+  },
+  {
+   "name": {
+    "en": "Base material family",
+    "cn": "物屬",
+    "th": "วัสดุโครงสร้าง"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-OFFICIAL",
+   "note": "Which material family an item belongs to. Shown on the item tooltip"
+  },
+  {
+   "name": {
+    "en": "Primary material",
+    "cn": "主屬",
+    "th": "[หลัก]"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": "Slot 1. Picks the result TABLE. Order matters"
+  },
+  {
+   "name": {
+    "en": "Secondary material",
+    "cn": "內屬",
+    "th": "[รอง]"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": "Slots 2+. Picks the sub-line"
+  },
+  {
+   "name": {
+    "en": "Rank climbing",
+    "cn": "爬等",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Washing materials",
+    "cn": "洗材料",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Converting one family into another at low rank"
+  },
+  {
+   "name": {
+    "en": "Smart Decomposition Station",
+    "cn": "喵型智能分解站",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Cat-shaped. Identifies an unknown item's family; down-converts gear; source of the elemental Star Dust"
+  },
+  {
+   "name": {
+    "en": "Blessing Dust",
+    "cn": "祝福粉塵",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Raises compound success rate. Abyss content, Lv50+"
+  },
+  {
+   "name": {
+    "en": "Forging",
+    "cn": "鍛造",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Cap raised 50 → 80 in Re"
+  },
+  {
+   "name": {
+    "en": "Enchanting",
+    "cn": "附魔",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Cap raised 15 → 30 in Re"
+  },
+  {
+   "name": {
+    "en": "Workbench",
+    "cn": "工作臺",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Deterministic manufacture — not the compounding pot"
+  },
+  {
+   "name": {
+    "en": "Combo attack",
+    "cn": "合擊",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "2–2.5× EXP. The leveling engine"
+  },
+  {
+   "name": {
+    "en": "Companion",
+    "cn": "夥伴",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Friendship",
+    "cn": "友好度",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Starts 60, +1/level, −1/death, leaves below 40"
+  },
+  {
+   "name": {
+    "en": "Drone",
+    "cn": "無人機",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Auto-gathers every 5 min, offline"
+  },
+  {
+   "name": {
+    "en": "Vacuum",
+    "cn": "吸塵器",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Auto-harvests gathering nodes"
+  },
+  {
+   "name": {
+    "en": "Scroll of Forgetting",
+    "cn": "遺忘卷軸",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Stat/skill respec"
+  },
+  {
+   "name": {
+    "en": "Stars",
+    "cn": "星星",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Account-capped currency"
+  },
+  {
+   "name": {
+    "en": "Exchange",
+    "cn": "交易所",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Cross-server marketplace"
+  },
+  {
+   "name": {
+    "en": "Job change",
+    "cn": "轉職",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Lv100"
+  },
+  {
+   "name": {
+    "en": "Rebirth",
+    "cn": "轉生",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "For COMPANIONS in this game, Lv100"
+  }
+ ],
+ "ui": [
+  {
+   "name": {
+    "en": "Level Limit",
+    "cn": null,
+    "th": "ลิมิตเลเวล"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": "The character level needed to equip. NOT the compounding rank"
+  },
+  {
+   "name": {
+    "en": "Type",
+    "cn": null,
+    "th": "ประเภท"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Durability",
+    "cn": null,
+    "th": "ความทนทาน"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Craftable / Socketable",
+    "cn": null,
+    "th": "ได้คราฟ / ฝังประดับ"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Start compounding",
+    "cn": null,
+    "th": "เริ่มรวม"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Continuous compounding",
+    "cn": null,
+    "th": "ติ๊กเลือกรวมต่อเนื่อง"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Custom filter",
+    "cn": null,
+    "th": "ตัวกรองกำหนดเอง"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Raw materials first",
+    "cn": null,
+    "th": "วัตถุดิบก่อน"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": "Sort option"
+  },
+  {
+   "name": {
+    "en": "Recipe log",
+    "cn": null,
+    "th": "บันทึก"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Possible output ranks",
+    "cn": null,
+    "th": "Lv ไอเทมที่มีโอกาสรวมได้"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": "⭐ The pot shows the possible output rank range BEFORE you commit. Read it, adjust, then compound"
+  },
+  {
+   "name": {
+    "en": "Guild Craftsman",
+    "cn": null,
+    "th": "ช่างฝีมือกิลด์"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Guild Alchemist",
+    "cn": null,
+    "th": "นักเล่นแร่กิลด์"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Star Light Dust (item type)",
+    "cn": null,
+    "th": "ฝุ่นแสงดาว"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Hand protector (bracer slot)",
+    "cn": null,
+    "th": "ที่ปกป้องมือ"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Protective gloves (glove slot)",
+    "cn": null,
+    "th": "ถุงมือป้องกัน"
+   },
+   "thConfirmed": true,
+   "enTag": "EN-LIT",
+   "note": null
+  }
+ ],
+ "stats": [
+  {
+   "name": {
+    "en": "Strength",
+    "cn": "力量 STR",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Constitution",
+    "cn": "體質 CON",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Intelligence",
+    "cn": "智力 INT",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Wisdom",
+    "cn": "智慧 WIS",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Agility",
+    "cn": "敏捷 AGI",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Crit rate",
+    "cn": "暴擊率",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "New in Re, undocumented"
+  },
+  {
+   "name": {
+    "en": "Fire",
+    "cn": "火",
+    "th": "ไฟ"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "lv×2.0 ATK growth (everyone else 1.4) but takes ×0.5 from water"
+  },
+  {
+   "name": {
+    "en": "Water",
+    "cn": "水",
+    "th": "น้ำ"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Water→Fire is ×1.6 — the hardest counter in the game"
+  },
+  {
+   "name": {
+    "en": "Wind",
+    "cn": "風",
+    "th": "ลม"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Earth",
+    "cn": "地",
+    "th": "ดิน"
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Non-elemental",
+    "cn": "無屬性",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Ignores the element cycle"
+  }
+ ],
+ "jobs": [
+  {
+   "name": {
+    "en": "Killer",
+    "cn": "殺手",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "a.k.a. Assassin"
+  },
+  {
+   "name": {
+    "en": "Samurai",
+    "cn": "武士",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Knight",
+    "cn": "騎士",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Wit",
+    "cn": "智者",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "a.k.a. Sage/Wizard"
+  },
+  {
+   "name": {
+    "en": "Priest",
+    "cn": "牧師",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Seer",
+    "cn": "先知",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Seal",
+    "cn": "封印",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Status effect"
+  },
+  {
+   "name": {
+    "en": "Stone Wall",
+    "cn": "土牆",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Blocks physical attacks"
+  },
+  {
+   "name": {
+    "en": "\"Kai\" skill tier",
+    "cn": "改",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Bigger single-target multiplier"
+  },
+  {
+   "name": {
+    "en": "\"Shin/True\" skill tier",
+    "cn": "真",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-LIT",
+   "note": "Converts to AoE + DEF penetration"
+  }
+ ],
+ "catalysts": [
+  {
+   "name": {
+    "en": "Black Jade",
+    "cn": "黑玉",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Iceberg Ice Cave 3F"
+  },
+  {
+   "name": {
+    "en": "Wolf Fang",
+    "cn": "狼牙",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Snow Wolves, Antarctica. The most-used catalyst in the book"
+  },
+  {
+   "name": {
+    "en": "Flawless Sapphire",
+    "cn": "無暇藍寶石",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Flawless Ruby",
+    "cn": "無暇紅寶石",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "High-density Diamond",
+    "cn": "高密度鑽石",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Magic Jade Stone",
+    "cn": "魔玉石",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "Rank 21, Crystal Furnace"
+  },
+  {
+   "name": {
+    "en": "Dragon Scale Marrow",
+    "cn": "龍鱗魔髓",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": null
+  },
+  {
+   "name": {
+    "en": "Steamed Bun",
+    "cn": "饅頭",
+    "th": null
+   },
+   "thConfirmed": false,
+   "enTag": "EN-OFFICIAL",
+   "note": "+50 HP. The 99.9% workbench food conversion"
+  }
+ ]
+}
