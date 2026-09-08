@@ -1,3 +1,4 @@
 {
+  "framework": "nextjs",
   "redirects": [{ "source": "/", "destination": "/th", "permanent": false }]
 }
