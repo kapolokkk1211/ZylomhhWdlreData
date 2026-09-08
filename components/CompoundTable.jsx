@@ -204,12 +204,12 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                 </tr>
               ) : (
                 <tr key={g.row[0]}>
-                  <td><span className="rank">{g.row[3]}</span></td>
-                  <td>
+                  <td className="c-rank"><span className="rank">{g.row[3]}</span></td>
+                  <td className="c-lv" data-l={strings.lv}>
                     <span className="lv">{g.row[4] || '—'}</span>
                     {g.row[16] === 1 && <span className="warn-mark" title={strings.lvWarning}> !</span>}
                   </td>
-                  <td>
+                  <td className="c-name">
                     <span className="nm">
                       {name(g.row)}
                       <span
@@ -228,13 +228,13 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     )}
                     {g.row[15] === 1 && <span className="badge b-infer" style={{ marginLeft: 5 }}>{strings.random}</span>}
                   </td>
-                  <td><span className="slot-pill">{labels.slot[g.row[5]]?.label}</span></td>
-                  <td className="fm">
+                  <td className="c-slot"><span className="slot-pill">{labels.slot[g.row[5]]?.label}</span></td>
+                  <td className="fm c-fam" data-l={strings.families}>
                     <b>{labels.family[g.row[1]]?.label}</b>
                     {g.row[2].length > 0 && ' · ' + g.row[2].map((f) => labels.family[f]?.label || f).join(' · ')}
                   </td>
-                  <td className="st">{g.row[9]}</td>
-                  <td className="rc">
+                  <td className="st c-st" data-l={strings.stats}>{g.row[9]}</td>
+                  <td className="rc c-rc" data-l={strings.recipe}>
                     {recipe(g.row) || '—'}
                     {g.row[17] && <div style={{ marginTop: 4, opacity: 0.75 }}>{g.row[17]}</div>}
                   </td>

@@ -6,8 +6,9 @@ import { buildIndex, parseRecipe, resolve } from '@/lib/recipe';
 /* compact row indices: 0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw */
 
 const MAX_DEPTH = 20;
-const NODE_W = 200, NODE_H = 124, GAP_X = 18, GAP_Y = 40; // on-screen slot
-const BOX_H = 84; // drawn box height in the PNG
+const NODE_W = 176, NODE_H = 96, GAP_X = 16, GAP_Y = 44; // on-screen slot
+const BOX_H = 60; // drawn box height in the PNG
+const ZMIN = 0.3, ZMAX = 2.5;
 const STORE = 'stardrift.plan.v1';
 
 let seq = 1;
@@ -20,7 +21,9 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
   const [adding, setAdding] = useState(null); // node id currently getting a child
   const [addText, setAddText] = useState('');
   const [hydrated, setHydrated] = useState(false);
-  const canvasRef = useRef(null);
+  const [zoom, setZoom] = useState(1);
+  const [editNote, setEditNote] = useState(null);
+  const viewRef = useRef(null);
 
   // restore
   useEffect(() => {
@@ -36,6 +39,31 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     if (!hydrated) return;
     try { tree ? localStorage.setItem(STORE, JSON.stringify(tree)) : localStorage.removeItem(STORE); } catch {}
   }, [tree, hydrated]);
+
+  // Wheel = zoom around the cursor. Non-passive so we can stop the page from scrolling.
+  useEffect(() => {
+    const el = viewRef.current;
+    if (!el) return;
+    const onWheel = (e) => {
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const mx = e.clientX - rect.left + el.scrollLeft, my = e.clientY - rect.top + el.scrollTop;
+      setZoom((z) => {
+        const nz = Math.min(ZMAX, Math.max(ZMIN, z * (e.deltaY < 0 ? 1.1 : 1 / 1.1)));
+        const k = nz / z;
+        requestAnimationFrame(() => { el.scrollLeft = mx * k - (e.clientX - rect.left); el.scrollTop = my * k - (e.clientY - rect.top); });
+        return nz;
+      });
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, [tree]);
+
+  const fitZoom = () => {
+    const el = viewRef.current; if (!el || !layout) return;
+    const z = Math.min(ZMAX, Math.max(ZMIN, Math.min((el.clientWidth - 40) / layout.w, (el.clientHeight - 40) / layout.h)));
+    setZoom(z); el.scrollLeft = 0; el.scrollTop = 0;
+  };
 
   const options = useMemo(
     () =>
@@ -169,10 +197,9 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
       const i = info(p.n); const x = pad + p.x, y = oy + pad + p.y * 0.8;
       c.fillStyle = '#ffffff'; c.strokeStyle = p.depth === 0 ? '#1f7a43' : '#c9dfcf'; c.lineWidth = p.depth === 0 ? 2 : 1;
       rr(c, x, y, NODE_W, BOX_H, 9); c.fill(); c.stroke();
-      c.fillStyle = '#12231a'; c.font = `600 13px ${F}`; ellipsis(c, i.name, x + 10, y + 20, NODE_W - 20);
-      c.fillStyle = '#3a5243'; c.font = `11px ${M}`; ellipsis(c, `${i.rank != null ? `r${i.rank} · ` : ''}${i.alt || i.family || ''}`, x + 10, y + 37, NODE_W - 20);
-      c.fillStyle = '#1f7a43'; c.font = `11px ${M}`; ellipsis(c, i.stats || '', x + 10, y + 53, NODE_W - 20);
-      if (p.n.note) { c.fillStyle = '#a8461f'; c.font = `italic 11px ${F}`; ellipsis(c, p.n.note, x + 10, y + 69, NODE_W - 20); }
+      c.fillStyle = '#12231a'; c.font = `600 13px ${F}`; ellipsis(c, i.name, x + 10, y + 21, NODE_W - 20);
+      c.fillStyle = '#3a5243'; c.font = `11px ${M}`; ellipsis(c, `${i.rank != null ? `r${i.rank}` : ''}${i.rank != null && i.family ? ' · ' : ''}${i.family || ''}`, x + 10, y + 38, NODE_W - 20);
+      if (p.n.note) { c.fillStyle = '#a8461f'; c.font = `italic 11px ${F}`; ellipsis(c, p.n.note, x + 10, y + 53, NODE_W - 20); }
     });
     // steps
     let sy = oy + pad + treeH + 34;
@@ -216,31 +243,46 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
 
       {tree && layout && (
         <div className="sim-grid">
-          <section className="sim-canvas-wrap">
-            <div className="sim-canvas" style={{ width: layout.w, height: layout.h }}>
-              <svg className="sim-edges" width={layout.w} height={layout.h} aria-hidden>
-                {layout.edges.map(([a, b], i) => {
-                  const x1 = a.x + NODE_W / 2, y1 = a.y + NODE_H, x2 = b.x + NODE_W / 2, y2 = b.y;
-                  return <path key={i} d={`M${x1},${y1} C${x1},${y1 + GAP_Y / 2} ${x2},${y2 - GAP_Y / 2} ${x2},${y2}`} />;
-                })}
-              </svg>
-              {layout.nodes.map((p) => {
-                const i = info(p.n);
-                return (
-                  <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, minHeight: NODE_H }}>
-                    <div className="sim-node-name" title={i.alt}>{i.name}</div>
-                    <div className="sim-node-meta">{i.rank != null ? `r${i.rank} · ` : ''}{i.alt || i.family}</div>
-                    {i.stats && <div className="sim-node-stats">{i.stats}</div>}
-                    <input className="sim-node-note" value={p.n.note} placeholder={strings.notePh} onChange={(e) => update(p.n.id, (x) => ({ ...x, note: e.target.value }))} />
-                    <div className="sim-node-actions">
-                      <button type="button" title={strings.addChild} onClick={() => { setAdding(adding === p.n.id ? null : p.n.id); setAddText(''); }} disabled={p.depth >= MAX_DEPTH - 1}>＋</button>
-                      {i.kind === 'item' && <button type="button" title={strings.loadRecipe} onClick={() => loadRecipe(p.n)}>⇣</button>}
-                      <button type="button" title={strings.remove} onClick={() => remove(p.n.id)}>✕</button>
-                    </div>
-                    {adding === p.n.id && renderAdd(p.n)}
-                  </div>
-                );
-              })}
+          <section className="sim-view-wrap">
+            <div className="sim-zoom">
+              <button type="button" onClick={() => setZoom((z) => Math.max(ZMIN, z / 1.2))} aria-label="−">−</button>
+              <button type="button" onClick={() => setZoom(1)}>{Math.round(zoom * 100)}%</button>
+              <button type="button" onClick={() => setZoom((z) => Math.min(ZMAX, z * 1.2))} aria-label="+">+</button>
+              <button type="button" onClick={fitZoom}>{strings.fit}</button>
+              <span className="sim-dim">{strings.zoomHint}</span>
+            </div>
+            <div className="sim-view" ref={viewRef}>
+              <div style={{ width: layout.w * zoom + 48, height: layout.h * zoom + 48 }}>
+                <div className="sim-canvas" style={{ width: layout.w, height: layout.h, transform: `scale(${zoom})`, transformOrigin: '0 0', margin: 24 }}>
+                  <svg className="sim-edges" width={layout.w} height={layout.h} aria-hidden>
+                    {layout.edges.map(([a, b], i) => {
+                      const x1 = a.x + NODE_W / 2, y1 = a.y + NODE_H, x2 = b.x + NODE_W / 2, y2 = b.y;
+                      return <path key={i} d={`M${x1},${y1} C${x1},${y1 + GAP_Y / 2} ${x2},${y2 - GAP_Y / 2} ${x2},${y2}`} />;
+                    })}
+                  </svg>
+                  {layout.nodes.map((p) => {
+                    const i = info(p.n);
+                    return (
+                      <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, height: NODE_H }}>
+                        <div className="sim-node-name" title={`${i.alt}${i.stats ? ` · ${i.stats}` : ''}`}>{i.name}</div>
+                        <div className="sim-node-meta">{i.rank != null ? `r${i.rank}` : ''}{i.rank != null && i.family ? ' · ' : ''}{i.family}</div>
+                        {editNote === p.n.id ? (
+                          <input className="sim-node-note" autoFocus value={p.n.note} placeholder={strings.notePh} onChange={(e) => update(p.n.id, (x) => ({ ...x, note: e.target.value }))} onBlur={() => setEditNote(null)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === 'Escape') setEditNote(null); }} />
+                        ) : (
+                          p.n.note ? <div className="sim-node-notetext" onClick={() => setEditNote(p.n.id)}>{p.n.note}</div> : null
+                        )}
+                        <div className="sim-node-actions">
+                          <button type="button" title={strings.addChild} onClick={() => { setAdding(adding === p.n.id ? null : p.n.id); setAddText(''); }} disabled={p.depth >= MAX_DEPTH - 1}>＋</button>
+                          {i.kind === 'item' && <button type="button" title={strings.loadRecipe} onClick={() => loadRecipe(p.n)}>⇣</button>}
+                          <button type="button" title={strings.notePh} onClick={() => setEditNote(editNote === p.n.id ? null : p.n.id)}>✎</button>
+                          <button type="button" title={strings.remove} onClick={() => remove(p.n.id)}>✕</button>
+                        </div>
+                        {adding === p.n.id && renderAdd(p.n)}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           </section>
 
@@ -259,7 +301,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
           </aside>
         </div>
       )}
-      <canvas ref={canvasRef} hidden />
+
     </>
   );
 }

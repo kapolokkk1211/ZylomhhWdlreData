@@ -22,6 +22,13 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="stylesheet" href={FONTS} />
+        {/* Set the view mode before first paint so a forced mobile/desktop choice doesn't flash. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var m=localStorage.getItem('stardrift.view')||'auto';var w=Math.min(window.innerWidth,(window.screen&&window.screen.width)||1e9);var v=(m==='mobile'||(m!=='desktop'&&w<=720))?'mobile':'desktop';document.documentElement.setAttribute('data-view',v);document.documentElement.setAttribute('data-view-mode',m);}catch(e){}})();",
+          }}
+        />
       </head>
       <body>{children}</body>
     </html>

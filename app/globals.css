@@ -414,6 +414,8 @@ tbody tr.group:hover td { background: var(--surface-3); }
 .gl-section { margin-bottom: 34px; }
 .gl-table { min-width: 640px; }
 
+.t-materials { min-width: 760px; }
+
 /* ---------- source chips (materials) ---------- */
 .src { display: flex; flex-direction: column; gap: 5px; }
 .src-item { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; font-size: 12.5px; }
@@ -442,14 +444,6 @@ footer.site {
   color: var(--ink-faint);
 }
 footer.site p { margin: 0 0 6px; max-width: 80ch; }
-
-@media (max-width: 720px) {
-  nav.main { order: 3; flex-basis: 100%; }
-  .site-head .wrap { gap: 10px; justify-content: space-between; }
-  .controls { position: static; }
-  .site-head { position: static; }
-  .trust-row { grid-template-columns: 1fr; gap: 2px; }
-}
 
 /* ---------- combobox ---------- */
 .cbx { position: relative; display: inline-block; max-width: 100%; }
@@ -558,19 +552,24 @@ footer.site p { margin: 0 0 6px; max-width: 80ch; }
 .sim-steps ol { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 10px; }
 .sim-step-parts { font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); }
 .sim-step-arrow { font-size: 13.5px; }
-@media (max-width: 900px) { .sim-grid { grid-template-columns: 1fr; } .sim-steps { position: static; } }
 
 /* ---------- planner tree ---------- */
-.sim-canvas-wrap { overflow: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); padding: 24px; min-width: 0; }
+.sim-view-wrap { min-width: 0; }
+.sim-zoom { display: flex; gap: 6px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
+.sim-zoom button { border: 1px solid var(--line); background: var(--surface); border-radius: 7px; padding: 5px 10px; cursor: pointer; font-family: var(--font-mono); font-size: 12px; color: var(--ink); }
+.sim-zoom button:hover { border-color: var(--star); color: var(--star); }
+.sim-view { height: 600px; overflow: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); background-image: radial-gradient(var(--line-soft) 1px, transparent 1px); background-size: 20px 20px; }
 .sim-canvas { position: relative; }
 .sim-edges { position: absolute; inset: 0; pointer-events: none; }
 .sim-edges path { fill: none; stroke: #8fb59c; stroke-width: 1.5; }
-.sim-node { position: absolute; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 8px 10px 6px; box-sizing: border-box; font-size: 13px; box-shadow: 0 1px 2px rgba(18,35,26,.06); }
+.sim-node { position: absolute; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 8px 10px 6px; box-sizing: border-box; font-size: 14px; box-shadow: 0 1px 2px rgba(18,35,26,.06); display: flex; flex-direction: column; }
+.sim-node-actions { margin-top: auto; }
+.sim-node-notetext { font: italic 11px var(--font-thai), var(--font-body); color: var(--warn); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: text; }
 .sim-node.root { border-color: var(--star); border-width: 2px; }
 .sim-node.k-mat { background: #f3faf5; }
 .sim-node.k-text { background: #fff9ef; border-style: dashed; }
 .sim-node-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sim-node-meta { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-node-meta { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sim-node-stats { font-family: var(--font-mono); font-size: 10.5px; color: var(--star); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sim-node-note { width: 100%; border: 0; border-bottom: 1px dashed var(--line); background: transparent; font: italic 11px var(--font-thai), var(--font-body); color: var(--warn); padding: 2px 0; margin-top: 2px; }
 .sim-node-note:focus { outline: none; border-bottom-color: var(--star); }
@@ -586,3 +585,84 @@ footer.site p { margin: 0 0 6px; max-width: 80ch; }
 .line-mat-drop { background: var(--warn-bg); color: var(--warn); }
 .line-mat-gather { background: var(--good-bg); color: var(--good); }
 .line-mat-scroll { background: var(--star-bg); color: var(--star); }
+
+/* ======================================================================
+   MOBILE LAYOUT — keyed off html[data-view="mobile"], which is set either
+   automatically (≤720px) or by the header toggle. One set of rules for both.
+   ====================================================================== */
+.view-toggle { font-family: var(--font-mono); font-size: 12px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink-soft); cursor: pointer; white-space: nowrap; }
+.view-toggle:hover { border-color: var(--star); color: var(--star); }
+
+html[data-view="mobile"] body { font-size: 15px; }
+html[data-view="mobile"] .wrap { padding: 0 12px; }
+html[data-view="mobile"] .page { padding-top: 16px; padding-bottom: 56px; }
+html[data-view="mobile"] h1 { font-size: 26px; }
+html[data-view="mobile"] .lede { font-size: 14.5px; }
+html[data-view="mobile"] .page-head { padding-bottom: 12px; }
+html[data-view="mobile"] .note { font-size: 13px; padding: 10px 12px; }
+
+/* header: brand + toggles on row 1, nav scrolls horizontally on row 2 */
+html[data-view="mobile"] .site-head { position: static; }
+html[data-view="mobile"] .site-head .wrap { gap: 8px; justify-content: space-between; }
+html[data-view="mobile"] nav.main { order: 3; flex-basis: 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin: 0 -12px; padding: 0 12px 4px; }
+html[data-view="mobile"] nav.main::-webkit-scrollbar { display: none; }
+html[data-view="mobile"] nav.main a { font-size: 13.5px; padding: 6px 10px; }
+
+/* controls stack */
+html[data-view="mobile"] .controls { position: static; gap: 7px; padding: 8px 0; }
+html[data-view="mobile"] .controls input[type='search'] { flex-basis: 100%; min-width: 0; }
+html[data-view="mobile"] .controls .cbx { flex: 1 1 45%; width: auto !important; min-width: 0; }
+html[data-view="mobile"] .controls .rng { flex-basis: 100%; }
+html[data-view="mobile"] .controls .rng input { flex: 1; width: auto; }
+html[data-view="mobile"] .controls .statf-row { flex-basis: 100%; }
+html[data-view="mobile"] .controls .statf-row input[type='number'] { flex: 1; width: auto; }
+html[data-view="mobile"] .controls .seg { flex-basis: 100%; }
+html[data-view="mobile"] .controls .seg button { flex: 1; padding: 9px 6px; text-align: center; }
+html[data-view="mobile"] .controls .toggle { flex: 1 1 45%; justify-content: center; }
+html[data-view="mobile"] .controls .count { flex-basis: 100%; margin-left: 0; text-align: right; }
+html[data-view="mobile"] .legend { gap: 8px 12px; font-size: 12px; }
+
+/* tables → cards */
+html[data-view="mobile"] .scroll { overflow: visible; border: 0; background: transparent; box-shadow: none; border-radius: 0; }
+html[data-view="mobile"] table { min-width: 0 !important; display: block; }
+html[data-view="mobile"] thead { display: none; }
+html[data-view="mobile"] tbody { display: block; }
+html[data-view="mobile"] tbody tr { display: grid; grid-template-columns: 52px 1fr; gap: 2px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin: 8px 0; box-shadow: 0 1px 2px rgba(18,35,26,.05); }
+html[data-view="mobile"] tbody tr:hover { background: var(--surface); }
+html[data-view="mobile"] tbody tr.group { display: block; background: transparent; border: 0; box-shadow: none; padding: 14px 2px 2px; margin: 6px 0 0; }
+html[data-view="mobile"] tbody tr.group td { background: transparent; padding: 0; border: 0; font-size: 15px; color: var(--star); }
+html[data-view="mobile"] td { display: block; padding: 0; border: 0; }
+html[data-view="mobile"] td.c-rank { grid-row: 1 / span 2; align-self: start; }
+html[data-view="mobile"] td.c-rank .rank { font-size: 22px; line-height: 1.1; display: block; }
+html[data-view="mobile"] td.c-lv { grid-column: 1; grid-row: 3; font-size: 11px; }
+html[data-view="mobile"] td.c-lv::before { content: attr(data-l) ' '; color: var(--ink-faint); font-family: var(--font-mono); font-size: 10px; }
+html[data-view="mobile"] td.c-name { grid-column: 2; grid-row: 1; }
+html[data-view="mobile"] td.c-slot { grid-column: 2; grid-row: 2; }
+html[data-view="mobile"] td.c-fam, html[data-view="mobile"] td.c-st, html[data-view="mobile"] td.c-rc { grid-column: 2; }
+html[data-view="mobile"] td.c-fam::before, html[data-view="mobile"] td.c-st::before, html[data-view="mobile"] td.c-rc::before { content: attr(data-l); display: block; font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-top: 6px; }
+html[data-view="mobile"] td.c-rc { min-width: 0; white-space: normal; word-break: break-word; }
+html[data-view="mobile"] td.c-st { white-space: normal; }
+html[data-view="mobile"] .empty { border: 1px dashed var(--line); border-radius: 10px; }
+/* material table: two columns only */
+html[data-view="mobile"] .src-item { font-size: 12.5px; }
+
+/* about page */
+html[data-view="mobile"] .stat-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+html[data-view="mobile"] .stat .n { font-size: 20px; }
+html[data-view="mobile"] .trust-row { grid-template-columns: 1fr; gap: 2px; }
+html[data-view="mobile"] h2 { margin-top: 30px; }
+
+/* planner */
+html[data-view="mobile"] .sim-grid { grid-template-columns: 1fr; gap: 12px; }
+html[data-view="mobile"] .sim-view { height: 440px; }
+html[data-view="mobile"] .sim-steps { position: static; }
+html[data-view="mobile"] .sim-add { width: min(420px, calc(100vw - 48px)); }
+html[data-view="mobile"] .sim-add .cbx { width: 100% !important; }
+html[data-view="mobile"] .sim-add input[type=text] { flex: 1; width: auto; }
+html[data-view="mobile"] .sim-node-actions button { width: 30px; height: 28px; font-size: 14px; }
+
+/* desktop forced on a small screen: allow the page to scroll sideways rather than break */
+html[data-view="desktop"] .site-head .wrap { min-width: 0; }
+/* mobile: keep the intro short so the data is one thumb-flick away */
+html[data-view="mobile"] .page-head .lede { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+html[data-view="mobile"] .page-head .note { display: none; }

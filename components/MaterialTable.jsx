@@ -123,7 +123,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       </div>
 
       <div className="scroll">
-        <table style={{ minWidth: 760 }}>
+        <table className="t-materials">
           <thead>
             <tr>
               <th style={{ width: 66 }}>{strings.rank}</th>
@@ -139,8 +139,8 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                 </tr>
               ) : (
                 <tr key={g.row.id}>
-                  <td><span className="rank">{g.row.rank}</span></td>
-                  <td>
+                  <td className="c-rank"><span className="rank">{g.row.rank}</span></td>
+                  <td className="c-name">
                     <span className="nm">
                       {name(g.row)}
                       <span className={`dot-th${g.row.thConfirmed ? ' ok' : ''}`} title={g.row.thConfirmed ? strings.confirmedTh : strings.untranslated} />
@@ -150,7 +150,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                     {g.row.flags.highestBuyable && <span className="badge b-verified" style={{ marginLeft: 5 }}>{strings.highest}</span>}
                     {g.row.flags.keyMaterial && <span className="badge b-reported" style={{ marginLeft: 5 }}>{strings.key}</span>}
                   </td>
-                  <td>
+                  <td className="c-rc" data-l={strings.source}>
                     <div className="src">{g.row.sources.map(srcLine)}</div>
                     {g.row.note && <div style={{ marginTop: 6, fontSize: 12.5, color: 'var(--ink-soft)' }}>{g.row.note}</div>}
                   </td>

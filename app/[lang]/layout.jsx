@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { LANGS, t } from '@/lib/ui';
 import { DATA_DATE } from '@/lib/data';
 import Nav from '@/components/Nav';
+import ViewToggle from '@/components/ViewToggle';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
@@ -26,6 +27,7 @@ export default async function LangLayout({ children, params }) {
             Star<span>Drift</span>
           </Link>
           <Nav lang={lang} labels={s.nav} />
+          <ViewToggle labels={s.view} />
           <Link href={`/${other}`} className="lang-toggle" hrefLang={other}>
             {s.nav.switchLang}
           </Link>

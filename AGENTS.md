@@ -88,6 +88,12 @@ A missing Thai string renders as `undefined`, not as a fallback.
 **Do not pass functions into client components.** They are React Server Components; strings with
 `{n}` placeholders are formatted client-side. This has bitten this repo once already.
 
+**Mobile layout is one set of rules keyed off `html[data-view="mobile"]`.** The attribute is set by an
+inline script in `app/layout.jsx` before first paint and by `components/ViewToggle.jsx` (auto / mobile /
+desktop, persisted in localStorage). Auto uses `min(innerWidth, screen.width)` so a phone zooming out
+to fit overflowing content can't flip the page to desktop mid-load. Do not add `@media` queries for
+layout — add `html[data-view="mobile"]` rules, so the forced toggle keeps working.
+
 **Fonts load by stylesheet link, not `next/font`.** Deliberate: `next/font` fetches from Google
 at build time, which fails in a sandbox without network. Do not "fix" this back.
 
