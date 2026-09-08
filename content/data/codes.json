@@ -652,5 +652,52 @@
    },
    "desc": "KK confirmed it in the live Thai client. Highest confidence"
   }
+ ],
+ "questTypes": [
+  {
+   "key": "main",
+   "name": {
+    "en": "Main quest",
+    "cn": "主線任務",
+    "th": "เควสหลัก"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "side",
+   "name": {
+    "en": "Side quest",
+    "cn": "支線任務",
+    "th": "เควสรอง"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "companion",
+   "name": {
+    "en": "Companion quest",
+    "cn": "夥伴任務",
+    "th": "เควสขุนพล"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "star",
+   "name": {
+    "en": "Star quest",
+    "cn": "星星任務",
+    "th": "เควสดวงดาว"
+   },
+   "thConfirmed": true
+  },
+  {
+   "key": "skill",
+   "name": {
+    "en": "Skill quest",
+    "cn": "特技任務",
+    "th": "เควสสกิล"
+   },
+   "thConfirmed": true
+  }
  ]
 }

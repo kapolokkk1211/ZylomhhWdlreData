@@ -281,7 +281,54 @@ tbody tr.group:hover td { background: var(--surface-3); }
 .fm { font-family: var(--font-thai), var(--font-body); font-size: 14px; color: var(--ink-soft); }
 .fm b { color: var(--star); }
 .st { font-family: var(--font-mono); font-size: 14px; white-space: nowrap; }
-.rc { font-family: var(--font-mono); font-size: 14px; color: var(--ink); min-width: 220px; }
+.rc { font-family: var(--font-mono); font-size: 14px; color: var(--ink); min-width: 220px; position: relative; }
+/* Recipe cell: clamped to a fixed height so every row is the same height.
+   Hover (or tap, via :focus-within on the button-less cell) lifts the full text
+   into a floating panel — the row underneath does not move. */
+.rc-in {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.45;
+  max-height: calc(1.45em * 2);
+}
+.rc-in .rc-note { margin-top: 2px; opacity: .75; }
+.rc[data-more="1"] { cursor: help; }
+.rc[data-more="1"] .rc-in::after {
+  content: '…';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 3px;
+  color: var(--star);
+  background: var(--surface);
+  font-weight: 700;
+  pointer-events: none;
+}
+.rc[data-more="1"]:hover .rc-in::after, .rc[data-more="1"].open .rc-in::after { display: none; }
+.rc[data-more="1"]:hover .rc-in, .rc[data-more="1"].open .rc-in {
+  position: absolute;
+  z-index: 40;
+  top: 4px;
+  right: 4px;
+  left: auto;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  width: max-content;
+  min-width: 240px;
+  max-width: min(460px, 58vw);
+  padding: 9px 11px;
+  border: 1px solid var(--star);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(12, 60, 32, .22);
+  white-space: normal;
+  word-break: break-word;
+}
 .slot-pill {
   display: inline-block;
   padding: 3px 8px;
@@ -645,6 +692,8 @@ html[data-view="mobile"] td.c-slot { grid-column: 2; grid-row: 2; }
 html[data-view="mobile"] td.c-fam, html[data-view="mobile"] td.c-st, html[data-view="mobile"] td.c-rc { grid-column: 2; }
 html[data-view="mobile"] td.c-fam::before, html[data-view="mobile"] td.c-st::before, html[data-view="mobile"] td.c-rc::before { content: attr(data-l); display: block; font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-top: 6px; }
 html[data-view="mobile"] td.c-rc { min-width: 0; white-space: normal; word-break: break-word; }
+html[data-view="mobile"] td.c-rc .rc-in { -webkit-line-clamp: 3; line-clamp: 3; max-height: calc(1.45em * 3); }
+html[data-view="mobile"] td.c-rc[data-more="1"].open .rc-in { position: static; box-shadow: none; border-color: var(--line); }
 html[data-view="mobile"] td.c-st { white-space: normal; }
 html[data-view="mobile"] .empty { border: 1px dashed var(--line); border-radius: 10px; }
 /* material table: two columns only */
@@ -697,3 +746,36 @@ html[data-view="mobile"] .sim-side { position: static; }
 .addbtn.on { background: var(--star); color: #fff; }
 html[data-view="mobile"] td.c-add { grid-column: 1 / -1; margin-top: 8px; }
 html[data-view="mobile"] td.c-add .addbtn { width: 100%; padding: 10px; }
+
+/* ---- quest table ---- */
+.qtype {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+.q-main     { background: #0c5c31; color: #fff; }
+.q-side     { background: #e2f2e6; color: #125230; border-color: #b9dfc6; }
+.q-companion{ background: #fdf0d8; color: #7a4c07; border-color: #f0d9a8; }
+.q-star     { background: #eae6fb; color: #453089; border-color: #cdc3f0; }
+.q-skill    { background: #fde4e2; color: #8a2e26; border-color: #f3c2be; }
+.qnpc { font-size: 13px; color: var(--ink-faint); margin-top: 2px; }
+.stars { display: block; margin-top: 3px; font-size: 13px; font-weight: 700; }
+.stars.earn { color: var(--good); }
+.stars.spend { color: #8a5a06; }
+.qtable td.c-req, .qtable td.c-reward { white-space: normal; font-family: var(--font-thai), var(--font-body); }
+
+html[data-view="mobile"] table.qtable tbody tr { grid-template-columns: 1fr; }
+html[data-view="mobile"] table.qtable td { grid-column: 1 !important; grid-row: auto !important; }
+html[data-view="mobile"] table.qtable td.c-lv::before,
+html[data-view="mobile"] table.qtable td.c-where::before,
+html[data-view="mobile"] table.qtable td.c-req::before,
+html[data-view="mobile"] table.qtable td.c-reward::before,
+html[data-view="mobile"] table.qtable td.c-rc::before {
+  content: attr(data-l); display: block; font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-top: 6px;
+}
+html[data-view="mobile"] table.qtable td.c-qtype { margin-bottom: 4px; }

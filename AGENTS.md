@@ -21,6 +21,9 @@ content/data/          ← the entire data layer. Edit these, not the components
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
   glossary.json          71 terms (no page any more; kept as reference data)
+  quests.json            132 quests in 5 categories keyed to the Thai client's tabs:
+                         main เควสหลัก · side เควสรอง · companion เควสขุนพล · star เควสดวงดาว · skill เควสสกิล.
+                         Only 11 rows are Re-era; the rest are legacy WLO, tagged LEGACY on purpose
 lib/ui.js              ← every interface string, in both languages
 lib/data.js            ← loads the JSON, projects compact rows for the client
 lib/recipe.js          ← recipe-string parser + resolver used by the planner's ⇣ button
@@ -30,8 +33,9 @@ app/[lang]/materials   ← material index with shop filter
 app/[lang]/simulator   ← the planner: a free-form tree (target on top, ≤20 deep) the player
                          builds by hand; ⇣ loads a recipe as a starting point; PNG export via canvas;
                          autosaved to localStorage
+app/[lang]/quests      ← quest lists by category, one filter + a hover-to-read steps column
 app/[lang]/about       ← the old home page: rules, trust tags, sources
-components/            ← CompoundTable, MaterialTable, Simulator, Combobox, Nav, Legend
+components/            ← CompoundTable, MaterialTable, QuestTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.
 scripts/extraction/    ← one-time builders. th_names.mjs translates item names; th_recipes.mjs then
                          rewrites every recipe.th from the parsed English recipe using those names.
@@ -96,6 +100,15 @@ desktop, persisted in localStorage). Auto uses `min(innerWidth, screen.width)` s
 to fit overflowing content can't flip the page to desktop mid-load. Do not add `@media` queries for
 layout — add `html[data-view="mobile"]` rules, so the forced toggle keeps working.
 
+**Long free text is clamped, not wrapped.** The recipe cell on the compound page and the steps
+cell on the quest page share `.rc` / `.rc-in`: two lines, fixed height, the rest in a floating panel
+on hover (tap on mobile, which sets `.open`). This is deliberate — letting one long row stretch made
+every row a different height and the table unreadable. Keep new long-text columns on the same pattern.
+
+**Quest rows say where they come from.** `quests.json` is mostly LEGACY. That is honest, not a bug:
+the Taiwan board that holds Re's current quest lists blocks automated reading. Never promote a row to
+`RE-verified` without a Re-era source, and never to `KK-tested` without KK reading it in the client.
+
 **Fonts load by stylesheet link, not `next/font`.** Deliberate: `next/font` fetches from Google
 at build time, which fails in a sandbox without network. Do not "fix" this back.
 
@@ -111,6 +124,11 @@ at build time, which fails in a sandbox without network. Do not "fix" this back.
   on the family heading. Do not imply completeness.
 - No guides section yet (build, leveling, economy, life skills, combo). Planned; the source
   material is in the project knowledge base.
+- **Quest data is thin where it matters most.** Re's own main-quest and side-quest master lists are
+  not published anywhere reachable — `forum.gamer.com.tw` (bsn=82442) has them and returns 403 to
+  automated fetching. 121 of the 132 rows are legacy WLO, kept because the region + story beat
+  usually still match. Quest names have no Thai confirmation at all yet. The research pass and its
+  gaps are written up in the project KB as `wonderland/20-quest-categories-th.md`.
 
 ## Commands
 

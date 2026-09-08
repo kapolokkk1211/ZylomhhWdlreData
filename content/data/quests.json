@@ -1,0 +1,4036 @@
+[
+ {
+  "id": "main-tutorial",
+  "type": "main",
+  "name": {
+   "en": "Newbie Beach tutorial chain",
+   "cn": "新手海灘教學任務",
+   "th": "เควสสอนเล่นที่ชายหาดมือใหม่"
+  },
+  "thConfirmed": false,
+  "lv": 1,
+  "region": {
+   "en": "Newbie Beach",
+   "cn": "新手海灘",
+   "th": "ชายหาดมือใหม่"
+  },
+  "npc": {
+   "en": "Robinson",
+   "cn": "魯濱遜",
+   "th": "โรบินสัน"
+  },
+  "req": null,
+  "reward": {
+   "en": "Basic gear, opens free adventure at the beach",
+   "th": "อุปกรณ์เริ่มต้น เปิดให้ออกผจญภัยอิสระที่ชายหาด"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Follow Robinson through the tutorial, then head inland to Kelan Village.",
+   "th": "ทำตามโรบินสันจนจบบทเรียน แล้วเดินเข้าแผ่นดินไปหมู่บ้านเคลัน"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://www.ldplayer.tw/blog/drift-fantasy-re-ark-of-the-stars-onpc-guide.html"
+ },
+ {
+  "id": "main-chief",
+  "type": "main",
+  "name": {
+   "en": "Village Chief commissions",
+   "cn": "克蘭村村長委託",
+   "th": "เควสจากผู้ใหญ่บ้านเคลัน"
+  },
+  "thConfirmed": false,
+  "lv": 5,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": {
+   "en": "Village Chief",
+   "cn": "克蘭村村長",
+   "th": "ผู้ใหญ่บ้านเคลัน"
+  },
+  "req": null,
+  "reward": {
+   "en": "Unlocks the Sigil (紋章) and Drone (無人機) systems",
+   "th": "ปลดล็อกระบบตราสัญลักษณ์ (紋章) และโดรน (無人機)"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "A short run of commission quests from the chief; each one turns on a game system.",
+   "th": "เควสรับงานสั้น ๆ จากผู้ใหญ่บ้าน แต่ละอันจะเปิดระบบใหม่ให้"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://www.ldcloud.net/tw/blog/drifting-fantasy-re-star-ark-leveling-guide"
+ },
+ {
+  "id": "main-rocca",
+  "type": "main",
+  "name": {
+   "en": "Unknown Destiny — Rocca joins",
+   "cn": "未知的命運",
+   "th": "โชคชะตาที่ไม่รู้จัก — ได้รอคก้า"
+  },
+  "thConfirmed": false,
+  "lv": 5,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": {
+   "en": "Village Chief",
+   "cn": "克蘭村村長",
+   "th": "ผู้ใหญ่บ้านเคลัน"
+  },
+  "req": null,
+  "reward": {
+   "en": "Companion Rocca + choose Glory Hand Blade or Glory Staff",
+   "th": "เพื่อนร่วมทาง รอคก้า + เลือกดาบเกียรติยศ หรือ ไม้เท้าเกียรติยศ"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Retrieve the scroll from Kelan Mine floor 3 and defeat the Chameleon.",
+   "th": "ไปเอาม้วนคัมภีร์ที่เหมืองเคลันชั้น 3 แล้วปราบกิ้งก่าคามิเลี่ยน"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "main-antarctica",
+  "type": "main",
+  "name": {
+   "en": "Go to Antarctica",
+   "cn": "前往南極",
+   "th": "มุ่งสู่ขั้วโลกใต้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Antarctica",
+   "cn": "南極",
+   "th": "ขั้วโลกใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Opens Antarctica; prerequisite for the Ancestor skill quest",
+   "th": "เปิดแผนที่ขั้วโลกใต้ และเป็นเงื่อนไขของเควสสกิลขุนพลบรรพชน"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "A late main-quest chapter. You cannot accept the Ancestor skill quest until this is done.",
+   "th": "บทท้าย ๆ ของเควสหลัก ถ้ายังไม่จบบทนี้จะรับเควสสกิลบรรพชนไม่ได้"
+  },
+  "confidence": "RE-verified",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "main-trial-awakening",
+  "type": "main",
+  "name": {
+   "en": "Trial and Awakening",
+   "cn": "試煉與覺醒",
+   "th": "บททดสอบและการตื่นรู้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "A named main-quest chapter. Confirmed to exist on the Taiwan board; walkthrough not recovered.",
+   "th": "บทหนึ่งของเควสหลัก ยืนยันว่ามีอยู่จริงจากบอร์ดไต้หวัน แต่ยังไม่มีรายละเอียดวิธีทำ"
+  },
+  "confidence": "INFER",
+  "note": {
+   "en": "Chapter title only — content unverified.",
+   "th": "มีแต่ชื่อบท ยังไม่ได้ตรวจสอบเนื้อหา"
+  },
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "main-i-see",
+  "type": "main",
+  "name": {
+   "en": "So That's It, Ch. 1–3",
+   "cn": "原來如此（一）（二）（三）",
+   "th": "อ๋อ อย่างนี้นี่เอง ตอนที่ 1–3"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "A three-part chain. Sources disagree whether it is main or side.",
+   "th": "เควสต่อเนื่อง 3 ตอน แหล่งข้อมูลยังไม่ตรงกันว่าเป็นเควสหลักหรือเควสรอง"
+  },
+  "confidence": "INFER",
+  "note": {
+   "en": "Category uncertain.",
+   "th": "ยังไม่แน่ชัดว่าอยู่หมวดไหน"
+  },
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "side-changan",
+  "type": "side",
+  "name": {
+   "en": "Chang'an series",
+   "cn": "長安系列任務",
+   "th": "เควสชุดฉางอาน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Post-launch China-themed side chain. Content not recovered.",
+   "th": "เควสชุดธีมจีนที่เพิ่มมาหลังเปิดเซิร์ฟ ยังไม่มีรายละเอียด"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "side-greatwall",
+  "type": "side",
+  "name": {
+   "en": "Great Wall series",
+   "cn": "長城系列任務",
+   "th": "เควสชุดกำแพงเมืองจีน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Post-launch side chain. Content not recovered.",
+   "th": "เควสชุดที่เพิ่มมาหลังเปิดเซิร์ฟ ยังไม่มีรายละเอียด"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "side-monkey",
+  "type": "side",
+  "name": {
+   "en": "Little Monkey Event",
+   "cn": "小猴子事件",
+   "th": "เหตุการณ์ลิงน้อย"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-puppy",
+  "type": "side",
+  "name": {
+   "en": "Lost Puppy",
+   "cn": "迷失的小狗",
+   "th": "ลูกหมาหลงทาง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-piglet",
+  "type": "side",
+  "name": {
+   "en": "Piglet's Stroll",
+   "cn": "小豬散步",
+   "th": "หมูน้อยเดินเล่น"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-dinner",
+  "type": "side",
+  "name": {
+   "en": "Dinner Event",
+   "cn": "晚餐事件",
+   "th": "เหตุการณ์มื้อค่ำ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-sick",
+  "type": "side",
+  "name": {
+   "en": "Sick Villager",
+   "cn": "重病的村民",
+   "th": "ชาวบ้านป่วยหนัก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-robbed",
+  "type": "side",
+  "name": {
+   "en": "Robbed Grandparent and Grandchild",
+   "cn": "被搶劫的祖孫倆",
+   "th": "สองปู่หลานที่ถูกปล้น"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-wolf",
+  "type": "side",
+  "name": {
+   "en": "Drive Off the Big Wolf",
+   "cn": "趕跑大野狼",
+   "th": "ไล่หมาป่าตัวใหญ่"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-first-trial",
+  "type": "side",
+  "name": {
+   "en": "The Initial Trial",
+   "cn": "最初的試練",
+   "th": "บททดสอบแรก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-mermaid",
+  "type": "side",
+  "name": {
+   "en": "Mermaid Event",
+   "cn": "美人魚事件",
+   "th": "เหตุการณ์นางเงือก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-bandit",
+  "type": "side",
+  "name": {
+   "en": "The Avenging Bandit",
+   "cn": "報仇的強盜",
+   "th": "โจรผู้มาแก้แค้น"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-mystery-girl",
+  "type": "side",
+  "name": {
+   "en": "The Mysterious Girl",
+   "cn": "謎樣的少女",
+   "th": "เด็กสาวปริศนา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-redhood",
+  "type": "side",
+  "name": {
+   "en": "Little Red Riding Hood's Story",
+   "cn": "小紅帽的故事",
+   "th": "เรื่องของหนูน้อยหมวกแดง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-miner",
+  "type": "side",
+  "name": {
+   "en": "The Miner Short of Ore",
+   "cn": "缺礦的礦工",
+   "th": "คนงานเหมืองที่ขาดแร่"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-soup",
+  "type": "side",
+  "name": {
+   "en": "Aunt's Soup",
+   "cn": "阿姨的湯",
+   "th": "ซุปของคุณป้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-redwine",
+  "type": "side",
+  "name": {
+   "en": "The Red Wine Errand",
+   "cn": "紅酒任務",
+   "th": "ภารกิจไวน์แดง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-squirrel",
+  "type": "side",
+  "name": {
+   "en": "Finding the Squirrels",
+   "cn": "尋找松鼠",
+   "th": "ตามหากระรอก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-guard-drink",
+  "type": "side",
+  "name": {
+   "en": "The Guard's Drinking Appointment",
+   "cn": "守衛的酒約",
+   "th": "นัดดื่มของทหารยาม"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-axe",
+  "type": "side",
+  "name": {
+   "en": "The Woodcutter's Axe",
+   "cn": "樵夫的斧頭",
+   "th": "ขวานของคนตัดไม้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-blueflower",
+  "type": "side",
+  "name": {
+   "en": "The Blue Flower",
+   "cn": "藍色花朵",
+   "th": "ดอกไม้สีน้ำเงิน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-legendary-weapon",
+  "type": "side",
+  "name": {
+   "en": "The Legendary Weapon",
+   "cn": "傳說武器",
+   "th": "อาวุธในตำนาน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-raft",
+  "type": "side",
+  "name": {
+   "en": "Wooden Raft Design",
+   "cn": "木筏設計圖",
+   "th": "แบบแปลนแพไม้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Wailing Village",
+   "cn": "威靈村",
+   "th": "หมู่บ้านเวยหลิง"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-bar-tough",
+  "type": "side",
+  "name": {
+   "en": "The Tough Guy at the Bar",
+   "cn": "酒吧的壯漢",
+   "th": "นักเลงในบาร์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-nun",
+  "type": "side",
+  "name": {
+   "en": "Nun Miyuna",
+   "cn": "修女米尤娜",
+   "th": "แม่ชีมิยูนะ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-heretic",
+  "type": "side",
+  "name": {
+   "en": "Heretics at the Cathedral",
+   "cn": "大教堂的異教徒",
+   "th": "พวกนอกรีตในมหาวิหาร"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-match-girl",
+  "type": "side",
+  "name": {
+   "en": "The Little Match Girl",
+   "cn": "賣火柴的小女孩",
+   "th": "เด็กหญิงขายไม้ขีดไฟ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-cellar",
+  "type": "side",
+  "name": {
+   "en": "The Hidden Cellar",
+   "cn": "隱藏地窖",
+   "th": "ห้องใต้ดินลับ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-fishbait",
+  "type": "side",
+  "name": {
+   "en": "Fish Bait",
+   "cn": "魚餌",
+   "th": "เหยื่อตกปลา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-hideseek",
+  "type": "side",
+  "name": {
+   "en": "Hide and Seek",
+   "cn": "捉迷藏",
+   "th": "ซ่อนหา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-bellringer",
+  "type": "side",
+  "name": {
+   "en": "The Bell Ringer",
+   "cn": "敲鐘人",
+   "th": "คนตีระฆัง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-logging",
+  "type": "side",
+  "name": {
+   "en": "Logging Skill",
+   "cn": "伐木技能",
+   "th": "สกิลตัดไม้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-tunnel",
+  "type": "side",
+  "name": {
+   "en": "The Underground Passage",
+   "cn": "地下通道",
+   "th": "ทางลับใต้ดิน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-shepherd",
+  "type": "side",
+  "name": {
+   "en": "The Shepherd Boy",
+   "cn": "牧羊少年",
+   "th": "เด็กเลี้ยงแกะ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-bear-cave",
+  "type": "side",
+  "name": {
+   "en": "The Cave Bear",
+   "cn": "洞窟熊",
+   "th": "หมีในถ้ำ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-flytrap",
+  "type": "side",
+  "name": {
+   "en": "The Giant Venus Flytrap",
+   "cn": "巨大食人花",
+   "th": "กาบหอยแครงยักษ์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-gather-skill",
+  "type": "side",
+  "name": {
+   "en": "Gathering Skill",
+   "cn": "採集技能",
+   "th": "สกิลเก็บของ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-ares-pet",
+  "type": "side",
+  "name": {
+   "en": "Pet Ares",
+   "cn": "寵物亞雷斯",
+   "th": "สัตว์เลี้ยงอาเรส"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-frog",
+  "type": "side",
+  "name": {
+   "en": "The Frog Quest",
+   "cn": "青蛙任務",
+   "th": "ภารกิจกบ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-airplane",
+  "type": "side",
+  "name": {
+   "en": "Airplane Design",
+   "cn": "飛機設計圖",
+   "th": "แบบแปลนเครื่องบิน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-monk",
+  "type": "side",
+  "name": {
+   "en": "The Indian Monk",
+   "cn": "印度僧侶",
+   "th": "นักบวชอินเดีย"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "India / Calcutta",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-snake-whistle",
+  "type": "side",
+  "name": {
+   "en": "The Snake Charmer's Whistle",
+   "cn": "弄蛇人的笛子",
+   "th": "ปี่ของหมองู"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "India / Calcutta",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-judgment",
+  "type": "side",
+  "name": {
+   "en": "A Just Judgment",
+   "cn": "公正的判決",
+   "th": "คำตัดสินอันเที่ยงธรรม"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-princess",
+  "type": "side",
+  "name": {
+   "en": "The Kidnapped Princess",
+   "cn": "被綁架的公主",
+   "th": "เจ้าหญิงที่ถูกลักพาตัว"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-kappa",
+  "type": "side",
+  "name": {
+   "en": "The Kappa Mother",
+   "cn": "河童母親",
+   "th": "แม่กัปปะ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-swordsman",
+  "type": "side",
+  "name": {
+   "en": "The Mysterious Swordsman",
+   "cn": "神秘劍客",
+   "th": "นักดาบปริศนา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-bushido",
+  "type": "side",
+  "name": {
+   "en": "The Way of the Samurai",
+   "cn": "武士之道",
+   "th": "วิถีซามูไร"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-firedragon",
+  "type": "side",
+  "name": {
+   "en": "The Fire Dragon",
+   "cn": "火龍任務",
+   "th": "ภารกิจมังกรไฟ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Resurrection Island",
+   "cn": "復活島",
+   "th": "เกาะฟื้นคืนชีพ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-goldcalendar",
+  "type": "side",
+  "name": {
+   "en": "Find the Gold Calendar",
+   "cn": "尋找黃金曆法",
+   "th": "ตามหาปฏิทินทองคำ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-tooth",
+  "type": "side",
+  "name": {
+   "en": "The Tooth Technician",
+   "cn": "牙齒技師",
+   "th": "ช่างทำฟัน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-xiaolan-fate",
+  "type": "side",
+  "name": {
+   "en": "Xiaolan's Fate",
+   "cn": "小藍的命運",
+   "th": "ชะตาของเสี่ยวหลาน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Crab Island",
+   "cn": "蟹島",
+   "th": "เกาะปู"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-guardian",
+  "type": "side",
+  "name": {
+   "en": "The Holy Spirit Guardian",
+   "cn": "聖靈守護者",
+   "th": "ผู้พิทักษ์วิญญาณศักดิ์สิทธิ์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Crab Island",
+   "cn": "蟹島",
+   "th": "เกาะปู"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-missing-villager",
+  "type": "side",
+  "name": {
+   "en": "The Missing Villager",
+   "cn": "失蹤的村民",
+   "th": "ชาวบ้านที่หายไป"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Crab Island",
+   "cn": "蟹島",
+   "th": "เกาะปู"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-magellan",
+  "type": "side",
+  "name": {
+   "en": "The Magellan Fleet",
+   "cn": "麥哲倫艦隊",
+   "th": "กองเรือมาเจลลัน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Voyage map",
+   "cn": "航海圖",
+   "th": "แผนที่เดินเรือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-niss-staff",
+  "type": "side",
+  "name": {
+   "en": "Niss's Special Staff",
+   "cn": "妮絲的專屬法杖",
+   "th": "ไม้เท้าเฉพาะของนีซ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-egypt-kids",
+  "type": "side",
+  "name": {
+   "en": "The Modern Children of Egypt",
+   "cn": "埃及的現代孩子",
+   "th": "เด็กยุคใหม่แห่งอียิปต์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Egypt",
+   "cn": "埃及",
+   "th": "อียิปต์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-pyramid",
+  "type": "side",
+  "name": {
+   "en": "Depths of the Pyramid",
+   "cn": "金字塔深處",
+   "th": "ส่วนลึกของพีระมิด"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Egypt",
+   "cn": "埃及",
+   "th": "อียิปต์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "side-ginseng",
+  "type": "side",
+  "name": {
+   "en": "That Was Ginseng!",
+   "cn": "原來是人參！",
+   "th": "ที่แท้ก็คือโสม!"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Korea",
+   "cn": "韓國",
+   "th": "เกาหลี"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
+   "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
+  },
+  "source": "https://kannya.souluntan.com/t10-topic"
+ },
+ {
+  "id": "comp-rocca",
+  "type": "companion",
+  "name": {
+   "en": "Rocca",
+   "cn": "蘿卡",
+   "th": "รอคก้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": {
+   "en": "Kelan Village chief",
+   "cn": "",
+   "th": "ผู้ใหญ่บ้านเคลัน"
+  },
+  "req": null,
+  "reward": {
+   "en": "Rocca + choose Glory Hand Blade or Glory Staff",
+   "th": "รอคก้า + เลือกดาบเกียรติยศ หรือ ไม้เท้าเกียรติยศ"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Retrieve the scroll from Kelan Mine floor 3, defeat the Chameleon.",
+   "th": "เอาม้วนคัมภีร์จากเหมืองเคลันชั้น 3 แล้วปราบคามิเลี่ยน"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-lynx",
+  "type": "companion",
+  "name": {
+   "en": "Lynx",
+   "cn": "山貓",
+   "th": "ลิงซ์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Water element; Ice Crystal Cat Punch + Purr",
+   "th": "ธาตุน้ำ ท่า Ice Crystal Cat Punch และ Purr"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Shipped with the Rebirth system update.",
+   "th": "มาพร้อมอัปเดตระบบเกิดใหม่ (Rebirth)"
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-mary",
+  "type": "companion",
+  "name": {
+   "en": "Mary I",
+   "cn": "瑪莉一世",
+   "th": "แมรี่ที่ 1"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Launch-headline companion. Recruitment method not recovered.",
+   "th": "เพื่อนร่วมทางตัวชูโรงตอนเปิดเกม ยังไม่พบวิธีรับ"
+  },
+  "confidence": "INFER",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-imhotep",
+  "type": "companion",
+  "name": {
+   "en": "Imhotep",
+   "cn": "印和闐",
+   "th": "อิมโฮเทป"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Appears as a top-tier companion in Thai tier lists. Recruitment method not recovered.",
+   "th": "ติดอันดับต้น ๆ ในตารางจัดอันดับไทย แต่ยังไม่พบวิธีรับ"
+  },
+  "confidence": "INFER",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-sunshangxiang",
+  "type": "companion",
+  "name": {
+   "en": "Sun Shangxiang",
+   "cn": "孫尚香",
+   "th": "ซุนซั่งเซียง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Listed as a top DPS companion in a Re tier list. Recruitment method not recovered.",
+   "th": "ถูกจัดเป็นตัว DPS อันดับต้นในตารางจัดอันดับ Re ยังไม่พบวิธีรับ"
+  },
+  "confidence": "INFER",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-liubei",
+  "type": "companion",
+  "name": {
+   "en": "Liu Bei",
+   "cn": "劉備",
+   "th": "เล่าปี่"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Listed as a top support companion in a Re tier list. Recruitment method not recovered.",
+   "th": "ถูกจัดเป็นตัวซัพพอร์ตอันดับต้นในตารางจัดอันดับ Re ยังไม่พบวิธีรับ"
+  },
+  "confidence": "INFER",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "comp-niss",
+  "type": "companion",
+  "name": {
+   "en": "Niss",
+   "cn": "妮絲",
+   "th": "นีซ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Wake the sleeping girl on the eastern cliff of the North Sea and learn her name. No prerequisite.",
+   "th": "ปลุกเด็กสาวที่หลับอยู่บนหน้าผาฝั่งตะวันออกของทะเลเหนือ แล้วถามชื่อเธอ ไม่มีเงื่อนไข"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-xiaolan",
+  "type": "companion",
+  "name": {
+   "en": "Xiaolan",
+   "cn": "小藍",
+   "th": "เสี่ยวหลาน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Finish The Avenging Bandit. She joins after her grandmother dies.",
+   "th": "ทำเควสโจรผู้มาแก้แค้นให้จบ เธอจะเข้าร่วมหลังคุณยายเสียชีวิต"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-cliff",
+  "type": "companion",
+  "name": {
+   "en": "Cliff",
+   "cn": "克里夫",
+   "th": "คลิฟ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Requires The Avenging Bandit. Defeat the pirates in the Pirate Cave and open the treasures.",
+   "th": "ต้องทำเควสโจรผู้มาแก้แค้นก่อน ปราบโจรสลัดในถ้ำแล้วเปิดหีบสมบัติ"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-magellan",
+  "type": "companion",
+  "name": {
+   "en": "Magellan",
+   "cn": "麥哲倫",
+   "th": "มาเจลลัน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Voyage map",
+   "cn": "航海圖",
+   "th": "แผนที่เดินเรือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Requires Proof of the World Conqueror. Allies' cave plus naval battles. Around X:8869 Y:10580.",
+   "th": "ต้องมีเครื่องพิสูจน์ผู้พิชิตโลก ผ่านถ้ำพันธมิตรและศึกทางเรือ ราวพิกัด X:8869 Y:10580"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-kanako",
+  "type": "companion",
+  "name": {
+   "en": "Kanako",
+   "cn": "香菜子",
+   "th": "คานาโกะ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Talk to the rabbit outside Japan and release it, then return to the villager's house for nigiri sushi.",
+   "th": "คุยกับกระต่ายนอกเมืองญี่ปุ่นแล้วปล่อยมันไป จากนั้นกลับไปที่บ้านชาวบ้านเพื่อรับซูชิ"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-freid",
+  "type": "companion",
+  "name": {
+   "en": "Freid",
+   "cn": "弗雷德",
+   "th": "เฟรด"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Egypt",
+   "cn": "埃及",
+   "th": "อียิปต์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Obtain the truth stone and defeat Anubis twice. No prerequisite.",
+   "th": "หาหินแห่งความจริงแล้วปราบอนูบิสสองครั้ง ไม่มีเงื่อนไข"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-shasha",
+  "type": "companion",
+  "name": {
+   "en": "Shasha",
+   "cn": "莎莎",
+   "th": "ซาช่า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Trigger the event at the Mayan dwelling, descend into the sacrifice pool and defeat the blue alien.",
+   "th": "เริ่มเหตุการณ์ที่บ้านชนเผ่ามายา ลงไปในบ่อสังเวยแล้วปราบเอเลี่ยนสีน้ำเงิน"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-ares",
+  "type": "companion",
+  "name": {
+   "en": "Ares",
+   "cn": "亞雷斯",
+   "th": "อาเรส"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Retrieve the Dinosaur Egg — a long chain including the Brontosaurus Lord (~25,000 HP) — and trade it to the Doctor. Reward: Ares + a 10% EXP capsule.",
+   "th": "ไปเอาไข่ไดโนเสาร์ ซึ่งเป็นเควสยาวรวมบอสจ้าวมังกรสายฟ้า (HP ราว 25,000) แล้วเอาไปแลกกับหมอ ได้อาเรส + แคปซูลเพิ่ม EXP 10%"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-athena-venus",
+  "type": "companion",
+  "name": {
+   "en": "Athena / Venus (choose one)",
+   "cn": "雅典娜／維納斯",
+   "th": "อธีน่า / วีนัส (เลือกหนึ่ง)"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "A paired quest — you keep only one of the two. Documented on the SEA server as a ขุนพล quest.",
+   "th": "เควสคู่ ได้เพียงตัวเดียวจากสองตัว มีบันทึกไว้ในเซิร์ฟ SEA ว่าเป็นเควสขุนพล"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-zhangbaozi",
+  "type": "companion",
+  "name": {
+   "en": "Zhang Baozi (Zoro)",
+   "cn": "張豹子",
+   "th": "จางเป้าจื่อ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "From the Challenge Octopus activity, 30 ingots. Noted as the highest base stats of any pet.",
+   "th": "ได้จากกิจกรรมท้าทายปลาหมึกยักษ์ ราคา 30 แท่งทอง ขึ้นชื่อว่าค่าสถานะพื้นฐานสูงที่สุด"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
+   "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
+  },
+  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+ },
+ {
+  "id": "comp-death-quest",
+  "type": "companion",
+  "name": {
+   "en": "Companion Death Quests",
+   "cn": "亡逝任務",
+   "th": "เควสอำลาของเพื่อนร่วมทาง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Each major companion has an optional three-chapter chain ending in their in-story death, paying Friendship, stars and gear.",
+   "th": "เพื่อนร่วมทางหลัก ๆ แต่ละตัวมีเควสเสริม 3 ตอน จบด้วยการเสียสละของตัวละคร ให้ค่าความสนิท ดาว และอุปกรณ์"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Re requires an 'exclusive quest' before companion Rebirth, which is likely this system or its descendant.",
+   "th": "ใน Re ต้องทำ 'เควสเฉพาะตัว' ก่อนทำ Rebirth ซึ่งน่าจะเป็นระบบนี้หรือระบบที่พัฒนามาจากนี้"
+  },
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "star-system",
+  "type": "star",
+  "name": {
+   "en": "Star Quest system",
+   "cn": "星星任務",
+   "th": "ระบบเควสดวงดาว"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": null,
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "Star (星星) is a scarce quest currency spent on skills, gear and upgrades. The item is confirmed in Re — the Ancestor skill quest costs Star ×5. The current Re list is tracked on the Taiwan board but was not recoverable.",
+   "th": "ดาว (星星) เป็นค่าเงินจากเควสที่หายาก ใช้แลกสกิล อุปกรณ์ และอัปเกรด ยืนยันว่ายังมีใน Re เพราะเควสสกิลบรรพชนใช้ดาว ×5 ส่วนรายการเควสดาวของ Re ยังดึงข้อมูลไม่ได้"
+  },
+  "confidence": "RE-verified",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "star-earn-01",
+  "type": "star",
+  "name": {
+   "en": "Robbed Grandparent and Grandchild",
+   "cn": "被搶劫的祖孫倆",
+   "th": "สองปู่หลานที่ถูกปล้น"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": {
+   "en": "No requirement",
+   "th": "ไม่มีเงื่อนไข"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-02",
+  "type": "star",
+  "name": {
+   "en": "The Mountain Pig's Dream",
+   "cn": "山豬的夢",
+   "th": "ความฝันของหมูป่า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Kelan Village",
+   "cn": "克蘭村",
+   "th": "หมู่บ้านเคลัน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Mini-game",
+   "th": "มินิเกม"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-03",
+  "type": "star",
+  "name": {
+   "en": "Little Red Riding Hood",
+   "cn": "小紅帽",
+   "th": "หนูน้อยหมวกแดง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 2 wolves",
+   "th": "ปราบหมาป่า 2 ตัว"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-04",
+  "type": "star",
+  "name": {
+   "en": "The Golden Axe",
+   "cn": "金斧頭與鐵斧頭",
+   "th": "ขวานทองกับขวานเหล็ก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Return the axe to the woodcutter",
+   "th": "คืนขวานให้คนตัดไม้"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-05",
+  "type": "star",
+  "name": {
+   "en": "The Sheep's Dream",
+   "cn": "綿羊的夢",
+   "th": "ความฝันของแกะ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Mini-game",
+   "th": "มินิเกม"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-06",
+  "type": "star",
+  "name": {
+   "en": "Fish Bait",
+   "cn": "魚餌",
+   "th": "เหยื่อตกปลา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Release the pink worm",
+   "th": "ปล่อยหนอนสีชมพู"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-07",
+  "type": "star",
+  "name": {
+   "en": "Heretics at the Cathedral",
+   "cn": "大教堂的異教徒",
+   "th": "พวกนอกรีตในมหาวิหาร"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Rescue the villagers",
+   "th": "ช่วยชาวบ้าน"
+  },
+  "reward": {
+   "en": "Star ×2",
+   "th": "ดาว ×2"
+  },
+  "stars": 2,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-08",
+  "type": "star",
+  "name": {
+   "en": "The Courage Stone",
+   "cn": "勇氣之石",
+   "th": "หินแห่งความกล้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the stone monster and deliver the stone",
+   "th": "ปราบมอนสเตอร์หินแล้วส่งหินให้"
+  },
+  "reward": {
+   "en": "Star ×2",
+   "th": "ดาว ×2"
+  },
+  "stars": 2,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-09",
+  "type": "star",
+  "name": {
+   "en": "Xiaolan's Fate",
+   "cn": "小藍的命運",
+   "th": "ชะตาของเสี่ยวหลาน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 3 giant spiders — Xiaolan must be in the party",
+   "th": "ปราบแมงมุมยักษ์ 3 ตัว ต้องมีเสี่ยวหลานอยู่ในทีม"
+  },
+  "reward": {
+   "en": "Star ×2",
+   "th": "ดาว ×2"
+  },
+  "stars": 2,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-10",
+  "type": "star",
+  "name": {
+   "en": "The Holy Spirit Guardian",
+   "cn": "聖靈守護者",
+   "th": "ผู้พิทักษ์วิญญาณศักดิ์สิทธิ์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the stone pillar twice, carrying the Stone Carving Key",
+   "th": "ปราบเสาหิน 2 รอบ ต้องพกกุญแจสลักหิน"
+  },
+  "reward": {
+   "en": "Star ×3",
+   "th": "ดาว ×3"
+  },
+  "stars": 3,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-11",
+  "type": "star",
+  "name": {
+   "en": "Battle! Enemy Frederick",
+   "cn": "決戰！敵人腓特烈",
+   "th": "ศึกชี้ชะตา! เฟรเดอริค"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat Frederick — Cliff dies in this quest",
+   "th": "ปราบเฟรเดอริค คลิฟจะเสียชีวิตในเควสนี้"
+  },
+  "reward": {
+   "en": "Star ×3",
+   "th": "ดาว ×3"
+  },
+  "stars": 3,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-12",
+  "type": "star",
+  "name": {
+   "en": "The Bartender",
+   "cn": "調酒師",
+   "th": "บาร์เทนเดอร์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Memorise the drink order 1-2-4-3",
+   "th": "จำลำดับการผสมเครื่องดื่ม 1-2-4-3"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-13",
+  "type": "star",
+  "name": {
+   "en": "The Maya Ball Tournament",
+   "cn": "瑪雅球賽",
+   "th": "การแข่งบอลมายา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": {
+   "en": "Beat the warrior",
+   "th": "เอาชนะนักรบ"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-14",
+  "type": "star",
+  "name": {
+   "en": "The Mayan Tribe is Raided",
+   "cn": "瑪雅部落遇襲",
+   "th": "เผ่ามายาถูกโจมตี"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 3 wild pigs — party of 2, Lv40+",
+   "th": "ปราบหมูป่า 3 ตัว ทีม 2 คน เลเวล 40 ขึ้นไป"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-15",
+  "type": "star",
+  "name": {
+   "en": "Don't Leave, Shasha",
+   "cn": "別走，莎莎",
+   "th": "อย่าไปเลย ซาช่า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Maya",
+   "cn": "瑪雅",
+   "th": "มายา"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 3 Lv100 wind aliens — Shasha in party, friendship 70+",
+   "th": "ปราบเอเลี่ยนธาตุลม Lv100 3 ตัว ต้องมีซาช่าในทีม ความสนิท 70+"
+  },
+  "reward": {
+   "en": "Star ×3",
+   "th": "ดาว ×3"
+  },
+  "stars": 3,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-16",
+  "type": "star",
+  "name": {
+   "en": "The Little Match Girl",
+   "cn": "賣火柴的小女孩",
+   "th": "เด็กหญิงขายไม้ขีดไฟ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Antarctica",
+   "cn": "南極",
+   "th": "ขั้วโลกใต้"
+  },
+  "npc": null,
+  "req": {
+   "en": "Requires the Buy Matches quest first",
+   "th": "ต้องทำเควสซื้อไม้ขีดไฟก่อน"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-17",
+  "type": "star",
+  "name": {
+   "en": "The Archer Incident",
+   "cn": "后羿事件",
+   "th": "เหตุการณ์โฮ่วอี้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the suns — 2 battles, 6 enemies",
+   "th": "ยิงดวงอาทิตย์ 2 ศึก ศัตรู 6 ตัว"
+  },
+  "reward": {
+   "en": "Star ×2",
+   "th": "ดาว ×2"
+  },
+  "stars": 2,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-18",
+  "type": "star",
+  "name": {
+   "en": "The Fox Fairy",
+   "cn": "狐仙",
+   "th": "นางจิ้งจอก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the fox spirit",
+   "th": "ปราบวิญญาณจิ้งจอก"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-19",
+  "type": "star",
+  "name": {
+   "en": "Who's the Better Hunter",
+   "cn": "誰是好獵人",
+   "th": "ใครคือนายพรานที่เก่งกว่า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Mini-game",
+   "th": "มินิเกม"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-20",
+  "type": "star",
+  "name": {
+   "en": "Find the Jade Rabbit",
+   "cn": "尋找玉兔",
+   "th": "ตามหากระต่ายหยก"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Mini-game, by coordinates",
+   "th": "มินิเกม ตามพิกัด"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-21",
+  "type": "star",
+  "name": {
+   "en": "The Runaway Princess",
+   "cn": "逃跑的公主",
+   "th": "เจ้าหญิงหนีออกจากวัง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": {
+   "en": "Rescue the princess",
+   "th": "ช่วยเจ้าหญิง"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-22",
+  "type": "star",
+  "name": {
+   "en": "The Clay Doll King",
+   "cn": "泥娃娃王",
+   "th": "ราชาตุ๊กตาดิน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the clay doll king on cave level 3",
+   "th": "ปราบราชาตุ๊กตาดินที่ถ้ำชั้น 3"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-23",
+  "type": "star",
+  "name": {
+   "en": "Heart's Bond",
+   "cn": "心之羈絆",
+   "th": "สายใยแห่งหัวใจ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": {
+   "en": "Requires the Close Shave quest first",
+   "th": "ต้องทำเควสเฉียดตายก่อน"
+  },
+  "reward": {
+   "en": "Star ×2",
+   "th": "ดาว ×2"
+  },
+  "stars": 2,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-24",
+  "type": "star",
+  "name": {
+   "en": "Brave Kanako",
+   "cn": "勇敢的香菜子",
+   "th": "คานาโกะผู้กล้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Japan",
+   "cn": "日本",
+   "th": "ญี่ปุ่น"
+  },
+  "npc": null,
+  "req": {
+   "en": "Find the herbs",
+   "th": "หาสมุนไพร"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-25",
+  "type": "star",
+  "name": {
+   "en": "The Snake Charmer's Flute",
+   "cn": "弄蛇人的笛子",
+   "th": "ปี่ของหมองู"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "India / Calcutta",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 4 poisoned snakes",
+   "th": "ปราบงูพิษ 4 ตัว"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-26",
+  "type": "star",
+  "name": {
+   "en": "The Hawaii Ball Tournament",
+   "cn": "夏威夷球賽",
+   "th": "การแข่งบอลฮาวาย"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Hawaii",
+   "cn": "夏威夷",
+   "th": "ฮาวาย"
+  },
+  "npc": null,
+  "req": {
+   "en": "Win the volleyball match",
+   "th": "ชนะการแข่งวอลเลย์บอล"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-27",
+  "type": "star",
+  "name": {
+   "en": "The Frog Prince",
+   "cn": "青蛙王子",
+   "th": "เจ้าชายกบ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 4 ghost creatures — party of 2, Lv40+",
+   "th": "ปราบผี 4 ตัว ทีม 2 คน เลเวล 40 ขึ้นไป"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-28",
+  "type": "star",
+  "name": {
+   "en": "The Big Island Ball Tournament",
+   "cn": "大島球賽",
+   "th": "การแข่งบอลเกาะใหญ่"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Big Island",
+   "cn": "大島",
+   "th": "เกาะใหญ่"
+  },
+  "npc": null,
+  "req": {
+   "en": "Win the volleyball match",
+   "th": "ชนะการแข่งวอลเลย์บอล"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-29",
+  "type": "star",
+  "name": {
+   "en": "Pandora's Box",
+   "cn": "潘朵拉的盒子",
+   "th": "กล่องแพนดอร่า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Snow Island",
+   "cn": "雪島",
+   "th": "เกาะหิมะ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 3 snowman formations and Medusa",
+   "th": "ปราบขบวนมนุษย์หิมะ 3 ชุด และเมดูซ่า"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-30",
+  "type": "star",
+  "name": {
+   "en": "The Mysterious Stranger",
+   "cn": "神秘的陌生人",
+   "th": "คนแปลกหน้าปริศนา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Egypt",
+   "cn": "埃及",
+   "th": "อียิปต์"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the Martians",
+   "th": "ปราบมนุษย์ดาวอังคาร"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-31",
+  "type": "star",
+  "name": {
+   "en": "Magellan is in Danger!",
+   "cn": "麥哲倫遇險！",
+   "th": "มาเจลลันตกอยู่ในอันตราย!"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Voyage map",
+   "cn": "航海圖",
+   "th": "แผนที่เดินเรือ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Requires Cliff and Proof of the World Conqueror",
+   "th": "ต้องมีคลิฟ และเครื่องพิสูจน์ผู้พิชิตโลก"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-32",
+  "type": "star",
+  "name": {
+   "en": "The Stolen Badge",
+   "cn": "被偷的徽章",
+   "th": "เหรียญตราที่ถูกขโมย"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Voyage map",
+   "cn": "航海圖",
+   "th": "แผนที่เดินเรือ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Talk to the sailors and pick the second option",
+   "th": "คุยกับลูกเรือแล้วเลือกตัวเลือกที่สอง"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-33",
+  "type": "star",
+  "name": {
+   "en": "The Secret of Sky City",
+   "cn": "天空之城的祕密",
+   "th": "ความลับของเมืองลอยฟ้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Sky City (Bannia)",
+   "cn": "天空之城",
+   "th": "เมืองลอยฟ้า"
+  },
+  "npc": null,
+  "req": {
+   "en": "Requires the Twin Gods of Light and Dark",
+   "th": "ต้องทำเควสทวยเทพแสงและความมืดก่อน"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-earn-34",
+  "type": "star",
+  "name": {
+   "en": "The Husband Gone Fishing",
+   "cn": "去釣魚的丈夫",
+   "th": "สามีที่ไปตกปลา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Cliff Village",
+   "cn": "崖村",
+   "th": "หมู่บ้านหน้าผา"
+  },
+  "npc": null,
+  "req": {
+   "en": "Find the husband on the coast",
+   "th": "ตามหาสามีที่ชายฝั่ง"
+  },
+  "reward": {
+   "en": "Star ×1",
+   "th": "ดาว ×1"
+  },
+  "stars": 1,
+  "starCost": 0,
+  "detail": null,
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "star-spend-01",
+  "type": "star",
+  "name": {
+   "en": "The Wailing Trial",
+   "cn": "威靈試煉",
+   "th": "บททดสอบเวยหลิง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the cave cat",
+   "th": "ปราบแมวในถ้ำ"
+  },
+  "reward": {
+   "en": "Soul Dodge (魂閃) skill",
+   "th": "สกิลวิญญาณหลบ (魂閃)"
+  },
+  "stars": 0,
+  "starCost": 3,
+  "detail": {
+   "en": "Costs Star ×3.",
+   "th": "ใช้ดาว ×3"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-02",
+  "type": "star",
+  "name": {
+   "en": "Tent Upgrade",
+   "cn": "帳篷擴建",
+   "th": "ขยายเต็นท์"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Land deed — a bigger tent",
+   "th": "โฉนดที่ดิน ได้เต็นท์ที่ใหญ่ขึ้น"
+  },
+  "stars": 0,
+  "starCost": 5,
+  "detail": {
+   "en": "Costs Star ×5.",
+   "th": "ใช้ดาว ×5"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-03",
+  "type": "star",
+  "name": {
+   "en": "Hide and Seek, Again",
+   "cn": "再玩一次捉迷藏",
+   "th": "เล่นซ่อนหาอีกครั้ง"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Escape-chance bangle",
+   "th": "กำไลเพิ่มโอกาสหนี"
+  },
+  "stars": 0,
+  "starCost": 3,
+  "detail": {
+   "en": "Costs Star ×3.",
+   "th": "ใช้ดาว ×3"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-04",
+  "type": "star",
+  "name": {
+   "en": "The Underground Path",
+   "cn": "地下通道",
+   "th": "ทางลับใต้ดิน"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Holy / Christian Village",
+   "cn": "基督村",
+   "th": "หมู่บ้านคริสเตียน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Tunnel key for the coastal dungeons",
+   "th": "กุญแจอุโมงค์สำหรับดันเจี้ยนชายฝั่ง"
+  },
+  "stars": 0,
+  "starCost": 5,
+  "detail": {
+   "en": "Costs Star ×5.",
+   "th": "ใช้ดาว ×5"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-05",
+  "type": "star",
+  "name": {
+   "en": "The Bouquet",
+   "cn": "花束任務",
+   "th": "ภารกิจช่อดอกไม้"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": null,
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Flowers — companion friendship +6",
+   "th": "ดอกไม้ ความสนิทเพื่อนร่วมทาง +6"
+  },
+  "stars": 0,
+  "starCost": 1,
+  "detail": {
+   "en": "Costs Star ×1.",
+   "th": "ใช้ดาว ×1"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-06",
+  "type": "star",
+  "name": {
+   "en": "The Mysterious Elder",
+   "cn": "神秘的長老",
+   "th": "ผู้เฒ่าปริศนา"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "India / Calcutta",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the poison snakes and the snake king",
+   "th": "ปราบงูพิษและราชางู"
+  },
+  "reward": {
+   "en": "Volley Arrow (箭雨) skill",
+   "th": "สกิลห่าธนู (箭雨)"
+  },
+  "stars": 0,
+  "starCost": 2,
+  "detail": {
+   "en": "Costs Star ×2.",
+   "th": "ใช้ดาว ×2"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-07",
+  "type": "star",
+  "name": {
+   "en": "The Tiger Quest",
+   "cn": "老虎任務",
+   "th": "ภารกิจเสือ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat 3 tiger types and the white tiger",
+   "th": "ปราบเสือ 3 ชนิด และเสือขาว"
+  },
+  "reward": {
+   "en": "Blood Suck (噬血擊) skill",
+   "th": "สกิลดูดเลือด (噬血擊)"
+  },
+  "stars": 0,
+  "starCost": 3,
+  "detail": {
+   "en": "Costs Star ×3.",
+   "th": "ใช้ดาว ×3"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-08",
+  "type": "star",
+  "name": {
+   "en": "Ares's Contract",
+   "cn": "亞雷斯的契約",
+   "th": "สัญญาของอาเรส"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Dinosaur Island",
+   "cn": "恐龍島",
+   "th": "เกาะไดโนเสาร์"
+  },
+  "npc": null,
+  "req": {
+   "en": "Ares friendship 70+",
+   "th": "ความสนิทของอาเรส 70+"
+  },
+  "reward": {
+   "en": "Soul-calming bracelet (鎮魂臂環)",
+   "th": "กำไลสงบวิญญาณ (鎮魂臂環)"
+  },
+  "stars": 0,
+  "starCost": 1,
+  "detail": {
+   "en": "Costs Star ×1.",
+   "th": "ใช้ดาว ×1"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-09",
+  "type": "star",
+  "name": {
+   "en": "The Heart Lock",
+   "cn": "心鎖",
+   "th": "กุญแจใจ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Korea",
+   "cn": "韓國",
+   "th": "เกาหลี"
+  },
+  "npc": null,
+  "req": {
+   "en": "Defeat the unicorn snow monster and 8 bats",
+   "th": "ปราบมอนสเตอร์หิมะยูนิคอร์นและค้างคาว 8 ตัว"
+  },
+  "reward": {
+   "en": "Four-element Goddess skill",
+   "th": "สกิลเทพธิดาสี่ธาตุ"
+  },
+  "stars": 0,
+  "starCost": 5,
+  "detail": {
+   "en": "Costs Star ×5.",
+   "th": "ใช้ดาว ×5"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "star-spend-10",
+  "type": "star",
+  "name": {
+   "en": "The Valkyrie Trial",
+   "cn": "女武神試煉",
+   "th": "บททดสอบวาลคิรี"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Lion Island",
+   "cn": "獅子島",
+   "th": "เกาะสิงโต"
+  },
+  "npc": null,
+  "req": {
+   "en": "Activate the sacred beast statue",
+   "th": "เปิดใช้งานรูปปั้นสัตว์ศักดิ์สิทธิ์"
+  },
+  "reward": {
+   "en": "Four-element Goddess skill",
+   "th": "สกิลเทพธิดาสี่ธาตุ"
+  },
+  "stars": 0,
+  "starCost": 7,
+  "detail": {
+   "en": "Costs Star ×7.",
+   "th": "ใช้ดาว ×7"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
+   "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
+  },
+  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+ },
+ {
+  "id": "skill-ancestor",
+  "type": "skill",
+  "name": {
+   "en": "Guidance from the Ancestors",
+   "cn": "來自英傑的指引",
+   "th": "คำชี้แนะจากบรรพชนผู้กล้า"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Brontosaurus Island",
+   "cn": "雷龍島",
+   "th": "เกาะมังกรสายฟ้า"
+  },
+  "npc": {
+   "en": "The Ancestor's Disciple",
+   "cn": "英傑的徒弟",
+   "th": "ศิษย์ของบรรพชน"
+  },
+  "req": {
+   "en": "Main quest Go to Antarctica (前往南極) complete. Cost: Magic Jade Stone ×1 + Star ×5 + 100 Star Dust of your own element.",
+   "th": "ต้องจบเควสหลัก มุ่งสู่ขั้วโลกใต้ (前往南極) ก่อน ค่าใช้จ่าย: หินหยกเวทมนตร์ ×1 + ดาว ×5 + ผงดารา ธาตุเดียวกับตัวเอง ×100"
+  },
+  "reward": {
+   "en": "Your element's Ancestor Skill, permanent, + 12,000 EXP",
+   "th": "สกิลบรรพชนตามธาตุของตัวเอง ถาวร + EXP 12,000"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "1) Accept from the Ancestor's Disciple at your element's Ancestor area — Wind: North Island, Fire: South Island, Earth: Australia, Water: Antarctica. 2) Go to Brontosaurus Island around (4500, 4185) and pick up the Mysterious Scroll under a coconut tree — the hint is 'the heart of the dinosaur'. 3) Return and hand over the three items to awaken the scroll. 4) Fight all four Ancestors: Lv160, 13,168 HP each. Bring a party.",
+   "th": "1) รับเควสจากศิษย์ของบรรพชน ในพื้นที่บรรพชนธาตุเดียวกับตัวเอง — ลม: เกาะเหนือ / ไฟ: เกาะใต้ / ดิน: ออสเตรเลีย / น้ำ: ขั้วโลกใต้  2) ไปเกาะมังกรสายฟ้า พิกัดราว (4500, 4185) เก็บม้วนคัมภีร์ปริศนาใต้ต้นมะพร้าว คำใบ้คือ 'ตำแหน่งหัวใจของไดโนเสาร์'  3) กลับไปส่งของทั้งสามอย่างเพื่อปลุกพลังในม้วนคัมภีร์  4) สู้กับบรรพชนทั้งสี่ เลเวล 160 HP ตัวละ 13,168 — ควรไปเป็นทีม"
+  },
+  "confidence": "RE-verified",
+  "note": {
+   "en": "One source says 80 Star Dust instead of 100 — trust what the client shows. Skills: Earth 戰意宣言 forced taunt 3 turns, unresistable · Water 天恩甘霖 heal and revive 6 allies · Fire 焰心解放 crit rate and damage up 3 turns · Wind 御風護佑 evasion up 3 turns.",
+   "th": "มีแหล่งหนึ่งบอกว่าใช้ผงดารา 80 ไม่ใช่ 100 ให้ยึดตามที่เกมแสดง สกิล: ดิน 戰意宣言 บังคับดึงเป้า 3 เทิร์น ต้านไม่ได้ · น้ำ 天恩甘霖 ฟื้น HP และชุบชีวิตพวกพ้อง 6 คน · ไฟ 焰心解放 เพิ่มอัตราและความแรงคริ 3 เทิร์น · ลม 御風護佑 เพิ่มการหลบ 3 เทิร์น"
+  },
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "skill-ancestor-daily",
+  "type": "skill",
+  "name": {
+   "en": "Daily Ancestor Challenge",
+   "cn": "每日英傑任務 / 挑戰英傑",
+   "th": "เควสท้าบรรพชนรายวัน"
+  },
+  "thConfirmed": false,
+  "lv": 35,
+  "region": null,
+  "npc": null,
+  "req": {
+   "en": "Level 35+, 3 attempts per day",
+   "th": "เลเวล 35 ขึ้นไป วันละ 3 ครั้ง"
+  },
+  "reward": {
+   "en": "Star Dust — random element and quantity",
+   "th": "ผงดารา สุ่มธาตุและจำนวน"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "The four Ancestors rotate together between three fixed spot sets. Check the Kelan cave mouth first, then the Holy Village tree; if neither, it is the third set. Fleeing does not consume an attempt.",
+   "th": "บรรพชนทั้งสี่ย้ายที่พร้อมกันระหว่างชุดตำแหน่ง 3 ชุด ให้ดูที่ปากถ้ำหมู่บ้านเคลันก่อน แล้วดูใต้ต้นไม้หน้าหมู่บ้านคริสเตียน ถ้าไม่มีทั้งสองที่คือชุดที่สาม การหนีไม่เสียจำนวนครั้ง"
+  },
+  "confidence": "RE-verified",
+  "note": null,
+  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+ },
+ {
+  "id": "skill-legacy-1",
+  "type": "skill",
+  "name": {
+   "en": "Soul Dodge",
+   "cn": "魂閃",
+   "th": "วิญญาณหลบ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Soul Dodge skill",
+   "th": "สกิลวิญญาณหลบ"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "The Wailing Trial — 3 stars, defeat the cave cat",
+   "th": "บททดสอบเวยหลิง — 3 ดาว ปราบแมวในถ้ำ"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
+   "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "skill-legacy-2",
+  "type": "skill",
+  "name": {
+   "en": "Volley Arrow",
+   "cn": "箭雨",
+   "th": "ห่าธนู"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "India / Calcutta",
+   "cn": "印度",
+   "th": "อินเดีย"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Volley Arrow skill",
+   "th": "สกิลห่าธนู"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "The Mysterious Elder — 2 stars, defeat the poison snakes and snake king",
+   "th": "ผู้เฒ่าปริศนา — 2 ดาว ปราบงูพิษและราชางู"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
+   "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "skill-legacy-3",
+  "type": "skill",
+  "name": {
+   "en": "Blood Suck",
+   "cn": "噬血擊",
+   "th": "ดูดเลือด"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "China",
+   "cn": "中國",
+   "th": "จีน"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Blood Suck skill",
+   "th": "สกิลดูดเลือด"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "The Tiger Quest — 3 stars, defeat 3 tiger types and the white tiger",
+   "th": "ภารกิจเสือ — 3 ดาว ปราบเสือ 3 ชนิดและเสือขาว"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
+   "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ },
+ {
+  "id": "skill-legacy-4",
+  "type": "skill",
+  "name": {
+   "en": "Four-element Goddess",
+   "cn": "四元素女神",
+   "th": "เทพธิดาสี่ธาตุ"
+  },
+  "thConfirmed": false,
+  "lv": null,
+  "region": {
+   "en": "Korea",
+   "cn": "韓國",
+   "th": "เกาหลี"
+  },
+  "npc": null,
+  "req": null,
+  "reward": {
+   "en": "Four-element Goddess skill",
+   "th": "สกิลเทพธิดาสี่ธาตุ"
+  },
+  "stars": 0,
+  "starCost": 0,
+  "detail": {
+   "en": "The Heart Lock (5 stars, Korea) or the Valkyrie Trial (7 stars, Lion Island)",
+   "th": "กุญแจใจ (5 ดาว เกาหลี) หรือ บททดสอบวาลคิรี (7 ดาว เกาะสิงโต)"
+  },
+  "confidence": "LEGACY",
+  "note": {
+   "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
+   "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
+  },
+  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+ }
+]

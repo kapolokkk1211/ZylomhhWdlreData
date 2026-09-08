@@ -29,6 +29,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const [verified, setVerified] = useState(false);
   const [statf, setStatf] = useState({ stat: 'ATK', op: '>', val: '' }); // one stat filter; blank value = off
   const [sort, setSort] = useState({ key: null, dir: 'desc' }); // key: null | 'rank' | 'stat'
+  const [openRc, setOpenRc] = useState(null); // recipe cell opened by tap (mobile has no hover)
   const [basket, setBasket] = useState([]);
   useEffect(() => { setBasket(readBasket()); return subscribeBasket(setBasket); }, []);
   const inBasket = useMemo(() => new Set(basket), [basket]);
@@ -116,6 +117,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const name = (r) => (lang === 'th' ? r[8] || r[6] : r[6]);
   const altName = (r) => [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · ');
   const recipe = (r) => (lang === 'th' ? r[11] || r[10] : r[10]);
+  const fullRecipe = (r) => [recipe(r) || '—', r[17]].filter(Boolean).join('\n');
+  // Two clamped lines fit roughly 60 characters at this column width; longer rows get the hover panel.
+  const isLong = (r) => fullRecipe(r).length > 58;
 
 
   return (
@@ -236,9 +240,17 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     {g.row[2].length > 0 && ' · ' + g.row[2].map((f) => labels.family[f]?.label || f).join(' · ')}
                   </td>
                   <td className="st c-st" data-l={strings.stats}>{g.row[9]}</td>
-                  <td className="rc c-rc" data-l={strings.recipe}>
-                    {recipe(g.row) || '—'}
-                    {g.row[17] && <div style={{ marginTop: 4, opacity: 0.75 }}>{g.row[17]}</div>}
+                  <td
+                    className={`rc c-rc${openRc === g.row[0] ? ' open' : ''}`}
+                    data-l={strings.recipe}
+                    data-more={isLong(g.row) ? '1' : '0'}
+                    title={isLong(g.row) ? fullRecipe(g.row) : undefined}
+                    onClick={() => isLong(g.row) && setOpenRc((v) => (v === g.row[0] ? null : g.row[0]))}
+                  >
+                    <div className="rc-in">
+                      {recipe(g.row) || '—'}
+                      {g.row[17] && <div className="rc-note">{g.row[17]}</div>}
+                    </div>
                   </td>
                   <td className="c-add">
                     <button

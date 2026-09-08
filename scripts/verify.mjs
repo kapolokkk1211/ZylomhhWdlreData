@@ -1,10 +1,11 @@
 import fs from 'fs';
 const J=f=>JSON.parse(fs.readFileSync('content/data/'+f,'utf8'));
 const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
-      towns=J('towns.json'), gloss=J('glossary.json');
+      towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json');
 const fams=new Set(codes.families.map(f=>f.key)), slots=new Set(codes.slots.map(s=>s.key)),
       stats=new Set(codes.stats.map(s=>s.key)), confs=new Set(codes.confidence.map(c=>c.key)),
-      townKeys=new Set(towns.map(t=>t.key));
+      townKeys=new Set(towns.map(t=>t.key)),
+      qtypes=new Set((codes.questTypes||[]).map(t=>t.key));
 const err=[],warn=[];
 const ids=new Set();
 for(const r of comp){
@@ -28,6 +29,18 @@ for(const r of mats){
     if(!['shop','craft','drop','gather','scroll'].includes(s.type))err.push('bad source type '+s.type+' @'+r.id);
   });
 }
+const qids=new Set();
+for(const r of quests){
+  if(qids.has(r.id))err.push('dup quest id '+r.id); qids.add(r.id);
+  if(!qtypes.has(r.type))err.push('bad quest type '+r.type+' @'+r.id);
+  if(!confs.has(r.confidence))err.push('bad confidence @'+r.id);
+  if(!r.name?.en||!r.name?.th)err.push('quest missing a name language @'+r.id);
+  if(r.thConfirmed&&!r.name.th)err.push('quest thConfirmed without a Thai name @'+r.id);
+  for(const k of ['req','reward','detail','note']){
+    const v=r[k]; if(v&&(!v.en||!v.th))warn.push(`quest ${k} missing a language: ${r.id}`);
+  }
+}
+
 // spot checks against the knowledge base
 const find=(en,rank)=>comp.find(r=>r.name.en===en&&r.rank===rank);
 const spot=[
@@ -36,11 +49,13 @@ const spot=[
  ['Steel Blade r6 = KK-tested, Thai name set',()=>{const r=find('Steel Blade',6);return r&&r.confidence==='KK-tested'&&r.name.th==='มีดเหล็กกล้า'}],
  ['Star Essence r22 exists in the Star family',()=>!!comp.find(r=>r.family==='Star'&&r.rank===22)],
  ['Wolf Fang is a rank-20 Bone drop from Snow Wolf lv60',()=>{const m=mats.find(x=>x.name.en==='Wolf Fang');return m&&m.rank===20&&m.family==='Bone'&&m.sources[0].mob.includes('Snow Wolf')}],
+ ['Ancestor skill quest is RE-verified and needs 前往南極',()=>{const q=quests.find(x=>x.id==='skill-ancestor');return q&&q.type==='skill'&&q.confidence==='RE-verified'&&q.req.en.includes('Antarctica')}],
+ ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
  ['Hawaii is flagged not-in-re',()=>towns.find(t=>t.key==='hawaii').thStatus==='not-in-re'],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],
 ];
 console.log('=== SCHEMA ===');
-console.log('compounds',comp.length,'| materials',mats.length,'| towns',towns.length,
+console.log('compounds',comp.length,'| materials',mats.length,'| quests',quests.length,'| towns',towns.length,
  '| glossary',Object.values(gloss).flat().length,'| families',codes.families.length);
 console.log('errors:',err.length); err.slice(0,20).forEach(e=>console.log('  ✗',e));
 console.log('warnings:',warn.length); warn.slice(0,10).forEach(w=>console.log('  ⚠',w));
