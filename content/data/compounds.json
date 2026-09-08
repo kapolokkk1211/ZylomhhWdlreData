@@ -48,7 +48,7 @@
   "name": {
    "en": "Steel Sword",
    "cn": "鋼劍",
-   "th": null
+   "th": "ดาบเหล็กกล้า"
   },
   "stats": [
    {
@@ -83,7 +83,7 @@
   "name": {
    "en": "Steel Claw",
    "cn": "鋼鐵爪",
-   "th": null
+   "th": "กรงเล็บเหล็กกล้า"
   },
   "stats": [
    {
@@ -116,7 +116,7 @@
   "name": {
    "en": "Grapple Fist Claw",
    "cn": "格鬥拳爪",
-   "th": null
+   "th": "กรงเล็บหมัดจับ"
   },
   "stats": [
    {
@@ -149,7 +149,7 @@
   "name": {
    "en": "Frenzy Claw",
    "cn": "瘋狂之爪",
-   "th": null
+   "th": "กรงเล็บคลั่ง"
   },
   "stats": [
    {
@@ -182,7 +182,7 @@
   "name": {
    "en": "Steel Material",
    "cn": "鋼材",
-   "th": null
+   "th": "วัสดุเหล็กกล้า"
   },
   "stats": [],
   "statsNote": null,
@@ -208,7 +208,7 @@
   "name": {
    "en": "Steel Spear",
    "cn": "鋼鐵槍",
-   "th": null
+   "th": "หอกเหล็กกล้า"
   },
   "stats": [
    {
@@ -237,7 +237,7 @@
   "name": {
    "en": "Full-Moon Twin Claws",
    "cn": "圓月雙爪",
-   "th": null
+   "th": "กรงเล็บคู่จันทร์เต็มดวง"
   },
   "stats": [
    {
@@ -270,7 +270,7 @@
   "name": {
    "en": "Refined Steel Shoes",
    "cn": "精煉鋼鞋",
-   "th": null
+   "th": "รองเท้าเหล็กกล้าประณีต"
   },
   "stats": [
    {
@@ -303,7 +303,7 @@
   "name": {
    "en": "Ferocious Claw",
    "cn": "猛暴之爪",
-   "th": null
+   "th": "กรงเล็บดุร้าย"
   },
   "stats": [
    {
@@ -336,7 +336,7 @@
   "name": {
    "en": "Copper-Skin Heavy Boots",
    "cn": "銅皮重靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนักหนังทองแดง"
   },
   "stats": [
    {
@@ -371,7 +371,7 @@
   "name": {
    "en": "Steel Greatblade",
    "cn": "鋼鐵大刀",
-   "th": null
+   "th": "ดาบใหญ่เหล็กกล้า"
   },
   "stats": [
    {
@@ -407,7 +407,7 @@
   "name": {
    "en": "Fishfang Steel Sword",
    "cn": "魚刃鋼鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกล้าเขี้ยวปลา"
   },
   "stats": [
    {
@@ -440,7 +440,7 @@
   "name": {
    "en": "Golden Claw",
    "cn": "黃金手爪",
-   "th": null
+   "th": "กรงเล็บทอง"
   },
   "stats": [
    {
@@ -475,7 +475,7 @@
   "name": {
    "en": "Twin-Edge Steel Axe",
    "cn": "雙刃鋼鐵斧",
-   "th": null
+   "th": "ขวานเหล็กกล้าสองคม"
   },
   "stats": [
    {
@@ -508,7 +508,7 @@
   "name": {
    "en": "Lion King Claw",
    "cn": "獅王之爪",
-   "th": null
+   "th": "กรงเล็บราชสีห์"
   },
   "stats": [
    {
@@ -541,7 +541,7 @@
   "name": {
    "en": "Bloody Claw",
    "cn": "血腥之爪",
-   "th": null
+   "th": "กรงเล็บโชกเลือด"
   },
   "stats": [
    {
@@ -576,7 +576,7 @@
   "name": {
    "en": "War Steel Spear",
    "cn": "軍戰鋼鐵槍",
-   "th": null
+   "th": "หอกเหล็กกล้ารบ"
   },
   "stats": [
    {
@@ -605,7 +605,7 @@
   "name": {
    "en": "Twin Spike Rings",
    "cn": "利刺雙環",
-   "th": null
+   "th": "ห่วงหนามคู่"
   },
   "stats": [
    {
@@ -634,7 +634,7 @@
   "name": {
    "en": "Poison Fang",
    "cn": "毒刃牙",
-   "th": null
+   "th": "มีดเขี้ยวพิษ"
   },
   "stats": [
    {
@@ -669,7 +669,7 @@
   "name": {
    "en": "Steel Sabre",
    "cn": "鋼鐵軍刀",
-   "th": null
+   "th": "ดาบโค้งเหล็กกล้า"
   },
   "stats": [
    {
@@ -704,7 +704,7 @@
   "name": {
    "en": "Broad Steel Sword",
    "cn": "寬刃鋼鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกล้ากว้าง"
   },
   "stats": [
    {
@@ -739,7 +739,7 @@
   "name": {
    "en": "Single-Face Steel Axe",
    "cn": "鋼鐵單面斧",
-   "th": null
+   "th": "ขวานเหล็กกล้าคมเดียว"
   },
   "stats": [
    {
@@ -772,7 +772,7 @@
   "name": {
    "en": "Demonslayer Fang",
    "cn": "弒魔牙刃",
-   "th": null
+   "th": "มีดเขี้ยวสังหารปีศาจ"
   },
   "stats": [
    {
@@ -805,7 +805,7 @@
   "name": {
    "en": "Steel Wing Boots",
    "cn": "鋼翼靴",
-   "th": null
+   "th": "รองเท้าบู๊ตปีกเหล็กกล้า"
   },
   "stats": [
    {
@@ -840,7 +840,7 @@
   "name": {
    "en": "Black Steel Thorn Bracer",
    "cn": "黑鋼刺腕",
-   "th": null
+   "th": "ปลอกแขนหนามเหล็กกล้าดำ"
   },
   "stats": [
    {
@@ -875,7 +875,7 @@
   "name": {
    "en": "Sea Blue Scale Armor",
    "cn": "海藍鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดน้ำเงินทะเล"
   },
   "stats": [
    {
@@ -906,7 +906,7 @@
   "name": {
    "en": "Small War Axe",
    "cn": "小戰斧",
-   "th": null
+   "th": "ขวานรบเล็ก"
   },
   "stats": [
    {
@@ -941,7 +941,7 @@
   "name": {
    "en": "Momotaro's Axe",
    "cn": "桃太郎之斧",
-   "th": null
+   "th": "ขวานโมโมทาโร่"
   },
   "stats": [
    {
@@ -976,7 +976,7 @@
   "name": {
    "en": "Obsidian Steel Shoes",
    "cn": "黑曜鋼鞋",
-   "th": null
+   "th": "รองเท้าเหล็กกล้าออบซิเดียน"
   },
   "stats": [
    {
@@ -1007,7 +1007,7 @@
   "name": {
    "en": "Bone Steel Sword",
    "cn": "獸骨鋼鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกล้ากระดูก"
   },
   "stats": [
    {
@@ -1042,7 +1042,7 @@
   "name": {
    "en": "Broad Axe",
    "cn": "闊斧",
-   "th": null
+   "th": "ขวานกว้าง"
   },
   "stats": [
    {
@@ -1077,7 +1077,7 @@
   "name": {
    "en": "Steel Mage Crown",
    "cn": "鋼法冠",
-   "th": null
+   "th": "มงกุฎเมจเหล็กกล้า"
   },
   "stats": [
    {
@@ -1112,7 +1112,7 @@
   "name": {
    "en": "Steel Hammer",
    "cn": "鋼槌",
-   "th": null
+   "th": "ค้อนเหล็กกล้า"
   },
   "stats": [
    {
@@ -1147,7 +1147,7 @@
   "name": {
    "en": "Crown",
    "cn": "王冠",
-   "th": null
+   "th": "มงกุฎ"
   },
   "stats": [
    {
@@ -1182,7 +1182,7 @@
   "name": {
    "en": "Water Spirit Guards",
    "cn": "水靈護手",
-   "th": null
+   "th": "การ์ดมือวิญญาณน้ำ"
   },
   "stats": [
    {
@@ -1217,7 +1217,7 @@
   "name": {
    "en": "Wolf Fang Iron Rod",
    "cn": "狼牙鐵棒",
-   "th": null
+   "th": "ท่อนเหล็กเขี้ยวหมาป่า"
   },
   "stats": [
    {
@@ -1250,7 +1250,7 @@
   "name": {
    "en": "Steel Pirate Hat",
    "cn": "鋼煉海賊帽",
-   "th": null
+   "th": "หมวกโจรสลัดเหล็กกล้า"
   },
   "stats": [
    {
@@ -1279,7 +1279,7 @@
   "name": {
    "en": "Knight's Long Boots",
    "cn": "騎士長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวอัศวิน"
   },
   "stats": [
    {
@@ -1310,7 +1310,7 @@
   "name": {
    "en": "Yaksha Demon Blade",
    "cn": "夜叉鬼刀",
-   "th": null
+   "th": "มีดยักษ์"
   },
   "stats": [
    {
@@ -1346,7 +1346,7 @@
   "name": {
    "en": "Nightshade Heavy Hammer",
    "cn": "夜影重槌",
-   "th": null
+   "th": "ค้อนหนักเงาราตรี"
   },
   "stats": [
    {
@@ -1381,7 +1381,7 @@
   "name": {
    "en": "Triple-Edge Steel Sword",
    "cn": "三刃鋼鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกล้าสามคม"
   },
   "stats": [
    {
@@ -1416,7 +1416,7 @@
   "name": {
    "en": "Evil Dragon Venom Blade",
    "cn": "邪龍毒刀",
-   "th": null
+   "th": "มีดพิษมังกรชั่ว"
   },
   "stats": [
    {
@@ -1451,7 +1451,7 @@
   "name": {
    "en": "Black Iron Poleaxe",
    "cn": "玄鐵長柄斧",
-   "th": null
+   "th": "ขวานด้ามยาวเหล็กดำ"
   },
   "stats": [
    {
@@ -1484,7 +1484,7 @@
   "name": {
    "en": "Steel Plate Armor",
    "cn": "鋼鐵鎧甲",
-   "th": null
+   "th": "เกราะแผ่นเหล็กกล้า"
   },
   "stats": [
    {
@@ -1513,7 +1513,7 @@
   "name": {
    "en": "Blue Steel Armor",
    "cn": "藍鋼甲",
-   "th": null
+   "th": "เกราะเหล็กกล้าน้ำเงิน"
   },
   "stats": [
    {
@@ -1546,7 +1546,7 @@
   "name": {
    "en": "Knight's War Boots",
    "cn": "騎士戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบอัศวิน"
   },
   "stats": [
    {
@@ -1581,7 +1581,7 @@
   "name": {
    "en": "Clear Sky Battle Armor",
    "cn": "晴空戰鎧",
-   "th": null
+   "th": "เกราะรบฟ้าใส"
   },
   "stats": [
    {
@@ -1614,7 +1614,7 @@
   "name": {
    "en": "Elite Knight Long Boots",
    "cn": "精銳騎士長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวอัศวินชั้นยอด"
   },
   "stats": [
    {
@@ -1649,7 +1649,7 @@
   "name": {
    "en": "Steel Trident",
    "cn": "鋼鐵三叉戟",
-   "th": null
+   "th": "สามง่ามเหล็กกล้า"
   },
   "stats": [
    {
@@ -1680,7 +1680,7 @@
   "name": {
    "en": "Guardian's Sword",
    "cn": "守護者之劍",
-   "th": null
+   "th": "ดาบผู้พิทักษ์"
   },
   "stats": [
    {
@@ -1713,7 +1713,7 @@
   "name": {
    "en": "Steel Roman Helm",
    "cn": "鋼鐵羅馬盔",
-   "th": null
+   "th": "หมวกเกราะโรมันเหล็กกล้า"
   },
   "stats": [
    {
@@ -1748,7 +1748,7 @@
   "name": {
    "en": "Sea King Spear",
    "cn": "海王尖槍",
-   "th": null
+   "th": "หอกราชาทะเล"
   },
   "stats": [
    {
@@ -1780,7 +1780,7 @@
   "name": {
    "en": "Great War Spear",
    "cn": "巨戰長槍",
-   "th": null
+   "th": "หอกรบใหญ่"
   },
   "stats": [
    {
@@ -1816,7 +1816,7 @@
   "name": {
    "en": "Eagle Wing Circlet",
    "cn": "鷹翼護額",
-   "th": null
+   "th": "รัดเกล้าปีกอินทรี"
   },
   "stats": [
    {
@@ -1849,7 +1849,7 @@
   "name": {
    "en": "Glory Hand Blade",
    "cn": "榮耀手戰",
-   "th": null
+   "th": "มีดมือเกียรติยศ"
   },
   "stats": [
    {
@@ -1882,7 +1882,7 @@
   "name": {
    "en": "Straw Sandals",
    "cn": "履鞋",
-   "th": null
+   "th": "รองเท้าแตะฟาง"
   },
   "stats": [
    {
@@ -1913,7 +1913,7 @@
   "name": {
    "en": "Iron Ore",
    "cn": "鐵礦",
-   "th": null
+   "th": "แร่เหล็ก"
   },
   "stats": [],
   "statsNote": null,
@@ -1939,7 +1939,7 @@
   "name": {
    "en": "Iron Blade",
    "cn": "鐵刀",
-   "th": null
+   "th": "มีดเหล็ก"
   },
   "stats": [
    {
@@ -1974,7 +1974,7 @@
   "name": {
    "en": "Iron Sword",
    "cn": "鐵劍",
-   "th": null
+   "th": "ดาบเหล็ก"
   },
   "stats": [
    {
@@ -2007,7 +2007,7 @@
   "name": {
    "en": "Iron Claw",
    "cn": "鐵爪",
-   "th": null
+   "th": "กรงเล็บเหล็ก"
   },
   "stats": [
    {
@@ -2042,7 +2042,7 @@
   "name": {
    "en": "Iron Spear",
    "cn": "鐵槍",
-   "th": null
+   "th": "หอกเหล็ก"
   },
   "stats": [
    {
@@ -2073,7 +2073,7 @@
   "name": {
    "en": "Iron Bracers",
    "cn": "鐵護腕",
-   "th": null
+   "th": "ปลอกแขนเหล็ก"
   },
   "stats": [
    {
@@ -2106,7 +2106,7 @@
   "name": {
    "en": "Wrought Iron Material",
    "cn": "熟鐵材",
-   "th": null
+   "th": "วัสดุเหล็กเหนียว"
   },
   "stats": [],
   "statsNote": null,
@@ -2132,7 +2132,7 @@
   "name": {
    "en": "Iron Greatblade",
    "cn": "鐵大刀",
-   "th": null
+   "th": "ดาบใหญ่เหล็ก"
   },
   "stats": [
    {
@@ -2168,7 +2168,7 @@
   "name": {
    "en": "Fishfang Iron Sword",
    "cn": "魚刃鐵劍",
-   "th": null
+   "th": "ดาบเหล็กเขี้ยวปลา"
   },
   "stats": [
    {
@@ -2203,7 +2203,7 @@
   "name": {
    "en": "Twin-Edge Iron Axe",
    "cn": "雙刃鐵斧",
-   "th": null
+   "th": "ขวานเหล็กสองคม"
   },
   "stats": [
    {
@@ -2238,7 +2238,7 @@
   "name": {
    "en": "Cold Iron Blade",
    "cn": "冷鐵刀",
-   "th": null
+   "th": "มีดเหล็กเย็น"
   },
   "stats": [
    {
@@ -2273,7 +2273,7 @@
   "name": {
    "en": "Thorn Iron Club",
    "cn": "刺鐵棒",
-   "th": null
+   "th": "กระบองเหล็กหนาม"
   },
   "stats": [
    {
@@ -2308,7 +2308,7 @@
   "name": {
    "en": "Indian Curved Blade",
    "cn": "印度彎刀",
-   "th": null
+   "th": "มีดโค้งอินเดีย"
   },
   "stats": [
    {
@@ -2343,7 +2343,7 @@
   "name": {
    "en": "Advanced Thorn Iron Club",
    "cn": "高級刺鐵棒",
-   "th": null
+   "th": "กระบองเหล็กหนามขั้นสูง"
   },
   "stats": [
    {
@@ -2378,7 +2378,7 @@
   "name": {
    "en": "War Iron Spear",
    "cn": "軍戰鐵槍",
-   "th": null
+   "th": "หอกเหล็กรบ"
   },
   "stats": [
    {
@@ -2409,7 +2409,7 @@
   "name": {
    "en": "Iron Sabre",
    "cn": "鐵軍刀",
-   "th": null
+   "th": "ดาบโค้งเหล็ก"
   },
   "stats": [
    {
@@ -2444,7 +2444,7 @@
   "name": {
    "en": "Great Sword",
    "cn": "大劍",
-   "th": null
+   "th": "ดาบใหญ่"
   },
   "stats": [
    {
@@ -2479,7 +2479,7 @@
   "name": {
    "en": "Broad Iron Sword",
    "cn": "寬刃鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกว้าง"
   },
   "stats": [
    {
@@ -2514,7 +2514,7 @@
   "name": {
    "en": "Iron Axe",
    "cn": "鐵斧",
-   "th": null
+   "th": "ขวานเหล็ก"
   },
   "stats": [
    {
@@ -2549,7 +2549,7 @@
   "name": {
    "en": "Samurai Blade",
    "cn": "武士刀",
-   "th": null
+   "th": "มีดซามูไร"
   },
   "stats": [
    {
@@ -2584,7 +2584,7 @@
   "name": {
    "en": "Knight's Long Spear",
    "cn": "騎士長槍",
-   "th": null
+   "th": "หอกยาวอัศวิน"
   },
   "stats": [
    {
@@ -2616,7 +2616,7 @@
   "name": {
    "en": "Samurai Gold Helm",
    "cn": "武者金兜",
-   "th": null
+   "th": "หมวกเกราะทองซามูไร"
   },
   "stats": [
    {
@@ -2652,7 +2652,7 @@
   "name": {
    "en": "Iron Circlet",
    "cn": "鐵護額",
-   "th": null
+   "th": "รัดเกล้าเหล็ก"
   },
   "stats": [
    {
@@ -2687,7 +2687,7 @@
   "name": {
    "en": "Heavy Knight Long Spear",
    "cn": "重騎士長槍",
-   "th": null
+   "th": "หอกยาวอัศวินหนัก"
   },
   "stats": [
    {
@@ -2716,7 +2716,7 @@
   "name": {
    "en": "Ice Thorn Bracers",
    "cn": "冰刺護腕",
-   "th": null
+   "th": "ปลอกแขนหนามน้ำแข็ง"
   },
   "stats": [
    {
@@ -2751,7 +2751,7 @@
   "name": {
    "en": "Tough Leather Armor",
    "cn": "韌皮甲",
-   "th": null
+   "th": "เกราะหนังเหนียว"
   },
   "stats": [
    {
@@ -2782,7 +2782,7 @@
   "name": {
    "en": "Iron War Boots",
    "cn": "鐵戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบเหล็ก"
   },
   "stats": [
    {
@@ -2817,7 +2817,7 @@
   "name": {
    "en": "Elite Knight Long Spear",
    "cn": "精銳騎士長槍",
-   "th": null
+   "th": "หอกยาวอัศวินชั้นยอด"
   },
   "stats": [
    {
@@ -2848,7 +2848,7 @@
   "name": {
    "en": "Wind Blade",
    "cn": "遊風刃",
-   "th": null
+   "th": "มีดลม"
   },
   "stats": [
    {
@@ -2883,7 +2883,7 @@
   "name": {
    "en": "Iron Hemp Shoes",
    "cn": "鐵麻鞋",
-   "th": null
+   "th": "รองเท้าป่านเหล็ก"
   },
   "stats": [
    {
@@ -2918,7 +2918,7 @@
   "name": {
    "en": "Broad Blade Spear",
    "cn": "闊刃槍",
-   "th": null
+   "th": "หอกใบมีดกว้าง"
   },
   "stats": [
    {
@@ -2949,7 +2949,7 @@
   "name": {
    "en": "Pink Crystal Helm",
    "cn": "粉晶頭盔",
-   "th": null
+   "th": "หมวกเกราะคริสตัลชมพู"
   },
   "stats": [
    {
@@ -2984,7 +2984,7 @@
   "name": {
    "en": "Crescent Blade",
    "cn": "新月刀",
-   "th": null
+   "th": "มีดจันทร์เสี้ยว"
   },
   "stats": [
    {
@@ -3019,7 +3019,7 @@
   "name": {
    "en": "Bone Iron Sword",
    "cn": "獸骨鐵劍",
-   "th": null
+   "th": "ดาบเหล็กกระดูก"
   },
   "stats": [
    {
@@ -3054,7 +3054,7 @@
   "name": {
    "en": "Blue Crystal Helm",
    "cn": "藍晶頭盔",
-   "th": null
+   "th": "หมวกเกราะคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -3085,7 +3085,7 @@
   "name": {
    "en": "Iron Mage Crown",
    "cn": "鐵法冠",
-   "th": null
+   "th": "มงกุฎเมจเหล็ก"
   },
   "stats": [
    {
@@ -3121,7 +3121,7 @@
   "name": {
    "en": "Bone Long Spear",
    "cn": "獸骨長槍",
-   "th": null
+   "th": "หอกยาวกระดูก"
   },
   "stats": [
    {
@@ -3152,7 +3152,7 @@
   "name": {
    "en": "Crescent Steel Blade",
    "cn": "彎月鋼鐵刀",
-   "th": null
+   "th": "มีดเหล็กกล้าจันทร์เสี้ยว"
   },
   "stats": [
    {
@@ -3187,7 +3187,7 @@
   "name": {
    "en": "Iron Hammer",
    "cn": "鐵槌",
-   "th": null
+   "th": "ค้อนเหล็ก"
   },
   "stats": [
    {
@@ -3222,7 +3222,7 @@
   "name": {
    "en": "Crystal Helm",
    "cn": "水晶頭盔",
-   "th": null
+   "th": "หมวกเกราะคริสตัล"
   },
   "stats": [
    {
@@ -3257,7 +3257,7 @@
   "name": {
    "en": "Mithril Armor",
    "cn": "密銀甲",
-   "th": null
+   "th": "เกราะมิธริล"
   },
   "stats": [
    {
@@ -3293,7 +3293,7 @@
   "name": {
    "en": "Elite Bone Long Spear",
    "cn": "精銳獸骨長槍",
-   "th": null
+   "th": "หอกยาวกระดูกชั้นยอด"
   },
   "stats": [
    {
@@ -3324,7 +3324,7 @@
   "name": {
    "en": "Arabian Curved Blade",
    "cn": "阿拉伯彎刀",
-   "th": null
+   "th": "มีดโค้งอาหรับ"
   },
   "stats": [
    {
@@ -3357,7 +3357,7 @@
   "name": {
    "en": "Infantry Helm",
    "cn": "步兵頭盔",
-   "th": null
+   "th": "หมวกเกราะทหารราบ"
   },
   "stats": [
    {
@@ -3392,7 +3392,7 @@
   "name": {
    "en": "Knight's Helm",
    "cn": "騎士頭盔",
-   "th": null
+   "th": "หมวกเกราะอัศวิน"
   },
   "stats": [
    {
@@ -3427,7 +3427,7 @@
   "name": {
    "en": "Starpoint Magic Spear",
    "cn": "星鋒魔槍",
-   "th": null
+   "th": "หอกเวทปลายดาว"
   },
   "stats": [
    {
@@ -3462,7 +3462,7 @@
   "name": {
    "en": "Orc Halberd",
    "cn": "獸人戟",
-   "th": null
+   "th": "ง้าวออร์ค"
   },
   "stats": [
    {
@@ -3493,7 +3493,7 @@
   "name": {
    "en": "Pirate Curved Blade",
    "cn": "海賊彎刃刀",
-   "th": null
+   "th": "มีดโค้งโจรสลัด"
   },
   "stats": [
    {
@@ -3528,7 +3528,7 @@
   "name": {
    "en": "Ranger Helm",
    "cn": "遊俠頭盔",
-   "th": null
+   "th": "หมวกเกราะเรนเจอร์"
   },
   "stats": [
    {
@@ -3563,7 +3563,7 @@
   "name": {
    "en": "Elite Orc Halberd",
    "cn": "精銳獸人戟",
-   "th": null
+   "th": "ง้าวออร์คชั้นยอด"
   },
   "stats": [
    {
@@ -3594,7 +3594,7 @@
   "name": {
    "en": "Primordial Samurai Blade",
    "cn": "太初武士刀",
-   "th": null
+   "th": "มีดซามูไรบรรพกาล"
   },
   "stats": [
    {
@@ -3629,7 +3629,7 @@
   "name": {
    "en": "Orc War Halberd",
    "cn": "獸人戰戟",
-   "th": null
+   "th": "ง้าวรบออร์ค"
   },
   "stats": [
    {
@@ -3660,7 +3660,7 @@
   "name": {
    "en": "Pale Moon Blade",
    "cn": "蒼月之刀",
-   "th": null
+   "th": "มีดจันทร์ซีด"
   },
   "stats": [
    {
@@ -3695,7 +3695,7 @@
   "name": {
    "en": "Triple-Edge Iron Sword",
    "cn": "三刃鐵劍",
-   "th": null
+   "th": "ดาบเหล็กสามคม"
   },
   "stats": [
    {
@@ -3730,7 +3730,7 @@
   "name": {
    "en": "Steel Iron Guards",
    "cn": "鋼鐵護手",
-   "th": null
+   "th": "การ์ดมือเหล็กกล้า"
   },
   "stats": [
    {
@@ -3765,7 +3765,7 @@
   "name": {
    "en": "Orc King Halberd",
    "cn": "獸人王戟",
-   "th": null
+   "th": "ง้าวราชาออร์ค"
   },
   "stats": [
    {
@@ -3796,7 +3796,7 @@
   "name": {
    "en": "Azure Blue Helm",
    "cn": "碧藍頭盔",
-   "th": null
+   "th": "หมวกเกราะน้ำเงินคราม"
   },
   "stats": [
    {
@@ -3829,7 +3829,7 @@
   "name": {
    "en": "Sky War Boots",
    "cn": "天空戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบฟ้า"
   },
   "stats": [
    {
@@ -3862,7 +3862,7 @@
   "name": {
    "en": "Iron Trident",
    "cn": "三叉鐵戟",
-   "th": null
+   "th": "สามง่ามเหล็ก"
   },
   "stats": [
    {
@@ -3893,7 +3893,7 @@
   "name": {
    "en": "Chain Mail",
    "cn": "鎖子甲",
-   "th": null
+   "th": "เกราะโซ่"
   },
   "stats": [
    {
@@ -3922,7 +3922,7 @@
   "name": {
    "en": "Wave Iron Sword",
    "cn": "波浪鐵劍",
-   "th": null
+   "th": "ดาบเหล็กคลื่น"
   },
   "stats": [
    {
@@ -3957,7 +3957,7 @@
   "name": {
    "en": "Standard Roman Helm",
    "cn": "制式羅馬盔",
-   "th": null
+   "th": "หมวกเกราะโรมันมาตรฐาน"
   },
   "stats": [
    {
@@ -3986,7 +3986,7 @@
   "name": {
    "en": "Red Hawk Guards",
    "cn": "紅鷹護手",
-   "th": null
+   "th": "การ์ดมือเหยี่ยวแดง"
   },
   "stats": [
    {
@@ -4021,7 +4021,7 @@
   "name": {
    "en": "Pale Blue War Axe",
    "cn": "淺藍戰斧",
-   "th": null
+   "th": "ขวานรบฟ้าซีด"
   },
   "stats": [
    {
@@ -4056,7 +4056,7 @@
   "name": {
    "en": "Copper Ore",
    "cn": "銅礦",
-   "th": null
+   "th": "แร่ทองแดง"
   },
   "stats": [],
   "statsNote": null,
@@ -4082,7 +4082,7 @@
   "name": {
    "en": "Copper Blade",
    "cn": "銅刀",
-   "th": null
+   "th": "มีดทองแดง"
   },
   "stats": [
    {
@@ -4118,7 +4118,7 @@
   "name": {
    "en": "Copper Sword",
    "cn": "銅劍",
-   "th": null
+   "th": "ดาบทองแดง"
   },
   "stats": [
    {
@@ -4154,7 +4154,7 @@
   "name": {
    "en": "Stone Axe",
    "cn": "石斧",
-   "th": null
+   "th": "ขวานหิน"
   },
   "stats": [
    {
@@ -4187,7 +4187,7 @@
   "name": {
    "en": "Copper Claw",
    "cn": "銅爪",
-   "th": null
+   "th": "กรงเล็บทองแดง"
   },
   "stats": [
    {
@@ -4222,7 +4222,7 @@
   "name": {
    "en": "Bronze Blade",
    "cn": "青銅刀",
-   "th": null
+   "th": "มีดสำริด"
   },
   "stats": [
    {
@@ -4257,7 +4257,7 @@
   "name": {
    "en": "Bronze Sword",
    "cn": "青銅劍",
-   "th": null
+   "th": "ดาบสำริด"
   },
   "stats": [
    {
@@ -4290,7 +4290,7 @@
   "name": {
    "en": "Bronze Hand Claw",
    "cn": "青銅手爪",
-   "th": null
+   "th": "กรงเล็บมือสำริด"
   },
   "stats": [
    {
@@ -4326,7 +4326,7 @@
   "name": {
    "en": "Hand Axe",
    "cn": "手斧",
-   "th": null
+   "th": "ขวานมือ"
   },
   "stats": [
    {
@@ -4359,7 +4359,7 @@
   "name": {
    "en": "Bronze Sandals",
    "cn": "青銅履鞋",
-   "th": null
+   "th": "รองเท้าแตะสำริด"
   },
   "stats": [
    {
@@ -4388,7 +4388,7 @@
   "name": {
    "en": "Bronze Material",
    "cn": "青銅材",
-   "th": null
+   "th": "วัสดุสำริด"
   },
   "stats": [],
   "statsNote": null,
@@ -4414,7 +4414,7 @@
   "name": {
    "en": "Copper Spear",
    "cn": "銅槍",
-   "th": null
+   "th": "หอกทองแดง"
   },
   "stats": [
    {
@@ -4446,7 +4446,7 @@
   "name": {
    "en": "Woodsman Axe",
    "cn": "樵夫斧",
-   "th": null
+   "th": "ขวานคนตัดไม้"
   },
   "stats": [
    {
@@ -4481,7 +4481,7 @@
   "name": {
    "en": "Red Copper Sandals",
    "cn": "紅銅履鞋",
-   "th": null
+   "th": "รองเท้าแตะทองแดงแดง"
   },
   "stats": [
    {
@@ -4516,7 +4516,7 @@
   "name": {
    "en": "Bronze Spear",
    "cn": "青銅槍",
-   "th": null
+   "th": "หอกสำริด"
   },
   "stats": [
    {
@@ -4547,7 +4547,7 @@
   "name": {
    "en": "Copper Greatblade",
    "cn": "銅大刀",
-   "th": null
+   "th": "ดาบใหญ่ทองแดง"
   },
   "stats": [
    {
@@ -4583,7 +4583,7 @@
   "name": {
    "en": "Fishfang Copper Sword",
    "cn": "魚刃銅劍",
-   "th": null
+   "th": "ดาบทองแดงเขี้ยวปลา"
   },
   "stats": [
    {
@@ -4618,7 +4618,7 @@
   "name": {
    "en": "Twin-Edge Copper Axe",
    "cn": "雙刃銅斧",
-   "th": null
+   "th": "ขวานทองแดงสองคม"
   },
   "stats": [
    {
@@ -4653,7 +4653,7 @@
   "name": {
    "en": "Blade Pike",
    "cn": "刃矛",
-   "th": null
+   "th": "ทวนใบมีด"
   },
   "stats": [
    {
@@ -4684,7 +4684,7 @@
   "name": {
    "en": "Bronze Greatblade",
    "cn": "青銅大刀",
-   "th": null
+   "th": "ดาบใหญ่สำริด"
   },
   "stats": [
    {
@@ -4720,7 +4720,7 @@
   "name": {
    "en": "Fishfang Bronze Sword",
    "cn": "魚刃青銅劍",
-   "th": null
+   "th": "ดาบสำริดเขี้ยวปลา"
   },
   "stats": [
    {
@@ -4755,7 +4755,7 @@
   "name": {
    "en": "Twin-Edge Bronze Axe",
    "cn": "雙刃青銅斧",
-   "th": null
+   "th": "ขวานสำริดสองคม"
   },
   "stats": [
    {
@@ -4790,7 +4790,7 @@
   "name": {
    "en": "Red Lotus Greatblade",
    "cn": "紅蓮大刀",
-   "th": null
+   "th": "ดาบใหญ่บัวแดง"
   },
   "stats": [
    {
@@ -4825,7 +4825,7 @@
   "name": {
    "en": "War Copper Spear",
    "cn": "軍戰銅槍",
-   "th": null
+   "th": "หอกทองแดงรบ"
   },
   "stats": [
    {
@@ -4856,7 +4856,7 @@
   "name": {
    "en": "War Bronze Spear",
    "cn": "軍戰青銅槍",
-   "th": null
+   "th": "หอกสำริดรบ"
   },
   "stats": [
    {
@@ -4887,7 +4887,7 @@
   "name": {
    "en": "Copper Sabre",
    "cn": "銅軍刀",
-   "th": null
+   "th": "ดาบโค้งทองแดง"
   },
   "stats": [
    {
@@ -4922,7 +4922,7 @@
   "name": {
    "en": "Broad Copper Sword",
    "cn": "寬刃銅劍",
-   "th": null
+   "th": "ดาบทองแดงกว้าง"
   },
   "stats": [
    {
@@ -4957,7 +4957,7 @@
   "name": {
    "en": "Copper Axe",
    "cn": "銅斧",
-   "th": null
+   "th": "ขวานทองแดง"
   },
   "stats": [
    {
@@ -4993,7 +4993,7 @@
   "name": {
    "en": "Strange Rock Axe",
    "cn": "奇岩斧",
-   "th": null
+   "th": "ขวานหินประหลาด"
   },
   "stats": [
    {
@@ -5028,7 +5028,7 @@
   "name": {
    "en": "Bronze Sabre",
    "cn": "青銅軍刀",
-   "th": null
+   "th": "ดาบโค้งสำริด"
   },
   "stats": [
    {
@@ -5063,7 +5063,7 @@
   "name": {
    "en": "Broad Bronze Sword",
    "cn": "寬刃青銅劍",
-   "th": null
+   "th": "ดาบสำริดกว้าง"
   },
   "stats": [
    {
@@ -5098,7 +5098,7 @@
   "name": {
    "en": "Bronze Axe",
    "cn": "青銅斧",
-   "th": null
+   "th": "ขวานสำริด"
   },
   "stats": [
    {
@@ -5133,7 +5133,7 @@
   "name": {
    "en": "Ox Horn Hat",
    "cn": "牛角帽",
-   "th": null
+   "th": "หมวกเขาวัว"
   },
   "stats": [
    {
@@ -5166,7 +5166,7 @@
   "name": {
    "en": "Copper Scale Armor",
    "cn": "銅質鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดทองแดง"
   },
   "stats": [
    {
@@ -5201,7 +5201,7 @@
   "name": {
    "en": "Bronze Trident",
    "cn": "三叉銅戟",
-   "th": null
+   "th": "สามง่ามสำริด"
   },
   "stats": [
    {
@@ -5230,7 +5230,7 @@
   "name": {
    "en": "Antique Bronze Boots",
    "cn": "古銅靴",
-   "th": null
+   "th": "รองเท้าบู๊ตสำริดโบราณ"
   },
   "stats": [
    {
@@ -5265,7 +5265,7 @@
   "name": {
    "en": "Bronze Circlet",
    "cn": "青銅護額",
-   "th": null
+   "th": "รัดเกล้าสำริด"
   },
   "stats": [
    {
@@ -5300,7 +5300,7 @@
   "name": {
    "en": "Copper-Woven Rope Shoes",
    "cn": "銅編繩鞋",
-   "th": null
+   "th": "รองเท้าเชือกถักทองแดง"
   },
   "stats": [
    {
@@ -5335,7 +5335,7 @@
   "name": {
    "en": "Bone Copper Sword",
    "cn": "獸骨彎劍",
-   "th": null
+   "th": "ดาบทองแดงกระดูก"
   },
   "stats": [
    {
@@ -5368,7 +5368,7 @@
   "name": {
    "en": "Wild Wind Curved Claw",
    "cn": "狂風彎爪",
-   "th": null
+   "th": "กรงเล็บโค้งลมป่า"
   },
   "stats": [
    {
@@ -5403,7 +5403,7 @@
   "name": {
    "en": "Bone Bronze Sword",
    "cn": "獸骨青銅劍",
-   "th": null
+   "th": "ดาบสำริดกระดูก"
   },
   "stats": [
    {
@@ -5438,7 +5438,7 @@
   "name": {
    "en": "Copper Hammer",
    "cn": "銅槌",
-   "th": null
+   "th": "ค้อนทองแดง"
   },
   "stats": [
    {
@@ -5473,7 +5473,7 @@
   "name": {
    "en": "Copper Mage Crown",
    "cn": "銅法冠",
-   "th": null
+   "th": "มงกุฎเมจทองแดง"
   },
   "stats": [
    {
@@ -5508,7 +5508,7 @@
   "name": {
    "en": "Bronze Hammer",
    "cn": "青銅槌",
-   "th": null
+   "th": "ค้อนสำริด"
   },
   "stats": [
    {
@@ -5543,7 +5543,7 @@
   "name": {
    "en": "Verdant Green Bracers",
    "cn": "蒼綠護腕",
-   "th": null
+   "th": "ปลอกแขนเขียวขจี"
   },
   "stats": [
    {
@@ -5578,7 +5578,7 @@
   "name": {
    "en": "Pirate Hat",
    "cn": "海賊帽",
-   "th": null
+   "th": "หมวกโจรสลัด"
   },
   "stats": [
    {
@@ -5613,7 +5613,7 @@
   "name": {
    "en": "Triple-Edge Copper Sword",
    "cn": "三刃銅劍",
-   "th": null
+   "th": "ดาบทองแดงสามคม"
   },
   "stats": [
    {
@@ -5648,7 +5648,7 @@
   "name": {
    "en": "Bronze Pirate Hat",
    "cn": "青銅海賊帽",
-   "th": null
+   "th": "หมวกโจรสลัดสำริด"
   },
   "stats": [
    {
@@ -5683,7 +5683,7 @@
   "name": {
    "en": "Bronze Leather Boots",
    "cn": "青銅皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังสำริด"
   },
   "stats": [
    {
@@ -5718,7 +5718,7 @@
   "name": {
    "en": "Triple-Edge Bronze Sword",
    "cn": "三刃青銅劍",
-   "th": null
+   "th": "ดาบสำริดสามคม"
   },
   "stats": [
    {
@@ -5753,7 +5753,7 @@
   "name": {
    "en": "Wilderness Armor",
    "cn": "荒野鎧甲",
-   "th": null
+   "th": "เกราะแดนเถื่อน"
   },
   "stats": [
    {
@@ -5788,7 +5788,7 @@
   "name": {
    "en": "Brawler Helm",
    "cn": "搏鬥頭盔",
-   "th": null
+   "th": "หมวกเกราะนักสู้"
   },
   "stats": [
    {
@@ -5823,7 +5823,7 @@
   "name": {
    "en": "Reinforced Trident",
    "cn": "強化三叉戟",
-   "th": null
+   "th": "สามง่ามเสริมแรง"
   },
   "stats": [
    {
@@ -5852,7 +5852,7 @@
   "name": {
    "en": "Bronze Long Boots",
    "cn": "青銅長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวสำริด"
   },
   "stats": [
    {
@@ -5885,7 +5885,7 @@
   "name": {
    "en": "Bronze Trident Halberd",
    "cn": "青銅三叉戟",
-   "th": null
+   "th": "ง้าวสามง่ามสำริด"
   },
   "stats": [
    {
@@ -5914,7 +5914,7 @@
   "name": {
    "en": "Wave Copper Sword",
    "cn": "波浪銅劍",
-   "th": null
+   "th": "ดาบทองแดงคลื่น"
   },
   "stats": [
    {
@@ -5949,7 +5949,7 @@
   "name": {
    "en": "Bronze Poleaxe",
    "cn": "青銅長柄斧",
-   "th": null
+   "th": "ขวานด้ามยาวสำริด"
   },
   "stats": [
    {
@@ -5984,7 +5984,7 @@
   "name": {
    "en": "Roman Helm",
    "cn": "羅馬頭盔",
-   "th": null
+   "th": "หมวกเกราะโรมัน"
   },
   "stats": [
    {
@@ -6017,7 +6017,7 @@
   "name": {
    "en": "Cloud Smoke Guards",
    "cn": "雲煙護手",
-   "th": null
+   "th": "การ์ดมือควันเมฆ"
   },
   "stats": [
    {
@@ -6050,7 +6050,7 @@
   "name": {
    "en": "Wave Bronze Sword",
    "cn": "波浪青銅劍",
-   "th": null
+   "th": "ดาบสำริดคลื่น"
   },
   "stats": [
    {
@@ -6083,7 +6083,7 @@
   "name": {
    "en": "Wall Snow Guards",
    "cn": "壁雪護手",
-   "th": null
+   "th": "การ์ดมือหิมะกำแพง"
   },
   "stats": [
    {
@@ -6118,7 +6118,7 @@
   "name": {
    "en": "Bronze Plate Armor",
    "cn": "青銅鎧甲",
-   "th": null
+   "th": "เกราะแผ่นสำริด"
   },
   "stats": [
    {
@@ -6153,7 +6153,7 @@
   "name": {
    "en": "Dusk Gold Helm",
    "cn": "昏黃金兜",
-   "th": null
+   "th": "หมวกเกราะทองสนธยา"
   },
   "stats": [
    {
@@ -6188,7 +6188,7 @@
   "name": {
    "en": "Jade Green Heavy Shoes",
    "cn": "翡翠重鞋",
-   "th": null
+   "th": "รองเท้าหนักเขียวหยก"
   },
   "stats": [
    {
@@ -6221,7 +6221,7 @@
   "name": {
    "en": "Copper Man Ring",
    "cn": "銅人戒指",
-   "th": null
+   "th": "แหวนมนุษย์ทองแดง"
   },
   "stats": [
    {
@@ -6252,7 +6252,7 @@
   "name": {
    "en": "Pure Iron Ore",
    "cn": "赤鐵礦",
-   "th": null
+   "th": "แร่เหล็กแดง"
   },
   "stats": [],
   "statsNote": null,
@@ -6278,7 +6278,7 @@
   "name": {
    "en": "Pure Iron Blade",
    "cn": "赤鐵刀",
-   "th": null
+   "th": "มีดเหล็กแดง"
   },
   "stats": [
    {
@@ -6313,7 +6313,7 @@
   "name": {
    "en": "Pure Iron Sword",
    "cn": "赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดง"
   },
   "stats": [
    {
@@ -6346,7 +6346,7 @@
   "name": {
    "en": "Pure Iron Claw",
    "cn": "赤鐵爪",
-   "th": null
+   "th": "กรงเล็บเหล็กแดง"
   },
   "stats": [
    {
@@ -6381,7 +6381,7 @@
   "name": {
    "en": "Pure Iron Spear",
    "cn": "赤鐵槍",
-   "th": null
+   "th": "หอกเหล็กแดง"
   },
   "stats": [
    {
@@ -6412,7 +6412,7 @@
   "name": {
    "en": "Pure Iron Greatblade",
    "cn": "赤鐵大刀",
-   "th": null
+   "th": "ดาบใหญ่เหล็กแดง"
   },
   "stats": [
    {
@@ -6448,7 +6448,7 @@
   "name": {
    "en": "Fishfang Pure Iron Sword",
    "cn": "魚刃赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงเขี้ยวปลา"
   },
   "stats": [
    {
@@ -6483,7 +6483,7 @@
   "name": {
    "en": "Twin-Edge Pure Iron Axe",
    "cn": "雙刃赤鐵斧",
-   "th": null
+   "th": "ขวานเหล็กแดงสองคม"
   },
   "stats": [
    {
@@ -6516,7 +6516,7 @@
   "name": {
    "en": "Pure Iron Heavy Boots",
    "cn": "赤煉重鞋",
-   "th": null
+   "th": "รองเท้าบู๊ตหนักเหล็กแดง"
   },
   "stats": [
    {
@@ -6547,7 +6547,7 @@
   "name": {
    "en": "Blazing Red Hammer",
    "cn": "烈紅之鎚",
-   "th": null
+   "th": "ค้อนแดงลุกโชน"
   },
   "stats": [
    {
@@ -6582,7 +6582,7 @@
   "name": {
    "en": "War Pure Iron Spear",
    "cn": "軍戰赤鐵槍",
-   "th": null
+   "th": "หอกเหล็กแดงรบ"
   },
   "stats": [
    {
@@ -6614,7 +6614,7 @@
   "name": {
    "en": "Crimson Ring",
    "cn": "赤紅之環",
-   "th": null
+   "th": "ห่วงแดงเข้ม"
   },
   "stats": [
    {
@@ -6645,7 +6645,7 @@
   "name": {
    "en": "Pure Iron Sabre",
    "cn": "赤鐵軍刀",
-   "th": null
+   "th": "ดาบโค้งเหล็กแดง"
   },
   "stats": [
    {
@@ -6680,7 +6680,7 @@
   "name": {
    "en": "Broad Pure Iron Sword",
    "cn": "寬刃赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงกว้าง"
   },
   "stats": [
    {
@@ -6715,7 +6715,7 @@
   "name": {
    "en": "Single-Face Pure Iron Axe",
    "cn": "赤鐵單面斧",
-   "th": null
+   "th": "ขวานเหล็กแดงคมเดียว"
   },
   "stats": [
    {
@@ -6748,7 +6748,7 @@
   "name": {
    "en": "Flame Thorn Bracers",
    "cn": "炎刺護腕",
-   "th": null
+   "th": "ปลอกแขนหนามเพลิง"
   },
   "stats": [
    {
@@ -6783,7 +6783,7 @@
   "name": {
    "en": "Pure Iron Boots",
    "cn": "赤鐵靴",
-   "th": null
+   "th": "รองเท้าบู๊ตเหล็กแดง"
   },
   "stats": [
    {
@@ -6816,7 +6816,7 @@
   "name": {
    "en": "Pure Iron Scale Armor",
    "cn": "赤鐵鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดเหล็กแดง"
   },
   "stats": [
    {
@@ -6849,7 +6849,7 @@
   "name": {
    "en": "Refined Pure Iron Material",
    "cn": "粹煉赤鐵材",
-   "th": null
+   "th": "วัสดุเหล็กแดงบริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -6875,7 +6875,7 @@
   "name": {
    "en": "Dusk Light Armor",
    "cn": "黃昏輕鎧",
-   "th": null
+   "th": "เกราะแสงสนธยา"
   },
   "stats": [
    {
@@ -6910,7 +6910,7 @@
   "name": {
    "en": "Pure Iron Mage Crown",
    "cn": "赤鐵法冠",
-   "th": null
+   "th": "มงกุฎเมจเหล็กแดง"
   },
   "stats": [
    {
@@ -6945,7 +6945,7 @@
   "name": {
    "en": "Bone Pure Iron Sword",
    "cn": "獸骨赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงกระดูก"
   },
   "stats": [
    {
@@ -6980,7 +6980,7 @@
   "name": {
    "en": "Round Sword",
    "cn": "圓刃赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงคมกลม"
   },
   "stats": [
    {
@@ -7016,7 +7016,7 @@
   "name": {
    "en": "Zhou Blood War Boots",
    "cn": "宙血戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบเลือดโจว"
   },
   "stats": [
    {
@@ -7047,7 +7047,7 @@
   "name": {
    "en": "Blue Crystal Mage Staff",
    "cn": "藍晶法杖",
-   "th": null
+   "th": "ไม้เท้าเมจคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -7082,7 +7082,7 @@
   "name": {
    "en": "Pure Iron Hammer",
    "cn": "赤鐵槌",
-   "th": null
+   "th": "ค้อนเหล็กแดง"
   },
   "stats": [
    {
@@ -7115,7 +7115,7 @@
   "name": {
    "en": "Pure Iron Pirate Hat",
    "cn": "赤鐵海賊帽",
-   "th": null
+   "th": "หมวกโจรสลัดเหล็กแดง"
   },
   "stats": [
    {
@@ -7150,7 +7150,7 @@
   "name": {
    "en": "Purple Red Helm",
    "cn": "紫紅頭盔",
-   "th": null
+   "th": "หมวกเกราะแดงม่วง"
   },
   "stats": [
    {
@@ -7185,7 +7185,7 @@
   "name": {
    "en": "Triple-Edge Pure Iron Sword",
    "cn": "三刃赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงสามคม"
   },
   "stats": [
    {
@@ -7218,7 +7218,7 @@
   "name": {
    "en": "Red Long Boots",
    "cn": "赤色長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวแดง"
   },
   "stats": [
    {
@@ -7253,7 +7253,7 @@
   "name": {
    "en": "Turbulent Sword",
    "cn": "波瀾鐵劍",
-   "th": null
+   "th": "ดาบปั่นป่วน"
   },
   "stats": [
    {
@@ -7286,7 +7286,7 @@
   "name": {
    "en": "Pure Iron Plate Armor",
    "cn": "赤鐵鎧甲",
-   "th": null
+   "th": "เกราะแผ่นเหล็กแดง"
   },
   "stats": [
    {
@@ -7321,7 +7321,7 @@
   "name": {
    "en": "Crimson Poleaxe",
    "cn": "赤紅長柄斧",
-   "th": null
+   "th": "ขวานด้ามยาวแดงเข้ม"
   },
   "stats": [
    {
@@ -7356,7 +7356,7 @@
   "name": {
    "en": "Pure Iron Trident",
    "cn": "赤鐵三叉戟",
-   "th": null
+   "th": "สามง่ามเหล็กแดง"
   },
   "stats": [
    {
@@ -7387,7 +7387,7 @@
   "name": {
    "en": "Wave Pure Iron Sword",
    "cn": "波浪赤鐵劍",
-   "th": null
+   "th": "ดาบเหล็กแดงคลื่น"
   },
   "stats": [
    {
@@ -7420,7 +7420,7 @@
   "name": {
    "en": "Gold Dawn Guards",
    "cn": "金曦護手",
-   "th": null
+   "th": "การ์ดมือรุ่งอรุณทอง"
   },
   "stats": [
    {
@@ -7455,7 +7455,7 @@
   "name": {
    "en": "Red Jade Light Armor",
    "cn": "紅玉輕甲",
-   "th": null
+   "th": "เกราะแสงหยกแดง"
   },
   "stats": [
    {
@@ -7488,7 +7488,7 @@
   "name": {
    "en": "Airship Steering Device",
    "cn": "飛船轉舵裝置",
-   "th": null
+   "th": "อุปกรณ์บังคับเรือเหาะ"
   },
   "stats": [],
   "statsNote": null,
@@ -7514,7 +7514,7 @@
   "name": {
    "en": "Green Fang Bracers",
    "cn": "青牙護腕",
-   "th": null
+   "th": "ปลอกแขนเขี้ยวเขียว"
   },
   "stats": [
    {
@@ -7549,7 +7549,7 @@
   "name": {
    "en": "Light Bracers",
    "cn": "尖刺護腕",
-   "th": null
+   "th": "ปลอกแขนหนามแหลม"
   },
   "stats": [
    {
@@ -7584,7 +7584,7 @@
   "name": {
    "en": "Azure Cloud Horn Helm",
    "cn": "青雲角盔",
-   "th": null
+   "th": "หมวกเกราะเขาเมฆคราม"
   },
   "stats": [
    {
@@ -7613,7 +7613,7 @@
   "name": {
    "en": "White Iron Short Arm",
    "cn": "白鐵短臂",
-   "th": null
+   "th": "แขนสั้นเหล็กขาว"
   },
   "stats": [
    {
@@ -7644,7 +7644,7 @@
   "name": {
    "en": "Emerald Green Bracers",
    "cn": "翠綠護腕",
-   "th": null
+   "th": "ปลอกแขนเขียวมรกต"
   },
   "stats": [
    {
@@ -7673,7 +7673,7 @@
   "name": {
    "en": "Wind Set Staff",
    "cn": "風系套裝杖",
-   "th": null
+   "th": "ไม้เท้าเซ็ตธาตุลม"
   },
   "stats": [
    {
@@ -7708,7 +7708,7 @@
   "name": {
    "en": "Dark Green Long Boots",
    "cn": "暗綠長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวเขียวเข้ม"
   },
   "stats": [
    {
@@ -7743,7 +7743,7 @@
   "name": {
    "en": "Yellow Dusk Helm",
    "cn": "黃昏頭盔",
-   "th": null
+   "th": "หมวกเกราะสนธยาเหลือง"
   },
   "stats": [
    {
@@ -7772,7 +7772,7 @@
   "name": {
    "en": "Titanium Metal",
    "cn": "鈦金屬",
-   "th": null
+   "th": "โลหะไทเทเนียม"
   },
   "stats": [],
   "statsNote": null,
@@ -7799,7 +7799,7 @@
   "name": {
    "en": "White Goose Feather Staff",
    "cn": "白鵝羽杖",
-   "th": null
+   "th": "ไม้เท้าขนนกห่านขาว"
   },
   "stats": [
    {
@@ -7834,7 +7834,7 @@
   "name": {
    "en": "Black Pike Blade",
    "cn": "黑矛刃",
-   "th": null
+   "th": "มีดทวนดำ"
   },
   "stats": [
    {
@@ -7869,7 +7869,7 @@
   "name": {
    "en": "Titanium Alloy Hammer",
    "cn": "鈦金重鎚",
-   "th": null
+   "th": "ค้อนโลหะผสมไทเทเนียม"
   },
   "stats": [
    {
@@ -7905,7 +7905,7 @@
   "name": {
    "en": "Sky Bow",
    "cn": "蒼穹弓",
-   "th": null
+   "th": "ธนูนภา"
   },
   "stats": [
    {
@@ -7938,7 +7938,7 @@
   "name": {
    "en": "Grey Wolf Bracers",
    "cn": "灰狼護腕",
-   "th": null
+   "th": "ปลอกแขนหมาป่าเทา"
   },
   "stats": [
    {
@@ -7973,7 +7973,7 @@
   "name": {
    "en": "Blazing Sun Red Claw",
    "cn": "烈日紅爪",
-   "th": null
+   "th": "กรงเล็บแดงตะวันเผาผลาญ"
   },
   "stats": [
    {
@@ -8008,7 +8008,7 @@
   "name": {
    "en": "Holy Guard Armor",
    "cn": "聖之護甲",
-   "th": null
+   "th": "เกราะผู้พิทักษ์ศักดิ์สิทธิ์"
   },
   "stats": [
    {
@@ -8041,7 +8041,7 @@
   "name": {
    "en": "Refined Active Titanium",
    "cn": "粹鍊活性鈦",
-   "th": null
+   "th": "ไทเทเนียมกัมมันต์บริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -8065,7 +8065,7 @@
   "name": {
    "en": "Strong Guard War Armor",
    "cn": "強守戰甲",
-   "th": null
+   "th": "เกราะรบป้องกันแกร่ง"
   },
   "stats": [
    {
@@ -8098,7 +8098,7 @@
   "name": {
    "en": "Dusk Horn Helm",
    "cn": "黃昏角盔",
-   "th": null
+   "th": "หมวกเกราะเขาสนธยา"
   },
   "stats": [
    {
@@ -8133,7 +8133,7 @@
   "name": {
    "en": "Blue Cross Spear",
    "cn": "藍十字槍",
-   "th": null
+   "th": "หอกกางเขนน้ำเงิน"
   },
   "stats": [
    {
@@ -8168,7 +8168,7 @@
   "name": {
    "en": "Spirit-Piercing Greatsword",
    "cn": "戮靈巨劍",
-   "th": null
+   "th": "ดาบใหญ่ทะลวงวิญญาณ"
   },
   "stats": [
    {
@@ -8203,7 +8203,7 @@
   "name": {
    "en": "Poleaxe",
    "cn": "長柄斧",
-   "th": null
+   "th": "ขวานด้ามยาว"
   },
   "stats": [
    {
@@ -8236,7 +8236,7 @@
   "name": {
    "en": "Grey Steel Guards",
    "cn": "灰鋼護手",
-   "th": null
+   "th": "การ์ดมือเหล็กกล้าเทา"
   },
   "stats": [
    {
@@ -8268,7 +8268,7 @@
   "name": {
    "en": "Divine Power Sceptre",
    "cn": "神力權杖",
-   "th": null
+   "th": "คทาพลังเทพ"
   },
   "stats": [
    {
@@ -8303,7 +8303,7 @@
   "name": {
    "en": "Aquarius Circlet",
    "cn": "水瓶額冠",
-   "th": null
+   "th": "รัดเกล้าราศีกุมภ์"
   },
   "stats": [
    {
@@ -8334,7 +8334,7 @@
   "name": {
    "en": "Crown of Glory",
    "cn": "榮耀之冠",
-   "th": null
+   "th": "มงกุฎเกียรติยศ"
   },
   "stats": [
    {
@@ -8370,7 +8370,7 @@
   "name": {
    "en": "Elite War Armor",
    "cn": "精銳戰甲",
-   "th": null
+   "th": "เกราะรบชั้นยอด"
   },
   "stats": [
    {
@@ -8405,7 +8405,7 @@
   "name": {
    "en": "Mage King Crown",
    "cn": "法王冠",
-   "th": null
+   "th": "มงกุฎราชาเมจ"
   },
   "stats": [
    {
@@ -8436,7 +8436,7 @@
   "name": {
    "en": "Grass Steel Guards",
    "cn": "草鋼護手",
-   "th": null
+   "th": "การ์ดมือเหล็กกล้าหญ้า"
   },
   "stats": [
    {
@@ -8472,7 +8472,7 @@
   "name": {
    "en": "Azure Heavy Boots",
    "cn": "蒼海重靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนักคราม"
   },
   "stats": [
    {
@@ -8508,7 +8508,7 @@
   "name": {
    "en": "Honoured Mage Staff",
    "cn": "尊法法杖",
-   "th": null
+   "th": "ไม้เท้าเมจผู้ทรงเกียรติ"
   },
   "stats": [
    {
@@ -8543,7 +8543,7 @@
   "name": {
    "en": "Azure Purple",
    "cn": "蒼紫",
-   "th": null
+   "th": "ม่วงคราม"
   },
   "stats": [
    {
@@ -8578,7 +8578,7 @@
   "name": {
    "en": "Heaven Guard Crown",
    "cn": "天守王冠",
-   "th": null
+   "th": "มงกุฎผู้พิทักษ์สวรรค์"
   },
   "stats": [
    {
@@ -8613,7 +8613,7 @@
   "name": {
    "en": "Black Feather Staff",
    "cn": "黑羽之杖",
-   "th": null
+   "th": "ไม้เท้าขนนกดำ"
   },
   "stats": [
    {
@@ -8648,7 +8648,7 @@
   "name": {
    "en": "Red Moon",
    "cn": "紅月",
-   "th": null
+   "th": "จันทร์แดง"
   },
   "stats": [
    {
@@ -8683,7 +8683,7 @@
   "name": {
    "en": "Honoured King Crown",
    "cn": "尊王之冠",
-   "th": null
+   "th": "มงกุฎราชาผู้ทรงเกียรติ"
   },
   "stats": [
    {
@@ -8719,7 +8719,7 @@
   "name": {
    "en": "Azure Sea War Armor",
    "cn": "滄海戰甲",
-   "th": null
+   "th": "เกราะรบทะเลคราม"
   },
   "stats": [
    {
@@ -8754,7 +8754,7 @@
   "name": {
    "en": "Dragon Scale Helm",
    "cn": "龍鱗盔",
-   "th": null
+   "th": "หมวกเกราะเกล็ดมังกร"
   },
   "stats": [
    {
@@ -8789,7 +8789,7 @@
   "name": {
    "en": "Chaos Guards",
    "cn": "混沌護手",
-   "th": null
+   "th": "การ์ดมือโกลาหล"
   },
   "stats": [
    {
@@ -8824,7 +8824,7 @@
   "name": {
    "en": "Blue Steel Thorn Bracer",
    "cn": "藍鋼刺腕",
-   "th": null
+   "th": "ปลอกแขนหนามเหล็กกล้าน้ำเงิน"
   },
   "stats": [
    {
@@ -8857,7 +8857,7 @@
   "name": {
    "en": "Gem Necklace",
    "cn": "寶石項鍊",
-   "th": null
+   "th": "สร้อยคออัญมณี"
   },
   "stats": [
    {
@@ -8892,7 +8892,7 @@
   "name": {
    "en": "Gold Ore",
    "cn": "金礦",
-   "th": null
+   "th": "แร่ทอง"
   },
   "stats": [],
   "statsNote": null,
@@ -8918,7 +8918,7 @@
   "name": {
    "en": "Gold Laurel",
    "cn": "黃金桂冠",
-   "th": null
+   "th": "มงกุฎทอง"
   },
   "stats": [
    {
@@ -8951,7 +8951,7 @@
   "name": {
    "en": "Gold Earring",
    "cn": "黃金耳環",
-   "th": null
+   "th": "ต่างหูทอง"
   },
   "stats": [
    {
@@ -8984,7 +8984,7 @@
   "name": {
    "en": "Gold Sand",
    "cn": "金沙",
-   "th": null
+   "th": "ทรายทอง"
   },
   "stats": [],
   "statsNote": null,
@@ -9010,7 +9010,7 @@
   "name": {
    "en": "Gold Ring",
    "cn": "黃金戒指",
-   "th": null
+   "th": "แหวนทอง"
   },
   "stats": [
    {
@@ -9043,7 +9043,7 @@
   "name": {
    "en": "Gold Block",
    "cn": "金塊",
-   "th": null
+   "th": "ก้อนทอง"
   },
   "stats": [],
   "statsNote": null,
@@ -9067,7 +9067,7 @@
   "name": {
    "en": "Gold Bar",
    "cn": "金條",
-   "th": null
+   "th": "แท่งทอง"
   },
   "stats": [],
   "statsNote": null,
@@ -9091,7 +9091,7 @@
   "name": {
    "en": "Gold Silk Headband",
    "cn": "金絲頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวไหมทอง"
   },
   "stats": [
    {
@@ -9124,7 +9124,7 @@
   "name": {
    "en": "Refined Gold Block",
    "cn": "粹煉金塊",
-   "th": null
+   "th": "ก้อนทองบริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -9150,7 +9150,7 @@
   "name": {
    "en": "Gold Axe Head",
    "cn": "金斧頭",
-   "th": null
+   "th": "หัวขวานทอง"
   },
   "stats": [
    {
@@ -9185,7 +9185,7 @@
   "name": {
    "en": "Gold Dragon Greatblade",
    "cn": "金龍大刀",
-   "th": null
+   "th": "ดาบใหญ่มังกรทอง"
   },
   "stats": [
    {
@@ -9217,7 +9217,7 @@
   "name": {
    "en": "Gold Helm",
    "cn": "黃金頭盔",
-   "th": null
+   "th": "หมวกเกราะทอง"
   },
   "stats": [
    {
@@ -9246,7 +9246,7 @@
   "name": {
    "en": "Golden Sceptre",
    "cn": "黃金權杖",
-   "th": null
+   "th": "คทาทอง"
   },
   "stats": [
    {
@@ -9281,7 +9281,7 @@
   "name": {
    "en": "Sky Grass Crown",
    "cn": "天草王冠",
-   "th": null
+   "th": "มงกุฎหญ้าฟ้า"
   },
   "stats": [
    {
@@ -9312,7 +9312,7 @@
   "name": {
    "en": "Gold Dawn War Helm",
    "cn": "金曜武兜",
-   "th": null
+   "th": "หมวกเกราะรบรุ่งอรุณทอง"
   },
   "stats": [
    {
@@ -9343,7 +9343,7 @@
   "name": {
    "en": "Rising Sun Crown",
    "cn": "日升之冠",
-   "th": null
+   "th": "มงกุฎตะวันขึ้น"
   },
   "stats": [
    {
@@ -9376,7 +9376,7 @@
   "name": {
    "en": "Gold Pirate Hat",
    "cn": "金質海賊帽",
-   "th": null
+   "th": "หมวกโจรสลัดทอง"
   },
   "stats": [
    {
@@ -9411,7 +9411,7 @@
   "name": {
    "en": "Mighty Gold Axe",
    "cn": "巨力金斧",
-   "th": null
+   "th": "ขวานทองมหึมา"
   },
   "stats": [
    {
@@ -9444,7 +9444,7 @@
   "name": {
    "en": "Gold Arm Guards",
    "cn": "金臂護手",
-   "th": null
+   "th": "การ์ดมือแขนทอง"
   },
   "stats": [
    {
@@ -9476,7 +9476,7 @@
   "name": {
    "en": "Perfect Headscarf",
    "cn": "完美頭巾",
-   "th": null
+   "th": "ผ้าโพกหัวสมบูรณ์แบบ"
   },
   "stats": [
    {
@@ -9511,7 +9511,7 @@
   "name": {
    "en": "Gold Plate Armor",
    "cn": "金質脛鎧",
-   "th": null
+   "th": "เกราะแผ่นทอง"
   },
   "stats": [
    {
@@ -9542,7 +9542,7 @@
   "name": {
    "en": "Gold War Thorn Bracer",
    "cn": "金戰刺腕",
-   "th": null
+   "th": "ปลอกแขนหนามรบทอง"
   },
   "stats": [
    {
@@ -9571,7 +9571,7 @@
   "name": {
    "en": "Kunlun Guards",
    "cn": "昆侖護手",
-   "th": null
+   "th": "การ์ดมือคุนหลุน"
   },
   "stats": [
    {
@@ -9606,7 +9606,7 @@
   "name": {
    "en": "Dusk War Halberd",
    "cn": "黃昏戰戟",
-   "th": null
+   "th": "ง้าวรบสนธยา"
   },
   "stats": [
    {
@@ -9641,7 +9641,7 @@
   "name": {
    "en": "Gilded Masked Suit",
    "cn": "置金蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากเคลือบทอง"
   },
   "stats": [
    {
@@ -9677,7 +9677,7 @@
   "name": {
    "en": "Gold Silk Thick Boots",
    "cn": "金絲厚靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนาไหมทอง"
   },
   "stats": [
    {
@@ -9710,7 +9710,7 @@
   "name": {
    "en": "Necklace",
    "cn": "項鍊",
-   "th": null
+   "th": "สร้อยคอ"
   },
   "stats": [
    {
@@ -9745,7 +9745,7 @@
   "name": {
    "en": "Lucky Ring",
    "cn": "幸運戒指",
-   "th": null
+   "th": "แหวนนำโชค"
   },
   "stats": [
    {
@@ -9780,7 +9780,7 @@
   "name": {
    "en": "Green Ring",
    "cn": "綠戒指",
-   "th": null
+   "th": "แหวนเขียว"
   },
   "stats": [
    {
@@ -9815,7 +9815,7 @@
   "name": {
    "en": "Black Crystal Ring",
    "cn": "黑晶戒指",
-   "th": null
+   "th": "แหวนคริสตัลดำ"
   },
   "stats": [
    {
@@ -9850,7 +9850,7 @@
   "name": {
    "en": "Silver Ore",
    "cn": "銀礦",
-   "th": null
+   "th": "แร่เงิน"
   },
   "stats": [],
   "statsNote": null,
@@ -9874,7 +9874,7 @@
   "name": {
    "en": "Pure Silver Earring",
    "cn": "純銀耳環",
-   "th": null
+   "th": "ต่างหูเงินบริสุทธิ์"
   },
   "stats": [
    {
@@ -9909,7 +9909,7 @@
   "name": {
    "en": "Pure Silver Ring",
    "cn": "純銀戒指",
-   "th": null
+   "th": "แหวนเงินบริสุทธิ์"
   },
   "stats": [
    {
@@ -9946,7 +9946,7 @@
   "name": {
    "en": "White Bell Ring",
    "cn": "白鈴耀環",
-   "th": null
+   "th": "ห่วงกระดิ่งขาว"
   },
   "stats": [
    {
@@ -9975,7 +9975,7 @@
   "name": {
    "en": "Silver Blade Claw",
    "cn": "銀製刃爪",
-   "th": null
+   "th": "กรงเล็บใบมีดเงิน"
   },
   "stats": [
    {
@@ -10010,7 +10010,7 @@
   "name": {
    "en": "Silver Axe Head",
    "cn": "銀斧頭",
-   "th": null
+   "th": "หัวขวานเงิน"
   },
   "stats": [
    {
@@ -10043,7 +10043,7 @@
   "name": {
    "en": "Refined Pure Silver",
    "cn": "粹煉銀塊",
-   "th": null
+   "th": "เงินบริสุทธิ์กลั่น"
   },
   "stats": [],
   "statsNote": null,
@@ -10067,7 +10067,7 @@
   "name": {
    "en": "Silver Dragon Staff",
    "cn": "銀龍法杖",
-   "th": null
+   "th": "ไม้เท้ามังกรเงิน"
   },
   "stats": [
    {
@@ -10100,7 +10100,7 @@
   "name": {
    "en": "Curse Thorn Bracers",
    "cn": "咒刺護腕",
-   "th": null
+   "th": "ปลอกแขนหนามคำสาป"
   },
   "stats": [
    {
@@ -10136,7 +10136,7 @@
   "name": {
    "en": "Demon Mage Staff",
    "cn": "惡魔法杖",
-   "th": null
+   "th": "ไม้เท้าเมจปีศาจ"
   },
   "stats": [
    {
@@ -10172,7 +10172,7 @@
   "name": {
    "en": "Elf Mage Staff",
    "cn": "精靈法杖",
-   "th": null
+   "th": "ไม้เท้าเมจเอลฟ์"
   },
   "stats": [
    {
@@ -10207,7 +10207,7 @@
   "name": {
    "en": "White Silver Axe",
    "cn": "白銀之斧",
-   "th": null
+   "th": "ขวานเงินขาว"
   },
   "stats": [
    {
@@ -10242,7 +10242,7 @@
   "name": {
    "en": "Silver Cat Headdress",
    "cn": "銀貓頭飾",
-   "th": null
+   "th": "เครื่องประดับศีรษะแมวเงิน"
   },
   "stats": [
    {
@@ -10277,7 +10277,7 @@
   "name": {
    "en": "Silver Wing Staff",
    "cn": "銀翼法杖",
-   "th": null
+   "th": "ไม้เท้าปีกเงิน"
   },
   "stats": [
    {
@@ -10313,7 +10313,7 @@
   "name": {
    "en": "Cloud Wing Holy Staff",
    "cn": "雲翼聖杖",
-   "th": null
+   "th": "ไม้เท้าศักดิ์สิทธิ์ปีกเมฆ"
   },
   "stats": [
    {
@@ -10344,7 +10344,7 @@
   "name": {
    "en": "Blue Hawk Staff",
    "cn": "藍鷹法杖",
-   "th": null
+   "th": "ไม้เท้าเหยี่ยวน้ำเงิน"
   },
   "stats": [
    {
@@ -10379,7 +10379,7 @@
   "name": {
    "en": "Sky Soar Feather Staff",
    "cn": "天翔羽杖",
-   "th": null
+   "th": "ไม้เท้าขนนกทะยานฟ้า"
   },
   "stats": [
    {
@@ -10414,7 +10414,7 @@
   "name": {
    "en": "Storm Silver Circlet",
    "cn": "嵐銀額鍊",
-   "th": null
+   "th": "รัดเกล้าเงินพายุ"
   },
   "stats": [
    {
@@ -10447,7 +10447,7 @@
   "name": {
    "en": "Silver Sandals",
    "cn": "白銀履鞋",
-   "th": null
+   "th": "รองเท้าแตะเงินขาว"
   },
   "stats": [
    {
@@ -10482,7 +10482,7 @@
   "name": {
    "en": "Spirit Long Boots",
    "cn": "精靈長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาววิญญาณ"
   },
   "stats": [
    {
@@ -10513,7 +10513,7 @@
   "name": {
    "en": "White Silver Western Sword",
    "cn": "白銀西洋劍",
-   "th": null
+   "th": "ดาบตะวันตกเงินขาว"
   },
   "stats": [
    {
@@ -10546,7 +10546,7 @@
   "name": {
    "en": "Silver Ring",
    "cn": "白銀戒指",
-   "th": null
+   "th": "แหวนเงินขาว"
   },
   "stats": [
    {
@@ -10579,7 +10579,7 @@
   "name": {
    "en": "Silver Iron Fan",
    "cn": "白銀鐵扇",
-   "th": null
+   "th": "พัดเหล็กเงิน"
   },
   "stats": [
    {
@@ -10608,7 +10608,7 @@
   "name": {
    "en": "Refined White Silver",
    "cn": "粹煉白銀",
-   "th": null
+   "th": "เงินขาวบริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -10634,7 +10634,7 @@
   "name": {
    "en": "White Silver Silver Boots",
    "cn": "白銀銀靴",
-   "th": null
+   "th": "รองเท้าบู๊ตเงินขาว"
   },
   "stats": [
    {
@@ -10669,7 +10669,7 @@
   "name": {
    "en": "Light Leather Silver Boots",
    "cn": "輕皮白銀靴",
-   "th": null
+   "th": "รองเท้าบู๊ตเงินหนังเบา"
   },
   "stats": [
    {
@@ -10705,7 +10705,7 @@
   "name": {
    "en": "Holy Beast Staff",
    "cn": "聖獸魔杖",
-   "th": null
+   "th": "ไม้เท้าสัตว์ศักดิ์สิทธิ์"
   },
   "stats": [
    {
@@ -10741,7 +10741,7 @@
   "name": {
    "en": "Desire Magic Staff",
    "cn": "慾望魔杖",
-   "th": null
+   "th": "ไม้เท้าเวทปรารถนา"
   },
   "stats": [
    {
@@ -10776,7 +10776,7 @@
   "name": {
    "en": "White Silver Guards",
    "cn": "白銀護手",
-   "th": null
+   "th": "การ์ดมือเงินขาว"
   },
   "stats": [
    {
@@ -10811,7 +10811,7 @@
   "name": {
    "en": "White Silver Helm",
    "cn": "白銀之盔",
-   "th": null
+   "th": "หมวกเกราะเงินขาว"
   },
   "stats": [
    {
@@ -10840,7 +10840,7 @@
   "name": {
    "en": "Mithril Silver Bracers",
    "cn": "秘銀護腕",
-   "th": null
+   "th": "ปลอกแขนเงินมิธริล"
   },
   "stats": [
    {
@@ -10875,7 +10875,7 @@
   "name": {
    "en": "Tin Ore",
    "cn": "錫礦",
-   "th": null
+   "th": "แร่ดีบุก"
   },
   "stats": [],
   "statsNote": null,
@@ -10901,7 +10901,7 @@
   "name": {
    "en": "Tin Staff",
    "cn": "錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุก"
   },
   "stats": [
    {
@@ -10936,7 +10936,7 @@
   "name": {
    "en": "Red Jade Tin Staff",
    "cn": "紅玉錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกหยกแดง"
   },
   "stats": [
    {
@@ -10971,7 +10971,7 @@
   "name": {
    "en": "Ali Tin Staff",
    "cn": "阿里錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกอาลี"
   },
   "stats": [
    {
@@ -11006,7 +11006,7 @@
   "name": {
    "en": "Yellow Gold Tin Staff",
    "cn": "黃金錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกทองเหลือง"
   },
   "stats": [
    {
@@ -11041,7 +11041,7 @@
   "name": {
    "en": "Jade Green Tin Staff",
    "cn": "翡翠錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกเขียวหยก"
   },
   "stats": [
    {
@@ -11076,7 +11076,7 @@
   "name": {
    "en": "Dream Weave Staff",
    "cn": "織夢魔杖",
-   "th": null
+   "th": "ไม้เท้าถักฝัน"
   },
   "stats": [
    {
@@ -11111,7 +11111,7 @@
   "name": {
    "en": "Yellow Crystal Staff",
    "cn": "黃晶魔杖",
-   "th": null
+   "th": "ไม้เท้าคริสตัลเหลือง"
   },
   "stats": [
    {
@@ -11146,7 +11146,7 @@
   "name": {
    "en": "Spirit Air Staff",
    "cn": "靈氣神杖",
-   "th": null
+   "th": "ไม้เท้าลมวิญญาณ"
   },
   "stats": [
    {
@@ -11181,7 +11181,7 @@
   "name": {
    "en": "Sapphire Magic Staff",
    "cn": "藍寶石魔杖",
-   "th": null
+   "th": "ไม้เท้าเวทไพลิน"
   },
   "stats": [
    {
@@ -11216,7 +11216,7 @@
   "name": {
    "en": "Ruby Magic Staff",
    "cn": "紅寶石魔杖",
-   "th": null
+   "th": "ไม้เท้าเวททับทิม"
   },
   "stats": [
    {
@@ -11251,7 +11251,7 @@
   "name": {
    "en": "Forest Spirit Staff",
    "cn": "森靈法杖",
-   "th": null
+   "th": "ไม้เท้าวิญญาณป่า"
   },
   "stats": [
    {
@@ -11284,7 +11284,7 @@
   "name": {
    "en": "Refined Tin Material",
    "cn": "精煉錫材",
-   "th": null
+   "th": "วัสดุดีบุกบริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -11311,7 +11311,7 @@
   "name": {
    "en": "White Soul Staff",
    "cn": "白魂法杖",
-   "th": null
+   "th": "ไม้เท้าวิญญาณขาว"
   },
   "stats": [
    {
@@ -11342,7 +11342,7 @@
   "name": {
    "en": "True Leaf Staff",
    "cn": "真葉魔杖",
-   "th": null
+   "th": "ไม้เท้าใบไม้แท้"
   },
   "stats": [
    {
@@ -11377,7 +11377,7 @@
   "name": {
    "en": "Sea Demon Staff",
    "cn": "海鬼魔杖",
-   "th": null
+   "th": "ไม้เท้าปีศาจทะเล"
   },
   "stats": [
    {
@@ -11412,7 +11412,7 @@
   "name": {
    "en": "Blood Bead Tin Staff",
    "cn": "血珠錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกลูกปัดเลือด"
   },
   "stats": [
    {
@@ -11447,7 +11447,7 @@
   "name": {
    "en": "Green Jewel Staff",
    "cn": "綠寶法杖",
-   "th": null
+   "th": "ไม้เท้าอัญมณีเขียว"
   },
   "stats": [
    {
@@ -11482,7 +11482,7 @@
   "name": {
    "en": "Blue Sky Staff",
    "cn": "藍天法杖",
-   "th": null
+   "th": "ไม้เท้าฟ้าคราม"
   },
   "stats": [
    {
@@ -11514,7 +11514,7 @@
   "name": {
    "en": "Red Scale Staff",
    "cn": "紅鱗法杖",
-   "th": null
+   "th": "ไม้เท้าเกล็ดแดง"
   },
   "stats": [
    {
@@ -11549,7 +11549,7 @@
   "name": {
    "en": "Purple Light Staff",
    "cn": "紫光法杖",
-   "th": null
+   "th": "ไม้เท้าแสงม่วง"
   },
   "stats": [
    {
@@ -11584,7 +11584,7 @@
   "name": {
    "en": "Heaven Bead Staff",
    "cn": "天球法杖",
-   "th": null
+   "th": "ไม้เท้าลูกปัดสวรรค์"
   },
   "stats": [
    {
@@ -11619,7 +11619,7 @@
   "name": {
    "en": "White Silver Staff",
    "cn": "白銀法杖",
-   "th": null
+   "th": "ไม้เท้าเงินขาว"
   },
   "stats": [
    {
@@ -11654,7 +11654,7 @@
   "name": {
    "en": "Red Moon Tin Staff",
    "cn": "紅月錫杖",
-   "th": null
+   "th": "ไม้เท้าดีบุกจันทร์แดง"
   },
   "stats": [
    {
@@ -11689,7 +11689,7 @@
   "name": {
    "en": "Gold Bell Staff",
    "cn": "金鬱魔杖",
-   "th": null
+   "th": "ไม้เท้ากระดิ่งทอง"
   },
   "stats": [
    {
@@ -11724,7 +11724,7 @@
   "name": {
    "en": "Blood Bead Magic Staff",
    "cn": "血珠魔杖",
-   "th": null
+   "th": "ไม้เท้าเวทลูกปัดเลือด"
   },
   "stats": [
    {
@@ -11759,7 +11759,7 @@
   "name": {
    "en": "Lead Ore",
    "cn": "鉛礦",
-   "th": null
+   "th": "แร่ตะกั่ว"
   },
   "stats": [],
   "statsNote": null,
@@ -11783,7 +11783,7 @@
   "name": {
    "en": "Lead Ore Sand",
    "cn": "鉛礦沙",
-   "th": null
+   "th": "ทรายแร่ตะกั่ว"
   },
   "stats": [],
   "statsNote": null,
@@ -11807,7 +11807,7 @@
   "name": {
    "en": "Lead Block",
    "cn": "鉛塊",
-   "th": null
+   "th": "ก้อนตะกั่ว"
   },
   "stats": [],
   "statsNote": null,
@@ -11831,7 +11831,7 @@
   "name": {
    "en": "Lead Plate",
    "cn": "鉛鋼",
-   "th": null
+   "th": "แผ่นตะกั่ว"
   },
   "stats": [],
   "statsNote": null,
@@ -11855,7 +11855,7 @@
   "name": {
    "en": "Zinc Block",
    "cn": "亞鉛塊",
-   "th": null
+   "th": "ก้อนสังกะสี"
   },
   "stats": [],
   "statsNote": null,
@@ -11881,7 +11881,7 @@
   "name": {
    "en": "Red Lead Greatblade",
    "cn": "赤鉛大刀",
-   "th": null
+   "th": "ดาบใหญ่ตะกั่วแดง"
   },
   "stats": [
    {
@@ -11916,7 +11916,7 @@
   "name": {
    "en": "Red Lead Iron Hammer",
    "cn": "赤鉛鐵鎚",
-   "th": null
+   "th": "ค้อนเหล็กตะกั่วแดง"
   },
   "stats": [
    {
@@ -11951,7 +11951,7 @@
   "name": {
    "en": "Zinc Chopping Blade",
    "cn": "亞鉛砍刀",
-   "th": null
+   "th": "มีดสับสังกะสี"
   },
   "stats": [
    {
@@ -11986,7 +11986,7 @@
   "name": {
    "en": "Blue Lead Earring",
    "cn": "藍鉛耳環",
-   "th": null
+   "th": "ต่างหูตะกั่วน้ำเงิน"
   },
   "stats": [
    {
@@ -12017,7 +12017,7 @@
   "name": {
    "en": "Grey Edge Sword",
    "cn": "灰鋒劍",
-   "th": null
+   "th": "ดาบคมเทา"
   },
   "stats": [
    {
@@ -12050,7 +12050,7 @@
   "name": {
    "en": "Processed Zinc Bar",
    "cn": "加工亞鉛條",
-   "th": null
+   "th": "แท่งสังกะสีแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -12076,7 +12076,7 @@
   "name": {
    "en": "Dazzle Yellow Bracers",
    "cn": "炫黃護腕",
-   "th": null
+   "th": "ปลอกแขนเหลืองเจิดจ้า"
   },
   "stats": [
    {
@@ -12107,7 +12107,7 @@
   "name": {
    "en": "Sinking Bead Staff",
    "cn": "沉珠魔杖",
-   "th": null
+   "th": "ไม้เท้าลูกปัดจม"
   },
   "stats": [
    {
@@ -12142,7 +12142,7 @@
   "name": {
    "en": "Sinking Fang Blade Claw",
    "cn": "沉牙刃爪",
-   "th": null
+   "th": "กรงเล็บใบมีดเขี้ยวจม"
   },
   "stats": [
    {
@@ -12177,7 +12177,7 @@
   "name": {
    "en": "Zinc Pointed Spear",
    "cn": "亞鉛尖槍",
-   "th": null
+   "th": "หอกปลายแหลมสังกะสี"
   },
   "stats": [
    {
@@ -12212,7 +12212,7 @@
   "name": {
    "en": "Zinc Hammer",
    "cn": "亞鉛鎚",
-   "th": null
+   "th": "ค้อนสังกะสี"
   },
   "stats": [
    {
@@ -12245,7 +12245,7 @@
   "name": {
    "en": "Glory Mage Staff",
    "cn": "榮耀法杖",
-   "th": null
+   "th": "ไม้เท้าเมจเกียรติยศ"
   },
   "stats": [
    {
@@ -12278,7 +12278,7 @@
   "name": {
    "en": "Magic Wand",
    "cn": "魔杖",
-   "th": null
+   "th": "คทาเวท"
   },
   "stats": [
    {
@@ -12311,7 +12311,7 @@
   "name": {
    "en": "Long Pike",
    "cn": "長矛",
-   "th": null
+   "th": "ทวนยาว"
   },
   "stats": [
    {
@@ -12340,7 +12340,7 @@
   "name": {
    "en": "Thin Wood Club",
    "cn": "細木棒",
-   "th": null
+   "th": "กระบองไม้บาง"
   },
   "stats": [
    {
@@ -12373,7 +12373,7 @@
   "name": {
    "en": "Oak Club",
    "cn": "橡木棒",
-   "th": null
+   "th": "กระบองโอ๊ก"
   },
   "stats": [
    {
@@ -12408,7 +12408,7 @@
   "name": {
    "en": "Short Bow",
    "cn": "短弓",
-   "th": null
+   "th": "ธนูสั้น"
   },
   "stats": [
    {
@@ -12443,7 +12443,7 @@
   "name": {
    "en": "Wooden Short Bow",
    "cn": "木短弓",
-   "th": null
+   "th": "ธนูสั้นไม้"
   },
   "stats": [
    {
@@ -12476,7 +12476,7 @@
   "name": {
    "en": "Mage's Wand",
    "cn": "法師魔杖",
-   "th": null
+   "th": "คทาเมจ"
   },
   "stats": [
    {
@@ -12509,7 +12509,7 @@
   "name": {
    "en": "Advanced Long Pike",
    "cn": "高級長矛",
-   "th": null
+   "th": "ทวนยาวขั้นสูง"
   },
   "stats": [
    {
@@ -12538,7 +12538,7 @@
   "name": {
    "en": "Lauan Wood Club",
    "cn": "柳安木棒",
-   "th": null
+   "th": "กระบองไม้ลัวน"
   },
   "stats": [
    {
@@ -12573,7 +12573,7 @@
   "name": {
    "en": "Advanced Short Bow",
    "cn": "高級短弓",
-   "th": null
+   "th": "ธนูสั้นขั้นสูง"
   },
   "stats": [
    {
@@ -12606,7 +12606,7 @@
   "name": {
    "en": "Wizard's Wand",
    "cn": "巫師魔杖",
-   "th": null
+   "th": "คทาพ่อมด"
   },
   "stats": [
    {
@@ -12639,7 +12639,7 @@
   "name": {
    "en": "War Pike",
    "cn": "戰矛",
-   "th": null
+   "th": "ทวนรบ"
   },
   "stats": [
    {
@@ -12668,7 +12668,7 @@
   "name": {
    "en": "Cypress Club",
    "cn": "檜木棒",
-   "th": null
+   "th": "กระบองไซเปรส"
   },
   "stats": [
    {
@@ -12703,7 +12703,7 @@
   "name": {
    "en": "Refined Short Bow",
    "cn": "精製短弓",
-   "th": null
+   "th": "ธนูสั้นประณีต"
   },
   "stats": [
    {
@@ -12738,7 +12738,7 @@
   "name": {
    "en": "Fang Staff",
    "cn": "牙之法杖",
-   "th": null
+   "th": "ไม้เท้าเขี้ยว"
   },
   "stats": [
    {
@@ -12771,7 +12771,7 @@
   "name": {
    "en": "Great Oak Club",
    "cn": "大橡木棒",
-   "th": null
+   "th": "กระบองโอ๊กใหญ่"
   },
   "stats": [
    {
@@ -12806,7 +12806,7 @@
   "name": {
    "en": "Hunter's Bow",
    "cn": "獵人弓",
-   "th": null
+   "th": "ธนูนักล่า"
   },
   "stats": [
    {
@@ -12839,7 +12839,7 @@
   "name": {
    "en": "Wooden Bracers",
    "cn": "木護腕",
-   "th": null
+   "th": "ปลอกแขนไม้"
   },
   "stats": [
    {
@@ -12870,7 +12870,7 @@
   "name": {
    "en": "Red Fang Staff",
    "cn": "紅牙法杖",
-   "th": null
+   "th": "ไม้เท้าเขี้ยวแดง"
   },
   "stats": [
    {
@@ -12903,7 +12903,7 @@
   "name": {
    "en": "Great Lauan Club",
    "cn": "大柳安木棒",
-   "th": null
+   "th": "กระบองลัวนใหญ่"
   },
   "stats": [
    {
@@ -12938,7 +12938,7 @@
   "name": {
    "en": "Long Bow",
    "cn": "長弓",
-   "th": null
+   "th": "ธนูยาว"
   },
   "stats": [
    {
@@ -12971,7 +12971,7 @@
   "name": {
    "en": "Bamboo Bracers",
    "cn": "竹片護腕",
-   "th": null
+   "th": "ปลอกแขนไม้ไผ่"
   },
   "stats": [
    {
@@ -13006,7 +13006,7 @@
   "name": {
    "en": "Purple Gold Staff",
    "cn": "紫金法杖",
-   "th": null
+   "th": "ไม้เท้าทองม่วง"
   },
   "stats": [
    {
@@ -13039,7 +13039,7 @@
   "name": {
    "en": "Great Cypress Club",
    "cn": "大檜木棒",
-   "th": null
+   "th": "กระบองไซเปรสใหญ่"
   },
   "stats": [
    {
@@ -13074,7 +13074,7 @@
   "name": {
    "en": "Advanced Long Bow",
    "cn": "高級長弓",
-   "th": null
+   "th": "ธนูยาวขั้นสูง"
   },
   "stats": [
    {
@@ -13107,7 +13107,7 @@
   "name": {
    "en": "Iron Bracers",
    "cn": "鐵護腕",
-   "th": null
+   "th": "ปลอกแขนเหล็ก"
   },
   "stats": [
    {
@@ -13142,7 +13142,7 @@
   "name": {
    "en": "Gold Bead Staff",
    "cn": "金球法杖",
-   "th": null
+   "th": "ไม้เท้าลูกปัดทอง"
   },
   "stats": [
    {
@@ -13175,7 +13175,7 @@
   "name": {
    "en": "Thorn Club",
    "cn": "刺木棒",
-   "th": null
+   "th": "กระบองหนาม"
   },
   "stats": [
    {
@@ -13210,7 +13210,7 @@
   "name": {
    "en": "Refined Long Bow",
    "cn": "精製長弓",
-   "th": null
+   "th": "ธนูยาวประณีต"
   },
   "stats": [
    {
@@ -13243,7 +13243,7 @@
   "name": {
    "en": "Advanced Thorn Club",
    "cn": "高級刺木棒",
-   "th": null
+   "th": "กระบองหนามขั้นสูง"
   },
   "stats": [
    {
@@ -13278,7 +13278,7 @@
   "name": {
    "en": "Crescent Long Bow",
    "cn": "新月長弓",
-   "th": null
+   "th": "ธนูยาวจันทร์เสี้ยว"
   },
   "stats": [
    {
@@ -13314,7 +13314,7 @@
   "name": {
    "en": "Feather Wing Long Bow",
    "cn": "羽翼長弓",
-   "th": null
+   "th": "ธนูยาวปีกขนนก"
   },
   "stats": [
    {
@@ -13350,7 +13350,7 @@
   "name": {
    "en": "Sun Shooter Bow",
    "cn": "射日弓",
-   "th": null
+   "th": "ธนูยิงตะวัน"
   },
   "stats": [
    {
@@ -13385,7 +13385,7 @@
   "name": {
    "en": "Orc Crossbow",
    "cn": "獸人弩",
-   "th": null
+   "th": "หน้าไม้ออร์ค"
   },
   "stats": [
    {
@@ -13420,7 +13420,7 @@
   "name": {
    "en": "Bamboo Hat",
    "cn": "斗笠",
-   "th": null
+   "th": "งอบไม้ไผ่"
   },
   "stats": [
    {
@@ -13455,7 +13455,7 @@
   "name": {
    "en": "Dragon Staff",
    "cn": "龍杖",
-   "th": null
+   "th": "ไม้เท้ามังกร"
   },
   "stats": [
    {
@@ -13490,7 +13490,7 @@
   "name": {
    "en": "Vine Bamboo Hat",
    "cn": "藤斗笠",
-   "th": null
+   "th": "งอบไม้ไผ่เถา"
   },
   "stats": [
    {
@@ -13525,7 +13525,7 @@
   "name": {
    "en": "Wooden Clogs",
    "cn": "木屐",
-   "th": null
+   "th": "เกี๊ยะไม้"
   },
   "stats": [
    {
@@ -13556,7 +13556,7 @@
   "name": {
    "en": "Bamboo Hat (green)",
    "cn": "竹斗笠",
-   "th": null
+   "th": "งอบไม้ไผ่ (เขียว)"
   },
   "stats": [
    {
@@ -13587,7 +13587,7 @@
   "name": {
    "en": "Bark Scale Armor",
    "cn": "樹皮鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดเปลือกไม้"
   },
   "stats": [
    {
@@ -13622,7 +13622,7 @@
   "name": {
    "en": "Copper-Cast Wooden Boots",
    "cn": "銅化木靴",
-   "th": null
+   "th": "รองเท้าบู๊ตไม้หล่อทองแดง"
   },
   "stats": [
    {
@@ -13655,7 +13655,7 @@
   "name": {
    "en": "Wooden Puppet",
    "cn": "離線木人玩偶",
-   "th": null
+   "th": "หุ่นเชิดไม้"
   },
   "stats": [],
   "statsNote": null,
@@ -13679,7 +13679,7 @@
   "name": {
    "en": "Toy Mallet",
    "cn": "玩具木槌",
-   "th": null
+   "th": "ค้อนไม้ของเล่น"
   },
   "stats": [
    {
@@ -13712,7 +13712,7 @@
   "name": {
    "en": "Wooden Mallet",
    "cn": "木槌",
-   "th": null
+   "th": "ค้อนไม้"
   },
   "stats": [
    {
@@ -13745,7 +13745,7 @@
   "name": {
    "en": "Processed Raw Wood",
    "cn": "加工原木材",
-   "th": null
+   "th": "ไม้ดิบแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -13769,7 +13769,7 @@
   "name": {
    "en": "Soul Wooden Clogs",
    "cn": "傳魂木屐",
-   "th": null
+   "th": "เกี๊ยะไม้วิญญาณ"
   },
   "stats": [
    {
@@ -13798,7 +13798,7 @@
   "name": {
    "en": "Wooden Pedals",
    "cn": "木製踏板",
-   "th": null
+   "th": "แป้นเหยียบไม้"
   },
   "stats": [],
   "statsNote": null,
@@ -13822,7 +13822,7 @@
   "name": {
    "en": "Propeller",
    "cn": "螺旋槳",
-   "th": null
+   "th": "ใบพัด"
   },
   "stats": [],
   "statsNote": null,
@@ -13848,7 +13848,7 @@
   "name": {
    "en": "Ice Dragon Staff",
    "cn": "冰龍之杖",
-   "th": null
+   "th": "ไม้เท้ามังกรน้ำแข็ง"
   },
   "stats": [
    {
@@ -13881,7 +13881,7 @@
   "name": {
    "en": "Vertical Wing",
    "cn": "垂直尾翼",
-   "th": null
+   "th": "ปีกตั้ง"
   },
   "stats": [],
   "statsNote": null,
@@ -13907,7 +13907,7 @@
   "name": {
    "en": "Black Dragon Wooden Clogs",
    "cn": "黑龍木屐",
-   "th": null
+   "th": "เกี๊ยะไม้มังกรดำ"
   },
   "stats": [
    {
@@ -13942,7 +13942,7 @@
   "name": {
    "en": "Redwood Mage Staff",
    "cn": "紅木法杖",
-   "th": null
+   "th": "ไม้เท้าเมจไม้แดง"
   },
   "stats": [
    {
@@ -13977,7 +13977,7 @@
   "name": {
    "en": "Gold Grasp Boots",
    "cn": "摯金靴",
-   "th": null
+   "th": "รองเท้าบู๊ตกำทอง"
   },
   "stats": [
    {
@@ -14012,7 +14012,7 @@
   "name": {
    "en": "Jade Green Clogs",
    "cn": "翡翠木屐",
-   "th": null
+   "th": "เกี๊ยะเขียวหยก"
   },
   "stats": [
    {
@@ -14045,7 +14045,7 @@
   "name": {
    "en": "Grass Shoes",
    "cn": "草鞋",
-   "th": null
+   "th": "รองเท้าหญ้า"
   },
   "stats": [
    {
@@ -14074,7 +14074,7 @@
   "name": {
    "en": "Hemp Straw Shoes",
    "cn": "麻編草鞋",
-   "th": null
+   "th": "รองเท้าฟางป่าน"
   },
   "stats": [
    {
@@ -14107,7 +14107,7 @@
   "name": {
    "en": "Priest Hat",
    "cn": "神職帽",
-   "th": null
+   "th": "หมวกนักบวช"
   },
   "stats": [
    {
@@ -14140,7 +14140,7 @@
   "name": {
    "en": "Hard Grass Shoes",
    "cn": "硬草鞋",
-   "th": null
+   "th": "รองเท้าหญ้าแข็ง"
   },
   "stats": [
    {
@@ -14169,7 +14169,7 @@
   "name": {
    "en": "Hemp Cloth Gloves",
    "cn": "麻布手套",
-   "th": null
+   "th": "ถุงมือผ้าป่าน"
   },
   "stats": [
    {
@@ -14198,7 +14198,7 @@
   "name": {
    "en": "Vine Shoes",
    "cn": "藤鞋",
-   "th": null
+   "th": "รองเท้าเถาวัลย์"
   },
   "stats": [
    {
@@ -14231,7 +14231,7 @@
   "name": {
    "en": "Fire Hemp Shoes",
    "cn": "火麻鞋",
-   "th": null
+   "th": "รองเท้าป่านไฟ"
   },
   "stats": [
    {
@@ -14264,7 +14264,7 @@
   "name": {
    "en": "Snow Grass",
    "cn": "雪草",
-   "th": null
+   "th": "หญ้าหิมะ"
   },
   "stats": [],
   "statsNote": null,
@@ -14288,7 +14288,7 @@
   "name": {
    "en": "Emerald Headband",
    "cn": "翠綠頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวมรกต"
   },
   "stats": [
    {
@@ -14323,7 +14323,7 @@
   "name": {
    "en": "Ink Green Sandals",
    "cn": "墨綠履鞋",
-   "th": null
+   "th": "รองเท้าแตะเขียวหมึก"
   },
   "stats": [
    {
@@ -14358,7 +14358,7 @@
   "name": {
    "en": "Magic Cloth Hat",
    "cn": "魔法布帽",
-   "th": null
+   "th": "หมวกผ้าเวท"
   },
   "stats": [
    {
@@ -14389,7 +14389,7 @@
   "name": {
    "en": "Red Flower Qipao",
    "cn": "紅花旗袍",
-   "th": null
+   "th": "กี่เพ้าดอกไม้แดง"
   },
   "stats": [
    {
@@ -14422,7 +14422,7 @@
   "name": {
    "en": "Gold Silk Hemp Grass",
    "cn": "金絲麻草",
-   "th": null
+   "th": "หญ้าป่านไหมทอง"
   },
   "stats": [],
   "statsNote": null,
@@ -14448,7 +14448,7 @@
   "name": {
    "en": "Blue Algae Shoes",
    "cn": "藍藻鞋",
-   "th": null
+   "th": "รองเท้าสาหร่ายน้ำเงิน"
   },
   "stats": [
    {
@@ -14483,7 +14483,7 @@
   "name": {
    "en": "Black Hemp Shoes",
    "cn": "黑麻鞋",
-   "th": null
+   "th": "รองเท้าป่านดำ"
   },
   "stats": [
    {
@@ -14519,7 +14519,7 @@
   "name": {
    "en": "Phoenix Spirit Grass Shoes",
    "cn": "鳳靈草鞋",
-   "th": null
+   "th": "รองเท้าหญ้าวิญญาณฟีนิกซ์"
   },
   "stats": [
    {
@@ -14552,7 +14552,7 @@
   "name": {
    "en": "Black Witch Hat",
    "cn": "黑巫法帽",
-   "th": null
+   "th": "หมวกแม่มดดำ"
   },
   "stats": [
    {
@@ -14585,7 +14585,7 @@
   "name": {
    "en": "Processed Tender Grass",
    "cn": "加工嫩草",
-   "th": null
+   "th": "หญ้าอ่อนแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -14611,7 +14611,7 @@
   "name": {
    "en": "Net Leather Bracers",
    "cn": "網革護腕",
-   "th": null
+   "th": "ปลอกแขนหนังตาข่าย"
   },
   "stats": [
    {
@@ -14642,7 +14642,7 @@
   "name": {
    "en": "Tree Beard Robe",
    "cn": "樹鬚法袍",
-   "th": null
+   "th": "เสื้อคลุมเคราต้นไม้"
   },
   "stats": [
    {
@@ -14677,7 +14677,7 @@
   "name": {
    "en": "Straw Sandals",
    "cn": "草履鞋",
-   "th": null
+   "th": "รองเท้าแตะฟาง"
   },
   "stats": [
    {
@@ -14712,7 +14712,7 @@
   "name": {
    "en": "Red Hood Robe",
    "cn": "紅兜法袍",
-   "th": null
+   "th": "เสื้อคลุมฮู้ดแดง"
   },
   "stats": [
    {
@@ -14748,7 +14748,7 @@
   "name": {
    "en": "Water Blue Leather Boots",
    "cn": "水藍皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังน้ำเงินน้ำ"
   },
   "stats": [
    {
@@ -14783,7 +14783,7 @@
   "name": {
    "en": "Black Satin Robe",
    "cn": "黑緞法袍",
-   "th": null
+   "th": "เสื้อคลุมซาตินดำ"
   },
   "stats": [
    {
@@ -14818,7 +14818,7 @@
   "name": {
    "en": "Blue Spirit Boots",
    "cn": "藍靈靴",
-   "th": null
+   "th": "รองเท้าบู๊ตวิญญาณน้ำเงิน"
   },
   "stats": [
    {
@@ -14853,7 +14853,7 @@
   "name": {
    "en": "Water Silk Qipao",
    "cn": "水絲旗袍",
-   "th": null
+   "th": "กี่เพ้าไหมน้ำ"
   },
   "stats": [
    {
@@ -14888,7 +14888,7 @@
   "name": {
    "en": "Evening Banquet Dress",
    "cn": "午宴禮服",
-   "th": null
+   "th": "ชุดกระโปรงงานเลี้ยงราตรี"
   },
   "stats": [
    {
@@ -14921,7 +14921,7 @@
   "name": {
    "en": "Spirit Grass Mage Hat",
    "cn": "靈草法帽",
-   "th": null
+   "th": "หมวกเมจหญ้าวิญญาณ"
   },
   "stats": [
    {
@@ -14956,7 +14956,7 @@
   "name": {
    "en": "Blue Silk Gloves",
    "cn": "藍絲手套",
-   "th": null
+   "th": "ถุงมือไหมน้ำเงิน"
   },
   "stats": [
    {
@@ -14991,7 +14991,7 @@
   "name": {
    "en": "Gentleman's Hat",
    "cn": "紳士帽",
-   "th": null
+   "th": "หมวกสุภาพบุรุษ"
   },
   "stats": [
    {
@@ -15026,7 +15026,7 @@
   "name": {
    "en": "Maid Headdress",
    "cn": "女僕頭飾",
-   "th": null
+   "th": "เครื่องประดับศีรษะสาวใช้"
   },
   "stats": [
    {
@@ -15062,7 +15062,7 @@
   "name": {
    "en": "Green Spirit Boots",
    "cn": "綠靈靴",
-   "th": null
+   "th": "รองเท้าบู๊ตวิญญาณเขียว"
   },
   "stats": [
    {
@@ -15093,7 +15093,7 @@
   "name": {
    "en": "Dusk Cylinder Boots",
    "cn": "黃昏筒靴",
-   "th": null
+   "th": "รองเท้าบู๊ตกระบอกสนธยา"
   },
   "stats": [
    {
@@ -15128,7 +15128,7 @@
   "name": {
    "en": "Silk Spirit Guards",
    "cn": "法絲護腕",
-   "th": null
+   "th": "การ์ดมือวิญญาณไหม"
   },
   "stats": [
    {
@@ -15163,7 +15163,7 @@
   "name": {
    "en": "Red Pattern Thorn Boots",
    "cn": "紅紋刺靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนามลายแดง"
   },
   "stats": [
    {
@@ -15198,7 +15198,7 @@
   "name": {
    "en": "Mage King Robe",
    "cn": "法王袍",
-   "th": null
+   "th": "เสื้อคลุมราชาเมจ"
   },
   "stats": [
    {
@@ -15233,7 +15233,7 @@
   "name": {
    "en": "Flying Feather Dress",
    "cn": "飛羽服",
-   "th": null
+   "th": "ชุดกระโปรงขนนกบิน"
   },
   "stats": [
    {
@@ -15269,7 +15269,7 @@
   "name": {
    "en": "Sky Martial Suit",
    "cn": "天空武門服",
-   "th": null
+   "th": "ชุดยุทธฟ้า"
   },
   "stats": [
    {
@@ -15300,7 +15300,7 @@
   "name": {
    "en": "Long Purple Boots",
    "cn": "長紫靴",
-   "th": null
+   "th": "รองเท้าบู๊ตม่วงยาว"
   },
   "stats": [
    {
@@ -15335,7 +15335,7 @@
   "name": {
    "en": "Hot Blood Armband",
    "cn": "熱血臂章",
-   "th": null
+   "th": "ปลอกแขนเลือดร้อน"
   },
   "stats": [
    {
@@ -15368,7 +15368,7 @@
   "name": {
    "en": "Headband",
    "cn": "頭帶",
-   "th": null
+   "th": "ผ้าคาดหัว"
   },
   "stats": [
    {
@@ -15397,7 +15397,7 @@
   "name": {
    "en": "Red Headband",
    "cn": "紅色頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวแดง"
   },
   "stats": [
    {
@@ -15426,7 +15426,7 @@
   "name": {
    "en": "Pink Headband",
    "cn": "粉紅頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวชมพู"
   },
   "stats": [
    {
@@ -15455,7 +15455,7 @@
   "name": {
    "en": "Bell Ribbon Headband",
    "cn": "鈴鐺頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวโบว์กระดิ่ง"
   },
   "stats": [
    {
@@ -15484,7 +15484,7 @@
   "name": {
    "en": "Iron Helmet Armor",
    "cn": "鐵盔甲",
-   "th": null
+   "th": "เกราะหมวกเหล็ก"
   },
   "stats": [
    {
@@ -15513,7 +15513,7 @@
   "name": {
    "en": "Cat Headdress",
    "cn": "貓頭飾",
-   "th": null
+   "th": "เครื่องประดับศีรษะแมว"
   },
   "stats": [
    {
@@ -15548,7 +15548,7 @@
   "name": {
    "en": "Light Cloth Robe",
    "cn": "輕布衣",
-   "th": null
+   "th": "เสื้อคลุมผ้าเบา"
   },
   "stats": [
    {
@@ -15581,7 +15581,7 @@
   "name": {
    "en": "Coconut Meat",
    "cn": "椰子肉",
-   "th": null
+   "th": "เนื้อมะพร้าว"
   },
   "stats": [],
   "statsNote": null,
@@ -15605,7 +15605,7 @@
   "name": {
    "en": "Hot Blood Headscarf",
    "cn": "熱血頭巾",
-   "th": null
+   "th": "ผ้าโพกหัวเลือดร้อน"
   },
   "stats": [
    {
@@ -15638,7 +15638,7 @@
   "name": {
    "en": "Cotton Gloves",
    "cn": "棉質手套",
-   "th": null
+   "th": "ถุงมือฝ้าย"
   },
   "stats": [
    {
@@ -15667,7 +15667,7 @@
   "name": {
    "en": "Cloth Hat",
    "cn": "布帽",
-   "th": null
+   "th": "หมวกผ้า"
   },
   "stats": [
    {
@@ -15702,7 +15702,7 @@
   "name": {
    "en": "Blaze Mage Hat",
    "cn": "烈焰法帽",
-   "th": null
+   "th": "หมวกเมจเปลวไฟ"
   },
   "stats": [
    {
@@ -15733,7 +15733,7 @@
   "name": {
    "en": "Copper Guards",
    "cn": "銅護手",
-   "th": null
+   "th": "การ์ดมือทองแดง"
   },
   "stats": [
    {
@@ -15769,7 +15769,7 @@
   "name": {
    "en": "Water Mage Gloves",
    "cn": "水法手套",
-   "th": null
+   "th": "ถุงมือเมจน้ำ"
   },
   "stats": [
    {
@@ -15804,7 +15804,7 @@
   "name": {
    "en": "Cloth Robe",
    "cn": "布衣",
-   "th": null
+   "th": "เสื้อคลุมผ้า"
   },
   "stats": [
    {
@@ -15839,7 +15839,7 @@
   "name": {
    "en": "Bronze Guards",
    "cn": "青銅護手",
-   "th": null
+   "th": "การ์ดมือสำริด"
   },
   "stats": [
    {
@@ -15870,7 +15870,7 @@
   "name": {
    "en": "Dyed Cloth Robe",
    "cn": "彩染布衣",
-   "th": null
+   "th": "เสื้อคลุมผ้าย้อม"
   },
   "stats": [
    {
@@ -15905,7 +15905,7 @@
   "name": {
    "en": "Warm Cloth Robe",
    "cn": "保暖布衣",
-   "th": null
+   "th": "เสื้อคลุมผ้าอุ่น"
   },
   "stats": [
    {
@@ -15938,7 +15938,7 @@
   "name": {
    "en": "Qipao",
    "cn": "旗袍",
-   "th": null
+   "th": "กี่เพ้า"
   },
   "stats": [
    {
@@ -15973,7 +15973,7 @@
   "name": {
    "en": "Iron Guards",
    "cn": "鐵護手",
-   "th": null
+   "th": "การ์ดมือเหล็ก"
   },
   "stats": [
    {
@@ -16008,7 +16008,7 @@
   "name": {
    "en": "Cotton Guards",
    "cn": "棉製護手",
-   "th": null
+   "th": "การ์ดมือฝ้าย"
   },
   "stats": [
    {
@@ -16043,7 +16043,7 @@
   "name": {
    "en": "Pure Iron Guards",
    "cn": "赤鐵護手",
-   "th": null
+   "th": "การ์ดมือเหล็กแดง"
   },
   "stats": [
    {
@@ -16079,7 +16079,7 @@
   "name": {
    "en": "White Spirit Gloves",
    "cn": "白靈手套",
-   "th": null
+   "th": "ถุงมือวิญญาณขาว"
   },
   "stats": [
    {
@@ -16112,7 +16112,7 @@
   "name": {
    "en": "Cotton Silk Robe",
    "cn": "棉綢法袍",
-   "th": null
+   "th": "เสื้อคลุมไหมฝ้าย"
   },
   "stats": [
    {
@@ -16148,7 +16148,7 @@
   "name": {
    "en": "Pale Grey Robe",
    "cn": "淺灰法袍",
-   "th": null
+   "th": "เสื้อคลุมเทาซีด"
   },
   "stats": [
    {
@@ -16183,7 +16183,7 @@
   "name": {
    "en": "Gold Silk Qipao (lesser)",
    "cn": "蠶絲旗袍",
-   "th": null
+   "th": "กี่เพ้าไหมทอง (รอง)"
   },
   "stats": [
    {
@@ -16218,7 +16218,7 @@
   "name": {
    "en": "Grey Silk Robe",
    "cn": "灰絲法袍",
-   "th": null
+   "th": "เสื้อคลุมไหมเทา"
   },
   "stats": [
    {
@@ -16253,7 +16253,7 @@
   "name": {
    "en": "Purple Band Robe",
    "cn": "紫帶法袍",
-   "th": null
+   "th": "เสื้อคลุมสายม่วง"
   },
   "stats": [
    {
@@ -16286,7 +16286,7 @@
   "name": {
    "en": "Processed Gold Rose",
    "cn": "加工金玫瑰",
-   "th": null
+   "th": "กุหลาบทองแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -16312,7 +16312,7 @@
   "name": {
    "en": "Sage Apprentice Hat",
    "cn": "賢者見習帽",
-   "th": null
+   "th": "หมวกศิษย์ฝึกหัดปราชญ์"
   },
   "stats": [
    {
@@ -16347,7 +16347,7 @@
   "name": {
    "en": "Fine Embroidered Qipao",
    "cn": "精繡旗袍",
-   "th": null
+   "th": "กี่เพ้าปักชั้นดี"
   },
   "stats": [
    {
@@ -16382,7 +16382,7 @@
   "name": {
    "en": "Sage Mage Hat",
    "cn": "賢者法帽",
-   "th": null
+   "th": "หมวกเมจปราชญ์"
   },
   "stats": [
    {
@@ -16417,7 +16417,7 @@
   "name": {
    "en": "Heart-Piercing Leather Bracers",
    "cn": "穿心革腕",
-   "th": null
+   "th": "ปลอกแขนหนังทะลวงหัวใจ"
   },
   "stats": [
    {
@@ -16452,7 +16452,7 @@
   "name": {
    "en": "Magic Gloves",
    "cn": "魔法手套",
-   "th": null
+   "th": "ถุงมือเวท"
   },
   "stats": [
    {
@@ -16483,7 +16483,7 @@
   "name": {
    "en": "Witch Gloves",
    "cn": "巫師手套",
-   "th": null
+   "th": "ถุงมือแม่มด"
   },
   "stats": [
    {
@@ -16518,7 +16518,7 @@
   "name": {
    "en": "Formal Dress",
    "cn": "禮服",
-   "th": null
+   "th": "ชุดกระโปรงทางการ"
   },
   "stats": [
    {
@@ -16553,7 +16553,7 @@
   "name": {
    "en": "Dawn Light Dress",
    "cn": "晨曦禮服",
-   "th": null
+   "th": "ชุดกระโปรงแสงรุ่งอรุณ"
   },
   "stats": [
    {
@@ -16588,7 +16588,7 @@
   "name": {
    "en": "Gold Silk Qipao",
    "cn": "金絲旗袍",
-   "th": null
+   "th": "กี่เพ้าไหมทอง"
   },
   "stats": [
    {
@@ -16623,7 +16623,7 @@
   "name": {
    "en": "Great Magic Gloves",
    "cn": "大魔手套",
-   "th": null
+   "th": "ถุงมือเวทใหญ่"
   },
   "stats": [
    {
@@ -16654,7 +16654,7 @@
   "name": {
    "en": "Handmade Dress",
    "cn": "手工禮服",
-   "th": null
+   "th": "ชุดกระโปรงทำมือ"
   },
   "stats": [
    {
@@ -16690,7 +16690,7 @@
   "name": {
    "en": "Super Magic Gloves",
    "cn": "超法手套",
-   "th": null
+   "th": "ถุงมือเวทซูเปอร์"
   },
   "stats": [
    {
@@ -16725,7 +16725,7 @@
   "name": {
    "en": "Metal Silk Robe",
    "cn": "金屬絲袍",
-   "th": null
+   "th": "เสื้อคลุมไหมโลหะ"
   },
   "stats": [
    {
@@ -16760,7 +16760,7 @@
   "name": {
    "en": "Response Headscarf",
    "cn": "應援頭巾",
-   "th": null
+   "th": "ผ้าโพกหัวตอบสนอง"
   },
   "stats": [
    {
@@ -16795,7 +16795,7 @@
   "name": {
    "en": "Fine Silk Robe",
    "cn": "細綢旗袍",
-   "th": null
+   "th": "เสื้อคลุมไหมชั้นดี"
   },
   "stats": [
    {
@@ -16830,7 +16830,7 @@
   "name": {
    "en": "Purple Spirit Boots",
    "cn": "紫靈靴",
-   "th": null
+   "th": "รองเท้าบู๊ตวิญญาณม่วง"
   },
   "stats": [
    {
@@ -16865,7 +16865,7 @@
   "name": {
    "en": "Spirit Gloves",
    "cn": "靈能手套",
-   "th": null
+   "th": "ถุงมือวิญญาณ"
   },
   "stats": [
    {
@@ -16900,7 +16900,7 @@
   "name": {
    "en": "Grey Robe",
    "cn": "灰袍",
-   "th": null
+   "th": "เสื้อคลุมเทา"
   },
   "stats": [
    {
@@ -16931,7 +16931,7 @@
   "name": {
    "en": "Dusk Dress",
    "cn": "黃昏禮服",
-   "th": null
+   "th": "ชุดกระโปรงสนธยา"
   },
   "stats": [
    {
@@ -16966,7 +16966,7 @@
   "name": {
    "en": "Red Velvet Dress",
    "cn": "紅絨絨服",
-   "th": null
+   "th": "ชุดกระโปรงกำมะหยี่แดง"
   },
   "stats": [
    {
@@ -17001,7 +17001,7 @@
   "name": {
    "en": "Rainy Day Doll",
    "cn": "雨天娃娃",
-   "th": null
+   "th": "ตุ๊กตากลางวันฝนตก"
   },
   "stats": [
    {
@@ -17036,7 +17036,7 @@
   "name": {
    "en": "Silver Silk Robe",
    "cn": "銀絲法袍",
-   "th": null
+   "th": "เสื้อคลุมไหมเงิน"
   },
   "stats": [
    {
@@ -17067,7 +17067,7 @@
   "name": {
    "en": "Pale Purple Gloves",
    "cn": "淺紫手套",
-   "th": null
+   "th": "ถุงมือม่วงซีด"
   },
   "stats": [
    {
@@ -17096,7 +17096,7 @@
   "name": {
    "en": "Green Wood Qipao",
    "cn": "青木旗袍",
-   "th": null
+   "th": "กี่เพ้าไม้เขียว"
   },
   "stats": [
    {
@@ -17131,7 +17131,7 @@
   "name": {
    "en": "Purple Velvet Boots",
    "cn": "紫絨靴",
-   "th": null
+   "th": "รองเท้าบู๊ตกำมะหยี่ม่วง"
   },
   "stats": [
    {
@@ -17162,7 +17162,7 @@
   "name": {
    "en": "Magic Seal Gloves",
    "cn": "魔封手套",
-   "th": null
+   "th": "ถุงมือผนึกเวท"
   },
   "stats": [
    {
@@ -17198,7 +17198,7 @@
   "name": {
    "en": "Sunny Day Doll",
    "cn": "晴天娃娃",
-   "th": null
+   "th": "ตุ๊กตากลางวันแดดออก"
   },
   "stats": [
    {
@@ -17229,7 +17229,7 @@
   "name": {
    "en": "Energy Mage Robe",
    "cn": "能量法袍",
-   "th": null
+   "th": "เสื้อคลุมเมจพลังงาน"
   },
   "stats": [
    {
@@ -17260,7 +17260,7 @@
   "name": {
    "en": "Grain Grass Laurel",
    "cn": "禾草桂冠",
-   "th": null
+   "th": "มงกุฎหญ้าธัญพืช"
   },
   "stats": [
    {
@@ -17295,7 +17295,7 @@
   "name": {
    "en": "Laurel",
    "cn": "桂冠",
-   "th": null
+   "th": "มงกุฎใบไม้"
   },
   "stats": [
    {
@@ -17328,7 +17328,7 @@
   "name": {
    "en": "White Mist Sandals",
    "cn": "白霧履鞋",
-   "th": null
+   "th": "รองเท้าแตะหมอกขาว"
   },
   "stats": [
    {
@@ -17363,7 +17363,7 @@
   "name": {
    "en": "Green Leaf Cloth Robe",
    "cn": "綠葉布衣",
-   "th": null
+   "th": "เสื้อคลุมผ้าใบไม้เขียว"
   },
   "stats": [
    {
@@ -17398,7 +17398,7 @@
   "name": {
    "en": "Tender Leaf Laurel",
    "cn": "嫩葉桂冠",
-   "th": null
+   "th": "มงกุฎใบไม้อ่อน"
   },
   "stats": [
    {
@@ -17433,7 +17433,7 @@
   "name": {
    "en": "Red Leaf Laurel",
    "cn": "紅葉桂冠",
-   "th": null
+   "th": "มงกุฎใบไม้แดง"
   },
   "stats": [
    {
@@ -17468,7 +17468,7 @@
   "name": {
    "en": "Sea Blue Headband",
    "cn": "海藍頭帶",
-   "th": null
+   "th": "ผ้าคาดหัวน้ำเงินทะเล"
   },
   "stats": [
    {
@@ -17503,7 +17503,7 @@
   "name": {
    "en": "Stone Grass Laurel",
    "cn": "石草桂冠",
-   "th": null
+   "th": "มงกุฎหญ้าหิน"
   },
   "stats": [
    {
@@ -17536,7 +17536,7 @@
   "name": {
    "en": "Processed Tender Leaf",
    "cn": "加工嫩葉",
-   "th": null
+   "th": "ใบไม้อ่อนแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -17560,7 +17560,7 @@
   "name": {
    "en": "Water Silk Suit",
    "cn": "水絲裝",
-   "th": null
+   "th": "ชุดไหมน้ำ"
   },
   "stats": [
    {
@@ -17593,7 +17593,7 @@
   "name": {
    "en": "Big Leaf Headscarf",
    "cn": "大葉頭巾",
-   "th": null
+   "th": "ผ้าโพกหัวใบไม้ใหญ่"
   },
   "stats": [
    {
@@ -17624,7 +17624,7 @@
   "name": {
    "en": "Sky Soar Boots",
    "cn": "天翔靴",
-   "th": null
+   "th": "รองเท้าบู๊ตทะยานฟ้า"
   },
   "stats": [
    {
@@ -17655,7 +17655,7 @@
   "name": {
    "en": "Clear Silk Robe",
    "cn": "清澈絲袍",
-   "th": null
+   "th": "เสื้อคลุมไหมใส"
   },
   "stats": [
    {
@@ -17690,7 +17690,7 @@
   "name": {
    "en": "Deep Sea Grass Shoes",
    "cn": "深海草鞋",
-   "th": null
+   "th": "รองเท้าหญ้าทะเลลึก"
   },
   "stats": [
    {
@@ -17725,7 +17725,7 @@
   "name": {
    "en": "Light Spirit Bracers",
    "cn": "輕靈護腕",
-   "th": null
+   "th": "ปลอกแขนวิญญาณแสง"
   },
   "stats": [
    {
@@ -17757,7 +17757,7 @@
   "name": {
    "en": "Forest Spirit Boots",
    "cn": "森靈魔靴",
-   "th": null
+   "th": "รองเท้าบู๊ตวิญญาณป่า"
   },
   "stats": [
    {
@@ -17792,7 +17792,7 @@
   "name": {
    "en": "Green Grass Crown",
    "cn": "青草冠",
-   "th": null
+   "th": "มงกุฎหญ้าเขียว"
   },
   "stats": [
    {
@@ -17825,7 +17825,7 @@
   "name": {
    "en": "Beast Hide Bracers",
    "cn": "獸皮護腕",
-   "th": null
+   "th": "ปลอกแขนหนังสัตว์"
   },
   "stats": [
    {
@@ -17856,7 +17856,7 @@
   "name": {
    "en": "Beast Hide Robe",
    "cn": "獸皮衣",
-   "th": null
+   "th": "เสื้อคลุมหนังสัตว์"
   },
   "stats": [
    {
@@ -17889,7 +17889,7 @@
   "name": {
    "en": "Tiger Hide Bracers",
    "cn": "虎皮護腕",
-   "th": null
+   "th": "ปลอกแขนหนังเสือ"
   },
   "stats": [
    {
@@ -17924,7 +17924,7 @@
   "name": {
    "en": "Tiger Hide Robe",
    "cn": "虎皮衣",
-   "th": null
+   "th": "เสื้อคลุมหนังเสือ"
   },
   "stats": [
    {
@@ -17953,7 +17953,7 @@
   "name": {
    "en": "True Leather Bracers",
    "cn": "真皮護腕",
-   "th": null
+   "th": "ปลอกแขนหนังแท้"
   },
   "stats": [
    {
@@ -17984,7 +17984,7 @@
   "name": {
    "en": "Advanced Beast Hide Robe",
    "cn": "進階獸皮衣",
-   "th": null
+   "th": "เสื้อคลุมหนังสัตว์ขั้นสูง"
   },
   "stats": [
    {
@@ -18015,7 +18015,7 @@
   "name": {
    "en": "Insect Hide Bracers",
    "cn": "蟲皮護腕",
-   "th": null
+   "th": "ปลอกแขนหนังแมลง"
   },
   "stats": [
    {
@@ -18050,7 +18050,7 @@
   "name": {
    "en": "Advanced Tiger Hide Robe",
    "cn": "高級虎皮衣",
-   "th": null
+   "th": "เสื้อคลุมหนังเสือขั้นสูง"
   },
   "stats": [
    {
@@ -18081,7 +18081,7 @@
   "name": {
    "en": "White Leather Armor",
    "cn": "白皮甲",
-   "th": null
+   "th": "เกราะหนังขาว"
   },
   "stats": [
    {
@@ -18110,7 +18110,7 @@
   "name": {
    "en": "Wolf Hide",
    "cn": "狼皮",
-   "th": null
+   "th": "หนังหมาป่า"
   },
   "stats": [],
   "statsNote": null,
@@ -18136,7 +18136,7 @@
   "name": {
    "en": "Black Leather Armor",
    "cn": "黑皮甲",
-   "th": null
+   "th": "เกราะหนังดำ"
   },
   "stats": [
    {
@@ -18169,7 +18169,7 @@
   "name": {
    "en": "Fang Bracers",
    "cn": "牙護腕",
-   "th": null
+   "th": "ปลอกแขนเขี้ยว"
   },
   "stats": [
    {
@@ -18204,7 +18204,7 @@
   "name": {
    "en": "Green Leather Armor",
    "cn": "青皮甲",
-   "th": null
+   "th": "เกราะหนังเขียว"
   },
   "stats": [
    {
@@ -18235,7 +18235,7 @@
   "name": {
    "en": "Green Hide Armor",
    "cn": "綠皮甲",
-   "th": null
+   "th": "เกราะหนังเขียว"
   },
   "stats": [
    {
@@ -18264,7 +18264,7 @@
   "name": {
    "en": "Gold Bracers",
    "cn": "金護腕",
-   "th": null
+   "th": "ปลอกแขนทอง"
   },
   "stats": [
    {
@@ -18297,7 +18297,7 @@
   "name": {
    "en": "Leather Gloves",
    "cn": "皮手套",
-   "th": null
+   "th": "ถุงมือหนัง"
   },
   "stats": [
    {
@@ -18328,7 +18328,7 @@
   "name": {
    "en": "Red Leather Armor",
    "cn": "紅皮甲",
-   "th": null
+   "th": "เกราะหนังแดง"
   },
   "stats": [
    {
@@ -18357,7 +18357,7 @@
   "name": {
    "en": "Hunting Leather Boots",
    "cn": "狩獵皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังล่าสัตว์"
   },
   "stats": [
    {
@@ -18386,7 +18386,7 @@
   "name": {
    "en": "Leather Hat",
    "cn": "皮帽",
-   "th": null
+   "th": "หมวกหนัง"
   },
   "stats": [
    {
@@ -18419,7 +18419,7 @@
   "name": {
    "en": "Reinforced Leather Gloves",
    "cn": "強化皮手套",
-   "th": null
+   "th": "ถุงมือหนังเสริมแรง"
   },
   "stats": [
    {
@@ -18454,7 +18454,7 @@
   "name": {
    "en": "Golden Leather Armor",
    "cn": "金色皮甲",
-   "th": null
+   "th": "เกราะหนังทอง"
   },
   "stats": [
    {
@@ -18485,7 +18485,7 @@
   "name": {
    "en": "Orc Heavy Boots",
    "cn": "獸人重靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนักออร์ค"
   },
   "stats": [
    {
@@ -18518,7 +18518,7 @@
   "name": {
    "en": "Mage Leather Hat",
    "cn": "法師皮帽",
-   "th": null
+   "th": "หมวกหนังเมจ"
   },
   "stats": [
    {
@@ -18551,7 +18551,7 @@
   "name": {
    "en": "Beast Short Boots",
    "cn": "獸皮短靴",
-   "th": null
+   "th": "รองเท้าบู๊ตสั้นสัตว์ร้าย"
   },
   "stats": [
    {
@@ -18582,7 +18582,7 @@
   "name": {
    "en": "Warm Thick Leather Boots",
    "cn": "保暖厚皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังหนาอุ่น"
   },
   "stats": [
    {
@@ -18615,7 +18615,7 @@
   "name": {
    "en": "Short Horse Boots",
    "cn": "短馬靴",
-   "th": null
+   "th": "รองเท้าบู๊ตม้าสั้น"
   },
   "stats": [
    {
@@ -18646,7 +18646,7 @@
   "name": {
    "en": "Silver Dragon Scale Armor",
    "cn": "銀龍鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดมังกรเงิน"
   },
   "stats": [
    {
@@ -18681,7 +18681,7 @@
   "name": {
    "en": "Galloping Horse Boots",
    "cn": "奔馬靴",
-   "th": null
+   "th": "รองเท้าบู๊ตม้าควบ"
   },
   "stats": [
    {
@@ -18714,7 +18714,7 @@
   "name": {
    "en": "Fierce Tiger Leather Robe",
    "cn": "猛虎皮衣",
-   "th": null
+   "th": "เสื้อคลุมหนังเสือดุ"
   },
   "stats": [
    {
@@ -18749,7 +18749,7 @@
   "name": {
    "en": "Iga Gloves",
    "cn": "伊賀手套",
-   "th": null
+   "th": "ถุงมืออิกะ"
   },
   "stats": [
    {
@@ -18784,7 +18784,7 @@
   "name": {
    "en": "Horse Boots",
    "cn": "馬靴",
-   "th": null
+   "th": "รองเท้าบู๊ตม้า"
   },
   "stats": [
    {
@@ -18813,7 +18813,7 @@
   "name": {
    "en": "Witch Leather Hat",
    "cn": "巫師皮帽",
-   "th": null
+   "th": "หมวกหนังแม่มด"
   },
   "stats": [
    {
@@ -18844,7 +18844,7 @@
   "name": {
    "en": "Thick Leather Guards",
    "cn": "厚皮手",
-   "th": null
+   "th": "การ์ดมือหนังหนา"
   },
   "stats": [
    {
@@ -18879,7 +18879,7 @@
   "name": {
    "en": "Koga Gloves",
    "cn": "甲賀手套",
-   "th": null
+   "th": "ถุงมือโคกะ"
   },
   "stats": [
    {
@@ -18914,7 +18914,7 @@
   "name": {
    "en": "Warm Leather Boots",
    "cn": "保暖皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังอุ่น"
   },
   "stats": [
    {
@@ -18947,7 +18947,7 @@
   "name": {
    "en": "Refined Leather",
    "cn": "精製皮革",
-   "th": null
+   "th": "หนังฟอกประณีต"
   },
   "stats": [],
   "statsNote": null,
@@ -18971,7 +18971,7 @@
   "name": {
    "en": "Light Leather Hat",
    "cn": "輕皮帽",
-   "th": null
+   "th": "หมวกหนังเบา"
   },
   "stats": [
    {
@@ -19006,7 +19006,7 @@
   "name": {
    "en": "Wind Demon Gloves",
    "cn": "風魔手套",
-   "th": null
+   "th": "ถุงมือปีศาจลม"
   },
   "stats": [
    {
@@ -19037,7 +19037,7 @@
   "name": {
    "en": "Noble Leather Boots",
    "cn": "貴族長靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังผู้ดี"
   },
   "stats": [
    {
@@ -19070,7 +19070,7 @@
   "name": {
    "en": "Kitten Headdress",
    "cn": "小貓頭飾",
-   "th": null
+   "th": "เครื่องประดับศีรษะลูกแมว"
   },
   "stats": [
    {
@@ -19099,7 +19099,7 @@
   "name": {
    "en": "Raccoon Cat Headdress",
    "cn": "狸貓頭飾",
-   "th": null
+   "th": "เครื่องประดับศีรษะแมวแรคคูน"
   },
   "stats": [
    {
@@ -19130,7 +19130,7 @@
   "name": {
    "en": "Hattori Gloves",
    "cn": "服部手套",
-   "th": null
+   "th": "ถุงมือฮัตโตริ"
   },
   "stats": [
    {
@@ -19165,7 +19165,7 @@
   "name": {
    "en": "Starlight Mage Hat",
    "cn": "星光法帽",
-   "th": null
+   "th": "หมวกเมจแสงดาว"
   },
   "stats": [
    {
@@ -19201,7 +19201,7 @@
   "name": {
    "en": "Long Cylinder Boots",
    "cn": "長筒皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตกระบอกยาว"
   },
   "stats": [
    {
@@ -19236,7 +19236,7 @@
   "name": {
    "en": "Red Cliff Leather Boots",
    "cn": "紅磧皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังหน้าผาแดง"
   },
   "stats": [
    {
@@ -19268,7 +19268,7 @@
   "name": {
    "en": "Steel Thorn Bracers",
    "cn": "鋼刺護腕",
-   "th": null
+   "th": "ปลอกแขนหนามเหล็กกล้า"
   },
   "stats": [
    {
@@ -19297,7 +19297,7 @@
   "name": {
    "en": "Winged Dragon Leather Boots",
    "cn": "翼龍皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังมังกรมีปีก"
   },
   "stats": [
    {
@@ -19332,7 +19332,7 @@
   "name": {
    "en": "Red Lotus Boots",
    "cn": "紅蓮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตบัวแดง"
   },
   "stats": [
    {
@@ -19367,7 +19367,7 @@
   "name": {
    "en": "Red Hood Bishop Hat",
    "cn": "紅兜法袍帽",
-   "th": null
+   "th": "หมวกบิชอปฮู้ดแดง"
   },
   "stats": [
    {
@@ -19402,7 +19402,7 @@
   "name": {
    "en": "Beast Guards",
    "cn": "獸人護手",
-   "th": null
+   "th": "การ์ดมือสัตว์ร้าย"
   },
   "stats": [
    {
@@ -19437,7 +19437,7 @@
   "name": {
    "en": "White Bishop Hat",
    "cn": "白衣主教帽",
-   "th": null
+   "th": "หมวกบิชอปขาว"
   },
   "stats": [
    {
@@ -19472,7 +19472,7 @@
   "name": {
    "en": "Concealed Battle Suit",
    "cn": "隱蔽鬥服",
-   "th": null
+   "th": "ชุดรบซ่อน"
   },
   "stats": [
    {
@@ -19507,7 +19507,7 @@
   "name": {
    "en": "Black Witch Hat (leather)",
    "cn": "黑巫帽",
-   "th": null
+   "th": "หมวกแม่มดดำ (หนัง)"
   },
   "stats": [
    {
@@ -19540,7 +19540,7 @@
   "name": {
    "en": "Green Dragon Leather Bracers",
    "cn": "綠龍皮腕",
-   "th": null
+   "th": "ปลอกแขนหนังมังกรเขียว"
   },
   "stats": [
    {
@@ -19575,7 +19575,7 @@
   "name": {
    "en": "Blue Sky Martial Suit",
    "cn": "藍天鬥服",
-   "th": null
+   "th": "ชุดยุทธฟ้าคราม"
   },
   "stats": [
    {
@@ -19610,7 +19610,7 @@
   "name": {
    "en": "Sea Blue Feather Boots",
    "cn": "海藍羽靴",
-   "th": null
+   "th": "รองเท้าบู๊ตขนนกน้ำเงินทะเล"
   },
   "stats": [
    {
@@ -19639,7 +19639,7 @@
   "name": {
    "en": "Red Dragon Leather Bracers",
    "cn": "紅龍皮腕",
-   "th": null
+   "th": "ปลอกแขนหนังมังกรแดง"
   },
   "stats": [
    {
@@ -19674,7 +19674,7 @@
   "name": {
    "en": "Crimson Red Martial Suit",
    "cn": "赤紅鬥服",
-   "th": null
+   "th": "ชุดยุทธแดงเข้ม"
   },
   "stats": [
    {
@@ -19703,7 +19703,7 @@
   "name": {
    "en": "Wool",
    "cn": "羊毛",
-   "th": null
+   "th": "ขนแกะ"
   },
   "stats": [],
   "statsNote": null,
@@ -19727,7 +19727,7 @@
   "name": {
    "en": "White Fox Fur",
    "cn": "白狐狸毛",
-   "th": null
+   "th": "ขนสัตว์จิ้งจอกขาว"
   },
   "stats": [],
   "statsNote": null,
@@ -19751,7 +19751,7 @@
   "name": {
    "en": "Fox Immortal Feather",
    "cn": "狐仙的羽毛",
-   "th": null
+   "th": "ขนจิ้งจอกอมตะ"
   },
   "stats": [],
   "statsNote": null,
@@ -19775,7 +19775,7 @@
   "name": {
    "en": "Wind Bell Beast Fur",
    "cn": "風鈴獸毛",
-   "th": null
+   "th": "ขนสัตว์สัตว์ร้ายกระดิ่งลม"
   },
   "stats": [],
   "statsNote": null,
@@ -19799,7 +19799,7 @@
   "name": {
    "en": "Processed Beast Fur",
    "cn": "加工獸毛",
-   "th": null
+   "th": "ขนสัตว์สัตว์ร้ายแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -19823,7 +19823,7 @@
   "name": {
    "en": "Blue Feather Sandals",
    "cn": "藍羽履鞋",
-   "th": null
+   "th": "รองเท้าแตะขนนกน้ำเงิน"
   },
   "stats": [
    {
@@ -19856,7 +19856,7 @@
   "name": {
    "en": "Magic Leather Hat",
    "cn": "魔皮帽",
-   "th": null
+   "th": "หมวกหนังเวท"
   },
   "stats": [
    {
@@ -19889,7 +19889,7 @@
   "name": {
    "en": "Yellow Mist Velvet Robe",
    "cn": "黃霞絨服",
-   "th": null
+   "th": "เสื้อคลุมกำมะหยี่หมอกเหลือง"
   },
   "stats": [
    {
@@ -19922,7 +19922,7 @@
   "name": {
    "en": "Dusk Boots",
    "cn": "黃昏皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตสนธยา"
   },
   "stats": [
    {
@@ -19953,7 +19953,7 @@
   "name": {
    "en": "Purple Charm Headscarf",
    "cn": "紫魅頭巾",
-   "th": null
+   "th": "ผ้าโพกหัวเสน่ห์ม่วง"
   },
   "stats": [
    {
@@ -19988,7 +19988,7 @@
   "name": {
    "en": "Azure Blue Gloves",
    "cn": "蔚藍手套",
-   "th": null
+   "th": "ถุงมือน้ำเงินคราม"
   },
   "stats": [
    {
@@ -20019,7 +20019,7 @@
   "name": {
    "en": "Hidden Masked Suit",
    "cn": "隱者蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากซ่อนเร้น"
   },
   "stats": [
    {
@@ -20054,7 +20054,7 @@
   "name": {
    "en": "Protective Charm",
    "cn": "護身符",
-   "th": null
+   "th": "เครื่องรางป้องกัน"
   },
   "stats": [
    {
@@ -20089,7 +20089,7 @@
   "name": {
    "en": "Blue Crystal Mage Staff",
    "cn": "藍水晶法杖",
-   "th": null
+   "th": "ไม้เท้าเมจคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -20124,7 +20124,7 @@
   "name": {
    "en": "Pink Crystal Laurel",
    "cn": "粉晶桂冠",
-   "th": null
+   "th": "มงกุฎคริสตัลชมพู"
   },
   "stats": [
    {
@@ -20155,7 +20155,7 @@
   "name": {
    "en": "Blue Crystal Laurel",
    "cn": "藍晶桂冠",
-   "th": null
+   "th": "มงกุฎคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -20186,7 +20186,7 @@
   "name": {
    "en": "Purple Crystal Laurel",
    "cn": "紫晶桂冠",
-   "th": null
+   "th": "มงกุฎคริสตัลม่วง"
   },
   "stats": [
    {
@@ -20219,7 +20219,7 @@
   "name": {
    "en": "Crystal Shell",
    "cn": "水晶貝殼",
-   "th": null
+   "th": "เปลือกคริสตัล"
   },
   "stats": [],
   "statsNote": null,
@@ -20245,7 +20245,7 @@
   "name": {
    "en": "Radiance Earring",
    "cn": "光輝耳環",
-   "th": null
+   "th": "ต่างหูรัศมี"
   },
   "stats": [
    {
@@ -20278,7 +20278,7 @@
   "name": {
    "en": "Red Crystal Earring",
    "cn": "紅晶耳環",
-   "th": null
+   "th": "ต่างหูคริสตัลแดง"
   },
   "stats": [
    {
@@ -20313,7 +20313,7 @@
   "name": {
    "en": "Crystal Blade",
    "cn": "水晶刀",
-   "th": null
+   "th": "มีดคริสตัล"
   },
   "stats": [
    {
@@ -20346,7 +20346,7 @@
   "name": {
    "en": "Processed Crystal",
    "cn": "加工水晶",
-   "th": null
+   "th": "ผลึกแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -20370,7 +20370,7 @@
   "name": {
    "en": "Crystal Guards",
    "cn": "水晶護手",
-   "th": null
+   "th": "การ์ดมือคริสตัล"
   },
   "stats": [
    {
@@ -20405,7 +20405,7 @@
   "name": {
    "en": "Yellow Stone Ring",
    "cn": "黃石戒指",
-   "th": null
+   "th": "แหวนหินเหลือง"
   },
   "stats": [
    {
@@ -20440,7 +20440,7 @@
   "name": {
    "en": "Green Charm Ring",
    "cn": "青魅戒指",
-   "th": null
+   "th": "แหวนเครื่องรางเขียว"
   },
   "stats": [
    {
@@ -20475,7 +20475,7 @@
   "name": {
    "en": "Green Jewel Staff",
    "cn": "綠寶石之杖",
-   "th": null
+   "th": "ไม้เท้าอัญมณีเขียว"
   },
   "stats": [
    {
@@ -20504,7 +20504,7 @@
   "name": {
    "en": "Fine Jade Green",
    "cn": "精緻翡翠",
-   "th": null
+   "th": "หยกเขียวชั้นดี"
   },
   "stats": [],
   "statsNote": null,
@@ -20528,7 +20528,7 @@
   "name": {
    "en": "Blazing Red Ring",
    "cn": "焰紅戒指",
-   "th": null
+   "th": "แหวนแดงลุกโชน"
   },
   "stats": [
    {
@@ -20557,7 +20557,7 @@
   "name": {
    "en": "Immaculate Sapphire",
    "cn": "無暇藍寶石",
-   "th": null
+   "th": "ไพลินไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -20581,7 +20581,7 @@
   "name": {
    "en": "Immaculate Ruby",
    "cn": "無暇紅寶石",
-   "th": null
+   "th": "ทับทิมไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -20607,7 +20607,7 @@
   "name": {
    "en": "Flying Dragon Feather Staff",
    "cn": "飛龍羽杖",
-   "th": null
+   "th": "ไม้เท้าขนนกมังกรบิน"
   },
   "stats": [
    {
@@ -20636,7 +20636,7 @@
   "name": {
    "en": "Purple Gold Fragrance Staff",
    "cn": "紫金香之杖",
-   "th": null
+   "th": "ไม้เท้าหอมทองม่วง"
   },
   "stats": [
    {
@@ -20671,7 +20671,7 @@
   "name": {
    "en": "Light Weave Feather Staff",
    "cn": "光織羽杖",
-   "th": null
+   "th": "ไม้เท้าขนนกถักแสง"
   },
   "stats": [
    {
@@ -20700,7 +20700,7 @@
   "name": {
    "en": "Jade Thunder Staff",
    "cn": "玉雷魔杖",
-   "th": null
+   "th": "ไม้เท้าสายฟ้าหยก"
   },
   "stats": [
    {
@@ -20733,7 +20733,7 @@
   "name": {
    "en": "Water Set Staff",
    "cn": "水系套裝杖",
-   "th": null
+   "th": "ไม้เท้าเซ็ตธาตุน้ำ"
   },
   "stats": [
    {
@@ -20766,7 +20766,7 @@
   "name": {
    "en": "Ice Snow Circlet",
    "cn": "冰雪額冠",
-   "th": null
+   "th": "รัดเกล้าหิมะน้ำแข็ง"
   },
   "stats": [
    {
@@ -20799,7 +20799,7 @@
   "name": {
    "en": "Diamond Necklace",
    "cn": "鑽石項鍊",
-   "th": null
+   "th": "สร้อยคอเพชร"
   },
   "stats": [
    {
@@ -20832,7 +20832,7 @@
   "name": {
    "en": "Stag Earring",
    "cn": "雄鹿耳環",
-   "th": null
+   "th": "ต่างหูกวาง"
   },
   "stats": [
    {
@@ -20865,7 +20865,7 @@
   "name": {
    "en": "Black Diamond Earring",
    "cn": "黑鑽耳環",
-   "th": null
+   "th": "ต่างหูเพชรดำ"
   },
   "stats": [
    {
@@ -20894,7 +20894,7 @@
   "name": {
    "en": "Pure Diamond",
    "cn": "高密度鑽石",
-   "th": null
+   "th": "เพชรบริสุทธิ์"
   },
   "stats": [],
   "statsNote": null,
@@ -20918,7 +20918,7 @@
   "name": {
    "en": "Flame Red Necklace",
    "cn": "焰紅項鍊",
-   "th": null
+   "th": "สร้อยคอแดงเพลิง"
   },
   "stats": [
    {
@@ -20951,7 +20951,7 @@
   "name": {
    "en": "Sea Demon Helm",
    "cn": "海魔頭盔",
-   "th": null
+   "th": "หมวกเกราะปีศาจทะเล"
   },
   "stats": [
    {
@@ -20986,7 +20986,7 @@
   "name": {
    "en": "Blue Crystal Mage Hat",
    "cn": "藍晶法冠",
-   "th": null
+   "th": "หมวกเมจคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -21017,7 +21017,7 @@
   "name": {
    "en": "Evil Ghost Ring",
    "cn": "邪鬼戒指",
-   "th": null
+   "th": "แหวนผีชั่วร้าย"
   },
   "stats": [
    {
@@ -21050,7 +21050,7 @@
   "name": {
    "en": "Magic Powder",
    "cn": "魔法粉末",
-   "th": null
+   "th": "ผงเวท"
   },
   "stats": [],
   "statsNote": null,
@@ -21078,7 +21078,7 @@
   "name": {
    "en": "Black Ring",
    "cn": "黑戒",
-   "th": null
+   "th": "แหวนดำ"
   },
   "stats": [
    {
@@ -21111,7 +21111,7 @@
   "name": {
    "en": "Dragon Scale Marrow",
    "cn": "龍鱗魔髓",
-   "th": null
+   "th": "ไขกระดูกเกล็ดมังกร"
   },
   "stats": [],
   "statsNote": null,
@@ -21135,7 +21135,7 @@
   "name": {
    "en": "Magic Powder Crystal",
    "cn": "魔法粉晶",
-   "th": null
+   "th": "ผลึกผงเวท"
   },
   "stats": [],
   "statsNote": null,
@@ -21161,7 +21161,7 @@
   "name": {
    "en": "Spirit Feather Bracers",
    "cn": "靈羽護腕",
-   "th": null
+   "th": "ปลอกแขนขนนกวิญญาณ"
   },
   "stats": [
    {
@@ -21194,7 +21194,7 @@
   "name": {
    "en": "Magic Jade Stone",
    "cn": "魔玉石",
-   "th": null
+   "th": "หินหยกเวท"
   },
   "stats": [],
   "statsNote": null,
@@ -21220,7 +21220,7 @@
   "name": {
    "en": "Purple Immortal Qipao",
    "cn": "紫仙旗袍",
-   "th": null
+   "th": "กี่เพ้าอมตะม่วง"
   },
   "stats": [
    {
@@ -21253,7 +21253,7 @@
   "name": {
    "en": "Evening Gown",
    "cn": "晚宴禮服",
-   "th": null
+   "th": "ชุดราตรี"
   },
   "stats": [
    {
@@ -21284,7 +21284,7 @@
   "name": {
    "en": "Black Frost Robe",
    "cn": "黑凜霜袍",
-   "th": null
+   "th": "เสื้อคลุมน้ำค้างแข็งดำ"
   },
   "stats": [
    {
@@ -21319,7 +21319,7 @@
   "name": {
    "en": "Black Odd Dragon Boots",
    "cn": "黑奇龍靴",
-   "th": null
+   "th": "รองเท้าบู๊ตมังกรประหลาดดำ"
   },
   "stats": [
    {
@@ -21354,7 +21354,7 @@
   "name": {
    "en": "Power of Peace",
    "cn": "和平之力",
-   "th": null
+   "th": "พลังแห่งสันติ"
   },
   "stats": [
    {
@@ -21389,7 +21389,7 @@
   "name": {
    "en": "Small Clay Bodhisattva",
    "cn": "小泥菩薩像",
-   "th": null
+   "th": "โพธิสัตว์ดินเหนียวเล็ก"
   },
   "stats": [
    {
@@ -21424,7 +21424,7 @@
   "name": {
    "en": "Jade Ring",
    "cn": "玉戒指",
-   "th": null
+   "th": "แหวนหยก"
   },
   "stats": [
    {
@@ -21459,7 +21459,7 @@
   "name": {
    "en": "Ring of Light",
    "cn": "光之指環",
-   "th": null
+   "th": "แหวนแห่งแสง"
   },
   "stats": [
    {
@@ -21488,7 +21488,7 @@
   "name": {
    "en": "White Jade",
    "cn": "白玉",
-   "th": null
+   "th": "หยกขาว"
   },
   "stats": [],
   "statsNote": null,
@@ -21514,7 +21514,7 @@
   "name": {
    "en": "Wolf Fang Guardian Stone",
    "cn": "狼牙守護石",
-   "th": null
+   "th": "หินผู้พิทักษ์เขี้ยวหมาป่า"
   },
   "stats": [
    {
@@ -21549,7 +21549,7 @@
   "name": {
    "en": "Clay Bodhisattva",
    "cn": "泥薩像",
-   "th": null
+   "th": "โพธิสัตว์ดินเหนียว"
   },
   "stats": [
    {
@@ -21578,7 +21578,7 @@
   "name": {
    "en": "Water Jade",
    "cn": "水玉",
-   "th": null
+   "th": "หยกน้ำ"
   },
   "stats": [],
   "statsNote": null,
@@ -21602,7 +21602,7 @@
   "name": {
    "en": "Purple Jade",
    "cn": "紫玉",
-   "th": null
+   "th": "หยกม่วง"
   },
   "stats": [],
   "statsNote": null,
@@ -21626,7 +21626,7 @@
   "name": {
    "en": "Water Jade Necklace",
    "cn": "水玉項鍊",
-   "th": null
+   "th": "สร้อยคอหยกน้ำ"
   },
   "stats": [
    {
@@ -21661,7 +21661,7 @@
   "name": {
    "en": "White Spirit Ring",
    "cn": "白靈戒指",
-   "th": null
+   "th": "แหวนวิญญาณขาว"
   },
   "stats": [
    {
@@ -21696,7 +21696,7 @@
   "name": {
    "en": "Red Jade Earring",
    "cn": "紅玉耳環",
-   "th": null
+   "th": "ต่างหูหยกแดง"
   },
   "stats": [
    {
@@ -21729,7 +21729,7 @@
   "name": {
    "en": "Red Jade Necklace",
    "cn": "紅玉項鍊",
-   "th": null
+   "th": "สร้อยคอหยกแดง"
   },
   "stats": [
    {
@@ -21764,7 +21764,7 @@
   "name": {
    "en": "Red Jade Ring",
    "cn": "紅玉戒指",
-   "th": null
+   "th": "แหวนหยกแดง"
   },
   "stats": [
    {
@@ -21797,7 +21797,7 @@
   "name": {
    "en": "Jade Green Necklace",
    "cn": "翡翠項鍊",
-   "th": null
+   "th": "สร้อยคอเขียวหยก"
   },
   "stats": [
    {
@@ -21830,7 +21830,7 @@
   "name": {
    "en": "Black Jade",
    "cn": "黑玉",
-   "th": null
+   "th": "หยกดำ"
   },
   "stats": [],
   "statsNote": null,
@@ -21856,7 +21856,7 @@
   "name": {
    "en": "Black Crystal Earring",
    "cn": "黑晶耳環",
-   "th": null
+   "th": "ต่างหูคริสตัลดำ"
   },
   "stats": [
    {
@@ -21889,7 +21889,7 @@
   "name": {
    "en": "Holy Bead Scale Staff",
    "cn": "聖珠鱗杖",
-   "th": null
+   "th": "ไม้เท้าเกล็ดลูกปัดศักดิ์สิทธิ์"
   },
   "stats": [
    {
@@ -21924,7 +21924,7 @@
   "name": {
    "en": "Black Demon Ring",
    "cn": "黑妖戒指",
-   "th": null
+   "th": "แหวนปีศาจดำ"
   },
   "stats": [
    {
@@ -21959,7 +21959,7 @@
   "name": {
    "en": "Spirit Stone Staff",
    "cn": "靈石法杖",
-   "th": null
+   "th": "ไม้เท้าหินวิญญาณ"
   },
   "stats": [
    {
@@ -21995,7 +21995,7 @@
   "name": {
    "en": "Stone Hammer",
    "cn": "石槌",
-   "th": null
+   "th": "ค้อนหิน"
   },
   "stats": [
    {
@@ -22031,7 +22031,7 @@
   "name": {
    "en": "Meteor Hammer",
    "cn": "隕石槌",
-   "th": null
+   "th": "ค้อนอุกกาบาต"
   },
   "stats": [
    {
@@ -22064,7 +22064,7 @@
   "name": {
    "en": "Brown Mountain Rock",
    "cn": "褐山岩",
-   "th": null
+   "th": "หินภูเขาน้ำตาล"
   },
   "stats": [],
   "statsNote": null,
@@ -22091,7 +22091,7 @@
   "name": {
    "en": "Giant Stone Hammer",
    "cn": "巨石槌",
-   "th": null
+   "th": "ค้อนหินยักษ์"
   },
   "stats": [
    {
@@ -22127,7 +22127,7 @@
   "name": {
    "en": "Meteor Giant Hammer",
    "cn": "隕石巨槌",
-   "th": null
+   "th": "ค้อนยักษ์อุกกาบาต"
   },
   "stats": [
    {
@@ -22162,7 +22162,7 @@
   "name": {
    "en": "Muddy Boots",
    "cn": "泥濘之靴",
-   "th": null
+   "th": "รองเท้าบู๊ตโคลน"
   },
   "stats": [
    {
@@ -22195,7 +22195,7 @@
   "name": {
    "en": "Moon Ceremony Rock",
    "cn": "月儀岩",
-   "th": null
+   "th": "หินพิธีจันทร์"
   },
   "stats": [],
   "statsNote": null,
@@ -22219,7 +22219,7 @@
   "name": {
    "en": "Deep Blue Earring",
    "cn": "湛藍耳環",
-   "th": null
+   "th": "ต่างหูน้ำเงินลึก"
   },
   "stats": [
    {
@@ -22250,7 +22250,7 @@
   "name": {
    "en": "Black Rock Heavy Hammer",
    "cn": "玄岩重鎚",
-   "th": null
+   "th": "ค้อนหนักหินดำ"
   },
   "stats": [
    {
@@ -22283,7 +22283,7 @@
   "name": {
    "en": "Azure Blue Earring",
    "cn": "碧藍耳環",
-   "th": null
+   "th": "ต่างหูน้ำเงินคราม"
   },
   "stats": [
    {
@@ -22314,7 +22314,7 @@
   "name": {
    "en": "White Robe Mage Crown",
    "cn": "白衣法冠",
-   "th": null
+   "th": "มงกุฎเมจเสื้อคลุมขาว"
   },
   "stats": [
    {
@@ -22347,7 +22347,7 @@
   "name": {
    "en": "Holy Jade Ring",
    "cn": "聖玉之戒",
-   "th": null
+   "th": "แหวนหยกศักดิ์สิทธิ์"
   },
   "stats": [
    {
@@ -22376,7 +22376,7 @@
   "name": {
    "en": "Blood Fang Necklace",
    "cn": "血牙項鍊",
-   "th": null
+   "th": "สร้อยคอเขี้ยวเลือด"
   },
   "stats": [
    {
@@ -22405,7 +22405,7 @@
   "name": {
    "en": "Fang Necklace",
    "cn": "牙項鍊",
-   "th": null
+   "th": "สร้อยคอเขี้ยว"
   },
   "stats": [
    {
@@ -22441,7 +22441,7 @@
   "name": {
    "en": "Sharp Bone Axe",
    "cn": "銳骨斧",
-   "th": null
+   "th": "ขวานกระดูกคม"
   },
   "stats": [
    {
@@ -22477,7 +22477,7 @@
   "name": {
    "en": "Black Bone Axe",
    "cn": "黑骨斧",
-   "th": null
+   "th": "ขวานกระดูกดำ"
   },
   "stats": [
    {
@@ -22512,7 +22512,7 @@
   "name": {
    "en": "Pale Sick Wolf Fang Club",
    "cn": "蒼疾狼牙棒",
-   "th": null
+   "th": "กระบองเขี้ยวหมาป่าป่วยซีด"
   },
   "stats": [
    {
@@ -22545,7 +22545,7 @@
   "name": {
    "en": "Magic Dragon Fang",
    "cn": "魔龍牙",
-   "th": null
+   "th": "เขี้ยวมังกรเวท"
   },
   "stats": [],
   "statsNote": null,
@@ -22569,7 +22569,7 @@
   "name": {
    "en": "Wolf Fang / Twin Snake Fang",
    "cn": "狼牙/雙頭蛇牙",
-   "th": null
+   "th": "เขี้ยวหมาป่า / เขี้ยวงูคู่"
   },
   "stats": [],
   "statsNote": null,
@@ -22596,7 +22596,7 @@
   "name": {
    "en": "Wolf Fang Club",
    "cn": "狼牙棒",
-   "th": null
+   "th": "กระบองเขี้ยวหมาป่า"
   },
   "stats": [
    {
@@ -22631,7 +22631,7 @@
   "name": {
    "en": "Ice Dragon Claw",
    "cn": "冰龍之爪",
-   "th": null
+   "th": "กรงเล็บมังกรน้ำแข็ง"
   },
   "stats": [
    {
@@ -22667,7 +22667,7 @@
   "name": {
    "en": "Unicorn Blade",
    "cn": "獨角獸之刃",
-   "th": null
+   "th": "มีดยูนิคอร์น"
   },
   "stats": [
    {
@@ -22702,7 +22702,7 @@
   "name": {
    "en": "Ice Fang Claw",
    "cn": "冰牙之爪",
-   "th": null
+   "th": "กรงเล็บเขี้ยวน้ำแข็ง"
   },
   "stats": [
    {
@@ -22738,7 +22738,7 @@
   "name": {
    "en": "Mask Face Armor",
    "cn": "蒙面盔甲",
-   "th": null
+   "th": "เกราะหน้ากาก"
   },
   "stats": [
    {
@@ -22771,7 +22771,7 @@
   "name": {
    "en": "Snow Crystal",
    "cn": "雪晶",
-   "th": null
+   "th": "ผลึกหิมะ"
   },
   "stats": [],
   "statsNote": null,
@@ -22795,7 +22795,7 @@
   "name": {
    "en": "Blue Snow Crystal",
    "cn": "藍雪晶",
-   "th": null
+   "th": "ผลึกหิมะน้ำเงิน"
   },
   "stats": [],
   "statsNote": null,
@@ -22821,7 +22821,7 @@
   "name": {
    "en": "Crystal Mage Staff",
    "cn": "結晶法杖",
-   "th": null
+   "th": "ไม้เท้าเมจคริสตัล"
   },
   "stats": [
    {
@@ -22856,7 +22856,7 @@
   "name": {
    "en": "Blue Crystal Greatblade",
    "cn": "藍晶大刀",
-   "th": null
+   "th": "ดาบใหญ่คริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -22891,7 +22891,7 @@
   "name": {
    "en": "Blue Crystal Long Spear",
    "cn": "藍晶長槍",
-   "th": null
+   "th": "หอกยาวคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -22927,7 +22927,7 @@
   "name": {
    "en": "Blue Crystal Axe",
    "cn": "藍晶斧",
-   "th": null
+   "th": "ขวานคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -22963,7 +22963,7 @@
   "name": {
    "en": "Staff of Tears",
    "cn": "淚之杖",
-   "th": null
+   "th": "ไม้เท้าแห่งน้ำตา"
   },
   "stats": [
    {
@@ -22992,7 +22992,7 @@
   "name": {
    "en": "Green Amber Necklace",
    "cn": "綠珀項鍊",
-   "th": null
+   "th": "สร้อยคออำพันเขียว"
   },
   "stats": [
    {
@@ -23021,7 +23021,7 @@
   "name": {
    "en": "Red Snow Crystal",
    "cn": "紅雪晶",
-   "th": null
+   "th": "ผลึกหิมะแดง"
   },
   "stats": [],
   "statsNote": null,
@@ -23047,7 +23047,7 @@
   "name": {
    "en": "Wave Surge Staff",
    "cn": "浪濤之杖",
-   "th": null
+   "th": "ไม้เท้าคลื่นซัด"
   },
   "stats": [
    {
@@ -23083,7 +23083,7 @@
   "name": {
    "en": "Happiness Coin",
    "cn": "幸福御幣",
-   "th": null
+   "th": "เหรียญความสุข"
   },
   "stats": [
    {
@@ -23116,7 +23116,7 @@
   "name": {
    "en": "Blue Crystal Necklace",
    "cn": "藍晶項鍊",
-   "th": null
+   "th": "สร้อยคอคริสตัลน้ำเงิน"
   },
   "stats": [
    {
@@ -23151,7 +23151,7 @@
   "name": {
    "en": "Snow Crystal Helm",
    "cn": "雪晶頭盔",
-   "th": null
+   "th": "หมวกเกราะคริสตัลหิมะ"
   },
   "stats": [
    {
@@ -23186,7 +23186,7 @@
   "name": {
    "en": "Yellow Horse Shoes",
    "cn": "黃馬鞋",
-   "th": null
+   "th": "รองเท้าม้าเหลือง"
   },
   "stats": [
    {
@@ -23221,7 +23221,7 @@
   "name": {
    "en": "Red Flame Leather Boots",
    "cn": "紅焰皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังเพลิงแดง"
   },
   "stats": [
    {
@@ -23256,7 +23256,7 @@
   "name": {
    "en": "Ninja Suit",
    "cn": "忍者服",
-   "th": null
+   "th": "ชุดนินจา"
   },
   "stats": [
    {
@@ -23289,7 +23289,7 @@
   "name": {
    "en": "Fine Nylon",
    "cn": "纖細尼龍",
-   "th": null
+   "th": "ไนลอนชั้นดี"
   },
   "stats": [],
   "statsNote": null,
@@ -23315,7 +23315,7 @@
   "name": {
    "en": "Grey Dark Ninja Suit",
    "cn": "灰闇忍道服",
-   "th": null
+   "th": "ชุดนินจามืดเทา"
   },
   "stats": [
    {
@@ -23346,7 +23346,7 @@
   "name": {
    "en": "Masked Suit",
    "cn": "蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากาก"
   },
   "stats": [
    {
@@ -23381,7 +23381,7 @@
   "name": {
    "en": "Hidden Masked Suit",
    "cn": "隱形蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากซ่อนเร้น"
   },
   "stats": [
    {
@@ -23416,7 +23416,7 @@
   "name": {
    "en": "Soaring Wild Masked Suit",
    "cn": "翔野蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากทะยานป่า"
   },
   "stats": [
    {
@@ -23449,7 +23449,7 @@
   "name": {
    "en": "Processed Nylon",
    "cn": "加工尼龍",
-   "th": null
+   "th": "ไนลอนแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -23475,7 +23475,7 @@
   "name": {
    "en": "True Red Masked Suit",
    "cn": "真紅蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากแดงแท้"
   },
   "stats": [
    {
@@ -23510,7 +23510,7 @@
   "name": {
    "en": "Thorn Masked Suit",
    "cn": "荊棘蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากหนาม"
   },
   "stats": [
    {
@@ -23545,7 +23545,7 @@
   "name": {
    "en": "Cut Speech Masked Suit",
    "cn": "截語蒙面裝",
-   "th": null
+   "th": "ชุดสวมหน้ากากตัดวาจา"
   },
   "stats": [
    {
@@ -23576,7 +23576,7 @@
   "name": {
    "en": "Holy Purity Robe",
    "cn": "聖潔法袍",
-   "th": null
+   "th": "เสื้อคลุมบริสุทธิ์ศักดิ์สิทธิ์"
   },
   "stats": [
    {
@@ -23611,7 +23611,7 @@
   "name": {
    "en": "Ninja Garb",
    "cn": "忍者裝",
-   "th": null
+   "th": "ชุดนินจา"
   },
   "stats": [
    {
@@ -23646,7 +23646,7 @@
   "name": {
    "en": "Iga Ninja Suit",
    "cn": "伊賀忍者服",
-   "th": null
+   "th": "ชุดนินจาอิกะ"
   },
   "stats": [
    {
@@ -23681,7 +23681,7 @@
   "name": {
    "en": "Koga Ninja Suit",
    "cn": "甲賀忍者服",
-   "th": null
+   "th": "ชุดนินจาโคกะ"
   },
   "stats": [
    {
@@ -23716,7 +23716,7 @@
   "name": {
    "en": "Wind Demon Ninja Suit",
    "cn": "風魔忍者服",
-   "th": null
+   "th": "ชุดนินจาปีศาจลม"
   },
   "stats": [
    {
@@ -23747,7 +23747,7 @@
   "name": {
    "en": "Hidden Ninja Garb",
    "cn": "隱忍服",
-   "th": null
+   "th": "ชุดนินจาซ่อนเร้น"
   },
   "stats": [
    {
@@ -23782,7 +23782,7 @@
   "name": {
    "en": "Hattori Ninja Suit",
    "cn": "服部忍者服",
-   "th": null
+   "th": "ชุดนินจาฮัตโตริ"
   },
   "stats": [
    {
@@ -23818,7 +23818,7 @@
   "name": {
    "en": "Purple Star Mage Hat",
    "cn": "紫星法帽",
-   "th": null
+   "th": "หมวกเมจดาวม่วง"
   },
   "stats": [
    {
@@ -23854,7 +23854,7 @@
   "name": {
    "en": "Azure Green Leather Boots",
    "cn": "蒼綠皮靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหนังเขียวคราม"
   },
   "stats": [
    {
@@ -23886,7 +23886,7 @@
   "name": {
    "en": "Dazzle Green Long Boots",
    "cn": "炫綠長筒靴",
-   "th": null
+   "th": "รองเท้าบู๊ตยาวเขียวเจิดจ้า"
   },
   "stats": [
    {
@@ -23921,7 +23921,7 @@
   "name": {
    "en": "White Feather Earring",
    "cn": "白羽耳環",
-   "th": null
+   "th": "ต่างหูขนนกขาว"
   },
   "stats": [
    {
@@ -23950,7 +23950,7 @@
   "name": {
    "en": "Grey Feather Hat",
    "cn": "灰羽帽",
-   "th": null
+   "th": "หมวกขนนกเทา"
   },
   "stats": [
    {
@@ -23979,7 +23979,7 @@
   "name": {
    "en": "Feather Dark Boots",
    "cn": "羽暗靴",
-   "th": null
+   "th": "รองเท้าบู๊ตขนนกมืด"
   },
   "stats": [
    {
@@ -24010,7 +24010,7 @@
   "name": {
    "en": "Red Gorgeous Velvet Robe",
    "cn": "紅艷絨服",
-   "th": null
+   "th": "เสื้อคลุมกำมะหยี่งดงามแดง"
   },
   "stats": [
    {
@@ -24041,7 +24041,7 @@
   "name": {
    "en": "Apprentice Mage Hat",
    "cn": "見習者法帽",
-   "th": null
+   "th": "หมวกเมจศิษย์ฝึกหัด"
   },
   "stats": [
    {
@@ -24074,7 +24074,7 @@
   "name": {
    "en": "Processed Light Feather",
    "cn": "加工輕羽",
-   "th": null
+   "th": "ขนนกแสงแปรรูป"
   },
   "stats": [],
   "statsNote": null,
@@ -24098,7 +24098,7 @@
   "name": {
    "en": "Brown Feather Hat",
    "cn": "褐羽帽",
-   "th": null
+   "th": "หมวกขนนกน้ำตาล"
   },
   "stats": [
    {
@@ -24133,7 +24133,7 @@
   "name": {
    "en": "Wind Demon Speed Suit",
    "cn": "風魔疾速裝",
-   "th": null
+   "th": "ชุดความเร็วปีศาจลม"
   },
   "stats": [
    {
@@ -24168,7 +24168,7 @@
   "name": {
    "en": "Kiwi Feather Shoes",
    "cn": "奇異鳥羽鞋",
-   "th": null
+   "th": "รองเท้าขนนกกีวี"
   },
   "stats": [
    {
@@ -24203,7 +24203,7 @@
   "name": {
    "en": "Thief Gloves",
    "cn": "盜賊手套",
-   "th": null
+   "th": "ถุงมือโจร"
   },
   "stats": [
    {
@@ -24236,7 +24236,7 @@
   "name": {
    "en": "Soaring Feather Shoes",
    "cn": "翔羽靴",
-   "th": null
+   "th": "รองเท้าขนนกทะยาน"
   },
   "stats": [
    {
@@ -24268,7 +24268,7 @@
   "name": {
    "en": "Swift Short Boots",
    "cn": "疾速短靴",
-   "th": null
+   "th": "รองเท้าบู๊ตสั้นว่องไว"
   },
   "stats": [
    {
@@ -24303,7 +24303,7 @@
   "name": {
    "en": "Dazzle Feather Boots",
    "cn": "炫羽靴",
-   "th": null
+   "th": "รองเท้าบู๊ตขนนกเจิดจ้า"
   },
   "stats": [
    {
@@ -24336,7 +24336,7 @@
   "name": {
    "en": "Purple Light Soar Boots",
    "cn": "紫光翔靴",
-   "th": null
+   "th": "รองเท้าบู๊ตทะยานแสงม่วง"
   },
   "stats": [
    {
@@ -24365,7 +24365,7 @@
   "name": {
    "en": "Beetle Horn",
    "cn": "甲蟲的硬角",
-   "th": null
+   "th": "เขาด้วง"
   },
   "stats": [],
   "statsNote": null,
@@ -24389,7 +24389,7 @@
   "name": {
    "en": "Crab Claw",
    "cn": "螃蟹螯",
-   "th": null
+   "th": "กรงเล็บปู"
   },
   "stats": [],
   "statsNote": null,
@@ -24413,7 +24413,7 @@
   "name": {
    "en": "Crab Shell",
    "cn": "螃蟹的殼",
-   "th": null
+   "th": "เปลือกปู"
   },
   "stats": [],
   "statsNote": null,
@@ -24437,7 +24437,7 @@
   "name": {
    "en": "Yellow Fish Scale",
    "cn": "黃魚鱗片",
-   "th": null
+   "th": "เกล็ดปลาเหลือง"
   },
   "stats": [],
   "statsNote": null,
@@ -24461,7 +24461,7 @@
   "name": {
    "en": "Lobster Giant Claw",
    "cn": "龍蝦巨螯",
-   "th": null
+   "th": "กรงเล็บยักษ์กุ้งมังกร"
   },
   "stats": [],
   "statsNote": null,
@@ -24487,7 +24487,7 @@
   "name": {
    "en": "Insect Leather Armor",
    "cn": "蟲皮甲",
-   "th": null
+   "th": "เกราะหนังแมลง"
   },
   "stats": [
    {
@@ -24520,7 +24520,7 @@
   "name": {
    "en": "Slime / Clear Gel",
    "cn": "黏液・透明膠質",
-   "th": null
+   "th": "สไลม์ / เจลใส"
   },
   "stats": [],
   "statsNote": null,
@@ -24544,7 +24544,7 @@
   "name": {
    "en": "Concentrated Plant Gum",
    "cn": "濃縮植物膠",
-   "th": null
+   "th": "ยางพืชเข้มข้น"
   },
   "stats": [],
   "statsNote": null,
@@ -24568,7 +24568,7 @@
   "name": {
    "en": "Elastic Rubber Block",
    "cn": "彈力橡膠塊",
-   "th": null
+   "th": "ก้อนยางยืดหยุ่น"
   },
   "stats": [],
   "statsNote": null,
@@ -24592,7 +24592,7 @@
   "name": {
    "en": "Fluid Quartz Gum",
    "cn": "流體石英膠",
-   "th": null
+   "th": "ยางควอตซ์ของเหลว"
   },
   "stats": [],
   "statsNote": null,
@@ -24616,7 +24616,7 @@
   "name": {
    "en": "Glitter Mineral Gum",
    "cn": "閃粉礦物膠",
-   "th": null
+   "th": "ยางแร่ธาตุระยิบ"
   },
   "stats": [],
   "statsNote": null,
@@ -24640,7 +24640,7 @@
   "name": {
    "en": "Lava Lubricant Paste",
    "cn": "熔岩潤滑膏",
-   "th": null
+   "th": "กาวสารหล่อลื่นลาวา"
   },
   "stats": [],
   "statsNote": null,
@@ -24664,7 +24664,7 @@
   "name": {
    "en": "Fine Clay Paste",
    "cn": "細滑黏土膏",
-   "th": null
+   "th": "กาวดินเหนียวชั้นดี"
   },
   "stats": [],
   "statsNote": null,
@@ -24688,7 +24688,7 @@
   "name": {
    "en": "Protective Mud Gum",
    "cn": "防護泥膠",
-   "th": null
+   "th": "ยางโคลนป้องกัน"
   },
   "stats": [],
   "statsNote": null,
@@ -24712,7 +24712,7 @@
   "name": {
    "en": "Matured Amber Gum",
    "cn": "熟成琥珀膠",
-   "th": null
+   "th": "ยางอำพันบ่ม"
   },
   "stats": [],
   "statsNote": null,
@@ -24736,7 +24736,7 @@
   "name": {
    "en": "Moist Snail Paste",
    "cn": "水潤蝸牛膏",
-   "th": null
+   "th": "กาวหอยทากชื้น"
   },
   "stats": [],
   "statsNote": null,
@@ -24760,7 +24760,7 @@
   "name": {
    "en": "Anti-Rot Wood Resin",
    "cn": "防腐木脂",
-   "th": null
+   "th": "ยางไม้กันเน่า"
   },
   "stats": [],
   "statsNote": null,
@@ -24784,7 +24784,7 @@
   "name": {
    "en": "Thick Insect Wax",
    "cn": "厚質蟲蠟",
-   "th": null
+   "th": "ขี้ผึ้งแมลงหนา"
   },
   "stats": [],
   "statsNote": null,
@@ -24808,7 +24808,7 @@
   "name": {
    "en": "Super Strong Black Gum",
    "cn": "超強力黑膠",
-   "th": null
+   "th": "ยางดำแข็งแรงพิเศษ"
   },
   "stats": [],
   "statsNote": null,
@@ -24832,7 +24832,7 @@
   "name": {
    "en": "Star Dust · Sky",
    "cn": "星耀之塵·空",
-   "th": null
+   "th": "ผงดาราแห่งธาตุอากาศ"
   },
   "stats": [],
   "statsNote": null,
@@ -24847,7 +24847,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "star-star-dust-fire-wind-water-earth-r3",
@@ -24859,7 +24860,7 @@
   "name": {
    "en": "Star Dust · Fire / Wind / Water / Earth",
    "cn": "星耀之塵·火/風/水/地",
-   "th": null
+   "th": "ผงดาราแห่งธาตุไฟ / ลม / น้ำ / ดิน"
   },
   "stats": [],
   "statsNote": null,
@@ -24888,7 +24889,7 @@
   "name": {
    "en": "Starlight Wand",
    "cn": "星輝法杖",
-   "th": null
+   "th": "คทาแสงดาว"
   },
   "stats": [
    {
@@ -24926,7 +24927,7 @@
   "name": {
    "en": "Starmark Sabre",
    "cn": "星紋彎刀",
-   "th": null
+   "th": "ดาบโค้งรอยดาว"
   },
   "stats": [
    {
@@ -24964,7 +24965,7 @@
   "name": {
    "en": "Starmark Robe",
    "cn": "星紋法衣",
-   "th": null
+   "th": "เสื้อคลุมรอยดาว"
   },
   "stats": [
    {
@@ -25002,7 +25003,7 @@
   "name": {
    "en": "Starmark Scale Armor",
    "cn": "星紋鱗甲",
-   "th": null
+   "th": "เกราะเกล็ดรอยดาว"
   },
   "stats": [
    {
@@ -25040,7 +25041,7 @@
   "name": {
    "en": "Starlight Gloves",
    "cn": "星輝手套",
-   "th": null
+   "th": "ถุงมือแสงดาว"
   },
   "stats": [
    {
@@ -25074,7 +25075,7 @@
   "name": {
    "en": "Starmark Bracers",
    "cn": "星紋護腕",
-   "th": null
+   "th": "ปลอกแขนรอยดาว"
   },
   "stats": [
    {
@@ -25108,7 +25109,7 @@
   "name": {
    "en": "Starlight Crown",
    "cn": "星輝法冠",
-   "th": null
+   "th": "มงกุฎแสงดาว"
   },
   "stats": [
    {
@@ -25142,7 +25143,7 @@
   "name": {
    "en": "Starmark Helm",
    "cn": "星紋頭盔",
-   "th": null
+   "th": "หมวกเกราะรอยดาว"
   },
   "stats": [
    {
@@ -25176,7 +25177,7 @@
   "name": {
    "en": "Starlight Boots",
    "cn": "星輝法靴",
-   "th": null
+   "th": "รองเท้าบู๊ตแสงดาว"
   },
   "stats": [
    {
@@ -25214,7 +25215,7 @@
   "name": {
    "en": "Starmark War Boots",
    "cn": "星紋戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบรอยดาว"
   },
   "stats": [
    {
@@ -25252,7 +25253,7 @@
   "name": {
    "en": "Starfire Hammer",
    "cn": "星火之槌",
-   "th": null
+   "th": "ค้อนไฟดาว"
   },
   "stats": [
    {
@@ -25290,7 +25291,7 @@
   "name": {
    "en": "Star Ring Longsword",
    "cn": "星環長劍",
-   "th": null
+   "th": "ดาบยาววงแหวนดาว"
   },
   "stats": [
    {
@@ -25329,7 +25330,7 @@
   "name": {
    "en": "Starfire Robe",
    "cn": "星火法袍",
-   "th": null
+   "th": "เสื้อคลุมไฟดาว"
   },
   "stats": [
    {
@@ -25367,7 +25368,7 @@
   "name": {
    "en": "Star Ring Battle Dress",
    "cn": "星環戰衣",
-   "th": null
+   "th": "ชุดกระโปรงรบวงแหวนดาว"
   },
   "stats": [
    {
@@ -25405,7 +25406,7 @@
   "name": {
    "en": "Starfire Gloves",
    "cn": "星火手套",
-   "th": null
+   "th": "ถุงมือไฟดาว"
   },
   "stats": [
    {
@@ -25443,7 +25444,7 @@
   "name": {
    "en": "Star Ring Bracers",
    "cn": "星環護腕",
-   "th": null
+   "th": "ปลอกแขนวงแหวนดาว"
   },
   "stats": [
    {
@@ -25481,7 +25482,7 @@
   "name": {
    "en": "Starfire Magic Crown",
    "cn": "星火魔冠",
-   "th": null
+   "th": "มงกุฎเวทไฟดาว"
   },
   "stats": [
    {
@@ -25519,7 +25520,7 @@
   "name": {
    "en": "Star Ring Helm",
    "cn": "星環頭盔",
-   "th": null
+   "th": "หมวกเกราะวงแหวนดาว"
   },
   "stats": [
    {
@@ -25557,7 +25558,7 @@
   "name": {
    "en": "Starfire Magic Boots",
    "cn": "星火魔靴",
-   "th": null
+   "th": "รองเท้าบู๊ตเวทไฟดาว"
   },
   "stats": [
    {
@@ -25595,7 +25596,7 @@
   "name": {
    "en": "Star Ring War Boots",
    "cn": "星環戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบวงแหวนดาว"
   },
   "stats": [
    {
@@ -25633,7 +25634,7 @@
   "name": {
    "en": "Star Splendor War Bow",
    "cn": "星華戰弓",
-   "th": null
+   "th": "ธนูรบดาวเรืองรอง"
   },
   "stats": [
    {
@@ -25669,7 +25670,7 @@
   "name": {
    "en": "★ Star Essence",
    "cn": "星耀精華",
-   "th": null
+   "th": "แก่นดาว ★"
   },
   "stats": [],
   "statsNote": null,
@@ -25698,7 +25699,7 @@
   "name": {
    "en": "Star Splendor Robe",
    "cn": "星華法袍",
-   "th": null
+   "th": "เสื้อคลุมดาวเรืองรอง"
   },
   "stats": [
    {
@@ -25736,7 +25737,7 @@
   "name": {
    "en": "Star Edge Battle Armor",
    "cn": "星鋒戰甲",
-   "th": null
+   "th": "เกราะรบคมดาว"
   },
   "stats": [
    {
@@ -25772,7 +25773,7 @@
   "name": {
    "en": "★ Star Goldwood",
    "cn": "星耀金木",
-   "th": null
+   "th": "ไม้ทองดาว ★"
   },
   "stats": [],
   "statsNote": null,
@@ -25801,7 +25802,7 @@
   "name": {
    "en": "Star Splendor Gloves",
    "cn": "星華手套",
-   "th": null
+   "th": "ถุงมือดาวเรืองรอง"
   },
   "stats": [
    {
@@ -25839,7 +25840,7 @@
   "name": {
    "en": "Star Edge Bracers",
    "cn": "星鋒護腕",
-   "th": null
+   "th": "ปลอกแขนคมดาว"
   },
   "stats": [
    {
@@ -25875,7 +25876,7 @@
   "name": {
    "en": "Star Glass",
    "cn": "星耀琉璃",
-   "th": null
+   "th": "แก้วดาว"
   },
   "stats": [],
   "statsNote": null,
@@ -25904,7 +25905,7 @@
   "name": {
    "en": "Star Splendor Crown",
    "cn": "星華法冠",
-   "th": null
+   "th": "มงกุฎดาวเรืองรอง"
   },
   "stats": [
    {
@@ -25942,7 +25943,7 @@
   "name": {
    "en": "Star Splendor Helm",
    "cn": "星華頭盔",
-   "th": null
+   "th": "หมวกเกราะดาวเรืองรอง"
   },
   "stats": [
    {
@@ -25978,7 +25979,7 @@
   "name": {
    "en": "Star Mithril",
    "cn": "星耀密銀",
-   "th": null
+   "th": "มิธริลดาว"
   },
   "stats": [],
   "statsNote": null,
@@ -26007,7 +26008,7 @@
   "name": {
    "en": "Star Splendor Boots",
    "cn": "星華法靴",
-   "th": null
+   "th": "รองเท้าบู๊ตดาวเรืองรอง"
   },
   "stats": [
    {
@@ -26045,7 +26046,7 @@
   "name": {
    "en": "Star Peak War Boots",
    "cn": "星峰戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบยอดดาว"
   },
   "stats": [
    {
@@ -26083,7 +26084,7 @@
   "name": {
    "en": "Stardust Blade",
    "cn": "星塵刀",
-   "th": null
+   "th": "มีดฝุ่นดาว"
   },
   "stats": [
    {
@@ -26122,7 +26123,7 @@
   "name": {
    "en": "Stardust Sword",
    "cn": "星塵劍",
-   "th": null
+   "th": "ดาบฝุ่นดาว"
   },
   "stats": [
    {
@@ -26160,7 +26161,7 @@
   "name": {
    "en": "Stardust Hat",
    "cn": "星塵帽",
-   "th": null
+   "th": "หมวกฝุ่นดาว"
   },
   "stats": [
    {
@@ -26198,7 +26199,7 @@
   "name": {
    "en": "Stardust Bracers",
    "cn": "星塵護腕",
-   "th": null
+   "th": "ปลอกแขนฝุ่นดาว"
   },
   "stats": [
    {
@@ -26236,7 +26237,7 @@
   "name": {
    "en": "Stardust Tunic",
    "cn": "星塵上衣",
-   "th": null
+   "th": "เสื้อฝุ่นดาว"
   },
   "stats": [
    {
@@ -26274,7 +26275,7 @@
   "name": {
    "en": "Stardust Shoes",
    "cn": "星塵短鞋",
-   "th": null
+   "th": "รองเท้าฝุ่นดาว"
   },
   "stats": [
    {
@@ -26312,7 +26313,7 @@
   "name": {
    "en": "Star Splendor Ring",
    "cn": "星華戒指",
-   "th": null
+   "th": "แหวนดาวเรืองรอง"
   },
   "stats": [
    {
@@ -26350,7 +26351,7 @@
   "name": {
    "en": "Star Edge Ring",
    "cn": "星鋒戒指",
-   "th": null
+   "th": "แหวนคมดาว"
   },
   "stats": [
    {
@@ -26389,7 +26390,7 @@
   "name": {
    "en": "Star Frost Magic Axe",
    "cn": "星霜魔斧",
-   "th": null
+   "th": "ขวานเวทหิมะดาว"
   },
   "stats": [
    {
@@ -26428,7 +26429,7 @@
   "name": {
    "en": "Star Burst Blade Claw",
    "cn": "星爆刃爪",
-   "th": null
+   "th": "กรงเล็บใบมีดดาวระเบิด"
   },
   "stats": [
    {
@@ -26464,7 +26465,7 @@
   "name": {
    "en": "Star Feather",
    "cn": "星耀之羽",
-   "th": null
+   "th": "ขนดาว"
   },
   "stats": [],
   "statsNote": null,
@@ -26494,7 +26495,7 @@
   "name": {
    "en": "Star Frost Robe",
    "cn": "星霜法袍",
-   "th": null
+   "th": "เสื้อคลุมหิมะดาว"
   },
   "stats": [
    {
@@ -26529,7 +26530,7 @@
   "name": {
    "en": "Star Burst Battle Armor",
    "cn": "星爆戰甲",
-   "th": null
+   "th": "เกราะรบดาวระเบิด"
   },
   "stats": [
    {
@@ -26561,7 +26562,7 @@
   "name": {
    "en": "Star Ice Crystal",
    "cn": "星耀冰晶",
-   "th": null
+   "th": "ผลึกน้ำแข็งดาว"
   },
   "stats": [],
   "statsNote": null,
@@ -26591,7 +26592,7 @@
   "name": {
    "en": "Star Frost Gloves",
    "cn": "星霜手套",
-   "th": null
+   "th": "ถุงมือหิมะดาว"
   },
   "stats": [
    {
@@ -26630,7 +26631,7 @@
   "name": {
    "en": "Star Burst Bracers",
    "cn": "星爆護腕",
-   "th": null
+   "th": "ปลอกแขนดาวระเบิด"
   },
   "stats": [
    {
@@ -26669,7 +26670,7 @@
   "name": {
    "en": "Star Frost Crown",
    "cn": "星霜法冠",
-   "th": null
+   "th": "มงกุฎหิมะดาว"
   },
   "stats": [
    {
@@ -26708,7 +26709,7 @@
   "name": {
    "en": "Star Burst Helm",
    "cn": "星爆頭盔",
-   "th": null
+   "th": "หมวกเกราะดาวระเบิด"
   },
   "stats": [
    {
@@ -26744,7 +26745,7 @@
   "name": {
    "en": "Star Divine Rune",
    "cn": "星耀神紋",
-   "th": null
+   "th": "อักขระเทพดาว"
   },
   "stats": [],
   "statsNote": null,
@@ -26774,7 +26775,7 @@
   "name": {
    "en": "Star Frost Boots",
    "cn": "星霜法靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหิมะดาว"
   },
   "stats": [
    {
@@ -26813,7 +26814,7 @@
   "name": {
    "en": "Star Burst War Boots",
    "cn": "星爆戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบดาวระเบิด"
   },
   "stats": [
    {
@@ -26852,7 +26853,7 @@
   "name": {
    "en": "Star Frost Necklace",
    "cn": "星霜項鍊",
-   "th": null
+   "th": "สร้อยคอหิมะดาว"
   },
   "stats": [
    {
@@ -26891,7 +26892,7 @@
   "name": {
    "en": "Star Burst Necklace",
    "cn": "星爆項鍊",
-   "th": null
+   "th": "สร้อยคอดาวระเบิด"
   },
   "stats": [
    {
@@ -26931,7 +26932,7 @@
   "name": {
    "en": "Constellation Magic Staff",
    "cn": "星辰魔杖",
-   "th": null
+   "th": "ไม้เท้าเวทหมู่ดาว"
   },
   "stats": [
    {
@@ -26971,7 +26972,7 @@
   "name": {
    "en": "Firmament Steel Axe",
    "cn": "星穹鋼斧",
-   "th": null
+   "th": "ขวานเหล็กกล้านภาดาว"
   },
   "stats": [
    {
@@ -27011,7 +27012,7 @@
   "name": {
    "en": "Constellation Robe",
    "cn": "星辰法袍",
-   "th": null
+   "th": "เสื้อคลุมหมู่ดาว"
   },
   "stats": [
    {
@@ -27047,7 +27048,7 @@
   "name": {
    "en": "Firmament Battle Armor",
    "cn": "星穹戰甲",
-   "th": null
+   "th": "เกราะรบนภาดาว"
   },
   "stats": [
    {
@@ -27083,7 +27084,7 @@
   "name": {
    "en": "Constellation Gloves",
    "cn": "星辰手套",
-   "th": null
+   "th": "ถุงมือหมู่ดาว"
   },
   "stats": [
    {
@@ -27123,7 +27124,7 @@
   "name": {
    "en": "Firmament Bracers",
    "cn": "星穹護腕",
-   "th": null
+   "th": "ปลอกแขนนภาดาว"
   },
   "stats": [
    {
@@ -27163,7 +27164,7 @@
   "name": {
    "en": "Constellation Crown",
    "cn": "星辰法冠",
-   "th": null
+   "th": "มงกุฎหมู่ดาว"
   },
   "stats": [
    {
@@ -27203,7 +27204,7 @@
   "name": {
    "en": "Firmament Helm",
    "cn": "星穹頭盔",
-   "th": null
+   "th": "หมวกเกราะนภาดาว"
   },
   "stats": [
    {
@@ -27243,7 +27244,7 @@
   "name": {
    "en": "Constellation Boots",
    "cn": "星辰法靴",
-   "th": null
+   "th": "รองเท้าบู๊ตหมู่ดาว"
   },
   "stats": [
    {
@@ -27283,7 +27284,7 @@
   "name": {
    "en": "Firmament War Boots",
    "cn": "星穹戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบนภาดาว"
   },
   "stats": [
    {
@@ -27319,7 +27320,7 @@
   "name": {
    "en": "Flawless Star Crystalwood",
    "cn": "無暇星耀晶木",
-   "th": null
+   "th": "ไม้ผลึกดาวไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -27351,7 +27352,7 @@
   "name": {
    "en": "Starmark Magic Sword",
    "cn": "星痕魔劍",
-   "th": null
+   "th": "ดาบเวทรอยดาว"
   },
   "stats": [
    {
@@ -27388,7 +27389,7 @@
   "name": {
    "en": "Starshadow Scythe",
    "cn": "星影鐮刀",
-   "th": null
+   "th": "เคียวเงาดาว"
   },
   "stats": [
    {
@@ -27425,7 +27426,7 @@
   "name": {
    "en": "Firmament Magic Ring",
    "cn": "星穹法戒",
-   "th": null
+   "th": "แหวนเวทนภาดาว"
   },
   "stats": [
    {
@@ -27462,7 +27463,7 @@
   "name": {
    "en": "Firmament War Ring",
    "cn": "星穹戰戒",
-   "th": null
+   "th": "แหวนรบนภาดาว"
   },
   "stats": [
    {
@@ -27499,7 +27500,7 @@
   "name": {
    "en": "Starmark Robe",
    "cn": "星痕法袍",
-   "th": null
+   "th": "เสื้อคลุมรอยดาว"
   },
   "stats": [
    {
@@ -27536,7 +27537,7 @@
   "name": {
    "en": "Starshadow Battle Armor",
    "cn": "星影戰甲",
-   "th": null
+   "th": "เกราะรบเงาดาว"
   },
   "stats": [
    {
@@ -27568,7 +27569,7 @@
   "name": {
    "en": "Flawless Star Feather",
    "cn": "無暇星耀之羽",
-   "th": null
+   "th": "ขนดาวไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -27600,7 +27601,7 @@
   "name": {
    "en": "Starshadow Magic Sword",
    "cn": "星影法劍",
-   "th": null
+   "th": "ดาบเวทเงาดาว"
   },
   "stats": [
    {
@@ -27637,7 +27638,7 @@
   "name": {
    "en": "Firmament War Blade",
    "cn": "星穹戰刀",
-   "th": null
+   "th": "มีดรบนภาดาว"
   },
   "stats": [
    {
@@ -27674,7 +27675,7 @@
   "name": {
    "en": "Starmark Gloves",
    "cn": "星痕手套",
-   "th": null
+   "th": "ถุงมือรอยดาว"
   },
   "stats": [
    {
@@ -27711,7 +27712,7 @@
   "name": {
    "en": "Starshadow Bracers",
    "cn": "星影護腕",
-   "th": null
+   "th": "ปลอกแขนเงาดาว"
   },
   "stats": [
    {
@@ -27748,7 +27749,7 @@
   "name": {
    "en": "Firmament Dragon Fan",
    "cn": "星穹龍扇",
-   "th": null
+   "th": "พัดมังกรนภาดาว"
   },
   "stats": [
    {
@@ -27785,7 +27786,7 @@
   "name": {
    "en": "Firmament War Halberd",
    "cn": "星穹戰戟",
-   "th": null
+   "th": "ง้าวรบนภาดาว"
   },
   "stats": [
    {
@@ -27817,7 +27818,7 @@
   "name": {
    "en": "Flawless Star Glass",
    "cn": "無暇星耀琉璃",
-   "th": null
+   "th": "แก้วดาวไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -27849,7 +27850,7 @@
   "name": {
    "en": "Starmark Crown",
    "cn": "星痕法冠",
-   "th": null
+   "th": "มงกุฎรอยดาว"
   },
   "stats": [
    {
@@ -27886,7 +27887,7 @@
   "name": {
    "en": "Starshadow Helm",
    "cn": "星影頭盔",
-   "th": null
+   "th": "หมวกเกราะเงาดาว"
   },
   "stats": [
    {
@@ -27923,7 +27924,7 @@
   "name": {
    "en": "Firmament Magic Staff",
    "cn": "星穹法杖",
-   "th": null
+   "th": "ไม้เท้าเวทนภาดาว"
   },
   "stats": [
    {
@@ -27960,7 +27961,7 @@
   "name": {
    "en": "Firmament Claw",
    "cn": "星穹爪",
-   "th": null
+   "th": "กรงเล็บนภาดาว"
   },
   "stats": [
    {
@@ -27992,7 +27993,7 @@
   "name": {
    "en": "Flawless Star Mithril",
    "cn": "無暇星耀秘銀",
-   "th": null
+   "th": "มิธริลดาวไร้ตำหนิ"
   },
   "stats": [],
   "statsNote": null,
@@ -28024,7 +28025,7 @@
   "name": {
    "en": "Starmark Boots",
    "cn": "星痕法靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรอยดาว"
   },
   "stats": [
    {
@@ -28061,7 +28062,7 @@
   "name": {
    "en": "Starshadow War Boots",
    "cn": "星影戰靴",
-   "th": null
+   "th": "รองเท้าบู๊ตรบเงาดาว"
   },
   "stats": [
    {
@@ -28098,7 +28099,7 @@
   "name": {
    "en": "Starmark Ring",
    "cn": "星痕戒指",
-   "th": null
+   "th": "แหวนรอยดาว"
   },
   "stats": [
    {
@@ -28135,7 +28136,7 @@
   "name": {
    "en": "Starshadow Ring",
    "cn": "星影戒指",
-   "th": null
+   "th": "แหวนเงาดาว"
   },
   "stats": [
    {

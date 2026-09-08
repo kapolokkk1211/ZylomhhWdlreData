@@ -19,6 +19,7 @@ export default async function Compounds({ params }) {
         <p className="eyebrow">合成 · {s.compounds.title}</p>
         <h1>{s.compounds.title}</h1>
         <p className="lede">{s.compounds.lede}</p>
+        <div className="note"><b>⭐</b> {s.star.pairNote}</div>
       </div>
       <Legend strings={s.common} labels={labelBundle(lang)} />
       <CompoundTable

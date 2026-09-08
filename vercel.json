@@ -1,4 +1,10 @@
 {
   "framework": "nextjs",
-  "redirects": [{ "source": "/", "destination": "/th", "permanent": false }]
+  "redirects": [
+    { "source": "/", "destination": "/th/compounds", "permanent": false },
+    { "source": "/th", "destination": "/th/compounds", "permanent": false },
+    { "source": "/en", "destination": "/en/compounds", "permanent": false },
+    { "source": "/:lang/star", "destination": "/:lang/compounds?family=Star", "permanent": false },
+    { "source": "/:lang/glossary", "destination": "/:lang/about", "permanent": false }
+  ]
 }

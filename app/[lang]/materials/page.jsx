@@ -1,5 +1,5 @@
 import { t } from '@/lib/ui';
-import { materialRows, labelBundle, codes, nm, counts } from '@/lib/data';
+import { materialRows, labelBundle, codes, nm, counts, townOptions } from '@/lib/data';
 import MaterialTable from '@/components/MaterialTable';
 
 export async function generateMetadata({ params }) {
@@ -19,8 +19,16 @@ export default async function Materials({ params }) {
     .sort((a, b) => order.indexOf(a) - order.indexOf(b))
     .map((k) => {
       const f = codes.families.find((x) => x.key === k);
-      return { key: k, label: `${nm(f.name, lang)} ${f.name.cn}` };
+      return {
+        key: k,
+        label: nm(f.name, lang),
+        alt: [f.name.cn, lang === 'th' ? f.name.en : f.name.th].filter(Boolean).join(' '),
+      };
     });
+  const towns = townOptions(lang).map((t) => ({
+    ...t,
+    label: t.status === 'open' ? `${t.label} ✓` : t.label,
+  }));
 
   return (
     <>
@@ -35,7 +43,7 @@ export default async function Materials({ params }) {
       <MaterialTable
         rows={rows}
         labels={labelBundle(lang)}
-        options={{ families }}
+        options={{ families, towns }}
         lang={lang}
         strings={{ ...s.common, ...s.materials }}
       />

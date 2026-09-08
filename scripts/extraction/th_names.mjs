@@ -1,0 +1,322 @@
+// Compositional EN → TH translation of item names, with hand overrides.
+// Thai puts the head noun first and modifiers after it, nearest-modifier-first:
+//   "White Feather Earrings" → ต่างหู + ขนนก + ขาว = ต่างหูขนนกขาว   (matches KK's client)
+// Everything produced here is a TRANSLATION — thConfirmed stays false unless listed in CONFIRMED.
+import fs from 'fs';
+
+// Multi-word units, longest first. Value = Thai.
+const UNITS = {
+  'pure iron': 'เหล็กแดง', 'sea blue': 'น้ำเงินทะเล', 'twin edge': 'สองคม', 'twin-edge': 'สองคม',
+  'magic jade': 'หยกเวท', 'mage crown': 'มงกุฎเมจ', 'war boots': 'รองเท้ารบ', 'long boots': 'รองเท้าบู๊ตยาว',
+  'short boots': 'รองเท้าบู๊ตสั้น', 'heavy boots': 'รองเท้าหนัก', 'thick boots': 'รองเท้าหนา',
+  'long spear': 'หอกยาว', 'single face': 'คมเดียว', 'single-face': 'คมเดียว', 'triple edge': 'สามคม', 'triple-edge': 'สามคม',
+  'full moon': 'จันทร์เต็มดวง', 'full-moon': 'จันทร์เต็มดวง', 'rising sun': 'ตะวันขึ้น', 'wolf fang': 'เขี้ยวหมาป่า',
+  'dragon scale': 'เกล็ดมังกร', 'dragon fang': 'เขี้ยวมังกร', 'star dust': 'ผงดาว', 'star essence': 'แก่นดาว',
+  'star ring': 'วงแหวนดาว', 'star splendor': 'ดาวเรืองรอง', 'star edge': 'คมดาว', 'star frost': 'หิมะดาว',
+  'star burst': 'ดาวระเบิด', 'star peak': 'ยอดดาว', 'star feather': 'ขนดาว', 'star glass': 'แก้วดาว',
+  'star mithril': 'มิธริลดาว', 'star ice crystal': 'ผลึกน้ำแข็งดาว', 'star divine rune': 'อักขระเทพดาว',
+  'star goldwood': 'ไม้ทองดาว', 'star crystalwood': 'ไม้ผลึกดาว', 'chain mail': 'เกราะโซ่', 'plate armor': 'เกราะแผ่น',
+  'scale armor': 'เกราะเกล็ด', 'battle armor': 'เกราะรบ', 'war armor': 'เกราะรบ', 'light armor': 'เกราะเบา',
+  'heavy hammer': 'ค้อนหนัก', 'iron rod': 'ท่อนเหล็ก', 'axe head': 'หัวขวาน', 'hand claw': 'กรงเล็บมือ',
+  'blade claw': 'กรงเล็บใบมีด', 'curved blade': 'ดาบโค้ง', 'curved claw': 'กรงเล็บโค้ง', 'cross spear': 'หอกกางเขน',
+  'thorn bracer': 'ปลอกแขนหนาม', 'thorn bracers': 'ปลอกแขนหนาม', 'thorn club': 'กระบองหนาม', 'thorn iron club': 'กระบองเหล็กหนาม',
+  'mage staff': 'ไม้เท้าเมจ', 'magic staff': 'ไม้เท้าเวท', 'holy staff': 'ไม้เท้าศักดิ์สิทธิ์', 'feather staff': 'ไม้เท้าขนนก',
+  'tin staff': 'คทาดีบุก', 'iron fan': 'พัดเหล็ก', 'dragon fan': 'พัดมังกร', 'war halberd': 'ง้าวรบ', 'war blade': 'มีดรบ',
+  'war ring': 'แหวนรบ', 'magic ring': 'แหวนเวท', 'war spear': 'หอกรบ', 'war axe': 'ขวานรบ', 'war pike': 'ทวนรบ',
+  'war helm': 'หมวกเกราะรบ', 'war thorn bracer': 'ปลอกแขนหนามรบ', 'mage king crown': 'มงกุฎราชาเมจ',
+  'king crown': 'มงกุฎราชา', 'crown of glory': 'มงกุฎเกียรติยศ', 'grass crown': 'มงกุฎหญ้า', 'copper man': 'มนุษย์ทองแดง',
+  'head blade': 'ใบมีดหัว', 'hemp shoes': 'รองเท้าป่าน', 'rope shoes': 'รองเท้าเชือก', 'straw sandals': 'รองเท้าแตะฟาง',
+  'red iron': 'เหล็กแดง', 'red lead': 'ตะกั่วแดง', 'cold iron': 'เหล็กเย็น', 'wrought iron': 'เหล็กเหนียว', 'black iron': 'เหล็กดำ',
+  'white silver': 'เงินขาว', 'pure silver': 'เงินบริสุทธิ์', 'white iron': 'เหล็กขาว', 'gold silk': 'ไหมทอง', 'silver dragon': 'มังกรเงิน',
+  'gold dragon': 'มังกรทอง', 'green dragon': 'มังกรเขียว', 'fire dragon': 'มังกรไฟ', 'evil dragon': 'มังกรชั่ว', 'blue crystal': 'คริสตัลน้ำเงิน',
+  'pink crystal': 'คริสตัลชมพู', 'purple crystal': 'คริสตัลม่วง', 'yellow crystal': 'คริสตัลเหลือง', 'water crystal': 'คริสตัลน้ำ',
+  'black crystal': 'คริสตัลดำ', 'red jade': 'หยกแดง', 'white jade': 'หยกขาว', 'purple jade': 'หยกม่วง', 'water jade': 'หยกน้ำ',
+  'black jade': 'หยกดำ', 'blue jade': 'หยกน้ำเงิน', 'jade green': 'เขียวหยก', 'sky grass': 'หญ้าฟ้า', 'azure cloud': 'เมฆคราม',
+  'blue sky': 'ฟ้าคราม', 'sky soar': 'ทะยานฟ้า', 'cloud wing': 'ปีกเมฆ', 'silver wing': 'ปีกเงิน', 'eagle wing': 'ปีกอินทรี',
+  'steel wing': 'ปีกเหล็กกล้า', 'vertical wing': 'ปีกตั้ง', 'level wing': 'ปีกราบ', 'bone steel': 'เหล็กกล้ากระดูก',
+  'bone iron': 'เหล็กกระดูก', 'bone copper': 'ทองแดงกระดูก', 'bone bronze': 'สำริดกระดูก', 'bone pure iron': 'เหล็กแดงกระดูก',
+  'bone long spear': 'หอกยาวกระดูก', 'beast bone': 'กระดูกสัตว์', 'beast hide': 'หนังสัตว์', 'wild wind': 'ลมป่า',
+  'wind demon': 'ปีศาจลม', 'sea king': 'ราชาทะเล', 'lion king': 'ราชสีห์', 'orc king': 'ราชาออร์ค', 'demon king': 'ราชาปีศาจ',
+  'knight\'s': 'อัศวิน', 'momotaro\'s': 'โมโมทาโร่', 'guardian\'s': 'ผู้พิทักษ์', 'mage\'s': 'เมจ', 'wizard\'s': 'พ่อมด',
+  'hunter\'s': 'นักล่า', 'yaksha demon': 'ยักษ์', 'nightshade': 'เงาราตรี', 'demonslayer': 'สังหารปีศาจ',
+  'spirit piercing': 'ทะลวงวิญญาณ', 'spirit-piercing': 'ทะลวงวิญญาณ', 'water spirit': 'วิญญาณน้ำ', 'forest spirit': 'วิญญาณป่า',
+  'holy guard': 'ผู้พิทักษ์ศักดิ์สิทธิ์', 'strong guard': 'ป้องกันแกร่ง', 'heaven guard': 'ผู้พิทักษ์สวรรค์', 'grey steel': 'เหล็กกล้าเทา',
+  'grass steel': 'เหล็กกล้าหญ้า', 'grey wolf': 'หมาป่าเทา', 'snow wolf': 'หมาป่าหิมะ', 'white goose': 'ห่านขาว',
+  'blazing sun': 'ตะวันเผาผลาญ', 'blazing red': 'แดงลุกโชน', 'dusk horn': 'เขาสนธยา', 'dusk light': 'แสงสนธยา', 'dusk gold': 'ทองสนธยา',
+  'dusk war': 'รบสนธยา', 'yellow dusk': 'สนธยาเหลือง', 'gold dawn': 'รุ่งอรุณทอง', 'dark green': 'เขียวเข้ม', 'emerald green': 'เขียวมรกต',
+  'verdant green': 'เขียวขจี', 'azure blue': 'น้ำเงินคราม', 'azure purple': 'ม่วงคราม', 'azure sea': 'ทะเลคราม', 'azure heavy': 'หนักคราม',
+  'pale blue': 'ฟ้าซีด', 'pale moon': 'จันทร์ซีด', 'red moon': 'จันทร์แดง', 'crescent': 'จันทร์เสี้ยว', 'new moon': 'จันทร์ดับ',
+  'purple gold': 'ทองม่วง', 'purple red': 'แดงม่วง', 'purple light': 'แสงม่วง', 'gold bell': 'กระดิ่งทอง', 'white bell': 'กระดิ่งขาว',
+  'blue lead': 'ตะกั่วน้ำเงิน', 'dazzle yellow': 'เหลืองเจิดจ้า', 'sinking bead': 'ลูกปัดจม', 'sinking fang': 'เขี้ยวจม',
+  'blood bead': 'ลูกปัดเลือด', 'heaven bead': 'ลูกปัดสวรรค์', 'blue hawk': 'เหยี่ยวน้ำเงิน', 'red hawk': 'เหยี่ยวแดง',
+  'black feather': 'ขนนกดำ', 'white feather': 'ขนนกขาว', 'honoured king': 'ราชาผู้ทรงเกียรติ', 'honoured mage': 'เมจผู้ทรงเกียรติ',
+  'divine power': 'พลังเทพ', 'holy beast': 'สัตว์ศักดิ์สิทธิ์', 'sea demon': 'ปีศาจทะเล', 'demon mage': 'เมจปีศาจ', 'elf mage': 'เมจเอลฟ์',
+  'white soul': 'วิญญาณขาว', 'true leaf': 'ใบไม้แท้', 'green jewel': 'อัญมณีเขียว', 'red scale': 'เกล็ดแดง', 'dream weave': 'ถักฝัน',
+  'spirit air': 'ลมวิญญาณ', 'jade thunder': 'สายฟ้าหยก', 'wave surge': 'คลื่นซัด', 'red lotus': 'บัวแดง', 'ice thorn': 'หนามน้ำแข็ง',
+  'flame thorn': 'หนามเพลิง', 'green fang': 'เขี้ยวเขียว', 'curse thorn': 'หนามคำสาป', 'crimson ring': 'แหวนแดงเข้ม',
+  'infantry helm': 'หมวกเกราะทหารราบ', 'ranger helm': 'หมวกเกราะเรนเจอร์', 'roman helm': 'หมวกเกราะโรมัน', 'pirate hat': 'หมวกโจรสลัด',
+  'brawler helm': 'หมวกเกราะนักสู้', 'samurai gold helm': 'หมวกเกราะทองซามูไร', 'ox horn': 'เขาวัว', 'cat headdress': 'เครื่องประดับหัวแมว',
+  'silver cat': 'แมวเงิน', 'wooden mallet': 'ค้อนไม้', 'toy mallet': 'ค้อนของเล่น', 'bamboo hat': 'งอบไม้ไผ่', 'vine bamboo': 'ไม้ไผ่เถา',
+  'wooden clogs': 'เกี๊ยะไม้', 'straw': 'ฟาง', 'copper woven': 'ถักทองแดง', 'copper-woven': 'ถักทองแดง', 'copper skin': 'หนังทองแดง',
+  'copper-skin': 'หนังทองแดง', 'refined steel': 'เหล็กกล้าบริสุทธิ์', 'refined pure iron': 'เหล็กแดงบริสุทธิ์', 'refined active titanium': 'ไทเทเนียมกัมมันต์บริสุทธิ์',
+  'refined gold': 'ทองบริสุทธิ์', 'refined white silver': 'เงินขาวบริสุทธิ์', 'refined tin': 'ดีบุกบริสุทธิ์', 'refined pure silver': 'เงินบริสุทธิ์',
+  'processed zinc': 'สังกะสีแปรรูป', 'airship steering device': 'อุปกรณ์บังคับเรือเหาะ', 'titanium alloy': 'โลหะผสมไทเทเนียม',
+  'titanium metal': 'โลหะไทเทเนียม', 'gem necklace': 'สร้อยอัญมณี', 'gold laurel': 'มงกุฎทอง', 'lucky ring': 'แหวนนำโชค',
+  'green ring': 'แหวนเขียว', 'silver ring': 'แหวนเงิน', 'copper ring': 'แหวนทองแดง', 'spirit long boots': 'รองเท้าบู๊ตยาววิญญาณ',
+  'light leather': 'หนังเบา', 'tough leather': 'หนังเหนียว', 'hunting leather': 'หนังล่าสัตว์', 'reinforced leather': 'หนังเสริมแรง',
+  'galloping horse': 'ม้าควบ', 'yellow horse': 'ม้าเหลือง', 'white spirit': 'วิญญาณขาว', 'water mage': 'เมจน้ำ', 'warm cloth': 'ผ้าอุ่น',
+  'warm thick leather': 'หนังหนาอุ่น', 'light cloth': 'ผ้าเบา', 'cotton silk': 'ไหมฝ้าย', 'metal silk': 'ไหมโลหะ', 'water silk': 'ไหมน้ำ',
+  'green wood': 'ไม้เขียว', 'red flower': 'ดอกไม้แดง', 'black witch': 'แม่มดดำ', 'witch': 'แม่มด', 'evening gown': 'ชุดราตรี',
+  'handmade dress': 'ชุดกระโปรงทำมือ', 'masked suit': 'ชุดสวมหน้ากาก', 'gilded masked suit': 'ชุดสวมหน้ากากเคลือบทอง',
+  'ninja suit': 'ชุดนินจา', 'perfect headscarf': 'ผ้าโพกหัวสมบูรณ์แบบ', 'red hood': 'ฮู้ดแดง', 'white bishop': 'บิชอปขาว',
+  'great oak': 'โอ๊กใหญ่', 'great lauan': 'ลัวนใหญ่', 'great cypress': 'ไซเปรสใหญ่', 'thin wood': 'ไม้บาง', 'fine wood': 'ไม้ชั้นดี',
+  'ordinary wood': 'ไม้ธรรมดา', 'lauan wood': 'ไม้ลัวน', 'oak wood': 'ไม้โอ๊ก', 'cypress wood': 'ไม้ไซเปรส', 'wood bracers': 'ปลอกแขนไม้',
+  'wooden bracers': 'ปลอกแขนไม้', 'bamboo bracers': 'ปลอกแขนไม้ไผ่', 'hunter\'s bow': 'ธนูนักล่า', 'long bow': 'ธนูยาว', 'short bow': 'ธนูสั้น',
+  'sky bow': 'ธนูฟ้า', 'sun shooter': 'ยิงตะวัน', 'fang staff': 'ไม้เท้าเขี้ยว', 'red fang': 'เขี้ยวแดง', 'purple gold staff': 'ไม้เท้าทองม่วง',
+  'glory': 'เกียรติยศ', 'glory hand': 'มือเกียรติยศ', 'fishfang': 'เขี้ยวปลา', 'fish blade': 'ดาบปลา', 'grapple fist': 'หมัดจับ',
+  'frenzy': 'คลั่ง', 'ferocious': 'ดุร้าย', 'bloody': 'โชกเลือด', 'twin spike rings': 'ห่วงหนามคู่', 'poison fang': 'เขี้ยวพิษ',
+  'broad': 'กว้าง', 'small': 'เล็ก', 'obsidian steel': 'เหล็กกล้าออบซิเดียน', 'clear sky': 'ฟ้าใส', 'elite knight': 'อัศวินชั้นยอด',
+  'elite': 'ชั้นยอด', 'elite orc': 'ออร์คชั้นยอด', 'elite bone': 'กระดูกชั้นยอด', 'orc': 'ออร์ค', 'primordial samurai': 'ซามูไรบรรพกาล',
+  'indian': 'อินเดีย', 'arabian': 'อาหรับ', 'western': 'ตะวันตก', 'standard roman': 'โรมันมาตรฐาน', 'great sword': 'ดาบใหญ่',
+  'greatblade': 'ดาบใหญ่', 'greatsword': 'ดาบใหญ่', 'longsword': 'ดาบยาว', 'starpoint': 'ปลายดาว', 'starmark': 'รอยดาว',
+  'starshadow': 'เงาดาว', 'firmament': 'นภาดาว', 'constellation': 'หมู่ดาว', 'starfire': 'ไฟดาว', 'starlight': 'แสงดาว',
+  'stardust': 'ฝุ่นดาว', 'flawless star': 'ดาวไร้ตำหนิ', 'flawless': 'ไร้ตำหนิ', 'immaculate': 'ไร้ตำหนิ', 'high density': 'ความหนาแน่นสูง',
+  'zhou blood': 'เลือดโจว', 'turbulent': 'ปั่นป่วน', 'round': 'กลม', 'crimson': 'แดงเข้ม', 'blue star': 'ดาวน้ำเงิน', 'silk spirit': 'วิญญาณไหม',
+  'mighty gold': 'ทองมหึมา', 'kunlun': 'คุนหลุน', 'gold arm': 'แขนทอง', 'chaos': 'โกลาหล', 'aquarius': 'ราศีกุมภ์', 'black bone': 'กระดูกดำ',
+  'spirit stone': 'หินวิญญาณ', 'strange rock': 'หินประหลาด', 'giant stone': 'หินยักษ์', 'stone axe': 'ขวานหิน', 'hand axe': 'ขวานมือ',
+  'woodsman': 'คนตัดไม้', 'copper sand': 'ทรายทองแดง', 'iron sand': 'ทรายเหล็ก', 'gold sand': 'ทรายทอง', 'tin sand': 'ทรายดีบุก',
+  'lead ore sand': 'ทรายแร่ตะกั่ว', 'galena': 'แร่กาลีนา', 'zinc': 'สังกะสี', 'zinc chopping': 'สับสังกะสี', 'zinc pointed': 'ปลายแหลมสังกะสี',
+  'cast iron': 'เหล็กหล่อ', 'iron bar': 'แท่งเหล็ก', 'gold bar': 'แท่งทอง', 'gold block': 'ก้อนทอง', 'iron block': 'ก้อนเหล็ก',
+  'copper block': 'ก้อนทองแดง', 'lead block': 'ก้อนตะกั่ว', 'zinc block': 'ก้อนสังกะสี', 'tin block': 'ก้อนดีบุก', 'lead plate': 'แผ่นตะกั่ว',
+  'copper plate': 'แผ่นทองแดง', 'iron fillet': 'แผ่นเหล็ก', 'melting': 'หลอม', 'hot kiln': 'เตาเผาร้อน', 'crystal furnace': 'เตาคริสตัล',
+  'bronze': 'สำริด', 'antique bronze': 'สำริดโบราณ', 'reinforced': 'เสริมแรง', 'strengthened': 'เสริมแรง', 'protective': 'ป้องกัน',
+  'super strong': 'แข็งแรงพิเศษ', 'concentrated': 'เข้มข้น', 'thick': 'หนา', 'matured': 'บ่ม', 'moist': 'ชื้น', 'anti rot': 'กันเน่า', 'anti-rot': 'กันเน่า',
+  'elastic': 'ยืดหยุ่น', 'plant': 'พืช', 'insect': 'แมลง', 'snail': 'หอยทาก', 'slime': 'สไลม์', 'lobster': 'กุ้งมังกร', 'crab': 'ปู',
+  'beetle': 'ด้วง', 'fish': 'ปลา', 'kiwi': 'กีวี', 'raccoon': 'แรคคูน', 'kitten': 'ลูกแมว', 'tiger': 'เสือ', 'fox': 'จิ้งจอก', 'stag': 'กวาง',
+  'snake': 'งู', 'horse': 'ม้า', 'wolf': 'หมาป่า', 'eagle': 'อินทรี', 'goose': 'ห่าน', 'phoenix': 'ฟีนิกซ์', 'unicorn': 'ยูนิคอร์น',
+  'lion': 'สิงโต', 'ox': 'วัว', 'cat': 'แมว', 'hawk': 'เหยี่ยว', 'meteor': 'อุกกาบาต', 'thunder': 'สายฟ้า', 'storm': 'พายุ', 'mist': 'หมอก',
+  'frost': 'น้ำค้างแข็ง', 'ice': 'น้ำแข็ง', 'snow': 'หิมะ', 'fire': 'ไฟ', 'flame': 'เพลิง', 'blaze': 'เปลวไฟ', 'lava': 'ลาวา', 'earth': 'ดิน',
+  'wind': 'ลม', 'water': 'น้ำ', 'sea': 'ทะเล', 'cloud': 'เมฆ', 'sky': 'ฟ้า', 'sun': 'ตะวัน', 'moon': 'จันทร์', 'day': 'กลางวัน', 'dawn': 'รุ่งอรุณ',
+  'dusk': 'สนธยา', 'heaven': 'สวรรค์', 'holy': 'ศักดิ์สิทธิ์', 'divine': 'เทพ', 'immortal': 'อมตะ', 'bodhisattva': 'โพธิสัตว์', 'priest': 'นักบวช',
+  'bishop': 'บิชอป', 'sage': 'ปราชญ์', 'apprentice': 'ศิษย์ฝึกหัด', 'wizard': 'พ่อมด', 'mage': 'เมจ', 'magic': 'เวท', 'spirit': 'วิญญาณ',
+  'soul': 'วิญญาณ', 'ghost': 'ผี', 'demon': 'ปีศาจ', 'evil': 'ชั่วร้าย', 'curse': 'คำสาป', 'charm': 'เสน่ห์', 'dream': 'ฝัน', 'desire': 'ปรารถนา',
+  'peace': 'สันติ', 'happiness': 'ความสุข', 'purity': 'บริสุทธิ์', 'radiance': 'รัศมี', 'fragrance': 'หอม', 'glitter': 'ระยิบ', 'dazzle': 'เจิดจ้า',
+  'light': 'แสง', 'dark': 'มืด', 'hidden': 'ซ่อนเร้น', 'concealed': 'ซ่อน', 'thief': 'โจร', 'swift': 'ว่องไว', 'speed': 'ความเร็ว', 'sharp': 'คม',
+  'fierce': 'ดุ', 'wild': 'ป่า', 'noble': 'ผู้ดี', 'gentleman': 'สุภาพบุรุษ', 'maid': 'สาวใช้', 'doll': 'ตุ๊กตา', 'puppet': 'หุ่นเชิด', 'toy': 'ของเล่น',
+  'banquet': 'งานเลี้ยง', 'ceremony': 'พิธี', 'formal': 'ทางการ', 'gorgeous': 'งดงาม', 'embroidered': 'ปัก', 'dyed': 'ย้อม', 'pattern': 'ลาย',
+  'rose': 'กุหลาบ', 'lotus': 'บัว', 'flower': 'ดอกไม้', 'grass': 'หญ้า', 'leaf': 'ใบไม้', 'vine': 'เถาวัลย์', 'bark': 'เปลือกไม้', 'tree': 'ต้นไม้',
+  'algae': 'สาหร่าย', 'coconut': 'มะพร้าว', 'grain': 'ธัญพืช', 'wheat': 'ข้าวสาลี', 'honey': 'น้ำผึ้ง', 'meat': 'เนื้อ', 'wool': 'ขนแกะ',
+  'cotton': 'ฝ้าย', 'hemp': 'ป่าน', 'silk': 'ไหม', 'velvet': 'กำมะหยี่', 'satin': 'ซาติน', 'cloth': 'ผ้า', 'leather': 'หนัง', 'hide': 'หนัง',
+  'fur': 'ขนสัตว์', 'feather': 'ขนนก', 'bone': 'กระดูก', 'fang': 'เขี้ยว', 'horn': 'เขา', 'shell': 'เปลือก', 'scale': 'เกล็ด', 'marrow': 'ไขกระดูก',
+  'tears': 'น้ำตา', 'heart': 'หัวใจ', 'beard': 'เครา', 'face': 'หน้า', 'hand': 'มือ', 'arm': 'แขน', 'head': 'หัว', 'wing': 'ปีก', 'winged': 'มีปีก',
+  'flying': 'บิน', 'soaring': 'ทะยาน', 'soar': 'ทะยาน', 'response': 'ตอบสนอง', 'energy': 'พลังงาน', 'power': 'พลัง', 'seal': 'ผนึก',
+  'rainy': 'ฝนตก', 'sunny': 'แดดออก', 'sick': 'ป่วย', 'odd': 'ประหลาด', 'strange': 'ประหลาด', 'muddy': 'ขุ่น', 'deep': 'ลึก', 'mountain': 'ภูเขา',
+  'cliff': 'หน้าผา', 'wall': 'กำแพง', 'smoke': 'ควัน', 'net': 'ตาข่าย', 'coin': 'เหรียญ', 'cut': 'ตัด', 'speech': 'วาจา', 'set': 'เซ็ต',
+  'iga': 'อิกะ', 'koga': 'โคกะ', 'hattori': 'ฮัตโตริ', 'ninja': 'นินจา', 'samurai': 'ซามูไร', 'knight': 'อัศวิน', 'ranger': 'เรนเจอร์',
+  'brawler': 'นักสู้', 'martial': 'ยุทธ', 'battle': 'รบ', 'war': 'รบ', 'guardian': 'ผู้พิทักษ์', 'guard': 'ผู้พิทักษ์', 'king': 'ราชา',
+  'roman': 'โรมัน', 'pirate': 'โจรสลัด', 'ali': 'อาลี', 'wilderness': 'แดนเถื่อน', 'elf': 'เอลฟ์', 'momotaro': 'โมโมทาโร่', 'yaksha': 'ยักษ์',
+  'great': 'ใหญ่', 'giant': 'ยักษ์', 'big': 'ใหญ่', 'long': 'ยาว', 'short': 'สั้น', 'heavy': 'หนัก', 'tender': 'อ่อน', 'strong': 'แกร่ง',
+  'hard': 'แข็ง', 'thin': 'บาง', 'fine': 'ชั้นดี', 'refined': 'บริสุทธิ์', 'processed': 'แปรรูป', 'advanced': 'ขั้นสูง', 'super': 'ซูเปอร์',
+  'lesser': 'รอง', 'true': 'แท้', 'perfect': 'สมบูรณ์แบบ', 'honoured': 'ผู้ทรงเกียรติ', 'mighty': 'มหึมา', 'pointed': 'ปลายแหลม',
+  'single': 'เดี่ยว', 'twin': 'คู่', 'triple': 'สาม', 'cross': 'กางเขน', 'edge': 'คม', 'thorn': 'หนาม', 'spike': 'หนาม', 'bead': 'ลูกปัด',
+  'jewel': 'อัญมณี', 'gem': 'อัญมณี', 'crystal': 'คริสตัล', 'quartz': 'ควอตซ์', 'amber': 'อำพัน', 'diamond': 'เพชร', 'sapphire': 'ไพลิน',
+  'ruby': 'ทับทิม', 'emerald': 'มรกต', 'jade': 'หยก', 'obsidian': 'ออบซิเดียน', 'stone': 'หิน', 'rock': 'หิน', 'clay': 'ดินเหนียว', 'mud': 'โคลน',
+  'sand': 'ทราย', 'dust': 'ผง', 'powder': 'ผง', 'paste': 'กาว', 'gel': 'เจล', 'gum': 'ยาง', 'rubber': 'ยาง', 'resin': 'ยางไม้', 'wax': 'ขี้ผึ้ง',
+  'lubricant': 'สารหล่อลื่น', 'fluid': 'ของเหลว', 'mineral': 'แร่ธาตุ', 'ore': 'แร่', 'metal': 'โลหะ', 'alloy': 'โลหะผสม', 'active': 'กัมมันต์',
+  'iron': 'เหล็ก', 'steel': 'เหล็กกล้า', 'copper': 'ทองแดง', 'gold': 'ทอง', 'golden': 'ทอง', 'silver': 'เงิน', 'tin': 'ดีบุก', 'lead': 'ตะกั่ว',
+  'titanium': 'ไทเทเนียม', 'mithril': 'มิธริล', 'nylon': 'ไนลอน', 'glass': 'แก้ว', 'wood': 'ไม้', 'wooden': 'ไม้', 'oak': 'โอ๊ก', 'lauan': 'ลัวน',
+  'cypress': 'ไซเปรส', 'redwood': 'ไม้แดง', 'bamboo': 'ไม้ไผ่', 'red': 'แดง', 'blue': 'น้ำเงิน', 'green': 'เขียว', 'black': 'ดำ', 'white': 'ขาว',
+  'purple': 'ม่วง', 'yellow': 'เหลือง', 'grey': 'เทา', 'pink': 'ชมพู', 'brown': 'น้ำตาล', 'azure': 'คราม', 'pale': 'ซีด', 'clear': 'ใส',
+  'star': 'ดาว', 'ink': 'หมึก', 'raw': 'ดิบ', 'hot': 'ร้อน', 'warm': 'อุ่น', 'cold': 'เย็น', 'air': 'อากาศ', 'essence': 'แก่นสาร', 'rune': 'อักขระ',
+  'goldwood': 'ไม้ทอง', 'crystalwood': 'ไม้ผลึก', 'peak': 'ยอด', 'burst': 'ระเบิด', 'splendor': 'เรืองรอง', 'mark': 'รอย', 'shadow': 'เงา',
+  'grasp': 'กำ', 'chopping': 'สับ', 'piercing': 'ทะลวง', 'sinking': 'จม', 'rising': 'ขึ้น', 'wave': 'คลื่น', 'surge': 'ซัด', 'cylinder': 'กระบอก',
+  'block': 'ก้อน', 'bar': 'แท่ง', 'plate': 'แผ่น', 'pedals': 'แป้นเหยียบ', 'propeller': 'ใบพัด', 'device': 'อุปกรณ์', 'steering': 'บังคับ', 'airship': 'เรือเหาะ',
+  'material': 'วัสดุ', 'skin': 'หนัง', 'man': 'มนุษย์', 'of': '', 'the': '',
+  'curved': 'โค้ง', 'infantry': 'ทหารราบ', 'woven': 'ถัก', 'rope': 'เชือก', 'trident halberd': 'ง้าวสามง่าม', 'pike': 'ทวน',
+  'gilded': 'เคลือบทอง', 'cast': 'หล่อ', 'dragon': 'มังกร', 'ice dragon': 'มังกรน้ำแข็ง', 'black dragon': 'มังกรดำ', 'red dragon': 'มังกรแดง',
+  'winged dragon': 'มังกรมีปีก', 'flying dragon': 'มังกรบิน', 'magic dragon': 'มังกรเวท', 'evening banquet': 'งานเลี้ยงราตรี', 'evening': 'ราตรี',
+  'gentleman\'s': 'สุภาพบุรุษ', 'hot blood': 'เลือดร้อน', 'bell ribbon': 'โบว์กระดิ่ง', 'bell': 'กระดิ่ง', 'iron helmet': 'หมวกเกราะเหล็ก',
+  'purple band': 'สายม่วง', 'heart piercing': 'ทะลวงหัวใจ', 'heart-piercing': 'ทะลวงหัวใจ', 'handmade': 'ทำมือ', 'beast': 'สัตว์ร้าย',
+  'wind bell': 'กระดิ่งลม', 'masked': 'สวมหน้ากาก', 'light weave': 'ถักแสง', 'pure': 'บริสุทธิ์', 'white robe': 'เสื้อคลุมขาว',
+  'blood fang': 'เขี้ยวเลือด', 'true red': 'แดงแท้', 'soaring wild': 'ทะยานป่า', 'blood': 'เลือด',
+  'blade': 'ใบมีด', 'trident': 'สามง่าม', 'copper-cast': 'หล่อทองแดง', 'copper cast': 'หล่อทองแดง',
+};
+
+// Head nouns (item types). The head is the LAST unit of the English name.
+const HEADS = {
+  boots: 'รองเท้าบู๊ต', staff: 'ไม้เท้า', sword: 'ดาบ', robe: 'เสื้อคลุม', armor: 'เกราะ', bracers: 'ปลอกแขน', bracer: 'ปลอกแขน',
+  hat: 'หมวก', ring: 'แหวน', rings: 'แหวน', helm: 'หมวกเกราะ', helmet: 'หมวกเกราะ', blade: 'มีด', axe: 'ขวาน', gloves: 'ถุงมือ',
+  spear: 'หอก', claw: 'กรงเล็บ', claws: 'กรงเล็บ', guards: 'การ์ดมือ', crown: 'มงกุฎ', shoes: 'รองเท้า', hammer: 'ค้อน', club: 'กระบอง',
+  bow: 'ธนู', necklace: 'สร้อยคอ', earring: 'ต่างหู', earrings: 'ต่างหู', laurel: 'มงกุฎ', sandals: 'รองเท้าแตะ', suit: 'ชุด',
+  dress: 'ชุดกระโปรง', qipao: 'กี่เพ้า', headband: 'ผ้าคาดหัว', halberd: 'ง้าว', sabre: 'ดาบโค้ง', trident: 'สามง่าม', circlet: 'รัดเกล้า',
+  pike: 'ทวน', headscarf: 'ผ้าโพกหัว', headdress: 'เครื่องประดับศีรษะ', poleaxe: 'ขวานด้ามยาว', wand: 'คทา', clogs: 'เกี๊ยะ', fan: 'พัด',
+  sceptre: 'คทา', mallet: 'ค้อนไม้', scythe: 'เคียว', crossbow: 'หน้าไม้', rod: 'ท่อน', mask: 'หน้ากาก', gown: 'ชุดราตรี', tunic: 'เสื้อตัวยาว',
+  garb: 'ชุด', band: 'สายรัด', armband: 'ปลอกแขน', ribbon: 'โบว์', greatblade: 'ดาบใหญ่', greatsword: 'ดาบใหญ่', longsword: 'ดาบยาว',
+  ore: 'แร่', block: 'ก้อน', bar: 'แท่ง', plate: 'แผ่น', material: 'วัสดุ', sand: 'ทราย', powder: 'ผง', dust: 'ผง', paste: 'กาว', gel: 'เจล',
+  gum: 'ยาง', resin: 'ยางไม้', wax: 'ขี้ผึ้ง', fluid: 'ของเหลว', lubricant: 'สารหล่อลื่น', glass: 'แก้ว', feather: 'ขนนก', essence: 'แก่นสาร',
+  rune: 'อักขระ', goldwood: 'ไม้ทอง', crystalwood: 'ไม้ผลึก', mithril: 'มิธริล', crystal: 'ผลึก', pedals: 'แป้นเหยียบ', propeller: 'ใบพัด',
+  device: 'อุปกรณ์', wing: 'ปีก', wood: 'ไม้', log: 'ท่อนไม้', mast: 'เสากระโดง', alloy: 'โลหะผสม', metal: 'โลหะ', fang: 'เขี้ยว',
+  jade: 'หยก', stone: 'หิน', shell: 'เปลือก', horn: 'เขา', hide: 'หนัง', skin: 'หนัง', fur: 'ขนสัตว์', marrow: 'ไขกระดูก', bead: 'ลูกปัด',
+  coin: 'เหรียญ', net: 'ตาข่าย', cylinder: 'กระบอก', doll: 'ตุ๊กตา', puppet: 'หุ่นเชิด', honey: 'น้ำผึ้ง', meat: 'เนื้อ', head: 'หัว',
+  arm: 'แขน', cloth: 'ผ้า', silk: 'ไหม', leather: 'หนัง', thread: 'ด้าย', charcoal: 'ถ่าน', coal: 'ถ่านหิน', flower: 'ดอกไม้', grass: 'หญ้า',
+  leaf: 'ใบไม้', diamond: 'เพชร', sapphire: 'ไพลิน', ruby: 'ทับทิม', emerald: 'มรกต', amber: 'อำพัน', quartz: 'ควอตซ์', mud: 'โคลน',
+  clay: 'ดินเหนียว', wax_: 'ขี้ผึ้ง', hood: 'ฮู้ด', set: 'เซ็ต', mail: 'เกราะโซ่', armor_: 'เกราะ', staff_: 'ไม้เท้า', tears: 'น้ำตา',
+  heart: 'หัวใจ', beard: 'เครา', gem: 'อัญมณี', jewel: 'อัญมณี', lava: 'ลาวา', mineral: 'แร่ธาตุ', bark: 'เปลือกไม้', algae: 'สาหร่าย',
+  cross: 'กางเขน', spike: 'หนาม', edge: 'คม', purple: 'สีม่วง', red: 'สีแดง', moon: 'จันทร์', sun: 'ตะวัน', star: 'ดาว',
+};
+
+// Full-name overrides — where composition reads badly or a name is idiomatic.
+const OVERRIDES = {
+  'Star Dust · Sky': 'ผงดาราแห่งธาตุอากาศ',
+  'Star Dust · Fire / Wind / Water / Earth': 'ผงดาราแห่งธาตุไฟ / ลม / น้ำ / ดิน',
+  'Steel Blade': 'มีดเหล็กกล้า',
+  'White Feather Earrings': 'ต่างหูขนนกขาว',
+  'Momotaro\'s Axe': 'ขวานโมโมทาโร่',
+  'Copper Man Ring': 'แหวนมนุษย์ทองแดง',
+  'Crown': 'มงกุฎ',
+  'Necklace': 'สร้อยคอ',
+  'Azure Purple': 'ม่วงคราม',
+  'Red Moon': 'จันทร์แดง',
+  'Chain Mail': 'เกราะโซ่',
+  'Eighteen Bronze Men': 'สิบแปดอรหันต์ทองแดง',
+  'Wind Set Staff': 'ไม้เท้าเซ็ตธาตุลม',
+  'Round Sword': 'ดาบเหล็กแดงคมกลม',
+  'Poison Fang': 'มีดเขี้ยวพิษ',
+  'Twin Spike Rings': 'ห่วงหนามคู่',
+  'Glory Hand Blade': 'มีดมือเกียรติยศ',
+  'Straw Sandals': 'รองเท้าแตะฟาง',
+  'Silver Sandals': 'รองเท้าแตะเงินขาว',
+  'Bronze Sandals': 'รองเท้าแตะสำริด',
+  'Red Copper Sandals': 'รองเท้าแตะทองแดงแดง',
+  'Wolf Fang Iron Rod': 'ท่อนเหล็กเขี้ยวหมาป่า',
+  'Airship Steering Device': 'อุปกรณ์บังคับเรือเหาะ',
+  'Light Bracers': 'ปลอกแขนหนามแหลม',
+  'White Iron Short Arm': 'แขนสั้นเหล็กขาว',
+  'Wind Set Staff_': '',
+  'Grey Edge Sword': 'ดาบคมเทา',
+  'Crimson Ring': 'ห่วงแดงเข้ม',
+  'White Bell Ring': 'ห่วงกระดิ่งขาว',
+  'Silver Blade Claw': 'กรงเล็บใบมีดเงิน',
+  'Lucky Ring': 'แหวนนำโชค',
+  'Green Ring': 'แหวนเขียว',
+  'Black Crystal Ring': 'แหวนคริสตัลดำ',
+  'Silver Ring': 'แหวนเงินขาว',
+  'Gem Necklace': 'สร้อยคออัญมณี',
+  'Gold Ring': 'แหวนทอง',
+  'Gold Earring': 'ต่างหูทอง',
+  'Pure Silver Earring': 'ต่างหูเงินบริสุทธิ์',
+  'Pure Silver Ring': 'แหวนเงินบริสุทธิ์',
+  'Copper Ore': 'แร่ทองแดง', 'Iron Ore': 'แร่เหล็ก', 'Silver Ore': 'แร่เงิน', 'Gold Ore': 'แร่ทอง', 'Tin Ore': 'แร่ดีบุก',
+  'Lead Ore': 'แร่ตะกั่ว', 'Pure Iron Ore': 'แร่เหล็กแดง', 'Lead Ore Sand': 'ทรายแร่ตะกั่ว', 'Gold Sand': 'ทรายทอง',
+  'Steel Material': 'วัสดุเหล็กกล้า', 'Bronze Material': 'วัสดุสำริด', 'Wrought Iron Material': 'วัสดุเหล็กเหนียว',
+  'Refined Pure Iron Material': 'วัสดุเหล็กแดงบริสุทธิ์', 'Refined Tin Material': 'วัสดุดีบุกบริสุทธิ์',
+  'Titanium Metal': 'โลหะไทเทเนียม', 'Refined Active Titanium': 'ไทเทเนียมกัมมันต์บริสุทธิ์', 'Refined Gold Block': 'ก้อนทองบริสุทธิ์',
+  'Refined Pure Silver': 'เงินบริสุทธิ์กลั่น', 'Refined White Silver': 'เงินขาวบริสุทธิ์', 'Processed Zinc Bar': 'แท่งสังกะสีแปรรูป',
+  'Gold Block': 'ก้อนทอง', 'Gold Bar': 'แท่งทอง', 'Lead Block': 'ก้อนตะกั่ว', 'Lead Plate': 'แผ่นตะกั่ว', 'Zinc Block': 'ก้อนสังกะสี',
+  'Magic Wand': 'คทาเวท', 'Long Pike': 'ทวนยาว', 'War Pike': 'ทวนรบ', 'Advanced Long Pike': 'ทวนยาวขั้นสูง',
+  'Mage\'s Wand': 'คทาเมจ', 'Wizard\'s Wand': 'คทาพ่อมด', 'Glory Mage Staff': 'ไม้เท้าเมจเกียรติยศ',
+  'Thin Wood Club': 'กระบองไม้บาง', 'Oak Club': 'กระบองโอ๊ก', 'Lauan Wood Club': 'กระบองไม้ลัวน', 'Cypress Club': 'กระบองไซเปรส',
+  'Great Oak Club': 'กระบองโอ๊กใหญ่', 'Great Lauan Club': 'กระบองลัวนใหญ่', 'Great Cypress Club': 'กระบองไซเปรสใหญ่',
+  'Sky Bow': 'ธนูนภา', 'Sun Shooter Bow': 'ธนูยิงตะวัน',
+  'Stardust Blade': 'มีดฝุ่นดาว', 'Stardust Sword': 'ดาบฝุ่นดาว', 'Stardust Hat': 'หมวกฝุ่นดาว', 'Stardust Bracers': 'ปลอกแขนฝุ่นดาว',
+  'Stardust Tunic': 'เสื้อฝุ่นดาว', 'Stardust Shoes': 'รองเท้าฝุ่นดาว',
+  '★ Star Essence': 'แก่นดาว ★', '★ Star Goldwood': 'ไม้ทองดาว ★',
+  'Star Glass': 'แก้วดาว', 'Star Mithril': 'มิธริลดาว', 'Star Feather': 'ขนดาว', 'Star Ice Crystal': 'ผลึกน้ำแข็งดาว', 'Star Divine Rune': 'อักขระเทพดาว',
+  'Flawless Star Crystalwood': 'ไม้ผลึกดาวไร้ตำหนิ', 'Flawless Star Feather': 'ขนดาวไร้ตำหนิ', 'Flawless Star Glass': 'แก้วดาวไร้ตำหนิ', 'Flawless Star Mithril': 'มิธริลดาวไร้ตำหนิ',
+  'Firmament Magic Ring': 'แหวนเวทนภาดาว', 'Firmament War Ring': 'แหวนรบนภาดาว', 'Firmament Dragon Fan': 'พัดมังกรนภาดาว',
+  'Starshadow Scythe': 'เคียวเงาดาว', 'Starmark Magic Sword': 'ดาบเวทรอยดาว', 'Starshadow Magic Sword': 'ดาบเวทเงาดาว',
+  'Yaksha Demon Blade': 'มีดยักษ์', 'Nightshade Heavy Hammer': 'ค้อนหนักเงาราตรี', 'Evil Dragon Venom Blade': 'มีดพิษมังกรชั่ว',
+  'Demonslayer Fang': 'มีดเขี้ยวสังหารปีศาจ', 'Fishfang Steel Sword': 'ดาบเหล็กกล้าเขี้ยวปลา', 'Fish Blade': 'มีดเขี้ยวปลา',
+  'Grapple Fist Claw': 'กรงเล็บหมัดจับ', 'Frenzy Claw': 'กรงเล็บคลั่ง', 'Ferocious Claw': 'กรงเล็บดุร้าย', 'Bloody Claw': 'กรงเล็บโชกเลือด',
+  'Golden Claw': 'กรงเล็บทอง', 'Lion King Claw': 'กรงเล็บราชสีห์', 'Wild Wind Curved Claw': 'กรงเล็บโค้งลมป่า', 'Blazing Sun Red Claw': 'กรงเล็บแดงตะวันเผาผลาญ',
+  'Star Burst Blade Claw': 'กรงเล็บใบมีดดาวระเบิด', 'Sinking Fang Blade Claw': 'กรงเล็บใบมีดเขี้ยวจม', 'Firmament Claw': 'กรงเล็บนภาดาว',
+  'Full-Moon Twin Claws': 'กรงเล็บคู่จันทร์เต็มดวง', 'Copper Claw': 'กรงเล็บทองแดง', 'Bronze Hand Claw': 'กรงเล็บมือสำริด', 'Iron Claw': 'กรงเล็บเหล็ก',
+  'Pure Iron Claw': 'กรงเล็บเหล็กแดง', 'Steel Claw': 'กรงเล็บเหล็กกล้า',
+  'Blade Pike': 'ทวนใบมีด', 'Crown of Glory': 'มงกุฎเกียรติยศ', 'Gold Axe Head': 'หัวขวานทอง', 'Silver Axe Head': 'หัวขวานเงิน',
+  'Vertical Wing': 'ปีกตั้ง', 'Level Wing': 'ปีกราบ', 'Gold Silk Qipao (lesser)': 'กี่เพ้าไหมทอง (รอง)', 'Ring of Light': 'แหวนแห่งแสง',
+  'Wolf Fang / Twin Snake Fang': 'เขี้ยวหมาป่า / เขี้ยวงูคู่', 'Mask Face Armor': 'เกราะหน้ากาก', 'Staff of Tears': 'ไม้เท้าแห่งน้ำตา',
+  'Cut Speech Masked Suit': 'ชุดสวมหน้ากากตัดวาจา', 'Slime / Clear Gel': 'สไลม์ / เจลใส', 'Black Witch Hat (leather)': 'หมวกแม่มดดำ (หนัง)',
+  'Beast Guards': 'การ์ดมือสัตว์ร้าย', 'Pure Diamond': 'เพชรบริสุทธิ์', 'Evening Gown': 'ชุดราตรี', 'Handmade Dress': 'ชุดกระโปรงทำมือ',
+  'Wooden Mallet': 'ค้อนไม้', 'Water Set Staff': 'ไม้เท้าเซ็ตธาตุน้ำ', 'Crimson Red Martial Suit': 'ชุดยุทธแดงเข้ม',
+  'Iron Helmet Armor': 'เกราะหมวกเหล็ก', 'Fine Jade Green': 'หยกเขียวชั้นดี', 'Protective Charm': 'เครื่องรางป้องกัน',
+  'Green Charm Ring': 'แหวนเครื่องรางเขียว', 'Fox Immortal Feather': 'ขนจิ้งจอกอมตะ', 'Laurel': 'มงกุฎใบไม้',
+  'Power of Peace': 'พลังแห่งสันติ', 'Anti-Rot Wood Resin': 'ยางไม้กันเน่า', 'Refined Short Bow': 'ธนูสั้นประณีต',
+  'Refined Long Bow': 'ธนูยาวประณีต', 'Bamboo Hat': 'งอบไม้ไผ่', 'Bamboo Hat (green)': 'งอบไม้ไผ่ (เขียว)',
+  'Vine Bamboo Hat': 'งอบไม้ไผ่เถา', 'Steel Iron Guards': 'การ์ดมือเหล็กกล้า', 'White Silver Silver Boots': 'รองเท้าบู๊ตเงินขาว',
+  'Muddy Boots': 'รองเท้าบู๊ตโคลน', 'Feather Dark Boots': 'รองเท้าบู๊ตขนนกมืด', 'Refined Steel Shoes': 'รองเท้าเหล็กกล้าประณีต',
+  'Refined Leather': 'หนังฟอกประณีต', 'Wolf Hide': 'หนังหมาป่า', 'Wool': 'ขนแกะ', 'Propeller': 'ใบพัด',
+  'Hand Axe / Adze': 'ขวานมือ / ผึ่ง', 'Capacitance / Resistance': 'ตัวเก็บประจุ / ตัวต้านทาน', 'Iron Fillet': 'แผ่นเหล็ก',
+  'Silvery Ore': 'แร่เงิน', 'Silvery Block': 'ก้อนเงิน', 'Turquoise Staff': 'ไม้เท้าเทอร์ควอยซ์', 'Aluminium Ore': 'แร่อะลูมิเนียม',
+  'Aluminium Block': 'ก้อนอะลูมิเนียม', 'Aluminium Plate': 'แผ่นอะลูมิเนียม', 'Hard Aluminium Plate': 'แผ่นอะลูมิเนียมแข็ง',
+  'Wood / Charcoal / Firewood': 'ไม้ / ถ่าน / ฟืน', 'Ordinary Wood': 'ไม้ธรรมดา', 'Great Cypress Club / Main Mast': 'กระบองไซเปรสใหญ่ / เสากระโดงหลัก',
+  'Harl Grass / Linen Thread': 'หญ้าฮาร์ล / ด้ายลินิน', 'Common / Paper / Vine Grass': 'หญ้าธรรมดา / หญ้ากระดาษ / หญ้าเถา',
+  'Grain Grass Laurel / Big Fruit Leaf': 'มงกุฎหญ้าธัญพืช / ใบผลไม้ใหญ่', 'Charcoal Powder': 'ผงถ่าน', 'Chameleon Skin': 'หนังกิ้งก่า',
+  'Snake Skin / Dinosaur Hide': 'หนังงู / หนังไดโนเสาร์', 'Sheepskin': 'หนังแกะ', 'Dinosaur Fang': 'เขี้ยวไดโนเสาร์', 'Funny Feather': 'ขนนกตลก',
+  'Swallow Feather': 'ขนนกนางแอ่น', 'Granite': 'หินแกรนิต', 'Coal Ore': 'แร่ถ่านหิน', 'Coal Block': 'ก้อนถ่านหิน', 'Sulfur': 'กำมะถัน',
+  'Delicate White Jade': 'หยกขาวประณีต', 'Delicate Red Jade': 'หยกแดงประณีต', 'Delicate Diamond': 'เพชรประณีต',
+  'Star Dust (elemental) 星耀之塵': 'ผงดาราแห่งธาตุ (空/水/火/地/風)', 'Copper Sand / Copper': 'ทรายทองแดง / ทองแดง',
+  'Iron Sand': 'ทรายเหล็ก', 'Iron Material': 'วัสดุเหล็ก', 'Copper Material': 'วัสดุทองแดง',
+};
+
+const CONFIRMED = new Set(['Star Dust · Sky', 'Steel Blade', 'White Feather Earrings']);
+
+const unitKeys = Object.keys(UNITS).sort((a, b) => b.length - a.length);
+
+function translate(en) {
+  if (OVERRIDES[en]) return OVERRIDES[en];
+  let s = en.toLowerCase().replace(/[’]/g, "'").replace(/\s*·\s*/g, ' ').replace(/[()]/g, '');
+  const tokens = s.split(/\s+/).filter(Boolean);
+  // head = last token
+  const headTok = tokens[tokens.length - 1];
+  const head = HEADS[headTok] || UNITS[headTok];
+  if (!head) return null;
+  let rest = tokens.slice(0, -1).join(' ');
+  // greedy unit matching over the modifier string, left to right
+  const mods = [];
+  while (rest.length) {
+    let matched = false;
+    for (const k of unitKeys) {
+      if (rest === k || rest.startsWith(k + ' ')) {
+        mods.push(UNITS[k]);
+        rest = rest.slice(k.length).trim();
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) return null; // unknown word — leave for review
+  }
+  // Thai: head + modifiers nearest-first (reverse English order)
+  return head + mods.filter(Boolean).reverse().join('');
+}
+
+const p = 'content/data/compounds.json';
+const rows = JSON.parse(fs.readFileSync(p, 'utf8'));
+let done = 0, skipped = [];
+for (const r of rows) {
+  if (r.name.th && r.thConfirmed) continue;
+  const th = translate(r.name.en);
+  if (th) {
+    r.name.th = th;
+    if (CONFIRMED.has(r.name.en)) r.thConfirmed = true;
+    done++;
+  } else skipped.push(r.name.en);
+}
+fs.writeFileSync(p, JSON.stringify(rows, null, 1));
+console.log('translated:', done, '| untranslated:', skipped.length);
+if (skipped.length) console.log(skipped.join('\n'));
+
+// ---- materials.json: same translator, parts split on " / " ----
+{
+  const mp = 'content/data/materials.json';
+  const mats = JSON.parse(fs.readFileSync(mp, 'utf8'));
+  let ok = 0; const miss = [];
+  for (const m of mats) {
+    if (m.name.th && m.thConfirmed) continue;
+    const parts = OVERRIDES[m.name.en] ? [OVERRIDES[m.name.en]] : m.name.en.split(/\s*\/\s*/).map((x) => translate(x.trim()));
+    if (parts.every(Boolean)) { m.name.th = parts.join(' / '); if (CONFIRMED.has(m.name.en)) m.thConfirmed = true; ok++; }
+    else miss.push(m.name.en);
+  }
+  fs.writeFileSync(mp, JSON.stringify(mats, null, 1));
+  console.log('materials translated:', ok, '| missing:', miss.length);
+  if (miss.length) console.log(miss.join('\n'));
+}

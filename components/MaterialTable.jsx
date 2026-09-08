@@ -1,5 +1,6 @@
 'use client';
 import { useMemo, useState } from 'react';
+import Combobox from './Combobox';
 
 const fmt = (tpl, n, total) => String(tpl).replace('{n}', n).replace('{total}', total);
 
@@ -11,6 +12,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
   const [lo, setLo] = useState('');
   const [hi, setHi] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
+  const [town, setTown] = useState('');
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
@@ -20,6 +22,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       if (fam && r.family !== fam) return false;
       if (r.rank < L || r.rank > H) return false;
       if (openOnly && !r.buyableNow) return false;
+      if (town && !r.sources.some((s) => s.type === 'shop' && s.town === town)) return false;
       if (term) {
         const towns = r.sources.map((s) => (s.town ? labels.town[s.town]?.label : '') + ' ' + (s.mob || '') + ' ' + (s.where || '') + ' ' + (s.station || '')).join(' ');
         const hay = `${r.name.en} ${r.name.cn} ${r.name.th || ''} ${labels.family[r.family]?.label} ${towns} ${r.note || ''}`.toLowerCase();
@@ -27,7 +30,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       }
       return true;
     });
-  }, [rows, q, fam, lo, hi, openOnly, labels]);
+  }, [rows, q, fam, lo, hi, openOnly, town, labels]);
 
   const grouped = useMemo(() => {
     const out = [];
@@ -99,12 +102,8 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
     <>
       <div className="controls">
         <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={strings.search} aria-label={strings.search} />
-        <select value={fam} onChange={(e) => setFam(e.target.value)} aria-label={strings.allFamilies}>
-          <option value="">{strings.allFamilies}</option>
-          {options.families.map((f) => (
-            <option key={f.key} value={f.key}>{f.label}</option>
-          ))}
-        </select>
+        <Combobox value={fam} onChange={setFam} options={options.families} allLabel={strings.allFamilies} width={200} />
+        <Combobox value={town} onChange={setTown} options={options.towns} allLabel={strings.allShops} width={190} />
         <span className="rng">
           {strings.rank}
           <input type="number" min="0" max="30" value={lo} onChange={(e) => setLo(e.target.value)} placeholder={strings.rankFrom} aria-label={strings.rankFrom} />
@@ -115,8 +114,8 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
           <input type="checkbox" checked={openOnly} onChange={(e) => setOpenOnly(e.target.checked)} />
           {strings.openOnly}
         </label>
-        {(q || fam || lo || hi || openOnly) && (
-          <button type="button" className="toggle" onClick={() => { setQ(''); setFam(''); setLo(''); setHi(''); setOpenOnly(false); }}>
+        {(q || fam || town || lo || hi || openOnly) && (
+          <button type="button" className="toggle" onClick={() => { setQ(''); setFam(''); setTown(''); setLo(''); setHi(''); setOpenOnly(false); }}>
             {strings.reset}
           </button>
         )}
@@ -144,7 +143,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                   <td>
                     <span className="nm">
                       {name(g.row)}
-                      <span className={`dot-th${g.row.name.th ? ' ok' : ''}`} title={g.row.name.th ? strings.confirmedTh : strings.untranslated} />
+                      <span className={`dot-th${g.row.thConfirmed ? ' ok' : ''}`} title={g.row.thConfirmed ? strings.confirmedTh : strings.untranslated} />
                     </span>
                     <span className="nm-alt">{alt(g.row)}</span>
                     {g.row.flags.cheapestOfFamily && <span className="badge b-kk">{strings.cheapest}</span>}

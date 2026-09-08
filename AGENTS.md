@@ -15,17 +15,22 @@ no auth. Deployed on Vercel from `main` — every push to `main` goes live in ab
 
 ```
 content/data/          ← the entire data layer. Edit these, not the components.
-  compounds.json         853 rows: 761 compendium + 92 Star family
+  compounds.json         853 rows: 761 compendium + 92 Star family, one table
   materials.json         178 rows: family × rank → where to get it
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
-  glossary.json          71 terms
+  glossary.json          71 terms (no page any more; kept as reference data)
 lib/ui.js              ← every interface string, in both languages
 lib/data.js            ← loads the JSON, projects compact rows for the client
-app/[lang]/            ← /th and /en routes; both are generated from the same data
-components/            ← the three tables plus nav and legend
+lib/recipe.js          ← recipe-string parser + resolver used by the simulator
+app/[lang]/compounds   ← the front page (/, /th, /en all redirect here)
+app/[lang]/materials   ← material index with shop filter
+app/[lang]/simulator   ← pick a target, unfold its recipe, get the climb as steps
+app/[lang]/about       ← the old home page: rules, trust tags, sources
+components/            ← CompoundTable, MaterialTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.
-scripts/extraction/    ← the one-time scripts that built the JSON. History, not a build step.
+scripts/extraction/    ← one-time builders. th_names.mjs is the Thai name translator —
+                         re-run it after adding rows without a Thai name (it skips confirmed rows).
 ```
 
 ## The correction protocol
@@ -58,7 +63,11 @@ KK tested it on the Thai server. confidence RE-reported → KK-tested.
 ## Rules that matter
 
 **Never invent a Thai name and mark it confirmed.** `thConfirmed: true` means a human read it
-off the running game. Everything else is a translation and the site says so. Getting this wrong
+off the running game. Every item now HAS a Thai name — 851 of them are compositional translations
+from `scripts/extraction/th_names.mjs` (head noun first, modifiers after, nearest-first:
+"White Feather Earrings" → ต่างหูขนนกขาว, which is what the client prints). Only 2 compounds and
+1 material are confirmed. The grey dot means translation; green means confirmed. When KK confirms
+a name in-client, set `name.th` to the exact client string and `thConfirmed: true`. Getting this wrong
 is worse than leaving a row in English — a player who cannot find your Thai name in their client
 loses trust in every other row.
 
@@ -81,9 +90,12 @@ at build time, which fails in a sandbox without network. Do not "fix" this back.
 
 ## Things known to be incomplete
 
-- **852 of 853 item names have no Thai.** The UI falls back to English + 中文 with a grey dot.
-  This is the rolling job: translate in batches, and never mark a batch confirmed.
-- **Glossary `note` fields are English only**, on both language versions.
+- **Thai item names are translations**, consistent but unverified. Confirming them in-client is
+  the rolling job. Bad ones: fix in `OVERRIDES` inside `th_names.mjs`, or edit the JSON directly.
+- **Recipe strings are free text.** `lib/recipe.js` parses them (alternatives on `; · ,`,
+  ingredients on `+`, options on `/`, `rNN Family` placeholders, `Vol.N`/`book`, `Buy — Town`).
+  ~230 ingredient tokens resolve to plain text (sources like "Stone monster drop"); that's expected.
+  Unknown short forms go in `ALIASES` there.
 - **476 compound rows belong to families the source only covers to rank 30** — marked `≤ 30`
   on the family heading. Do not imply completeness.
 - No guides section yet (build, leveling, economy, life skills, combo). Planned; the source
