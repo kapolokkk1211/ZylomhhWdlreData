@@ -15,7 +15,8 @@ no auth. Deployed on Vercel from `main` — every push to `main` goes live in ab
 
 ```
 content/data/          ← the entire data layer. Edit these, not the components.
-  compounds.json         853 rows: 761 compendium + 92 Star family, one table
+  compounds.json         853 rows: 761 compendium + 92 Star family. The compound TABLE also
+                         folds in materials.json rows (ids mat:*) that aren't already in it — 939 rows on screen
   materials.json         178 rows: family × rank → where to get it
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
@@ -25,7 +26,9 @@ lib/data.js            ← loads the JSON, projects compact rows for the client
 lib/recipe.js          ← recipe-string parser + resolver used by the simulator
 app/[lang]/compounds   ← the front page (/, /th, /en all redirect here)
 app/[lang]/materials   ← material index with shop filter
-app/[lang]/simulator   ← pick a target, unfold its recipe, get the climb as steps
+app/[lang]/simulator   ← the planner: a free-form tree (target on top, ≤20 deep) the player
+                         builds by hand; ⇣ loads a recipe as a starting point; PNG export via canvas;
+                         autosaved to localStorage
 app/[lang]/about       ← the old home page: rules, trust tags, sources
 components/            ← CompoundTable, MaterialTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.

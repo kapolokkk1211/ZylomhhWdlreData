@@ -216,7 +216,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                         className={`dot-th${g.row[18] === 1 ? ' ok' : ''}`}
                         title={g.row[18] === 1 ? strings.confirmedTh : strings.untranslated}
                       />
-                      {g.row[14] && g.row[14] !== 'mat' && (
+                      {g.row[14] && g.row[14] !== 'mat' && strings.lines[g.row[14]] && (
                         <span className={`line-pill line-${g.row[14]}`}>{strings.lines[g.row[14]]}</span>
                       )}
                     </span>

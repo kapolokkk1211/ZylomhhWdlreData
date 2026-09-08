@@ -1,213 +1,249 @@
 'use client';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import Combobox from './Combobox';
-import { buildIndex, expandOne } from '@/lib/recipe';
+import { buildIndex, parseRecipe, resolve } from '@/lib/recipe';
 
-/* row indices: 0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw 10 recipeEn 11 recipeTh 12 conf */
+/* compact row indices: 0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw */
+
+const MAX_DEPTH = 20;
+const NODE_W = 200, NODE_H = 124, GAP_X = 18, GAP_Y = 40; // on-screen slot
+const BOX_H = 84; // drawn box height in the PNG
+const STORE = 'stardrift.plan.v1';
+
+let seq = 1;
+const nid = () => `n${Date.now().toString(36)}${(seq++).toString(36)}`;
 
 export default function Simulator({ rows, mats, labels, strings, lang }) {
   const idx = useMemo(() => buildIndex(rows, mats), [rows, mats]);
-  const [targetId, setTargetId] = useState('');
-  // choices: path -> { alt: n, opt: { [ingredientIndex]: n } } ; open: path -> bool
-  const [choice, setChoice] = useState({});
-  const [open, setOpen] = useState({});
+  const byId = useMemo(() => new Map(rows.map((r) => [r[0], r])), [rows]);
+  const [tree, setTree] = useState(null); // { id, itemId?, text?, note, children[] }
+  const [adding, setAdding] = useState(null); // node id currently getting a child
+  const [addText, setAddText] = useState('');
+  const [hydrated, setHydrated] = useState(false);
+  const canvasRef = useRef(null);
 
+  // restore
   useEffect(() => {
     try {
       const p = new URLSearchParams(window.location.search);
-      if (p.get('item')) setTargetId(p.get('item'));
+      if (p.get('item') && byId.has(p.get('item'))) { setTree(mkItem(p.get('item'))); setHydrated(true); return; }
+      const raw = localStorage.getItem(STORE);
+      if (raw) setTree(JSON.parse(raw));
     } catch {}
-  }, []);
+    setHydrated(true);
+  }, [byId]);
+  useEffect(() => {
+    if (!hydrated) return;
+    try { tree ? localStorage.setItem(STORE, JSON.stringify(tree)) : localStorage.removeItem(STORE); } catch {}
+  }, [tree, hydrated]);
 
   const options = useMemo(
     () =>
-      rows
-        .filter((r) => r[5] !== 'material' || r[1] === 'Star')
-        .map((r) => ({
-          key: r[0],
-          label: `${lang === 'th' ? r[8] || r[6] : r[6]}  ·  r${r[3]}`,
-          alt: `${r[7]} ${r[6]} ${r[8] || ''} ${labels.family[r[1]]?.label || ''} ${labels.slot[r[5]]?.label || ''}`,
-        })),
+      rows.map((r) => ({
+        key: r[0],
+        label: `${lang === 'th' ? r[8] || r[6] : r[6]}  ·  r${r[3]}`,
+        alt: `${r[7]} ${r[6]} ${r[8] || ''} ${labels.family[r[1]]?.label || ''} ${labels.slot[r[5]]?.label || ''}`,
+      })),
     [rows, lang, labels],
   );
+  const allOptions = options; // rows already include the material index
+  const matById = useMemo(() => new Map(mats.map((m) => [m.id, m])), [mats]);
 
-  const rootRow = rows.find((r) => r[0] === targetId);
-  const rootNode = rootRow ? { kind: 'item', row: rootRow, family: rootRow[1], rank: rootRow[3], en: rootRow[6], cn: rootRow[7], th: rootRow[8] } : null;
+  function mkItem(itemId) { return { id: nid(), itemId, note: '', children: [] }; }
+  function mkMat(matId) { return { id: nid(), matId, note: '', children: [] }; }
+  function mkText(text) { return { id: nid(), text, note: '', children: [] }; }
 
-  const name = (n) => (lang === 'th' ? n.th || n.en : n.en) || n.en;
-  const fam = (k) => labels.family[k]?.label || k;
-
-  const pickTarget = (id) => { setTargetId(id); setChoice({}); setOpen({ root: true }); };
-
-  /* ---------- tree rendering ---------- */
-  const renderNode = (node, path, depth) => {
-    if (!node) return null;
-    if (node.kind === 'item') return renderItem(node, path, depth);
-    if (node.kind === 'family') return renderFamily(node, path, depth);
-    if (node.kind === 'material') {
-      return (
-        <div className="sim-leaf">
-          <span className="sim-kind k-mat">{strings.material}</span>
-          <b>{name(node.mat.name)}</b> <span className="sim-dim">r{node.rank} · {fam(node.family)}</span>
-          {node.mat.src && <div className="sim-src">{node.mat.src}{node.mat.buyableNow ? ` — ${strings.buyableNow}` : ''}</div>}
-        </div>
-      );
+  const info = (n) => {
+    if (n.itemId) {
+      const r = byId.get(n.itemId);
+      if (r) return { name: lang === 'th' ? r[8] || r[6] : r[6], alt: r[7] + (lang === 'th' && r[8] ? ` · ${r[6]}` : ''), rank: r[3], stats: r[9] && r[9] !== '—' ? r[9] : (lang === 'th' ? r[11] : r[10]) || '', family: labels.family[r[1]]?.label, kind: r[0].startsWith('mat:') ? 'mat' : 'item' };
     }
-    if (node.kind === 'book') return <div className="sim-leaf"><span className="sim-kind k-book">{strings.book}</span><b>{node.vol ? `Vol.${node.vol}` : strings.anyBook}</b> <span className="sim-dim">{strings.bookNote}</span></div>;
-    if (node.kind === 'shop') {
-      const nt = node.town.toLowerCase();
-      const t = Object.values(labels.town).find((x) => x.label.toLowerCase() === nt || (x.en || '').toLowerCase().startsWith(nt) || x.cn === node.town || nt.startsWith((x.en || '').toLowerCase().split(' ')[0]));
-      return <div className="sim-leaf"><span className="sim-kind k-shop">{strings.shop}</span><b>{t ? t.label : node.town}</b>{t && <span className={`badge ${t.status === 'open' ? 'b-open' : 'b-closed'}`} style={{ marginLeft: 6 }}>{t.status === 'open' ? strings.open : strings.closed}</span>}</div>;
+    if (n.matId) {
+      const m = matById.get(n.matId);
+      if (m) return { name: lang === 'th' ? m.name.th || m.name.en : m.name.en, alt: m.name.cn, rank: m.rank, stats: m.src || '', family: labels.family[m.family]?.label, kind: 'mat', buyable: m.buyableNow };
     }
-    return <div className="sim-leaf"><span className="sim-kind k-text">·</span>{node.en}</div>;
+    return { name: n.text || '?', alt: '', rank: null, stats: '', family: '', kind: 'text' };
   };
 
-  const renderFamily = (node, path, depth) => {
-    const c = choice[path] || {};
-    const cands = node.candidates || [];
-    const sel = c.cand != null ? cands[c.cand] : null;
-    return (
-      <div className="sim-leaf">
-        <span className="sim-kind k-fam">{strings.anyOf}</span>
-        <b>{fam(node.family)} r{node.rank}</b>
-        <span className="sim-dim"> — {strings.familyHelp}</span>
-        {cands.length > 0 ? (
-          <div className="sim-cands">
-            {cands.slice(0, 12).map((cn, i) => (
-              <button
-                key={i}
-                type="button"
-                className={`chip${sel === cn ? ' on' : ''}`}
-                onClick={() => setChoice((s) => ({ ...s, [path]: { ...c, cand: sel === cn ? null : i } }))}
-              >
-                {cn.kind === 'item' ? name({ en: cn.en, th: cn.th }) : name(cn.mat.name)}
-                {cn.kind === 'material' && cn.mat.buyableNow ? ' ✓' : ''}
-              </button>
-            ))}
-            {cands.length > 12 && <span className="sim-dim">+{cands.length - 12}</span>}
-          </div>
-        ) : (
-          <div className="sim-src">{strings.noCandidates}</div>
-        )}
-        {sel && <div className="sim-sub">{renderNode(sel, `${path}/c`, depth + 1)}</div>}
-      </div>
-    );
+  /* ---- tree ops (immutable) ---- */
+  const update = (id, fn) => {
+    const walk = (n) => (n.id === id ? fn(n) : { ...n, children: n.children.map(walk) });
+    setTree((t) => (t ? walk(t) : t));
+  };
+  const remove = (id) => {
+    if (tree && tree.id === id) { setTree(null); return; }
+    const walk = (n) => ({ ...n, children: n.children.filter((c) => c.id !== id).map(walk) });
+    setTree((t) => (t ? walk(t) : t));
+  };
+  const depthOf = (id) => {
+    const find = (n, d) => (n.id === id ? d : n.children.map((c) => find(c, d + 1)).find((x) => x != null));
+    return tree ? find(tree, 0) : 0;
+  };
+  const addChild = (parentId, child) => {
+    if (depthOf(parentId) >= MAX_DEPTH - 1) return;
+    update(parentId, (n) => ({ ...n, children: [...n.children, child] }));
+    setAdding(null); setAddText('');
+  };
+  const loadRecipe = (n) => {
+    const r = byId.get(n.itemId); if (!r) return;
+    const alts = parseRecipe(r[10]); if (!alts.length) return;
+    const kids = alts[0].ingredients.map((ing) => {
+      const opt = ing.options[0]; const node = resolve(opt.text, idx);
+      if (node.kind === 'item') return mkItem(node.row[0]);
+      if (node.kind === 'material') return byId.has(`mat:${node.mat.id}`) ? mkItem(`mat:${node.mat.id}`) : mkMat(node.mat.id);
+      if (node.kind === 'book') return mkText(node.vol ? `${strings.book} Vol.${node.vol}` : strings.anyBook);
+      if (node.kind === 'shop') return mkText(`${strings.shop}: ${node.town}`);
+      return mkText(node.kind === 'family' ? `${labels.family[node.family]?.label || node.family} r${node.rank}` : node.en || opt.text);
+    });
+    if (depthOf(n.id) >= MAX_DEPTH - 1) return;
+    update(n.id, (x) => ({ ...x, children: [...x.children, ...kids] }));
   };
 
-  const renderItem = (node, path, depth) => {
-    const isOpen = !!open[path];
-    const ex = isOpen ? expandOne(node, idx) : node;
-    const c = choice[path] || {};
-    const altI = c.alt || 0;
-    const alts = ex.alts || [];
-    const alt = alts[altI];
-    const r = node.row;
-    return (
-      <div className={`sim-item${depth === 0 ? ' root' : ''}`}>
-        <div className="sim-head">
-          <button type="button" className="sim-toggle" aria-expanded={isOpen} onClick={() => setOpen((o) => ({ ...o, [path]: !isOpen }))} disabled={!r[10] || r[10] === '—'}>
-            {isOpen ? '▾' : '▸'}
-          </button>
-          <span className="rank">{r[3]}</span>
-          <span className="sim-name">
-            <b>{name({ en: r[6], th: r[8] })}</b>
-            <span className="nm-alt">{r[7]}{lang === 'th' && r[8] ? ` · ${r[6]}` : ''}</span>
-          </span>
-          <span className="slot-pill">{labels.slot[r[5]]?.label}</span>
-          <span className="fm"><b>{fam(r[1])}</b>{r[2].length ? ' · ' + r[2].map(fam).join(' · ') : ''}</span>
-          <span className="st">{r[9]}</span>
-          {node.fuzzy && <span className="badge b-legacy" title={node.matchedFrom}>≈</span>}
-        </div>
-        {isOpen && (
-          <div className="sim-body">
-            {alts.length === 0 && <div className="sim-src">{r[10] || strings.noRecipe}</div>}
-            {alts.length > 1 && (
-              <div className="seg sim-alts" role="group">
-                {alts.map((_, i) => (
-                  <button key={i} type="button" aria-pressed={i === altI} onClick={() => setChoice((s) => ({ ...s, [path]: { ...c, alt: i, opt: {} } }))}>
-                    {strings.route} {i + 1}
-                  </button>
-                ))}
-              </div>
-            )}
-            {alt && (
-              <ol className="sim-ings">
-                {alt.ingredients.map((ing, ii) => {
-                  const oi = (c.opt && c.opt[ii]) || 0;
-                  const opt = ing.options[oi] || ing.options[0];
-                  const childPath = `${path}/a${altI}/i${ii}/o${oi}`;
-                  return (
-                    <li key={ii} className="sim-ing">
-                      <span className="sim-slot">{ii === 0 ? strings.primarySlot : `${strings.slotN} ${ii + 1}`}</span>
-                      {ing.options.length > 1 && (
-                        <div className="sim-opts">
-                          {ing.options.map((o, k) => (
-                            <button key={k} type="button" className={`chip${k === oi ? ' on' : ''}`} onClick={() => setChoice((s) => ({ ...s, [path]: { ...c, opt: { ...(c.opt || {}), [ii]: k } } }))}>
-                              {o.text}
-                            </button>
-                          ))}
-                        </div>
-                      )}
-                      {opt.note && <span className="sim-note">({opt.note})</span>}
-                      {renderNode(opt.node, childPath, depth + 1)}
-                    </li>
-                  );
-                })}
-              </ol>
-            )}
-          </div>
-        )}
-      </div>
-    );
-  };
-
-  /* ---------- flattened steps (bottom-up) ---------- */
-  const steps = useMemo(() => {
-    if (!rootNode) return [];
-    const out = [];
-    const walk = (node, path) => {
-      if (!node) return null;
-      if (node.kind === 'family') {
-        const c = choice[path] || {};
-        const sel = c.cand != null ? (node.candidates || [])[c.cand] : null;
-        if (sel) return walk(sel, `${path}/c`);
-        return `${fam(node.family)} r${node.rank}`;
+  /* ---- layout: leaf-slot tidy tree, root on top ---- */
+  const layout = useMemo(() => {
+    if (!tree) return null;
+    const nodes = [];
+    let leafCursor = 0;
+    const place = (n, depth) => {
+      let x;
+      if (!n.children.length) { x = leafCursor * (NODE_W + GAP_X); leafCursor++; }
+      else {
+        const xs = n.children.map((c) => place(c, depth + 1));
+        x = (Math.min(...xs) + Math.max(...xs)) / 2;
       }
-      if (node.kind === 'material') return `${name(node.mat.name)} (r${node.rank})`;
-      if (node.kind === 'book') return node.vol ? `Vol.${node.vol}` : strings.anyBook;
-      if (node.kind === 'shop') return `${strings.shop}: ${node.town}`;
-      if (node.kind === 'text') return node.en;
-      // item
-      const label = `${name({ en: node.en, th: node.th })} (r${node.rank})`;
-      if (!open[path]) return label;
-      const ex = expandOne(node, idx);
-      const c = choice[path] || {};
-      const alt = (ex.alts || [])[c.alt || 0];
-      if (!alt) return label;
-      const parts = alt.ingredients.map((ing, ii) => {
-        const oi = (c.opt && c.opt[ii]) || 0;
-        const opt = ing.options[oi] || ing.options[0];
-        return walk(opt.node, `${path}/a${c.alt || 0}/i${ii}/o${oi}`);
-      });
-      out.push({ target: label, parts, rank: node.rank });
-      return label;
+      nodes.push({ n, x, y: depth * (NODE_H + GAP_Y), depth });
+      return x;
     };
-    walk(rootNode, 'root');
+    place(tree, 0);
+    const w = Math.max(...nodes.map((p) => p.x)) + NODE_W;
+    const h = Math.max(...nodes.map((p) => p.y)) + NODE_H;
+    const pos = new Map(nodes.map((p) => [p.n.id, p]));
+    const edges = [];
+    nodes.forEach((p) => p.n.children.forEach((c) => edges.push([p, pos.get(c.id)])));
+    return { nodes, edges, w, h, depth: Math.max(...nodes.map((p) => p.depth)) + 1 };
+  }, [tree]);
+
+  /* ---- steps, bottom-up ---- */
+  const steps = useMemo(() => {
+    if (!tree) return [];
+    const out = [];
+    const walk = (n) => {
+      n.children.forEach(walk);
+      if (n.children.length) {
+        const i = info(n);
+        out.push({ target: `${i.name}${i.rank != null ? ` (r${i.rank})` : ''}`, parts: n.children.map((c) => { const ci = info(c); return `${ci.name}${ci.rank != null ? ` (r${ci.rank})` : ''}${c.note ? ` [${c.note}]` : ''}`; }), note: n.note });
+      }
+    };
+    walk(tree);
     return out;
-  }, [rootNode, choice, open, idx, lang]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [tree, lang]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  /* ---- PNG export ---- */
+  const exportPng = async () => {
+    if (!layout) return;
+    try { await document.fonts.ready; } catch {}
+    const pad = 32, lineH = 22;
+    const stepsH = 40 + steps.length * lineH * 2 + 10;
+    const treeH = layout.h * 0.8; const W = layout.w + pad * 2, H = treeH + pad * 2 + stepsH + 30;
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    const cv = document.createElement('canvas');
+    cv.width = W * dpr; cv.height = H * dpr;
+    const c = cv.getContext('2d'); c.scale(dpr, dpr);
+    const F = "'IBM Plex Sans Thai', 'Public Sans', system-ui, sans-serif";
+    const M = "'IBM Plex Mono', ui-monospace, monospace";
+    c.fillStyle = '#f3f8f3'; c.fillRect(0, 0, W, H);
+    // title
+    c.fillStyle = '#12231a'; c.font = `700 18px ${F}`;
+    c.fillText(`${strings.title} — ${info(tree).name}`, pad, 22);
+    c.font = `12px ${M}`; c.fillStyle = '#64796b';
+    c.fillText(`zylomhh-wdlre-data.vercel.app · ${new Date().toISOString().slice(0, 10)}`, pad, 40);
+    const oy = 56;
+    // edges
+    c.strokeStyle = '#8fb59c'; c.lineWidth = 1.5;
+    layout.edges.forEach(([a, b]) => {
+      const x1 = pad + a.x + NODE_W / 2, y1 = oy + pad + a.y * 0.8 + BOX_H, x2 = pad + b.x + NODE_W / 2, y2 = oy + pad + b.y * 0.8;
+      c.beginPath(); c.moveTo(x1, y1); c.bezierCurveTo(x1, y1 + GAP_Y / 2, x2, y2 - GAP_Y / 2, x2, y2); c.stroke();
+    });
+    // nodes
+    layout.nodes.forEach((p) => {
+      const i = info(p.n); const x = pad + p.x, y = oy + pad + p.y * 0.8;
+      c.fillStyle = '#ffffff'; c.strokeStyle = p.depth === 0 ? '#1f7a43' : '#c9dfcf'; c.lineWidth = p.depth === 0 ? 2 : 1;
+      rr(c, x, y, NODE_W, BOX_H, 9); c.fill(); c.stroke();
+      c.fillStyle = '#12231a'; c.font = `600 13px ${F}`; ellipsis(c, i.name, x + 10, y + 20, NODE_W - 20);
+      c.fillStyle = '#3a5243'; c.font = `11px ${M}`; ellipsis(c, `${i.rank != null ? `r${i.rank} · ` : ''}${i.alt || i.family || ''}`, x + 10, y + 37, NODE_W - 20);
+      c.fillStyle = '#1f7a43'; c.font = `11px ${M}`; ellipsis(c, i.stats || '', x + 10, y + 53, NODE_W - 20);
+      if (p.n.note) { c.fillStyle = '#a8461f'; c.font = `italic 11px ${F}`; ellipsis(c, p.n.note, x + 10, y + 69, NODE_W - 20); }
+    });
+    // steps
+    let sy = oy + pad + treeH + 34;
+    c.fillStyle = '#12231a'; c.font = `700 14px ${F}`; c.fillText(strings.stepsTitle, pad, sy); sy += 8;
+    steps.forEach((s, k) => {
+      sy += lineH; c.fillStyle = '#3a5243'; c.font = `12px ${M}`; c.fillText(`${k + 1}.  ${s.parts.join('  +  ')}`, pad, sy);
+      sy += lineH - 4; c.fillStyle = '#12231a'; c.font = `600 13px ${F}`; c.fillText(`      → ${s.target}${s.note ? `   (${s.note})` : ''}`, pad, sy);
+    });
+    const a = document.createElement('a');
+    a.download = `stardrift-${(info(tree).name || 'plan').replace(/[^\p{L}\p{N}]+/gu, '-')}.png`;
+    a.href = cv.toDataURL('image/png');
+    a.click();
+  };
+
+  /* ---- render ---- */
+  const renderAdd = (n) => (
+    <div className="sim-add" onMouseDown={(e) => e.stopPropagation()}>
+      <Combobox value="" onChange={(k) => { if (!k) return; k.startsWith('m:') ? addChild(n.id, mkMat(k.slice(2))) : addChild(n.id, mkItem(k)); }} options={allOptions} allLabel={strings.pickAny} width={260} noAll limit={40} />
+      <span className="sim-dim">{strings.or}</span>
+      <input type="text" className="sim-free" value={addText} placeholder={strings.freeText} onChange={(e) => setAddText(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter' && addText.trim()) addChild(n.id, mkText(addText.trim())); if (e.key === 'Escape') setAdding(null); }} />
+      <button type="button" className="chip" onClick={() => addText.trim() && addChild(n.id, mkText(addText.trim()))}>＋</button>
+      <button type="button" className="chip" onClick={() => setAdding(null)}>✕</button>
+    </div>
+  );
 
   return (
     <>
       <div className="controls" style={{ position: 'static' }}>
-        <Combobox value={targetId} onChange={pickTarget} options={options} allLabel={strings.pickTarget} width={420} noAll limit={60} />
-        {rootNode && <span className="count">{strings.steps}: {steps.length}</span>}
+        {!tree ? (
+          <Combobox value="" onChange={(k) => k && setTree(mkItem(k))} options={options} allLabel={strings.pickTarget} width={420} noAll limit={60} />
+        ) : (
+          <>
+            <button type="button" className="toggle" data-on="1" onClick={exportPng}>⤓ {strings.savePng}</button>
+            <button type="button" className="toggle" onClick={() => { if (confirm(strings.confirmNew)) setTree(null); }}>{strings.newPlan}</button>
+            <span className="count">{strings.steps}: {steps.length} · {strings.depth}: {layout?.depth}/{MAX_DEPTH}</span>
+          </>
+        )}
       </div>
 
-      {!rootNode && <div className="empty">{strings.emptyHint}</div>}
+      {!tree && <div className="empty">{strings.emptyHint}</div>}
 
-      {rootNode && (
+      {tree && layout && (
         <div className="sim-grid">
-          <section className="sim-tree">{renderItem(rootNode, 'root', 0)}</section>
+          <section className="sim-canvas-wrap">
+            <div className="sim-canvas" style={{ width: layout.w, height: layout.h }}>
+              <svg className="sim-edges" width={layout.w} height={layout.h} aria-hidden>
+                {layout.edges.map(([a, b], i) => {
+                  const x1 = a.x + NODE_W / 2, y1 = a.y + NODE_H, x2 = b.x + NODE_W / 2, y2 = b.y;
+                  return <path key={i} d={`M${x1},${y1} C${x1},${y1 + GAP_Y / 2} ${x2},${y2 - GAP_Y / 2} ${x2},${y2}`} />;
+                })}
+              </svg>
+              {layout.nodes.map((p) => {
+                const i = info(p.n);
+                return (
+                  <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, minHeight: NODE_H }}>
+                    <div className="sim-node-name" title={i.alt}>{i.name}</div>
+                    <div className="sim-node-meta">{i.rank != null ? `r${i.rank} · ` : ''}{i.alt || i.family}</div>
+                    {i.stats && <div className="sim-node-stats">{i.stats}</div>}
+                    <input className="sim-node-note" value={p.n.note} placeholder={strings.notePh} onChange={(e) => update(p.n.id, (x) => ({ ...x, note: e.target.value }))} />
+                    <div className="sim-node-actions">
+                      <button type="button" title={strings.addChild} onClick={() => { setAdding(adding === p.n.id ? null : p.n.id); setAddText(''); }} disabled={p.depth >= MAX_DEPTH - 1}>＋</button>
+                      {i.kind === 'item' && <button type="button" title={strings.loadRecipe} onClick={() => loadRecipe(p.n)}>⇣</button>}
+                      <button type="button" title={strings.remove} onClick={() => remove(p.n.id)}>✕</button>
+                    </div>
+                    {adding === p.n.id && renderAdd(p.n)}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
           <aside className="sim-steps">
             <h3>{strings.stepsTitle}</h3>
             <p className="sim-dim" style={{ marginTop: 0 }}>{strings.stepsHelp}</p>
@@ -215,7 +251,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
               {steps.map((s, i) => (
                 <li key={i}>
                   <div className="sim-step-parts">{s.parts.join(' + ')}</div>
-                  <div className="sim-step-arrow">→ <b>{s.target}</b></div>
+                  <div className="sim-step-arrow">→ <b>{s.target}</b>{s.note ? <span className="sim-dim"> ({s.note})</span> : null}</div>
                 </li>
               ))}
             </ol>
@@ -223,6 +259,17 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
           </aside>
         </div>
       )}
+      <canvas ref={canvasRef} hidden />
     </>
   );
+}
+
+function rr(c, x, y, w, h, r) {
+  c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r); c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath();
+}
+function ellipsis(c, text, x, y, maxW) {
+  let t = String(text || '');
+  if (c.measureText(t).width <= maxW) { c.fillText(t, x, y); return; }
+  while (t.length > 1 && c.measureText(t + '…').width > maxW) t = t.slice(0, -1);
+  c.fillText(t + '…', x, y);
 }

@@ -19,7 +19,7 @@ export default async function SimulatorPage({ params }) {
         <div className="note"><b>!</b> {s.sim.caveat}</div>
       </div>
       <Simulator
-        rows={compoundRows()}
+        rows={compoundRows(lang)}
         mats={materialsCompact(lang)}
         labels={labelBundle(lang)}
         lang={lang}

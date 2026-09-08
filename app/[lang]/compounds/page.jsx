@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
 export default async function Compounds({ params }) {
   const { lang } = await params;
   const s = t(lang);
-  const rows = compoundRows();
+  const rows = compoundRows(lang);
 
   return (
     <>
@@ -31,7 +31,11 @@ export default async function Compounds({ params }) {
           ...s.common,
           verifiedOnly: s.compounds.verifiedOnly,
           random: s.star.random,
-          lines: { all: s.star.all, magic: s.star.magic, phys: s.star.phys, mat: s.star.mat },
+          lines: {
+            all: s.star.all, magic: s.star.magic, phys: s.star.phys, mat: s.star.mat,
+            'mat-craft': s.materials.craft, 'mat-shop': s.materials.shop, 'mat-drop': s.materials.drop,
+            'mat-gather': s.materials.gather, 'mat-scroll': s.materials.scroll,
+          },
           bands: s.star.bands,
         }}
       />
