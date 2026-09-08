@@ -33,8 +33,9 @@ app/[lang]/simulator   ← the planner: a free-form tree (target on top, ≤20 d
 app/[lang]/about       ← the old home page: rules, trust tags, sources
 components/            ← CompoundTable, MaterialTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.
-scripts/extraction/    ← one-time builders. th_names.mjs is the Thai name translator —
-                         re-run it after adding rows without a Thai name (it skips confirmed rows).
+scripts/extraction/    ← one-time builders. th_names.mjs translates item names; th_recipes.mjs then
+                         rewrites every recipe.th from the parsed English recipe using those names.
+                         Re-run both (in that order) after adding rows or fixing a name.
 ```
 
 ## The correction protocol

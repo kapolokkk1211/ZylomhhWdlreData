@@ -46,7 +46,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
   }, [filtered, labels]);
 
   const name = (r) => (lang === 'th' ? r.name.th || r.name.en : r.name.en);
-  const alt = (r) => [r.name.cn, lang === 'th' && r.name.th ? r.name.en : null].filter(Boolean).join(' · ');
+  const alt = (r) => [r.name.cn, lang === 'th' ? r.name.en : r.name.th].filter(Boolean).join(' · ');
 
   const srcLine = (s, i) => {
     if (s.type === 'shop') {
@@ -141,11 +141,10 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                 <tr key={g.row.id}>
                   <td className="c-rank"><span className="rank">{g.row.rank}</span></td>
                   <td className="c-name">
-                    <span className="nm">
+                    <span className="nm" title={alt(g.row)}>
                       {name(g.row)}
                       <span className={`dot-th${g.row.thConfirmed ? ' ok' : ''}`} title={g.row.thConfirmed ? strings.confirmedTh : strings.untranslated} />
                     </span>
-                    <span className="nm-alt">{alt(g.row)}</span>
                     {g.row.flags.cheapestOfFamily && <span className="badge b-kk">{strings.cheapest}</span>}
                     {g.row.flags.highestBuyable && <span className="badge b-verified" style={{ marginLeft: 5 }}>{strings.highest}</span>}
                     {g.row.flags.keyMaterial && <span className="badge b-reported" style={{ marginLeft: 5 }}>{strings.key}</span>}

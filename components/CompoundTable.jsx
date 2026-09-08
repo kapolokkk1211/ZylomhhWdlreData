@@ -114,12 +114,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const arrow = (key) => (sort.key === key ? (sort.dir === 'desc' ? ' ▼' : ' ▲') : '');
 
   const name = (r) => (lang === 'th' ? r[8] || r[6] : r[6]);
-  const altName = (r) => {
-    const parts = [r[7]];
-    if (lang === 'th' && r[8]) parts.push(r[6]);
-    if (lang === 'en' && r[8]) parts.push(r[8]);
-    return parts.filter(Boolean).join(' · ');
-  };
+  const altName = (r) => [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · ');
   const recipe = (r) => (lang === 'th' ? r[11] || r[10] : r[10]);
 
 
@@ -189,18 +184,19 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
             <tr>
               <th style={{ width: 66, cursor: 'pointer' }} onClick={() => toggleSort('rank')} title={strings.sort}>{strings.rank}{arrow('rank')}</th>
               <th style={{ width: 48 }}>{strings.lv}</th>
-              <th>{strings.item}</th>
+              <th style={{ minWidth: 300 }}>{strings.item}</th>
               <th style={{ width: 92 }}>{strings.slot}</th>
               <th style={{ width: 150 }}>{strings.families}</th>
               <th style={{ width: 160, cursor: 'pointer' }} onClick={() => toggleSort('stat')} title={strings.sort}>{strings.stats}{sort.key === 'stat' ? ` · ${statf.stat}${arrow('stat')}` : ''}</th>
               <th>{strings.recipe}</th>
+              <th style={{ width: 120 }}>{strings.basket}</th>
             </tr>
           </thead>
           <tbody>
             {grouped.map((g, i) =>
               g.group ? (
                 <tr className="group" key={`g-${g.family}-${i}`}>
-                  <td colSpan={7}>
+                  <td colSpan={8}>
                     {g.group}
                     {g.coverage !== 'complete' && (
                       <span className="badge b-legacy" style={{ marginLeft: 9 }} title={strings.partialFamily}>
@@ -217,16 +213,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     {g.row[16] === 1 && <span className="warn-mark" title={strings.lvWarning}> !</span>}
                   </td>
                   <td className="c-name">
-                    <button
-                      type="button"
-                      className={`bk${inBasket.has(g.row[0]) ? ' on' : ''}`}
-                      title={inBasket.has(g.row[0]) ? strings.basketRemove : strings.basketAdd}
-                      aria-pressed={inBasket.has(g.row[0])}
-                      onClick={() => setBasket(toggleBasket(g.row[0]))}
-                    >
-                      {inBasket.has(g.row[0]) ? '★' : '☆'}
-                    </button>
-                    <span className="nm">
+                    <span className="nm" title={altName(g.row)}>
                       {name(g.row)}
                       <span
                         className={`dot-th${g.row[18] === 1 ? ' ok' : ''}`}
@@ -236,7 +223,6 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                         <span className={`line-pill line-${g.row[14]}`}>{strings.lines[g.row[14]]}</span>
                       )}
                     </span>
-                    <span className="nm-alt">{altName(g.row)}</span>
                     {g.row[12] !== 'RE-reported' && (
                       <span className={`badge ${CONF_CLASS[g.row[12]] || 'b-legacy'}`} title={labels.confidence[g.row[12]]?.desc}>
                         {labels.confidence[g.row[12]]?.label}
@@ -253,6 +239,17 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                   <td className="rc c-rc" data-l={strings.recipe}>
                     {recipe(g.row) || '—'}
                     {g.row[17] && <div style={{ marginTop: 4, opacity: 0.75 }}>{g.row[17]}</div>}
+                  </td>
+                  <td className="c-add">
+                    <button
+                      type="button"
+                      className={`addbtn${inBasket.has(g.row[0]) ? ' on' : ''}`}
+                      title={inBasket.has(g.row[0]) ? strings.basketRemove : strings.basketAdd}
+                      aria-pressed={inBasket.has(g.row[0])}
+                      onClick={() => setBasket(toggleBasket(g.row[0]))}
+                    >
+                      {inBasket.has(g.row[0]) ? `★ ${strings.inBasket}` : `＋ ${strings.addShort}`}
+                    </button>
                   </td>
                 </tr>
               ),

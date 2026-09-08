@@ -88,7 +88,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
   const info = (n) => {
     if (n.itemId) {
       const r = byId.get(n.itemId);
-      if (r) return { name: lang === 'th' ? r[8] || r[6] : r[6], alt: r[7] + (lang === 'th' && r[8] ? ` · ${r[6]}` : ''), rank: r[3], stats: r[9] && r[9] !== '—' ? r[9] : (lang === 'th' ? r[11] : r[10]) || '', family: labels.family[r[1]]?.label, kind: r[0].startsWith('mat:') ? 'mat' : 'item' };
+      if (r) return { name: lang === 'th' ? r[8] || r[6] : r[6], alt: [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · '), rank: r[3], stats: r[9] && r[9] !== '—' ? r[9] : (lang === 'th' ? r[11] : r[10]) || '', family: labels.family[r[1]]?.label, kind: r[0].startsWith('mat:') ? 'mat' : 'item' };
     }
     if (n.matId) {
       const m = matById.get(n.matId);

@@ -239,7 +239,7 @@ input:focus, select:focus, button:focus-visible {
   background: var(--surface);
   box-shadow: var(--shadow);
 }
-table { border-collapse: collapse; width: 100%; min-width: 960px; font-size: 14px; }
+table { border-collapse: collapse; width: 100%; min-width: 960px; font-size: 15.5px; }
 thead th {
   background: var(--surface-2);
   font-family: var(--font-mono);
@@ -268,22 +268,26 @@ tbody tr.group:hover td { background: var(--surface-3); }
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
   font-weight: 600;
-  font-size: 15.5px;
+  font-size: 18px;
   color: var(--star);
 }
-.lv { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--ink-faint); font-size: 12px; }
-.nm { font-weight: 600; display: block; }
+.lv { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--ink-faint); font-size: 13.5px; }
+.nm { font-weight: 600; font-size: 16.5px; line-height: 1.35; }
+.c-name { display: flex; align-items: flex-start; gap: 6px; flex-wrap: wrap; min-width: 300px; }
+.c-name .nm { flex: 1 1 200px; min-width: 0; }
+.c-name .bk { padding-top: 3px; }
+.c-name .badge { align-self: center; }
 .nm-alt { font-size: 12.5px; color: var(--ink-soft); font-family: var(--font-mono); display: block; }
-.fm { font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); }
+.fm { font-family: var(--font-thai), var(--font-body); font-size: 14px; color: var(--ink-soft); }
 .fm b { color: var(--star); }
-.st { font-family: var(--font-mono); font-size: 12.5px; white-space: nowrap; }
-.rc { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink); min-width: 220px; }
+.st { font-family: var(--font-mono); font-size: 14px; white-space: nowrap; }
+.rc { font-family: var(--font-mono); font-size: 14px; color: var(--ink); min-width: 220px; }
 .slot-pill {
   display: inline-block;
-  padding: 2px 7px;
+  padding: 3px 8px;
   border-radius: 5px;
   background: var(--surface-3);
-  font-size: 11px;
+  font-size: 13px;
   font-family: var(--font-mono);
   color: var(--ink-soft);
   white-space: nowrap;
@@ -312,7 +316,7 @@ tbody tr.group:hover td { background: var(--surface-3); }
 .badge {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   padding: 2px 7px;
   border-radius: 20px;
@@ -418,7 +422,7 @@ tbody tr.group:hover td { background: var(--surface-3); }
 
 /* ---------- source chips (materials) ---------- */
 .src { display: flex; flex-direction: column; gap: 5px; }
-.src-item { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; font-size: 12.5px; }
+.src-item { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; font-size: 14px; }
 .src-type {
   font-family: var(--font-mono);
   font-size: 10px;
@@ -687,3 +691,9 @@ html[data-view="mobile"] .page-head .note { display: none; }
 .sim-node { cursor: pointer; }
 .sim-node.sel { outline: 3px solid var(--star); outline-offset: 2px; }
 html[data-view="mobile"] .sim-side { position: static; }
+
+.addbtn { border: 1.5px solid var(--star); background: var(--surface); color: var(--star); border-radius: 9px; padding: 8px 12px; font-weight: 600; font-size: 14px; cursor: pointer; white-space: nowrap; font-family: inherit; }
+.addbtn:hover { background: var(--star-bg); }
+.addbtn.on { background: var(--star); color: #fff; }
+html[data-view="mobile"] td.c-add { grid-column: 1 / -1; margin-top: 8px; }
+html[data-view="mobile"] td.c-add .addbtn { width: 100%; padding: 10px; }
