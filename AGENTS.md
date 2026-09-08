@@ -21,7 +21,8 @@ content/data/          ← the entire data layer. Edit these, not the components
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
   glossary.json          71 terms (no page any more; kept as reference data)
-  quests.json            132 quests in 5 categories keyed to the Thai client's tabs:
+  quests.json            132 quests in 5 categories keyed to the Thai client's tabs, each row
+                         carrying 3–6 outbound `sources` links (see the rule below):
                          main เควสหลัก · side เควสรอง · companion เควสขุนพล · star เควสดวงดาว · skill เควสสกิล.
                          Only 11 rows are Re-era; the rest are legacy WLO, tagged LEGACY on purpose
 lib/ui.js              ← every interface string, in both languages
@@ -104,6 +105,12 @@ layout — add `html[data-view="mobile"]` rules, so the forced toggle keeps work
 cell on the quest page share `.rc` / `.rc-in`: two lines, fixed height, the rest in a floating panel
 on hover (tap on mobile, which sets `.open`). This is deliberate — letting one long row stretch made
 every row a different height and the table unreadable. Keep new long-text columns on the same pattern.
+
+**Every quest row links out, and every link resolves.** `sources` is `[{kind, url}]`; the chip
+label for each `kind` lives in `lib/ui.js` under `quests.sourceKinds`, in both languages. The 104
+`wiki` URLs were checked against the Fandom MediaWiki API — all 93 distinct titles exist. Never add
+a link you have not confirmed; a 404 on a quest row costs more trust than a missing link. When there
+is no specific page, the row still ends with a `search` chip, so no row is a dead end.
 
 **Quest rows say where they come from.** `quests.json` is mostly LEGACY. That is honest, not a bug:
 the Taiwan board that holds Re's current quest lists blocks automated reading. Never promote a row to

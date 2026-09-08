@@ -13,6 +13,17 @@ const CONF_CLASS = {
 };
 const RE_CONFIRMED = new Set(['KK-tested', 'RE-verified', 'RE-reported']);
 
+// Three threads on one row would otherwise render as three identical chips.
+const numberKinds = (sources) => {
+  const total = {};
+  sources.forEach((s) => { total[s.kind] = (total[s.kind] || 0) + 1; });
+  const seen = {};
+  return sources.map((s) => {
+    seen[s.kind] = (seen[s.kind] || 0) + 1;
+    return total[s.kind] > 1 ? { ...s, n: seen[s.kind] } : s;
+  });
+};
+
 export default function QuestTable({ rows, labels, strings, options, lang }) {
   const [q, setQ] = useState('');
   const [type, setType] = useState('');
@@ -111,6 +122,23 @@ export default function QuestTable({ rows, labels, strings, options, lang }) {
                     <span className={`badge ${CONF_CLASS[g.row.confidence] || 'b-legacy'}`} title={labels.confidence[g.row.confidence]?.desc}>
                       {labels.confidence[g.row.confidence]?.label}
                     </span>
+                    {g.row.sources.length > 0 && (
+                      <span className="srcs" aria-label={strings.source}>
+                        {numberKinds(g.row.sources).map((s, k) => (
+                          <a
+                            key={k}
+                            className={`src src-${s.kind}`}
+                            href={s.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={strings.sourceHelp[s.kind]}
+                          >
+                            {strings.sourceKinds[s.kind] || s.kind}
+                            {s.n ? ` ${s.n}` : ''}
+                          </a>
+                        ))}
+                      </span>
+                    )}
                   </td>
                   <td className="c-lv" data-l={strings.lv}>
                     <span className="lv">{g.row.lv || '—'}</span>

@@ -5,7 +5,8 @@ const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
 const fams=new Set(codes.families.map(f=>f.key)), slots=new Set(codes.slots.map(s=>s.key)),
       stats=new Set(codes.stats.map(s=>s.key)), confs=new Set(codes.confidence.map(c=>c.key)),
       townKeys=new Set(towns.map(t=>t.key)),
-      qtypes=new Set((codes.questTypes||[]).map(t=>t.key));
+      qtypes=new Set((codes.questTypes||[]).map(t=>t.key)),
+      qkinds=new Set(['wiki','cnwiki','guide','reguide','index','baha','board','search']);
 const err=[],warn=[];
 const ids=new Set();
 for(const r of comp){
@@ -39,6 +40,11 @@ for(const r of quests){
   for(const k of ['req','reward','detail','note']){
     const v=r[k]; if(v&&(!v.en||!v.th))warn.push(`quest ${k} missing a language: ${r.id}`);
   }
+  if(!Array.isArray(r.sources)||r.sources.length===0)err.push('quest with no source link @'+r.id);
+  else for(const s of r.sources){
+    if(!qkinds.has(s.kind))err.push('bad source kind '+s.kind+' @'+r.id);
+    if(!/^https:\/\//.test(s.url||''))err.push('source url is not https @'+r.id);
+  }
 }
 
 // spot checks against the knowledge base
@@ -50,6 +56,7 @@ const spot=[
  ['Star Essence r22 exists in the Star family',()=>!!comp.find(r=>r.family==='Star'&&r.rank===22)],
  ['Wolf Fang is a rank-20 Bone drop from Snow Wolf lv60',()=>{const m=mats.find(x=>x.name.en==='Wolf Fang');return m&&m.rank===20&&m.family==='Bone'&&m.sources[0].mob.includes('Snow Wolf')}],
  ['Ancestor skill quest is RE-verified and needs 前往南極',()=>{const q=quests.find(x=>x.id==='skill-ancestor');return q&&q.type==='skill'&&q.confidence==='RE-verified'&&q.req.en.includes('Antarctica')}],
+ ['Every quest links out; 100+ link to a wiki page',()=>quests.every(q=>q.sources.length)&&quests.filter(q=>q.sources.some(s=>s.kind==='wiki')).length>=100],
  ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
  ['Hawaii is flagged not-in-re',()=>towns.find(t=>t.key==='hawaii').thStatus==='not-in-re'],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],

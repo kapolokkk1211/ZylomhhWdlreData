@@ -779,3 +779,24 @@ html[data-view="mobile"] table.qtable td.c-rc::before {
   letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-top: 6px;
 }
 html[data-view="mobile"] table.qtable td.c-qtype { margin-bottom: 4px; }
+
+/* quest source links */
+.srcs { display: flex; flex-wrap: wrap; gap: 5px; width: 100%; margin-top: 5px; }
+.src {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.src:hover { border-color: var(--star); background: #fff; color: var(--star); text-decoration: none; }
+.src-wiki, .src-cnwiki { border-color: #b9dfc6; color: var(--good); background: #eef8f0; }
+.src-baha { border-color: #f0c9c5; color: #8a2e26; background: #fdf1f0; }
+.src-search { opacity: .78; }
+html[data-view="mobile"] .srcs { margin-top: 7px; }

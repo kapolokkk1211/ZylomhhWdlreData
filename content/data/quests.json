@@ -32,7 +32,28 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://www.ldplayer.tw/blog/drift-fantasy-re-ark-of-the-stars-onpc-guide.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Robinson"
+   },
+   {
+    "kind": "reguide",
+    "url": "https://www.ldplayer.tw/blog/drift-fantasy-re-ark-of-the-stars-onpc-guide.html"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%96%B0%E6%89%8B%E6%B5%B7%E7%81%98%E6%95%99%E5%AD%B8%E4%BB%BB%E5%8B%99%20Newbie%20Beach%20tutorial%20chain"
+   }
+  ]
  },
  {
   "id": "main-chief",
@@ -67,7 +88,24 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://www.ldcloud.net/tw/blog/drifting-fantasy-re-star-ark-leveling-guide"
+  "sources": [
+   {
+    "kind": "reguide",
+    "url": "https://www.ldcloud.net/tw/blog/drifting-fantasy-re-star-ark-leveling-guide"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%85%8B%E8%98%AD%E6%9D%91%E6%9D%91%E9%95%B7%E5%A7%94%E8%A8%97%20Village%20Chief%20commissions"
+   }
+  ]
  },
  {
   "id": "main-rocca",
@@ -101,8 +139,28 @@
    "th": "ไปเอาม้วนคัมภีร์ที่เหมืองเคลันชั้น 3 แล้วปราบกิ้งก่าคามิเลี่ยน"
   },
   "confidence": "RE-reported",
-  "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "note": {
+   "en": "The wiki files this as “First Test” — that is the quest whose reward line says Roca joins. A page called “Unknown Fate” exists too but gives a different reward.",
+   "th": "วิกิใช้ชื่อ “First Test” — เควสนั้นคืออันที่ระบุว่าได้รอคก้า ส่วนหน้า “Unknown Fate” เป็นคนละเควส"
+  },
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/First_Test"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%9C%AA%E7%9F%A5%E7%9A%84%E5%91%BD%E9%81%8B%20Unknown%20Destiny%20%E2%80%94%20Rocca%20joins"
+   }
+  ]
  },
  {
   "id": "main-antarctica",
@@ -132,8 +190,28 @@
    "th": "บทท้าย ๆ ของเควสหลัก ถ้ายังไม่จบบทนี้จะรับเควสสกิลบรรพชนไม่ได้"
   },
   "confidence": "RE-verified",
-  "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "note": {
+   "en": "The wiki link is the South Pole region page, not a quest page — there is no dedicated article for this chapter.",
+   "th": "ลิงก์วิกิคือหน้าพื้นที่ขั้วโลกใต้ ไม่ใช่หน้าเควส — ยังไม่มีหน้าเฉพาะของบทนี้"
+  },
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/South_Pole"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%89%8D%E5%BE%80%E5%8D%97%E6%A5%B5%20Go%20to%20Antarctica"
+   }
+  ]
  },
  {
   "id": "main-trial-awakening",
@@ -160,7 +238,24 @@
    "en": "Chapter title only — content unverified.",
    "th": "มีแต่ชื่อบท ยังไม่ได้ตรวจสอบเนื้อหา"
   },
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=224"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E9%AD%AF%E8%B3%93%E9%81%9C%E6%96%B0%E6%89%8B%E5%B3%B6"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%A9%A6%E7%85%89%E8%88%87%E8%A6%BA%E9%86%92%20Trial%20and%20Awakening"
+   }
+  ]
  },
  {
   "id": "main-i-see",
@@ -187,7 +282,24 @@
    "en": "Category uncertain.",
    "th": "ยังไม่แน่ชัดว่าอยู่หมวดไหน"
   },
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=245"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E9%AD%AF%E8%B3%93%E9%81%9C%E6%96%B0%E6%89%8B%E5%B3%B6"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8E%9F%E4%BE%86%E5%A6%82%E6%AD%A4%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%88%E4%B8%89%EF%BC%89%20So%20That%27s%20It%2C%20Ch.%201%E2%80%933"
+   }
+  ]
  },
  {
   "id": "side-changan",
@@ -211,7 +323,20 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=358"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%95%B7%E5%AE%89%E7%B3%BB%E5%88%97%E4%BB%BB%E5%8B%99%20Chang%27an%20series"
+   }
+  ]
  },
  {
   "id": "side-greatwall",
@@ -235,7 +360,20 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/Co.php?bsn=82442&sn=675"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%95%B7%E5%9F%8E%E7%B3%BB%E5%88%97%E4%BB%BB%E5%8B%99%20Great%20Wall%20series"
+   }
+  ]
  },
  {
   "id": "side-monkey",
@@ -263,7 +401,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Angry_Monkey_Incident"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E7%8C%B4%E5%AD%90%E4%BA%8B%E4%BB%B6%20Little%20Monkey%20Event"
+   }
+  ]
  },
  {
   "id": "side-puppy",
@@ -291,7 +454,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Save_the_Little_Dog"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%BF%B7%E5%A4%B1%E7%9A%84%E5%B0%8F%E7%8B%97%20Lost%20Puppy"
+   }
+  ]
  },
  {
   "id": "side-piglet",
@@ -319,7 +507,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Pig_Taking_a_Walk"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E8%B1%AC%E6%95%A3%E6%AD%A5%20Piglet%27s%20Stroll"
+   }
+  ]
  },
  {
   "id": "side-dinner",
@@ -347,7 +560,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Dinner_Incident"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%99%9A%E9%A4%90%E4%BA%8B%E4%BB%B6%20Dinner%20Event"
+   }
+  ]
  },
  {
   "id": "side-sick",
@@ -375,7 +613,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%87%8D%E7%97%85%E7%9A%84%E6%9D%91%E6%B0%91%20Sick%20Villager"
+   }
+  ]
  },
  {
   "id": "side-robbed",
@@ -403,7 +662,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Grandparent_and_Grandchild_Who_Are_Robbed"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%A2%AB%E6%90%B6%E5%8A%AB%E7%9A%84%E7%A5%96%E5%AD%AB%E5%80%86%20Robbed%20Grandparent%20and%20Grandchild"
+   }
+  ]
  },
  {
   "id": "side-wolf",
@@ -431,7 +715,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%B6%95%E8%B7%91%E5%A4%A7%E9%87%8E%E7%8B%BC%20Drive%20Off%20the%20Big%20Wolf"
+   }
+  ]
  },
  {
   "id": "side-first-trial",
@@ -459,7 +764,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Initial_Trial"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%9C%80%E5%88%9D%E7%9A%84%E8%A9%A6%E7%B7%B4%20The%20Initial%20Trial"
+   }
+  ]
  },
  {
   "id": "side-mermaid",
@@ -487,7 +817,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mermaid%27s_Quest"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%BE%8E%E4%BA%BA%E9%AD%9A%E4%BA%8B%E4%BB%B6%20Mermaid%20Event"
+   }
+  ]
  },
  {
   "id": "side-bandit",
@@ -515,7 +870,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Avenging_Pirate"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A0%B1%E4%BB%87%E7%9A%84%E5%BC%B7%E7%9B%9C%20The%20Avenging%20Bandit"
+   }
+  ]
  },
  {
   "id": "side-mystery-girl",
@@ -543,7 +923,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Mysterious_Girl"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%AC%8E%E6%A8%A3%E7%9A%84%E5%B0%91%E5%A5%B3%20The%20Mysterious%20Girl"
+   }
+  ]
  },
  {
   "id": "side-redhood",
@@ -571,7 +976,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Story_of_the_Hood_Girl"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E7%B4%85%E5%B8%BD%E7%9A%84%E6%95%85%E4%BA%8B%20Little%20Red%20Riding%20Hood%27s%20Story"
+   }
+  ]
  },
  {
   "id": "side-miner",
@@ -599,7 +1029,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Miner_Without_Ore"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%BC%BA%E7%A4%A6%E7%9A%84%E7%A4%A6%E5%B7%A5%20The%20Miner%20Short%20of%20Ore"
+   }
+  ]
  },
  {
   "id": "side-soup",
@@ -627,7 +1082,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Auntie%27s_Fungus_Soup"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%98%BF%E5%A7%A8%E7%9A%84%E6%B9%AF%20Aunt%27s%20Soup"
+   }
+  ]
  },
  {
   "id": "side-redwine",
@@ -655,7 +1135,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Red_Wine_Mission"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%B4%85%E9%85%92%E4%BB%BB%E5%8B%99%20The%20Red%20Wine%20Errand"
+   }
+  ]
  },
  {
   "id": "side-squirrel",
@@ -683,7 +1188,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Squirrel_Mission"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8B%E6%89%BE%E6%9D%BE%E9%BC%A0%20Finding%20the%20Squirrels"
+   }
+  ]
  },
  {
   "id": "side-guard-drink",
@@ -711,7 +1241,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/A_Guard_Drinking_with_Friends"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%AE%88%E8%A1%9B%E7%9A%84%E9%85%92%E7%B4%84%20The%20Guard%27s%20Drinking%20Appointment"
+   }
+  ]
  },
  {
   "id": "side-axe",
@@ -739,7 +1294,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Spirit_and_the_Golden_Axe"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%A8%B5%E5%A4%AB%E7%9A%84%E6%96%A7%E9%A0%AD%20The%20Woodcutter%27s%20Axe"
+   }
+  ]
  },
  {
   "id": "side-blueflower",
@@ -767,7 +1347,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Jack%27s_Blue_Flower"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%97%8D%E8%89%B2%E8%8A%B1%E6%9C%B5%20The%20Blue%20Flower"
+   }
+  ]
  },
  {
   "id": "side-legendary-weapon",
@@ -795,7 +1400,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Legendary_Weapon"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%82%B3%E8%AA%AA%E6%AD%A6%E5%99%A8%20The%20Legendary%20Weapon"
+   }
+  ]
  },
  {
   "id": "side-raft",
@@ -823,7 +1453,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Make_a_Raft"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%9C%A8%E7%AD%8F%E8%A8%AD%E8%A8%88%E5%9C%96%20Wooden%20Raft%20Design"
+   }
+  ]
  },
  {
   "id": "side-bar-tough",
@@ -851,7 +1506,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/A_Man_in_the_Bar"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%85%92%E5%90%A7%E7%9A%84%E5%A3%AF%E6%BC%A2%20The%20Tough%20Guy%20at%20the%20Bar"
+   }
+  ]
  },
  {
   "id": "side-nun",
@@ -879,7 +1559,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Please_Help_Yuna"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BF%AE%E5%A5%B3%E7%B1%B3%E5%B0%A4%E5%A8%9C%20Nun%20Miyuna"
+   }
+  ]
  },
  {
   "id": "side-heretic",
@@ -907,7 +1612,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Heretics"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%A7%E6%95%99%E5%A0%82%E7%9A%84%E7%95%B0%E6%95%99%E5%BE%92%20Heretics%20at%20the%20Cathedral"
+   }
+  ]
  },
  {
   "id": "side-match-girl",
@@ -935,7 +1665,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Match_Girl"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%B3%A3%E7%81%AB%E6%9F%B4%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9%20The%20Little%20Match%20Girl"
+   }
+  ]
  },
  {
   "id": "side-cellar",
@@ -963,7 +1718,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Hidden_Cellar"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%9A%B1%E8%97%8F%E5%9C%B0%E7%AA%96%20The%20Hidden%20Cellar"
+   }
+  ]
  },
  {
   "id": "side-fishbait",
@@ -991,7 +1771,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Fish_Food"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%AD%9A%E9%A4%8C%20Fish%20Bait"
+   }
+  ]
  },
  {
   "id": "side-hideseek",
@@ -1019,7 +1824,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Hide-and-Seek"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%8D%89%E8%BF%B7%E8%97%8F%20Hide%20and%20Seek"
+   }
+  ]
  },
  {
   "id": "side-bellringer",
@@ -1047,7 +1877,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%95%B2%E9%90%98%E4%BA%BA%20The%20Bell%20Ringer"
+   }
+  ]
  },
  {
   "id": "side-logging",
@@ -1075,7 +1926,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Axeman_with_a_Broken_Axe"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BC%90%E6%9C%A8%E6%8A%80%E8%83%BD%20Logging%20Skill"
+   }
+  ]
  },
  {
   "id": "side-tunnel",
@@ -1103,7 +1979,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Underground_Passage"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%9C%B0%E4%B8%8B%E9%80%9A%E9%81%93%20The%20Underground%20Passage"
+   }
+  ]
  },
  {
   "id": "side-shepherd",
@@ -1131,7 +2032,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Shepherd_Boy"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%89%A7%E7%BE%8A%E5%B0%91%E5%B9%B4%20The%20Shepherd%20Boy"
+   }
+  ]
  },
  {
   "id": "side-bear-cave",
@@ -1159,7 +2085,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/A_Big_Bear_Mission"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%B4%9E%E7%AA%9F%E7%86%8A%20The%20Cave%20Bear"
+   }
+  ]
  },
  {
   "id": "side-flytrap",
@@ -1187,7 +2138,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Giant_Corpse_Flower"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B7%A8%E5%A4%A7%E9%A3%9F%E4%BA%BA%E8%8A%B1%20The%20Giant%20Venus%20Flytrap"
+   }
+  ]
  },
  {
   "id": "side-gather-skill",
@@ -1215,7 +2191,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Busy_Old_Farmer"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%8E%A1%E9%9B%86%E6%8A%80%E8%83%BD%20Gathering%20Skill"
+   }
+  ]
  },
  {
   "id": "side-ares-pet",
@@ -1243,7 +2244,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Dr._Dinosaur"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%AF%B5%E7%89%A9%E4%BA%9E%E9%9B%B7%E6%96%AF%20Pet%20Ares"
+   }
+  ]
  },
  {
   "id": "side-frog",
@@ -1271,7 +2297,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Frog_Quest"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%9D%92%E8%9B%99%E4%BB%BB%E5%8B%99%20The%20Frog%20Quest"
+   }
+  ]
  },
  {
   "id": "side-airplane",
@@ -1299,7 +2350,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mighty_Plane_Design"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%A3%9B%E6%A9%9F%E8%A8%AD%E8%A8%88%E5%9C%96%20Airplane%20Design"
+   }
+  ]
  },
  {
   "id": "side-monk",
@@ -1327,7 +2403,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mysterious_Indian_elder"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8D%B0%E5%BA%A6%E5%83%A7%E4%BE%B6%20The%20Indian%20Monk"
+   }
+  ]
  },
  {
   "id": "side-snake-whistle",
@@ -1355,7 +2456,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Piper%27s_Snake_Flute"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BC%84%E8%9B%87%E4%BA%BA%E7%9A%84%E7%AC%9B%E5%AD%90%20The%20Snake%20Charmer%27s%20Whistle"
+   }
+  ]
  },
  {
   "id": "side-judgment",
@@ -1383,7 +2509,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Fair_Judge"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%85%AC%E6%AD%A3%E7%9A%84%E5%88%A4%E6%B1%BA%20A%20Just%20Judgment"
+   }
+  ]
  },
  {
   "id": "side-princess",
@@ -1411,7 +2562,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Kidnapped_Princess"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%A2%AB%E7%B6%81%E6%9E%B6%E7%9A%84%E5%85%AC%E4%B8%BB%20The%20Kidnapped%20Princess"
+   }
+  ]
  },
  {
   "id": "side-kappa",
@@ -1439,7 +2615,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%B2%B3%E7%AB%A5%E6%AF%8D%E8%A6%AA%20The%20Kappa%20Mother"
+   }
+  ]
  },
  {
   "id": "side-swordsman",
@@ -1467,7 +2664,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mysterious_Swordsman"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%A5%9E%E7%A7%98%E5%8A%8D%E5%AE%A2%20The%20Mysterious%20Swordsman"
+   }
+  ]
  },
  {
   "id": "side-bushido",
@@ -1495,7 +2717,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%AD%A6%E5%A3%AB%E4%B9%8B%E9%81%93%20The%20Way%20of%20the%20Samurai"
+   }
+  ]
  },
  {
   "id": "side-firedragon",
@@ -1523,7 +2766,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Fire_Dragon"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%81%AB%E9%BE%8D%E4%BB%BB%E5%8B%99%20The%20Fire%20Dragon"
+   }
+  ]
  },
  {
   "id": "side-goldcalendar",
@@ -1551,7 +2819,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8B%E6%89%BE%E9%BB%83%E9%87%91%E6%9B%86%E6%B3%95%20Find%20the%20Gold%20Calendar"
+   }
+  ]
  },
  {
   "id": "side-tooth",
@@ -1579,7 +2868,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Dentist_Incident"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%89%99%E9%BD%92%E6%8A%80%E5%B8%AB%20The%20Tooth%20Technician"
+   }
+  ]
  },
  {
   "id": "side-xiaolan-fate",
@@ -1607,7 +2921,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Xaolan%27s_Fate"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E8%97%8D%E7%9A%84%E5%91%BD%E9%81%8B%20Xiaolan%27s%20Fate"
+   }
+  ]
  },
  {
   "id": "side-guardian",
@@ -1635,7 +2974,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Protector_of_the_Holy_Spirit"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%81%96%E9%9D%88%E5%AE%88%E8%AD%B7%E8%80%85%20The%20Holy%20Spirit%20Guardian"
+   }
+  ]
  },
  {
   "id": "side-missing-villager",
@@ -1663,7 +3027,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Disappearing_Villager"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%B1%E8%B9%A4%E7%9A%84%E6%9D%91%E6%B0%91%20The%20Missing%20Villager"
+   }
+  ]
  },
  {
   "id": "side-magellan",
@@ -1691,7 +3080,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Magellan%27s_Fleet"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%BA%A5%E5%93%B2%E5%80%AB%E8%89%A6%E9%9A%8A%20The%20Magellan%20Fleet"
+   }
+  ]
  },
  {
   "id": "side-niss-staff",
@@ -1719,7 +3133,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Magic_Staff"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A6%AE%E7%B5%B2%E7%9A%84%E5%B0%88%E5%B1%AC%E6%B3%95%E6%9D%96%20Niss%27s%20Special%20Staff"
+   }
+  ]
  },
  {
   "id": "side-egypt-kids",
@@ -1747,7 +3186,28 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%9F%83%E5%8F%8A%E7%9A%84%E7%8F%BE%E4%BB%A3%E5%AD%A9%E5%AD%90%20The%20Modern%20Children%20of%20Egypt"
+   }
+  ]
  },
  {
   "id": "side-pyramid",
@@ -1775,7 +3235,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Deep_into_the_Pyramid"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%87%91%E5%AD%97%E5%A1%94%E6%B7%B1%E8%99%95%20Depths%20of%20the%20Pyramid"
+   }
+  ]
  },
  {
   "id": "side-ginseng",
@@ -1803,7 +3288,32 @@
    "en": "Legacy WLO quest. The Re client may rename it — match by region and story beat.",
    "th": "เควสจาก WLO เวอร์ชันเก่า ชื่อในเวอร์ชัน Re อาจต่างออกไป ให้ดูจากพื้นที่และเนื้อเรื่องแทน"
   },
-  "source": "https://kannya.souluntan.com/t10-topic"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Oh!_Ginseng!"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%B8%80%E8%88%AC%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8E%9F%E4%BE%86%E6%98%AF%E4%BA%BA%E5%8F%83%EF%BC%81%20That%20Was%20Ginseng%21"
+   }
+  ]
  },
  {
   "id": "comp-rocca",
@@ -1838,7 +3348,24 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Roca"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%98%BF%E5%8D%A1%20Rocca"
+   }
+  ]
  },
  {
   "id": "comp-lynx",
@@ -1865,7 +3392,20 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B1%B1%E8%B2%93%20Lynx"
+   }
+  ]
  },
  {
   "id": "comp-mary",
@@ -1889,7 +3429,24 @@
   },
   "confidence": "INFER",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%91%AA%E8%8E%89%E4%B8%80%E4%B8%96%20Mary%20I"
+   }
+  ]
  },
  {
   "id": "comp-imhotep",
@@ -1913,7 +3470,24 @@
   },
   "confidence": "INFER",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8D%B0%E5%92%8C%E9%97%90%20Imhotep"
+   }
+  ]
  },
  {
   "id": "comp-sunshangxiang",
@@ -1937,7 +3511,24 @@
   },
   "confidence": "INFER",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%AD%AB%E5%B0%9A%E9%A6%99%20Sun%20Shangxiang"
+   }
+  ]
  },
  {
   "id": "comp-liubei",
@@ -1961,7 +3552,24 @@
   },
   "confidence": "INFER",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8A%89%E5%82%99%20Liu%20Bei"
+   }
+  ]
  },
  {
   "id": "comp-niss",
@@ -1992,7 +3600,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Niss"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A6%AE%E7%B5%B2%20Niss"
+   }
+  ]
  },
  {
   "id": "comp-xiaolan",
@@ -2023,7 +3656,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Xaolan"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E8%97%8D%20Xiaolan"
+   }
+  ]
  },
  {
   "id": "comp-cliff",
@@ -2054,7 +3712,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Clive"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%85%8B%E9%87%8C%E5%A4%AB%20Cliff"
+   }
+  ]
  },
  {
   "id": "comp-magellan",
@@ -2085,7 +3768,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Magellan"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%BA%A5%E5%93%B2%E5%80%AB%20Magellan"
+   }
+  ]
  },
  {
   "id": "comp-kanako",
@@ -2116,7 +3824,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Kanako"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%A6%99%E8%8F%9C%E5%AD%90%20Kanako"
+   }
+  ]
  },
  {
   "id": "comp-freid",
@@ -2147,7 +3880,28 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BC%97%E9%9B%B7%E5%BE%B7%20Freid"
+   }
+  ]
  },
  {
   "id": "comp-shasha",
@@ -2178,7 +3932,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Shasha"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%8E%8E%E8%8E%8E%20Shasha"
+   }
+  ]
  },
  {
   "id": "comp-ares",
@@ -2209,7 +3988,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Arez"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BA%9E%E9%9B%B7%E6%96%AF%20Ares"
+   }
+  ]
  },
  {
   "id": "comp-athena-venus",
@@ -2236,7 +4040,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Athena"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%9B%85%E5%85%B8%E5%A8%9C%EF%BC%8F%E7%B6%AD%E7%B4%8D%E6%96%AF%20Athena%20/%20Venus%20%28choose%20one%29"
+   }
+  ]
  },
  {
   "id": "comp-zhangbaozi",
@@ -2263,7 +4092,32 @@
    "en": "Legacy WLO recruitment flow. Rocca's flow is confirmed unchanged in Re, so these are a good starting guess.",
    "th": "วิธีรับจาก WLO เวอร์ชันเก่า กรณีรอคก้ายืนยันแล้วว่าเหมือนเดิมใน Re จึงพอใช้เป็นแนวทางได้"
   },
-  "source": "https://sites.google.com/view/cmwlo/guides/pet-guides"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Zhang_Baozai"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BC%B5%E8%B1%B9%E5%AD%90%20Zhang%20Baozi%20%28Zoro%29"
+   }
+  ]
  },
  {
   "id": "comp-death-quest",
@@ -2290,7 +4144,28 @@
    "en": "Re requires an 'exclusive quest' before companion Rebirth, which is likely this system or its descendant.",
    "th": "ใน Re ต้องทำ 'เควสเฉพาะตัว' ก่อนทำ Rebirth ซึ่งน่าจะเป็นระบบนี้หรือระบบที่พัฒนามาจากนี้"
   },
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E4%BB%BB%E5%8B%99%E5%AF%B5%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-quest-guide-for-beginners/"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BA%A1%E9%80%9D%E4%BB%BB%E5%8B%99%20Companion%20Death%20Quests"
+   }
+  ]
  },
  {
   "id": "star-system",
@@ -2314,7 +4189,20 @@
   },
   "confidence": "RE-verified",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=232"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99%20Star%20Quest%20system"
+   }
+  ]
  },
  {
   "id": "star-earn-01",
@@ -2348,7 +4236,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Grandparent_and_Grandchild_Who_Are_Robbed"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%A2%AB%E6%90%B6%E5%8A%AB%E7%9A%84%E7%A5%96%E5%AD%AB%E5%80%86%20Robbed%20Grandparent%20and%20Grandchild"
+   }
+  ]
  },
  {
   "id": "star-earn-02",
@@ -2382,7 +4291,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Pig%27s_Nightmare"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B1%B1%E8%B1%AC%E7%9A%84%E5%A4%A2%20The%20Mountain%20Pig%27s%20Dream"
+   }
+  ]
  },
  {
   "id": "star-earn-03",
@@ -2413,10 +4343,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “Little Red Riding Hood's Story” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “เรื่องของหนูน้อยหมวกแดง” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Story_of_the_Hood_Girl"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E7%B4%85%E5%B8%BD%20Little%20Red%20Riding%20Hood"
+   }
+  ]
  },
  {
   "id": "star-earn-04",
@@ -2447,10 +4398,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “The Woodcutter's Axe” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “ขวานของคนตัดไม้” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Spirit_and_the_Golden_Axe"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%87%91%E6%96%A7%E9%A0%AD%E8%88%87%E9%90%B5%E6%96%A7%E9%A0%AD%20The%20Golden%20Axe"
+   }
+  ]
  },
  {
   "id": "star-earn-05",
@@ -2484,7 +4456,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Sheep%27s_Nightmare"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%B6%BF%E7%BE%8A%E7%9A%84%E5%A4%A2%20The%20Sheep%27s%20Dream"
+   }
+  ]
  },
  {
   "id": "star-earn-06",
@@ -2515,10 +4508,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “Fish Bait” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “เหยื่อตกปลา” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Fish_Food"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%AD%9A%E9%A4%8C%20Fish%20Bait"
+   }
+  ]
  },
  {
   "id": "star-earn-07",
@@ -2549,10 +4563,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “Heretics at the Cathedral” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “พวกนอกรีตในมหาวิหาร” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Heretics"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%A7%E6%95%99%E5%A0%82%E7%9A%84%E7%95%B0%E6%95%99%E5%BE%92%20Heretics%20at%20the%20Cathedral"
+   }
+  ]
  },
  {
   "id": "star-earn-08",
@@ -2586,7 +4621,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Find_the_Courage_Stone"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8B%87%E6%B0%A3%E4%B9%8B%E7%9F%B3%20The%20Courage%20Stone"
+   }
+  ]
  },
  {
   "id": "star-earn-09",
@@ -2617,10 +4673,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “Xiaolan's Fate” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “ชะตาของเสี่ยวหลาน” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Xaolan%27s_Fate"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8F%E8%97%8D%E7%9A%84%E5%91%BD%E9%81%8B%20Xiaolan%27s%20Fate"
+   }
+  ]
  },
  {
   "id": "star-earn-10",
@@ -2651,10 +4728,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “The Holy Spirit Guardian” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “ผู้พิทักษ์วิญญาณศักดิ์สิทธิ์” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Protector_of_the_Holy_Spirit"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%81%96%E9%9D%88%E5%AE%88%E8%AD%B7%E8%80%85%20The%20Holy%20Spirit%20Guardian"
+   }
+  ]
  },
  {
   "id": "star-earn-11",
@@ -2688,7 +4786,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Strong_Enemy,_Frederico!"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%B1%BA%E6%88%B0%EF%BC%81%E6%95%B5%E4%BA%BA%E8%85%93%E7%89%B9%E7%83%88%20Battle%21%20Enemy%20Frederick"
+   }
+  ]
  },
  {
   "id": "star-earn-12",
@@ -2722,7 +4841,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Bartender"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%AA%BF%E9%85%92%E5%B8%AB%20The%20Bartender"
+   }
+  ]
  },
  {
   "id": "star-earn-13",
@@ -2756,7 +4896,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mayan_Door_Ball_Competition"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%91%AA%E9%9B%85%E7%90%83%E8%B3%BD%20The%20Maya%20Ball%20Tournament"
+   }
+  ]
  },
  {
   "id": "star-earn-14",
@@ -2790,7 +4951,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Mayan_Tribe_is_Raided"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%91%AA%E9%9B%85%E9%83%A8%E8%90%BD%E9%81%87%E8%A5%B2%20The%20Mayan%20Tribe%20is%20Raided"
+   }
+  ]
  },
  {
   "id": "star-earn-15",
@@ -2824,7 +5006,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Don%27t_Leave!_Shasha!"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%88%A5%E8%B5%B0%EF%BC%8C%E8%8E%8E%E8%8E%8E%20Don%27t%20Leave%2C%20Shasha"
+   }
+  ]
  },
  {
   "id": "star-earn-16",
@@ -2855,10 +5058,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “The Little Match Girl” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “เด็กหญิงขายไม้ขีดไฟ” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Match_Girl"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%B3%A3%E7%81%AB%E6%9F%B4%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9%20The%20Little%20Match%20Girl"
+   }
+  ]
  },
  {
   "id": "star-earn-17",
@@ -2892,7 +5116,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Houyi_Incident"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%90%8E%E7%BE%BF%E4%BA%8B%E4%BB%B6%20The%20Archer%20Incident"
+   }
+  ]
  },
  {
   "id": "star-earn-18",
@@ -2926,7 +5171,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Beautiful_Immortal_Fox"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%8B%90%E4%BB%99%20The%20Fox%20Fairy"
+   }
+  ]
  },
  {
   "id": "star-earn-19",
@@ -2960,7 +5226,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Who%27s_the_Better_Hunter"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%AA%B0%E6%98%AF%E5%A5%BD%E7%8D%B5%E4%BA%BA%20Who%27s%20the%20Better%20Hunter"
+   }
+  ]
  },
  {
   "id": "star-earn-20",
@@ -2994,7 +5281,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Help_Chang%27er_find_Jade_Rabbit"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B0%8B%E6%89%BE%E7%8E%89%E5%85%94%20Find%20the%20Jade%20Rabbit"
+   }
+  ]
  },
  {
   "id": "star-earn-21",
@@ -3028,7 +5336,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Princess_Eloped!"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%80%83%E8%B7%91%E7%9A%84%E5%85%AC%E4%B8%BB%20The%20Runaway%20Princess"
+   }
+  ]
  },
  {
   "id": "star-earn-22",
@@ -3062,7 +5391,24 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%B3%A5%E5%A8%83%E5%A8%83%E7%8E%8B%20The%20Clay%20Doll%20King"
+   }
+  ]
  },
  {
   "id": "star-earn-23",
@@ -3096,7 +5442,24 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BF%83%E4%B9%8B%E7%BE%88%E7%B5%86%20Heart%27s%20Bond"
+   }
+  ]
  },
  {
   "id": "star-earn-24",
@@ -3130,7 +5493,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Brave_Kanako"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8B%87%E6%95%A2%E7%9A%84%E9%A6%99%E8%8F%9C%E5%AD%90%20Brave%20Kanako"
+   }
+  ]
  },
  {
   "id": "star-earn-25",
@@ -3161,10 +5545,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “The Snake Charmer's Whistle” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “ปี่ของหมองู” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Piper%27s_Snake_Flute"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BC%84%E8%9B%87%E4%BA%BA%E7%9A%84%E7%AC%9B%E5%AD%90%20The%20Snake%20Charmer%27s%20Flute"
+   }
+  ]
  },
  {
   "id": "star-earn-26",
@@ -3198,7 +5603,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Dodge_Ball_of_Hawaii"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%90%83%E8%B3%BD%20The%20Hawaii%20Ball%20Tournament"
+   }
+  ]
  },
  {
   "id": "star-earn-27",
@@ -3232,7 +5658,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Frog_Prince"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%9D%92%E8%9B%99%E7%8E%8B%E5%AD%90%20The%20Frog%20Prince"
+   }
+  ]
  },
  {
   "id": "star-earn-28",
@@ -3263,10 +5710,31 @@
   "detail": null,
   "confidence": "LEGACY",
   "note": {
-   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
-   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
+   "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list. Probably the same quest as “The Hawaii Ball Tournament” listed under another tab.",
+   "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง น่าจะเป็นเควสเดียวกับ “การแข่งบอลฮาวาย” ที่อยู่อีกหมวดหนึ่ง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Dodge_Ball_of_Hawaii"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%A7%E5%B3%B6%E7%90%83%E8%B3%BD%20The%20Big%20Island%20Ball%20Tournament"
+   }
+  ]
  },
  {
   "id": "star-earn-29",
@@ -3300,7 +5768,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Pandora%27s_Box"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%BD%98%E6%9C%B5%E6%8B%89%E7%9A%84%E7%9B%92%E5%AD%90%20Pandora%27s%20Box"
+   }
+  ]
  },
  {
   "id": "star-earn-30",
@@ -3334,7 +5823,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Stranger_never_Eats_and_drinks"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%A5%9E%E7%A7%98%E7%9A%84%E9%99%8C%E7%94%9F%E4%BA%BA%20The%20Mysterious%20Stranger"
+   }
+  ]
  },
  {
   "id": "star-earn-31",
@@ -3368,7 +5878,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Magellan_Is_In_Danger"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%BA%A5%E5%93%B2%E5%80%AB%E9%81%87%E9%9A%AA%EF%BC%81%20Magellan%20is%20in%20Danger%21"
+   }
+  ]
  },
  {
   "id": "star-earn-32",
@@ -3402,7 +5933,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Who_Stole_the_Badge"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%A2%AB%E5%81%B7%E7%9A%84%E5%BE%BD%E7%AB%A0%20The%20Stolen%20Badge"
+   }
+  ]
  },
  {
   "id": "star-earn-33",
@@ -3436,7 +5988,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_Secret_of_Barnya_Sky_City"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%9F%8E%E7%9A%84%E7%A5%95%E5%AF%86%20The%20Secret%20of%20Sky%20City"
+   }
+  ]
  },
  {
   "id": "star-earn-34",
@@ -3470,7 +6043,28 @@
    "en": "Legacy star list. Re tracks its own count; treat this as the likely ancestor of the Re list.",
    "th": "รายการดาวจากเวอร์ชันเก่า Re มีจำนวนของตัวเอง ให้ถือว่านี่เป็นต้นทางที่น่าจะใกล้เคียง"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Husband_is_fishing"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%8E%BB%E9%87%A3%E9%AD%9A%E7%9A%84%E4%B8%88%E5%A4%AB%20The%20Husband%20Gone%20Fishing"
+   }
+  ]
  },
  {
   "id": "star-spend-01",
@@ -3507,7 +6101,24 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A8%81%E9%9D%88%E8%A9%A6%E7%85%89%20The%20Wailing%20Trial"
+   }
+  ]
  },
  {
   "id": "star-spend-02",
@@ -3541,7 +6152,24 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%B8%B3%E7%AF%B7%E6%93%B4%E5%BB%BA%20Tent%20Upgrade"
+   }
+  ]
  },
  {
   "id": "star-spend-03",
@@ -3575,7 +6203,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Hide-and-Seek"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%86%8D%E7%8E%A9%E4%B8%80%E6%AC%A1%E6%8D%89%E8%BF%B7%E8%97%8F%20Hide%20and%20Seek%2C%20Again"
+   }
+  ]
  },
  {
   "id": "star-spend-04",
@@ -3609,7 +6258,24 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%9C%B0%E4%B8%8B%E9%80%9A%E9%81%93%20The%20Underground%20Path"
+   }
+  ]
  },
  {
   "id": "star-spend-05",
@@ -3639,7 +6305,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Bouquet_Mission"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%8A%B1%E6%9D%9F%E4%BB%BB%E5%8B%99%20The%20Bouquet"
+   }
+  ]
  },
  {
   "id": "star-spend-06",
@@ -3676,7 +6363,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Guidance_from_the_Mysterious_Old_Man"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%A5%9E%E7%A7%98%E7%9A%84%E9%95%B7%E8%80%81%20The%20Mysterious%20Elder"
+   }
+  ]
  },
  {
   "id": "star-spend-07",
@@ -3713,7 +6421,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/The_tiger_in_the_remote_mountains"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E8%80%81%E8%99%8E%E4%BB%BB%E5%8B%99%20The%20Tiger%20Quest"
+   }
+  ]
  },
  {
   "id": "star-spend-08",
@@ -3750,7 +6479,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Contract_with_Arez"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BA%9E%E9%9B%B7%E6%96%AF%E7%9A%84%E5%A5%91%E7%B4%84%20Ares%27s%20Contract"
+   }
+  ]
  },
  {
   "id": "star-spend-09",
@@ -3787,7 +6537,24 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%BF%83%E9%8E%96%20The%20Heart%20Lock"
+   }
+  ]
  },
  {
   "id": "star-spend-10",
@@ -3824,7 +6591,28 @@
    "en": "Legacy star-spending quest. Several of these are also the legacy skill quests.",
    "th": "เควสใช้ดาวจากเวอร์ชันเก่า หลายอันเป็นเควสสกิลของเวอร์ชันเก่าด้วย"
   },
-  "source": "https://www.2000fun.com/thread-2185223-1-1.html"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Valkyrie%27s_Trial"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%98%9F%E6%98%9F%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "guide",
+    "url": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%A5%B3%E6%AD%A6%E7%A5%9E%E8%A9%A6%E7%85%89%20The%20Valkyrie%20Trial"
+   }
+  ]
  },
  {
   "id": "skill-ancestor",
@@ -3865,7 +6653,24 @@
    "en": "One source says 80 Star Dust instead of 100 — trust what the client shows. Skills: Earth 戰意宣言 forced taunt 3 turns, unresistable · Water 天恩甘霖 heal and revive 6 allies · Fire 焰心解放 crit rate and damage up 3 turns · Wind 御風護佑 evasion up 3 turns.",
    "th": "มีแหล่งหนึ่งบอกว่าใช้ผงดารา 80 ไม่ใช่ 100 ให้ยึดตามที่เกมแสดง สกิล: ดิน 戰意宣言 บังคับดึงเป้า 3 เทิร์น ต้านไม่ได้ · น้ำ 天恩甘霖 ฟื้น HP และชุบชีวิตพวกพ้อง 6 คน · ไฟ 焰心解放 เพิ่มอัตราและความแรงคริ 3 เทิร์น · ลม 御風護佑 เพิ่มการหลบ 3 เทิร์น"
   },
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=301"
+   },
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=303"
+   },
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=355"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E4%BE%86%E8%87%AA%E8%8B%B1%E5%82%91%E7%9A%84%E6%8C%87%E5%BC%95%20Guidance%20from%20the%20Ancestors"
+   }
+  ]
  },
  {
   "id": "skill-ancestor-daily",
@@ -3895,7 +6700,24 @@
   },
   "confidence": "RE-verified",
   "note": null,
-  "source": "https://forum.gamer.com.tw/B.php?bsn=82442"
+  "sources": [
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=168"
+   },
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=126"
+   },
+   {
+    "kind": "baha",
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=265"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E6%AF%8F%E6%97%A5%E8%8B%B1%E5%82%91%E4%BB%BB%E5%8B%99%20/%20%E6%8C%91%E6%88%B0%E8%8B%B1%E5%82%91%20Daily%20Ancestor%20Challenge"
+   }
+  ]
  },
  {
   "id": "skill-legacy-1",
@@ -3929,7 +6751,28 @@
    "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
    "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Soul_Dodge"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%88%B0%E9%AC%A5%E6%8A%80%E8%83%BD%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E9%AD%82%E9%96%83%20Soul%20Dodge"
+   }
+  ]
  },
  {
   "id": "skill-legacy-2",
@@ -3963,7 +6806,28 @@
    "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
    "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Arrow_Rain"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%88%B0%E9%AC%A5%E6%8A%80%E8%83%BD%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E7%AE%AD%E9%9B%A8%20Volley%20Arrow"
+   }
+  ]
  },
  {
   "id": "skill-legacy-3",
@@ -3997,7 +6861,28 @@
    "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
    "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Blood-suck_Attack"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%88%B0%E9%AC%A5%E6%8A%80%E8%83%BD%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%99%AC%E8%A1%80%E6%93%8A%20Blood%20Suck"
+   }
+  ]
  },
  {
   "id": "skill-legacy-4",
@@ -4031,6 +6916,27 @@
    "en": "Legacy skill quest, paid for with Star currency. Not confirmed in Re.",
    "th": "เควสสกิลจากเวอร์ชันเก่า จ่ายด้วยดาว ยังไม่ยืนยันว่ามีใน Re"
   },
-  "source": "https://guidescroll.com/2011/07/wonderland-online-stars-guide/"
+  "sources": [
+   {
+    "kind": "wiki",
+    "url": "https://wonderlandonline.fandom.com/wiki/Goddess_Skill"
+   },
+   {
+    "kind": "cnwiki",
+    "url": "https://wiki2.gamer.com.tw/wiki.php?n=9045%3A%E6%88%B0%E9%AC%A5%E6%8A%80%E8%83%BD%E4%BB%BB%E5%8B%99"
+   },
+   {
+    "kind": "index",
+    "url": "https://wonderlandonline.fandom.com/wiki/Quests_by_Area"
+   },
+   {
+    "kind": "board",
+    "url": "https://forum.gamer.com.tw/B.php?bsn=82442"
+   },
+   {
+    "kind": "search",
+    "url": "https://www.google.com/search?q=%E9%A3%84%E6%B5%81%E5%B9%BB%E5%A2%83%20%E5%9B%9B%E5%85%83%E7%B4%A0%E5%A5%B3%E7%A5%9E%20Four-element%20Goddess"
+   }
+  ]
  }
 ]
