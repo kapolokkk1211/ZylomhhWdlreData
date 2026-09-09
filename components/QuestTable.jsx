@@ -127,7 +127,7 @@ export default function QuestTable({ rows, labels, strings, options, lang }) {
                         {numberKinds(g.row.sources).map((s, k) => (
                           <a
                             key={k}
-                            className={`src src-${s.kind}`}
+                            className={`srclink srclink-${s.kind}`}
                             href={s.url}
                             target="_blank"
                             rel="noopener noreferrer"

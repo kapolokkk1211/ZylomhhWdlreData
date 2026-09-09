@@ -255,6 +255,7 @@ thead th {
 td { padding: 14px; border-bottom: 1px solid var(--line-soft); vertical-align: middle; line-height: 1.5; }
 /* Numbers read as numbers: centred, tabular, nothing else in the column. */
 td.c-rank, td.c-lv, th.th-num { text-align: center; }
+th.th-num { white-space: nowrap; }
 tbody tr:hover { background: var(--surface-2); }
 tbody tr.group td {
   background: var(--surface-3);
@@ -472,23 +473,33 @@ tbody tr.group:hover td { background: var(--surface-3); }
 .t-materials { min-width: 760px; }
 
 /* ---------- source chips (materials) ---------- */
-.src { display: flex; flex-direction: column; gap: 5px; }
-.src-item { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; font-size: 14px; }
+/* The three source columns each stack one line per source. Identical line boxes keep
+   line 2 of "where" level with line 2 of "type" and "price", so they read as columns. */
+.sl { display: block; height: 24px; line-height: 24px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sl + .sl { margin-top: 6px; }
+.sl-where { font-size: 14px; color: var(--ink); }
+.src-type.inline { display: none; margin-right: 7px; }
+.sl-where .dim { color: var(--ink-faint); }
+.sl-price { font-family: var(--font-mono); font-size: 13.5px; font-weight: 600; color: #8a5a06; text-align: right; }
+.sl-price .legacy { color: var(--ink-faint); font-weight: 400; }
+td.c-price { text-align: right; }
 .src-type {
+  display: inline-block;
   font-family: var(--font-mono);
-  font-size: 10px;
-  padding: 1px 6px;
-  border-radius: 4px;
+  font-size: 10.5px;
+  padding: 2px 7px;
+  border-radius: 5px;
   background: var(--surface-3);
   color: var(--ink-soft);
   white-space: nowrap;
+  vertical-align: middle;
 }
 .src-type.shop { background: var(--metal-bg); color: var(--metal); }
 .src-type.drop { background: var(--warn-bg); color: var(--warn); }
 .src-type.gather { background: var(--good-bg); color: var(--good); }
 .src-type.craft { background: var(--magic-bg); color: var(--magic); }
 .src-type.scroll { background: var(--star-bg); color: var(--star); }
-.price { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint); }
+.mnote { margin-top: 5px; font-size: 12.5px; color: var(--ink-faint); line-height: 1.45; }
 
 /* ---------- footer ---------- */
 footer.site {
@@ -701,7 +712,14 @@ html[data-view="mobile"] td.c-rc[data-more="1"].open .rc-in { position: static; 
 html[data-view="mobile"] td.c-st { white-space: normal; }
 html[data-view="mobile"] .empty { border: 1px dashed var(--line); border-radius: 10px; }
 /* material table: two columns only */
-html[data-view="mobile"] .src-item { font-size: 12.5px; }
+html[data-view="mobile"] table.t-materials tbody tr { grid-template-columns: 46px 1fr; }
+html[data-view="mobile"] table.t-materials td.c-src, html[data-view="mobile"] table.t-materials td.c-where, html[data-view="mobile"] table.t-materials td.c-price { grid-column: 2; }
+html[data-view="mobile"] table.t-materials td.c-price, html[data-view="mobile"] .sl-price { text-align: left; }
+/* the card folds the type column away and pairs each pill with its own line instead */
+html[data-view="mobile"] table.t-materials td.c-src { display: none; }
+html[data-view="mobile"] .src-type.inline { display: inline-block; }
+html[data-view="mobile"] .sl { height: auto; line-height: 1.5; white-space: normal; }
+html[data-view="mobile"] .sl + .sl { margin-top: 4px; }
 
 /* about page */
 html[data-view="mobile"] .stat-row { grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -784,9 +802,9 @@ html[data-view="mobile"] table.qtable td.c-rc::before {
 }
 html[data-view="mobile"] table.qtable td.c-qtype { margin-bottom: 4px; }
 
-/* quest source links */
+/* quest source links. Named .srclink, not .src — the material table already owns .src. */
 .srcs { display: flex; flex-wrap: wrap; gap: 5px; width: 100%; margin-top: 5px; }
-.src {
+.srclink {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 999px;
@@ -799,8 +817,8 @@ html[data-view="mobile"] table.qtable td.c-qtype { margin-bottom: 4px; }
   text-decoration: none;
   white-space: nowrap;
 }
-.src:hover { border-color: var(--star); background: #fff; color: var(--star); text-decoration: none; }
-.src-wiki, .src-cnwiki { border-color: #b9dfc6; color: var(--good); background: #eef8f0; }
-.src-baha { border-color: #f0c9c5; color: #8a2e26; background: #fdf1f0; }
-.src-search { opacity: .78; }
+.srclink:hover { border-color: var(--star); background: #fff; color: var(--star); text-decoration: none; }
+.srclink-wiki, .srclink-cnwiki { border-color: #b9dfc6; color: var(--good); background: #eef8f0; }
+.srclink-baha { border-color: #f0c9c5; color: #8a2e26; background: #fdf1f0; }
+.srclink-search { opacity: .78; }
 html[data-view="mobile"] .srcs { margin-top: 7px; }

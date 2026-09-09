@@ -48,55 +48,32 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
   const name = (r) => (lang === 'th' ? r.name.th || r.name.en : r.name.en);
   const alt = (r) => [r.name.cn, lang === 'th' ? r.name.en : r.name.th].filter(Boolean).join(' · ');
 
-  const srcLine = (s, i) => {
-    if (s.type === 'shop') {
-      const town = labels.town[s.town];
-      return (
-        <div className="src-item" key={i}>
-          <span className="src-type shop">{strings.shop}</span>
-          <span>{town?.label}</span>
-          <span className={`badge ${STATUS_CLASS[town?.status] || 'b-unknown'}`}>
-            {town?.status === 'open' ? strings.open : town?.status === 'closed' ? strings.closed : town?.status === 'not-in-re' ? strings.notInRe : strings.unverified}
-          </span>
-          {s.price != null && (
-            <span className="price" title={s.priceProvenance === 're-sheet' ? strings.priceRe : strings.priceLegacy}>
-              {s.price}g{s.priceProvenance === 're-sheet' ? ' ✓' : '*'}
-            </span>
-          )}
-        </div>
-      );
-    }
-    if (s.type === 'drop') {
-      return (
-        <div className="src-item" key={i}>
-          <span className="src-type drop">{strings.drop}</span>
-          <span>{s.mob}{s.lv ? ` · Lv ${s.lv}` : ''}{s.where ? ` · ${s.where}` : ''}</span>
-        </div>
-      );
-    }
-    if (s.type === 'gather') {
-      return (
-        <div className="src-item" key={i}>
-          <span className="src-type gather">{strings.gather}</span>
-          <span>{s.where}</span>
-        </div>
-      );
-    }
-    if (s.type === 'craft') {
-      return (
-        <div className="src-item" key={i}>
-          <span className="src-type craft">{strings.craft}</span>
-          <span>{s.station}{s.recipe ? ` — ${s.recipe}` : ''}</span>
-        </div>
-      );
-    }
-    return (
-      <div className="src-item" key={i}>
-        <span className="src-type scroll">{strings.scroll}</span>
-        <span>{s.note}</span>
-      </div>
-    );
-  };
+  /* One source becomes one line in each of the three source columns. Splitting them into
+     real <td>s (rather than one blob per row) is what makes the page read as a table:
+     every "Source" pill lines up, every price lines up, and a long mob name can no longer
+     shove the price out of alignment. */
+  const parts = (r) =>
+    r.sources.map((s) => {
+      if (s.type === 'shop') {
+        const t = labels.town[s.town];
+        return {
+          kind: 'shop',
+          label: strings.shop,
+          where: t?.label || s.town,
+          status: t?.status,
+          price: s.price,
+          re: s.priceProvenance === 're-sheet',
+        };
+      }
+      if (s.type === 'drop')
+        return { kind: 'drop', label: strings.drop, where: s.mob, dim: [s.lv ? `Lv ${s.lv}` : '', s.where].filter(Boolean).join(' · ') };
+      if (s.type === 'gather') return { kind: 'gather', label: strings.gather, where: s.where };
+      if (s.type === 'craft') return { kind: 'craft', label: strings.craft, where: s.station, dim: s.recipe || '' };
+      return { kind: 'scroll', label: strings.scroll, where: s.note };
+    });
+
+  const statusLabel = (st) =>
+    st === 'open' ? strings.open : st === 'closed' ? strings.closed : st === 'not-in-re' ? strings.notInRe : strings.unverified;
 
   return (
     <>
@@ -126,16 +103,18 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
         <table className="t-materials">
           <thead>
             <tr>
-              <th style={{ width: 66 }}>{strings.rank}</th>
-              <th style={{ width: 260 }}>{strings.item}</th>
-              <th>{strings.source}</th>
+              <th className="th-num" style={{ width: 96 }}>{strings.rank}</th>
+              <th style={{ minWidth: 270 }}>{strings.item}</th>
+              <th style={{ width: 112 }}>{strings.sourceType}</th>
+              <th style={{ minWidth: 220 }}>{strings.where}</th>
+              <th style={{ width: 128, textAlign: 'right' }}>{strings.price}</th>
             </tr>
           </thead>
           <tbody>
             {grouped.map((g, i) =>
               g.group ? (
                 <tr className="group" key={`g-${i}`}>
-                  <td colSpan={3}>{g.group}</td>
+                  <td colSpan={5}>{g.group}</td>
                 </tr>
               ) : (
                 <tr key={g.row.id}>
@@ -148,10 +127,36 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                     {g.row.flags.cheapestOfFamily && <span className="badge b-kk">{strings.cheapest}</span>}
                     {g.row.flags.highestBuyable && <span className="badge b-verified" style={{ marginLeft: 5 }}>{strings.highest}</span>}
                     {g.row.flags.keyMaterial && <span className="badge b-reported" style={{ marginLeft: 5 }}>{strings.key}</span>}
+                    {g.row.note && <div className="mnote">{g.row.note}</div>}
                   </td>
-                  <td className="c-rc" data-l={strings.source}>
-                    <div className="src">{g.row.sources.map(srcLine)}</div>
-                    {g.row.note && <div style={{ marginTop: 6, fontSize: 12.5, color: 'var(--ink-soft)' }}>{g.row.note}</div>}
+                  <td className="c-src" data-l={strings.sourceType}>
+                    {parts(g.row).map((p, k) => (
+                      <span className="sl" key={k}>
+                        <span className={`src-type ${p.kind}`}>{p.label}</span>
+                      </span>
+                    ))}
+                  </td>
+                  <td className="c-where" data-l={strings.where}>
+                    {parts(g.row).map((p, k) => (
+                      <span className="sl sl-where" key={k} title={[p.where, p.dim].filter(Boolean).join(' · ')}>
+                        {/* repeated for the mobile card, where the type column is folded away */}
+                        <span className={`src-type inline ${p.kind}`}>{p.label}</span>
+                        {p.where}
+                        {p.dim ? <span className="dim"> · {p.dim}</span> : null}
+                        {p.kind === 'shop' && p.status !== 'open' && (
+                          <span className={`badge ${STATUS_CLASS[p.status] || 'b-unknown'}`} style={{ marginLeft: 6 }}>
+                            {statusLabel(p.status)}
+                          </span>
+                        )}
+                      </span>
+                    ))}
+                  </td>
+                  <td className="c-price" data-l={strings.price}>
+                    {parts(g.row).map((p, k) => (
+                      <span className="sl sl-price" key={k} title={p.price == null ? undefined : p.re ? strings.priceRe : strings.priceLegacy}>
+                        {p.price == null ? '' : p.re ? `${p.price}g` : <><span>{p.price}g</span><span className="legacy">*</span></>}
+                      </span>
+                    ))}
                   </td>
                 </tr>
               ),

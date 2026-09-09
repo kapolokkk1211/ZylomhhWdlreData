@@ -186,7 +186,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
         <table>
           <thead>
             <tr>
-              <th className="th-num" style={{ width: 78, cursor: 'pointer' }} onClick={() => toggleSort('rank')} title={strings.sort}>{strings.rank}{arrow('rank')}</th>
+              <th className="th-num" style={{ width: 96, cursor: 'pointer' }} onClick={() => toggleSort('rank')} title={strings.sort}>{strings.rank}{arrow('rank')}</th>
               <th className="th-num" style={{ width: 48 }}>{strings.lv}</th>
               <th style={{ minWidth: 300 }}>{strings.item}</th>
               <th style={{ width: 92 }}>{strings.slot}</th>
