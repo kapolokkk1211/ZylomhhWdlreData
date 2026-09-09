@@ -13,6 +13,8 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
   const [hi, setHi] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
   const [town, setTown] = useState('');
+  // This page is the shop index — the 74 materials no shop sells are one toggle away.
+  const [shopOnly, setShopOnly] = useState(true);
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
@@ -22,6 +24,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       if (fam && r.family !== fam) return false;
       if (r.rank < L || r.rank > H) return false;
       if (openOnly && !r.buyableNow) return false;
+      if (shopOnly && !r.sources.some((x) => x.type === 'shop')) return false;
       if (town && !r.sources.some((s) => s.type === 'shop' && s.town === town)) return false;
       if (term) {
         const towns = r.sources.map((s) => (s.town ? labels.town[s.town]?.label : '') + ' ' + (s.mob || '') + ' ' + (s.where || '') + ' ' + (s.station || '')).join(' ');
@@ -30,7 +33,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       }
       return true;
     });
-  }, [rows, q, fam, lo, hi, openOnly, town, labels]);
+  }, [rows, q, fam, lo, hi, openOnly, shopOnly, town, labels]);
 
   const grouped = useMemo(() => {
     const out = [];
@@ -52,25 +55,15 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
      real <td>s (rather than one blob per row) is what makes the page read as a table:
      every "Source" pill lines up, every price lines up, and a long mob name can no longer
      shove the price out of alignment. */
-  const parts = (r) =>
-    r.sources.map((s) => {
-      if (s.type === 'shop') {
+  /* Shops only. This is the ร้านค้า page — a Melting Furnace recipe or a monster drop in the
+     "sold at" column was noise, and with every row saying ร้านค้า the source column said nothing. */
+  const shops = (r) =>
+    r.sources
+      .filter((s) => s.type === 'shop')
+      .map((s) => {
         const t = labels.town[s.town];
-        return {
-          kind: 'shop',
-          label: strings.shop,
-          where: t?.label || s.town,
-          status: t?.status,
-          price: s.price,
-          re: s.priceProvenance === 're-sheet',
-        };
-      }
-      if (s.type === 'drop')
-        return { kind: 'drop', label: strings.drop, where: s.mob, dim: [s.lv ? `Lv ${s.lv}` : '', s.where].filter(Boolean).join(' · ') };
-      if (s.type === 'gather') return { kind: 'gather', label: strings.gather, where: s.where };
-      if (s.type === 'craft') return { kind: 'craft', label: strings.craft, where: s.station, dim: s.recipe || '' };
-      return { kind: 'scroll', label: strings.scroll, where: s.note };
-    });
+        return { where: t?.label || s.town, status: t?.status, price: s.price, re: s.priceProvenance === 're-sheet' };
+      });
 
   const statusLabel = (st) =>
     st === 'open' ? strings.open : st === 'closed' ? strings.closed : st === 'not-in-re' ? strings.notInRe : strings.unverified;
@@ -87,12 +80,16 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
           –
           <input type="number" min="0" max="30" value={hi} onChange={(e) => setHi(e.target.value)} placeholder={strings.rankTo} aria-label={strings.rankTo} />
         </span>
+        <label className="toggle" data-on={shopOnly ? '1' : '0'}>
+          <input type="checkbox" checked={shopOnly} onChange={(e) => setShopOnly(e.target.checked)} />
+          {strings.shopOnly}
+        </label>
         <label className="toggle" data-on={openOnly ? '1' : '0'} title={strings.openOnlyHelp}>
           <input type="checkbox" checked={openOnly} onChange={(e) => setOpenOnly(e.target.checked)} />
           {strings.openOnly}
         </label>
-        {(q || fam || town || lo || hi || openOnly) && (
-          <button type="button" className="toggle" onClick={() => { setQ(''); setFam(''); setTown(''); setLo(''); setHi(''); setOpenOnly(false); }}>
+        {(q || fam || town || lo || hi || openOnly || !shopOnly) && (
+          <button type="button" className="toggle" onClick={() => { setQ(''); setFam(''); setTown(''); setLo(''); setHi(''); setOpenOnly(false); setShopOnly(true); }}>
             {strings.reset}
           </button>
         )}
@@ -104,9 +101,8 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
           <thead>
             <tr>
               <th className="th-num" style={{ width: 96 }}>{strings.rank}</th>
-              <th style={{ minWidth: 270 }}>{strings.item}</th>
-              <th style={{ width: 112 }}>{strings.sourceType}</th>
-              <th style={{ minWidth: 220 }}>{strings.where}</th>
+              <th style={{ width: 360 }}>{strings.item}</th>
+              <th style={{ minWidth: 300 }}>{strings.where}</th>
               <th style={{ width: 128, textAlign: 'right' }}>{strings.price}</th>
             </tr>
           </thead>
@@ -114,7 +110,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
             {grouped.map((g, i) =>
               g.group ? (
                 <tr className="group" key={`g-${i}`}>
-                  <td colSpan={5}>{g.group}</td>
+                  <td colSpan={4}>{g.group}</td>
                 </tr>
               ) : (
                 <tr key={g.row.id}>
@@ -129,30 +125,22 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
                     {g.row.flags.keyMaterial && <span className="badge b-reported" style={{ marginLeft: 5 }}>{strings.key}</span>}
                     {g.row.note && <div className="mnote">{g.row.note}</div>}
                   </td>
-                  <td className="c-src" data-l={strings.sourceType}>
-                    {parts(g.row).map((p, k) => (
-                      <span className="sl" key={k}>
-                        <span className={`src-type ${p.kind}`}>{p.label}</span>
-                      </span>
-                    ))}
-                  </td>
                   <td className="c-where" data-l={strings.where}>
-                    {parts(g.row).map((p, k) => (
-                      <span className="sl sl-where" key={k} title={[p.where, p.dim].filter(Boolean).join(' · ')}>
-                        {/* repeated for the mobile card, where the type column is folded away */}
-                        <span className={`src-type inline ${p.kind}`}>{p.label}</span>
-                        {p.where}
-                        {p.dim ? <span className="dim"> · {p.dim}</span> : null}
-                        {p.kind === 'shop' && p.status !== 'open' && (
-                          <span className={`badge ${STATUS_CLASS[p.status] || 'b-unknown'}`} style={{ marginLeft: 6 }}>
+                    {shops(g.row).length === 0 ? (
+                      <span className="sl sl-where dim">{strings.noShop}</span>
+                    ) : (
+                      shops(g.row).map((p, k) => (
+                        <span className="sl sl-where" key={k} title={p.where}>
+                          {p.where}
+                          <span className={`badge ${STATUS_CLASS[p.status] || 'b-unknown'}`} style={{ marginLeft: 7 }}>
                             {statusLabel(p.status)}
                           </span>
-                        )}
-                      </span>
-                    ))}
+                        </span>
+                      ))
+                    )}
                   </td>
                   <td className="c-price" data-l={strings.price}>
-                    {parts(g.row).map((p, k) => (
+                    {shops(g.row).map((p, k) => (
                       <span className="sl sl-price" key={k} title={p.price == null ? undefined : p.re ? strings.priceRe : strings.priceLegacy}>
                         {p.price == null ? '' : p.re ? `${p.price}g` : <><span>{p.price}g</span><span className="legacy">*</span></>}
                       </span>
