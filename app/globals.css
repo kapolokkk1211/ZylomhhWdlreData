@@ -652,6 +652,7 @@ footer.site p { margin: 0 0 6px; max-width: 80ch; }
 .line-mat-drop { background: var(--warn-bg); color: var(--warn); }
 .line-mat-gather { background: var(--good-bg); color: var(--good); }
 .line-mat-scroll { background: var(--star-bg); color: var(--star); }
+.line-mat-unknown { background: var(--surface-3); color: var(--ink-faint); }
 
 /* ======================================================================
    MOBILE LAYOUT — keyed off html[data-view="mobile"], which is set either

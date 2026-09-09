@@ -61,10 +61,16 @@ const spot=[
  ['China Fishing Village and Bangkok opened in the 2026-09 patch',()=>['china','bangkok'].every(k=>towns.find(t=>t.key===k)?.thStatus==='open')],
  ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
  ['Hawaii is flagged not-in-re',()=>towns.find(t=>t.key==='hawaii').thStatus==='not-in-re'],
+ ['Every family with rank-1 content has a row on the compound page',()=>{
+   const seen=new Set(); for(const m of mats) seen.add(m.family+':'+m.rank);
+   for(const c of comp) seen.add(c.family+':'+c.rank);
+   return ['Copper:1','Wood:1','Grass:1','Flower:1','Feather:1','Coal:1','Gum:1','Leaf:1','Leather:1','Water:1','Cluster:1'].every(k=>seen.has(k));
+ }],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],
 ];
 console.log('=== SCHEMA ===');
-console.log('compounds',comp.length,'| materials',mats.length,'| quests',quests.length,'| towns',towns.length,
+const noSrc=mats.filter(m=>!m.sources.length).length;
+console.log('compounds',comp.length,'| materials',mats.length,`(${noSrc} with no source yet)`,'| quests',quests.length,'| towns',towns.length,
  '| glossary',Object.values(gloss).flat().length,'| families',codes.families.length);
 console.log('errors:',err.length); err.slice(0,20).forEach(e=>console.log('  ✗',e));
 console.log('warnings:',warn.length); warn.slice(0,10).forEach(w=>console.log('  ⚠',w));

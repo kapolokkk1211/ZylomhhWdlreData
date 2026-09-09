@@ -256,6 +256,27 @@ const OVERRIDES = {
   'Delicate White Jade': 'หยกขาวประณีต', 'Delicate Red Jade': 'หยกแดงประณีต', 'Delicate Diamond': 'เพชรประณีต',
   'Star Dust (elemental) 星耀之塵': 'ผงดาราแห่งธาตุ (空/水/火/地/風)', 'Copper Sand / Copper': 'ทรายทองแดง / ทองแดง',
   'Iron Sand': 'ทรายเหล็ก', 'Iron Material': 'วัสดุเหล็ก', 'Copper Material': 'วัสดุทองแดง',
+  // Base materials recovered from wlopedia (see KB 22-base-material-ladder-research.md).
+  // Written by hand — the compositional translator has no dictionary for plant, hide or water words.
+  'Sugar': 'น้ำตาล', 'Chrysanthemum': 'ดอกเบญจมาศ', 'Yaro Safflower': 'ดอกคำฝอย', 'Orchid': 'กล้วยไม้',
+  'Alocasia Macrorrhiza': 'บอนยักษ์', 'Sunflower': 'ทานตะวัน', 'Small Daisy': 'เดซี่เล็ก',
+  'Pollen': 'เกสรดอกไม้', 'Nectar': 'น้ำหวานดอกไม้', 'Fruit Pollen': 'เกสรผลไม้',
+  'Persian Mum': 'เบญจมาศเปอร์เซีย', 'Fruit Nectar': 'น้ำหวานผลไม้', 'Soft Bine': 'เถาวัลย์อ่อน',
+  'Tobacco': 'ใบยาสูบ', 'Tea': 'ใบชา', 'Daphne': 'ต้นดาฟเน', 'Reed': 'ต้นอ้อ', 'Areca': 'ใบหมาก',
+  'Turpentine': 'ยางสน', 'Pine': 'ใบสน', 'River Boy Leaf': 'ใบไม้ของกัปปะ', 'Oolong Tea': 'ชาอูหลง',
+  'Jade Tea': 'ชาหยก',
+  'Dry Skin': 'หนังแห้ง', 'Dog Skin': 'หนังสุนัข', 'Hedgehog Fur': 'ขนเม่น', 'Pig Skin': 'หนังหมู',
+  'Goatskin': 'หนังแพะ', 'Capeskin': 'หนังแพะฟอก', 'Black Sheepskin': 'หนังแกะดำ',
+  'White Sheepskin': 'หนังแกะขาว', 'Deerskin': 'หนังกวาง', 'Buffalo Skin': 'หนังควาย',
+  'Small Buffalo Skin': 'หนังควายเล็ก', 'Scalper Skin': 'หนังวัวเหลือง',
+  'Small Scalper Skin': 'หนังวัวเหลืองเล็ก', 'Urus Skin': 'หนังกระทิง', 'Small Urus Skin': 'หนังกระทิงเล็ก',
+  'Dinosaur Fur': 'ขนไดโนเสาร์', 'Northern Tiger Skin': 'หนังเสือเหนือ', 'Delicate Leather': 'หนังฟอกประณีต',
+  'Rough Nylon': 'ไนลอนหยาบ', 'Weave Nylon': 'ไนลอนถัก', 'Delicate Nylon': 'ไนลอนประณีต',
+  'Magnet': 'แม่เหล็ก', 'Magnetic Powder': 'ผงแม่เหล็ก', 'White Silvery Ore': 'แร่เงินขาว',
+  'White Silvery': 'เงินขาว', 'Pure Iron Fillet': 'แผ่นเหล็กบริสุทธิ์', 'Delicate Hematite': 'เหล็กแดงประณีต',
+  'Silicon': 'ซิลิคอน', 'Silvery Sand': 'ทรายเงิน', 'Bullion (Silver)': 'แท่งเงิน',
+  'Fresh Water': 'น้ำจืด', 'Boiled Water': 'น้ำต้มสุก', 'Distilled Water': 'น้ำกลั่น',
+  'Bottled Boiled Water': 'น้ำต้มสุกบรรจุขวด', 'Bottled Hot Water': 'น้ำร้อนบรรจุขวด',
 };
 
 const CONFIRMED = new Set(['Star Dust · Sky', 'Steel Blade', 'White Feather Earrings']);

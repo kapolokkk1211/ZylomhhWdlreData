@@ -650,7 +650,7 @@
   "statsRaw": "ATK+16 SPD+14",
   "recipe": {
    "en": "Buy — China",
-   "th": "ซื้อ — จีน"
+   "th": "ซื้อ — หมู่บ้านประมงจีน"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2324,7 +2324,7 @@
   "statsRaw": "ATK+8 SPD+14",
   "recipe": {
    "en": "Buy — India",
-   "th": "ซื้อ — อินเดีย"
+   "th": "ซื้อ — การ์กาตา"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2460,7 +2460,7 @@
   "statsRaw": "ATK+18 DEF+10",
   "recipe": {
    "en": "Buy — China",
-   "th": "ซื้อ — จีน"
+   "th": "ซื้อ — หมู่บ้านประมงจีน"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -5213,7 +5213,7 @@
   "statsRaw": "ATK+30",
   "recipe": {
    "en": "Buy — China",
-   "th": "ซื้อ — จีน"
+   "th": "ซื้อ — หมู่บ้านประมงจีน"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -6464,7 +6464,7 @@
   "statsRaw": "ATK+10 SPD+10",
   "recipe": {
    "en": "Buy — India",
-   "th": "ซื้อ — อินเดีย"
+   "th": "ซื้อ — การ์กาตา"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -6528,7 +6528,7 @@
   "statsRaw": "DEF+10",
   "recipe": {
    "en": "Buy — India",
-   "th": "ซื้อ — อินเดีย"
+   "th": "ซื้อ — การ์กาตา"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -8873,7 +8873,7 @@
   "statsRaw": "MDEF+7 MATK+4",
   "recipe": {
    "en": "Buy — India; or Gold Ore + r9 Meat",
-   "th": "ซื้อ — อินเดีย · or Gold Ore + Meat r9"
+   "th": "ซื้อ — การ์กาตา · or Gold Ore + Meat r9"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -10987,7 +10987,7 @@
   "statsRaw": "MATK+11 MDEF+11",
   "recipe": {
    "en": "Buy — India",
-   "th": "ซื้อ — อินเดีย"
+   "th": "ซื้อ — การ์กาตา"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -13471,7 +13471,7 @@
   "statsRaw": "MATK+14 MDEF+14",
   "recipe": {
    "en": "Buy — China",
-   "th": "ซื้อ — จีน"
+   "th": "ซื้อ — หมู่บ้านประมงจีน"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -15714,7 +15714,7 @@
   "statsRaw": "MATK+11",
   "recipe": {
    "en": "Flower + Leaf, e.g. Cotton Gloves + Laurel",
-   "th": "กี่เพ้าดอกไม้แดง + ไม้เท้าใบไม้แท้ · e.g. Cotton Gloves + มงกุฎใบไม้"
+   "th": "ดอกไม้ขาว + ใบไม้จิ้งจอก · e.g. Cotton Gloves + มงกุฎใบไม้"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -15820,7 +15820,7 @@
   "statsRaw": "SPD+7 MDEF+5",
   "recipe": {
    "en": "Flower + Grass, e.g. Cotton Gloves + Fire Hemp Shoes",
-   "th": "กี่เพ้าดอกไม้แดง + รองเท้าหญ้า · e.g. Cotton Gloves + รองเท้าป่านไฟ"
+   "th": "ดอกไม้ขาว + รองเท้าหญ้า · e.g. Cotton Gloves + รองเท้าป่านไฟ"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -15886,7 +15886,7 @@
   "statsRaw": "SPD+10 MDEF+3",
   "recipe": {
    "en": "Flower + Grass, e.g. Copper Guards + Magic Cloth Hat",
-   "th": "กี่เพ้าดอกไม้แดง + รองเท้าหญ้า · e.g. Copper Guards + หมวกผ้าเวท"
+   "th": "ดอกไม้ขาว + รองเท้าหญ้า · e.g. Copper Guards + หมวกผ้าเวท"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -15954,7 +15954,7 @@
   "statsRaw": "MATK+9 DEF+4",
   "recipe": {
    "en": "Buy — China",
-   "th": "ซื้อ — จีน"
+   "th": "ซื้อ — หมู่บ้านประมงจีน"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18093,7 +18093,7 @@
   "statsRaw": "SPD+6",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18152,7 +18152,7 @@
   "statsRaw": "DEF+5 SPD+2",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18216,7 +18216,7 @@
   "statsRaw": "MATK+8",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18247,7 +18247,7 @@
   "statsRaw": "MDEF+9",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18280,7 +18280,7 @@
   "statsRaw": "DEF+5 MDEF+5",
   "recipe": {
    "en": "Buy — India",
-   "th": "ซื้อ — อินเดีย"
+   "th": "ซื้อ — การ์กาตา"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18340,7 +18340,7 @@
   "statsRaw": "DEF+10",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18466,7 +18466,7 @@
   "statsRaw": "DEF+11",
   "recipe": {
    "en": "Leather + Flower; scales with equip rank (untested)",
-   "th": "ถุงมือหนัง + กี่เพ้าดอกไม้แดง · เพิ่มตามเลเวลไอเทม (untested)"
+   "th": "ถุงมือหนัง + ดอกไม้ขาว · เพิ่มตามเลเวลไอเทม (untested)"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -20070,7 +20070,7 @@
   "statsRaw": "MDEF+2 MATK+1",
   "recipe": {
    "en": "Crystal + Flower; Pink Crystal Laurel + Cat Headdress (usually drops rank; Primary alchemy better)",
-   "th": "หมวกเกราะคริสตัล + กี่เพ้าดอกไม้แดง · มงกุฎคริสตัลชมพู + เครื่องประดับศีรษะแมว (usually drops rank; Primary alchemy better)"
+   "th": "หมวกเกราะคริสตัล + ดอกไม้ขาว · มงกุฎคริสตัลชมพู + เครื่องประดับศีรษะแมว (usually drops rank; Primary alchemy better)"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -20877,7 +20877,7 @@
   "statsRaw": "MATK+20",
   "recipe": {
    "en": "Diamond + no secondary",
-   "th": "สร้อยคอเพชร + ไม่มีวัสดุรอง"
+   "th": "เพชร + ไม่มีวัสดุรอง"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -20934,7 +20934,7 @@
   "statsRaw": "MATK+18 MDEF+6",
   "recipe": {
    "en": "Diamond + no secondary; r40 Black Diamond Earring + r38 White Spirit Ring + book",
-   "th": "สร้อยคอเพชร + ไม่มีวัสดุรอง · r40 Black Diamond Earring + r38 White Spirit Ring + หนังสือเล่นแร่"
+   "th": "เพชร + ไม่มีวัสดุรอง · r40 Black Diamond Earring + r38 White Spirit Ring + หนังสือเล่นแร่"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -24420,7 +24420,7 @@
   "statsRaw": "—",
   "recipe": {
    "en": "Crab / River Boy, low drop rate",
-   "th": "กรงเล็บปู / River Boy · low drop rate"
+   "th": "กรงเล็บปู / River Boy Leaf · low drop rate"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -25384,7 +25384,7 @@
   "statsRaw": "DEF+9 SPD+5",
   "recipe": {
    "en": "11★+11 Iron (Indian Sabre) · buy India",
-   "th": "ประกายดาว r11 + เหล็ก r11 (Indian Sabre) · ซื้อ — อินเดีย"
+   "th": "ประกายดาว r11 + เหล็ก r11 (Indian Sabre) · ซื้อ — การ์กาตา"
   },
   "line": "phys",
   "band": "Early — Star + Grass / Iron",

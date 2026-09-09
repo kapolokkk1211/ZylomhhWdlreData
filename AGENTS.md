@@ -17,7 +17,9 @@ no auth. Deployed on Vercel from `main` — every push to `main` goes live in ab
 content/data/          ← the entire data layer. Edit these, not the components.
   compounds.json         853 rows: 761 compendium + 92 Star family. The compound TABLE also
                          folds in materials.json rows (ids mat:*) that aren't already in it — 939 rows on screen
-  materials.json         178 rows: family × rank → where to get it
+  materials.json         265 rows: family × rank → where to get it. 87 of them (added 2026-09-09
+                         from wlopedia) have `sources: []` — the item and its rank are known, where
+                         it comes from is not. That is deliberate; fill one in when you learn it
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
   glossary.json          71 terms (no page any more; kept as reference data)
@@ -38,9 +40,10 @@ app/[lang]/quests      ← quest lists by category, one filter + a hover-to-read
 app/[lang]/about       ← the old home page: rules, trust tags, sources
 components/            ← CompoundTable, MaterialTable, QuestTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.
-scripts/extraction/    ← one-time builders. th_names.mjs translates item names; th_recipes.mjs then
-                         rewrites every recipe.th from the parsed English recipe using those names.
-                         Re-run both (in that order) after adding rows or fixing a name.
+scripts/extraction/    ← one-time builders. wlopedia_materials.mjs appends the base-material ladder;
+                         th_names.mjs translates item names; th_recipes.mjs then rewrites every
+                         recipe.th from the parsed English recipe using those names.
+                         Re-run the last two (in that order) after adding rows or fixing a name.
 ```
 
 ## The correction protocol
@@ -80,6 +83,12 @@ from `scripts/extraction/th_names.mjs` (head noun first, modifiers after, neares
 a name in-client, set `name.th` to the exact client string and `thConfirmed: true`. Getting this wrong
 is worse than leaving a row in English — a player who cannot find your Thai name in their client
 loses trust in every other row.
+
+**A material with no source is fine; a material with a made-up source is not.** 87 rows carry
+`sources: []` and render as "ยังไม่ทราบแหล่งที่มา". The compound page needed the low ranks — rank 1
+went from 6 items to 23 — and inventing a shop or a drop mob to fill the column would have been
+worse than an honest blank. The Thai names for these are hand-written in `th_names.mjs`'s OVERRIDES,
+not composed, because the translator has no dictionary for plant, hide and water words.
 
 **Never silently fix a contradiction in the source.** Two rows have `lvAnomaly: true` because
 the source sheet's equip level disagrees with `rank × 2`. Flag; do not correct. If KK verifies

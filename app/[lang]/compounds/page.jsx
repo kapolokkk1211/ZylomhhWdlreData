@@ -35,6 +35,7 @@ export default async function Compounds({ params }) {
             all: s.star.all, magic: s.star.magic, phys: s.star.phys, mat: s.star.mat,
             'mat-craft': s.materials.craft, 'mat-shop': s.materials.shop, 'mat-drop': s.materials.drop,
             'mat-gather': s.materials.gather, 'mat-scroll': s.materials.scroll,
+            'mat-unknown': s.materials.unknownSource,
           },
           bands: s.star.bands,
         }}

@@ -1,5 +1,430 @@
 [
  {
+  "id": "alum-r3-aluminium-ore",
+  "family": "Alum",
+  "rank": 3,
+  "name": {
+   "en": "Aluminium Ore",
+   "cn": "鋁礦",
+   "th": "แร่อะลูมิเนียม"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Rock Monster",
+    "lv": 3,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "No shop sells aluminium at any rank",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "alum-r5-aluminium-block",
+  "family": "Alum",
+  "rank": 5,
+  "name": {
+   "en": "Aluminium Block",
+   "cn": "鋁塊",
+   "th": "ก้อนอะลูมิเนียม"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "alum-r6-aluminium-plate",
+  "family": "Alum",
+  "rank": 6,
+  "name": {
+   "en": "Aluminium Plate",
+   "cn": "鋁板",
+   "th": "แผ่นอะลูมิเนียม"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Anvil",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "alum-r7-hard-aluminium-plate",
+  "family": "Alum",
+  "rank": 7,
+  "name": {
+   "en": "Hard Aluminium Plate",
+   "cn": "硬鋁板",
+   "th": "แผ่นอะลูมิเนียมแข็ง"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Anvil",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "alum-r16-airship-steering-device",
+  "family": "Alum",
+  "rank": 16,
+  "name": {
+   "en": "Airship Steering Device",
+   "cn": "飛船轉舵裝置",
+   "th": "อุปกรณ์บังคับเรือเหาะ"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Rope Saw",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r4-beast-bone",
+  "family": "Bone",
+  "rank": 4,
+  "name": {
+   "en": "Beast Bone",
+   "cn": "獸骨",
+   "th": "กระดูกสัตว์ร้าย"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Wild Wolf",
+    "lv": 15,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Wild Wolf",
+    "lv": 30,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r6-dinosaur-fang",
+  "family": "Bone",
+  "rank": 6,
+  "name": {
+   "en": "Dinosaur Fang",
+   "cn": "恐龍牙",
+   "th": "เขี้ยวไดโนเสาร์"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Velociraptor",
+    "lv": 59,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r11-black-bone-axe",
+  "family": "Bone",
+  "rank": 11,
+  "name": {
+   "en": "Black Bone Axe",
+   "cn": "黑骨斧",
+   "th": "ขวานกระดูกดำ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 320,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r16-dragon-fang",
+  "family": "Bone",
+  "rank": 16,
+  "name": {
+   "en": "Dragon Fang",
+   "cn": "龍牙",
+   "th": "เขี้ยวมังกร"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Velociraptor",
+    "lv": 59,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r20-wolf-fang",
+  "family": "Bone",
+  "rank": 20,
+  "name": {
+   "en": "Wolf Fang",
+   "cn": "狼牙",
+   "th": "เขี้ยวหมาป่า"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Snow Wolf",
+    "lv": 60,
+    "where": "Antarctica",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": true,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⭐ The single most-used catalyst in the recipe book. Antarctica is open on TH",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "bone-r20-snake-fang",
+  "family": "Bone",
+  "rank": 20,
+  "name": {
+   "en": "Snake Fang",
+   "cn": "蛇牙",
+   "th": "เขี้ยวงู"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "snakes",
+    "lv": 50,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "cluster-r1-sugar",
+  "family": "Cluster",
+  "rank": 1,
+  "name": {
+   "en": "Sugar",
+   "cn": null,
+   "th": "น้ำตาล"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "coal-r1-coal-ore",
+  "family": "Coal",
+  "rank": 1,
+  "name": {
+   "en": "Coal Ore",
+   "cn": "煤礦",
+   "th": "แร่ถ่านหิน"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Little Ant",
+    "lv": 3,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Rock Skin Ant",
+    "lv": 30,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "gather",
+    "where": "Kelan Cave",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "coal-r4-coal",
+  "family": "Coal",
+  "rank": 4,
+  "name": {
+   "en": "Coal",
+   "cn": "煤",
+   "th": "ถ่านหิน"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "coal-r7-coal-block",
+  "family": "Coal",
+  "rank": 7,
+  "name": {
+   "en": "Coal Block",
+   "cn": "煤塊",
+   "th": "ก้อนถ่านหิน"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
   "id": "copper-r1-copper-ore",
   "family": "Copper",
   "rank": 1,
@@ -460,6 +885,1671 @@
   "updated": "2026-09-07"
  },
  {
+  "id": "crystal-r5-pink-crystal",
+  "family": "Crystal",
+  "rank": 5,
+  "name": {
+   "en": "Pink Crystal",
+   "cn": "粉晶",
+   "th": "ผลึกชมพู"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Earth Rock Monster",
+    "lv": 3,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Lv3 mob drops a rank-5 gem — the cheapest crystal in the game",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "crystal-r9-blue-crystal-mage-staff",
+  "family": "Crystal",
+  "rank": 9,
+  "name": {
+   "en": "Blue Crystal Mage Staff",
+   "cn": "藍水晶法杖",
+   "th": "ไม้เท้าเมจคริสตัลน้ำเงิน"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 240,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "crystal-r14-radiance-earring",
+  "family": "Crystal",
+  "rank": 14,
+  "name": {
+   "en": "Radiance Earring",
+   "cn": "光輝耳環",
+   "th": "ต่างหูรัศมี"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "changan",
+    "price": 460,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "diamond-r8-gem-necklace-diamond-necklace",
+  "family": "Diamond",
+  "rank": 8,
+  "name": {
+   "en": "Gem Necklace / Diamond Necklace",
+   "cn": "鑽石項鍊",
+   "th": "สร้อยคออัญมณี / สร้อยคอเพชร"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "bangkok",
+    "price": 200,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Absurdly cheap for a gem family",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "diamond-r10-diamond",
+  "family": "Diamond",
+  "rank": 10,
+  "name": {
+   "en": "Diamond",
+   "cn": null,
+   "th": "เพชร"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "diamond-r14-delicate-diamond",
+  "family": "Diamond",
+  "rank": 14,
+  "name": {
+   "en": "Delicate Diamond",
+   "cn": "精緻鑽石",
+   "th": "เพชรประณีต"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "diamond-r16-stag-earring",
+  "family": "Diamond",
+  "rank": 16,
+  "name": {
+   "en": "Stag Earring",
+   "cn": "雄鹿耳環",
+   "th": "ต่างหูกวาง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "whale-island",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "diamond-r21-pure-diamond",
+  "family": "Diamond",
+  "rank": 21,
+  "name": {
+   "en": "Pure Diamond",
+   "cn": "無暇鑽石",
+   "th": "เพชรบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": true,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⭐ One of only three rank-21 materials",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "feather-r1-funny-feather",
+  "family": "Feather",
+  "rank": 1,
+  "name": {
+   "en": "Funny Feather",
+   "cn": "趣味羽毛",
+   "th": "ขนนกตลก"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Chicken",
+    "lv": 13,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Vulture",
+    "lv": 51,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "feather-r6-swallow-feather",
+  "family": "Feather",
+  "rank": 6,
+  "name": {
+   "en": "Swallow Feather",
+   "cn": "燕羽",
+   "th": "ขนนกนางแอ่น"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "persia",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "feather-r10-eagle-feather",
+  "family": "Feather",
+  "rank": 10,
+  "name": {
+   "en": "Eagle Feather",
+   "cn": "鷹羽",
+   "th": "ขนนกอินทรี"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "yamataikoku",
+    "price": 280,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r1-cotton-cotton-thread",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Cotton / Cotton Thread",
+   "cn": "棉/棉線",
+   "th": "ฝ้าย / ด้ายฝ้าย"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Cirrus",
+    "lv": 41,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Yellow Triceratops",
+    "lv": 69,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "craft",
+    "station": "Spinning Wheel",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r1-rose",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Rose",
+   "cn": null,
+   "th": "กุหลาบ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-chrysanthemum",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Chrysanthemum",
+   "cn": null,
+   "th": "ดอกเบญจมาศ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-yaro-safflower",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Yaro Safflower",
+   "cn": null,
+   "th": "ดอกคำฝอย"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-orchid",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Orchid",
+   "cn": null,
+   "th": "กล้วยไม้"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-alocasia-macrorrhiza",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Alocasia Macrorrhiza",
+   "cn": null,
+   "th": "บอนยักษ์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-sunflower",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Sunflower",
+   "cn": null,
+   "th": "ทานตะวัน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-small-daisy",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Small Daisy",
+   "cn": null,
+   "th": "เดซี่เล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-blue-wild-flower",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Blue Wild Flower",
+   "cn": null,
+   "th": "ดอกไม้ป่าน้ำเงิน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r1-pollen",
+  "family": "Flower",
+  "rank": 1,
+  "name": {
+   "en": "Pollen",
+   "cn": null,
+   "th": "เกสรดอกไม้"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r2-headband",
+  "family": "Flower",
+  "rank": 2,
+  "name": {
+   "en": "Headband",
+   "cn": "頭帶",
+   "th": "ผ้าคาดหัว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "welling",
+    "price": 20,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r2-white-flower",
+  "family": "Flower",
+  "rank": 2,
+  "name": {
+   "en": "White Flower",
+   "cn": null,
+   "th": "ดอกไม้ขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r2-nectar",
+  "family": "Flower",
+  "rank": 2,
+  "name": {
+   "en": "Nectar",
+   "cn": null,
+   "th": "น้ำหวานดอกไม้"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r2-fruit-pollen",
+  "family": "Flower",
+  "rank": 2,
+  "name": {
+   "en": "Fruit Pollen",
+   "cn": null,
+   "th": "เกสรผลไม้"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r3-persian-mum",
+  "family": "Flower",
+  "rank": 3,
+  "name": {
+   "en": "Persian Mum",
+   "cn": null,
+   "th": "เบญจมาศเปอร์เซีย"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r3-fruit-nectar",
+  "family": "Flower",
+  "rank": 3,
+  "name": {
+   "en": "Fruit Nectar",
+   "cn": null,
+   "th": "น้ำหวานผลไม้"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r4-red-flower",
+  "family": "Flower",
+  "rank": 4,
+  "name": {
+   "en": "Red Flower",
+   "cn": null,
+   "th": "ดอกไม้แดง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r5-light-cloth-robe",
+  "family": "Flower",
+  "rank": 5,
+  "name": {
+   "en": "Light Cloth Robe",
+   "cn": "輕布衣",
+   "th": "เสื้อคลุมผ้าเบา"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "holy",
+    "price": 100,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r6-golden-flower",
+  "family": "Flower",
+  "rank": 6,
+  "name": {
+   "en": "Golden Flower",
+   "cn": null,
+   "th": "ดอกไม้ทอง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r10-white-rose",
+  "family": "Flower",
+  "rank": 10,
+  "name": {
+   "en": "White Rose",
+   "cn": null,
+   "th": "กุหลาบขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r12-water-mage-gloves",
+  "family": "Flower",
+  "rank": 12,
+  "name": {
+   "en": "Water Mage Gloves",
+   "cn": "水法手套",
+   "th": "ถุงมือเมจน้ำ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "easter-island",
+    "price": 370,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r13-qipao-warm-cloth-robe",
+  "family": "Flower",
+  "rank": 13,
+  "name": {
+   "en": "Qipao / Warm Cloth Robe",
+   "cn": "旗袍/保暖布衣",
+   "th": "กี่เพ้า / เสื้อคลุมผ้าอุ่น"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "china",
+    "price": 410,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   },
+   {
+    "type": "shop",
+    "town": "antarctica",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r14-purple-rose",
+  "family": "Flower",
+  "rank": 14,
+  "name": {
+   "en": "Purple Rose",
+   "cn": null,
+   "th": "กุหลาบม่วง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "flower-r15-white-spirit-gloves-cotton-silk-robe",
+  "family": "Flower",
+  "rank": 15,
+  "name": {
+   "en": "White Spirit Gloves / Cotton Silk Robe",
+   "cn": "白靈手套/棉綢法袍",
+   "th": "ถุงมือวิญญาณขาว / เสื้อคลุมไหมฝ้าย"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   },
+   {
+    "type": "shop",
+    "town": "korea",
+    "price": 510,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "flower-r16-silk-qipao",
+  "family": "Flower",
+  "rank": 16,
+  "name": {
+   "en": "Silk Qipao",
+   "cn": "蠶絲旗袍",
+   "th": "กี่เพ้าไหม"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": 560,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "fur-r3-sheepskin",
+  "family": "Fur",
+  "rank": 3,
+  "name": {
+   "en": "Sheepskin",
+   "cn": "羊皮",
+   "th": "หนังแกะ"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Sheep",
+    "lv": 45,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "fur-r6-white-fox-fur",
+  "family": "Fur",
+  "rank": 6,
+  "name": {
+   "en": "White Fox Fur",
+   "cn": "白狐毛皮",
+   "th": "ขนสัตว์จิ้งจอกขาว"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Snow Fox",
+    "lv": 65,
+    "where": "Iceberg",
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Silver Fox",
+    "lv": 66,
+    "where": "Iceberg",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "fur-r13-fur-boots",
+  "family": "Fur",
+  "rank": 13,
+  "name": {
+   "en": "Fur Boots",
+   "cn": "毛皮靴",
+   "th": "รองเท้าบู๊ตขนสัตว์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "antarctica",
+    "price": 410,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Skin/Fur dual. Antarctica is open on TH",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r5-emerald",
+  "family": "Gem",
+  "rank": 5,
+  "name": {
+   "en": "Emerald",
+   "cn": "翠玉",
+   "th": "มรกต"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "yamataikoku",
+    "price": 100,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r5-sapphire",
+  "family": "Gem",
+  "rank": 5,
+  "name": {
+   "en": "Sapphire",
+   "cn": null,
+   "th": "ไพลิน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "gem-r5-ruby",
+  "family": "Gem",
+  "rank": 5,
+  "name": {
+   "en": "Ruby",
+   "cn": null,
+   "th": "ทับทิม"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "gem-r9-green-jewel-staff",
+  "family": "Gem",
+  "rank": 9,
+  "name": {
+   "en": "Green Jewel Staff",
+   "cn": "綠寶石之杖",
+   "th": "ไม้เท้าอัญมณีเขียว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 240,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r12-pure-sapphire",
+  "family": "Gem",
+  "rank": 12,
+  "name": {
+   "en": "Pure Sapphire",
+   "cn": "純藍寶石",
+   "th": "ไพลินบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r13-pure-ruby",
+  "family": "Gem",
+  "rank": 13,
+  "name": {
+   "en": "Pure Ruby",
+   "cn": "純紅寶石",
+   "th": "ทับทิมบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r16-flawless-sapphire",
+  "family": "Gem",
+  "rank": 16,
+  "name": {
+   "en": "Flawless Sapphire",
+   "cn": "無暇藍寶石",
+   "th": "ไพลินไร้ตำหนิ"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": true,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Real bottleneck — buy from players",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gem-r17-flawless-ruby",
+  "family": "Gem",
+  "rank": 17,
+  "name": {
+   "en": "Flawless Ruby",
+   "cn": "無暇紅寶石",
+   "th": "ทับทิมไร้ตำหนิ"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": true,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r9-turquoise-staff",
+  "family": "Gold",
+  "rank": 9,
+  "name": {
+   "en": "Turquoise Staff",
+   "cn": "綠松石杖",
+   "th": "ไม้เท้าเทอร์ควอยซ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 240,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r11-gem-necklace",
+  "family": "Gold",
+  "rank": 11,
+  "name": {
+   "en": "Gem Necklace",
+   "cn": "寶石項鍊",
+   "th": "สร้อยคออัญมณี"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "india",
+    "price": 320,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "The gold ladder entry point",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r11-gold-ore",
+  "family": "Gold",
+  "rank": 11,
+  "name": {
+   "en": "Gold Ore",
+   "cn": "金礦",
+   "th": "แร่ทอง"
+  },
+  "sources": [
+   {
+    "type": "gather",
+    "where": "Pleasure Island",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r12-gold-sand",
+  "family": "Gold",
+  "rank": 12,
+  "name": {
+   "en": "Gold Sand",
+   "cn": "金沙",
+   "th": "ทรายทอง"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Hot Kiln",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r13-gold-block",
+  "family": "Gold",
+  "rank": 13,
+  "name": {
+   "en": "Gold Block",
+   "cn": "金塊",
+   "th": "ก้อนทอง"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Hot Kiln",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r18-gold-dragon-greatblade",
+  "family": "Gold",
+  "rank": 18,
+  "name": {
+   "en": "Gold Dragon Greatblade",
+   "cn": "金龍大刀",
+   "th": "ดาบใหญ่มังกรทอง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "whale-island",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "gold-r18-refined-gold-block",
+  "family": "Gold",
+  "rank": 18,
+  "name": {
+   "en": "Refined Gold Block",
+   "cn": "粹煉金塊",
+   "th": "ก้อนทองบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "scroll",
+    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r1-harl-grass-linen-thread",
+  "family": "Grass",
+  "rank": 1,
+  "name": {
+   "en": "Harl Grass / Linen Thread",
+   "cn": "草/亞麻線",
+   "th": "หญ้าฮาร์ล / ด้ายลินิน"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Cirrus",
+    "lv": 41,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Tender Cirrus",
+    "lv": 35,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "craft",
+    "station": "Spinning Wheel",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r2-common-paper-vine-grass",
+  "family": "Grass",
+  "rank": 2,
+  "name": {
+   "en": "Common / Paper / Vine Grass",
+   "cn": "普通草/紙草/藤草",
+   "th": "หญ้าธรรมดา / หญ้ากระดาษ / หญ้าเถา"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Cirrus",
+    "lv": 41,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r3-straw-sandals",
+  "family": "Grass",
+  "rank": 3,
+  "name": {
+   "en": "Straw Sandals",
+   "cn": "草鞋",
+   "th": "รองเท้าแตะฟาง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "welling",
+    "price": 30,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r3-soft-bine",
+  "family": "Grass",
+  "rank": 3,
+  "name": {
+   "en": "Soft Bine",
+   "cn": null,
+   "th": "เถาวัลย์อ่อน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "grass-r6-priest-hat",
+  "family": "Grass",
+  "rank": 6,
+  "name": {
+   "en": "Priest Hat",
+   "cn": "神職帽",
+   "th": "หมวกนักบวช"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "maya",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r6-purple-grass",
+  "family": "Grass",
+  "rank": 6,
+  "name": {
+   "en": "Purple Grass",
+   "cn": "紫草",
+   "th": "หญ้าม่วง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "changan",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r10-emerald-headband",
+  "family": "Grass",
+  "rank": 10,
+  "name": {
+   "en": "Emerald Headband",
+   "cn": "翠綠頭帶",
+   "th": "ผ้าคาดหัวมรกต"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "bangkok",
+    "price": 280,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r13-red-flower-qipao",
+  "family": "Grass",
+  "rank": 13,
+  "name": {
+   "en": "Red Flower Qipao",
+   "cn": "紅花旗袍",
+   "th": "กี่เพ้าดอกไม้แดง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "changan",
+    "price": 400,
+    "priceProvenance": "re-sheet",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": true
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r16-black-witch-hat",
+  "family": "Grass",
+  "rank": 16,
+  "name": {
+   "en": "Black Witch Hat",
+   "cn": "黑巫法帽",
+   "th": "หมวกแม่มดดำ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "whale-island",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "grass-r18-fine-grass",
+  "family": "Grass",
+  "rank": 18,
+  "name": {
+   "en": "Fine Grass",
+   "cn": "上等草",
+   "th": "หญ้าชั้นดี"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⚠️ Legacy only — no Hawaii shop exists in Re. Use the alchemy scroll route",
+  "updated": "2026-09-07"
+ },
+ {
   "id": "iron-r2-capacitance-resistance",
   "family": "Iron",
   "rank": 2,
@@ -903,6 +2993,2751 @@
   "updated": "2026-09-07"
  },
  {
+  "id": "jade-r5-white-jade",
+  "family": "Jade",
+  "rank": 5,
+  "name": {
+   "en": "White Jade",
+   "cn": "白玉",
+   "th": "หยกขาว"
+  },
+  "sources": [
+   {
+    "type": "gather",
+    "where": "Iceberg (3622,2215)",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "jade-r6-red-jade",
+  "family": "Jade",
+  "rank": 6,
+  "name": {
+   "en": "Red Jade",
+   "cn": "紅玉",
+   "th": "หยกแดง"
+  },
+  "sources": [
+   {
+    "type": "gather",
+    "where": "Iceberg (3622,2215)",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "jade-r7-white-jade-powder",
+  "family": "Jade",
+  "rank": 7,
+  "name": {
+   "en": "White Jade Powder",
+   "cn": "白玉粉",
+   "th": "ผงหยกขาว"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Anvil",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "jade-r10-delicate-white-jade",
+  "family": "Jade",
+  "rank": 10,
+  "name": {
+   "en": "Delicate White Jade",
+   "cn": "精緻白玉",
+   "th": "หยกขาวประณีต"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Grinding Equipment",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "jade-r12-delicate-red-jade",
+  "family": "Jade",
+  "rank": 12,
+  "name": {
+   "en": "Delicate Red Jade",
+   "cn": "精緻紅玉",
+   "th": "หยกแดงประณีต"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Grinding Equipment",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "jade-r14-water-jade",
+  "family": "Jade",
+  "rank": 14,
+  "name": {
+   "en": "Water Jade",
+   "cn": "水玉",
+   "th": "หยกน้ำ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "whale-island",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "lead-r2-galena",
+  "family": "Lead",
+  "rank": 2,
+  "name": {
+   "en": "Galena",
+   "cn": "方鉛礦",
+   "th": "แร่กาลีนา"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Rock Monster Quest",
+    "lv": 42,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "No shop sells lead at any rank",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "lead-r3-galena-sand",
+  "family": "Lead",
+  "rank": 3,
+  "name": {
+   "en": "Galena Sand",
+   "cn": "鉛礦沙",
+   "th": "ทรายแร่กาลีนา"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Green Snowman",
+    "lv": 67,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "lead-r4-lead-block",
+  "family": "Lead",
+  "rank": 4,
+  "name": {
+   "en": "Lead Block",
+   "cn": "鉛塊",
+   "th": "ก้อนตะกั่ว"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "lead-r5-lead-plate",
+  "family": "Lead",
+  "rank": 5,
+  "name": {
+   "en": "Lead Plate",
+   "cn": "鉛鋼",
+   "th": "แผ่นตะกั่ว"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Anvil",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "lead-r6-zinc-block",
+  "family": "Lead",
+  "rank": 6,
+  "name": {
+   "en": "Zinc Block",
+   "cn": "亞鉛塊",
+   "th": "ก้อนสังกะสี"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leaf-r1-tobacco",
+  "family": "Leaf",
+  "rank": 1,
+  "name": {
+   "en": "Tobacco",
+   "cn": null,
+   "th": "ใบยาสูบ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r1-tea",
+  "family": "Leaf",
+  "rank": 1,
+  "name": {
+   "en": "Tea",
+   "cn": null,
+   "th": "ใบชา"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r1-fox-leaf",
+  "family": "Leaf",
+  "rank": 1,
+  "name": {
+   "en": "Fox Leaf",
+   "cn": null,
+   "th": "ใบไม้จิ้งจอก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-vine",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Vine",
+   "cn": null,
+   "th": "เถาวัลย์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-daphne",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Daphne",
+   "cn": null,
+   "th": "ต้นดาฟเน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-reed",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Reed",
+   "cn": null,
+   "th": "ต้นอ้อ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-areca",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Areca",
+   "cn": null,
+   "th": "ใบหมาก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-turpentine",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Turpentine",
+   "cn": null,
+   "th": "ยางสน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r2-pine",
+  "family": "Leaf",
+  "rank": 2,
+  "name": {
+   "en": "Pine",
+   "cn": null,
+   "th": "ใบสน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r4-small-leaf",
+  "family": "Leaf",
+  "rank": 4,
+  "name": {
+   "en": "Small Leaf",
+   "cn": null,
+   "th": "ใบไม้เล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r6-grain-grass-laurel-big-fruit-leaf",
+  "family": "Leaf",
+  "rank": 6,
+  "name": {
+   "en": "Grain Grass Laurel / Big Fruit Leaf",
+   "cn": "禾草桂冠/大果葉",
+   "th": "มงกุฎหญ้าธัญพืช / ใบผลไม้ใหญ่"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "holy",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   },
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leaf-r7-river-boy-leaf",
+  "family": "Leaf",
+  "rank": 7,
+  "name": {
+   "en": "River Boy Leaf",
+   "cn": null,
+   "th": "ใบไม้ของกัปปะ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r10-green-leaf-cloth-robe",
+  "family": "Leaf",
+  "rank": 10,
+  "name": {
+   "en": "Green Leaf Cloth Robe",
+   "cn": "綠葉布衣",
+   "th": "เสื้อคลุมผ้าใบไม้เขียว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "bangkok",
+    "price": 280,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leaf-r10-oolong-tea",
+  "family": "Leaf",
+  "rank": 10,
+  "name": {
+   "en": "Oolong Tea",
+   "cn": null,
+   "th": "ชาอูหลง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leaf-r14-jade-tea",
+  "family": "Leaf",
+  "rank": 14,
+  "name": {
+   "en": "Jade Tea",
+   "cn": null,
+   "th": "ชาหยก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r1-dry-skin",
+  "family": "Leather",
+  "rank": 1,
+  "name": {
+   "en": "Dry Skin",
+   "cn": null,
+   "th": "หนังแห้ง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r1-dog-skin",
+  "family": "Leather",
+  "rank": 1,
+  "name": {
+   "en": "Dog Skin",
+   "cn": null,
+   "th": "หนังสุนัข"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r1-hedgehog-fur",
+  "family": "Leather",
+  "rank": 1,
+  "name": {
+   "en": "Hedgehog Fur",
+   "cn": null,
+   "th": "ขนเม่น"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r2-beast-hide-robe",
+  "family": "Leather",
+  "rank": 2,
+  "name": {
+   "en": "Beast Hide Robe",
+   "cn": "獸皮衣",
+   "th": "เสื้อคลุมหนังสัตว์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "kelan",
+    "price": 30,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r2-beast-hide",
+  "family": "Leather",
+  "rank": 2,
+  "name": {
+   "en": "Beast Hide",
+   "cn": "獸皮",
+   "th": "หนังสัตว์ร้าย"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "squirrels / wolves / bears / chameleons / foxes",
+    "lv": null,
+    "where": "everywhere",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r2-pig-skin",
+  "family": "Leather",
+  "rank": 2,
+  "name": {
+   "en": "Pig Skin",
+   "cn": null,
+   "th": "หนังหมู"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r3-goatskin",
+  "family": "Leather",
+  "rank": 3,
+  "name": {
+   "en": "Goatskin",
+   "cn": null,
+   "th": "หนังแพะ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r3-capeskin",
+  "family": "Leather",
+  "rank": 3,
+  "name": {
+   "en": "Capeskin",
+   "cn": null,
+   "th": "หนังแพะฟอก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r3-black-sheepskin",
+  "family": "Leather",
+  "rank": 3,
+  "name": {
+   "en": "Black Sheepskin",
+   "cn": null,
+   "th": "หนังแกะดำ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r3-white-sheepskin",
+  "family": "Leather",
+  "rank": 3,
+  "name": {
+   "en": "White Sheepskin",
+   "cn": null,
+   "th": "หนังแกะขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r3-deerskin",
+  "family": "Leather",
+  "rank": 3,
+  "name": {
+   "en": "Deerskin",
+   "cn": null,
+   "th": "หนังกวาง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-advanced-beast-hide-robe",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Advanced Beast Hide Robe",
+   "cn": "進階獸皮衣",
+   "th": "เสื้อคลุมหนังสัตว์ขั้นสูง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "welling",
+    "price": 70,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r4-buffalo-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Buffalo Skin",
+   "cn": null,
+   "th": "หนังควาย"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-small-buffalo-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Small Buffalo Skin",
+   "cn": null,
+   "th": "หนังควายเล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-scalper-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Scalper Skin",
+   "cn": null,
+   "th": "หนังวัวเหลือง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-small-scalper-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Small Scalper Skin",
+   "cn": null,
+   "th": "หนังวัวเหลืองเล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-urus-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Urus Skin",
+   "cn": null,
+   "th": "หนังกระทิง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r4-small-urus-skin",
+  "family": "Leather",
+  "rank": 4,
+  "name": {
+   "en": "Small Urus Skin",
+   "cn": null,
+   "th": "หนังกระทิงเล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r5-insect-hide-bracers",
+  "family": "Leather",
+  "rank": 5,
+  "name": {
+   "en": "Insect Hide Bracers",
+   "cn": "蟲皮護腕",
+   "th": "ปลอกแขนหนังแมลง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "holy",
+    "price": 100,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r5-chameleon-skin",
+  "family": "Leather",
+  "rank": 5,
+  "name": {
+   "en": "Chameleon Skin",
+   "cn": "變色龍皮",
+   "th": "หนังกิ้งก่า"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "chameleons",
+    "lv": 51,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r6-snake-skin-dinosaur-hide",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Snake Skin / Dinosaur Hide",
+   "cn": "蛇皮/恐龍皮",
+   "th": "หนังงู / หนังไดโนเสาร์"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "snakes",
+    "lv": 67,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Stegosaurus",
+    "lv": 65,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r6-green-snake-skin",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Green Snake Skin",
+   "cn": null,
+   "th": "หนังงูเขียว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r6-white-snake-skin",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "White Snake Skin",
+   "cn": null,
+   "th": "หนังงูขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r6-fire-snake-skin",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Fire Snake Skin",
+   "cn": null,
+   "th": "หนังงูไฟ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r6-yellow-snake-skin",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Yellow Snake Skin",
+   "cn": null,
+   "th": "หนังงูเหลือง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r6-wolf-fur",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Wolf Fur",
+   "cn": null,
+   "th": "ขนสัตว์หมาป่า"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r6-dinosaur-fur",
+  "family": "Leather",
+  "rank": 6,
+  "name": {
+   "en": "Dinosaur Fur",
+   "cn": null,
+   "th": "ขนไดโนเสาร์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r8-fang-bracers",
+  "family": "Leather",
+  "rank": 8,
+  "name": {
+   "en": "Fang Bracers",
+   "cn": "牙護腕",
+   "th": "ปลอกแขนเขี้ยว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "inca",
+    "price": 200,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r8-tiger-skin",
+  "family": "Leather",
+  "rank": 8,
+  "name": {
+   "en": "Tiger Skin",
+   "cn": null,
+   "th": "หนังเสือ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r9-white-tiger-skin",
+  "family": "Leather",
+  "rank": 9,
+  "name": {
+   "en": "White Tiger Skin",
+   "cn": null,
+   "th": "หนังเสือขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r9-northern-tiger-skin",
+  "family": "Leather",
+  "rank": 9,
+  "name": {
+   "en": "Northern Tiger Skin",
+   "cn": null,
+   "th": "หนังเสือเหนือ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r9-dark-tiger-skin",
+  "family": "Leather",
+  "rank": 9,
+  "name": {
+   "en": "Dark Tiger Skin",
+   "cn": null,
+   "th": "หนังเสือมืด"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r10-hunting-leather-boots",
+  "family": "Leather",
+  "rank": 10,
+  "name": {
+   "en": "Hunting Leather Boots",
+   "cn": "狩獵皮靴",
+   "th": "รองเท้าบู๊ตหนังล่าสัตว์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "australia",
+    "price": 280,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Australia is open on TH",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r10-fine-fur",
+  "family": "Leather",
+  "rank": 10,
+  "name": {
+   "en": "Fine Fur",
+   "cn": null,
+   "th": "ขนสัตว์ชั้นดี"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r11-reinforced-leather-gloves",
+  "family": "Leather",
+  "rank": 11,
+  "name": {
+   "en": "Reinforced Leather Gloves",
+   "cn": "強化皮手套",
+   "th": "ถุงมือหนังเสริมแรง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "australia",
+    "price": 320,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r14-fine-leather",
+  "family": "Leather",
+  "rank": 14,
+  "name": {
+   "en": "Fine Leather",
+   "cn": null,
+   "th": "หนังชั้นดี"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "leather-r15-silver-dragon-scale-armor-galloping-hors",
+  "family": "Leather",
+  "rank": 15,
+  "name": {
+   "en": "Silver Dragon Scale Armor / Galloping Horse Boots",
+   "cn": "銀龍鱗甲/奔馬靴",
+   "th": "เกราะเกล็ดมังกรเงิน / รองเท้าบู๊ตม้าควบ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   },
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": 510,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r16-leather-armor",
+  "family": "Leather",
+  "rank": 16,
+  "name": {
+   "en": "Leather Armor",
+   "cn": "皮鎧",
+   "th": "เกราะหนัง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "easter-island",
+    "price": 560,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r18-wind-demon-gloves",
+  "family": "Leather",
+  "rank": 18,
+  "name": {
+   "en": "Wind Demon Gloves",
+   "cn": "風魔手套",
+   "th": "ถุงมือปีศาจลม"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "egypt",
+    "price": 660,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "leather-r18-delicate-leather",
+  "family": "Leather",
+  "rank": 18,
+  "name": {
+   "en": "Delicate Leather",
+   "cn": null,
+   "th": "หนังฟอกประณีต"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "magicjade-r14-dragon-staff",
+  "family": "MagicJade",
+  "rank": 14,
+  "name": {
+   "en": "Dragon Staff",
+   "cn": "龍杖",
+   "th": "ไม้เท้ามังกร"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "china",
+    "price": 460,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "magicjade-r18-magic-crystal-powder",
+  "family": "MagicJade",
+  "rank": 18,
+  "name": {
+   "en": "Magic Crystal Powder",
+   "cn": "魔晶粉",
+   "th": "ผงคริสตัลเวท"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⚠️ Legacy only — use the alchemy scroll route in Re",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "magicjade-r21-magic-jade-stone",
+  "family": "MagicJade",
+  "rank": 21,
+  "name": {
+   "en": "Magic Jade Stone",
+   "cn": "魔玉石",
+   "th": "หินหยกเวท"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Crystal Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": true,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⭐ One of only three rank-21 materials",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "nylon-r2-nylon",
+  "family": "Nylon",
+  "rank": 2,
+  "name": {
+   "en": "Nylon",
+   "cn": "尼龍",
+   "th": "ไนลอน"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Hot Kiln",
+    "recipe": "Coal Ball + Fresh Water",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "nylon-r4-rough-nylon",
+  "family": "Nylon",
+  "rank": 4,
+  "name": {
+   "en": "Rough Nylon",
+   "cn": null,
+   "th": "ไนลอนหยาบ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "nylon-r6-charcoal-powder",
+  "family": "Nylon",
+  "rank": 6,
+  "name": {
+   "en": "Charcoal Powder",
+   "cn": "木炭粉",
+   "th": "ผงถ่าน"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Kitchen Range",
+    "recipe": "Coal ×20",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Cheap deterministic nylon",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "nylon-r6-weave-nylon",
+  "family": "Nylon",
+  "rank": 6,
+  "name": {
+   "en": "Weave Nylon",
+   "cn": null,
+   "th": "ไนลอนถัก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "nylon-r10-delicate-nylon",
+  "family": "Nylon",
+  "rank": 10,
+  "name": {
+   "en": "Delicate Nylon",
+   "cn": null,
+   "th": "ไนลอนประณีต"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "nylon-r12-yellow-horse-shoes",
+  "family": "Nylon",
+  "rank": 12,
+  "name": {
+   "en": "Yellow Horse Shoes",
+   "cn": "黃馬鞋",
+   "th": "รองเท้าม้าเหลือง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "changan",
+    "price": 370,
+    "priceProvenance": "re-sheet",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": true
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "nylon-r14-ninja-suit",
+  "family": "Nylon",
+  "rank": 14,
+  "name": {
+   "en": "Ninja Suit",
+   "cn": "忍者服",
+   "th": "ชุดนินจา"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": 460,
+    "priceProvenance": "re-sheet",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": true
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "nylon-r14-thin-nylon",
+  "family": "Nylon",
+  "rank": 14,
+  "name": {
+   "en": "Thin Nylon",
+   "cn": null,
+   "th": "ไนลอนบาง"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "nylon-r16-masked-suit",
+  "family": "Nylon",
+  "rank": 16,
+  "name": {
+   "en": "Masked Suit",
+   "cn": "蒙面裝",
+   "th": "ชุดสวมหน้ากาก"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": 560,
+    "priceProvenance": "re-sheet",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": true
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "platinum-r5-magnet",
+  "family": "Platinum",
+  "rank": 5,
+  "name": {
+   "en": "Magnet",
+   "cn": null,
+   "th": "แม่เหล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "platinum-r6-magnetic-powder",
+  "family": "Platinum",
+  "rank": 6,
+  "name": {
+   "en": "Magnetic Powder",
+   "cn": null,
+   "th": "ผงแม่เหล็ก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "platinum-r7-silver-sandals",
+  "family": "Platinum",
+  "rank": 7,
+  "name": {
+   "en": "Silver Sandals",
+   "cn": "白銀履鞋",
+   "th": "รองเท้าแตะเงินขาว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "inca",
+    "price": 170,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⚠️ Platinum family, NOT silver",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "platinum-r9-white-silvery-ore",
+  "family": "Platinum",
+  "rank": 9,
+  "name": {
+   "en": "White Silvery Ore",
+   "cn": null,
+   "th": "แร่เงินขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "platinum-r10-white-silvery",
+  "family": "Platinum",
+  "rank": 10,
+  "name": {
+   "en": "White Silvery",
+   "cn": null,
+   "th": "เงินขาว"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "platinum-r14-silver-ring",
+  "family": "Platinum",
+  "rank": 14,
+  "name": {
+   "en": "Silver Ring",
+   "cn": "白銀戒指",
+   "th": "แหวนเงินขาว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "korea",
+    "price": 460,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "⚠️ Platinum family, NOT silver",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "platinum-r18-refined-white-silver",
+  "family": "Platinum",
+  "rank": 18,
+  "name": {
+   "en": "Refined White Silver",
+   "cn": "粹煉白銀",
+   "th": "เงินขาวบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "scroll",
+    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r4-pure-iron-ore",
+  "family": "PureIron",
+  "rank": 4,
+  "name": {
+   "en": "Pure Iron Ore",
+   "cn": "赤鐵礦",
+   "th": "แร่เหล็กแดง"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Red Rock Monster",
+    "lv": 4,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Steel Ant",
+    "lv": 31,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "drop",
+    "mob": "Red Chameleon",
+    "lv": 65,
+    "where": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r5-pure-iron-sand",
+  "family": "PureIron",
+  "rank": 5,
+  "name": {
+   "en": "Pure Iron Sand",
+   "cn": "赤鐵沙",
+   "th": "ทรายเหล็กแดง"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r6-pure-iron-block",
+  "family": "PureIron",
+  "rank": 6,
+  "name": {
+   "en": "Pure Iron Block",
+   "cn": "赤鐵塊",
+   "th": "ก้อนเหล็กแดง"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Melting Furnace",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r7-pure-iron-fillet",
+  "family": "PureIron",
+  "rank": 7,
+  "name": {
+   "en": "Pure Iron Fillet",
+   "cn": null,
+   "th": "แผ่นเหล็กบริสุทธิ์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "pureiron-r10-pure-iron-heavy-boots",
+  "family": "PureIron",
+  "rank": 10,
+  "name": {
+   "en": "Pure Iron Heavy Boots",
+   "cn": "赤煉重鞋",
+   "th": "รองเท้าบู๊ตหนักเหล็กแดง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "india",
+    "price": 280,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r10-refined-iron-sand",
+  "family": "PureIron",
+  "rank": 10,
+  "name": {
+   "en": "Refined Iron Sand",
+   "cn": null,
+   "th": "ทรายเหล็กบริสุทธิ์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "pureiron-r14-delicate-hematite",
+  "family": "PureIron",
+  "rank": 14,
+  "name": {
+   "en": "Delicate Hematite",
+   "cn": null,
+   "th": "เหล็กแดงประณีต"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "pureiron-r15-pure-iron-sabre",
+  "family": "PureIron",
+  "rank": 15,
+  "name": {
+   "en": "Pure Iron Sabre",
+   "cn": "赤鐵軍刀",
+   "th": "ดาบโค้งเหล็กแดง"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "changan",
+    "price": 510,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "pureiron-r18-refined-pure-iron-material",
+  "family": "PureIron",
+  "rank": 18,
+  "name": {
+   "en": "Refined Pure Iron Material",
+   "cn": "粹煉赤鐵材",
+   "th": "วัสดุเหล็กแดงบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "scroll",
+    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "rock-r3-obsidian",
+  "family": "Rock",
+  "rank": 3,
+  "name": {
+   "en": "Obsidian",
+   "cn": "黑曜石",
+   "th": "ออบซิเดียน"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "rome",
+    "price": 50,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "rock-r6-granite",
+  "family": "Rock",
+  "rank": 6,
+  "name": {
+   "en": "Granite",
+   "cn": "花崗岩",
+   "th": "หินแกรนิต"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "china",
+    "price": 130,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "rock-r9-spirit-stone-staff",
+  "family": "Rock",
+  "rank": 9,
+  "name": {
+   "en": "Spirit Stone Staff",
+   "cn": "靈石法杖",
+   "th": "ไม้เท้าหินวิญญาณ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "easter-island",
+    "price": 240,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "rock-r14-giant-stone-hammer",
+  "family": "Rock",
+  "rank": 14,
+  "name": {
+   "en": "Giant Stone Hammer",
+   "cn": "巨石槌",
+   "th": "ค้อนหินยักษ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "korea",
+    "price": 460,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silicon-r5-quartz",
+  "family": "Silicon",
+  "rank": 5,
+  "name": {
+   "en": "Quartz",
+   "cn": "石英",
+   "th": "ควอตซ์"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Mori Statue",
+    "lv": 76,
+    "where": null,
+    "provenance": "kb"
+   },
+   {
+    "type": "gather",
+    "where": "Australia",
+    "provenance": "kb"
+   },
+   {
+    "type": "gather",
+    "where": "Subway",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silicon-r6-silicon",
+  "family": "Silicon",
+  "rank": 6,
+  "name": {
+   "en": "Silicon",
+   "cn": null,
+   "th": "ซิลิคอน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "silver-r5-white-feather-earrings",
+  "family": "Silver",
+  "rank": 5,
+  "name": {
+   "en": "White Feather Earrings",
+   "cn": "白羽耳環",
+   "th": "ต่างหูขนนกขาว"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "compounding",
+    "recipe": "Silver + Feather",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "KK-tested",
+  "note": "KK read this off a live tooltip: rank 5, equip Lv 10",
+  "updated": "2026-09-07",
+  "thConfirmed": true
+ },
+ {
+  "id": "silver-r8-silvery-ore",
+  "family": "Silver",
+  "rank": 8,
+  "name": {
+   "en": "Silvery Ore",
+   "cn": "銀礦",
+   "th": "แร่เงิน"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Green Chameleon",
+    "lv": 66,
+    "where": "Cairo",
+    "provenance": "kb"
+   },
+   {
+    "type": "gather",
+    "where": "Maya Forest",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silver-r9-pure-silver-earring",
+  "family": "Silver",
+  "rank": 9,
+  "name": {
+   "en": "Pure Silver Earring",
+   "cn": "純銀耳環",
+   "th": "ต่างหูเงินบริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "easter-island",
+    "price": 240,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Easter Island is open on TH",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silver-r9-silvery-sand",
+  "family": "Silver",
+  "rank": 9,
+  "name": {
+   "en": "Silvery Sand",
+   "cn": null,
+   "th": "ทรายเงิน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "silver-r10-silvery-block",
+  "family": "Silver",
+  "rank": 10,
+  "name": {
+   "en": "Silvery Block",
+   "cn": "銀塊",
+   "th": "ก้อนเงิน"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "Hot Kiln",
+    "recipe": null,
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silver-r14-silver-blade-claw",
+  "family": "Silver",
+  "rank": 14,
+  "name": {
+   "en": "Silver Blade Claw",
+   "cn": "銀製刃爪",
+   "th": "กรงเล็บใบมีดเงิน"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "korea",
+    "price": 460,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "silver-r14-bullion-silver",
+  "family": "Silver",
+  "rank": 14,
+  "name": {
+   "en": "Bullion (Silver)",
+   "cn": null,
+   "th": "แท่งเงิน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "silver-r18-refined-pure-silver",
+  "family": "Silver",
+  "rank": 18,
+  "name": {
+   "en": "Refined Pure Silver",
+   "cn": "粹煉銀塊",
+   "th": "เงินบริสุทธิ์กลั่น"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "scroll",
+    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "star-r2-star-dust-elemental",
+  "family": "Star",
+  "rank": 2,
+  "name": {
+   "en": "Star Dust (elemental) 星耀之塵",
+   "cn": "星耀之塵·空/水/火/地/風",
+   "th": "ผงดาราแห่งธาตุ (空/水/火/地/風)"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Smart Decomposition Station (喵型智能分解站)",
+    "lv": null,
+    "where": "Whale Island area",
+    "provenance": "kb"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Thai: ผงดาราแห่งธาตุ… — rank 2, family ประกายดาว. Also washable on Superior Alchemy targeting rank 3",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "star-r11-star-ring-longsword",
+  "family": "Star",
+  "rank": 11,
+  "name": {
+   "en": "Star Ring Longsword",
+   "cn": "星環長劍",
+   "th": "ดาบยาววงแหวนดาว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "australia",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Australia is open on TH — the entry point into the Re-only Star family",
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "star-r13-star-ring-battle-dress",
+  "family": "Star",
+  "rank": 13,
+  "name": {
+   "en": "Star Ring Battle Dress",
+   "cn": "星環戰衣",
+   "th": "ชุดกระโปรงรบวงแหวนดาว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "india",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "star-r17-star-ring-helm",
+  "family": "Star",
+  "rank": 17,
+  "name": {
+   "en": "Star Ring Helm",
+   "cn": "星環頭盔",
+   "th": "หมวกเกราะวงแหวนดาว"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "japan",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": "Highest buyable Star material",
+  "updated": "2026-09-07"
+ },
+ {
   "id": "steel-r8-steel-material",
   "family": "Steel",
   "rank": 8,
@@ -1070,203 +5905,18 @@
   "updated": "2026-09-07"
  },
  {
-  "id": "pureiron-r4-pure-iron-ore",
-  "family": "PureIron",
-  "rank": 4,
+  "id": "sulfur-r2-sulfur",
+  "family": "Sulfur",
+  "rank": 2,
   "name": {
-   "en": "Pure Iron Ore",
-   "cn": "赤鐵礦",
-   "th": "แร่เหล็กแดง"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Red Rock Monster",
-    "lv": 4,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Steel Ant",
-    "lv": 31,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Red Chameleon",
-    "lv": 65,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "pureiron-r5-pure-iron-sand",
-  "family": "PureIron",
-  "rank": 5,
-  "name": {
-   "en": "Pure Iron Sand",
-   "cn": "赤鐵沙",
-   "th": "ทรายเหล็กแดง"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "pureiron-r6-pure-iron-block",
-  "family": "PureIron",
-  "rank": 6,
-  "name": {
-   "en": "Pure Iron Block",
-   "cn": "赤鐵塊",
-   "th": "ก้อนเหล็กแดง"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "pureiron-r10-pure-iron-heavy-boots",
-  "family": "PureIron",
-  "rank": 10,
-  "name": {
-   "en": "Pure Iron Heavy Boots",
-   "cn": "赤煉重鞋",
-   "th": "รองเท้าบู๊ตหนักเหล็กแดง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "india",
-    "price": 280,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "pureiron-r15-pure-iron-sabre",
-  "family": "PureIron",
-  "rank": 15,
-  "name": {
-   "en": "Pure Iron Sabre",
-   "cn": "赤鐵軍刀",
-   "th": "ดาบโค้งเหล็กแดง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "changan",
-    "price": 510,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "pureiron-r18-refined-pure-iron-material",
-  "family": "PureIron",
-  "rank": 18,
-  "name": {
-   "en": "Refined Pure Iron Material",
-   "cn": "粹煉赤鐵材",
-   "th": "วัสดุเหล็กแดงบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   },
-   {
-    "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "titan-r10-titanium-metal",
-  "family": "Titan",
-  "rank": 10,
-  "name": {
-   "en": "Titanium Metal",
-   "cn": "鈦金屬",
-   "th": "โลหะไทเทเนียม"
+   "en": "Sulfur",
+   "cn": "硫磺",
+   "th": "กำมะถัน"
   },
   "sources": [
    {
     "type": "gather",
-    "where": "Pleasure Island (2242,435)",
+    "where": "Kelan Cave (1922,1255)",
     "provenance": "kb"
    }
   ],
@@ -1277,586 +5927,7 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "No monster drops",
-  "updated": "2026-09-07"
- },
- {
-  "id": "titan-r11-black-pike-blade",
-  "family": "Titan",
-  "rank": 11,
-  "name": {
-   "en": "Black Pike Blade",
-   "cn": "黑矛刃",
-   "th": "มีดทวนดำ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 320,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "titan-r15-titanium-alloy",
-  "family": "Titan",
-  "rank": 15,
-  "name": {
-   "en": "Titanium Alloy",
-   "cn": "鈦合金",
-   "th": "โลหะผสมไทเทเนียม"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": "Charcoal ×5 + Sulfur ×2 + Steel ×3 + Gold Sand ×2 + White Silvery ×1",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "titan-r16-grey-wolf-bracers",
-  "family": "Titan",
-  "rank": 16,
-  "name": {
-   "en": "Grey Wolf Bracers",
-   "cn": "灰狼護腕",
-   "th": "ปลอกแขนหมาป่าเทา"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "bangkok",
-    "price": 560,
-    "priceProvenance": "re-sheet",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": true
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "titan-r18-refined-active-titanium",
-  "family": "Titan",
-  "rank": 18,
-  "name": {
-   "en": "Refined Active Titanium",
-   "cn": "粹鍊活性鈦",
-   "th": "ไทเทเนียมกัมมันต์บริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   },
-   {
-    "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "silver-r5-white-feather-earrings",
-  "family": "Silver",
-  "rank": 5,
-  "name": {
-   "en": "White Feather Earrings",
-   "cn": "白羽耳環",
-   "th": "ต่างหูขนนกขาว"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "compounding",
-    "recipe": "Silver + Feather",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "KK-tested",
-  "note": "KK read this off a live tooltip: rank 5, equip Lv 10",
-  "updated": "2026-09-07",
-  "thConfirmed": true
- },
- {
-  "id": "silver-r8-silvery-ore",
-  "family": "Silver",
-  "rank": 8,
-  "name": {
-   "en": "Silvery Ore",
-   "cn": "銀礦",
-   "th": "แร่เงิน"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Green Chameleon",
-    "lv": 66,
-    "where": "Cairo",
-    "provenance": "kb"
-   },
-   {
-    "type": "gather",
-    "where": "Maya Forest",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "silver-r9-pure-silver-earring",
-  "family": "Silver",
-  "rank": 9,
-  "name": {
-   "en": "Pure Silver Earring",
-   "cn": "純銀耳環",
-   "th": "ต่างหูเงินบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "easter-island",
-    "price": 240,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Easter Island is open on TH",
-  "updated": "2026-09-07"
- },
- {
-  "id": "silver-r10-silvery-block",
-  "family": "Silver",
-  "rank": 10,
-  "name": {
-   "en": "Silvery Block",
-   "cn": "銀塊",
-   "th": "ก้อนเงิน"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Hot Kiln",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "silver-r14-silver-blade-claw",
-  "family": "Silver",
-  "rank": 14,
-  "name": {
-   "en": "Silver Blade Claw",
-   "cn": "銀製刃爪",
-   "th": "กรงเล็บใบมีดเงิน"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "korea",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "silver-r18-refined-pure-silver",
-  "family": "Silver",
-  "rank": 18,
-  "name": {
-   "en": "Refined Pure Silver",
-   "cn": "粹煉銀塊",
-   "th": "เงินบริสุทธิ์กลั่น"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   },
-   {
-    "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r9-turquoise-staff",
-  "family": "Gold",
-  "rank": 9,
-  "name": {
-   "en": "Turquoise Staff",
-   "cn": "綠松石杖",
-   "th": "ไม้เท้าเทอร์ควอยซ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 240,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r11-gem-necklace",
-  "family": "Gold",
-  "rank": 11,
-  "name": {
-   "en": "Gem Necklace",
-   "cn": "寶石項鍊",
-   "th": "สร้อยคออัญมณี"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "india",
-    "price": 320,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "The gold ladder entry point",
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r11-gold-ore",
-  "family": "Gold",
-  "rank": 11,
-  "name": {
-   "en": "Gold Ore",
-   "cn": "金礦",
-   "th": "แร่ทอง"
-  },
-  "sources": [
-   {
-    "type": "gather",
-    "where": "Pleasure Island",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r12-gold-sand",
-  "family": "Gold",
-  "rank": 12,
-  "name": {
-   "en": "Gold Sand",
-   "cn": "金沙",
-   "th": "ทรายทอง"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Hot Kiln",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r13-gold-block",
-  "family": "Gold",
-  "rank": 13,
-  "name": {
-   "en": "Gold Block",
-   "cn": "金塊",
-   "th": "ก้อนทอง"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Hot Kiln",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r18-gold-dragon-greatblade",
-  "family": "Gold",
-  "rank": 18,
-  "name": {
-   "en": "Gold Dragon Greatblade",
-   "cn": "金龍大刀",
-   "th": "ดาบใหญ่มังกรทอง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "whale-island",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gold-r18-refined-gold-block",
-  "family": "Gold",
-  "rank": 18,
-  "name": {
-   "en": "Refined Gold Block",
-   "cn": "粹煉金塊",
-   "th": "ก้อนทองบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   },
-   {
-    "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "platinum-r7-silver-sandals",
-  "family": "Platinum",
-  "rank": 7,
-  "name": {
-   "en": "Silver Sandals",
-   "cn": "白銀履鞋",
-   "th": "รองเท้าแตะเงินขาว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "inca",
-    "price": 170,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⚠️ Platinum family, NOT silver",
-  "updated": "2026-09-07"
- },
- {
-  "id": "platinum-r14-silver-ring",
-  "family": "Platinum",
-  "rank": 14,
-  "name": {
-   "en": "Silver Ring",
-   "cn": "白銀戒指",
-   "th": "แหวนเงินขาว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "korea",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⚠️ Platinum family, NOT silver",
-  "updated": "2026-09-07"
- },
- {
-  "id": "platinum-r18-refined-white-silver",
-  "family": "Platinum",
-  "rank": 18,
-  "name": {
-   "en": "Refined White Silver",
-   "cn": "粹煉白銀",
-   "th": "เงินขาวบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   },
-   {
-    "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
+  "note": "No shop, no drop",
   "updated": "2026-09-07"
  },
  {
@@ -2061,20 +6132,18 @@
   "updated": "2026-09-07"
  },
  {
-  "id": "alum-r3-aluminium-ore",
-  "family": "Alum",
-  "rank": 3,
+  "id": "titan-r10-titanium-metal",
+  "family": "Titan",
+  "rank": 10,
   "name": {
-   "en": "Aluminium Ore",
-   "cn": "鋁礦",
-   "th": "แร่อะลูมิเนียม"
+   "en": "Titanium Metal",
+   "cn": "鈦金屬",
+   "th": "โลหะไทเทเนียม"
   },
   "sources": [
    {
-    "type": "drop",
-    "mob": "Rock Monster",
-    "lv": 3,
-    "where": null,
+    "type": "gather",
+    "where": "Pleasure Island (2242,435)",
     "provenance": "kb"
    }
   ],
@@ -2085,23 +6154,51 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "No shop sells aluminium at any rank",
+  "note": "No monster drops",
   "updated": "2026-09-07"
  },
  {
-  "id": "alum-r5-aluminium-block",
-  "family": "Alum",
-  "rank": 5,
+  "id": "titan-r11-black-pike-blade",
+  "family": "Titan",
+  "rank": 11,
   "name": {
-   "en": "Aluminium Block",
-   "cn": "鋁塊",
-   "th": "ก้อนอะลูมิเนียม"
+   "en": "Black Pike Blade",
+   "cn": "黑矛刃",
+   "th": "มีดทวนดำ"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "athens",
+    "price": 320,
+    "priceProvenance": "legacy-wlohub",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": true,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "titan-r15-titanium-alloy",
+  "family": "Titan",
+  "rank": 15,
+  "name": {
+   "en": "Titanium Alloy",
+   "cn": "鈦合金",
+   "th": "โลหะผสมไทเทเนียม"
   },
   "sources": [
    {
     "type": "craft",
     "station": "Melting Furnace",
-    "recipe": null,
+    "recipe": "Charcoal ×5 + Sulfur ×2 + Steel ×3 + Gold Sand ×2 + White Silvery ×1",
     "provenance": "kb"
    }
   ],
@@ -2116,74 +6213,54 @@
   "updated": "2026-09-07"
  },
  {
-  "id": "alum-r6-aluminium-plate",
-  "family": "Alum",
-  "rank": 6,
-  "name": {
-   "en": "Aluminium Plate",
-   "cn": "鋁板",
-   "th": "แผ่นอะลูมิเนียม"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Anvil",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "alum-r7-hard-aluminium-plate",
-  "family": "Alum",
-  "rank": 7,
-  "name": {
-   "en": "Hard Aluminium Plate",
-   "cn": "硬鋁板",
-   "th": "แผ่นอะลูมิเนียมแข็ง"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Anvil",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "alum-r16-airship-steering-device",
-  "family": "Alum",
+  "id": "titan-r16-grey-wolf-bracers",
+  "family": "Titan",
   "rank": 16,
   "name": {
-   "en": "Airship Steering Device",
-   "cn": "飛船轉舵裝置",
-   "th": "อุปกรณ์บังคับเรือเหาะ"
+   "en": "Grey Wolf Bracers",
+   "cn": "灰狼護腕",
+   "th": "ปลอกแขนหมาป่าเทา"
   },
   "sources": [
    {
-    "type": "craft",
-    "station": "Rope Saw",
-    "recipe": null,
-    "provenance": "kb"
+    "type": "shop",
+    "town": "bangkok",
+    "price": 560,
+    "priceProvenance": "re-sheet",
+    "provenance": "re-sheet"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": true,
+   "keyMaterial": false,
+   "priceConfirmedRe": true
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-07"
+ },
+ {
+  "id": "titan-r18-refined-active-titanium",
+  "family": "Titan",
+  "rank": 18,
+  "name": {
+   "en": "Refined Active Titanium",
+   "cn": "粹鍊活性鈦",
+   "th": "ไทเทเนียมกัมมันต์บริสุทธิ์"
+  },
+  "sources": [
+   {
+    "type": "shop",
+    "town": "hawaii",
+    "price": null,
+    "priceProvenance": null,
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "scroll",
+    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "provenance": "re-sheet"
    }
   ],
   "flags": {
@@ -2197,23 +6274,35 @@
   "updated": "2026-09-07"
  },
  {
-  "id": "lead-r2-galena",
-  "family": "Lead",
+  "id": "water-r1-sea-water",
+  "family": "Water",
+  "rank": 1,
+  "name": {
+   "en": "Sea Water",
+   "cn": null,
+   "th": "น้ำทะเล"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "water-r2-fresh-water",
+  "family": "Water",
   "rank": 2,
   "name": {
-   "en": "Galena",
-   "cn": "方鉛礦",
-   "th": "แร่กาลีนา"
+   "en": "Fresh Water",
+   "cn": null,
+   "th": "น้ำจืด"
   },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Rock Monster Quest",
-    "lv": 42,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
@@ -2221,27 +6310,59 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "No shop sells lead at any rank",
-  "updated": "2026-09-07"
+  "note": null,
+  "updated": "2026-09-09"
  },
  {
-  "id": "lead-r3-galena-sand",
-  "family": "Lead",
+  "id": "water-r2-mineral-water",
+  "family": "Water",
+  "rank": 2,
+  "name": {
+   "en": "Mineral Water",
+   "cn": null,
+   "th": "น้ำแร่ธาตุ"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "water-r2-pure-water",
+  "family": "Water",
+  "rank": 2,
+  "name": {
+   "en": "Pure Water",
+   "cn": null,
+   "th": "น้ำบริสุทธิ์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "water-r3-boiled-water",
+  "family": "Water",
   "rank": 3,
   "name": {
-   "en": "Galena Sand",
-   "cn": "鉛礦沙",
-   "th": "ทรายแร่กาลีนา"
+   "en": "Boiled Water",
+   "cn": null,
+   "th": "น้ำต้มสุก"
   },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Green Snowman",
-    "lv": 67,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
@@ -2250,25 +6371,58 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "updated": "2026-09-07"
+  "updated": "2026-09-09"
  },
  {
-  "id": "lead-r4-lead-block",
-  "family": "Lead",
+  "id": "water-r3-distilled-water",
+  "family": "Water",
+  "rank": 3,
+  "name": {
+   "en": "Distilled Water",
+   "cn": null,
+   "th": "น้ำกลั่น"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "water-r3-bottled-boiled-water",
+  "family": "Water",
+  "rank": 3,
+  "name": {
+   "en": "Bottled Boiled Water",
+   "cn": null,
+   "th": "น้ำต้มสุกบรรจุขวด"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "RE-reported",
+  "note": null,
+  "updated": "2026-09-09"
+ },
+ {
+  "id": "water-r4-hot-water",
+  "family": "Water",
   "rank": 4,
   "name": {
-   "en": "Lead Block",
-   "cn": "鉛塊",
-   "th": "ก้อนตะกั่ว"
+   "en": "Hot Water",
+   "cn": null,
+   "th": "น้ำร้อน"
   },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
@@ -2277,25 +6431,18 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "updated": "2026-09-07"
+  "updated": "2026-09-09"
  },
  {
-  "id": "lead-r5-lead-plate",
-  "family": "Lead",
-  "rank": 5,
+  "id": "water-r4-bottled-hot-water",
+  "family": "Water",
+  "rank": 4,
   "name": {
-   "en": "Lead Plate",
-   "cn": "鉛鋼",
-   "th": "แผ่นตะกั่ว"
+   "en": "Bottled Hot Water",
+   "cn": null,
+   "th": "น้ำร้อนบรรจุขวด"
   },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Anvil",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
@@ -2304,34 +6451,7 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "lead-r6-zinc-block",
-  "family": "Lead",
-  "rank": 6,
-  "name": {
-   "en": "Zinc Block",
-   "cn": "亞鉛塊",
-   "th": "ก้อนสังกะสี"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "updated": "2026-09-09"
  },
  {
   "id": "wood-r1-wood-charcoal-firewood",
@@ -2778,2386 +6898,6 @@
   },
   "confidence": "RE-reported",
   "note": "⭐ The cheapest rank-21 material of any family",
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r1-harl-grass-linen-thread",
-  "family": "Grass",
-  "rank": 1,
-  "name": {
-   "en": "Harl Grass / Linen Thread",
-   "cn": "草/亞麻線",
-   "th": "หญ้าฮาร์ล / ด้ายลินิน"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Cirrus",
-    "lv": 41,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Tender Cirrus",
-    "lv": 35,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "craft",
-    "station": "Spinning Wheel",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r2-common-paper-vine-grass",
-  "family": "Grass",
-  "rank": 2,
-  "name": {
-   "en": "Common / Paper / Vine Grass",
-   "cn": "普通草/紙草/藤草",
-   "th": "หญ้าธรรมดา / หญ้ากระดาษ / หญ้าเถา"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Cirrus",
-    "lv": 41,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r3-straw-sandals",
-  "family": "Grass",
-  "rank": 3,
-  "name": {
-   "en": "Straw Sandals",
-   "cn": "草鞋",
-   "th": "รองเท้าแตะฟาง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "welling",
-    "price": 30,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r6-priest-hat",
-  "family": "Grass",
-  "rank": 6,
-  "name": {
-   "en": "Priest Hat",
-   "cn": "神職帽",
-   "th": "หมวกนักบวช"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "maya",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r6-purple-grass",
-  "family": "Grass",
-  "rank": 6,
-  "name": {
-   "en": "Purple Grass",
-   "cn": "紫草",
-   "th": "หญ้าม่วง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "changan",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r10-emerald-headband",
-  "family": "Grass",
-  "rank": 10,
-  "name": {
-   "en": "Emerald Headband",
-   "cn": "翠綠頭帶",
-   "th": "ผ้าคาดหัวมรกต"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "bangkok",
-    "price": 280,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r13-red-flower-qipao",
-  "family": "Grass",
-  "rank": 13,
-  "name": {
-   "en": "Red Flower Qipao",
-   "cn": "紅花旗袍",
-   "th": "กี่เพ้าดอกไม้แดง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "changan",
-    "price": 400,
-    "priceProvenance": "re-sheet",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": true
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r16-black-witch-hat",
-  "family": "Grass",
-  "rank": 16,
-  "name": {
-   "en": "Black Witch Hat",
-   "cn": "黑巫法帽",
-   "th": "หมวกแม่มดดำ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "whale-island",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "grass-r18-fine-grass",
-  "family": "Grass",
-  "rank": 18,
-  "name": {
-   "en": "Fine Grass",
-   "cn": "上等草",
-   "th": "หญ้าชั้นดี"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⚠️ Legacy only — no Hawaii shop exists in Re. Use the alchemy scroll route",
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r1-cotton-cotton-thread",
-  "family": "Flower",
-  "rank": 1,
-  "name": {
-   "en": "Cotton / Cotton Thread",
-   "cn": "棉/棉線",
-   "th": "ฝ้าย / ด้ายฝ้าย"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Cirrus",
-    "lv": 41,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Yellow Triceratops",
-    "lv": 69,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "craft",
-    "station": "Spinning Wheel",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r2-headband",
-  "family": "Flower",
-  "rank": 2,
-  "name": {
-   "en": "Headband",
-   "cn": "頭帶",
-   "th": "ผ้าคาดหัว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "welling",
-    "price": 20,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r5-light-cloth-robe",
-  "family": "Flower",
-  "rank": 5,
-  "name": {
-   "en": "Light Cloth Robe",
-   "cn": "輕布衣",
-   "th": "เสื้อคลุมผ้าเบา"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "holy",
-    "price": 100,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r12-water-mage-gloves",
-  "family": "Flower",
-  "rank": 12,
-  "name": {
-   "en": "Water Mage Gloves",
-   "cn": "水法手套",
-   "th": "ถุงมือเมจน้ำ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "easter-island",
-    "price": 370,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r13-qipao-warm-cloth-robe",
-  "family": "Flower",
-  "rank": 13,
-  "name": {
-   "en": "Qipao / Warm Cloth Robe",
-   "cn": "旗袍/保暖布衣",
-   "th": "กี่เพ้า / เสื้อคลุมผ้าอุ่น"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "china",
-    "price": 410,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   },
-   {
-    "type": "shop",
-    "town": "antarctica",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r15-white-spirit-gloves-cotton-silk-robe",
-  "family": "Flower",
-  "rank": 15,
-  "name": {
-   "en": "White Spirit Gloves / Cotton Silk Robe",
-   "cn": "白靈手套/棉綢法袍",
-   "th": "ถุงมือวิญญาณขาว / เสื้อคลุมไหมฝ้าย"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   },
-   {
-    "type": "shop",
-    "town": "korea",
-    "price": 510,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "flower-r16-silk-qipao",
-  "family": "Flower",
-  "rank": 16,
-  "name": {
-   "en": "Silk Qipao",
-   "cn": "蠶絲旗袍",
-   "th": "กี่เพ้าไหม"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": 560,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leaf-r6-grain-grass-laurel-big-fruit-leaf",
-  "family": "Leaf",
-  "rank": 6,
-  "name": {
-   "en": "Grain Grass Laurel / Big Fruit Leaf",
-   "cn": "禾草桂冠/大果葉",
-   "th": "มงกุฎหญ้าธัญพืช / ใบผลไม้ใหญ่"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "holy",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   },
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leaf-r10-green-leaf-cloth-robe",
-  "family": "Leaf",
-  "rank": 10,
-  "name": {
-   "en": "Green Leaf Cloth Robe",
-   "cn": "綠葉布衣",
-   "th": "เสื้อคลุมผ้าใบไม้เขียว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "bangkok",
-    "price": 280,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "nylon-r2-nylon",
-  "family": "Nylon",
-  "rank": 2,
-  "name": {
-   "en": "Nylon",
-   "cn": "尼龍",
-   "th": "ไนลอน"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Hot Kiln",
-    "recipe": "Coal Ball + Fresh Water",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "nylon-r6-charcoal-powder",
-  "family": "Nylon",
-  "rank": 6,
-  "name": {
-   "en": "Charcoal Powder",
-   "cn": "木炭粉",
-   "th": "ผงถ่าน"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Kitchen Range",
-    "recipe": "Coal ×20",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Cheap deterministic nylon",
-  "updated": "2026-09-07"
- },
- {
-  "id": "nylon-r12-yellow-horse-shoes",
-  "family": "Nylon",
-  "rank": 12,
-  "name": {
-   "en": "Yellow Horse Shoes",
-   "cn": "黃馬鞋",
-   "th": "รองเท้าม้าเหลือง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "changan",
-    "price": 370,
-    "priceProvenance": "re-sheet",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": true
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "nylon-r14-ninja-suit",
-  "family": "Nylon",
-  "rank": 14,
-  "name": {
-   "en": "Ninja Suit",
-   "cn": "忍者服",
-   "th": "ชุดนินจา"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": 460,
-    "priceProvenance": "re-sheet",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": true
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "nylon-r16-masked-suit",
-  "family": "Nylon",
-  "rank": 16,
-  "name": {
-   "en": "Masked Suit",
-   "cn": "蒙面裝",
-   "th": "ชุดสวมหน้ากาก"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": 560,
-    "priceProvenance": "re-sheet",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": true
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r2-beast-hide-robe",
-  "family": "Leather",
-  "rank": 2,
-  "name": {
-   "en": "Beast Hide Robe",
-   "cn": "獸皮衣",
-   "th": "เสื้อคลุมหนังสัตว์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "kelan",
-    "price": 30,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r2-beast-hide",
-  "family": "Leather",
-  "rank": 2,
-  "name": {
-   "en": "Beast Hide",
-   "cn": "獸皮",
-   "th": "หนังสัตว์ร้าย"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "squirrels / wolves / bears / chameleons / foxes",
-    "lv": null,
-    "where": "everywhere",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r4-advanced-beast-hide-robe",
-  "family": "Leather",
-  "rank": 4,
-  "name": {
-   "en": "Advanced Beast Hide Robe",
-   "cn": "進階獸皮衣",
-   "th": "เสื้อคลุมหนังสัตว์ขั้นสูง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "welling",
-    "price": 70,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r5-insect-hide-bracers",
-  "family": "Leather",
-  "rank": 5,
-  "name": {
-   "en": "Insect Hide Bracers",
-   "cn": "蟲皮護腕",
-   "th": "ปลอกแขนหนังแมลง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "holy",
-    "price": 100,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r5-chameleon-skin",
-  "family": "Leather",
-  "rank": 5,
-  "name": {
-   "en": "Chameleon Skin",
-   "cn": "變色龍皮",
-   "th": "หนังกิ้งก่า"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "chameleons",
-    "lv": 51,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r6-snake-skin-dinosaur-hide",
-  "family": "Leather",
-  "rank": 6,
-  "name": {
-   "en": "Snake Skin / Dinosaur Hide",
-   "cn": "蛇皮/恐龍皮",
-   "th": "หนังงู / หนังไดโนเสาร์"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "snakes",
-    "lv": 67,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Stegosaurus",
-    "lv": 65,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r8-fang-bracers",
-  "family": "Leather",
-  "rank": 8,
-  "name": {
-   "en": "Fang Bracers",
-   "cn": "牙護腕",
-   "th": "ปลอกแขนเขี้ยว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "inca",
-    "price": 200,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r10-hunting-leather-boots",
-  "family": "Leather",
-  "rank": 10,
-  "name": {
-   "en": "Hunting Leather Boots",
-   "cn": "狩獵皮靴",
-   "th": "รองเท้าบู๊ตหนังล่าสัตว์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "australia",
-    "price": 280,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Australia is open on TH",
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r11-reinforced-leather-gloves",
-  "family": "Leather",
-  "rank": 11,
-  "name": {
-   "en": "Reinforced Leather Gloves",
-   "cn": "強化皮手套",
-   "th": "ถุงมือหนังเสริมแรง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "australia",
-    "price": 320,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r15-silver-dragon-scale-armor-galloping-hors",
-  "family": "Leather",
-  "rank": 15,
-  "name": {
-   "en": "Silver Dragon Scale Armor / Galloping Horse Boots",
-   "cn": "銀龍鱗甲/奔馬靴",
-   "th": "เกราะเกล็ดมังกรเงิน / รองเท้าบู๊ตม้าควบ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   },
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": 510,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r16-leather-armor",
-  "family": "Leather",
-  "rank": 16,
-  "name": {
-   "en": "Leather Armor",
-   "cn": "皮鎧",
-   "th": "เกราะหนัง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "easter-island",
-    "price": 560,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "leather-r18-wind-demon-gloves",
-  "family": "Leather",
-  "rank": 18,
-  "name": {
-   "en": "Wind Demon Gloves",
-   "cn": "風魔手套",
-   "th": "ถุงมือปีศาจลม"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "egypt",
-    "price": 660,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "fur-r3-sheepskin",
-  "family": "Fur",
-  "rank": 3,
-  "name": {
-   "en": "Sheepskin",
-   "cn": "羊皮",
-   "th": "หนังแกะ"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Sheep",
-    "lv": 45,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "fur-r6-white-fox-fur",
-  "family": "Fur",
-  "rank": 6,
-  "name": {
-   "en": "White Fox Fur",
-   "cn": "白狐毛皮",
-   "th": "ขนสัตว์จิ้งจอกขาว"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Snow Fox",
-    "lv": 65,
-    "where": "Iceberg",
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Silver Fox",
-    "lv": 66,
-    "where": "Iceberg",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "fur-r13-fur-boots",
-  "family": "Fur",
-  "rank": 13,
-  "name": {
-   "en": "Fur Boots",
-   "cn": "毛皮靴",
-   "th": "รองเท้าบู๊ตขนสัตว์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "antarctica",
-    "price": 410,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Skin/Fur dual. Antarctica is open on TH",
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r4-beast-bone",
-  "family": "Bone",
-  "rank": 4,
-  "name": {
-   "en": "Beast Bone",
-   "cn": "獸骨",
-   "th": "กระดูกสัตว์ร้าย"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Wild Wolf",
-    "lv": 15,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Wild Wolf",
-    "lv": 30,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r6-dinosaur-fang",
-  "family": "Bone",
-  "rank": 6,
-  "name": {
-   "en": "Dinosaur Fang",
-   "cn": "恐龍牙",
-   "th": "เขี้ยวไดโนเสาร์"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Velociraptor",
-    "lv": 59,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r11-black-bone-axe",
-  "family": "Bone",
-  "rank": 11,
-  "name": {
-   "en": "Black Bone Axe",
-   "cn": "黑骨斧",
-   "th": "ขวานกระดูกดำ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 320,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r16-dragon-fang",
-  "family": "Bone",
-  "rank": 16,
-  "name": {
-   "en": "Dragon Fang",
-   "cn": "龍牙",
-   "th": "เขี้ยวมังกร"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Velociraptor",
-    "lv": 59,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r20-wolf-fang",
-  "family": "Bone",
-  "rank": 20,
-  "name": {
-   "en": "Wolf Fang",
-   "cn": "狼牙",
-   "th": "เขี้ยวหมาป่า"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Snow Wolf",
-    "lv": 60,
-    "where": "Antarctica",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": true,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⭐ The single most-used catalyst in the recipe book. Antarctica is open on TH",
-  "updated": "2026-09-07"
- },
- {
-  "id": "bone-r20-snake-fang",
-  "family": "Bone",
-  "rank": 20,
-  "name": {
-   "en": "Snake Fang",
-   "cn": "蛇牙",
-   "th": "เขี้ยวงู"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "snakes",
-    "lv": 50,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "feather-r1-funny-feather",
-  "family": "Feather",
-  "rank": 1,
-  "name": {
-   "en": "Funny Feather",
-   "cn": "趣味羽毛",
-   "th": "ขนนกตลก"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Chicken",
-    "lv": 13,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Vulture",
-    "lv": 51,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "feather-r6-swallow-feather",
-  "family": "Feather",
-  "rank": 6,
-  "name": {
-   "en": "Swallow Feather",
-   "cn": "燕羽",
-   "th": "ขนนกนางแอ่น"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "persia",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "feather-r10-eagle-feather",
-  "family": "Feather",
-  "rank": 10,
-  "name": {
-   "en": "Eagle Feather",
-   "cn": "鷹羽",
-   "th": "ขนนกอินทรี"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "yamataikoku",
-    "price": 280,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "rock-r3-obsidian",
-  "family": "Rock",
-  "rank": 3,
-  "name": {
-   "en": "Obsidian",
-   "cn": "黑曜石",
-   "th": "ออบซิเดียน"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "rome",
-    "price": 50,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "rock-r6-granite",
-  "family": "Rock",
-  "rank": 6,
-  "name": {
-   "en": "Granite",
-   "cn": "花崗岩",
-   "th": "หินแกรนิต"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "china",
-    "price": 130,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "rock-r9-spirit-stone-staff",
-  "family": "Rock",
-  "rank": 9,
-  "name": {
-   "en": "Spirit Stone Staff",
-   "cn": "靈石法杖",
-   "th": "ไม้เท้าหินวิญญาณ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "easter-island",
-    "price": 240,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "rock-r14-giant-stone-hammer",
-  "family": "Rock",
-  "rank": 14,
-  "name": {
-   "en": "Giant Stone Hammer",
-   "cn": "巨石槌",
-   "th": "ค้อนหินยักษ์"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "korea",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "coal-r1-coal-ore",
-  "family": "Coal",
-  "rank": 1,
-  "name": {
-   "en": "Coal Ore",
-   "cn": "煤礦",
-   "th": "แร่ถ่านหิน"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Little Ant",
-    "lv": 3,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "drop",
-    "mob": "Rock Skin Ant",
-    "lv": 30,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "gather",
-    "where": "Kelan Cave",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "coal-r4-coal",
-  "family": "Coal",
-  "rank": 4,
-  "name": {
-   "en": "Coal",
-   "cn": "煤",
-   "th": "ถ่านหิน"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "coal-r7-coal-block",
-  "family": "Coal",
-  "rank": 7,
-  "name": {
-   "en": "Coal Block",
-   "cn": "煤塊",
-   "th": "ก้อนถ่านหิน"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Melting Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "sulfur-r2-sulfur",
-  "family": "Sulfur",
-  "rank": 2,
-  "name": {
-   "en": "Sulfur",
-   "cn": "硫磺",
-   "th": "กำมะถัน"
-  },
-  "sources": [
-   {
-    "type": "gather",
-    "where": "Kelan Cave (1922,1255)",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "No shop, no drop",
-  "updated": "2026-09-07"
- },
- {
-  "id": "silicon-r5-quartz",
-  "family": "Silicon",
-  "rank": 5,
-  "name": {
-   "en": "Quartz",
-   "cn": "石英",
-   "th": "ควอตซ์"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Mori Statue",
-    "lv": 76,
-    "where": null,
-    "provenance": "kb"
-   },
-   {
-    "type": "gather",
-    "where": "Australia",
-    "provenance": "kb"
-   },
-   {
-    "type": "gather",
-    "where": "Subway",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "crystal-r5-pink-crystal",
-  "family": "Crystal",
-  "rank": 5,
-  "name": {
-   "en": "Pink Crystal",
-   "cn": "粉晶",
-   "th": "ผลึกชมพู"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Earth Rock Monster",
-    "lv": 3,
-    "where": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Lv3 mob drops a rank-5 gem — the cheapest crystal in the game",
-  "updated": "2026-09-07"
- },
- {
-  "id": "crystal-r9-blue-crystal-mage-staff",
-  "family": "Crystal",
-  "rank": 9,
-  "name": {
-   "en": "Blue Crystal Mage Staff",
-   "cn": "藍水晶法杖",
-   "th": "ไม้เท้าเมจคริสตัลน้ำเงิน"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 240,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "crystal-r14-radiance-earring",
-  "family": "Crystal",
-  "rank": 14,
-  "name": {
-   "en": "Radiance Earring",
-   "cn": "光輝耳環",
-   "th": "ต่างหูรัศมี"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "changan",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r5-white-jade",
-  "family": "Jade",
-  "rank": 5,
-  "name": {
-   "en": "White Jade",
-   "cn": "白玉",
-   "th": "หยกขาว"
-  },
-  "sources": [
-   {
-    "type": "gather",
-    "where": "Iceberg (3622,2215)",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r6-red-jade",
-  "family": "Jade",
-  "rank": 6,
-  "name": {
-   "en": "Red Jade",
-   "cn": "紅玉",
-   "th": "หยกแดง"
-  },
-  "sources": [
-   {
-    "type": "gather",
-    "where": "Iceberg (3622,2215)",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r7-white-jade-powder",
-  "family": "Jade",
-  "rank": 7,
-  "name": {
-   "en": "White Jade Powder",
-   "cn": "白玉粉",
-   "th": "ผงหยกขาว"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Anvil",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r10-delicate-white-jade",
-  "family": "Jade",
-  "rank": 10,
-  "name": {
-   "en": "Delicate White Jade",
-   "cn": "精緻白玉",
-   "th": "หยกขาวประณีต"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Grinding Equipment",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r12-delicate-red-jade",
-  "family": "Jade",
-  "rank": 12,
-  "name": {
-   "en": "Delicate Red Jade",
-   "cn": "精緻紅玉",
-   "th": "หยกแดงประณีต"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Grinding Equipment",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "jade-r14-water-jade",
-  "family": "Jade",
-  "rank": 14,
-  "name": {
-   "en": "Water Jade",
-   "cn": "水玉",
-   "th": "หยกน้ำ"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "whale-island",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r5-emerald",
-  "family": "Gem",
-  "rank": 5,
-  "name": {
-   "en": "Emerald",
-   "cn": "翠玉",
-   "th": "มรกต"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "yamataikoku",
-    "price": 100,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r9-green-jewel-staff",
-  "family": "Gem",
-  "rank": 9,
-  "name": {
-   "en": "Green Jewel Staff",
-   "cn": "綠寶石之杖",
-   "th": "ไม้เท้าอัญมณีเขียว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "athens",
-    "price": 240,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r12-pure-sapphire",
-  "family": "Gem",
-  "rank": 12,
-  "name": {
-   "en": "Pure Sapphire",
-   "cn": "純藍寶石",
-   "th": "ไพลินบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r13-pure-ruby",
-  "family": "Gem",
-  "rank": 13,
-  "name": {
-   "en": "Pure Ruby",
-   "cn": "純紅寶石",
-   "th": "ทับทิมบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r16-flawless-sapphire",
-  "family": "Gem",
-  "rank": 16,
-  "name": {
-   "en": "Flawless Sapphire",
-   "cn": "無暇藍寶石",
-   "th": "ไพลินไร้ตำหนิ"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": true,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Real bottleneck — buy from players",
-  "updated": "2026-09-07"
- },
- {
-  "id": "gem-r17-flawless-ruby",
-  "family": "Gem",
-  "rank": 17,
-  "name": {
-   "en": "Flawless Ruby",
-   "cn": "無暇紅寶石",
-   "th": "ทับทิมไร้ตำหนิ"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": true,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "diamond-r8-gem-necklace-diamond-necklace",
-  "family": "Diamond",
-  "rank": 8,
-  "name": {
-   "en": "Gem Necklace / Diamond Necklace",
-   "cn": "鑽石項鍊",
-   "th": "สร้อยคออัญมณี / สร้อยคอเพชร"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "bangkok",
-    "price": 200,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Absurdly cheap for a gem family",
-  "updated": "2026-09-07"
- },
- {
-  "id": "diamond-r14-delicate-diamond",
-  "family": "Diamond",
-  "rank": 14,
-  "name": {
-   "en": "Delicate Diamond",
-   "cn": "精緻鑽石",
-   "th": "เพชรประณีต"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "diamond-r16-stag-earring",
-  "family": "Diamond",
-  "rank": 16,
-  "name": {
-   "en": "Stag Earring",
-   "cn": "雄鹿耳環",
-   "th": "ต่างหูกวาง"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "whale-island",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "diamond-r21-pure-diamond",
-  "family": "Diamond",
-  "rank": 21,
-  "name": {
-   "en": "Pure Diamond",
-   "cn": "無暇鑽石",
-   "th": "เพชรบริสุทธิ์"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": true,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⭐ One of only three rank-21 materials",
-  "updated": "2026-09-07"
- },
- {
-  "id": "magicjade-r14-dragon-staff",
-  "family": "MagicJade",
-  "rank": 14,
-  "name": {
-   "en": "Dragon Staff",
-   "cn": "龍杖",
-   "th": "ไม้เท้ามังกร"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "china",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "magicjade-r18-magic-crystal-powder",
-  "family": "MagicJade",
-  "rank": 18,
-  "name": {
-   "en": "Magic Crystal Powder",
-   "cn": "魔晶粉",
-   "th": "ผงคริสตัลเวท"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "hawaii",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "legacy-wlohub"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⚠️ Legacy only — use the alchemy scroll route in Re",
-  "updated": "2026-09-07"
- },
- {
-  "id": "magicjade-r21-magic-jade-stone",
-  "family": "MagicJade",
-  "rank": 21,
-  "name": {
-   "en": "Magic Jade Stone",
-   "cn": "魔玉石",
-   "th": "หินหยกเวท"
-  },
-  "sources": [
-   {
-    "type": "craft",
-    "station": "Crystal Furnace",
-    "recipe": null,
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": true,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "⭐ One of only three rank-21 materials",
-  "updated": "2026-09-07"
- },
- {
-  "id": "star-r11-star-ring-longsword",
-  "family": "Star",
-  "rank": 11,
-  "name": {
-   "en": "Star Ring Longsword",
-   "cn": "星環長劍",
-   "th": "ดาบยาววงแหวนดาว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "australia",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Australia is open on TH — the entry point into the Re-only Star family",
-  "updated": "2026-09-07"
- },
- {
-  "id": "star-r13-star-ring-battle-dress",
-  "family": "Star",
-  "rank": 13,
-  "name": {
-   "en": "Star Ring Battle Dress",
-   "cn": "星環戰衣",
-   "th": "ชุดกระโปรงรบวงแหวนดาว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "india",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
-  "id": "star-r17-star-ring-helm",
-  "family": "Star",
-  "rank": 17,
-  "name": {
-   "en": "Star Ring Helm",
-   "cn": "星環頭盔",
-   "th": "หมวกเกราะวงแหวนดาว"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": true,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Highest buyable Star material",
-  "updated": "2026-09-07"
- },
- {
-  "id": "star-r2-star-dust-elemental",
-  "family": "Star",
-  "rank": 2,
-  "name": {
-   "en": "Star Dust (elemental) 星耀之塵",
-   "cn": "星耀之塵·空/水/火/地/風",
-   "th": "ผงดาราแห่งธาตุ (空/水/火/地/風)"
-  },
-  "sources": [
-   {
-    "type": "drop",
-    "mob": "Smart Decomposition Station (喵型智能分解站)",
-    "lv": null,
-    "where": "Whale Island area",
-    "provenance": "kb"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": false,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": "Thai: ผงดาราแห่งธาตุ… — rank 2, family ประกายดาว. Also washable on Superior Alchemy targeting rank 3",
   "updated": "2026-09-07"
  }
 ]
