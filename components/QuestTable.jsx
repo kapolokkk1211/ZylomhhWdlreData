@@ -97,7 +97,7 @@ export default function QuestTable({ rows, labels, strings, options, lang }) {
             <tr>
               <th style={{ width: 140 }}>{strings.type}</th>
               <th style={{ minWidth: 260 }}>{strings.quest}</th>
-              <th style={{ width: 56 }}>{strings.lv}</th>
+              <th className="th-num" style={{ width: 56 }}>{strings.lv}</th>
               <th style={{ width: 170 }}>{strings.where}</th>
               <th style={{ width: 200 }}>{strings.req}</th>
               <th style={{ width: 190 }}>{strings.reward}</th>

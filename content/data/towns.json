@@ -37,7 +37,8 @@
    "th": "ออสเตรเลีย"
   },
   "thStatus": "open",
-  "note": "Lv 65 gate"
+  "note": "Lv 65 gate",
+  "thConfirmed": true
  },
  {
   "key": "easter-island",
@@ -47,17 +48,19 @@
    "th": "เกาะอีสเตอร์"
   },
   "thStatus": "open",
-  "note": "No level gate"
+  "note": "No level gate",
+  "thConfirmed": true
  },
  {
   "key": "india",
   "name": {
    "en": "India (Calcutta)",
    "cn": "印度",
-   "th": "อินเดีย"
+   "th": "การ์กาตา"
   },
   "thStatus": "open",
-  "note": "Lv 105 gate"
+  "note": "Lv 105 gate",
+  "thConfirmed": true
  },
  {
   "key": "antarctica",
@@ -67,7 +70,8 @@
    "th": "แอนตาร์กติกา"
   },
   "thStatus": "open",
-  "note": "Lv 85 gate"
+  "note": "Lv 85 gate",
+  "thConfirmed": true
  },
  {
   "key": "maya",
@@ -102,12 +106,13 @@
  {
   "key": "china",
   "name": {
-   "en": "China",
+   "en": "China Fishing Village",
    "cn": "中國",
-   "th": "จีน"
+   "th": "หมู่บ้านประมงจีน"
   },
-  "thStatus": "closed",
-  "note": "Legacy transcriptions call this shop \"Fishing Village\""
+  "thStatus": "open",
+  "note": "Opened by the 2026-09 patch — confirmed on KK's in-client map. Legacy transcriptions call this shop \"Fishing Village\" — the Thai client agrees.",
+  "thConfirmed": true
  },
  {
   "key": "changan",
@@ -156,8 +161,9 @@
    "cn": "曼谷",
    "th": "กรุงเทพฯ"
   },
-  "thStatus": "closed",
-  "note": null
+  "thStatus": "open",
+  "note": "Opened by the 2026-09 patch — confirmed on KK's in-client map.",
+  "thConfirmed": true
  },
  {
   "key": "whale-island",
@@ -218,5 +224,49 @@
   },
   "thStatus": "not-in-re",
   "note": "⚠️ The Re sheet has NO Hawaii shop. Every rank-18 refined material in Re comes from 高級煉金卷(RE版) / \"8-12購買\" instead. Legacy Hawaii rows are kept only as a legacy note."
+ },
+ {
+  "key": "madagascar",
+  "name": {
+   "en": "Madagascar",
+   "cn": "馬達加斯加",
+   "th": "มาดากัสการ์"
+  },
+  "thStatus": "open",
+  "thConfirmed": true,
+  "note": "Opened by the 2026-09 patch — confirmed on KK's in-client map. No shop list yet — nothing in the material index is attributed to it."
+ },
+ {
+  "key": "taiwan",
+  "name": {
+   "en": "Taiwan",
+   "cn": "台灣",
+   "th": "ไต้หวัน"
+  },
+  "thStatus": "open",
+  "thConfirmed": true,
+  "note": "Open. The gather port for Gold Ore (r11) and Titanium (r10). No shop rows in the material index yet."
+ },
+ {
+  "key": "borneo",
+  "name": {
+   "en": "Borneo Kingdom",
+   "cn": "婆羅洲",
+   "th": "อาณาจักรบอร์เนียว"
+  },
+  "thStatus": "open",
+  "thConfirmed": true,
+  "note": "Open on KK's map. No shop list yet."
+ },
+ {
+  "key": "thunder-dragon-island",
+  "name": {
+   "en": "Brontosaurus Island",
+   "cn": "雷龍島",
+   "th": "เกาะมังกรสายฟ้า"
+  },
+  "thStatus": "open",
+  "thConfirmed": true,
+  "note": "Open on KK's map. Where the Ancestor skill quest's Mysterious Scroll is picked up, around (4500, 4185). No shop list yet."
  }
 ]

@@ -58,6 +58,8 @@ const spot=[
  ['Ancestor skill quest is RE-verified and needs 前往南極',()=>{const q=quests.find(x=>x.id==='skill-ancestor');return q&&q.type==='skill'&&q.confidence==='RE-verified'&&q.req.en.includes('Antarctica')}],
  ['Every quest links out; 100+ link to a wiki page',()=>quests.every(q=>q.sources.length)&&quests.filter(q=>q.sources.some(s=>s.kind==='wiki')).length>=100],
  ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
+ ['China Fishing Village and Bangkok opened in the 2026-09 patch',()=>['china','bangkok'].every(k=>towns.find(t=>t.key===k)?.thStatus==='open')],
+ ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
  ['Hawaii is flagged not-in-re',()=>towns.find(t=>t.key==='hawaii').thStatus==='not-in-re'],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],
 ];
@@ -81,7 +83,9 @@ console.log('Confirmed from KK’s client:',
   Object.values(gloss).flat().filter(g=>g.thConfirmed).length,'glossary terms');
 const byConf=comp.reduce((a,r)=>(a[r.confidence]=(a[r.confidence]||0)+1,a),{});
 console.log('compounds by confidence:',JSON.stringify(byConf));
-const reachable=mats.filter(m=>m.sources.some(s=>s.type==='shop'&&['australia','easter-island','india','antarctica'].includes(s.town)));
-console.log(`materials buyable on the TH map today: ${reachable.length}/${mats.length}`);
+// Read the open list from towns.json rather than hardcoding it — the TH map gets patched.
+const openTowns=new Set(towns.filter(t=>t.thStatus==='open').map(t=>t.key));
+const reachable=mats.filter(m=>m.sources.some(s=>s.type==='shop'&&openTowns.has(s.town)));
+console.log(`materials buyable on the TH map today: ${reachable.length}/${mats.length} · open shop towns: ${[...openTowns].join(', ')}`);
 console.log('\nEXIT',err.length?'FAIL':'PASS');
 process.exit(err.length?1:0);
