@@ -5662,24 +5662,16 @@
    "cn": "星環長劍",
    "th": "ดาบยาววงแหวนดาว"
   },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "australia",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
+  "sources": [],
   "flags": {
-   "cheapestOfFamily": true,
+   "cheapestOfFamily": false,
    "highestBuyable": false,
    "keyMaterial": false,
    "priceConfirmedRe": false
   },
-  "confidence": "RE-reported",
-  "note": "Australia is open on TH — the entry point into the Re-only Star family",
-  "updated": "2026-09-07"
+  "confidence": "KK-tested",
+  "note": "KK checked the live Thai client on 2026-09-10: no ประกายดาว (Star) item is sold in any shop on the current Thai patch. The shop attribution here came from the Taiwan community sheet and is wrong for TH — removed rather than left as a lead a player would waste a trip on.",
+  "updated": "2026-09-10"
  },
  {
   "id": "star-r13-star-ring-battle-dress",
@@ -5690,24 +5682,16 @@
    "cn": "星環戰衣",
    "th": "ชุดกระโปรงรบวงแหวนดาว"
   },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "india",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
    "keyMaterial": false,
    "priceConfirmedRe": false
   },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "confidence": "KK-tested",
+  "note": "KK checked the live Thai client on 2026-09-10: no ประกายดาว (Star) item is sold in any shop on the current Thai patch. The shop attribution here came from the Taiwan community sheet and is wrong for TH — removed rather than left as a lead a player would waste a trip on.",
+  "updated": "2026-09-10"
  },
  {
   "id": "star-r17-star-ring-helm",
@@ -5718,24 +5702,16 @@
    "cn": "星環頭盔",
    "th": "หมวกเกราะวงแหวนดาว"
   },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "japan",
-    "price": null,
-    "priceProvenance": null,
-    "provenance": "re-sheet"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
-   "highestBuyable": true,
+   "highestBuyable": false,
    "keyMaterial": false,
    "priceConfirmedRe": false
   },
-  "confidence": "RE-reported",
-  "note": "Highest buyable Star material",
-  "updated": "2026-09-07"
+  "confidence": "KK-tested",
+  "note": "KK checked the live Thai client on 2026-09-10: no ประกายดาว (Star) item is sold in any shop on the current Thai patch. The shop attribution here came from the Taiwan community sheet and is wrong for TH — removed rather than left as a lead a player would waste a trip on.",
+  "updated": "2026-09-10"
  },
  {
   "id": "steel-r8-steel-material",

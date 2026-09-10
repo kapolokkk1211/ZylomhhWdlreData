@@ -7,8 +7,8 @@ import { readBasket, writeBasket, subscribeBasket } from '@/lib/basket';
 /* compact row indices: 0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw */
 
 const MAX_DEPTH = 20;
-const NODE_W = 176, NODE_H = 96, GAP_X = 16, GAP_Y = 44; // on-screen slot
-const BOX_H = 60; // drawn box height in the PNG
+const NODE_W = 208, NODE_H = 106, GAP_X = 16, GAP_Y = 44; // on-screen slot — wide enough for two families
+const BOX_H = 76; // drawn box height in the PNG (two metadata lines)
 const ZMIN = 0.3, ZMAX = 2.5;
 const STORE = 'stardrift.plan.v1';
 
@@ -88,13 +88,23 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
   const info = (n) => {
     if (n.itemId) {
       const r = byId.get(n.itemId);
-      if (r) return { name: lang === 'th' ? r[8] || r[6] : r[6], alt: [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · '), rank: r[3], stats: r[9] && r[9] !== '—' ? r[9] : (lang === 'th' ? r[11] : r[10]) || '', family: labels.family[r[1]]?.label, kind: r[0].startsWith('mat:') ? 'mat' : 'item' };
+      if (r) return {
+        name: lang === 'th' ? r[8] || r[6] : r[6],
+        alt: [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · '),
+        rank: r[3],
+        stats: r[9] && r[9] !== '—' ? r[9] : (lang === 'th' ? r[11] : r[10]) || '',
+        family: labels.family[r[1]]?.label,
+        // A compound belongs to a main family plus any secondaries; the recipe needs all of
+        // them, so the node shows all of them — main first, and the main one bold.
+        fams: [labels.family[r[1]]?.label, ...(r[2] || []).map((f) => labels.family[f]?.label || f)].filter(Boolean),
+        kind: r[0].startsWith('mat:') ? 'mat' : 'item',
+      };
     }
     if (n.matId) {
       const m = matById.get(n.matId);
-      if (m) return { name: lang === 'th' ? m.name.th || m.name.en : m.name.en, alt: m.name.cn, rank: m.rank, stats: m.src || '', family: labels.family[m.family]?.label, kind: 'mat', buyable: m.buyableNow };
+      if (m) return { name: lang === 'th' ? m.name.th || m.name.en : m.name.en, alt: m.name.cn, rank: m.rank, stats: m.src || '', family: labels.family[m.family]?.label, fams: [labels.family[m.family]?.label].filter(Boolean), kind: 'mat', buyable: m.buyableNow };
     }
-    return { name: n.text || '?', alt: '', rank: null, stats: '', family: '', kind: 'text' };
+    return { name: n.text || '?', alt: '', rank: null, stats: '', family: '', fams: [], kind: 'text' };
   };
 
   /* ---- tree ops (immutable) ---- */
@@ -206,8 +216,29 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
       c.fillStyle = '#ffffff'; c.strokeStyle = p.depth === 0 ? '#1f7a43' : '#c9dfcf'; c.lineWidth = p.depth === 0 ? 2 : 1;
       rr(c, x, y, NODE_W, BOX_H, 9); c.fill(); c.stroke();
       c.fillStyle = '#12231a'; c.font = `600 13px ${F}`; ellipsis(c, i.name, x + 10, y + 21, NODE_W - 20);
-      c.fillStyle = '#3a5243'; c.font = `11px ${M}`; ellipsis(c, `${i.rank != null ? `r${i.rank}` : ''}${i.rank != null && i.family ? ' · ' : ''}${i.family || ''}`, x + 10, y + 38, NODE_W - 20);
-      if (p.n.note) { c.fillStyle = '#a8461f'; c.font = `italic 11px ${F}`; ellipsis(c, p.n.note, x + 10, y + 53, NODE_W - 20); }
+      // rank + every family, main one in a heavier weight — drawn in two runs so the
+      // saved picture matches what the node shows on screen.
+      {
+        const lead = `${i.rank != null ? `r${i.rank}` : ''}${i.rank != null && i.fams.length ? ' · ' : ''}`;
+        const rest = i.fams.slice(1).join(' · ');
+        let mx = x + 10;
+        const left = () => NODE_W - 20 - (mx - x - 10);
+        c.fillStyle = '#3a5243'; c.font = `11px ${M}`;
+        if (lead) { c.fillText(lead, mx, y + 38); mx += c.measureText(lead).width; }
+        if (i.fams[0]) {
+          c.font = `700 11px ${M}`;
+          const main = fit(c, i.fams[0], left());
+          c.fillText(main, mx, y + 38); mx += c.measureText(main).width;
+        }
+        if (rest) {
+          // Secondary families go on line 1 if they fit, otherwise on their own line —
+          // never truncated away, because the recipe needs every family the item carries.
+          c.font = `11px ${M}`;
+          if (c.measureText(' · ' + rest).width <= left()) c.fillText(' · ' + rest, mx, y + 38);
+          else ellipsis(c, '· ' + rest, x + 10, y + 52, NODE_W - 20);
+        }
+      }
+      if (p.n.note) { c.fillStyle = '#a8461f'; c.font = `italic 11px ${F}`; ellipsis(c, p.n.note, x + 10, y + 68, NODE_W - 20); }
     });
     // steps
     let sy = oy + pad + treeH + 34;
@@ -239,7 +270,10 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
           <li key={r[0]}>
             <div className="sim-basket-name">
               <b>{lang === 'th' ? r[8] || r[6] : r[6]}</b>
-              <span className="sim-dim"> r{r[3]} · {labels.family[r[1]]?.label}</span>
+              <span className="sim-dim">
+                {' '}r{r[3]} · <b className="fam-main">{labels.family[r[1]]?.label}</b>
+                {(r[2] || []).map((f) => ` · ${labels.family[f]?.label || f}`).join('')}
+              </span>
             </div>
             <div className="sim-basket-actions">
               {!tree ? (
@@ -314,7 +348,15 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
                     return (
                       <div key={p.n.id} className={`sim-node k-${i.kind}${p.depth === 0 ? ' root' : ''}${selected === p.n.id ? ' sel' : ''}`} style={{ left: p.x, top: p.y, width: NODE_W, height: NODE_H }} onClick={() => setSelected(p.n.id)}>
                         <div className="sim-node-name" title={`${i.alt}${i.stats ? ` · ${i.stats}` : ''}`}>{i.name}</div>
-                        <div className="sim-node-meta">{i.rank != null ? `r${i.rank}` : ''}{i.rank != null && i.family ? ' · ' : ''}{i.family}</div>
+                        <div className="sim-node-meta" title={i.fams.join(' · ')}>
+                          {i.rank != null ? `r${i.rank}` : ''}
+                          {i.rank != null && i.fams.length ? ' · ' : ''}
+                          {i.fams.map((f, k) => (
+                            <span key={k} className={k === 0 ? 'fam-main' : 'fam-sub'}>
+                              {k > 0 ? ' · ' : ''}{f}
+                            </span>
+                          ))}
+                        </div>
                         {editNote === p.n.id ? (
                           <input className="sim-node-note" autoFocus value={p.n.note} placeholder={strings.notePh} onChange={(e) => update(p.n.id, (x) => ({ ...x, note: e.target.value }))} onBlur={() => setEditNote(null)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === 'Escape') setEditNote(null); }} />
                         ) : (
@@ -360,6 +402,14 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
 
 function rr(c, x, y, w, h, r) {
   c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r); c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath();
+}
+// Trim a string to fit maxW without drawing it — used when a line is built from
+// several runs and each run needs to know what room is left.
+function fit(c, text, maxW) {
+  let t = String(text || '');
+  if (c.measureText(t).width <= maxW) return t;
+  while (t.length > 1 && c.measureText(t + '…').width > maxW) t = t.slice(0, -1);
+  return t + '…';
 }
 function ellipsis(c, text, x, y, maxW) {
   let t = String(text || '');

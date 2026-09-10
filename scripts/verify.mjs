@@ -59,6 +59,8 @@ const spot=[
  ['Every quest links out; 100+ link to a wiki page',()=>quests.every(q=>q.sources.length)&&quests.filter(q=>q.sources.some(s=>s.kind==='wiki')).length>=100],
  ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
  ['China Fishing Village and Bangkok opened in the 2026-09 patch',()=>['china','bangkok'].every(k=>towns.find(t=>t.key===k)?.thStatus==='open')],
+ ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
+   ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],
  ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
  ['Hawaii is flagged not-in-re',()=>towns.find(t=>t.key==='hawaii').thStatus==='not-in-re'],
  ['Every family with rank-1 content has a row on the compound page',()=>{
