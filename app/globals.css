@@ -285,6 +285,8 @@ tbody tr.group:hover td { background: var(--surface-3); }
 .nm-alt { font-size: 12.5px; color: var(--ink-soft); font-family: var(--font-mono); display: block; }
 .fm { font-family: var(--font-thai), var(--font-body); font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
 .fm b { color: var(--star); }
+/* which family the active filter matched — the row may be here for a secondary one */
+.fm .fam-hit, .fm b.fam-hit { background: var(--star-bg); color: var(--star); font-weight: 700; border-radius: 4px; padding: 1px 4px; }
 .st { font-family: var(--font-mono); font-size: 13.5px; white-space: nowrap; letter-spacing: .01em; }
 .rc { font-family: var(--font-thai), var(--font-body); font-size: 14px; color: var(--ink-soft); min-width: 220px; position: relative; }
 /* Recipe cell: clamped to a fixed height so every row is the same height.

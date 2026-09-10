@@ -51,7 +51,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     const L = lo === '' ? 0 : Number(lo);
     const H = hi === '' ? 999 : Number(hi);
     return rows.filter((r) => {
-      if (fam && r[1] !== fam) return false;
+      // Match secondary families too: filtering by เหล็กกล้า should answer "what can I make
+      // WITH steel", not only "what is mainly steel". r[2] is the secondary list.
+      if (fam && r[1] !== fam && !(r[2] || []).includes(fam)) return false;
       if (slot && r[5] !== slot) return false;
       if (r[3] < L || r[3] > H) return false;
       if (verified && !TRUSTED.has(r[12])) return false;
@@ -236,8 +238,10 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                   </td>
                   <td className="c-slot"><span className="slot-pill">{labels.slot[g.row[5]]?.label}</span></td>
                   <td className="fm c-fam" data-l={strings.families}>
-                    <b>{labels.family[g.row[1]]?.label}</b>
-                    {g.row[2].length > 0 && ' · ' + g.row[2].map((f) => labels.family[f]?.label || f).join(' · ')}
+                    <b className={fam && g.row[1] === fam ? 'fam-hit' : undefined}>{labels.family[g.row[1]]?.label}</b>
+                    {g.row[2].map((f) => (
+                      <span key={f} className={fam && f === fam ? 'fam-hit' : undefined}> · {labels.family[f]?.label || f}</span>
+                    ))}
                   </td>
                   <td className="st c-st" data-l={strings.stats}>{g.row[9]}</td>
                   <td

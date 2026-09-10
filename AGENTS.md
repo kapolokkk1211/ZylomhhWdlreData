@@ -84,6 +84,15 @@ a name in-client, set `name.th` to the exact client string and `thConfirmed: tru
 is worse than leaving a row in English — a player who cannot find your Thai name in their client
 loses trust in every other row.
 
+**Source priority, highest first.** KK's live Thai client beats everything. Then **WLOHUB**
+(`wlohub.com/items/{id}` — 6,882 items, per-item pages with rank, equip level, slot, up to five
+material families, stats, recipes, and a "Where To Find" tab giving shop+town+price or the drop
+monster). Then the Taiwan community sheet, then wlopedia, then the legacy Bahamut alchemy
+encyclopedia. WLOHUB has no bulk API — its listing is a Livewire POST, not a REST endpoint — so it
+is a lookup tool, not something to import from in one pass. It carries no Chinese names at all, so
+pair it with a CN source when a 中文 name is what you need. Every one of these sites 403s a plain
+fetcher and reads fine in a real browser tab.
+
 **A material with no source is fine; a material with a made-up source is not.** 87 rows carry
 `sources: []` and render as "ยังไม่ทราบแหล่งที่มา". The compound page needed the low ranks — rank 1
 went from 6 items to 23 — and inventing a shop or a drop mob to fill the column would have been

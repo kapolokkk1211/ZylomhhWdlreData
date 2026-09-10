@@ -9942,11 +9942,11 @@
   ],
   "rank": 14,
   "lv": 28,
-  "slot": "accessory",
+  "slot": "boots",
   "name": {
-   "en": "White Bell Ring",
-   "cn": "白鈴耀環",
-   "th": "ห่วงกระดิ่งขาว"
+   "en": "Silver Loops / White Bell Anklet",
+   "cn": "白鈴腳環",
+   "th": "รองเท้ากระดิ่งขาว"
   },
   "stats": [
    {
@@ -9960,10 +9960,12 @@
    "en": "r18 Silver + Immaculate Sapphire + Airship Steering + Dragon Scale Marrow",
    "th": "เงิน r18 + ไพลินไร้ตำหนิ + อุปกรณ์บังคับเรือเหาะ + ไขกระดูกเกล็ดมังกร"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "partial-to-rank-30"
+  "updated": "2026-09-10",
+  "familyCoverage": "partial-to-rank-30",
+  "thConfirmed": true,
+  "note": "KK reported the Thai client name รองเท้ากระดิ่งขาว and could not find it on the site — we had it as an accessory called 白鈴耀環 / White Bell Ring, so the Thai name came out as ห่วงกระดิ่งขาว and the row was unfindable. WLOHUB (items/1345), wlopedia and the legacy Bahamut alchemy encyclopedia all agree: 白鈴腳環, an ankle-ring worn in the SHOES slot, r14 lv28, Silver + Aluminum + Corundum + Magic, SPD+8 and 6% seal resist. The 耀環 spelling in the community sheet is a mis-transcription of 腳環."
  },
  {
   "id": "silver-blade-claw-r14",
