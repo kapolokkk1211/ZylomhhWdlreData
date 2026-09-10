@@ -7,6 +7,7 @@ const ITEMS = [
   ['/materials', 'materials'],
   ['/simulator', 'simulator'],
   ['/quests', 'quests'],
+  ['/feedback', 'feedback'],
   ['/about', 'about'],
 ];
 

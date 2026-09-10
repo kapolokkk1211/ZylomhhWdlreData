@@ -23,6 +23,8 @@ content/data/          ← the entire data layer. Edit these, not the components
   towns.json             22 towns + whether each shop is open on the Thai map
   codes.json             families / slots / stats / confidence tags, all in EN·中文·ไทย
   glossary.json          71 terms (no page any more; kept as reference data)
+  feedback.json          the แจ้งข้อมูล page's two Google Form links. Blank = the page shows
+                         "not connected yet". Filling them in is the whole wiring
   quests.json            132 quests in 5 categories keyed to the Thai client's tabs, each row
                          carrying 3–6 outbound `sources` links (see the rule below):
                          main เควสหลัก · side เควสรอง · companion เควสขุนพล · star เควสดวงดาว · skill เควสสกิล.
@@ -37,6 +39,7 @@ app/[lang]/simulator   ← the planner: a free-form tree (target on top, ≤20 d
                          builds by hand; ⇣ loads a recipe as a starting point; PNG export via canvas;
                          autosaved to localStorage
 app/[lang]/quests      ← quest lists by category, one filter + a hover-to-read steps column
+app/[lang]/feedback    ← แจ้งข้อมูล: the Google Form embedded in the page, nothing else
 app/[lang]/about       ← the old home page: rules, trust tags, sources
 components/            ← CompoundTable, MaterialTable, QuestTable, Simulator, Combobox, Nav, Legend
 scripts/verify.mjs     ← schema + spot-check validator. Run it after every data edit.
@@ -45,6 +48,17 @@ scripts/extraction/    ← one-time builders. wlopedia_materials.mjs appends the
                          recipe.th from the parsed English recipe using those names.
                          Re-run the last two (in that order) after adding rows or fixing a name.
 ```
+
+## Where corrections come from
+
+Two ways in. **KK in chat** — the usual route. And **the แจ้งข้อมูล page**, which embeds a Google
+Form whose responses land in a Google Sheet on KK's Drive. That sheet is readable from a session
+through the Google Drive connector, so a session can be asked to work the backlog: read the new
+rows, apply the ones that are actionable, and say which ones need KK to check in-client first.
+
+A report from a player is not automatically `KK-tested`. That tag means someone confirmed it in the
+live Thai client. A report with a screenshot of the client counts; a report that just says "I think
+this is wrong" does not — fix the row if the evidence is good, but tag it honestly.
 
 ## The correction protocol
 

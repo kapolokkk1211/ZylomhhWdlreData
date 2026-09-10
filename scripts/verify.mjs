@@ -1,7 +1,8 @@
 import fs from 'fs';
 const J=f=>JSON.parse(fs.readFileSync('content/data/'+f,'utf8'));
 const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
-      towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json');
+      towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json'),
+      feedback=J('feedback.json');
 const fams=new Set(codes.families.map(f=>f.key)), slots=new Set(codes.slots.map(s=>s.key)),
       stats=new Set(codes.stats.map(s=>s.key)), confs=new Set(codes.confidence.map(c=>c.key)),
       townKeys=new Set(towns.map(t=>t.key)),
@@ -46,6 +47,14 @@ for(const r of quests){
     if(!/^https:\/\//.test(s.url||''))err.push('source url is not https @'+r.id);
   }
 }
+
+// The report page silently shows "not connected yet" if these are blank, so check the shape.
+for(const k of ['formUrl','embedUrl']){
+  const v=feedback[k];
+  if(v && !/^https:\/\/docs\.google\.com\/forms\//.test(v))err.push(`feedback.${k} is not a Google Forms URL`);
+}
+if(feedback.formUrl&&!feedback.embedUrl)warn.push('feedback.formUrl is set but embedUrl is not — the form will not show on the page');
+if(feedback.embedUrl&&!/embedded=true/.test(feedback.embedUrl))warn.push('feedback.embedUrl is missing ?embedded=true');
 
 // spot checks against the knowledge base
 const find=(en,rank)=>comp.find(r=>r.name.en===en&&r.rank===rank);

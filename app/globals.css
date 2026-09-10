@@ -840,3 +840,18 @@ html[data-view="mobile"] table.qtable td.c-qtype { margin-bottom: 4px; }
 .srclink-baha { border-color: #f0c9c5; color: #8a2e26; background: #fdf1f0; }
 .srclink-search { opacity: .78; }
 html[data-view="mobile"] .srcs { margin-top: 7px; }
+
+/* ---- report page ---- */
+.fb-how { margin: 0 0 20px; padding-left: 20px; display: grid; gap: 7px; max-width: 70ch; color: var(--ink-soft); font-size: 15px; line-height: 1.6; }
+.fb-how li::marker { color: var(--star); }
+.fb-embed {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.fb-embed iframe { display: block; width: 100%; height: 1100px; border: 0; }
+.fb-fallback { margin-top: 10px; font-size: 13.5px; }
+.fb-after { margin-top: 22px; font-size: 13.5px; color: var(--ink-faint); max-width: 70ch; }
+html[data-view="mobile"] .fb-embed iframe { height: 1400px; }
