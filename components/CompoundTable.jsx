@@ -22,7 +22,8 @@ const cmp = { '>': (a, b) => a > b, '>=': (a, b) => a >= b, '=': (a, b) => a ===
 
 export default function CompoundTable({ rows, labels, strings, options, lang }) {
   const [q, setQ] = useState('');
-  const [fam, setFam] = useState('');
+  const [fam, setFam] = useState('');       // main structural family
+  const [fam2, setFam2] = useState('');      // secondary family — its own filter, so 'main only' is possible
   const [slot, setSlot] = useState('');
   const [lo, setLo] = useState('');
   const [hi, setHi] = useState('');
@@ -39,6 +40,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     try {
       const p = new URLSearchParams(window.location.search);
       if (p.get('family')) setFam(p.get('family'));
+      if (p.get('family2')) setFam2(p.get('family2'));
       if (p.get('slot')) setSlot(p.get('slot'));
       if (p.get('q')) setQ(p.get('q'));
     } catch {}
@@ -51,9 +53,8 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     const L = lo === '' ? 0 : Number(lo);
     const H = hi === '' ? 999 : Number(hi);
     return rows.filter((r) => {
-      // Match secondary families too: filtering by เหล็กกล้า should answer "what can I make
-      // WITH steel", not only "what is mainly steel". r[2] is the secondary list.
-      if (fam && r[1] !== fam && !(r[2] || []).includes(fam)) return false;
+      if (fam && r[1] !== fam) return false;
+      if (fam2 && !(r[2] || []).includes(fam2)) return false;
       if (slot && r[5] !== slot) return false;
       if (r[3] < L || r[3] > H) return false;
       if (verified && !TRUSTED.has(r[12])) return false;
@@ -70,7 +71,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
       }
       return true;
     });
-  }, [rows, q, fam, slot, lo, hi, verified, statActive, statf, labels]);
+  }, [rows, q, fam, fam2, slot, lo, hi, verified, statActive, statf, labels]);
 
   // One sort key at a time. Sorted views are flat (no family headings).
   const sorted = useMemo(() => {
@@ -111,8 +112,8 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     return out;
   }, [sorted, sort.key, labels, strings]);
 
-  const anyFilter = q || fam || slot || lo || hi || verified || statActive || sort.key;
-  const reset = () => { setQ(''); setFam(''); setSlot(''); setLo(''); setHi(''); setVerified(false); setStatf({ stat: 'ATK', op: '>', val: '' }); setSort({ key: null, dir: 'desc' }); };
+  const anyFilter = q || fam || fam2 || slot || lo || hi || verified || statActive || sort.key;
+  const reset = () => { setQ(''); setFam(''); setFam2(''); setSlot(''); setLo(''); setHi(''); setVerified(false); setStatf({ stat: 'ATK', op: '>', val: '' }); setSort({ key: null, dir: 'desc' }); };
   const toggleSort = (key) => setSort((s) => (s.key === key ? { key, dir: s.dir === 'desc' ? 'asc' : 'desc' } : { key, dir: 'desc' }));
   const arrow = (key) => (sort.key === key ? (sort.dir === 'desc' ? ' ▼' : ' ▲') : '');
 
@@ -134,7 +135,8 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
           placeholder={strings.search}
           aria-label={strings.search}
         />
-        <Combobox value={fam} onChange={setFam} options={options.families} allLabel={strings.allFamilies} width={200} />
+        <Combobox value={fam} onChange={setFam} options={options.families} allLabel={strings.allFamilies} ariaLabel={strings.mainFamily} width={190} />
+        <Combobox value={fam2} onChange={setFam2} options={options.secondaries} allLabel={strings.allSecondaries} ariaLabel={strings.secondFamily} width={190} />
         <Combobox value={slot} onChange={setSlot} options={options.slots} allLabel={strings.allSlots} width={170} />
 
         <span className="rng">
@@ -229,7 +231,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                         <span className={`line-pill line-${g.row[14]}`}>{strings.lines[g.row[14]]}</span>
                       )}
                     </span>
-                    {g.row[12] !== 'RE-reported' && (
+                    {/* KK-tested rows carry no badge here — the tag stays in the data and still
+                        drives the "verified only" filter, it is just not shown on the row. */}
+                    {g.row[12] !== 'RE-reported' && g.row[12] !== 'KK-tested' && (
                       <span className={`badge ${CONF_CLASS[g.row[12]] || 'b-legacy'}`} title={labels.confidence[g.row[12]]?.desc}>
                         {labels.confidence[g.row[12]]?.label}
                       </span>
@@ -240,7 +244,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                   <td className="fm c-fam" data-l={strings.families}>
                     <b className={fam && g.row[1] === fam ? 'fam-hit' : undefined}>{labels.family[g.row[1]]?.label}</b>
                     {g.row[2].map((f) => (
-                      <span key={f} className={fam && f === fam ? 'fam-hit' : undefined}> · {labels.family[f]?.label || f}</span>
+                      <span key={f} className={fam2 && f === fam2 ? 'fam-hit' : undefined}> · {labels.family[f]?.label || f}</span>
                     ))}
                   </td>
                   <td className="st c-st" data-l={strings.stats}>{g.row[9]}</td>

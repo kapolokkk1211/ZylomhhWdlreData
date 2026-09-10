@@ -21,7 +21,7 @@ export default async function Compounds({ params }) {
         <p className="lede">{s.compounds.lede}</p>
         <div className="note"><b>⭐</b> {s.star.pairNote}</div>
       </div>
-      <Legend strings={s.common} labels={labelBundle(lang)} />
+      <Legend strings={s.common} />
       <CompoundTable
         rows={rows}
         labels={labelBundle(lang)}
