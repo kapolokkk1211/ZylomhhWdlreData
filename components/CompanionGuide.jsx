@@ -12,11 +12,15 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
     const term = q.trim().toLowerCase();
     if (!term) return rows;
     return rows.filter((r) =>
-      `${r.name} ${r.alt} ${r.rebirthSkill || ''} ${r.exclusive?.cn || ''} ${r.rebirthExclusive?.cn || ''}`
+      `${r.name} ${r.alt} ${r.rebirthSkill || ''} ${r.rebirthSkillName || ''} ${r.exclusive?.name || ''} ${
+        r.exclusive?.cn || ''
+      } ${r.rebirthExclusive?.name || ''} ${r.rebirthExclusive?.cn || ''} ${
+        strings.slots[r.exclusive?.slot] || ''
+      } ${strings.slots[r.rebirthExclusive?.slot] || ''}`
         .toLowerCase()
         .includes(term),
     );
-  }, [rows, q]);
+  }, [rows, q, strings]);
 
   const floors = rows.filter((r) => r.floors);
   const group = (src) => filtered.filter((r) => r.source === src);
@@ -24,15 +28,32 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
   const typeLabel = (r) =>
     `${strings.types[r.type] || r.type} / ${strings.forms[r.form] || r.form}`;
 
-  const gearCell = (g) =>
-    g ? (
+  /* Slot is the thing KK asked for: which equipment slot the exclusive item goes in.
+     28 of the 49 items have a slot stated by a source; the other 21 are inferred from the
+     compendium's convention that an untagged exclusive is a weapon, so they say so out loud
+     rather than pretending to the same certainty. */
+  const gearCell = (g) => {
+    if (!g) return '—';
+    const slot = g.slot ? strings.slots[g.slot] || g.slot : null;
+    return (
       <>
-        <b className="cn">{g.cn}</b>
+        <b className="gear-name">{g.name}</b>
+        {g.name !== g.cn && <span className="cn"> {g.cn}</span>}
         <span className="gear-stats">{g.stats}</span>
+        {slot && (
+          <span className="gear-slot" title={g.slotConfirmed ? strings.slotConfirmedHelp : strings.slotInferredHelp}>
+            {slot}
+            {!g.slotConfirmed && <i className="slot-inf">{strings.slotInferred}</i>}
+          </span>
+        )}
+        {g.slotNote && (
+          <span className="gear-note" title={g.slotNote}>
+            ⚠ {strings.slotConflict}
+          </span>
+        )}
       </>
-    ) : (
-      '—'
     );
+  };
 
   const table = (src, heading) => {
     const list = group(src);
@@ -49,7 +70,7 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
                 <th className="th-num" style={{ width: 78 }}>{strings.pts}</th>
                 <th style={{ minWidth: 190 }}>{strings.exclusive}</th>
                 <th style={{ minWidth: 200 }}>{strings.rebirthExclusive}</th>
-                <th style={{ width: 130 }}>{strings.rebirthSkill}</th>
+                <th style={{ width: 168 }}>{strings.rebirthSkill}</th>
               </tr>
             </thead>
             <tbody>
@@ -69,11 +90,20 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
                     </button>
                     {r.note && <div className="mnote">{r.note}</div>}
                   </td>
-                  <td className="fm">{typeLabel(r)}</td>
-                  <td className="c-lv"><span className="lv">{r.pts ?? '—'}</span></td>
-                  <td className="gear">{gearCell(r.exclusive)}</td>
-                  <td className="gear reborn">{gearCell(r.rebirthExclusive)}</td>
-                  <td className="fm cn">{r.rebirthSkill || '—'}</td>
+                  <td className="fm c-kind" data-l={strings.kind}>{typeLabel(r)}</td>
+                  <td className="c-lv c-pts" data-l={strings.pts}><span className="lv">{r.pts ?? '—'}</span></td>
+                  <td className="gear c-gear" data-l={strings.exclusive}>{gearCell(r.exclusive)}</td>
+                  <td className="gear reborn c-gear" data-l={strings.rebirthExclusive}>{gearCell(r.rebirthExclusive)}</td>
+                  <td className="fm c-skill" data-l={strings.rebirthSkill}>
+                    {r.rebirthSkillName ? (
+                      <>
+                        <b className="gear-name">{r.rebirthSkillName}</b>
+                        <span className="cn"> {r.rebirthSkill}</span>
+                      </>
+                    ) : (
+                      <span className="cn">{r.rebirthSkill || '—'}</span>
+                    )}
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -150,7 +180,7 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
                 <tr key={r.id}>
                   <td className="c-name"><span className="nm">{r.name}</span> <span className="cn">{r.cn}</span></td>
                   {STATS.map((k) => (
-                    <td key={k} className="c-lv"><span className="lv">{r.floors[k] ?? '—'}</span></td>
+                    <td key={k} className="c-lv c-floor" data-l={k}><span className="lv">{r.floors[k] ?? '—'}</span></td>
                   ))}
                 </tr>
               ))}
@@ -171,6 +201,7 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
       {table('quest', strings.questGroup)}
       {table('mall', strings.mallGroup)}
       <p className="cg-dim">{strings.pattern}</p>
+      <p className="cg-dim">{strings.slotLegend}</p>
 
       <div className="cg-prose">
         <h2 className="cg-h2">{strings.thTitle}</h2>

@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { UI } from '../lib/ui.js';
 const J=f=>JSON.parse(fs.readFileSync('content/data/'+f,'utf8'));
 const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
       towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json'),
@@ -105,6 +106,19 @@ const spot=[
  }],
  ['Mall companions all rebirth at 130 points via the pill',()=>pets.filter(c=>c.source==='mall').every(c=>c.rebirthPoints===130)],
  ['Mary I’s WIS floor is 41 — the example the guide turns on',()=>pets.find(c=>c.id==='mary1')?.floors?.WIS===41],
+ ['Every exclusive item has a Thai name and a slot',()=>{
+   const SLOTS=new Set(['blade','sword','wand','club','gun','bow','claw','weapon','accessory','head','hand']);
+   return pets.every(c=>['exclusive','rebirthExclusive'].every(k=>{
+     const g=c[k]; if(!g) return true;
+     return !!g.th && !!g.cn && SLOTS.has(g.slot) && typeof g.slotConfirmed==='boolean';
+   }));
+ }],
+ ['Every slot key the data uses has a label in both languages',()=>{
+   const used=new Set(); pets.forEach(c=>['exclusive','rebirthExclusive'].forEach(k=>c[k]&&used.add(c[k].slot)));
+   return ['en','th'].every(L=>[...used].every(k=>!!UI[L].companions.slots[k]));
+ }],
+ ['Every companion has a Thai rebirth-skill name',()=>pets.every(c=>!c.rebirthSkill||!!c.rebirthSkillTh)],
+ ['The two flagged slot conflicts still carry their note',()=>['ares','nemea'].every(id=>pets.find(c=>c.id===id)?.exclusive?.slotNote?.th)],
  ['Only ลิงคส์ has a client-confirmed Thai companion name',()=>pets.filter(c=>c.thConfirmed).map(c=>c.id).join()==='lynx'],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
    ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],

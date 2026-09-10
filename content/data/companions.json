@@ -13,18 +13,25 @@
   "rebirthPoints": 127,
   "exclusive": {
    "cn": "蘿卡的彎刀",
-   "stats": "ATK+10 DEF+10"
+   "stats": "ATK+10 DEF+10",
+   "th": "ดาบโค้งของโรก้า",
+   "slot": "blade",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "裂斬彎刀",
-   "stats": "ATK+28 DEF+24"
+   "stats": "ATK+28 DEF+24",
+   "th": "ดาบโค้งผ่าทลาย",
+   "slot": "blade",
+   "slotConfirmed": true
   },
   "rebirthSkill": "爆裂斬",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ฟันระเบิด"
  },
  {
   "id": "xiaolan",
@@ -40,11 +47,17 @@
   "rebirthPoints": 126,
   "exclusive": {
    "cn": "小蘭的玉珮",
-   "stats": "ATK+11 DEF+10"
+   "stats": "ATK+11 DEF+10",
+   "th": "จี้หยกของเสี่ยวหลาน",
+   "slot": "accessory",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "獄蝕魔杖",
-   "stats": "SPD+30 MaxSP+100"
+   "stats": "SPD+30 MaxSP+100",
+   "th": "ไม้เท้านรกกัดกร่อน",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthSkill": "獄蝕具裂",
   "floors": {
@@ -57,7 +70,8 @@
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "นรกกัดแยกร่าง"
  },
  {
   "id": "niss",
@@ -73,18 +87,25 @@
   "rebirthPoints": 127,
   "exclusive": {
    "cn": "妮絲的魔杖",
-   "stats": "MATK+25 MaxSP+100"
+   "stats": "MATK+25 MaxSP+100",
+   "th": "ไม้เท้าของนิสส์",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "冰雪法杖",
-   "stats": "MATK+48 MaxHP+100"
+   "stats": "MATK+48 MaxHP+100",
+   "th": "ไม้เท้าหิมะน้ำแข็ง",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthSkill": "冰雪雷",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "สายฟ้าหิมะน้ำแข็ง"
  },
  {
   "id": "sarles",
@@ -100,18 +121,25 @@
   "rebirthPoints": 127,
   "exclusive": {
    "cn": "狼之魂",
-   "stats": "ATK+20 MaxHP+100"
+   "stats": "ATK+20 MaxHP+100",
+   "th": "วิญญาณหมาป่า",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "狂狼之怒",
-   "stats": "ATK+50 DEF+20"
+   "stats": "ATK+50 DEF+20",
+   "th": "โทสะหมาป่าคลั่ง",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthSkill": "狂狼雷怒",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "โทสะสายฟ้าหมาป่าคลั่ง"
  },
  {
   "id": "cliff",
@@ -127,11 +155,17 @@
   "rebirthPoints": 127,
   "exclusive": {
    "cn": "克里夫的木棒",
-   "stats": "ATK+9 DEF+11"
+   "stats": "ATK+9 DEF+11",
+   "th": "กระบองไม้ของคลิฟ",
+   "slot": "club",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "暴風狼牙棒",
-   "stats": "ATK+30 DEF+20"
+   "stats": "ATK+30 DEF+20",
+   "th": "กระบองเขี้ยวหมาป่าพายุ",
+   "slot": "club",
+   "slotConfirmed": true
   },
   "rebirthSkill": "暴風擊",
   "floors": {
@@ -144,7 +178,8 @@
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "โจมตีพายุ"
  },
  {
   "id": "magellan",
@@ -160,18 +195,25 @@
   "rebirthPoints": 129,
   "exclusive": {
    "cn": "麥哲倫的劍",
-   "stats": "ATK+24 MaxHP+50"
+   "stats": "ATK+24 MaxHP+50",
+   "th": "ดาบของมาเจลลัน",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "鋼岩西洋劍",
-   "stats": "ATK+28 DEF+12"
+   "stats": "ATK+28 DEF+12",
+   "th": "ดาบตะวันตกเหล็กศิลา",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthSkill": "爆岩擊",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "โจมตีศิลาระเบิด"
  },
  {
   "id": "elin",
@@ -187,11 +229,21 @@
   "rebirthPoints": 129,
   "exclusive": {
    "cn": "等離子機槍",
-   "stats": "ATK+45"
+   "stats": "ATK+45",
+   "th": "ปืนกลพลาสมา",
+   "slot": "gun",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "等離子光束晶片",
-   "stats": "ATK+75"
+   "stats": "ATK+75",
+   "th": "ชิปลำแสงพลาสมา",
+   "slot": "gun",
+   "slotConfirmed": true,
+   "slotNote": {
+    "en": "WLOHUB lists ATK+55 for this — legacy tuning; the compendium says ATK+75.",
+    "th": "WLOHUB ระบุ ATK+55 ซึ่งเป็นค่าเวอร์ชันเก่า ส่วนตารางคอมมูนิตี้ระบุ ATK+75"
+   }
   },
   "rebirthSkill": "等離子光束砲",
   "floors": {
@@ -204,7 +256,8 @@
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ปืนใหญ่ลำแสงพลาสมา"
  },
  {
   "id": "kanako",
@@ -220,11 +273,17 @@
   "rebirthPoints": null,
   "exclusive": {
    "cn": "月影弓",
-   "stats": "ATK+25 SPD+19"
+   "stats": "ATK+25 SPD+19",
+   "th": "ธนูเงาจันทร์",
+   "slot": "bow",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "水月弓",
-   "stats": "ATK+40 SPD+24"
+   "stats": "ATK+40 SPD+24",
+   "th": "ธนูจันทร์วารี",
+   "slot": "bow",
+   "slotConfirmed": true
   },
   "rebirthSkill": "空降箭",
   "floors": null,
@@ -234,7 +293,8 @@
   },
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ธนูโจมตีจากฟ้า"
  },
  {
   "id": "rinne",
@@ -250,18 +310,25 @@
   "rebirthPoints": 127,
   "exclusive": {
    "cn": "迅雷風爪",
-   "stats": "SPD+17 ATK+13"
+   "stats": "SPD+17 ATK+13",
+   "th": "กรงเล็บลมสายฟ้า",
+   "slot": "claw",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "狼牙微光",
-   "stats": "ATK+30 SPD+50"
+   "stats": "ATK+30 SPD+50",
+   "th": "แสงเรืองเขี้ยวหมาป่า",
+   "slot": "accessory",
+   "slotConfirmed": true
   },
   "rebirthSkill": "狼影隨行",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "เงาหมาป่าติดตาม"
  },
  {
   "id": "yanling",
@@ -277,18 +344,25 @@
   "rebirthPoints": null,
   "exclusive": {
    "cn": "燕玲雙劍",
-   "stats": "SPD+32 ATK+28"
+   "stats": "SPD+32 ATK+28",
+   "th": "ดาบคู่ของเยี่ยนหลิง",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "紅炎雙龍刀",
-   "stats": "ATK+46 SPD+30"
+   "stats": "ATK+46 SPD+30",
+   "th": "ดาบมังกรคู่เพลิงแดง",
+   "slot": "sword",
+   "slotConfirmed": true
   },
   "rebirthSkill": "紅炎狂龍破",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "มังกรคลั่งเพลิงแดงทำลายล้าง"
  },
  {
   "id": "shasha",
@@ -305,7 +379,10 @@
   "exclusive": null,
   "rebirthExclusive": {
    "cn": "凍球魔杖",
-   "stats": "MATK+48 SPD+20"
+   "stats": "MATK+48 SPD+20",
+   "th": "ไม้เท้าลูกกลมเยือกแข็ง",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthSkill": "凍球術",
   "floors": {
@@ -318,7 +395,8 @@
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "วิชาลูกกลมเยือกแข็ง"
  },
  {
   "id": "nakira",
@@ -334,18 +412,25 @@
   "rebirthPoints": null,
   "exclusive": {
    "cn": "娜琪拉之杖",
-   "stats": "MATK+25 MaxHP+50"
+   "stats": "MATK+25 MaxHP+50",
+   "th": "ไม้เท้าของนาคิระ",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "凝氣法杖",
-   "stats": "MATK+38 MaxSP+100"
+   "stats": "MATK+38 MaxSP+100",
+   "th": "ไม้เท้ารวมลมปราณ",
+   "slot": "wand",
+   "slotConfirmed": true
   },
   "rebirthSkill": "凝氣砲",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ปืนใหญ่รวมลมปราณ"
  },
  {
   "id": "ares",
@@ -361,11 +446,21 @@
   "rebirthPoints": null,
   "exclusive": {
    "cn": "鎮魂",
-   "stats": "ATK+78 MaxHP+300"
+   "stats": "ATK+78 MaxHP+300",
+   "th": "สงบวิญญาณ",
+   "slot": "accessory",
+   "slotConfirmed": true,
+   "slotNote": {
+    "en": "Two primary sources disagree: the compendium tags it (飾) accessory, while a Bahamut star-quest thread calls the item 鎮魂臂環 — arm-ring — with identical stats.",
+    "th": "แหล่งข้อมูลหลักสองที่ไม่ตรงกัน: ตารางคอมมูนิตี้ระบุ (飾) เครื่องประดับ ส่วนกระทู้เควสดาวของบอร์ดไต้หวันเรียกว่า 鎮魂臂環 คือปลอกแขน โดยค่าสถานะเท่ากัน"
+   }
   },
   "rebirthExclusive": {
    "cn": "炎核",
-   "stats": "ATK+80 MATK+80"
+   "stats": "ATK+80 MATK+80",
+   "th": "แก่นเพลิง",
+   "slot": "accessory",
+   "slotConfirmed": true
   },
   "rebirthSkill": "炎核爆破",
   "floors": {
@@ -381,7 +476,8 @@
   },
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "แก่นเพลิงระเบิด"
  },
  {
   "id": "lynx",
@@ -397,11 +493,17 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "貓咪髮飾",
-   "stats": "ATK+25 MaxHP+100"
+   "stats": "ATK+25 MaxHP+100",
+   "th": "กิ๊บติดผมแมว",
+   "slot": "head",
+   "slotConfirmed": true
   },
   "rebirthExclusive": {
    "cn": "星塵貓爪",
-   "stats": "ATK+50 MaxHP+100"
+   "stats": "ATK+50 MaxHP+100",
+   "th": "กรงเล็บแมวธุลีดาว",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "冰塵喵旋舞",
   "floors": {
@@ -488,7 +590,8 @@
    ]
   },
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ระบำแมวธุลีน้ำแข็ง"
  },
  {
   "id": "mary1",
@@ -504,11 +607,17 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "炎咒",
-   "stats": "MATK+20 MaxHP+150"
+   "stats": "MATK+20 MaxHP+150",
+   "th": "คำสาปเพลิง",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "閃炎",
-   "stats": "MATK+50 MaxHP+300"
+   "stats": "MATK+50 MaxHP+300",
+   "th": "เพลิงประกาย",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "炎華綻放",
   "floors": {
@@ -521,7 +630,8 @@
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ดอกเพลิงเบ่งบาน"
  },
  {
   "id": "imhotep",
@@ -537,18 +647,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "審判",
-   "stats": "ATK+10 DEF+10"
+   "stats": "ATK+10 DEF+10",
+   "th": "คำพิพากษา",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "拉之審判",
-   "stats": "ATK+50 MaxHP+300"
+   "stats": "ATK+50 MaxHP+300",
+   "th": "คำพิพากษาแห่งรา",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "拉之眼",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ดวงตาแห่งรา"
  },
  {
   "id": "ashin",
@@ -564,18 +681,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "幻影",
-   "stats": "ATK+20 SPD+15"
+   "stats": "ATK+20 SPD+15",
+   "th": "ภาพลวงตา",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "雲舞",
-   "stats": "ATK+50 SPD+50"
+   "stats": "ATK+50 SPD+50",
+   "th": "ระบำเมฆ",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "靈狐掠影",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "เงาโฉบจิ้งจอกวิญญาณ"
  },
  {
   "id": "pearl",
@@ -591,18 +715,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "粗大吸管",
-   "stats": "MATK+25 SPD+10"
+   "stats": "MATK+25 SPD+10",
+   "th": "หลอดดูดยักษ์",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "芋香吸管",
-   "stats": "MATK+50 SPD+50"
+   "stats": "MATK+50 SPD+50",
+   "th": "หลอดดูดกลิ่นเผือก",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "芋泥奶蓋爆裂",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ครีมนมเผือกระเบิด"
  },
  {
   "id": "anheduana",
@@ -618,18 +749,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "天輝",
-   "stats": "MATK+25 MaxSP+100"
+   "stats": "MATK+25 MaxSP+100",
+   "th": "รัศมีสวรรค์",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "天幕",
-   "stats": "MATK+50 MaxSP+500"
+   "stats": "MATK+50 MaxSP+500",
+   "th": "ม่านฟ้า",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "月影濯塵",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "เงาจันทร์ชำระธุลี"
  },
  {
   "id": "nemea",
@@ -645,18 +783,29 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "風雷之心",
-   "stats": "SPD+40"
+   "stats": "SPD+40",
+   "th": "หัวใจลมสายฟ้า",
+   "slot": "hand",
+   "slotConfirmed": true,
+   "slotNote": {
+    "en": "The compendium tags this (手) hand. Nemea is a beast companion, whose named slots are collar and saddle — the tag may be a coarse UI label rather than one of those.",
+    "th": "ตารางคอมมูนิตี้ระบุ (手) มือ แต่เนเมอาเป็นขุนพลร่างสัตว์ซึ่งช่องคือปลอกคอกับอานม้า ป้ายนี้อาจเป็นชื่อช่องแบบกว้าง ๆ ไม่ใช่ช่องใดช่องหนึ่งในนั้น"
+   }
   },
   "rebirthExclusive": {
    "cn": "天穹雷核",
-   "stats": "SPD+100"
+   "stats": "SPD+100",
+   "th": "แก่นสายฟ้าโดมฟ้า",
+   "slot": "hand",
+   "slotConfirmed": true
   },
   "rebirthSkill": "天穹轟雷",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "สายฟ้าคำรามโดมฟ้า"
  },
  {
   "id": "tomoe",
@@ -672,18 +821,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "炎霞",
-   "stats": "ATK+25 DEF+25"
+   "stats": "ATK+25 DEF+25",
+   "th": "เมฆเพลิง",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "熾劫",
-   "stats": "ATK+50 DEF+50"
+   "stats": "ATK+50 DEF+50",
+   "th": "วิบัติเพลิง",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "焰命流‧涅槃",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "สายชีวิตเพลิง・นิพพาน"
  },
  {
   "id": "leonardo",
@@ -699,18 +855,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "氣流渦輪儀",
-   "stats": "MATK+30 MaxSP+200"
+   "stats": "MATK+30 MaxSP+200",
+   "th": "เครื่องกังหันกระแสอากาศ",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "哨兵",
-   "stats": "MATK+50 MaxSP+500"
+   "stats": "MATK+50 MaxSP+500",
+   "th": "ทหารยาม",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "萬象解構",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "ถอดรื้อสรรพสิ่ง"
  },
  {
   "id": "ragusa",
@@ -726,18 +889,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "永恆冬牙",
-   "stats": "ATK+25 MaxHP+250"
+   "stats": "ATK+25 MaxHP+250",
+   "th": "เขี้ยวเหมันต์นิรันดร์",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "誓約之冬",
-   "stats": "ATK+50 MaxHP+500"
+   "stats": "ATK+50 MaxHP+500",
+   "th": "เหมันต์แห่งคำสาบาน",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "龍息瀑",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "สายน้ำตกลมหายใจมังกร"
  },
  {
   "id": "augustus",
@@ -753,18 +923,25 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "秩序之源",
-   "stats": "ATK+25 SPD+25"
+   "stats": "ATK+25 SPD+25",
+   "th": "ต้นธารแห่งระเบียบ",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "破曉之光",
-   "stats": "ATK+50 DEF+50"
+   "stats": "ATK+50 DEF+50",
+   "th": "แสงอรุณรุ่ง",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "黎明守望",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "เฝ้ามองรุ่งอรุณ"
  },
  {
   "id": "gibil",
@@ -780,17 +957,24 @@
   "rebirthPoints": 130,
   "exclusive": {
    "cn": "焚天",
-   "stats": "MATK+25 SPD+25"
+   "stats": "MATK+25 SPD+25",
+   "th": "เผาฟ้า",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthExclusive": {
    "cn": "寂滅",
-   "stats": "MATK+50 SPD+50"
+   "stats": "MATK+50 SPD+50",
+   "th": "ดับสูญ",
+   "slot": "weapon",
+   "slotConfirmed": false
   },
   "rebirthSkill": "燼火狂熱",
   "floors": null,
   "note": null,
   "extra": null,
   "confidence": "RE-verified",
-  "updated": "2026-09-10"
+  "updated": "2026-09-10",
+  "rebirthSkillTh": "คลั่งไฟเถ้าถ่าน"
  }
 ]
