@@ -106,7 +106,7 @@
    "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
-   "note": "The client also lists แม่เหล็ก (magnet) as its own family; our Magnet and Magnetic Powder rows may belong there instead."
+   "note": "白銀. KK confirmed 2026-09-10 that the client’s เงินแท้ is this family. Separate question, still open: the client also lists แม่เหล็ก, and our Magnet r5 / Magnetic Powder r6 rows (filed under Platinum by wlopedia) may belong there."
   },
   {
    "key": "Tin",
@@ -233,12 +233,12 @@
    "name": {
     "en": "Feather",
     "cn": "羽毛",
-    "th": "ขนสัตว์ (ขนนก)"
+    "th": "ขนนก"
    },
    "thConfirmed": false,
    "group": "a",
    "coverage": "complete",
-   "note": "The client prints ขนสัตว์ for both 毛皮 (fur) and 羽毛 (feather) — two buttons, same word. The (ขนนก) is ours, to keep the two apart in a dropdown."
+   "note": "The client’s filter prints ขนสัตว์ for both 毛皮 (Fur) and 羽毛 (Feather) — KK confirms that is a mistranslation in the client, not two families with one name. We keep ขนนก so the two stay apart."
   },
   {
    "key": "Bone",
@@ -317,12 +317,12 @@
    "name": {
     "en": "Magic Jade",
     "cn": "魔玉",
-    "th": "หยกเวทมนตร์"
+    "th": "ของเสริมพลัง"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
-   "note": null
+   "note": "KK checked the Thai client 2026-09-10: 魔玉 shows as ของเสริมพลัง. There is no หยกเวทมนตร์ button."
   },
   {
    "key": "Cluster",
@@ -341,12 +341,12 @@
    "name": {
     "en": "Gum",
     "cn": "膠質",
-    "th": "ยาง"
+    "th": "คอลลาเจน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
-   "note": null
+   "note": "KK checked the Thai client 2026-09-10: เจลใส (Slime r1) reads วัสดุโครงสร้าง [หลัก]คอลลาเจน. 膠質 is the client’s คอลลาเจน."
   },
   {
    "key": "Water",
@@ -790,9 +790,7 @@
    "เมนูอาหาร"
   ],
   "notYetMatched": {
-   "Feather": "Labelled ขนสัตว์ (ขนนก) — the client word is ขนสัตว์, shared with Fur. The clarifier is ours.",
-   "MagicJade": "魔玉. No 魔玉 button on the client's list; unknown which family it files under. Ask KK to filter and see where ผงเวทมนตร์ / หินหยกเวทมนตร์ appear.",
-   "Gum": "膠質. No obvious button; candidates are สารคัดหลั่ง, คอลลาเจน, or one of the seven ดินเหนียว families. Ask KK where เจลใส / ยางไม้กันผุ appear."
+   "Feather": "Deliberate. The client mislabels 羽毛 as ขนสัตว์, the same word it uses for 毛皮 (Fur). KK confirmed it is a translation bug in the client; we keep ขนนก."
   }
  }
 }

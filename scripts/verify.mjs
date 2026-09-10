@@ -81,7 +81,7 @@ const spot=[
  ['Every quest links out; 100+ link to a wiki page',()=>quests.every(q=>q.sources.length)&&quests.filter(q=>q.sources.some(s=>s.kind==='wiki')).length>=100],
  ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
  ['China Fishing Village and Bangkok opened in the 2026-09 patch',()=>['china','bangkok'].every(k=>towns.find(t=>t.key===k)?.thStatus==='open')],
- ['Every family label matches the Thai client, bar the 3 known unknowns',()=>{
+ ['Every family label matches the Thai client, bar Feather (client mistranslation)',()=>{
    const shown=new Set(codes.clientFamilyLabels.labels);
    const known=new Set(Object.keys(codes.clientFamilyLabels.notYetMatched));
    return codes.families.filter(f=>!shown.has(f.name.th)&&!known.has(f.key)).length===0;

@@ -255,6 +255,7 @@ const OVERRIDES = {
   'Swallow Feather': 'ขนนกนางแอ่น', 'Granite': 'หินแกรนิต', 'Coal Ore': 'แร่ถ่านหิน', 'Coal Block': 'ก้อนถ่านหิน', 'Sulfur': 'กำมะถัน',
   'Delicate White Jade': 'หยกขาวประณีต', 'Delicate Red Jade': 'หยกแดงประณีต', 'Delicate Diamond': 'เพชรประณีต',
   'Star Dust (elemental) 星耀之塵': 'ผงดาราแห่งธาตุ (空/水/火/地/風)', 'Copper Sand / Copper': 'ทรายทองแดง / ทองแดง',
+  'Slime / Clear Gel': 'เจลใส',
   'Iron Sand': 'ทรายเหล็ก', 'Iron Material': 'วัสดุเหล็ก', 'Copper Material': 'วัสดุทองแดง',
   // Base materials recovered from wlopedia (see KB 22-base-material-ladder-research.md).
   // Written by hand — the compositional translator has no dictionary for plant, hide or water words.

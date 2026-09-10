@@ -24522,7 +24522,7 @@
   "name": {
    "en": "Slime / Clear Gel",
    "cn": "黏液・透明膠質",
-   "th": "สไลม์ / เจลใส"
+   "th": "เจลใส"
   },
   "stats": [],
   "statsNote": null,
@@ -24531,10 +24531,12 @@
    "en": "Wild monster drop — earthworm?",
    "th": "Wild monster drop — earthworm?"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-09-10",
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "KK’s client 2026-09-10: เจลใส, เลเวลไอเทม 1, ประเภท วัสดุสัตว์, ไม่สามารถซื้อขาย, วัสดุโครงสร้าง [หลัก]คอลลาเจน — which is what settled the Gum/膠質 family name."
  },
  {
   "id": "concentrated-plant-gum-r3",
