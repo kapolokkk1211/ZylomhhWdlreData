@@ -2,7 +2,7 @@ import fs from 'fs';
 const J=f=>JSON.parse(fs.readFileSync('content/data/'+f,'utf8'));
 const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
       towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json'),
-      feedback=J('feedback.json');
+      feedback=J('feedback.json'), pets=J('companions.json');
 const fams=new Set(codes.families.map(f=>f.key)), slots=new Set(codes.slots.map(s=>s.key)),
       stats=new Set(codes.stats.map(s=>s.key)), confs=new Set(codes.confidence.map(c=>c.key)),
       townKeys=new Set(towns.map(t=>t.key)),
@@ -69,6 +69,23 @@ if(feedback.embedUrl&&!/embedded=true/.test(feedback.embedUrl))warn.push('feedba
   }
 }
 
+// Companions. Chinese must survive on every gear name — the guide's whole point is that a
+// player can match our rows against a Taiwan guide, and the Thai names are translations.
+{
+  const pids=new Set(); const ST=['STR','CON','INT','WIS','AGI'];
+  for(const c of pets){
+    if(pids.has(c.id))err.push('dup companion id '+c.id); pids.add(c.id);
+    if(!c.name?.en||!c.name?.cn||!c.name?.th)err.push('companion missing a name language @'+c.id);
+    if(!['quest','mall'].includes(c.source))err.push('bad companion source @'+c.id);
+    if(!['phys','magic','hybrid','gun','bow'].includes(c.type))err.push('bad companion type @'+c.id);
+    if(!['human','beast'].includes(c.form))err.push('bad companion form @'+c.id);
+    if(!confs.has(c.confidence))err.push('bad confidence @'+c.id);
+    for(const g of [c.exclusive,c.rebirthExclusive]) if(g&&!g.cn)err.push('companion gear with no 中文 @'+c.id);
+    if(c.floors) for(const k of Object.keys(c.floors)) if(!ST.includes(k))err.push(`bad floor stat ${k} @${c.id}`);
+    if(c.thConfirmed&&c.id!=='lynx')warn.push(`companion ${c.id} claims a confirmed Thai name — only ลิงคส์ is confirmed`);
+  }
+}
+
 // spot checks against the knowledge base
 const find=(en,rank)=>comp.find(r=>r.name.en===en&&r.rank===rank);
 const spot=[
@@ -86,6 +103,9 @@ const spot=[
    const known=new Set(Object.keys(codes.clientFamilyLabels.notYetMatched));
    return codes.families.filter(f=>!shown.has(f.name.th)&&!known.has(f.key)).length===0;
  }],
+ ['Mall companions all rebirth at 130 points via the pill',()=>pets.filter(c=>c.source==='mall').every(c=>c.rebirthPoints===130)],
+ ['Mary I’s WIS floor is 41 — the example the guide turns on',()=>pets.find(c=>c.id==='mary1')?.floors?.WIS===41],
+ ['Only ลิงคส์ has a client-confirmed Thai companion name',()=>pets.filter(c=>c.thConfirmed).map(c=>c.id).join()==='lynx'],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
    ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],
  ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
@@ -99,7 +119,7 @@ const spot=[
 ];
 console.log('=== SCHEMA ===');
 const noSrc=mats.filter(m=>!m.sources.length).length;
-console.log('compounds',comp.length,'| materials',mats.length,`(${noSrc} with no source yet)`,'| quests',quests.length,'| towns',towns.length,
+console.log('compounds',comp.length,'| companions',pets.length,'| materials',mats.length,`(${noSrc} with no source yet)`,'| quests',quests.length,'| towns',towns.length,
  '| glossary',Object.values(gloss).flat().length,'| families',codes.families.length);
 console.log('errors:',err.length); err.slice(0,20).forEach(e=>console.log('  ✗',e));
 console.log('warnings:',warn.length); warn.slice(0,10).forEach(w=>console.log('  ⚠',w));

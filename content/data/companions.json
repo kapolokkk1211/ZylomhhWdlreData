@@ -1,0 +1,796 @@
+[
+ {
+  "id": "rocca",
+  "name": {
+   "en": "Rocca",
+   "cn": "蘿卡",
+   "th": "โรก้า"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 127,
+  "exclusive": {
+   "cn": "蘿卡的彎刀",
+   "stats": "ATK+10 DEF+10"
+  },
+  "rebirthExclusive": {
+   "cn": "裂斬彎刀",
+   "stats": "ATK+28 DEF+24"
+  },
+  "rebirthSkill": "爆裂斬",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "xiaolan",
+  "name": {
+   "en": "Xiaolan",
+   "cn": "小蘭",
+   "th": "เสี่ยวหลาน"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 126,
+  "exclusive": {
+   "cn": "小蘭的玉珮",
+   "stats": "ATK+11 DEF+10"
+  },
+  "rebirthExclusive": {
+   "cn": "獄蝕魔杖",
+   "stats": "SPD+30 MaxSP+100"
+  },
+  "rebirthSkill": "獄蝕具裂",
+  "floors": {
+   "STR": 23,
+   "CON": 20,
+   "INT": 31,
+   "WIS": 24,
+   "AGI": 37
+  },
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "niss",
+  "name": {
+   "en": "Niss",
+   "cn": "妮絲",
+   "th": "นิสส์"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 127,
+  "exclusive": {
+   "cn": "妮絲的魔杖",
+   "stats": "MATK+25 MaxSP+100"
+  },
+  "rebirthExclusive": {
+   "cn": "冰雪法杖",
+   "stats": "MATK+48 MaxHP+100"
+  },
+  "rebirthSkill": "冰雪雷",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "sarles",
+  "name": {
+   "en": "Sarles",
+   "cn": "薩爾斯",
+   "th": "ซาร์ลส"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 127,
+  "exclusive": {
+   "cn": "狼之魂",
+   "stats": "ATK+20 MaxHP+100"
+  },
+  "rebirthExclusive": {
+   "cn": "狂狼之怒",
+   "stats": "ATK+50 DEF+20"
+  },
+  "rebirthSkill": "狂狼雷怒",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "cliff",
+  "name": {
+   "en": "Cliff",
+   "cn": "克里夫",
+   "th": "คลิฟ"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 127,
+  "exclusive": {
+   "cn": "克里夫的木棒",
+   "stats": "ATK+9 DEF+11"
+  },
+  "rebirthExclusive": {
+   "cn": "暴風狼牙棒",
+   "stats": "ATK+30 DEF+20"
+  },
+  "rebirthSkill": "暴風擊",
+  "floors": {
+   "STR": 41,
+   "CON": 35,
+   "INT": 15,
+   "WIS": 21,
+   "AGI": 34
+  },
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "magellan",
+  "name": {
+   "en": "Magellan",
+   "cn": "麥哲倫",
+   "th": "มาเจลลัน"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 129,
+  "exclusive": {
+   "cn": "麥哲倫的劍",
+   "stats": "ATK+24 MaxHP+50"
+  },
+  "rebirthExclusive": {
+   "cn": "鋼岩西洋劍",
+   "stats": "ATK+28 DEF+12"
+  },
+  "rebirthSkill": "爆岩擊",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "elin",
+  "name": {
+   "en": "Elin",
+   "cn": "艾琳",
+   "th": "เอลิน"
+  },
+  "thConfirmed": false,
+  "type": "gun",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 129,
+  "exclusive": {
+   "cn": "等離子機槍",
+   "stats": "ATK+45"
+  },
+  "rebirthExclusive": {
+   "cn": "等離子光束晶片",
+   "stats": "ATK+75"
+  },
+  "rebirthSkill": "等離子光束砲",
+  "floors": {
+   "STR": 20,
+   "CON": 47,
+   "INT": 29,
+   "WIS": 24,
+   "AGI": 37
+  },
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "kanako",
+  "name": {
+   "en": "Kanako",
+   "cn": "加奈子",
+   "th": "คานาโกะ"
+  },
+  "thConfirmed": false,
+  "type": "bow",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": null,
+  "exclusive": {
+   "cn": "月影弓",
+   "stats": "ATK+25 SPD+19"
+  },
+  "rebirthExclusive": {
+   "cn": "水月弓",
+   "stats": "ATK+40 SPD+24"
+  },
+  "rebirthSkill": "空降箭",
+  "floors": null,
+  "note": {
+   "en": "The rebirth bow ignores bow resistance.",
+   "th": "ธนูหลังจุติทะลุค่าต้านธนู"
+  },
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "rinne",
+  "name": {
+   "en": "Rinne",
+   "cn": "鈴音",
+   "th": "ริงเนะ"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": 127,
+  "exclusive": {
+   "cn": "迅雷風爪",
+   "stats": "SPD+17 ATK+13"
+  },
+  "rebirthExclusive": {
+   "cn": "狼牙微光",
+   "stats": "ATK+30 SPD+50"
+  },
+  "rebirthSkill": "狼影隨行",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "yanling",
+  "name": {
+   "en": "Yanling",
+   "cn": "燕玲",
+   "th": "เยี่ยนหลิง"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": null,
+  "exclusive": {
+   "cn": "燕玲雙劍",
+   "stats": "SPD+32 ATK+28"
+  },
+  "rebirthExclusive": {
+   "cn": "紅炎雙龍刀",
+   "stats": "ATK+46 SPD+30"
+  },
+  "rebirthSkill": "紅炎狂龍破",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "shasha",
+  "name": {
+   "en": "Shasha",
+   "cn": "莎莎",
+   "th": "ซาช่า"
+  },
+  "thConfirmed": false,
+  "type": "hybrid",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": null,
+  "exclusive": null,
+  "rebirthExclusive": {
+   "cn": "凍球魔杖",
+   "stats": "MATK+48 SPD+20"
+  },
+  "rebirthSkill": "凍球術",
+  "floors": {
+   "STR": 24,
+   "CON": 24,
+   "INT": 51,
+   "WIS": 50,
+   "AGI": 31
+  },
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "nakira",
+  "name": {
+   "en": "Nakira",
+   "cn": "娜琪拉",
+   "th": "นาคิระ"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "quest",
+  "rebirthPoints": null,
+  "exclusive": {
+   "cn": "娜琪拉之杖",
+   "stats": "MATK+25 MaxHP+50"
+  },
+  "rebirthExclusive": {
+   "cn": "凝氣法杖",
+   "stats": "MATK+38 MaxSP+100"
+  },
+  "rebirthSkill": "凝氣砲",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "ares",
+  "name": {
+   "en": "Ares",
+   "cn": "亞雷斯",
+   "th": "อาเรส"
+  },
+  "thConfirmed": false,
+  "type": "hybrid",
+  "form": "beast",
+  "source": "quest",
+  "rebirthPoints": null,
+  "exclusive": {
+   "cn": "鎮魂",
+   "stats": "ATK+78 MaxHP+300"
+  },
+  "rebirthExclusive": {
+   "cn": "炎核",
+   "stats": "ATK+80 MATK+80"
+  },
+  "rebirthSkill": "炎核爆破",
+  "floors": {
+   "STR": null,
+   "CON": 88,
+   "INT": 78,
+   "WIS": 59,
+   "AGI": 68
+  },
+  "note": {
+   "en": "Ares can only rebirth in Re: Star Ark — no earlier title in the series allowed it. But Ares cannot be revived star-free.",
+   "th": "อาเรสเปิดจุติเฉพาะใน Re: Star Ark เท่านั้น ไม่เคยเปิดในภาคไหนมาก่อน แต่อาเรสชุบชีวิตแบบไม่เสียดาวไม่ได้"
+  },
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "lynx",
+  "name": {
+   "en": "Lynx / Linkes",
+   "cn": "琳可絲",
+   "th": "ลิงคส์"
+  },
+  "thConfirmed": true,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "貓咪髮飾",
+   "stats": "ATK+25 MaxHP+100"
+  },
+  "rebirthExclusive": {
+   "cn": "星塵貓爪",
+   "stats": "ATK+50 MaxHP+100"
+  },
+  "rebirthSkill": "冰塵喵旋舞",
+  "floors": {
+   "STR": null,
+   "CON": null,
+   "INT": 23,
+   "WIS": 21,
+   "AGI": 53
+  },
+  "note": {
+   "en": "A humanoid companion, not a beast pet, despite being a cat — she takes full equipment slots.",
+   "th": "ลิงคส์เป็นขุนพลร่างมนุษย์ ไม่ใช่ร่างสัตว์ แม้จะเป็นแมว จึงใส่อุปกรณ์ได้ครบช่อง"
+  },
+  "extra": {
+   "element": {
+    "en": "Water · physical, humanoid",
+    "th": "น้ำ · กายภาพ ร่างมนุษย์",
+    "cn": "物理・人型"
+   },
+   "star": {
+    "cn": "天貓座",
+    "en": "the Lynx constellation — where the English name comes from",
+    "th": "กลุ่มดาวแมวป่า — ที่มาของชื่อ Lynx"
+   },
+   "story": {
+    "en": "A Star Spirit (星靈) from the Star Spirit Academy (星靈學院); Xiaofei's (小菲) classmate and close friend.",
+    "th": "ภูตดาวจากสถาบันภูตดาว (星靈學院) เพื่อนร่วมชั้นและเพื่อนสนิทของเสี่ยวเฟย (小菲)"
+   },
+   "base": "STR 18 · CON 9 · INT 5 · WIS 7 · AGI 13",
+   "skills": [
+    {
+     "cn": "冰晶貓拳",
+     "en": "Ice Crystal Cat Punch",
+     "th": "หมัดแมวเกล็ดน้ำแข็ง",
+     "max": "8 → ‧改",
+     "eff": {
+      "en": "Water, physical · single target",
+      "th": "ธาตุน้ำ กายภาพ · เป้าหมายเดียว"
+     }
+    },
+    {
+     "cn": "呼嚕",
+     "en": "Purr",
+     "th": "ครางฮึ่ม",
+     "max": "10 → ‧改 12",
+     "eff": {
+      "en": "Water, physical · 2-target row, chance to sleep for 2 turns",
+      "th": "ธาตุน้ำ กายภาพ · แถวนอน 2 ตัว มีโอกาสทำให้หลับ 2 เทิร์น"
+     }
+    },
+    {
+     "cn": "冰塵喵旋舞",
+     "en": "Ice Dust Cat Whirl",
+     "th": "ระบำแมวธุลีน้ำแข็ง",
+     "max": "10",
+     "eff": {
+      "en": "The rebirth skill. After rebirth she gains an 8-target physical attack, though her accuracy is not maxed.",
+      "th": "สกิลจุติ — หลังจุติมีสกิลกายภาพโจมตี 8 เป้าหมาย แต่ค่าความแม่นยำยังไม่เต็ม"
+     }
+    }
+   ],
+   "gear": [
+    {
+     "cn": "黃金貓爪",
+     "en": "Golden Cat Claw",
+     "th": "กรงเล็บแมวทองคำ",
+     "grade": "mall",
+     "stats": "ATK+150 · crit damage +25%"
+    },
+    {
+     "cn": "星塵喵核心",
+     "en": "Stardust Meow Core",
+     "th": "แกนเหมียวธุลีดาว",
+     "grade": "mall",
+     "stats": "ATK+150 (accessory)"
+    },
+    {
+     "cn": "逗貓棒",
+     "en": "Cat Teaser",
+     "th": "ไม้ล่อแมว",
+     "grade": "favourite",
+     "stats": "rank 8"
+    }
+   ]
+  },
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "mary1",
+  "name": {
+   "en": "Mary I",
+   "cn": "瑪麗一世",
+   "th": "มารีที่ 1"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "炎咒",
+   "stats": "MATK+20 MaxHP+150"
+  },
+  "rebirthExclusive": {
+   "cn": "閃炎",
+   "stats": "MATK+50 MaxHP+300"
+  },
+  "rebirthSkill": "炎華綻放",
+  "floors": {
+   "STR": null,
+   "CON": null,
+   "INT": null,
+   "WIS": 41,
+   "AGI": 45
+  },
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "imhotep",
+  "name": {
+   "en": "Imhotep",
+   "cn": "印和闐",
+   "th": "อิมโฮเทป"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "審判",
+   "stats": "ATK+10 DEF+10"
+  },
+  "rebirthExclusive": {
+   "cn": "拉之審判",
+   "stats": "ATK+50 MaxHP+300"
+  },
+  "rebirthSkill": "拉之眼",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "ashin",
+  "name": {
+   "en": "Ashin",
+   "cn": "亞辛",
+   "th": "ยาชิน"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "幻影",
+   "stats": "ATK+20 SPD+15"
+  },
+  "rebirthExclusive": {
+   "cn": "雲舞",
+   "stats": "ATK+50 SPD+50"
+  },
+  "rebirthSkill": "靈狐掠影",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "pearl",
+  "name": {
+   "en": "Pearl Milk Girl",
+   "cn": "珍珠奶姬",
+   "th": "สาวไข่มุก"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "粗大吸管",
+   "stats": "MATK+25 SPD+10"
+  },
+  "rebirthExclusive": {
+   "cn": "芋香吸管",
+   "stats": "MATK+50 SPD+50"
+  },
+  "rebirthSkill": "芋泥奶蓋爆裂",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "anheduana",
+  "name": {
+   "en": "Anheduana",
+   "cn": "安海度亞娜",
+   "th": "อันไฮดูอาน่า"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "天輝",
+   "stats": "MATK+25 MaxSP+100"
+  },
+  "rebirthExclusive": {
+   "cn": "天幕",
+   "stats": "MATK+50 MaxSP+500"
+  },
+  "rebirthSkill": "月影濯塵",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "nemea",
+  "name": {
+   "en": "Nemea",
+   "cn": "涅墨亞",
+   "th": "เนเมอา"
+  },
+  "thConfirmed": false,
+  "type": "hybrid",
+  "form": "beast",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "風雷之心",
+   "stats": "SPD+40"
+  },
+  "rebirthExclusive": {
+   "cn": "天穹雷核",
+   "stats": "SPD+100"
+  },
+  "rebirthSkill": "天穹轟雷",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "tomoe",
+  "name": {
+   "en": "Tomoe",
+   "cn": "巴御前",
+   "th": "โทโมเอะ"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "炎霞",
+   "stats": "ATK+25 DEF+25"
+  },
+  "rebirthExclusive": {
+   "cn": "熾劫",
+   "stats": "ATK+50 DEF+50"
+  },
+  "rebirthSkill": "焰命流‧涅槃",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "leonardo",
+  "name": {
+   "en": "Leonardo",
+   "cn": "李奧納多",
+   "th": "เลโอนาร์โด"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "氣流渦輪儀",
+   "stats": "MATK+30 MaxSP+200"
+  },
+  "rebirthExclusive": {
+   "cn": "哨兵",
+   "stats": "MATK+50 MaxSP+500"
+  },
+  "rebirthSkill": "萬象解構",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "ragusa",
+  "name": {
+   "en": "Ragusa",
+   "cn": "拉格莎",
+   "th": "รากซ่า"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "永恆冬牙",
+   "stats": "ATK+25 MaxHP+250"
+  },
+  "rebirthExclusive": {
+   "cn": "誓約之冬",
+   "stats": "ATK+50 MaxHP+500"
+  },
+  "rebirthSkill": "龍息瀑",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "augustus",
+  "name": {
+   "en": "Augustus",
+   "cn": "奧古斯都",
+   "th": "ออกัสตัส"
+  },
+  "thConfirmed": false,
+  "type": "phys",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "秩序之源",
+   "stats": "ATK+25 SPD+25"
+  },
+  "rebirthExclusive": {
+   "cn": "破曉之光",
+   "stats": "ATK+50 DEF+50"
+  },
+  "rebirthSkill": "黎明守望",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ },
+ {
+  "id": "gibil",
+  "name": {
+   "en": "Gibil",
+   "cn": "吉比爾",
+   "th": "จิบิล"
+  },
+  "thConfirmed": false,
+  "type": "magic",
+  "form": "human",
+  "source": "mall",
+  "rebirthPoints": 130,
+  "exclusive": {
+   "cn": "焚天",
+   "stats": "MATK+25 SPD+25"
+  },
+  "rebirthExclusive": {
+   "cn": "寂滅",
+   "stats": "MATK+50 SPD+50"
+  },
+  "rebirthSkill": "燼火狂熱",
+  "floors": null,
+  "note": null,
+  "extra": null,
+  "confidence": "RE-verified",
+  "updated": "2026-09-10"
+ }
+]
