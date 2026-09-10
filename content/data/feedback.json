@@ -1,6 +1,6 @@
 {
-  "formUrl": "",
-  "embedUrl": "",
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdfdYCnVCwwtdHiuDP8BBLK4i8xImnM5YEBdcXim6dpNHgicg/viewform",
+  "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdfdYCnVCwwtdHiuDP8BBLK4i8xImnM5YEBdcXim6dpNHgicg/viewform?embedded=true",
   "sheetUrl": "",
   "note": "Paste the Google Form links here and the แจ้งข้อมูล page switches itself on. formUrl = the form's share link (…/viewform). embedUrl = the same form's Embed HTML src (…/viewform?embedded=true). sheetUrl is optional and is only for KK — it is never shown on the site."
 }
