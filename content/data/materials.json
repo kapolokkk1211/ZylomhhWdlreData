@@ -6251,7 +6251,7 @@
  },
  {
   "id": "water-r1-sea-water",
-  "family": "Water",
+  "family": "WaterUndrinkable",
   "rank": 1,
   "name": {
    "en": "Sea Water",
@@ -6267,7 +6267,7 @@
   },
   "confidence": "RE-reported",
   "note": null,
-  "updated": "2026-09-09"
+  "updated": "2026-09-10"
  },
  {
   "id": "water-r2-fresh-water",

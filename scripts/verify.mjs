@@ -56,6 +56,19 @@ for(const k of ['formUrl','embedUrl']){
 if(feedback.formUrl&&!feedback.embedUrl)warn.push('feedback.formUrl is set but embedUrl is not — the form will not show on the page');
 if(feedback.embedUrl&&!/embedded=true/.test(feedback.embedUrl))warn.push('feedback.embedUrl is missing ?embedded=true');
 
+// Every family label must be one the Thai client actually shows. KK photographed the
+// client's own วัสดุหลัก list; a family whose Thai is not on it is either misworded or
+// does not exist in the Thai client. The exceptions are named in codes.json.
+{
+  const shown=new Set(codes.clientFamilyLabels?.labels||[]);
+  const known=new Set(Object.keys(codes.clientFamilyLabels?.notYetMatched||{}));
+  for(const f of codes.families){
+    const th=f.name.th;
+    if(!th) { err.push('family with no Thai name: '+f.key); continue; }
+    if(!shown.has(th)&&!known.has(f.key)) err.push(`family ${f.key} "${th}" is not a label the Thai client shows`);
+  }
+}
+
 // spot checks against the knowledge base
 const find=(en,rank)=>comp.find(r=>r.name.en===en&&r.rank===rank);
 const spot=[
@@ -68,6 +81,11 @@ const spot=[
  ['Every quest links out; 100+ link to a wiki page',()=>quests.every(q=>q.sources.length)&&quests.filter(q=>q.sources.some(s=>s.kind==='wiki')).length>=100],
  ['All five Thai quest tags present',()=>['เควสหลัก','เควสรอง','เควสขุนพล','เควสดวงดาว','เควสสกิล'].every(t=>codes.questTypes.some(x=>x.name.th===t))],
  ['China Fishing Village and Bangkok opened in the 2026-09 patch',()=>['china','bangkok'].every(k=>towns.find(t=>t.key===k)?.thStatus==='open')],
+ ['Every family label matches the Thai client, bar the 3 known unknowns',()=>{
+   const shown=new Set(codes.clientFamilyLabels.labels);
+   const known=new Set(Object.keys(codes.clientFamilyLabels.notYetMatched));
+   return codes.families.filter(f=>!shown.has(f.name.th)&&!known.has(f.key)).length===0;
+ }],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
    ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],
  ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
@@ -75,7 +93,7 @@ const spot=[
  ['Every family with rank-1 content has a row on the compound page',()=>{
    const seen=new Set(); for(const m of mats) seen.add(m.family+':'+m.rank);
    for(const c of comp) seen.add(c.family+':'+c.rank);
-   return ['Copper:1','Wood:1','Grass:1','Flower:1','Feather:1','Coal:1','Gum:1','Leaf:1','Leather:1','Water:1','Cluster:1'].every(k=>seen.has(k));
+   return ['Copper:1','Wood:1','Grass:1','Flower:1','Feather:1','Coal:1','Gum:1','Leaf:1','Leather:1','WaterUndrinkable:1','Cluster:1'].every(k=>seen.has(k));
  }],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],
 ];

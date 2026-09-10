@@ -43,7 +43,7 @@
     "cn": "赤鐵",
     "th": "เหล็กแดง"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
    "note": null
@@ -67,7 +67,7 @@
     "cn": "鈦",
     "th": "ไทเทเนียม"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -101,12 +101,12 @@
    "name": {
     "en": "Platinum",
     "cn": "白銀",
-    "th": "แพลตินัม"
+    "th": "เงินแท้"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
-   "note": null
+   "note": "The client also lists แม่เหล็ก (magnet) as its own family; our Magnet and Magnetic Powder rows may belong there instead."
   },
   {
    "key": "Tin",
@@ -115,7 +115,7 @@
     "cn": "錫",
     "th": "ดีบุก"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -127,7 +127,7 @@
     "cn": "鉛",
     "th": "ตะกั่ว"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
    "note": null
@@ -137,9 +137,9 @@
    "name": {
     "en": "Rock",
     "cn": "岩石",
-    "th": "หิน"
+    "th": "ก้อนหิน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "complete",
    "note": null
@@ -187,7 +187,7 @@
     "cn": "葉",
     "th": "ใบไม้"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "p",
    "coverage": "complete",
    "note": null
@@ -199,7 +199,7 @@
     "cn": "尼龍",
     "th": "ไนลอน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "p",
    "coverage": "complete",
    "note": null
@@ -209,9 +209,9 @@
    "name": {
     "en": "Leather",
     "cn": "皮",
-    "th": "หนัง"
+    "th": "หนังสัตว์"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "a",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -223,7 +223,7 @@
     "cn": "毛皮",
     "th": "ขนสัตว์"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "a",
    "coverage": "complete",
    "note": null
@@ -233,12 +233,12 @@
    "name": {
     "en": "Feather",
     "cn": "羽毛",
-    "th": "ขนนก"
+    "th": "ขนสัตว์ (ขนนก)"
    },
-   "thConfirmed": true,
+   "thConfirmed": false,
    "group": "a",
    "coverage": "complete",
-   "note": null
+   "note": "The client prints ขนสัตว์ for both 毛皮 (fur) and 羽毛 (feather) — two buttons, same word. The (ขนนก) is ours, to keep the two apart in a dropdown."
   },
   {
    "key": "Bone",
@@ -247,7 +247,7 @@
     "cn": "獸骨",
     "th": "กระดูกสัตว์"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "a",
    "coverage": "complete",
    "note": null
@@ -257,9 +257,9 @@
    "name": {
     "en": "Hard Shell",
     "cn": "硬殼",
-    "th": "เปลือกแข็ง"
+    "th": "กระดอง"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "a",
    "coverage": "complete",
    "note": null
@@ -271,7 +271,7 @@
     "cn": "水晶",
     "th": "คริสตัล"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
    "note": null
@@ -281,9 +281,9 @@
    "name": {
     "en": "Gem",
     "cn": "寶石",
-    "th": "อัญมณี"
+    "th": "พลอย"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
    "note": null
@@ -295,7 +295,7 @@
     "cn": "鑽石",
     "th": "เพชร"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
    "note": null
@@ -307,7 +307,7 @@
     "cn": "玉",
     "th": "หยก"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
    "note": null
@@ -329,12 +329,12 @@
    "name": {
     "en": "Crystal Cluster",
     "cn": "結晶",
-    "th": "ผลึก"
+    "th": "ผลึกคริสตัล"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "g",
    "coverage": "complete",
-   "note": null
+   "note": "Distinct from คริสตัล (水晶 Crystal) — this is 結晶."
   },
   {
    "key": "Gum",
@@ -353,12 +353,24 @@
    "name": {
     "en": "Water",
     "cn": "水",
-    "th": "น้ำ"
+    "th": "น้ำดื่ม"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "o",
    "coverage": "partial-to-rank-30",
-   "note": null
+   "note": "The client splits water into drinkable and undrinkable; this is the drinkable one."
+  },
+  {
+   "key": "WaterUndrinkable",
+   "name": {
+    "en": "Water (undrinkable)",
+    "cn": "水（不可飲用）",
+    "th": "น้ำที่ไม่สามารถดื่มได้"
+   },
+   "thConfirmed": true,
+   "group": "o",
+   "coverage": "complete",
+   "note": "The client lists น้ำดื่ม and น้ำที่ไม่สามารถดื่มได้ as two separate families; wlopedia's Water Type 1 / Type 2 is the same split."
   },
   {
    "key": "Coal",
@@ -367,7 +379,7 @@
     "cn": "煤",
     "th": "ถ่านหิน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "m",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -379,7 +391,7 @@
     "cn": "硫磺",
     "th": "กำมะถัน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "m",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -391,7 +403,7 @@
     "cn": "矽",
     "th": "ซิลิคอน"
    },
-   "thConfirmed": false,
+   "thConfirmed": true,
    "group": "m",
    "coverage": "partial-to-rank-30",
    "note": null
@@ -699,5 +711,88 @@
    },
    "thConfirmed": true
   }
- ]
+ ],
+ "clientFamilyLabels": {
+  "source": "KK's Thai client, ตัวกรองกำหนดเอง → เลือกวัสดุหลัก, screenshots 2026-09-10",
+  "note": "The 72 buttons the client actually shows. Our family list must be a SUBSET of this — if a family's Thai name is not here, either the wording is wrong or the family does not exist in the Thai client. ขนสัตว์ appears twice on screen (毛皮 and 羽毛 share the word); it is listed once here.",
+  "labels": [
+   "ดอกไม้",
+   "หญ้า",
+   "ใบไม้",
+   "ไม้",
+   "ข้าวสาร",
+   "ข้าวสาลี",
+   "ผัก",
+   "ผลไม้",
+   "เนื้อ",
+   "ไข่",
+   "ถั่ว",
+   "นม",
+   "ซีฟู้ด",
+   "สมุนไพร",
+   "ทอง",
+   "เงิน",
+   "ทองแดง",
+   "เหล็ก",
+   "เหล็กแดง",
+   "ดีบุก",
+   "ตะกั่ว",
+   "อะลูมิเนียม",
+   "ซิลิคอน",
+   "กำมะถัน",
+   "ดินประสิว",
+   "ถ่านหิน",
+   "เหล็กกล้า",
+   "หยก",
+   "พลอย",
+   "เพชร",
+   "คริสตัล",
+   "โลหะเงินเหลว",
+   "เงินแท้",
+   "ก้อนหิน",
+   "แม่เหล็ก",
+   "สารปรอท",
+   "ไทเทเนียม",
+   "ประกายดาว",
+   "ดินเหนียวธรรมดา",
+   "ดินเหนียวสีแดง",
+   "ดินเหนียวสีเหลือง",
+   "ดินเหนียวสีดำ",
+   "ดินเหนียวสีขาว",
+   "ดินเหนียวสีเทา",
+   "ดินเหนียวแห้ง",
+   "หนังสัตว์",
+   "ขนสัตว์",
+   "กระดอง",
+   "กระดูกสัตว์",
+   "รังสัตว์",
+   "อวัยวะภายใน",
+   "สิ่งปฏิกูล",
+   "สารคัดหลั่ง",
+   "แอลกอฮอล์",
+   "ไนลอน",
+   "น้ำมันดิบ",
+   "น้ำมันแปรรูป",
+   "น้ำมันเชื้อเพลิง",
+   "เมล็ดพันธุ์",
+   "เนื้อหมาป่า",
+   "คอลลาเจน",
+   "สิ่งมีชีวิตเชิงระบบ",
+   "ผลึกคริสตัล",
+   "ของเสริมพลัง",
+   "พิษ",
+   "สารเคมี",
+   "ของชอบคู่หู",
+   "ยาเพิ่มความสามารถผู้เล่น",
+   "น้ำดื่ม",
+   "น้ำที่ไม่สามารถดื่มได้",
+   "แบบแปลน",
+   "เมนูอาหาร"
+  ],
+  "notYetMatched": {
+   "Feather": "Labelled ขนสัตว์ (ขนนก) — the client word is ขนสัตว์, shared with Fur. The clarifier is ours.",
+   "MagicJade": "魔玉. No 魔玉 button on the client's list; unknown which family it files under. Ask KK to filter and see where ผงเวทมนตร์ / หินหยกเวทมนตร์ appear.",
+   "Gum": "膠質. No obvious button; candidates are สารคัดหลั่ง, คอลลาเจน, or one of the seven ดินเหนียว families. Ask KK where เจลใส / ยางไม้กันผุ appear."
+  }
+ }
 }
