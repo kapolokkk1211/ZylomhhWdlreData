@@ -1,980 +1,1691 @@
 [
- {
-  "id": "rocca",
-  "name": {
-   "en": "Rocca",
-   "cn": "蘿卡",
-   "th": "โรก้า"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 127,
-  "exclusive": {
-   "cn": "蘿卡的彎刀",
-   "stats": "ATK+10 DEF+10",
-   "th": "ดาบโค้งของโรก้า",
-   "slot": "blade",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "裂斬彎刀",
-   "stats": "ATK+28 DEF+24",
-   "th": "ดาบโค้งผ่าทลาย",
-   "slot": "blade",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "爆裂斬",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ฟันระเบิด"
- },
- {
-  "id": "xiaolan",
-  "name": {
-   "en": "Xiaolan",
-   "cn": "小蘭",
-   "th": "เสี่ยวหลาน"
-  },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 126,
-  "exclusive": {
-   "cn": "小蘭的玉珮",
-   "stats": "ATK+11 DEF+10",
-   "th": "จี้หยกของเสี่ยวหลาน",
-   "slot": "accessory",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "獄蝕魔杖",
-   "stats": "SPD+30 MaxSP+100",
-   "th": "ไม้เท้านรกกัดกร่อน",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "獄蝕具裂",
-  "floors": {
-   "STR": 23,
-   "CON": 20,
-   "INT": 31,
-   "WIS": 24,
-   "AGI": 37
-  },
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "นรกกัดแยกร่าง"
- },
- {
-  "id": "niss",
-  "name": {
-   "en": "Niss",
-   "cn": "妮絲",
-   "th": "นิสส์"
-  },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 127,
-  "exclusive": {
-   "cn": "妮絲的魔杖",
-   "stats": "MATK+25 MaxSP+100",
-   "th": "ไม้เท้าของนิสส์",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "冰雪法杖",
-   "stats": "MATK+48 MaxHP+100",
-   "th": "ไม้เท้าหิมะน้ำแข็ง",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "冰雪雷",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "สายฟ้าหิมะน้ำแข็ง"
- },
- {
-  "id": "sarles",
-  "name": {
-   "en": "Sarles",
-   "cn": "薩爾斯",
-   "th": "ซาร์ลส"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 127,
-  "exclusive": {
-   "cn": "狼之魂",
-   "stats": "ATK+20 MaxHP+100",
-   "th": "วิญญาณหมาป่า",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "狂狼之怒",
-   "stats": "ATK+50 DEF+20",
-   "th": "โทสะหมาป่าคลั่ง",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "狂狼雷怒",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "โทสะสายฟ้าหมาป่าคลั่ง"
- },
- {
-  "id": "cliff",
-  "name": {
-   "en": "Cliff",
-   "cn": "克里夫",
-   "th": "คลิฟ"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 127,
-  "exclusive": {
-   "cn": "克里夫的木棒",
-   "stats": "ATK+9 DEF+11",
-   "th": "กระบองไม้ของคลิฟ",
-   "slot": "club",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "暴風狼牙棒",
-   "stats": "ATK+30 DEF+20",
-   "th": "กระบองเขี้ยวหมาป่าพายุ",
-   "slot": "club",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "暴風擊",
-  "floors": {
-   "STR": 41,
-   "CON": 35,
-   "INT": 15,
-   "WIS": 21,
-   "AGI": 34
-  },
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "โจมตีพายุ"
- },
- {
-  "id": "magellan",
-  "name": {
-   "en": "Magellan",
-   "cn": "麥哲倫",
-   "th": "มาเจลลัน"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 129,
-  "exclusive": {
-   "cn": "麥哲倫的劍",
-   "stats": "ATK+24 MaxHP+50",
-   "th": "ดาบของมาเจลลัน",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "鋼岩西洋劍",
-   "stats": "ATK+28 DEF+12",
-   "th": "ดาบตะวันตกเหล็กศิลา",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "爆岩擊",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "โจมตีศิลาระเบิด"
- },
- {
-  "id": "elin",
-  "name": {
-   "en": "Elin",
-   "cn": "艾琳",
-   "th": "เอลิน"
-  },
-  "thConfirmed": false,
-  "type": "gun",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 129,
-  "exclusive": {
-   "cn": "等離子機槍",
-   "stats": "ATK+45",
-   "th": "ปืนกลพลาสมา",
-   "slot": "gun",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "等離子光束晶片",
-   "stats": "ATK+75",
-   "th": "ชิปลำแสงพลาสมา",
-   "slot": "gun",
-   "slotConfirmed": true,
-   "slotNote": {
-    "en": "WLOHUB lists ATK+55 for this — legacy tuning; the compendium says ATK+75.",
-    "th": "WLOHUB ระบุ ATK+55 ซึ่งเป็นค่าเวอร์ชันเก่า ส่วนตารางคอมมูนิตี้ระบุ ATK+75"
-   }
-  },
-  "rebirthSkill": "等離子光束砲",
-  "floors": {
-   "STR": 20,
-   "CON": 47,
-   "INT": 29,
-   "WIS": 24,
-   "AGI": 37
-  },
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ปืนใหญ่ลำแสงพลาสมา"
- },
- {
-  "id": "kanako",
-  "name": {
-   "en": "Kanako",
-   "cn": "加奈子",
-   "th": "คานาโกะ"
-  },
-  "thConfirmed": false,
-  "type": "bow",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": null,
-  "exclusive": {
-   "cn": "月影弓",
-   "stats": "ATK+25 SPD+19",
-   "th": "ธนูเงาจันทร์",
-   "slot": "bow",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "水月弓",
-   "stats": "ATK+40 SPD+24",
-   "th": "ธนูจันทร์วารี",
-   "slot": "bow",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "空降箭",
-  "floors": null,
-  "note": {
-   "en": "The rebirth bow ignores bow resistance.",
-   "th": "ธนูหลังจุติทะลุค่าต้านธนู"
-  },
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ธนูโจมตีจากฟ้า"
- },
- {
-  "id": "rinne",
-  "name": {
-   "en": "Rinne",
-   "cn": "鈴音",
-   "th": "ริงเนะ"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": 127,
-  "exclusive": {
-   "cn": "迅雷風爪",
-   "stats": "SPD+17 ATK+13",
-   "th": "กรงเล็บลมสายฟ้า",
-   "slot": "claw",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "狼牙微光",
-   "stats": "ATK+30 SPD+50",
-   "th": "แสงเรืองเขี้ยวหมาป่า",
-   "slot": "accessory",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "狼影隨行",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "เงาหมาป่าติดตาม"
- },
- {
-  "id": "yanling",
-  "name": {
-   "en": "Yanling",
-   "cn": "燕玲",
-   "th": "เยี่ยนหลิง"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": null,
-  "exclusive": {
-   "cn": "燕玲雙劍",
-   "stats": "SPD+32 ATK+28",
-   "th": "ดาบคู่ของเยี่ยนหลิง",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "紅炎雙龍刀",
-   "stats": "ATK+46 SPD+30",
-   "th": "ดาบมังกรคู่เพลิงแดง",
-   "slot": "sword",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "紅炎狂龍破",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "มังกรคลั่งเพลิงแดงทำลายล้าง"
- },
- {
-  "id": "shasha",
-  "name": {
-   "en": "Shasha",
-   "cn": "莎莎",
-   "th": "ซาช่า"
-  },
-  "thConfirmed": false,
-  "type": "hybrid",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": null,
-  "exclusive": null,
-  "rebirthExclusive": {
-   "cn": "凍球魔杖",
-   "stats": "MATK+48 SPD+20",
-   "th": "ไม้เท้าลูกกลมเยือกแข็ง",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "凍球術",
-  "floors": {
-   "STR": 24,
-   "CON": 24,
-   "INT": 51,
-   "WIS": 50,
-   "AGI": 31
-  },
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "วิชาลูกกลมเยือกแข็ง"
- },
- {
-  "id": "nakira",
-  "name": {
-   "en": "Nakira",
-   "cn": "娜琪拉",
-   "th": "นาคิระ"
-  },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "quest",
-  "rebirthPoints": null,
-  "exclusive": {
-   "cn": "娜琪拉之杖",
-   "stats": "MATK+25 MaxHP+50",
-   "th": "ไม้เท้าของนาคิระ",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "凝氣法杖",
-   "stats": "MATK+38 MaxSP+100",
-   "th": "ไม้เท้ารวมลมปราณ",
-   "slot": "wand",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "凝氣砲",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ปืนใหญ่รวมลมปราณ"
- },
- {
-  "id": "ares",
-  "name": {
-   "en": "Ares",
-   "cn": "亞雷斯",
-   "th": "อาเรส"
-  },
-  "thConfirmed": false,
-  "type": "hybrid",
-  "form": "beast",
-  "source": "quest",
-  "rebirthPoints": null,
-  "exclusive": {
-   "cn": "鎮魂",
-   "stats": "ATK+78 MaxHP+300",
-   "th": "สงบวิญญาณ",
-   "slot": "accessory",
-   "slotConfirmed": true,
-   "slotNote": {
-    "en": "Two primary sources disagree: the compendium tags it (飾) accessory, while a Bahamut star-quest thread calls the item 鎮魂臂環 — arm-ring — with identical stats.",
-    "th": "แหล่งข้อมูลหลักสองที่ไม่ตรงกัน: ตารางคอมมูนิตี้ระบุ (飾) เครื่องประดับ ส่วนกระทู้เควสดาวของบอร์ดไต้หวันเรียกว่า 鎮魂臂環 คือปลอกแขน โดยค่าสถานะเท่ากัน"
-   }
-  },
-  "rebirthExclusive": {
-   "cn": "炎核",
-   "stats": "ATK+80 MATK+80",
-   "th": "แก่นเพลิง",
-   "slot": "accessory",
-   "slotConfirmed": true
-  },
-  "rebirthSkill": "炎核爆破",
-  "floors": {
-   "STR": null,
-   "CON": 88,
-   "INT": 78,
-   "WIS": 59,
-   "AGI": 68
-  },
-  "note": {
-   "en": "Ares can only rebirth in Re: Star Ark — no earlier title in the series allowed it. But Ares cannot be revived star-free.",
-   "th": "อาเรสเปิดจุติเฉพาะใน Re: Star Ark เท่านั้น ไม่เคยเปิดในภาคไหนมาก่อน แต่อาเรสชุบชีวิตแบบไม่เสียดาวไม่ได้"
-  },
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "แก่นเพลิงระเบิด"
- },
- {
-  "id": "lynx",
-  "name": {
-   "en": "Lynx / Linkes",
-   "cn": "琳可絲",
-   "th": "ลิงคส์"
-  },
-  "thConfirmed": true,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "貓咪髮飾",
-   "stats": "ATK+25 MaxHP+100",
-   "th": "กิ๊บติดผมแมว",
-   "slot": "head",
-   "slotConfirmed": true
-  },
-  "rebirthExclusive": {
-   "cn": "星塵貓爪",
-   "stats": "ATK+50 MaxHP+100",
-   "th": "กรงเล็บแมวธุลีดาว",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthSkill": "冰塵喵旋舞",
-  "floors": {
-   "STR": null,
-   "CON": null,
-   "INT": 23,
-   "WIS": 21,
-   "AGI": 53
-  },
-  "note": {
-   "en": "A humanoid companion, not a beast pet, despite being a cat — she takes full equipment slots.",
-   "th": "ลิงคส์เป็นขุนพลร่างมนุษย์ ไม่ใช่ร่างสัตว์ แม้จะเป็นแมว จึงใส่อุปกรณ์ได้ครบช่อง"
-  },
-  "extra": {
-   "element": {
-    "en": "Water · physical, humanoid",
-    "th": "น้ำ · กายภาพ ร่างมนุษย์",
-    "cn": "物理・人型"
-   },
-   "star": {
-    "cn": "天貓座",
-    "en": "the Lynx constellation — where the English name comes from",
-    "th": "กลุ่มดาวแมวป่า — ที่มาของชื่อ Lynx"
-   },
-   "story": {
-    "en": "A Star Spirit (星靈) from the Star Spirit Academy (星靈學院); Xiaofei's (小菲) classmate and close friend.",
-    "th": "ภูตดาวจากสถาบันภูตดาว (星靈學院) เพื่อนร่วมชั้นและเพื่อนสนิทของเสี่ยวเฟย (小菲)"
-   },
-   "base": "STR 18 · CON 9 · INT 5 · WIS 7 · AGI 13",
-   "skills": [
-    {
-     "cn": "冰晶貓拳",
-     "en": "Ice Crystal Cat Punch",
-     "th": "หมัดแมวเกล็ดน้ำแข็ง",
-     "max": "8 → ‧改",
-     "eff": {
-      "en": "Water, physical · single target",
-      "th": "ธาตุน้ำ กายภาพ · เป้าหมายเดียว"
-     }
+  {
+    "id": "rocca",
+    "name": {
+      "en": "Rocca",
+      "cn": "蘿卡",
+      "th": "โรก้า"
     },
-    {
-     "cn": "呼嚕",
-     "en": "Purr",
-     "th": "ครางฮึ่ม",
-     "max": "10 → ‧改 12",
-     "eff": {
-      "en": "Water, physical · 2-target row, chance to sleep for 2 turns",
-      "th": "ธาตุน้ำ กายภาพ · แถวนอน 2 ตัว มีโอกาสทำให้หลับ 2 เทิร์น"
-     }
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 127,
+    "exclusive": {
+      "cn": "蘿卡的彎刀",
+      "stats": "ATK+10 DEF+10",
+      "th": "ดาบโค้งของโรก้า",
+      "slot": "blade",
+      "slotConfirmed": true
     },
-    {
-     "cn": "冰塵喵旋舞",
-     "en": "Ice Dust Cat Whirl",
-     "th": "ระบำแมวธุลีน้ำแข็ง",
-     "max": "10",
-     "eff": {
-      "en": "The rebirth skill. After rebirth she gains an 8-target physical attack, though her accuracy is not maxed.",
-      "th": "สกิลจุติ — หลังจุติมีสกิลกายภาพโจมตี 8 เป้าหมาย แต่ค่าความแม่นยำยังไม่เต็ม"
-     }
-    }
-   ],
-   "gear": [
-    {
-     "cn": "黃金貓爪",
-     "en": "Golden Cat Claw",
-     "th": "กรงเล็บแมวทองคำ",
-     "grade": "mall",
-     "stats": "ATK+150 · crit damage +25%"
+    "rebirthExclusive": {
+      "cn": "裂斬彎刀",
+      "stats": "ATK+28 DEF+24",
+      "th": "ดาบโค้งผ่าทลาย",
+      "slot": "blade",
+      "slotConfirmed": true
     },
-    {
-     "cn": "星塵喵核心",
-     "en": "Stardust Meow Core",
-     "th": "แกนเหมียวธุลีดาว",
-     "grade": "mall",
-     "stats": "ATK+150 (accessory)"
+    "rebirthSkill": "爆裂斬",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ฟันระเบิด",
+    "skills": [
+      {
+        "cn": "五芒星閃‧改",
+        "th": "ดาวห้าแฉกเปล่งประกาย ‧ ปรับปรุง",
+        "en": "Five Star Hit · Kai",
+        "max": "10"
+      },
+      {
+        "cn": "羅剎彎刀",
+        "th": "ดาบโค้งอสูร",
+        "en": "Tulwar",
+        "max": "8",
+        "sp": 18,
+        "way": "dist",
+        "desc": {
+          "th": "ขว้างดาบโค้งขนาดใหญ่แบบบูมเมอแรงใส่เป้าหมาย",
+          "en": "Throws a huge boomerang-like blade at the target."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "爆裂斬",
+        "th": "ฟันระเบิด",
+        "rebirth": true
+      }
+    ]
+  },
+  {
+    "id": "xiaolan",
+    "name": {
+      "en": "Xiaolan",
+      "cn": "小蘭",
+      "th": "เสี่ยวหลาน"
     },
-    {
-     "cn": "逗貓棒",
-     "en": "Cat Teaser",
-     "th": "ไม้ล่อแมว",
-     "grade": "favourite",
-     "stats": "rank 8"
-    }
-   ]
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 126,
+    "exclusive": {
+      "cn": "小蘭的玉珮",
+      "stats": "ATK+11 DEF+10",
+      "th": "จี้หยกของเสี่ยวหลาน",
+      "slot": "accessory",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "獄蝕魔杖",
+      "stats": "SPD+30 MaxSP+100",
+      "th": "ไม้เท้านรกกัดกร่อน",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "獄蝕具裂",
+    "floors": {
+      "STR": 23,
+      "CON": 20,
+      "INT": 31,
+      "WIS": 24,
+      "AGI": 37
+    },
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "นรกกัดแยกร่าง",
+    "skills": [
+      {
+        "cn": "孤星",
+        "th": "ดาวโดดเดี่ยว",
+        "en": "Star",
+        "max": "8",
+        "sp": 55,
+        "way": "dist",
+        "desc": {
+          "th": "แยกพื้นดินด้วยพลังยก สกิลโจมตีเพียงอย่างเดียวของเสี่ยวหลาน",
+          "en": "Cracks the ground with lifting force — Xiaolan’s only attack skill."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "土岩之牆",
+        "th": "กำแพงดินหิน",
+        "en": "Stone Wall",
+        "max": "10",
+        "sp": 110,
+        "way": "aid",
+        "desc": {
+          "th": "กำแพงกันการโจมตีกายภาพ ลดความเสียหายให้พวกพ้องหนึ่งเทิร์น",
+          "en": "A wall against physical attacks; shields one ally for a single turn."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "獄蝕具裂",
+        "th": "นรกกัดแยกร่าง",
+        "rebirth": true
+      }
+    ]
   },
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ระบำแมวธุลีน้ำแข็ง"
- },
- {
-  "id": "mary1",
-  "name": {
-   "en": "Mary I",
-   "cn": "瑪麗一世",
-   "th": "มารีที่ 1"
+  {
+    "id": "niss",
+    "name": {
+      "en": "Niss",
+      "cn": "妮絲",
+      "th": "นิสส์"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 127,
+    "exclusive": {
+      "cn": "妮絲的魔杖",
+      "stats": "MATK+25 MaxSP+100",
+      "th": "ไม้เท้าของนิสส์",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "冰雪法杖",
+      "stats": "MATK+48 MaxHP+100",
+      "th": "ไม้เท้าหิมะน้ำแข็ง",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "冰雪雷",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "สายฟ้าหิมะน้ำแข็ง",
+    "skills": [
+      {
+        "cn": "天雷",
+        "th": "ฟ้าผ่าสวรรค์",
+        "en": "Sky Thunder",
+        "max": "12",
+        "sp": 110,
+        "way": "dist",
+        "desc": {
+          "th": "ฟ้าผ่าสายฟ้าสีน้ำเงินลงใส่เป้าหมาย ยิ่งเลเวลสกิลสูงยิ่งโดนหลายเป้า",
+          "en": "Blue lightning called down on the target; hits more targets as the grade rises."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "回魔咒",
+        "th": "คาถาคืนพลังเวท",
+        "en": "Magic Recovery",
+        "max": "10",
+        "sp": 26,
+        "way": "aid",
+        "desc": {
+          "th": "คืน SP ให้ปาร์ตี้ในหนึ่งเทิร์น ระดับสูงสุดครอบคลุมได้ถึงสามปาร์ตี้",
+          "en": "Recovers the party’s SP in one round; at max grade it reaches three parties."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "冰雪雷",
+        "th": "สายฟ้าหิมะน้ำแข็ง",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "炎咒",
-   "stats": "MATK+20 MaxHP+150",
-   "th": "คำสาปเพลิง",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "sarles",
+    "name": {
+      "en": "Sarles",
+      "cn": "薩爾斯",
+      "th": "ซาร์ลส"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 127,
+    "exclusive": {
+      "cn": "狼之魂",
+      "stats": "ATK+20 MaxHP+100",
+      "th": "วิญญาณหมาป่า",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "狂狼之怒",
+      "stats": "ATK+50 DEF+20",
+      "th": "โทสะหมาป่าคลั่ง",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "狂狼雷怒",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "โทสะสายฟ้าหมาป่าคลั่ง",
+    "skills": [
+      {
+        "cn": "怒狼狂擊",
+        "th": "หมาป่าเกรี้ยวกราดจู่โจม",
+        "en": "Fury Strike",
+        "max": "15",
+        "sp": 30,
+        "way": "near",
+        "legacy": true
+      },
+      {
+        "cn": "水鏡之盾",
+        "th": "โล่กระจกน้ำ",
+        "en": "Water Shield",
+        "max": "10",
+        "sp": 35,
+        "way": "aid",
+        "legacy": true
+      },
+      {
+        "cn": "狂狼雷怒",
+        "th": "โทสะสายฟ้าหมาป่าคลั่ง",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "閃炎",
-   "stats": "MATK+50 MaxHP+300",
-   "th": "เพลิงประกาย",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "cliff",
+    "name": {
+      "en": "Cliff",
+      "cn": "克里夫",
+      "th": "คลิฟ"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 127,
+    "exclusive": {
+      "cn": "克里夫的木棒",
+      "stats": "ATK+9 DEF+11",
+      "th": "กระบองไม้ของคลิฟ",
+      "slot": "club",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "暴風狼牙棒",
+      "stats": "ATK+30 DEF+20",
+      "th": "กระบองเขี้ยวหมาป่าพายุ",
+      "slot": "club",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "暴風擊",
+    "floors": {
+      "STR": 41,
+      "CON": 35,
+      "INT": 15,
+      "WIS": 21,
+      "AGI": 34
+    },
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "โจมตีพายุ",
+    "skills": [
+      {
+        "cn": "影殺‧改",
+        "th": "ลอบสังหารเงา ‧ ปรับปรุง",
+        "en": "Shadow Hit · Kai",
+        "max": "12"
+      },
+      {
+        "cn": "旋擊",
+        "th": "หมุนฟาด",
+        "en": "Rolling Air",
+        "max": "8",
+        "sp": 13,
+        "way": "near",
+        "desc": {
+          "th": "โจมตีด้วยกระแสลมหมุน",
+          "en": "Attacks with a swirling current."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "暴風擊",
+        "th": "โจมตีพายุ",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "炎華綻放",
-  "floors": {
-   "STR": null,
-   "CON": null,
-   "INT": null,
-   "WIS": 41,
-   "AGI": 45
+  {
+    "id": "magellan",
+    "name": {
+      "en": "Magellan",
+      "cn": "麥哲倫",
+      "th": "มาเจลลัน"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 129,
+    "exclusive": {
+      "cn": "麥哲倫的劍",
+      "stats": "ATK+24 MaxHP+50",
+      "th": "ดาบของมาเจลลัน",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "鋼岩西洋劍",
+      "stats": "ATK+28 DEF+12",
+      "th": "ดาบตะวันตกเหล็กศิลา",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "爆岩擊",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "โจมตีศิลาระเบิด",
+    "skills": [
+      {
+        "cn": "狂岩擊‧改",
+        "th": "ทุบหินคลั่ง ‧ ปรับปรุง",
+        "en": "Boulder Hit · Kai",
+        "max": "12"
+      },
+      {
+        "cn": "護盾術",
+        "th": "วิชาโล่ป้องกัน",
+        "en": "Shield Defense",
+        "max": "10",
+        "sp": 15,
+        "way": "aid",
+        "desc": {
+          "th": "เพิ่มพลังป้องกันชั่วคราว",
+          "en": "Raises defence briefly."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "爆岩擊",
+        "th": "โจมตีศิลาระเบิด",
+        "rebirth": true
+      }
+    ]
   },
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ดอกเพลิงเบ่งบาน"
- },
- {
-  "id": "imhotep",
-  "name": {
-   "en": "Imhotep",
-   "cn": "印和闐",
-   "th": "อิมโฮเทป"
+  {
+    "id": "elin",
+    "name": {
+      "en": "Elin",
+      "cn": "艾琳",
+      "th": "เอลิน"
+    },
+    "thConfirmed": false,
+    "type": "gun",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 129,
+    "exclusive": {
+      "cn": "等離子機槍",
+      "stats": "ATK+45",
+      "th": "ปืนกลพลาสมา",
+      "slot": "gun",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "等離子光束晶片",
+      "stats": "ATK+75",
+      "th": "ชิปลำแสงพลาสมา",
+      "slot": "gun",
+      "slotConfirmed": true,
+      "slotNote": {
+        "en": "WLOHUB lists ATK+55 for this — legacy tuning; the compendium says ATK+75.",
+        "th": "WLOHUB ระบุ ATK+55 ซึ่งเป็นค่าเวอร์ชันเก่า ส่วนตารางคอมมูนิตี้ระบุ ATK+75"
+      }
+    },
+    "rebirthSkill": "等離子光束砲",
+    "floors": {
+      "STR": 20,
+      "CON": 47,
+      "INT": 29,
+      "WIS": 24,
+      "AGI": 37
+    },
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ปืนใหญ่ลำแสงพลาสมา",
+    "skills": [
+      {
+        "cn": "狂亂擊",
+        "th": "รัวกระสุนคลั่ง",
+        "en": "Chaotic Attack",
+        "max": "8",
+        "sp": 26,
+        "way": "near",
+        "desc": {
+          "th": "โจมตีรัวหลายครั้งแต่แรงน้อย ราว 30–100 ต่อครั้งกับศัตรูเลเวลใกล้กัน",
+          "en": "Many weak hits — around 30–100 damage each against same-level creatures."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "等離子機關槍",
+        "th": "ปืนกลพลาสมา",
+        "en": "Iron-Scatter Gun",
+        "max": "12",
+        "sp": 75,
+        "way": "dist",
+        "desc": {
+          "th": "ยิงทะลุแนวตรง 3 เป้าหมาย ความเสียหาย 400+ แต่กิน SP หนักมาก",
+          "en": "Hits three targets in a line for 400+, at a heavy SP cost."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "等離子光束砲",
+        "th": "ปืนใหญ่ลำแสงพลาสมา",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "審判",
-   "stats": "ATK+10 DEF+10",
-   "th": "คำพิพากษา",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "kanako",
+    "name": {
+      "en": "Kanako",
+      "cn": "加奈子",
+      "th": "คานาโกะ"
+    },
+    "thConfirmed": false,
+    "type": "bow",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": null,
+    "exclusive": {
+      "cn": "月影弓",
+      "stats": "ATK+25 SPD+19",
+      "th": "ธนูเงาจันทร์",
+      "slot": "bow",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "水月弓",
+      "stats": "ATK+40 SPD+24",
+      "th": "ธนูจันทร์วารี",
+      "slot": "bow",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "空降箭",
+    "floors": null,
+    "note": {
+      "en": "The rebirth bow ignores bow resistance.",
+      "th": "ธนูหลังจุติทะลุค่าต้านธนู"
+    },
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ธนูโจมตีจากฟ้า",
+    "skills": [
+      {
+        "cn": "神樂",
+        "th": "ระบำบวงสรวง",
+        "en": "Ice Arrow",
+        "max": "12",
+        "sp": 32,
+        "way": "near",
+        "desc": {
+          "th": "โจมตีเป้าหมายด้วยลูกศรน้ำแข็ง",
+          "en": "Hurts the target with ice arrows."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "回復術",
+        "th": "วิชาฟื้นฟู",
+        "en": "Recovery",
+        "max": "10",
+        "sp": 62,
+        "way": "aid",
+        "desc": {
+          "th": "ฟื้นฟู HP ต่อเนื่อง",
+          "en": "Recovers HP continuously."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "空降箭",
+        "th": "ธนูโจมตีจากฟ้า",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "拉之審判",
-   "stats": "ATK+50 MaxHP+300",
-   "th": "คำพิพากษาแห่งรา",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "rinne",
+    "name": {
+      "en": "Rinne",
+      "cn": "鈴音",
+      "th": "ริงเนะ"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": 127,
+    "exclusive": {
+      "cn": "迅雷風爪",
+      "stats": "SPD+17 ATK+13",
+      "th": "กรงเล็บลมสายฟ้า",
+      "slot": "claw",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "狼牙微光",
+      "stats": "ATK+30 SPD+50",
+      "th": "แสงเรืองเขี้ยวหมาป่า",
+      "slot": "accessory",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "狼影隨行",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "เงาหมาป่าติดตาม",
+    "skills": [
+      {
+        "cn": "襲風斬",
+        "th": "ฟันลมจู่โจม",
+        "en": "Wind Assault",
+        "max": "8",
+        "up": {
+          "cn": "襲風斬‧改",
+          "th": "ฟันลมจู่โจม ‧ ปรับปรุง",
+          "en": "Wind Assault · Kai",
+          "max": "8"
+        },
+        "way": "near",
+        "legacy": true
+      },
+      {
+        "cn": "咒縛術",
+        "th": "วิชาพันธนาการ",
+        "en": "Cord Spell",
+        "max": "10",
+        "up": {
+          "cn": "咒縛術‧改",
+          "th": "วิชาพันธนาการ ‧ ปรับปรุง",
+          "en": "Cord Spell · Kai",
+          "max": "10"
+        },
+        "sp": 47,
+        "way": "dist",
+        "desc": {
+          "th": "พันธนาการศัตรูด้วยลำแสงเวทมนตร์",
+          "en": "Traps the enemy with magic beams."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "狼影隨行",
+        "th": "เงาหมาป่าติดตาม",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "拉之眼",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ดวงตาแห่งรา"
- },
- {
-  "id": "ashin",
-  "name": {
-   "en": "Ashin",
-   "cn": "亞辛",
-   "th": "ยาชิน"
+  {
+    "id": "yanling",
+    "name": {
+      "en": "Yanling",
+      "cn": "燕玲",
+      "th": "เยี่ยนหลิง"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": null,
+    "exclusive": {
+      "cn": "燕玲雙劍",
+      "stats": "SPD+32 ATK+28",
+      "th": "ดาบคู่ของเยี่ยนหลิง",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "紅炎雙龍刀",
+      "stats": "ATK+46 SPD+30",
+      "th": "ดาบมังกรคู่เพลิงแดง",
+      "slot": "sword",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "紅炎狂龍破",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "มังกรคลั่งเพลิงแดงทำลายล้าง",
+    "skills": [
+      {
+        "cn": "火靈斬",
+        "th": "ฟันวิญญาณเพลิง",
+        "en": "Fire Strike",
+        "max": "8",
+        "sp": 28,
+        "way": "single",
+        "desc": {
+          "th": "ฟันหลายครั้งแล้วจบด้วยการระเบิด",
+          "en": "Multiple cuts followed by an explosion."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "熾焰武力",
+        "th": "พลังรบเปลวเพลิง",
+        "en": "Fiery Attack",
+        "max": "10",
+        "sp": 31,
+        "way": "buff",
+        "desc": {
+          "th": "เพิ่มพลังโจมตีให้เป้าหมาย",
+          "en": "Increases the target’s attack."
+        },
+        "legacy": true
+      },
+      {
+        "cn": "紅炎狂龍破",
+        "th": "มังกรคลั่งเพลิงแดงทำลายล้าง",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "幻影",
-   "stats": "ATK+20 SPD+15",
-   "th": "ภาพลวงตา",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "shasha",
+    "name": {
+      "en": "Shasha",
+      "cn": "莎莎",
+      "th": "ซาช่า"
+    },
+    "thConfirmed": false,
+    "type": "hybrid",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": null,
+    "exclusive": null,
+    "rebirthExclusive": {
+      "cn": "凍球魔杖",
+      "stats": "MATK+48 SPD+20",
+      "th": "ไม้เท้าลูกกลมเยือกแข็ง",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "凍球術",
+    "floors": {
+      "STR": 24,
+      "CON": 24,
+      "INT": 51,
+      "WIS": 50,
+      "AGI": 31
+    },
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "วิชาลูกกลมเยือกแข็ง",
+    "skills": [
+      {
+        "cn": "水之刃‧改",
+        "th": "ใบมีดสายน้ำ ‧ ปรับปรุง",
+        "en": "Water Hit · Kai",
+        "max": "12"
+      },
+      {
+        "cn": "冰凍術",
+        "th": "วิชาเยือกแข็ง",
+        "en": "Freeze Spell",
+        "max": "10",
+        "sp": 49,
+        "way": "dist",
+        "legacy": true
+      },
+      {
+        "cn": "凍球術",
+        "th": "วิชาลูกกลมเยือกแข็ง",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "雲舞",
-   "stats": "ATK+50 SPD+50",
-   "th": "ระบำเมฆ",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "nakira",
+    "name": {
+      "en": "Nakira",
+      "cn": "娜琪拉",
+      "th": "นาคิระ"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "quest",
+    "rebirthPoints": null,
+    "exclusive": {
+      "cn": "娜琪拉之杖",
+      "stats": "MATK+25 MaxHP+50",
+      "th": "ไม้เท้าของนาคิระ",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "凝氣法杖",
+      "stats": "MATK+38 MaxSP+100",
+      "th": "ไม้เท้ารวมลมปราณ",
+      "slot": "wand",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "凝氣砲",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ปืนใหญ่รวมลมปราณ",
+    "skills": [
+      {
+        "cn": "真‧風切術",
+        "th": "แท้ · วิชาลมกรีด",
+        "en": "Wind Cut Beating",
+        "max": "18",
+        "sp": 21,
+        "way": "dist",
+        "legacy": true
+      },
+      {
+        "cn": "麻痺術",
+        "th": "วิชาอัมพาต",
+        "en": "Coma Spell",
+        "max": "10",
+        "sp": 81,
+        "way": "aid",
+        "legacy": true
+      },
+      {
+        "cn": "凝氣砲",
+        "th": "ปืนใหญ่รวมลมปราณ",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "靈狐掠影",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "เงาโฉบจิ้งจอกวิญญาณ"
- },
- {
-  "id": "pearl",
-  "name": {
-   "en": "Pearl Milk Girl",
-   "cn": "珍珠奶姬",
-   "th": "สาวไข่มุก"
+  {
+    "id": "ares",
+    "name": {
+      "en": "Ares",
+      "cn": "亞雷斯",
+      "th": "อาเรส"
+    },
+    "thConfirmed": false,
+    "type": "hybrid",
+    "form": "beast",
+    "source": "quest",
+    "rebirthPoints": null,
+    "exclusive": {
+      "cn": "鎮魂",
+      "stats": "ATK+78 MaxHP+300",
+      "th": "สงบวิญญาณ",
+      "slot": "accessory",
+      "slotConfirmed": true,
+      "slotNote": {
+        "en": "Two primary sources disagree: the compendium tags it (飾) accessory, while a Bahamut star-quest thread calls the item 鎮魂臂環 — arm-ring — with identical stats.",
+        "th": "แหล่งข้อมูลหลักสองที่ไม่ตรงกัน: ตารางคอมมูนิตี้ระบุ (飾) เครื่องประดับ ส่วนกระทู้เควสดาวของบอร์ดไต้หวันเรียกว่า 鎮魂臂環 คือปลอกแขน โดยค่าสถานะเท่ากัน"
+      }
+    },
+    "rebirthExclusive": {
+      "cn": "炎核",
+      "stats": "ATK+80 MATK+80",
+      "th": "แก่นเพลิง",
+      "slot": "accessory",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "炎核爆破",
+    "floors": {
+      "STR": null,
+      "CON": 88,
+      "INT": 78,
+      "WIS": 59,
+      "AGI": 68
+    },
+    "note": {
+      "en": "Ares can only rebirth in Re: Star Ark — no earlier title in the series allowed it. But Ares cannot be revived star-free.",
+      "th": "อาเรสเปิดจุติเฉพาะใน Re: Star Ark เท่านั้น ไม่เคยเปิดในภาคไหนมาก่อน แต่อาเรสชุบชีวิตแบบไม่เสียดาวไม่ได้"
+    },
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "แก่นเพลิงระเบิด",
+    "skills": [
+      {
+        "cn": "火爆狂爪",
+        "th": "กรงเล็บเพลิงคลั่ง",
+        "en": "Blazing Fury Claw",
+        "max": "8"
+      },
+      {
+        "cn": "噴火",
+        "th": "พ่นไฟ",
+        "en": "Fire Breath",
+        "max": "8"
+      },
+      {
+        "cn": "炎核爆破",
+        "th": "แก่นเพลิงระเบิด",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "粗大吸管",
-   "stats": "MATK+25 SPD+10",
-   "th": "หลอดดูดยักษ์",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "lynx",
+    "name": {
+      "en": "Lynx / Linkes",
+      "cn": "琳可絲",
+      "th": "ลิงคส์"
+    },
+    "thConfirmed": true,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "貓咪髮飾",
+      "stats": "ATK+25 MaxHP+100",
+      "th": "กิ๊บติดผมแมว",
+      "slot": "head",
+      "slotConfirmed": true
+    },
+    "rebirthExclusive": {
+      "cn": "星塵貓爪",
+      "stats": "ATK+50 MaxHP+100",
+      "th": "กรงเล็บแมวธุลีดาว",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "冰塵喵旋舞",
+    "floors": {
+      "STR": null,
+      "CON": null,
+      "INT": 23,
+      "WIS": 21,
+      "AGI": 53
+    },
+    "note": {
+      "en": "A humanoid companion, not a beast pet, despite being a cat — she takes full equipment slots.",
+      "th": "ลิงคส์เป็นขุนพลร่างมนุษย์ ไม่ใช่ร่างสัตว์ แม้จะเป็นแมว จึงใส่อุปกรณ์ได้ครบช่อง"
+    },
+    "extra": {
+      "element": {
+        "en": "Water · physical, humanoid",
+        "th": "น้ำ · กายภาพ ร่างมนุษย์",
+        "cn": "物理・人型"
+      },
+      "star": {
+        "cn": "天貓座",
+        "en": "the Lynx constellation — where the English name comes from",
+        "th": "กลุ่มดาวแมวป่า — ที่มาของชื่อ Lynx"
+      },
+      "story": {
+        "en": "A Star Spirit (星靈) from the Star Spirit Academy (星靈學院); Xiaofei's (小菲) classmate and close friend.",
+        "th": "ภูตดาวจากสถาบันภูตดาว (星靈學院) เพื่อนร่วมชั้นและเพื่อนสนิทของเสี่ยวเฟย (小菲)"
+      },
+      "base": "STR 18 · CON 9 · INT 5 · WIS 7 · AGI 13",
+      "gear": [
+        {
+          "cn": "黃金貓爪",
+          "en": "Golden Cat Claw",
+          "th": "กรงเล็บแมวทองคำ",
+          "grade": "mall",
+          "stats": "ATK+150 · crit damage +25%"
+        },
+        {
+          "cn": "星塵喵核心",
+          "en": "Stardust Meow Core",
+          "th": "แกนเหมียวธุลีดาว",
+          "grade": "mall",
+          "stats": "ATK+150 (accessory)"
+        },
+        {
+          "cn": "逗貓棒",
+          "en": "Cat Teaser",
+          "th": "ไม้ล่อแมว",
+          "grade": "favourite",
+          "stats": "rank 8"
+        }
+      ]
+    },
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ระบำแมวธุลีน้ำแข็ง",
+    "skills": [
+      {
+        "cn": "冰晶貓拳",
+        "th": "หมัดแมวเกล็ดน้ำแข็ง",
+        "en": "Ice Crystal Cat Punch",
+        "max": "8",
+        "up": {
+          "cn": "冰晶貓拳‧改",
+          "th": "หมัดแมวเกล็ดน้ำแข็ง ‧ ปรับปรุง",
+          "en": "Ice Crystal Cat Punch · Kai"
+        }
+      },
+      {
+        "cn": "呼嚕",
+        "th": "ครางฮึ่ม",
+        "en": "Purr",
+        "max": "10",
+        "up": {
+          "cn": "呼嚕‧改",
+          "th": "ครางฮึ่ม ‧ ปรับปรุง",
+          "en": "Purr · Kai",
+          "max": "12"
+        }
+      },
+      {
+        "cn": "冰塵喵旋舞",
+        "th": "ระบำแมวธุลีน้ำแข็ง",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "芋香吸管",
-   "stats": "MATK+50 SPD+50",
-   "th": "หลอดดูดกลิ่นเผือก",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "mary1",
+    "name": {
+      "en": "Mary I",
+      "cn": "瑪麗一世",
+      "th": "มารีที่ 1"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "炎咒",
+      "stats": "MATK+20 MaxHP+150",
+      "th": "คำสาปเพลิง",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "閃炎",
+      "stats": "MATK+50 MaxHP+300",
+      "th": "เพลิงประกาย",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "炎華綻放",
+    "floors": {
+      "STR": null,
+      "CON": null,
+      "INT": null,
+      "WIS": 41,
+      "AGI": 45
+    },
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ดอกเพลิงเบ่งบาน",
+    "skills": [
+      {
+        "cn": "火焰處刑",
+        "th": "ประหารด้วยเปลวเพลิง",
+        "en": "Flame Execution",
+        "max": "8",
+        "up": {
+          "cn": "火焰處刑‧改",
+          "th": "ประหารด้วยเปลวเพลิง ‧ ปรับปรุง",
+          "en": "Flame Execution · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "焰蝶燃魄",
+        "th": "ผีเสื้อเพลิงเผาวิญญาณ",
+        "en": "Flame Butterfly Soulburn",
+        "max": "10",
+        "up": {
+          "cn": "焰蝶燃魄‧改",
+          "th": "ผีเสื้อเพลิงเผาวิญญาณ ‧ ปรับปรุง",
+          "en": "Flame Butterfly Soulburn · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "炎華綻放",
+        "th": "ดอกเพลิงเบ่งบาน",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "芋泥奶蓋爆裂",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ครีมนมเผือกระเบิด"
- },
- {
-  "id": "anheduana",
-  "name": {
-   "en": "Anheduana",
-   "cn": "安海度亞娜",
-   "th": "อันไฮดูอาน่า"
+  {
+    "id": "imhotep",
+    "name": {
+      "en": "Imhotep",
+      "cn": "印和闐",
+      "th": "อิมโฮเทป"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "審判",
+      "stats": "ATK+10 DEF+10",
+      "th": "คำพิพากษา",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "拉之審判",
+      "stats": "ATK+50 MaxHP+300",
+      "th": "คำพิพากษาแห่งรา",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "拉之眼",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ดวงตาแห่งรา",
+    "skills": [
+      {
+        "cn": "蟲群之怒",
+        "th": "โทสะแห่งฝูงแมลง",
+        "en": "Wrath of the Swarm",
+        "max": "8",
+        "up": {
+          "cn": "蟲群之怒‧改",
+          "th": "โทสะแห่งฝูงแมลง ‧ ปรับปรุง",
+          "en": "Wrath of the Swarm · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "弒魂突刺",
+        "th": "แทงทะลวงสังหารวิญญาณ",
+        "en": "Soulslaying Thrust",
+        "max": "10",
+        "up": {
+          "cn": "弒魂突刺‧改",
+          "th": "แทงทะลวงสังหารวิญญาณ ‧ ปรับปรุง",
+          "en": "Soulslaying Thrust · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "拉之眼",
+        "th": "ดวงตาแห่งรา",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "天輝",
-   "stats": "MATK+25 MaxSP+100",
-   "th": "รัศมีสวรรค์",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "ashin",
+    "name": {
+      "en": "Ashin",
+      "cn": "亞辛",
+      "th": "ยาชิน"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "幻影",
+      "stats": "ATK+20 SPD+15",
+      "th": "ภาพลวงตา",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "雲舞",
+      "stats": "ATK+50 SPD+50",
+      "th": "ระบำเมฆ",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "靈狐掠影",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "เงาโฉบจิ้งจอกวิญญาณ",
+    "skills": [
+      {
+        "cn": "迷蹤幻影",
+        "th": "ภาพลวงไร้ร่องรอย",
+        "en": "Vanishing Mirage",
+        "max": "1",
+        "up": {
+          "cn": "迷蹤幻影‧改",
+          "th": "ภาพลวงไร้ร่องรอย ‧ ปรับปรุง",
+          "en": "Vanishing Mirage · Kai",
+          "max": "1"
+        }
+      },
+      {
+        "cn": "風刃詭步",
+        "th": "ใบมีดลมย่างก้าวลวง",
+        "en": "Windblade Feint",
+        "max": "10",
+        "up": {
+          "cn": "風刃詭步‧改",
+          "th": "ใบมีดลมย่างก้าวลวง ‧ ปรับปรุง",
+          "en": "Windblade Feint · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "靈狐掠影",
+        "th": "เงาโฉบจิ้งจอกวิญญาณ",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "天幕",
-   "stats": "MATK+50 MaxSP+500",
-   "th": "ม่านฟ้า",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "pearl",
+    "name": {
+      "en": "Pearl Milk Girl",
+      "cn": "珍珠奶姬",
+      "th": "สาวไข่มุก"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "粗大吸管",
+      "stats": "MATK+25 SPD+10",
+      "th": "หลอดดูดยักษ์",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "芋香吸管",
+      "stats": "MATK+50 SPD+50",
+      "th": "หลอดดูดกลิ่นเผือก",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "芋泥奶蓋爆裂",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ครีมนมเผือกระเบิด",
+    "skills": [
+      {
+        "cn": "珍珠轟擊",
+        "th": "ระเบิดไข่มุก",
+        "en": "Pearl Barrage",
+        "max": "6",
+        "up": {
+          "cn": "珍珠轟擊‧改",
+          "th": "ระเบิดไข่มุก ‧ ปรับปรุง",
+          "en": "Pearl Barrage · Kai",
+          "max": "6"
+        }
+      },
+      {
+        "cn": "全糖少冰",
+        "th": "หวานเต็มน้ำแข็งน้อย",
+        "en": "Full Sugar Less Ice",
+        "max": "12",
+        "up": {
+          "cn": "全糖少冰‧改",
+          "th": "หวานเต็มน้ำแข็งน้อย ‧ ปรับปรุง",
+          "en": "Full Sugar Less Ice · Kai"
+        }
+      },
+      {
+        "cn": "芋泥奶蓋爆裂",
+        "th": "ครีมนมเผือกระเบิด",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "月影濯塵",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "เงาจันทร์ชำระธุลี"
- },
- {
-  "id": "nemea",
-  "name": {
-   "en": "Nemea",
-   "cn": "涅墨亞",
-   "th": "เนเมอา"
+  {
+    "id": "anheduana",
+    "name": {
+      "en": "Anheduana",
+      "cn": "安海度亞娜",
+      "th": "อันไฮดูอาน่า"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "天輝",
+      "stats": "MATK+25 MaxSP+100",
+      "th": "รัศมีสวรรค์",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "天幕",
+      "stats": "MATK+50 MaxSP+500",
+      "th": "ม่านฟ้า",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "月影濯塵",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "เงาจันทร์ชำระธุลี",
+    "skills": [
+      {
+        "cn": "月華龍捲",
+        "th": "พายุหมุนแสงจันทร์",
+        "en": "Moonlight Tornado",
+        "max": "10",
+        "up": {
+          "cn": "月華龍捲‧改",
+          "th": "พายุหมุนแสงจันทร์ ‧ ปรับปรุง",
+          "en": "Moonlight Tornado · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "讚美詩",
+        "th": "บทเพลงสรรเสริญ",
+        "en": "Hymn",
+        "max": "12",
+        "up": {
+          "cn": "讚美詩‧改",
+          "th": "บทเพลงสรรเสริญ ‧ ปรับปรุง",
+          "en": "Hymn · Kai",
+          "max": "12"
+        }
+      },
+      {
+        "cn": "月影濯塵",
+        "th": "เงาจันทร์ชำระธุลี",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "hybrid",
-  "form": "beast",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "風雷之心",
-   "stats": "SPD+40",
-   "th": "หัวใจลมสายฟ้า",
-   "slot": "hand",
-   "slotConfirmed": true,
-   "slotNote": {
-    "en": "The compendium tags this (手) hand. Nemea is a beast companion, whose named slots are collar and saddle — the tag may be a coarse UI label rather than one of those.",
-    "th": "ตารางคอมมูนิตี้ระบุ (手) มือ แต่เนเมอาเป็นขุนพลร่างสัตว์ซึ่งช่องคือปลอกคอกับอานม้า ป้ายนี้อาจเป็นชื่อช่องแบบกว้าง ๆ ไม่ใช่ช่องใดช่องหนึ่งในนั้น"
-   }
+  {
+    "id": "nemea",
+    "name": {
+      "en": "Nemea",
+      "cn": "涅墨亞",
+      "th": "เนเมอา"
+    },
+    "thConfirmed": false,
+    "type": "hybrid",
+    "form": "beast",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "風雷之心",
+      "stats": "SPD+40",
+      "th": "หัวใจลมสายฟ้า",
+      "slot": "hand",
+      "slotConfirmed": true,
+      "slotNote": {
+        "en": "The compendium tags this (手) hand. Nemea is a beast companion, whose named slots are collar and saddle — the tag may be a coarse UI label rather than one of those.",
+        "th": "ตารางคอมมูนิตี้ระบุ (手) มือ แต่เนเมอาเป็นขุนพลร่างสัตว์ซึ่งช่องคือปลอกคอกับอานม้า ป้ายนี้อาจเป็นชื่อช่องแบบกว้าง ๆ ไม่ใช่ช่องใดช่องหนึ่งในนั้น"
+      }
+    },
+    "rebirthExclusive": {
+      "cn": "天穹雷核",
+      "stats": "SPD+100",
+      "th": "แก่นสายฟ้าโดมฟ้า",
+      "slot": "hand",
+      "slotConfirmed": true
+    },
+    "rebirthSkill": "天穹轟雷",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "สายฟ้าคำรามโดมฟ้า",
+    "skills": [
+      {
+        "cn": "風雷怒嘯",
+        "th": "คำรามลมสายฟ้า",
+        "en": "Thunderwind Roar",
+        "max": "8",
+        "up": {
+          "cn": "風雷怒嘯‧改",
+          "th": "คำรามลมสายฟ้า ‧ ปรับปรุง",
+          "en": "Thunderwind Roar · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "雷爪風暴",
+        "th": "พายุกรงเล็บสายฟ้า",
+        "en": "Thunderclaw Storm",
+        "max": "10",
+        "up": {
+          "cn": "雷爪風暴‧改",
+          "th": "พายุกรงเล็บสายฟ้า ‧ ปรับปรุง",
+          "en": "Thunderclaw Storm · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "天穹轟雷",
+        "th": "สายฟ้าคำรามโดมฟ้า",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "天穹雷核",
-   "stats": "SPD+100",
-   "th": "แก่นสายฟ้าโดมฟ้า",
-   "slot": "hand",
-   "slotConfirmed": true
+  {
+    "id": "tomoe",
+    "name": {
+      "en": "Tomoe",
+      "cn": "巴御前",
+      "th": "โทโมเอะ"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "炎霞",
+      "stats": "ATK+25 DEF+25",
+      "th": "เมฆเพลิง",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "熾劫",
+      "stats": "ATK+50 DEF+50",
+      "th": "วิบัติเพลิง",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "焰命流‧涅槃",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "สายชีวิตเพลิง・นิพพาน",
+    "skills": [
+      {
+        "cn": "焰命流‧斷炎",
+        "th": "สายเพลิงชีวิต · ตัดเปลวไฟ",
+        "en": "Flamelife Style · Flamecutter",
+        "max": "8",
+        "up": {
+          "cn": "焰命流‧斷炎‧改",
+          "th": "สายเพลิงชีวิต · ตัดเปลวไฟ ‧ ปรับปรุง",
+          "en": "Flamelife Style · Flamecutter · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "焰命流‧鳳輪",
+        "th": "สายเพลิงชีวิต · กงล้อหงส์",
+        "en": "Flamelife Style · Phoenix Wheel",
+        "max": "10",
+        "up": {
+          "cn": "焰命流‧鳳輪‧改",
+          "th": "สายเพลิงชีวิต · กงล้อหงส์ ‧ ปรับปรุง",
+          "en": "Flamelife Style · Phoenix Wheel · Kai"
+        }
+      },
+      {
+        "cn": "焰命流‧涅槃",
+        "th": "สายชีวิตเพลิง・นิพพาน",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "天穹轟雷",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "สายฟ้าคำรามโดมฟ้า"
- },
- {
-  "id": "tomoe",
-  "name": {
-   "en": "Tomoe",
-   "cn": "巴御前",
-   "th": "โทโมเอะ"
+  {
+    "id": "leonardo",
+    "name": {
+      "en": "Leonardo",
+      "cn": "李奧納多",
+      "th": "เลโอนาร์โด"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "氣流渦輪儀",
+      "stats": "MATK+30 MaxSP+200",
+      "th": "เครื่องกังหันกระแสอากาศ",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "哨兵",
+      "stats": "MATK+50 MaxSP+500",
+      "th": "ทหารยาม",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "萬象解構",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "ถอดรื้อสรรพสิ่ง",
+    "skills": [
+      {
+        "cn": "真空引爆",
+        "th": "จุดระเบิดสุญญากาศ",
+        "en": "Vacuum Detonation",
+        "max": "8",
+        "up": {
+          "cn": "真空引爆‧改",
+          "th": "จุดระเบิดสุญญากาศ ‧ ปรับปรุง",
+          "en": "Vacuum Detonation · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "高壓衝擊",
+        "th": "แรงอัดกระแทก",
+        "en": "High-Pressure Impact",
+        "max": "10",
+        "up": {
+          "cn": "高壓衝擊‧改",
+          "th": "แรงอัดกระแทก ‧ ปรับปรุง",
+          "en": "High-Pressure Impact · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "萬象解構",
+        "th": "ถอดรื้อสรรพสิ่ง",
+        "rebirth": true
+      }
+    ]
   },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "炎霞",
-   "stats": "ATK+25 DEF+25",
-   "th": "เมฆเพลิง",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "ragusa",
+    "name": {
+      "en": "Ragusa",
+      "cn": "拉格莎",
+      "th": "รากซ่า"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "永恆冬牙",
+      "stats": "ATK+25 MaxHP+250",
+      "th": "เขี้ยวเหมันต์นิรันดร์",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "誓約之冬",
+      "stats": "ATK+50 MaxHP+500",
+      "th": "เหมันต์แห่งคำสาบาน",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "龍息瀑",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "สายน้ำตกลมหายใจมังกร",
+    "skills": [
+      {
+        "cn": "冰霜龍襲",
+        "th": "มังกรน้ำแข็งจู่โจม",
+        "en": "Frost Dragon Assault",
+        "max": "8",
+        "up": {
+          "cn": "冰霜龍襲‧改",
+          "th": "มังกรน้ำแข็งจู่โจม ‧ ปรับปรุง",
+          "en": "Frost Dragon Assault · Kai",
+          "max": "8"
+        }
+      },
+      {
+        "cn": "龍鎧逆麟",
+        "th": "เกล็ดต้องห้ามเกราะมังกร",
+        "en": "Dragonmail Reverse Scale",
+        "max": "6",
+        "up": {
+          "cn": "龍鎧逆麟‧改",
+          "th": "เกล็ดต้องห้ามเกราะมังกร ‧ ปรับปรุง",
+          "en": "Dragonmail Reverse Scale · Kai",
+          "max": "6"
+        }
+      },
+      {
+        "cn": "龍息瀑",
+        "th": "สายน้ำตกลมหายใจมังกร",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthExclusive": {
-   "cn": "熾劫",
-   "stats": "ATK+50 DEF+50",
-   "th": "วิบัติเพลิง",
-   "slot": "weapon",
-   "slotConfirmed": false
+  {
+    "id": "augustus",
+    "name": {
+      "en": "Augustus",
+      "cn": "奧古斯都",
+      "th": "ออกัสตัส"
+    },
+    "thConfirmed": false,
+    "type": "phys",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "秩序之源",
+      "stats": "ATK+25 SPD+25",
+      "th": "ต้นธารแห่งระเบียบ",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "破曉之光",
+      "stats": "ATK+50 DEF+50",
+      "th": "แสงอรุณรุ่ง",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "黎明守望",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "เฝ้ามองรุ่งอรุณ",
+    "skills": [
+      {
+        "cn": "不敗征服",
+        "th": "พิชิตไร้พ่าย",
+        "en": "Undefeated Conquest",
+        "max": "10",
+        "up": {
+          "cn": "不敗征服‧改",
+          "th": "พิชิตไร้พ่าย ‧ ปรับปรุง",
+          "en": "Undefeated Conquest · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "律令裁決",
+        "th": "คำพิพากษาตามกฎ",
+        "en": "Decree of Judgement",
+        "max": "10",
+        "up": {
+          "cn": "律令裁決‧改",
+          "th": "คำพิพากษาตามกฎ ‧ ปรับปรุง",
+          "en": "Decree of Judgement · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "黎明守望",
+        "th": "เฝ้ามองรุ่งอรุณ",
+        "rebirth": true
+      }
+    ]
   },
-  "rebirthSkill": "焰命流‧涅槃",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "สายชีวิตเพลิง・นิพพาน"
- },
- {
-  "id": "leonardo",
-  "name": {
-   "en": "Leonardo",
-   "cn": "李奧納多",
-   "th": "เลโอนาร์โด"
-  },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "氣流渦輪儀",
-   "stats": "MATK+30 MaxSP+200",
-   "th": "เครื่องกังหันกระแสอากาศ",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthExclusive": {
-   "cn": "哨兵",
-   "stats": "MATK+50 MaxSP+500",
-   "th": "ทหารยาม",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthSkill": "萬象解構",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "ถอดรื้อสรรพสิ่ง"
- },
- {
-  "id": "ragusa",
-  "name": {
-   "en": "Ragusa",
-   "cn": "拉格莎",
-   "th": "รากซ่า"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "永恆冬牙",
-   "stats": "ATK+25 MaxHP+250",
-   "th": "เขี้ยวเหมันต์นิรันดร์",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthExclusive": {
-   "cn": "誓約之冬",
-   "stats": "ATK+50 MaxHP+500",
-   "th": "เหมันต์แห่งคำสาบาน",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthSkill": "龍息瀑",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "สายน้ำตกลมหายใจมังกร"
- },
- {
-  "id": "augustus",
-  "name": {
-   "en": "Augustus",
-   "cn": "奧古斯都",
-   "th": "ออกัสตัส"
-  },
-  "thConfirmed": false,
-  "type": "phys",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "秩序之源",
-   "stats": "ATK+25 SPD+25",
-   "th": "ต้นธารแห่งระเบียบ",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthExclusive": {
-   "cn": "破曉之光",
-   "stats": "ATK+50 DEF+50",
-   "th": "แสงอรุณรุ่ง",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthSkill": "黎明守望",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "เฝ้ามองรุ่งอรุณ"
- },
- {
-  "id": "gibil",
-  "name": {
-   "en": "Gibil",
-   "cn": "吉比爾",
-   "th": "จิบิล"
-  },
-  "thConfirmed": false,
-  "type": "magic",
-  "form": "human",
-  "source": "mall",
-  "rebirthPoints": 130,
-  "exclusive": {
-   "cn": "焚天",
-   "stats": "MATK+25 SPD+25",
-   "th": "เผาฟ้า",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthExclusive": {
-   "cn": "寂滅",
-   "stats": "MATK+50 SPD+50",
-   "th": "ดับสูญ",
-   "slot": "weapon",
-   "slotConfirmed": false
-  },
-  "rebirthSkill": "燼火狂熱",
-  "floors": null,
-  "note": null,
-  "extra": null,
-  "confidence": "RE-verified",
-  "updated": "2026-09-10",
-  "rebirthSkillTh": "คลั่งไฟเถ้าถ่าน"
- }
+  {
+    "id": "gibil",
+    "name": {
+      "en": "Gibil",
+      "cn": "吉比爾",
+      "th": "จิบิล"
+    },
+    "thConfirmed": false,
+    "type": "magic",
+    "form": "human",
+    "source": "mall",
+    "rebirthPoints": 130,
+    "exclusive": {
+      "cn": "焚天",
+      "stats": "MATK+25 SPD+25",
+      "th": "เผาฟ้า",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthExclusive": {
+      "cn": "寂滅",
+      "stats": "MATK+50 SPD+50",
+      "th": "ดับสูญ",
+      "slot": "weapon",
+      "slotConfirmed": false
+    },
+    "rebirthSkill": "燼火狂熱",
+    "floors": null,
+    "note": null,
+    "extra": null,
+    "confidence": "RE-verified",
+    "updated": "2026-09-10",
+    "rebirthSkillTh": "คลั่งไฟเถ้าถ่าน",
+    "skills": [
+      {
+        "cn": "熾熱靈光",
+        "th": "แสงวิญญาณแผดเผา",
+        "en": "Searing Aura",
+        "max": "10",
+        "up": {
+          "cn": "熾熱靈光‧改",
+          "th": "แสงวิญญาณแผดเผา ‧ ปรับปรุง",
+          "en": "Searing Aura · Kai",
+          "max": "10"
+        }
+      },
+      {
+        "cn": "虛妄灼燒",
+        "th": "เผาไหม้มายา",
+        "en": "Illusory Immolation",
+        "max": "12",
+        "up": {
+          "cn": "虛妄灼燒‧改",
+          "th": "เผาไหม้มายา ‧ ปรับปรุง",
+          "en": "Illusory Immolation · Kai",
+          "max": "12"
+        }
+      },
+      {
+        "cn": "燼火狂熱",
+        "th": "คลั่งไฟเถ้าถ่าน",
+        "rebirth": true
+      }
+    ]
+  }
 ]

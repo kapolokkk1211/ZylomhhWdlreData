@@ -119,6 +119,20 @@ const spot=[
  }],
  ['Every companion has a Thai rebirth-skill name',()=>pets.every(c=>!c.rebirthSkill||!!c.rebirthSkillTh)],
  ['The two flagged slot conflicts still carry their note',()=>['ares','nemea'].every(id=>pets.find(c=>c.id===id)?.exclusive?.slotNote?.th)],
+ ['Every companion has skills, each with a Chinese and a Thai name',()=>pets.every(c=>
+   Array.isArray(c.skills)&&c.skills.length>=2&&c.skills.every(s=>!!s.cn&&!!s.th))],
+ ['The rebirth skill closes each skill list and matches the row',()=>pets.every(c=>{
+   if(!c.rebirthSkill) return true;
+   const last=c.skills[c.skills.length-1];
+   return last.rebirth===true&&last.cn===c.rebirthSkill&&last.th===c.rebirthSkillTh;
+ })],
+ ['Every target-pattern key has a label in both languages',()=>{
+   const used=new Set(); pets.forEach(c=>c.skills.forEach(s=>s.way&&used.add(s.way)));
+   return ['en','th'].every(L=>[...used].every(k=>!!UI[L].companions.ways[k]));
+ }],
+ ['WLOHUB-sourced skill detail is flagged legacy, and only where it exists',()=>pets.every(c=>
+   c.skills.every(s=>((s.sp!=null||s.way||s.desc)?s.legacy===true:!s.legacy)))],
+ ['Lynx\u2019s spotlight no longer carries its own copy of the skills',()=>!pets.find(c=>c.id==='lynx').extra.skills],
  ['Only ลิงคส์ has a client-confirmed Thai companion name',()=>pets.filter(c=>c.thConfirmed).map(c=>c.id).join()==='lynx'],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
    ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],

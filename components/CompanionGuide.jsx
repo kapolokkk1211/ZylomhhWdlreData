@@ -55,6 +55,68 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
     );
   };
 
+  /* The spotlight opens as a row directly under the companion you clicked — with 25 expandable
+     rows, a panel parked below the whole table would open out of sight. */
+  const spotlight = (r) => (
+    <tr className="cg-spot-row" key={`s-${r.id}`}>
+      <td colSpan={6}>
+        <div className="cg-spot">
+              <h3>{strings.spotlight} · {r.name} <span className="cn">{r.cn}</span></h3>
+              {r.extra && (
+                <>
+                  <p className="cg-meta">
+                    {r.extra.element[lang] || r.extra.element.en} <span className="cn">{r.extra.element.cn}</span>
+                    {' · '}{r.extra.star.cn} — {r.extra.star[lang] || r.extra.star.en}
+                  </p>
+                  <p>{r.extra.story[lang] || r.extra.story.en}</p>
+                  <p className="cg-base">Lv1 — {r.extra.base}</p>
+                </>
+              )}
+
+              <h4>{strings.skills}</h4>
+              <ul className="cg-list skills">
+                {r.skills.map((k, i) => (
+                  <li key={`${k.cn}-${i}`} className={k.rebirth ? 'sk reborn' : 'sk'}>
+                    <b>{k.name}</b> <span className="cn">{k.cn}</span>
+                    {k.max && <span className="sk-lv">{strings.skillMaxShort} {k.max}</span>}
+                    {k.rebirth && <span className="sk-tag">{strings.skillRebirth}</span>}
+                    {k.up && (
+                      <div className="sk-up">
+                        ↳ {strings.skillUpgrade} <b>{k.up.name}</b> <span className="cn">{k.up.cn}</span>
+                        {k.up.max && <span className="sk-lv">{strings.skillMaxShort} {k.up.max}</span>}
+                      </div>
+                    )}
+                    {(k.sp != null || k.way || k.desc) && (
+                      <div className="cg-dim sk-meta" title={k.legacy ? strings.skillLegacy : undefined}>
+                        {k.sp != null && <span className="sk-sp">{strings.skillSp} {k.sp}</span>}
+                        {k.way && <span className="sk-way">{strings.ways[k.way] || k.way}</span>}
+                        {k.legacy && <span className="sk-legacy">{strings.skillLegacyMark}</span>}
+                        {k.desc && <div className="sk-desc">{k.desc}</div>}
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+
+              {r.extra && (
+                <>
+                  <h4>{strings.otherGear}</h4>
+                  <ul className="cg-list">
+                    {r.extra.gear.map((g) => (
+                      <li key={g.cn}>
+                        <b>{g[lang] || g.en}</b> <span className="cn">{g.cn}</span>
+                        <span className="cg-dim"> · {g.stats}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+          
+        </div>
+      </td>
+    </tr>
+  );
+
   const table = (src, heading) => {
     const list = group(src);
     if (!list.length) return null;
@@ -74,19 +136,21 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
               </tr>
             </thead>
             <tbody>
-              {list.map((r) => (
-                <tr key={r.id}>
+              {list.map((r) => [
+                <tr key={r.id} className={open === r.id ? 'is-open' : undefined}>
                   <td className="c-name">
                     <button
                       type="button"
-                      className={`cg-name${r.extra ? ' has-more' : ''}`}
-                      onClick={() => r.extra && setOpen(open === r.id ? null : r.id)}
+                      className={`cg-name${r.skills.length ? ' has-more' : ''}`}
+                      onClick={() => r.skills.length && setOpen(open === r.id ? null : r.id)}
                       title={r.alt}
                     >
                       <span className="nm">{r.name}</span>
                       <span className={`dot-th${r.thConfirmed ? ' ok' : ''}`} />
                       <span className="cn"> {r.cn}</span>
-                      {r.extra && <span className="cg-more">{open === r.id ? '−' : '+'}</span>}
+                      {r.skills.length > 0 && (
+                        <span className="cg-more" title={strings.skillsHint}>{open === r.id ? '−' : '+'}</span>
+                      )}
                     </button>
                     {r.note && <div className="mnote">{r.note}</div>}
                   </td>
@@ -104,41 +168,12 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
                       <span className="cn">{r.rebirthSkill || '—'}</span>
                     )}
                   </td>
-                </tr>
-              ))}
+                </tr>,
+                open === r.id ? spotlight(r) : null,
+              ])}
             </tbody>
           </table>
         </div>
-        {list.filter((r) => r.extra && open === r.id).map((r) => (
-          <div className="cg-spot" key={`s-${r.id}`}>
-            <h3>{strings.spotlight} · {r.name} <span className="cn">{r.cn}</span></h3>
-            <p className="cg-meta">
-              {r.extra.element[lang] || r.extra.element.en} <span className="cn">{r.extra.element.cn}</span>
-              {' · '}{r.extra.star.cn} — {r.extra.star[lang] || r.extra.star.en}
-            </p>
-            <p>{r.extra.story[lang] || r.extra.story.en}</p>
-            <p className="cg-base">Lv1 — {r.extra.base}</p>
-            <h4>{strings.skills}</h4>
-            <ul className="cg-list">
-              {r.extra.skills.map((k) => (
-                <li key={k.cn}>
-                  <b>{k[lang] || k.en}</b> <span className="cn">{k.cn}</span>
-                  <span className="cg-dim"> · {strings.maxLv} {k.max}</span>
-                  <div className="cg-dim">{k.eff[lang] || k.eff.en}</div>
-                </li>
-              ))}
-            </ul>
-            <h4>{strings.otherGear}</h4>
-            <ul className="cg-list">
-              {r.extra.gear.map((g) => (
-                <li key={g.cn}>
-                  <b>{g[lang] || g.en}</b> <span className="cn">{g.cn}</span>
-                  <span className="cg-dim"> · {g.stats}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
       </>
     );
   };
@@ -202,6 +237,7 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
       {table('mall', strings.mallGroup)}
       <p className="cg-dim">{strings.pattern}</p>
       <p className="cg-dim">{strings.slotLegend}</p>
+      <p className="cg-dim">{strings.skillSourceNote}</p>
 
       <div className="cg-prose">
         <h2 className="cg-h2">{strings.thTitle}</h2>

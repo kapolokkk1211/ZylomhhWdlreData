@@ -889,6 +889,19 @@ html[data-view="mobile"] .fb-embed iframe { height: 860px; }
 .cg-name.has-more { cursor: pointer; }
 .cg-name.has-more:hover .nm { color: var(--star); }
 .cg-more { display: inline-block; margin-left: 7px; border: 1px solid var(--star); color: var(--star); border-radius: 5px; width: 19px; height: 19px; line-height: 17px; text-align: center; font-size: 13px; }
+/* The skills panel is a table row so it opens where you clicked, not below 25 other rows. */
+.cg-spot-row td { padding: 0 0 14px !important; background: transparent; }
+.cgtable tr.is-open > td { border-bottom: 0; }
+.cg-list.skills { padding-left: 0; list-style: none; gap: 12px; }
+.cg-list.skills > li { border-left: 3px solid var(--line); padding-left: 12px; }
+.cg-list.skills > li.reborn { border-color: var(--star); }
+.sk-lv { margin-left: 8px; font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint); }
+.sk-tag { margin-left: 8px; border: 1px solid var(--star); color: var(--star); border-radius: 999px; padding: 0 8px; font-size: 11px; }
+.sk-up { margin-top: 3px; font-size: 13px; color: var(--ink-soft); }
+.sk-meta { margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.sk-sp, .sk-way { font-family: var(--font-mono); font-size: 11.5px; }
+.sk-legacy { font-size: 11px; border: 1px dashed var(--line); border-radius: 999px; padding: 0 7px; cursor: help; }
+.sk-desc { flex-basis: 100%; font-size: 13px; line-height: 1.55; }
 .cg-spot { border: 1px solid var(--star); border-radius: var(--radius); background: var(--star-bg); padding: 16px 18px; margin: 12px 0 22px; }
 .cg-spot h3 { margin: 0 0 8px; font-family: var(--font-display); font-size: 18px; }
 .cg-spot p { margin: 0 0 10px; line-height: 1.6; }
@@ -899,6 +912,8 @@ html[data-view="mobile"] .fb-embed iframe { height: 860px; }
    reads on a phone — and the floors table wants the opposite: five numbers in one row. */
 html[data-view="mobile"] .cgtable { min-width: 0 !important; }
 html[data-view="mobile"] table.cgtable tbody tr { grid-template-columns: 1fr; gap: 0; }
+html[data-view="mobile"] table.cgtable tr.cg-spot-row { display: block; border: 0; background: transparent; box-shadow: none; padding: 0; margin: -4px 0 8px; }
+html[data-view="mobile"] table.cgtable tr.cg-spot-row td { display: block; }
 html[data-view="mobile"] table.cgtable td { grid-column: 1 !important; grid-row: auto !important; }
 html[data-view="mobile"] table.cgtable td.c-kind::before,
 html[data-view="mobile"] table.cgtable td.c-pts::before,
