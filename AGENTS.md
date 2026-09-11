@@ -98,12 +98,19 @@ a name in-client, set `name.th` to the exact client string and `thConfirmed: tru
 is worse than leaving a row in English — a player who cannot find your Thai name in their client
 loses trust in every other row.
 
-**Source priority, highest first.** KK's live Thai client beats everything. Then **WLOHUB**
+**Source priority, highest first.** KK's live Thai client beats everything. Then the **Taiwan
+Bahamut board** (`forum.gamer.com.tw/B.php?bsn=82442` — KK raised this to high priority on
+2026-09-11): it is the official 飄流幻境 Re：星之方舟 forum, it is Re-era rather than legacy, and it
+carries per-region quest walkthroughs, the Re alchemy encyclopedia, the stat-climbing tables and
+the patch notes. **Check it before concluding something is unavailable.** It 403s every automated
+fetcher and reads fine through KK's browser; the thread index and the same-origin `fetch()` recipe
+are in the project KB as `wonderland/25-tw-forum-index.md`. Then **WLOHUB**
 (`wlohub.com/items/{id}` — 6,882 items, per-item pages with rank, equip level, slot, up to five
 material families, stats, recipes, and a "Where To Find" tab giving shop+town+price or the drop
 monster). Then the Taiwan community sheet, then wlopedia, then the legacy Bahamut alchemy
-encyclopedia. WLOHUB has no bulk API — its listing is a Livewire POST, not a REST endpoint — so it
-is a lookup tool, not something to import from in one pass. It carries no Chinese names at all, so
+encyclopedia — which the board's own 星飄－煉金百科 (`snA=252`) supersedes for Re. WLOHUB has no
+bulk API — its listing is a Livewire POST, not a REST endpoint — so it is a lookup tool, not
+something to import from in one pass. It carries no Chinese names at all, so
 pair it with a CN source when a 中文 name is what you need. Every one of these sites 403s a plain
 fetcher and reads fine in a real browser tab.
 
@@ -163,10 +170,12 @@ at build time, which fails in a sandbox without network. Do not "fix" this back.
   on the family heading. Do not imply completeness.
 - No guides section yet (build, leveling, economy, life skills, combo). Planned; the source
   material is in the project knowledge base.
-- **Quest data is thin where it matters most.** Re's own main-quest and side-quest master lists are
-  not published anywhere reachable — `forum.gamer.com.tw` (bsn=82442) has them and returns 403 to
-  automated fetching. 121 of the 132 rows are legacy WLO, kept because the region + story beat
-  usually still match. Quest names have no Thai confirmation at all yet. The research pass and its
+- **Quest data is thin where it matters most — but no longer blocked.** 121 of the 132 rows are
+  legacy WLO, kept because the region + story beat usually still match. The Re-era master lists DO
+  exist: the Bahamut board has per-region walkthroughs carrying 任務名稱 / 任務前置 / 任務需求 /
+  任務獎勵 plus screenshots, and they are readable through KK's browser. Converting them region by
+  region is the biggest single upgrade left for this site; the thread list is in
+  `wonderland/25-tw-forum-index.md`. Quest names have no Thai confirmation at all yet. The research pass and its
   gaps are written up in the project KB as `wonderland/20-quest-categories-th.md`.
 
 ## Commands
