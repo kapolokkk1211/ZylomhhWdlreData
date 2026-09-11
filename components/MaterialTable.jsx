@@ -28,7 +28,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       if (town && !r.sources.some((s) => s.type === 'shop' && s.town === town)) return false;
       if (term) {
         const towns = r.sources.map((s) => (s.town ? labels.town[s.town]?.label : '') + ' ' + (s.mob || '') + ' ' + (s.where || '') + ' ' + (s.station || '')).join(' ');
-        const hay = `${r.name.en} ${r.name.cn} ${r.name.th || ''} ${labels.family[r.family]?.label} ${towns} ${r.note || ''}`.toLowerCase();
+        const hay = `${r.name.en} ${r.name.cn || ''} ${r.name.th || ''} ${labels.family[r.family]?.label} ${towns} ${r.note || ''}`.toLowerCase();
         if (!hay.includes(term)) return false;
       }
       return true;

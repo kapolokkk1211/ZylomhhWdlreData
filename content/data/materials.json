@@ -1134,6 +1134,40 @@
   "updated": "2026-09-07"
  },
  {
+  "id": "feather-r4-seagull-feather",
+  "family": "Feather",
+  "rank": 4,
+  "name": {
+   "en": "Seagull Feather",
+   "cn": null,
+   "th": "ขนนกนางนวล"
+  },
+  "sources": [
+   {
+    "type": "craft",
+    "station": "compounding",
+    "recipe": "Funny Feather + Sewage",
+    "provenance": "legacy-wiki"
+   },
+   {
+    "type": "craft",
+    "station": "compounding",
+    "recipe": "Parrot's Feather. B + Beetle Horn",
+    "provenance": "legacy-wiki"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "KK-tested",
+  "note": "KK read this off a live tooltip: rank 4, [หลัก]ขนสัตว์, not tradable. No shop sells it — the two recipes are legacy-wiki and unverified in Re",
+  "updated": "2026-09-11",
+  "thConfirmed": true
+ },
+ {
   "id": "feather-r6-swallow-feather",
   "family": "Feather",
   "rank": 6,

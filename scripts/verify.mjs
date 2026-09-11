@@ -134,6 +134,13 @@ const spot=[
    c.skills.every(s=>((s.sp!=null||s.way||s.desc)?s.legacy===true:!s.legacy)))],
  ['Lynx\u2019s spotlight no longer carries its own copy of the skills',()=>!pets.find(c=>c.id==='lynx').extra.skills],
  ['Only ลิงคส์ has a client-confirmed Thai companion name',()=>pets.filter(c=>c.thConfirmed).map(c=>c.id).join()==='lynx'],
+ ['Seagull Feather is the KK-confirmed rank-4 Feather, sold nowhere',()=>{
+   const m=mats.find(x=>x.id==='feather-r4-seagull-feather');
+   return m&&m.rank===4&&m.family==='Feather'&&m.confidence==='KK-tested'&&m.thConfirmed
+     &&m.name.th==='ขนนกนางนวล'&&!m.sources.some(s=>s.type==='shop');
+ }],
+ ['A material may have no 中文 name, but never a Thai one it has not earned',()=>mats.every(m=>
+   !m.thConfirmed||!!m.name.th)],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',
    ()=>!mats.some(m=>m.family==='Star'&&m.sources.some(s=>s.type==='shop'))],
  ['Madagascar is on the town list',()=>!!towns.find(t=>t.key==='madagascar')],
