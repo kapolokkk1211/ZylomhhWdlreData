@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 const fmt = (tpl, v) => Object.entries(v).reduce((s, [k, x]) => s.replace(`{${k}}`, x), String(tpl));
 const STATS = ['STR', 'CON', 'INT', 'WIS', 'AGI'];
 
-export default function CompanionGuide({ rows, counts, strings, lang }) {
+export default function CompanionGuide({ rows, counts, sources, strings, lang }) {
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(null); // the spotlight row, opened by clicking a name
 
@@ -242,6 +242,21 @@ export default function CompanionGuide({ rows, counts, strings, lang }) {
       <div className="cg-prose">
         <h2 className="cg-h2">{strings.thTitle}</h2>
         <ul className="cg-list">{strings.thStatus.map((x, i) => <li key={i}>{x}</li>)}</ul>
+
+        {/* Credit where it is due, and a way out of this page: the compendium has columns we
+            do not render, so a reader chasing one of those should be able to open it. */}
+        <h2 className="cg-h2">{strings.sourcesTitle}</h2>
+        <p>{strings.sourcesLede}</p>
+        <ul className="cg-list srcsheets">
+          {sources.map((src) => (
+            <li key={src.id}>
+              <a href={src.url} target="_blank" rel="noopener noreferrer" className={`sheet-link lang-${src.lang}`}>
+                {src.title}
+              </a>
+              <div className="cg-dim">{strings.sourceNotes[src.id]}</div>
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );

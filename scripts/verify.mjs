@@ -3,7 +3,7 @@ import { UI } from '../lib/ui.js';
 const J=f=>JSON.parse(fs.readFileSync('content/data/'+f,'utf8'));
 const comp=J('compounds.json'), mats=J('materials.json'), codes=J('codes.json'),
       towns=J('towns.json'), gloss=J('glossary.json'), quests=J('quests.json'),
-      feedback=J('feedback.json'), pets=J('companions.json');
+      feedback=J('feedback.json'), pets=J('companions.json'), srcs=J('sources.json');
 const fams=new Set(codes.families.map(f=>f.key)), slots=new Set(codes.slots.map(s=>s.key)),
       stats=new Set(codes.stats.map(s=>s.key)), confs=new Set(codes.confidence.map(c=>c.key)),
       townKeys=new Set(towns.map(t=>t.key)),
@@ -133,6 +133,11 @@ const spot=[
  ['WLOHUB-sourced skill detail is flagged legacy, and only where it exists',()=>pets.every(c=>
    c.skills.every(s=>((s.sp!=null||s.way||s.desc)?s.legacy===true:!s.legacy)))],
  ['Lynx\u2019s spotlight no longer carries its own copy of the skills',()=>!pets.find(c=>c.id==='lynx').extra.skills],
+ ['Every companion source link is https and described in both languages',()=>srcs.companions.every(x=>
+   /^https:\/\//.test(x.url)&&!!x.title&&['en','cn'].includes(x.lang)
+   &&['en','th'].every(L=>!!UI[L].companions.sourceNotes[x.id]))],
+ ['Both compendium sheets are linked — the English one and the Chinese original',()=>
+   ['compendium-en','compendium-cn'].every(id=>srcs.companions.some(x=>x.id===id))],
  ['Only ลิงคส์ has a client-confirmed Thai companion name',()=>pets.filter(c=>c.thConfirmed).map(c=>c.id).join()==='lynx'],
  ['Seagull Feather is the KK-confirmed rank-4 Feather, sold nowhere',()=>{
    const m=mats.find(x=>x.id==='feather-r4-seagull-feather');

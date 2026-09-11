@@ -1,0 +1,22 @@
+{
+  "companions": [
+    {
+      "id": "compendium-en",
+      "url": "https://docs.google.com/spreadsheets/d/1uCWJq1fto53hP6Z4MAtyqorXQJ9oL-Acsbvzva7mnDc/edit",
+      "title": "Wonderland Online Series: Main Story & Mall Pet List",
+      "lang": "en"
+    },
+    {
+      "id": "compendium-cn",
+      "url": "https://docs.google.com/spreadsheets/d/1y9CKlXbIrbP6g85Yv-8m9ik6IVZXmStHUGdRx9kaaC0/edit",
+      "title": "飄流幻境系列:主線與商城寵物列表",
+      "lang": "cn"
+    },
+    {
+      "id": "compendium-thread",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=328",
+      "title": "【閒聊】我自己寫了飄流幻境系列夥伴大全",
+      "lang": "cn"
+    }
+  ]
+}

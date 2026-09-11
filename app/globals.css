@@ -890,6 +890,12 @@ html[data-view="mobile"] .fb-embed iframe { height: 860px; }
 .cg-name.has-more:hover .nm { color: var(--star); }
 .cg-more { display: inline-block; margin-left: 7px; border: 1px solid var(--star); color: var(--star); border-radius: 5px; width: 19px; height: 19px; line-height: 17px; text-align: center; font-size: 13px; }
 /* The skills panel is a table row so it opens where you clicked, not below 25 other rows. */
+.cg-list.srcsheets { gap: 14px; }
+.cg-list.srcsheets .cg-dim { margin: 3px 0 0; }
+.sheet-link { font-weight: 600; color: var(--star); text-decoration: none; border-bottom: 1px solid var(--line); }
+.sheet-link:hover { border-bottom-color: var(--star); }
+.sheet-link::after { content: ' ↗'; font-weight: 400; color: var(--ink-faint); }
+.sheet-link.lang-cn { font-family: var(--font-mono); font-size: 14px; }
 .cg-spot-row td { padding: 0 0 14px !important; background: transparent; }
 .cgtable tr.is-open > td { border-bottom: 0; }
 .cg-list.skills { padding-left: 0; list-style: none; gap: 12px; }

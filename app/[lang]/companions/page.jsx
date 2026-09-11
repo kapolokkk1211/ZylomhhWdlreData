@@ -1,5 +1,5 @@
 import { t } from '@/lib/ui';
-import { companionRows, companionCounts } from '@/lib/data';
+import { companionRows, companionCounts, companionSources } from '@/lib/data';
 import CompanionGuide from '@/components/CompanionGuide';
 
 export async function generateMetadata({ params }) {
@@ -18,7 +18,7 @@ export default async function Companions({ params }) {
         <p className="lede">{s.lede}</p>
         <div className="note">{s.dataNote}</div>
       </div>
-      <CompanionGuide rows={companionRows(lang)} counts={companionCounts()} strings={s} lang={lang} />
+      <CompanionGuide rows={companionRows(lang)} counts={companionCounts()} sources={companionSources()} strings={s} lang={lang} />
     </>
   );
 }
