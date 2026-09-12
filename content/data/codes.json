@@ -556,6 +556,15 @@
     "th": "วัตถุดิบ"
    },
    "thConfirmed": true
+  },
+  {
+   "key": "manufacture",
+   "name": {
+    "en": "Manufacture",
+    "cn": "製造",
+    "th": "ของผลิต"
+   },
+   "thConfirmed": false
   }
  ],
  "stats": [

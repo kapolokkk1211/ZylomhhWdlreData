@@ -1,0 +1,103 @@
+2177|Blade|0|1|Manufacture[Item]|Iron|N/A
+523|Charcoal|0|1|Manufacture[Item]|Wood|N/A
+336|Cotton Thread|0|1|Manufacture[Item]|Flower|N/A
+368|Cotton Wool|0|1|Manufacture[Item]|Grass|N/A
+606|Devil's Spar Piece|0|1|Manufacture[Item]|Magic|N/A
+1585|Firewood|0|1|Manufacture[Item]|Wood|N/A
+360|Fishing Thread|0|1|Manufacture[Item]|Grass|N/A
+1586|Front Sight|0|1|Manufacture[Item]|Iron|N/A
+2310|Great Driver|0|1|Manufacture[Tool]|Iron|N/A
+2141|Iron Fishing Thread|0|1|Manufacture[Item]|Iron|N/A
+325|Linen Thread|0|1|Manufacture[Item]|Grass|N/A
+1581|Little Ore Powder|0|1|Manufacture[Item]|Pure Iron|N/A
+645|Nail|0|1|Manufacture[Item]|Rock|N/A
+77|Needle|0|1|Manufacture[Tool]|Iron|N/A
+405|Paper|0|1|Manufacture[Item]|Grass|N/A
+1111|Plastic|0|1|Manufacture[Item]|Iron|N/A
+2459|Pliers|0|1|Manufacture[Tool]|Iron|N/A
+1717|Precision Circuit|0|1|Manufacture[Item]|Iron|N/A
+220|Rod|0|1|Manufacture[Item]|Wood|N/A
+2438|Rope Saw|0|1|Manufacture[Tool]|Iron|N/A
+176|Small Wooden Gear|0|1|Manufacture[Item]|Wood|N/A
+709|Stone Knife|0|1|Manufacture[Tool]|Iron|N/A
+899|Valving|0|1|Manufacture[Item]|Iron|N/A
+2142|Wisdom Crystal|0|1|Manufacture[Item]|Iron|N/A
+165|Wooden Hook|0|1|Manufacture[Item]|Wood|N/A
+1385|Wooden Pulley|0|1|Manufacture[Item]|Wood|N/A
+72|Wooden Saw|0|1|Manufacture[Tool]|Iron|N/A
+1020|360 Periscope|0|2|Manufacture[Item]|Grass|N/A
+1025|80mm Special Glass|0|2|Manufacture[Item]|Iron|N/A
+760|Alloy|0|2|Manufacture[Item]|Iron|N/A
+1518|Big Linen Cloth|0|2|Manufacture[Item]|Grass|N/A
+942|Capacitance|0|2|Manufacture[Item]|Iron|N/A
+3236|Copper|0|2|Manufacture[Item]|Copper|N/A
+350|Cotton Cloth|0|2|Manufacture[Item]|Flower|N/A
+914|Dry Batteries|0|2|Manufacture[Item]|Iron|N/A
+718|Filament|0|2|Manufacture[Item]|Iron|N/A
+1839|Filtering Circuit|0|2|Manufacture[Item]|Iron|N/A
+710|Glass|0|2|Manufacture[Item]|Silicon|N/A
+1079|Ice Brick|0|2|Manufacture[Item]|Water (Type 1)|N/A
+1297|Iron Hook|0|2|Manufacture[Item]|Iron|N/A
+755|Iron Shell|0|2|Manufacture[Item]|Iron|N/A
+726|Lamp|0|2|Manufacture[Item]|Silicon|N/A
+1041|Leather Bag|0|2|Manufacture[Item]|Leather|N/A
+1927|Link Gear Unit|0|2|Manufacture[Item]|Iron|N/A
+1376|Medium Wooden Gear|0|2|Manufacture[Item]|Grass|N/A
+378|Nylon|0|2|Manufacture[Item]|Nylon|N/A
+3256|Original Rubber|0|2|Manufacture[Item]|Iron|N/A
+2145|Polish Key|0|2|Manufacture[Item]|Iron|N/A
+974|Resistance|0|2|Manufacture[Item]|Iron|N/A
+1644|Rivet|0|2|Manufacture[Item]|Rock|N/A
+242|Rubber|0|2|Manufacture[Item]|Iron|N/A
+2198|Small Fuel Tank|0|2|Manufacture[Item]|Iron|N/A
+3239|Special Nail|0|2|Manufacture[Item]|Rock|N/A
+1344|Winding|0|2|Manufacture[Item]|Iron|N/A
+3243|Wire|0|2|Manufacture[Item]|Iron|N/A
+90|Wooden Axle|0|2|Manufacture[Item]|Wood|N/A
+1301|Wooden Winch|0|2|Manufacture[Item]|Wood|N/A
+1370|Big Wooden Gear|0|3|Manufacture[Item]|Wood|N/A
+635|Cable|0|3|Manufacture[Item]|Iron|N/A
+94|Ladder|0|3|Manufacture[Item]|Wood|N/A
+3|Life Crystal|0|3|Manufacture[Item]|Magic|N/A
+863|Pan|0|3|Manufacture[Item]|Iron|N/A
+2655|Phosphorylation|0|3|Manufacture[Item]|Iron|N/A
+2733|White Desk Lamp|0|3|Manufacture[Decor]|Steel|N/A
+3242|Metal Gear|0|4|Manufacture[Item]|Iron|N/A
+1517|Resin|0|4|Manufacture[Item]|Iron|N/A
+627|Round Saw|0|4|Manufacture[Item]|Iron|N/A
+316|Integrated Flavor|0|5|Manufacture[Item]|Flower|N/A
+488|Rectifier Line|0|5|Manufacture[Item]|Iron|N/A
+868|Signal Line|0|5|Manufacture[Item]|Iron|N/A
+2574|Charcoal Powder|0|6|Manufacture[Item]|Nylon|N/A
+2156|Loop Antenna|0|6|Manufacture[Item]|Iron|N/A
+514|Coal Block|0|7|Manufacture[Item]|Coal|N/A
+2301|Polish Emerald|0|7|Manufacture[Item]|Corundum|N/A
+1597|White Jade Powder|0|7|Manufacture[Item]|Jade|N/A
+599|Blue Stone|0|8|Manufacture[Item]|Corundum|N/A
+1545|Demon Leather|0|8|Manufacture[Item]|Magic|N/A
+1607|Red Jade Powder|0|8|Manufacture[Item]|Jade|N/A
+294|Red Stone|0|9|Manufacture[Item]|Corundum|N/A
+2206|Adjusted Valve|0|10|Manufacture[Item]|Aluminum|N/A
+1618|Blackart Powder|0|10|Manufacture[Item]|Magic|N/A
+295|Delicate Emerald|0|10|Manufacture[Item]|Corundum|N/A
+2287|Delicate White Jade|0|10|Manufacture[Item]|Jade|N/A
+1010|Piano|0|10|Manufacture[Decor]|Wood|N/A
+2322|Polish Dragon Bone|0|10|Manufacture[Item]|Magic|N/A
+2296|Delicate Red Jade|0|12|Manufacture[Item]|Jade|N/A
+297|Pure Sapphire|0|12|Manufacture[Item]|Corundum|N/A
+298|Pure Ruby|0|13|Manufacture[Item]|Corundum|N/A
+2256|Steam Engine|0|13|Manufacture[Item]|Iron|N/A
+301|Delicate Diamond|0|14|Manufacture[Item]|Diamond|N/A
+303|Original Spar|0|14|Manufacture[Item]|Quartz (Crystal)|N/A
+672|Titanium Alloy|0|15|Manufacture[Item]|Titanium / Gold|N/A
+1392|Airship Steer|0|16|Manufacture[Item]|Aluminum|N/A
+982|Dragon Scale|0|16|Manufacture[Item]|Magic|N/A
+299|Immaculate Sapphire|0|16|Manufacture[Item]|Corundum|N/A
+1090|Fine Nylon|0|18|Manufacture[Item]|Nylon|N/A
+1398|Wooden Pedals|0|19|Manufacture[Item]|Wood|N/A
+1325|Propeller|0|20|Manufacture[Item]|Wood|N/A
+304|Demon Jade Stone|0|21|Manufacture[Item]|Magic|N/A
+302|Pure Diamond|0|21|Manufacture[Item]|Diamond|N/A
+1695|Vertical Wing|0|21|Manufacture[Item]|Wood|N/A
+305|Enclosed Crystal|0|25|Manufacture[Item]|Magic|N/A
+2565|Snowy Tile|0|26|Manufacture[Decor]|Water (Type 2)|N/A

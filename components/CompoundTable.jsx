@@ -231,9 +231,11 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                         <span className={`line-pill line-${g.row[14]}`}>{strings.lines[g.row[14]]}</span>
                       )}
                     </span>
+                    {/* KK-tested and LEGACY rows carry no badge here — KK's call. The tag stays in
+                        the data, and the legend below the table says what an unbadged row means. */}
                     {/* KK-tested rows carry no badge here — the tag stays in the data and still
                         drives the "verified only" filter, it is just not shown on the row. */}
-                    {g.row[12] !== 'RE-reported' && g.row[12] !== 'KK-tested' && (
+                    {g.row[12] !== 'RE-reported' && g.row[12] !== 'KK-tested' && g.row[12] !== 'LEGACY' && (
                       <span className={`badge ${CONF_CLASS[g.row[12]] || 'b-legacy'}`} title={labels.confidence[g.row[12]]?.desc}>
                         {labels.confidence[g.row[12]]?.label}
                       </span>
