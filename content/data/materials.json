@@ -6909,5 +6909,560 @@
   "confidence": "RE-reported",
   "note": "⭐ The cheapest rank-21 material of any family",
   "updated": "2026-09-07"
+ },
+ {
+  "id": "shell-r1-beak",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Beak",
+   "cn": null,
+   "th": "จะงอยปาก"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Green Bat",
+    "lv": 64,
+    "where": "Bangkok / Cairo / Lion Island / Philippines",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Turquoise Bat",
+    "lv": 82,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/500"
+ },
+ {
+  "id": "shell-r1-deep-sea-fish-scale",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Deep-Sea Fish Scale",
+   "cn": null,
+   "th": "เกล็ดปลาทะเลลึก"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/333"
+ },
+ {
+  "id": "shell-r1-fresh-fish-scale",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Fresh Fish Scale",
+   "cn": null,
+   "th": "เกล็ดปลาสด"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/855"
+ },
+ {
+  "id": "shell-r1-jelly-fish",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Jelly Fish",
+   "cn": null,
+   "th": "แมงกะพรุน"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Cute Jellyfish",
+    "lv": 14,
+    "where": "North Island",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Easy Jellyfish",
+    "lv": 15,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/310"
+ },
+ {
+  "id": "shell-r1-pest-tentacles",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Pest Tentacles",
+   "cn": null,
+   "th": "หนวดแมลงศัตรูพืช"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Butterfly",
+    "lv": 51,
+    "where": "Inca",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/854"
+ },
+ {
+  "id": "shell-r1-sea-fish-scale",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Sea Fish Scale",
+   "cn": null,
+   "th": "เกล็ดปลาทะเล"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3149"
+ },
+ {
+  "id": "shell-r1-shell",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Shell",
+   "cn": null,
+   "th": "เปลือกหอย"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/332"
+ },
+ {
+  "id": "shell-r1-starfish-tentacles",
+  "family": "Shell",
+  "rank": 1,
+  "name": {
+   "en": "Starfish Tentacles",
+   "cn": null,
+   "th": "หนวดปลาดาว"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Flattened Starfish",
+    "lv": 51,
+    "where": "Inca",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/346"
+ },
+ {
+  "id": "shell-r2-anemones-tentacles",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Anemones Tentacles",
+   "cn": null,
+   "th": "หนวดดอกไม้ทะเล"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Neritic Seaflower",
+    "lv": 5,
+    "where": "North Island",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "River Seaflower",
+    "lv": 3,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3139"
+ },
+ {
+  "id": "shell-r2-ant-antennae",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Ant Antennae",
+   "cn": null,
+   "th": "หนวดมด"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Ant",
+    "lv": 21,
+    "where": "Subway",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Blue Pangolin",
+    "lv": 122,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/2"
+ },
+ {
+  "id": "shell-r2-ant-tooth",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Ant Tooth",
+   "cn": null,
+   "th": "ฟันมด"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Fire Pangolin",
+    "lv": 123,
+    "where": "Rome",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Green Pangolin",
+    "lv": 125,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3135"
+ },
+ {
+  "id": "shell-r2-conch-roes",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Conch Roes",
+   "cn": null,
+   "th": "ไข่หอยสังข์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3087"
+ },
+ {
+  "id": "shell-r2-conch-shell",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Conch Shell",
+   "cn": null,
+   "th": "เปลือกหอยสังข์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3136"
+ },
+ {
+  "id": "shell-r2-grume-of-snail",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Grume of Snail",
+   "cn": null,
+   "th": "เมือกหอยทาก"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Hard Shell Snail",
+    "lv": 8,
+    "where": "North Island",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Lazy Snail",
+    "lv": 2,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3137"
+ },
+ {
+  "id": "shell-r2-hard-shell",
+  "family": "Shell",
+  "rank": 2,
+  "name": {
+   "en": "Hard Shell",
+   "cn": null,
+   "th": "เปลือกแข็ง"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Water Mantis",
+    "lv": 69,
+    "where": "Cairo / Egypt",
+    "provenance": "legacy-wlohub"
+   },
+   {
+    "type": "drop",
+    "mob": "Swift Snail",
+    "lv": 9,
+    "where": null,
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3060"
+ },
+ {
+  "id": "shell-r4-rhinoceros-skin",
+  "family": "Shell",
+  "rank": 4,
+  "name": {
+   "en": "Rhinoceros Skin",
+   "cn": null,
+   "th": "หนังแรด"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3121"
+ },
+ {
+  "id": "shell-r5-lion-claw",
+  "family": "Shell",
+  "rank": 5,
+  "name": {
+   "en": "Lion Claw",
+   "cn": null,
+   "th": "กรงเล็บสิงโต"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Lion (Quest)",
+    "lv": 86,
+    "where": "African Villages",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3118"
+ },
+ {
+  "id": "shell-r5-red-coral",
+  "family": "Shell",
+  "rank": 5,
+  "name": {
+   "en": "Red Coral",
+   "cn": null,
+   "th": "ปะการังแดง"
+  },
+  "sources": [
+   {
+    "type": "drop",
+    "mob": "Old Seaflower",
+    "lv": 51,
+    "where": "Oslya / Philippines",
+    "provenance": "legacy-wlohub"
+   }
+  ],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/3138"
+ },
+ {
+  "id": "shell-r9-raptor-tooth",
+  "family": "Shell",
+  "rank": 9,
+  "name": {
+   "en": "Raptor Tooth",
+   "cn": null,
+   "th": "ฟันแรปเตอร์"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "LEGACY",
+  "note": null,
+  "updated": "2026-09-13",
+  "thConfirmed": false,
+  "sourceUrl": "https://wlohub.com/items/1669"
  }
 ]

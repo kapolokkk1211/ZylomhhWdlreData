@@ -42376,5 +42376,40 @@
   "familyCoverage": "complete",
   "thConfirmed": false,
   "note": null
+ },
+ {
+  "id": "shell-light-coat-r15",
+  "family": "Shell",
+  "secondary": [
+   "Grass"
+  ],
+  "rank": 15,
+  "lv": 30,
+  "slot": "armor",
+  "name": {
+   "en": "Light Coat",
+   "cn": null,
+   "th": "เสื้อคลุมเบา"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 12
+   },
+   {
+    "stat": "SPD",
+    "v": 3
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "Def +12 | Spd +3",
+  "recipe": null,
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "sourceUrl": "https://wlohub.com/items/1386",
+  "updated": "2026-09-13",
+  "familyCoverage": "complete",
+  "thConfirmed": false,
+  "note": null
  }
 ]
