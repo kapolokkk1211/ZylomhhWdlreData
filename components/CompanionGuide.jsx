@@ -12,11 +12,9 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
     const term = q.trim().toLowerCase();
     if (!term) return rows;
     return rows.filter((r) =>
-      `${r.name} ${r.alt} ${r.rebirthSkill || ''} ${r.rebirthSkillName || ''} ${r.exclusive?.name || ''} ${
-        r.exclusive?.cn || ''
-      } ${r.rebirthExclusive?.name || ''} ${r.rebirthExclusive?.cn || ''} ${
-        strings.slots[r.exclusive?.slot] || ''
-      } ${strings.slots[r.rebirthExclusive?.slot] || ''}`
+      `${r.name} ${r.alt} ${r.rebirthSkillName || ''} ${r.exclusive?.name || ''} ${
+        r.rebirthExclusive?.name || ''
+      } ${strings.slots[r.exclusive?.slot] || ''} ${strings.slots[r.rebirthExclusive?.slot] || ''}`
         .toLowerCase()
         .includes(term),
     );
@@ -38,7 +36,6 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
     return (
       <>
         <b className="gear-name">{g.name}</b>
-        {g.name !== g.cn && <span className="cn"> {g.cn}</span>}
         <span className="gear-stats">{g.stats}</span>
         {slot && (
           <span className="gear-slot" title={g.slotConfirmed ? strings.slotConfirmedHelp : strings.slotInferredHelp}>
@@ -61,14 +58,14 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
     <tr className="cg-spot-row" key={`s-${r.id}`}>
       <td colSpan={6}>
         <div className="cg-spot">
-              <h3>{strings.spotlight} · {r.name} <span className="cn">{r.cn}</span></h3>
+              <h3>{strings.spotlight} · {r.name}</h3>
               {r.extra && (
                 <>
                   <p className="cg-meta">
-                    {r.extra.element[lang] || r.extra.element.en} <span className="cn">{r.extra.element.cn}</span>
-                    {' · '}{r.extra.star.cn} — {r.extra.star[lang] || r.extra.star.en}
+                    {r.extra.element}
+                    {' · '}{r.extra.star}
                   </p>
-                  <p>{r.extra.story[lang] || r.extra.story.en}</p>
+                  <p>{r.extra.story}</p>
                   <p className="cg-base">Lv1 — {r.extra.base}</p>
                 </>
               )}
@@ -76,13 +73,13 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
               <h4>{strings.skills}</h4>
               <ul className="cg-list skills">
                 {r.skills.map((k, i) => (
-                  <li key={`${k.cn}-${i}`} className={k.rebirth ? 'sk reborn' : 'sk'}>
-                    <b>{k.name}</b> <span className="cn">{k.cn}</span>
+                  <li key={`${k.name}-${i}`} className={k.rebirth ? 'sk reborn' : 'sk'}>
+                    <b>{k.name}</b>
                     {k.max && <span className="sk-lv">{strings.skillMaxShort} {k.max}</span>}
                     {k.rebirth && <span className="sk-tag">{strings.skillRebirth}</span>}
                     {k.up && (
                       <div className="sk-up">
-                        ↳ {strings.skillUpgrade} <b>{k.up.name}</b> <span className="cn">{k.up.cn}</span>
+                        ↳ {strings.skillUpgrade} <b>{k.up.name}</b>
                         {k.up.max && <span className="sk-lv">{strings.skillMaxShort} {k.up.max}</span>}
                       </div>
                     )}
@@ -103,8 +100,8 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
                   <h4>{strings.otherGear}</h4>
                   <ul className="cg-list">
                     {r.extra.gear.map((g) => (
-                      <li key={g.cn}>
-                        <b>{g[lang] || g.en}</b> <span className="cn">{g.cn}</span>
+                      <li key={g.name}>
+                        <b>{g.name}</b>
                         <span className="cg-dim"> · {g.stats}</span>
                       </li>
                     ))}
@@ -147,7 +144,6 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
                     >
                       <span className="nm">{r.name}</span>
                       <span className={`dot-th${r.thConfirmed ? ' ok' : ''}`} />
-                      <span className="cn"> {r.cn}</span>
                       {r.skills.length > 0 && (
                         <span className="cg-more" title={strings.skillsHint}>{open === r.id ? '−' : '+'}</span>
                       )}
@@ -159,14 +155,7 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
                   <td className="gear c-gear" data-l={strings.exclusive}>{gearCell(r.exclusive)}</td>
                   <td className="gear reborn c-gear" data-l={strings.rebirthExclusive}>{gearCell(r.rebirthExclusive)}</td>
                   <td className="fm c-skill" data-l={strings.rebirthSkill}>
-                    {r.rebirthSkillName ? (
-                      <>
-                        <b className="gear-name">{r.rebirthSkillName}</b>
-                        <span className="cn"> {r.rebirthSkill}</span>
-                      </>
-                    ) : (
-                      <span className="cn">{r.rebirthSkill || '—'}</span>
-                    )}
+                    {r.rebirthSkillName || '—'}
                   </td>
                 </tr>,
                 open === r.id ? spotlight(r) : null,
@@ -213,7 +202,7 @@ export default function CompanionGuide({ rows, counts, sources, strings, lang })
             <tbody>
               {floors.map((r) => (
                 <tr key={r.id}>
-                  <td className="c-name"><span className="nm">{r.name}</span> <span className="cn">{r.cn}</span></td>
+                  <td className="c-name"><span className="nm">{r.name}</span></td>
                   {STATS.map((k) => (
                     <td key={k} className="c-lv c-floor" data-l={k}><span className="lv">{r.floors[k] ?? '—'}</span></td>
                   ))}

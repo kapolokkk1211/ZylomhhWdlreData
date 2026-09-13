@@ -102,7 +102,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
     }
     if (n.matId) {
       const m = matById.get(n.matId);
-      if (m) return { name: lang === 'th' ? m.name.th || m.name.en : m.name.en, alt: m.name.cn, rank: m.rank, stats: m.src || '', family: labels.family[m.family]?.label, fams: [labels.family[m.family]?.label].filter(Boolean), kind: 'mat', buyable: m.buyableNow };
+      if (m) return { name: lang === 'th' ? m.name.th || m.name.en : m.name.en, alt: lang === 'th' ? m.name.en : m.name.th, rank: m.rank, stats: m.src || '', family: labels.family[m.family]?.label, fams: [labels.family[m.family]?.label].filter(Boolean), kind: 'mat', buyable: m.buyableNow };
     }
     return { name: n.text || '?', alt: '', rank: null, stats: '', family: '', fams: [], kind: 'text' };
   };
@@ -280,7 +280,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
                 <button type="button" className="chip on" onClick={() => startTree(r[0])}>{strings.basketAsRoot}</button>
               ) : (
                 <button type="button" className="chip on" disabled={!selectedNode} title={selectedNode ? `${strings.basketAddUnder} ${info(selectedNode).name}` : strings.basketNoSel} onClick={() => selectedNode && addChild(selectedNode.id, mkItem(r[0]))}>
-                  ＋ {strings.basketAddUnder}
+                  + {strings.basketAddUnder}
                 </button>
               )}
               <button type="button" className="chip" title={strings.remove} onClick={() => writeBasket(basket.filter((x) => x !== r[0]))}>✕</button>
@@ -298,7 +298,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
       <Combobox value="" onChange={(k) => { if (!k) return; k.startsWith('m:') ? addChild(n.id, mkMat(k.slice(2))) : addChild(n.id, mkItem(k)); }} options={allOptions} allLabel={strings.pickAny} width={260} noAll limit={40} />
       <span className="sim-dim">{strings.or}</span>
       <input type="text" className="sim-free" value={addText} placeholder={strings.freeText} onChange={(e) => setAddText(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter' && addText.trim()) addChild(n.id, mkText(addText.trim())); if (e.key === 'Escape') setAdding(null); }} />
-      <button type="button" className="chip" onClick={() => addText.trim() && addChild(n.id, mkText(addText.trim()))}>＋</button>
+      <button type="button" className="chip" onClick={() => addText.trim() && addChild(n.id, mkText(addText.trim()))}>+</button>
       <button type="button" className="chip" onClick={() => setAdding(null)}>✕</button>
     </div>
   );
@@ -363,7 +363,7 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
                           p.n.note ? <div className="sim-node-notetext" onClick={() => setEditNote(p.n.id)}>{p.n.note}</div> : null
                         )}
                         <div className="sim-node-actions">
-                          <button type="button" title={strings.addChild} onClick={() => { setAdding(adding === p.n.id ? null : p.n.id); setAddText(''); }} disabled={p.depth >= MAX_DEPTH - 1}>＋</button>
+                          <button type="button" title={strings.addChild} onClick={() => { setAdding(adding === p.n.id ? null : p.n.id); setAddText(''); }} disabled={p.depth >= MAX_DEPTH - 1}>+</button>
                           {i.kind === 'item' && <button type="button" title={strings.loadRecipe} onClick={() => loadRecipe(p.n)}>⇣</button>}
                           <button type="button" title={strings.notePh} onClick={() => setEditNote(editNote === p.n.id ? null : p.n.id)}>✎</button>
                           <button type="button" title={strings.remove} onClick={() => remove(p.n.id)}>✕</button>

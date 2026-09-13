@@ -874,12 +874,9 @@ html[data-view="mobile"] .fb-embed iframe { height: 860px; }
 .cg-dim { font-size: 13px; color: var(--ink-faint); margin: 8px 0 18px; }
 .cgtable { min-width: 900px; }
 .cgtable.floors { min-width: 560px; }
-.cn { font-family: var(--font-mono); font-size: 13px; color: var(--ink-faint); }
-.gear b.cn { display: block; font-size: 14px; color: var(--ink); }
 .gear-name { font-size: 14px; color: var(--ink); }
 .gear-stats { display: block; font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-soft); margin-top: 2px; }
 .gear.reborn .gear-name { color: var(--star); }
-.gear.reborn b.cn { color: var(--star); }
 /* The slot chip is the answer to "which slot does this go in" — it has to read at a glance,
    and an inferred slot has to look different from one a source actually states. */
 .gear-slot { display: inline-block; margin-top: 4px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: 12px; color: var(--ink-soft); background: var(--surface); }
@@ -927,7 +924,9 @@ html[data-view="mobile"] .skill-tab { padding: 8px 12px; font-size: 14px; }
 .sheet-link { font-weight: 600; color: var(--star); text-decoration: none; border-bottom: 1px solid var(--line); }
 .sheet-link:hover { border-bottom-color: var(--star); }
 .sheet-link::after { content: ' ↗'; font-weight: 400; color: var(--ink-faint); }
-.sheet-link.lang-cn { font-family: var(--font-mono); font-size: 14px; }
+/* A link whose target is in Chinese still opens in Chinese — the title is translated, so the
+   badge is what warns the reader before they click. */
+.sheet-link.lang-cn::before { content: 'ZH'; margin-right: 7px; padding: 1px 5px; border: 1px solid var(--line); border-radius: 4px; font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; letter-spacing: .04em; color: var(--ink-faint); vertical-align: 2px; }
 .cg-spot-row td { padding: 0 0 14px !important; background: transparent; }
 .cgtable tr.is-open > td { border-bottom: 0; }
 .cg-list.skills { padding-left: 0; list-style: none; gap: 12px; }

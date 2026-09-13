@@ -806,8 +806,8 @@
       "slot": "accessory",
       "slotConfirmed": true,
       "slotNote": {
-        "en": "Two primary sources disagree: the compendium tags it (飾) accessory, while a Bahamut star-quest thread calls the item 鎮魂臂環 — arm-ring — with identical stats.",
-        "th": "แหล่งข้อมูลหลักสองที่ไม่ตรงกัน: ตารางคอมมูนิตี้ระบุ (飾) เครื่องประดับ ส่วนกระทู้เควสดาวของบอร์ดไต้หวันเรียกว่า 鎮魂臂環 คือปลอกแขน โดยค่าสถานะเท่ากัน"
+        "en": "Two primary sources disagree: the compendium tags it an accessory, while a Bahamut star-quest thread calls the same item a soul-calming arm-ring, with identical stats.",
+        "th": "แหล่งข้อมูลหลักสองที่ไม่ตรงกัน: ตารางคอมมูนิตี้ระบุว่าเป็นเครื่องประดับ ส่วนกระทู้เควสดาวของบอร์ดไต้หวันเรียกว่ากำไลสงบวิญญาณ ซึ่งเป็นปลอกแขน โดยค่าสถานะเท่ากัน"
       }
     },
     "rebirthExclusive": {
@@ -903,8 +903,8 @@
         "th": "กลุ่มดาวแมวป่า — ที่มาของชื่อ Lynx"
       },
       "story": {
-        "en": "A Star Spirit (星靈) from the Star Spirit Academy (星靈學院); Xiaofei's (小菲) classmate and close friend.",
-        "th": "ภูตดาวจากสถาบันภูตดาว (星靈學院) เพื่อนร่วมชั้นและเพื่อนสนิทของเสี่ยวเฟย (小菲)"
+        "en": "A Star Spirit from the Star Spirit Academy; Xiaofei's classmate and close friend.",
+        "th": "ภูตดาวจากสถาบันภูตดาว เพื่อนร่วมชั้นและเพื่อนสนิทของเสี่ยวเฟย"
       },
       "base": "STR 18 · CON 9 · INT 5 · WIS 7 · AGI 13",
       "gear": [
@@ -1314,8 +1314,8 @@
       "slot": "hand",
       "slotConfirmed": true,
       "slotNote": {
-        "en": "The compendium tags this (手) hand. Nemea is a beast companion, whose named slots are collar and saddle — the tag may be a coarse UI label rather than one of those.",
-        "th": "ตารางคอมมูนิตี้ระบุ (手) มือ แต่เนเมอาเป็นขุนพลร่างสัตว์ซึ่งช่องคือปลอกคอกับอานม้า ป้ายนี้อาจเป็นชื่อช่องแบบกว้าง ๆ ไม่ใช่ช่องใดช่องหนึ่งในนั้น"
+        "en": "The compendium tags this a hand slot. Nemea is a beast companion, whose named slots are collar and saddle — the tag may be a coarse UI label rather than one of those.",
+        "th": "ตารางคอมมูนิตี้ระบุว่าเป็นช่องมือ แต่เนเมอาเป็นขุนพลร่างสัตว์ซึ่งช่องคือปลอกคอกับอานม้า ป้ายนี้อาจเป็นชื่อช่องแบบกว้าง ๆ ไม่ใช่ช่องใดช่องหนึ่งในนั้น"
       }
     },
     "rebirthExclusive": {

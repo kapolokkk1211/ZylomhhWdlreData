@@ -23,7 +23,7 @@ export default function SkillBook({ families, questFor, strings }) {
             className={`skill-tab${f.key === tab ? ' on' : ''}`}
             onClick={() => setTab(f.key)}
           >
-            {f.label} <span className="cn">{f.cn}</span>
+            {f.label}
           </button>
         ))}
       </div>
@@ -55,7 +55,7 @@ export default function SkillBook({ families, questFor, strings }) {
               <header>
                 <span className="sk-el">{strings.elements[k.element] || k.element}</span>
                 <h3>
-                  {k.name} <span className="cn">{k.cn}</span>
+                  {k.name}
                 </h3>
                 {k.alt && <p className="sk-alt">{k.alt}</p>}
               </header>

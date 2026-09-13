@@ -12,7 +12,7 @@ export const metadata = {
     template: '%s · Star Drift',
   },
   description:
-    'Compounding recipes, material sources and a Chinese/English/Thai glossary for Wonderland Online Re: Star Ark, translated from Taiwan-server research.',
+    'Compounding recipes, material sources, companions and quests for Wonderland Online Re: Star Ark — Taiwan-server research, translated into Thai and English.',
 };
 
 export default function RootLayout({ children }) {

@@ -77,8 +77,8 @@
   },
   "req": null,
   "reward": {
-   "en": "Unlocks the Sigil (紋章) and Drone (無人機) systems",
-   "th": "ปลดล็อกระบบตราสัญลักษณ์ (紋章) และโดรน (無人機)"
+   "en": "Unlocks the Sigil and Drone systems",
+   "th": "ปลดล็อกระบบตราสัญลักษณ์และโดรน"
   },
   "stars": 0,
   "starCost": 0,
@@ -4184,8 +4184,8 @@
   "stars": 0,
   "starCost": 0,
   "detail": {
-   "en": "Star (星星) is a scarce quest currency spent on skills, gear and upgrades. The item is confirmed in Re — the Ancestor skill quest costs Star ×5. The current Re list is tracked on the Taiwan board but was not recoverable.",
-   "th": "ดาว (星星) เป็นค่าเงินจากเควสที่หายาก ใช้แลกสกิล อุปกรณ์ และอัปเกรด ยืนยันว่ายังมีใน Re เพราะเควสสกิลวีรชนใช้ดวงดาว ×5 ส่วนรายการเควสดาวของ Re ยังดึงข้อมูลไม่ได้"
+   "en": "Star is a scarce quest currency spent on skills, gear and upgrades. The item is confirmed in Re — the Ancestor skill quest costs Star ×5. The current Re list is tracked on the Taiwan board but was not recoverable.",
+   "th": "ดาวเป็นค่าเงินจากเควสที่หายาก ใช้แลกสกิล อุปกรณ์ และอัปเกรด ยืนยันว่ายังมีใน Re เพราะเควสสกิลวีรชนใช้ดวงดาว ×5 ส่วนรายการเควสดาวของ Re ยังดึงข้อมูลไม่ได้"
   },
   "confidence": "RE-verified",
   "note": null,
@@ -6087,8 +6087,8 @@
    "th": "ปราบแมวในถ้ำ"
   },
   "reward": {
-   "en": "Soul Dodge (魂閃) skill",
-   "th": "สกิลวิญญาณหลบ (魂閃)"
+   "en": "Soul Dodge skill",
+   "th": "สกิลวิญญาณหลบ"
   },
   "stars": 0,
   "starCost": 3,
@@ -6349,8 +6349,8 @@
    "th": "ปราบงูพิษและราชางู"
   },
   "reward": {
-   "en": "Volley Arrow (箭雨) skill",
-   "th": "สกิลห่าธนู (箭雨)"
+   "en": "Volley Arrow skill",
+   "th": "สกิลห่าธนู"
   },
   "stars": 0,
   "starCost": 2,
@@ -6407,8 +6407,8 @@
    "th": "ปราบเสือ 3 ชนิด และเสือขาว"
   },
   "reward": {
-   "en": "Blood Suck (噬血擊) skill",
-   "th": "สกิลดูดเลือด (噬血擊)"
+   "en": "Blood Suck skill",
+   "th": "สกิลดูดเลือด"
   },
   "stars": 0,
   "starCost": 3,
@@ -6465,8 +6465,8 @@
    "th": "ความสนิทของอาเรส 70+"
   },
   "reward": {
-   "en": "Soul-calming bracelet (鎮魂臂環)",
-   "th": "กำไลสงบวิญญาณ (鎮魂臂環)"
+   "en": "Soul-calming bracelet",
+   "th": "กำไลสงบวิญญาณ"
   },
   "stars": 0,
   "starCost": 1,
@@ -6635,8 +6635,8 @@
    "th": "ศิษย์ของวีรชน"
   },
   "req": {
-   "en": "Main quest Go to Antarctica (前往南極) complete. Cost: Magic Jade ×1 + Star ×5 + 100 Star Dust of your own element.",
-   "th": "ต้องจบเควสหลัก มุ่งสู่ขั้วโลกใต้ (前往南極) ก่อน · ของที่ใช้: หยกวิเศษ ×1 · ดวงดาว ×5 · ผงประกายดาว ธาตุเดียวกับตัวเอง ×100"
+   "en": "Main quest Go to Antarctica complete. Cost: Magic Jade ×1 + Star ×5 + 100 Star Dust of your own element.",
+   "th": "ต้องจบเควสหลัก มุ่งสู่ขั้วโลกใต้ก่อน · ของที่ใช้: หยกวิเศษ ×1 · ดวงดาว ×5 · ผงประกายดาว ธาตุเดียวกับตัวเอง ×100"
   },
   "reward": {
    "en": "Your element's Ancestor Skill, permanent, + 12,000 EXP",

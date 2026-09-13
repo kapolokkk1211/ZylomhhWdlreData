@@ -13,7 +13,6 @@ export default async function SimulatorPage({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">合成模擬 · {s.sim.title}</p>
         <h1>{s.sim.title}</h1>
         <p className="lede">{s.sim.lede}</p>
         <div className="note"><b>!</b> {s.sim.caveat}</div>

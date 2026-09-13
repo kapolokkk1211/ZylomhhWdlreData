@@ -23,7 +23,6 @@ export default async function Skills({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">技能 · {s.skills.title}</p>
         <h1>{s.skills.title}</h1>
         <p className="lede">{s.skills.lede}</p>
       </div>

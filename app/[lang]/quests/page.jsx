@@ -16,7 +16,6 @@ export default async function Quests({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">任務 · {s.quests.title}</p>
         <h1>{s.quests.title}</h1>
         <p className="lede">{s.quests.lede}</p>
         <div className="note warn">

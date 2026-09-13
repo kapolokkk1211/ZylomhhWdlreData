@@ -2284,7 +2284,7 @@
    },
    {
     "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "note": "Advanced Alchemy Scroll (Re), bought at 8-12 — still unidentified",
     "provenance": "re-sheet"
    }
   ],
@@ -5013,7 +5013,7 @@
    },
    {
     "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "note": "Advanced Alchemy Scroll (Re), bought at 8-12 — still unidentified",
     "provenance": "re-sheet"
    }
   ],
@@ -5258,7 +5258,7 @@
    },
    {
     "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "note": "Advanced Alchemy Scroll (Re), bought at 8-12 — still unidentified",
     "provenance": "re-sheet"
    }
   ],
@@ -5645,7 +5645,7 @@
    },
    {
     "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "note": "Advanced Alchemy Scroll (Re), bought at 8-12 — still unidentified",
     "provenance": "re-sheet"
    }
   ],
@@ -5664,14 +5664,14 @@
   "family": "Star",
   "rank": 2,
   "name": {
-   "en": "Star Dust (elemental) 星耀之塵",
+   "en": "Star Dust (elemental)",
    "cn": "星耀之塵·空/水/火/地/風",
-   "th": "ผงดาราแห่งธาตุ (空/水/火/地/風)"
+   "th": "ผงดาราแห่งธาตุ (ว่าง/น้ำ/ไฟ/ดิน/ลม)"
   },
   "sources": [
    {
     "type": "drop",
-    "mob": "Smart Decomposition Station (喵型智能分解站)",
+    "mob": "Smart Decomposition Station",
     "lv": null,
     "where": "Whale Island area",
     "provenance": "kb"
@@ -6269,7 +6269,7 @@
    },
    {
     "type": "scroll",
-    "note": "高級煉金卷(RE版) — Advanced Alchemy Scroll (Re) / \"8-12購買\", still unidentified",
+    "note": "Advanced Alchemy Scroll (Re), bought at 8-12 — still unidentified",
     "provenance": "re-sheet"
    }
   ],

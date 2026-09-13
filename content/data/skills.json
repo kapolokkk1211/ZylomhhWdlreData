@@ -8,8 +8,8 @@
       "tagThConfirmed": true,
       "questId": "skill-ancestor",
       "intro": {
-        "en": "Four Heroes (英傑) wander the world, one per element. A one-time quest chain teaches you the Battle Art of your own element — permanently. All four are support skills: none of them deals damage.",
-        "th": "วีรชน (英傑) สี่คนกระจายอยู่ทั่วโลก ธาตุละหนึ่งคน มีเควสสายเดียวจบที่สอนสกิลพิเศษของธาตุตัวเองให้ถาวร ทั้งสี่สกิลเป็นสายสนับสนุนล้วน ไม่มีสกิลไหนทำดาเมจเลย"
+        "en": "Four Heroes wander the world, one per element. A one-time quest chain teaches you the Battle Art of your own element — permanently. All four are support skills: none of them deals damage.",
+        "th": "วีรชนสี่คนกระจายอยู่ทั่วโลก ธาตุละหนึ่งคน มีเควสสายเดียวจบที่สอนสกิลพิเศษของธาตุตัวเองให้ถาวร ทั้งสี่สกิลเป็นสายสนับสนุนล้วน ไม่มีสกิลไหนทำดาเมจเลย"
       },
       "skills": [
         {

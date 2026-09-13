@@ -17,7 +17,6 @@ export default async function Feedback({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">回報 · {s.title}</p>
         <h1>{s.title}</h1>
         <p className="lede">{s.lede}</p>
       </div>

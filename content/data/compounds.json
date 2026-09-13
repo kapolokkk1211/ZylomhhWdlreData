@@ -9965,7 +9965,7 @@
   "updated": "2026-09-10",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "KK reported the Thai client name รองเท้ากระดิ่งขาว and could not find it on the site — we had it as an accessory called 白鈴耀環 / White Bell Ring, so the Thai name came out as ห่วงกระดิ่งขาว and the row was unfindable. WLOHUB (items/1345), wlopedia and the legacy Bahamut alchemy encyclopedia all agree: 白鈴腳環, an ankle-ring worn in the SHOES slot, r14 lv28, Silver + Aluminum + Corundum + Magic, SPD+8 and 6% seal resist. The 耀環 spelling in the community sheet is a mis-transcription of 腳環."
+  "note": "KK reported the Thai client name รองเท้ากระดิ่งขาว and could not find it on the site — we had it as an accessory called White Bell Ring, so the Thai name came out as ห่วงกระดิ่งขาว and the row was unfindable. WLOHUB (items/1345), wlopedia and the legacy Bahamut alchemy encyclopedia all agree: it is a white bell ankle-ring worn in the SHOES slot, r14 lv28, Silver + Aluminum + Corundum + Magic, SPD+8 and 6% seal resist. The community sheet writes the name as “radiant ring”, a mis-transcription of “ankle-ring” — which is where our wrong name came from."
  },
  {
   "id": "silver-blade-claw-r14",
@@ -24536,7 +24536,7 @@
   "updated": "2026-09-10",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "KK’s client 2026-09-10: เจลใส, เลเวลไอเทม 1, ประเภท วัสดุสัตว์, ไม่สามารถซื้อขาย, วัสดุโครงสร้าง [หลัก]คอลลาเจน — which is what settled the Gum/膠質 family name."
+  "note": "KK’s client 2026-09-10: เจลใส, เลเวลไอเทม 1, ประเภท วัสดุสัตว์, ไม่สามารถซื้อขาย, วัสดุโครงสร้าง [หลัก]คอลลาเจน — which is what settled the Gum family name."
  },
  {
   "id": "concentrated-plant-gum-r3",
@@ -26448,7 +26448,7 @@
   "statsNote": null,
   "statsRaw": "ATK+32 SPD+32",
   "recipe": {
-   "en": "Star-Copper-Gold-Iron (Primary) · 25★+25赤+25鉛+book",
+   "en": "Star-Copper-Gold-Iron (Primary) · 25★ + 25 Hematite + 25 Lead + book",
    "th": "Star-Copper-Gold-Iron (Primary) · ประกายดาว r25 + เหล็กแดง r25 + ตะกั่ว r25 + หนังสือเล่นแร่"
   },
   "line": "phys",

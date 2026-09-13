@@ -16,7 +16,6 @@ export default async function Compounds({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">合成 · {s.compounds.title}</p>
         <h1>{s.compounds.title}</h1>
         <p className="lede">{s.compounds.lede}</p>
         <div className="note"><b>⭐</b> {s.star.pairNote}</div>

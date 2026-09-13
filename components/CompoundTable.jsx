@@ -100,7 +100,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
       const key = r[1] === 'Star' ? `Star:${r[19]}` : r[1];
       if (key !== current) {
         current = key;
-        const famLabel = `${labels.family[r[1]]?.label} ${labels.family[r[1]]?.cn}`;
+        const famLabel = labels.family[r[1]]?.label;
         out.push({
           group: r[1] === 'Star' ? `${famLabel} — ${strings.bands?.[r[19]] || r[19]}` : famLabel,
           coverage: r[13],
@@ -118,7 +118,8 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   const arrow = (key) => (sort.key === key ? (sort.dir === 'desc' ? ' ▼' : ' ▲') : '');
 
   const name = (r) => (lang === 'th' ? r[8] || r[6] : r[6]);
-  const altName = (r) => [r[7], lang === 'th' ? r[6] : r[8]].filter(Boolean).join(' · ');
+  // The 中文 name stays in the data for matching against TW sources, but never reaches the page.
+  const altName = (r) => (lang === 'th' ? r[6] : r[8]) || '';
   const recipe = (r) => (lang === 'th' ? r[11] || r[10] : r[10]);
   const fullRecipe = (r) => [recipe(r) || '—', r[17]].filter(Boolean).join('\n');
   // Two clamped lines fit roughly 60 characters at this column width; longer rows get the hover panel.
@@ -270,7 +271,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                       aria-pressed={inBasket.has(g.row[0])}
                       onClick={() => setBasket(toggleBasket(g.row[0]))}
                     >
-                      {inBasket.has(g.row[0]) ? `★ ${strings.inBasket}` : `＋ ${strings.addShort}`}
+                      {inBasket.has(g.row[0]) ? `★ ${strings.inBasket}` : `+ ${strings.addShort}`}
                     </button>
                   </td>
                 </tr>

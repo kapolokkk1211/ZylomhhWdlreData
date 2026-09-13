@@ -22,7 +22,7 @@ export default async function Materials({ params }) {
       return {
         key: k,
         label: nm(f.name, lang),
-        alt: [f.name.cn, lang === 'th' ? f.name.en : f.name.th].filter(Boolean).join(' '),
+        alt: (lang === 'th' ? f.name.en : f.name.th) || '',
       };
     });
   const towns = townOptions(lang).map((t) => ({
@@ -33,7 +33,6 @@ export default async function Materials({ params }) {
   return (
     <>
       <div className="page-head">
-        <p className="eyebrow">材料 · {s.materials.title}</p>
         <h1>{s.materials.title}</h1>
         <p className="lede">{s.materials.lede}</p>
         <div className="note warn">

@@ -36,7 +36,7 @@ export default function QuestTable({ rows, labels, strings, options, lang }) {
       if (type && r.type !== type) return false;
       if (reOnly && !RE_CONFIRMED.has(r.confidence)) return false;
       if (term) {
-        const hay = `${r.name} ${r.alt} ${r.region} ${r.regionCn} ${r.npc} ${r.req} ${r.reward} ${r.detail} ${
+        const hay = `${r.name} ${r.alt} ${r.region} ${r.npc} ${r.req} ${r.reward} ${r.detail} ${
           labels.questType[r.type]?.label || ''
         }`.toLowerCase();
         if (!hay.includes(term)) return false;
@@ -109,7 +109,7 @@ export default function QuestTable({ rows, labels, strings, options, lang }) {
               g.group ? (
                 <tr className="group" key={`g-${g.group}-${i}`}>
                   <td colSpan={7}>
-                    {labels.questType[g.group]?.label} {labels.questType[g.group]?.cn}
+                    {labels.questType[g.group]?.label}
                   </td>
                 </tr>
               ) : (
