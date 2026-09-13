@@ -1,0 +1,107 @@
+{
+  "families": [
+    {
+      "key": "hero",
+      "name": { "en": "Hero Battle Arts", "cn": "英傑戰技", "th": "สกิลวีรชน" },
+      "thConfirmed": false,
+      "tag": { "en": "Special Skill", "cn": "特技", "th": "สกิลพิเศษ" },
+      "tagThConfirmed": true,
+      "questId": "skill-ancestor",
+      "intro": {
+        "en": "Four Heroes (英傑) wander the world, one per element. A one-time quest chain teaches you the Battle Art of your own element — permanently. All four are support skills: none of them deals damage.",
+        "th": "วีรชน (英傑) สี่คนกระจายอยู่ทั่วโลก ธาตุละหนึ่งคน มีเควสสายเดียวจบที่สอนสกิลพิเศษของธาตุตัวเองให้ถาวร ทั้งสี่สกิลเป็นสายสนับสนุนล้วน ไม่มีสกิลไหนทำดาเมจเลย"
+      },
+      "skills": [
+        {
+          "id": "hero-earth",
+          "element": "earth",
+          "name": { "en": "Declaration of War Intent", "cn": "戰意宣言", "th": "ประกาศเจตนารบ" },
+          "flavour": {
+            "cn": "向敵人發出戰吼，逼其迎戰，無法免疫和清除",
+            "en": "A war cry that forces the enemy to face you — it cannot be blocked or cleared.",
+            "th": "ตะโกนท้ารบใส่ศัตรู บังคับให้เข้าปะทะ ป้องกันไม่ได้และล้างสถานะไม่ออก"
+          },
+          "target": { "en": "1 enemy", "th": "ศัตรูเดี่ยว 1 ตัว" },
+          "effect": {
+            "en": "Applies the Challenge Mark taunt for 3 turns. Explicitly cannot be resisted and cannot be cleansed.",
+            "th": "ติดสถานะ ตราท้าทาย บังคับดึงเป้า 3 เทิร์น ระบุชัดว่าต้านทานไม่ได้และล้างสถานะไม่ได้"
+          },
+          "turns": 3,
+          "kind": "debuff",
+          "note": {
+            "en": "The only forced taunt in the game.",
+            "th": "เป็นสกิลบังคับดึงเป้าตัวเดียวในเกม"
+          }
+        },
+        {
+          "id": "hero-water",
+          "element": "water",
+          "name": { "en": "Heavenly Grace Rain", "cn": "天恩甘霖", "th": "สายฝนพรสวรรค์" },
+          "flavour": {
+            "cn": "降下神聖恩澤的雨，帶來重生和生機",
+            "en": "Rain of holy grace, bringing rebirth and life.",
+            "th": "ปลุกสายฝนศักดิ์สิทธิ์ นำการเกิดใหม่และชีวิตกลับคืนมา"
+          },
+          "target": { "en": "6 allies around you", "th": "พวกพ้องรอบตัว 6 คน" },
+          "effect": {
+            "en": "Restores HP and revives the fallen.",
+            "th": "ฟื้น HP และชุบชีวิตคนที่ล้มไปแล้ว"
+          },
+          "turns": null,
+          "kind": "heal",
+          "note": {
+            "en": "⭐ Build your water character SLOW on purpose. Turn order runs on SPD with both sides interleaved, and a unit that dies before its turn — then gets revived before its turn arrives — still acts that round. So you want the enemy to act first, wipe your line, and then revive everyone so they still move. If your water character is FASTER than the enemy, the skill collapses into an ordinary heal-and-rez: you revive, the enemy kills them again, and you loop. This assumes individual-SPD turn order; under team-speed battles the outcome is swingy.",
+            "th": "⭐ ตั้งใจทำให้ตัวละครสายน้ำช้าไว้ ลำดับเทิร์นคิดจาก SPD โดยสลับกันทั้งสองฝั่ง และตัวที่ตายก่อนถึงคิวตัวเอง ถ้าโดนชุบกลับมาก่อนคิวมาถึง จะยังได้เล่นเทิร์นนั้นอยู่ ดังนั้นให้ศัตรูออกก่อนแล้วกวาดแนวเราล้ม จากนั้นค่อยชุบทุกคนขึ้นมา ทุกคนก็ยังได้เล่นเทิร์นนั้น ถ้าตัวสายน้ำเร็วกว่าศัตรู สกิลนี้จะเหลือแค่ฮีล+ชุบธรรมดา คือชุบขึ้นมาแล้วโดนฆ่าซ้ำวนไปเรื่อย ๆ ทั้งหมดนี้อยู่บนสมมติฐานว่าเป็นการนับเทิร์นแบบ SPD รายตัว ถ้าเป็นแบบความเร็วทีมผลจะแกว่ง"
+          }
+        },
+        {
+          "id": "hero-fire",
+          "element": "fire",
+          "name": { "en": "Flame Heart Release", "cn": "焰心解放", "th": "ปลดปล่อยใจเพลิง" },
+          "flavour": {
+            "cn": "燃燒內心的戰焰，將所有怒氣化為爆發的力量",
+            "en": "Burn the battle flame within, turning every ounce of rage into explosive power.",
+            "th": "จุดไฟรบในใจให้ลุกโชน เปลี่ยนความโกรธทั้งหมดเป็นพลังระเบิด"
+          },
+          "target": { "en": "6 allies around you", "th": "พวกพ้องรอบตัว 6 คน" },
+          "effect": {
+            "en": "Raises crit damage and crit rate for 3 turns.",
+            "th": "เพิ่มความแรงคริติคอลและอัตราคริติคอล 3 เทิร์น"
+          },
+          "turns": 3,
+          "kind": "buff",
+          "note": {
+            "en": "The party damage amplifier.",
+            "th": "เป็นตัวเพิ่มดาเมจให้ทั้งปาร์ตี้"
+          }
+        },
+        {
+          "id": "hero-wind",
+          "element": "wind",
+          "name": { "en": "Wind Ward", "cn": "御風護佑", "th": "พรคุ้มครองสายลม" },
+          "flavour": {
+            "cn": "駕馭氣流，為友方加護增加迴避率",
+            "en": "Ride the air currents, warding allies and raising their evasion.",
+            "th": "ควบคุมกระแสลม ปกป้องพวกพ้องและเพิ่มอัตราหลบ"
+          },
+          "target": { "en": "4 allies around you", "th": "พวกพ้องรอบตัว 4 คน" },
+          "effect": {
+            "en": "Raises evasion for 3 turns.",
+            "th": "เพิ่มอัตราหลบ 3 เทิร์น"
+          },
+          "turns": 3,
+          "kind": "buff",
+          "note": {
+            "en": "In-game text warns that evasion buffs do NOT stack — a second caster is wasted.",
+            "th": "ข้อความในเกมเตือนว่าผลเพิ่มอัตราหลบซ้อนกันไม่ได้ ถ้ามีคนใช้ซ้ำจะเสียเปล่า"
+          }
+        }
+      ],
+      "sources": [
+        { "kind": "baha", "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=301" },
+        { "kind": "baha", "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=303" },
+        { "kind": "baha", "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=355" }
+      ]
+    }
+  ]
+}

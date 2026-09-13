@@ -889,6 +889,38 @@ html[data-view="mobile"] .fb-embed iframe { height: 860px; }
 .cg-name.has-more { cursor: pointer; }
 .cg-name.has-more:hover .nm { color: var(--star); }
 .cg-more { display: inline-block; margin-left: 7px; border: 1px solid var(--star); color: var(--star); border-radius: 5px; width: 19px; height: 19px; line-height: 17px; text-align: center; font-size: 13px; }
+/* ---- สกิล page ---- */
+.skill-tabs { display: flex; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--line); margin: 4px 0 18px; }
+.skill-tab { border: 1px solid var(--line); border-bottom: 0; background: var(--surface-2); color: var(--ink-soft);
+  border-radius: 10px 10px 0 0; padding: 9px 16px; font: inherit; font-size: 15px; cursor: pointer; margin-bottom: -1px; }
+.skill-tab.on { background: var(--surface); color: var(--star); font-weight: 600; border-color: var(--line); box-shadow: 0 -2px 0 var(--star) inset; }
+.sk-tagline { display: flex; align-items: center; gap: 8px; margin: 0 0 10px; }
+.sk-tag { border: 1px solid var(--star); color: var(--star); background: var(--star-bg); border-radius: 6px; padding: 2px 10px; font-size: 13px; font-weight: 600; }
+.sk-quest { border: 1px solid var(--line); border-left: 3px solid var(--star); border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--surface); padding: 14px 18px; margin: 6px 0 24px; }
+.sk-quest p { margin: 0 0 8px; line-height: 1.6; }
+.sk-questname { font-family: var(--font-display); font-size: 17px; color: var(--star); }
+/* One card per element — a player has exactly one of these skills and needs to find theirs fast. */
+.sk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 20px; }
+.sk-card { border: 1px solid var(--line); border-top: 4px solid var(--line); border-radius: var(--radius);
+  background: var(--surface); padding: 16px 18px; box-shadow: var(--shadow); }
+.sk-card.el-earth { border-top-color: #a8812f; }
+.sk-card.el-water { border-top-color: #2b6390; }
+.sk-card.el-fire  { border-top-color: #b33a2b; }
+.sk-card.el-wind  { border-top-color: #1f7a43; }
+.sk-el { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--ink-faint); }
+.sk-card h3 { margin: 2px 0 0; font-family: var(--font-display); font-size: 19px; }
+.sk-alt { margin: 2px 0 0; font-size: 12.5px; color: var(--ink-faint); }
+.sk-flavour { margin: 10px 0 12px; color: var(--ink-soft); line-height: 1.6; font-style: italic; }
+.sk-facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; font-size: 14px; }
+.sk-facts dt { font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faint); padding-top: 3px; }
+.sk-facts dd { margin: 0; line-height: 1.55; }
+.sk-turns { color: var(--star); font-weight: 600; white-space: nowrap; }
+.sk-note { margin: 12px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 13.5px; line-height: 1.6; color: var(--ink-soft); }
+.sk-src .srclink + .srclink { margin-left: 6px; }
+html[data-view="mobile"] .sk-grid { grid-template-columns: 1fr; }
+html[data-view="mobile"] .skill-tab { padding: 8px 12px; font-size: 14px; }
+
 /* The skills panel is a table row so it opens where you clicked, not below 25 other rows. */
 .cg-list.srcsheets { gap: 14px; }
 .cg-list.srcsheets .cg-dim { margin: 3px 0 0; }

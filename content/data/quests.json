@@ -181,13 +181,13 @@
   "req": null,
   "reward": {
    "en": "Opens Antarctica; prerequisite for the Ancestor skill quest",
-   "th": "เปิดแผนที่ขั้วโลกใต้ และเป็นเงื่อนไขของเควสสกิลขุนพลบรรพชน"
+   "th": "เปิดแผนที่ขั้วโลกใต้ และเป็นเงื่อนไขของเควสสกิลวีรชน"
   },
   "stars": 0,
   "starCost": 0,
   "detail": {
    "en": "A late main-quest chapter. You cannot accept the Ancestor skill quest until this is done.",
-   "th": "บทท้าย ๆ ของเควสหลัก ถ้ายังไม่จบบทนี้จะรับเควสสกิลบรรพชนไม่ได้"
+   "th": "บทท้าย ๆ ของเควสหลัก ถ้ายังไม่จบบทนี้จะรับเควสสกิลวีรชนไม่ได้"
   },
   "confidence": "RE-verified",
   "note": {
@@ -4185,7 +4185,7 @@
   "starCost": 0,
   "detail": {
    "en": "Star (星星) is a scarce quest currency spent on skills, gear and upgrades. The item is confirmed in Re — the Ancestor skill quest costs Star ×5. The current Re list is tracked on the Taiwan board but was not recoverable.",
-   "th": "ดาว (星星) เป็นค่าเงินจากเควสที่หายาก ใช้แลกสกิล อุปกรณ์ และอัปเกรด ยืนยันว่ายังมีใน Re เพราะเควสสกิลบรรพชนใช้ดาว ×5 ส่วนรายการเควสดาวของ Re ยังดึงข้อมูลไม่ได้"
+   "th": "ดาว (星星) เป็นค่าเงินจากเควสที่หายาก ใช้แลกสกิล อุปกรณ์ และอัปเกรด ยืนยันว่ายังมีใน Re เพราะเควสสกิลวีรชนใช้ดวงดาว ×5 ส่วนรายการเควสดาวของ Re ยังดึงข้อมูลไม่ได้"
   },
   "confidence": "RE-verified",
   "note": null,
@@ -6145,7 +6145,7 @@
   "starCost": 5,
   "detail": {
    "en": "Costs Star ×5.",
-   "th": "ใช้ดาว ×5"
+   "th": "ใช้ดวงดาว ×5"
   },
   "confidence": "LEGACY",
   "note": {
@@ -6251,7 +6251,7 @@
   "starCost": 5,
   "detail": {
    "en": "Costs Star ×5.",
-   "th": "ใช้ดาว ×5"
+   "th": "ใช้ดวงดาว ×5"
   },
   "confidence": "LEGACY",
   "note": {
@@ -6530,7 +6530,7 @@
   "starCost": 5,
   "detail": {
    "en": "Costs Star ×5.",
-   "th": "ใช้ดาว ×5"
+   "th": "ใช้ดวงดาว ×5"
   },
   "confidence": "LEGACY",
   "note": {
@@ -6620,9 +6620,9 @@
   "name": {
    "en": "Guidance from the Ancestors",
    "cn": "來自英傑的指引",
-   "th": "คำชี้แนะจากบรรพชนผู้กล้า"
+   "th": "การชี้นำของวีรบุรุษ"
   },
-  "thConfirmed": false,
+  "thConfirmed": true,
   "lv": null,
   "region": {
    "en": "Brontosaurus Island",
@@ -6632,26 +6632,26 @@
   "npc": {
    "en": "The Ancestor's Disciple",
    "cn": "英傑的徒弟",
-   "th": "ศิษย์ของบรรพชน"
+   "th": "ศิษย์ของวีรชน"
   },
   "req": {
-   "en": "Main quest Go to Antarctica (前往南極) complete. Cost: Magic Jade Stone ×1 + Star ×5 + 100 Star Dust of your own element.",
-   "th": "ต้องจบเควสหลัก มุ่งสู่ขั้วโลกใต้ (前往南極) ก่อน ค่าใช้จ่าย: หินหยกเวทมนตร์ ×1 + ดาว ×5 + ผงดารา ธาตุเดียวกับตัวเอง ×100"
+   "en": "Main quest Go to Antarctica (前往南極) complete. Cost: Magic Jade ×1 + Star ×5 + 100 Star Dust of your own element.",
+   "th": "ต้องจบเควสหลัก มุ่งสู่ขั้วโลกใต้ (前往南極) ก่อน · ของที่ใช้: หยกวิเศษ ×1 · ดวงดาว ×5 · ผงประกายดาว ธาตุเดียวกับตัวเอง ×100"
   },
   "reward": {
    "en": "Your element's Ancestor Skill, permanent, + 12,000 EXP",
-   "th": "สกิลบรรพชนตามธาตุของตัวเอง ถาวร + EXP 12,000"
+   "th": "สกิลวีรชนตามธาตุของตัวเอง ถาวร + EXP 12,000"
   },
   "stars": 0,
   "starCost": 0,
   "detail": {
    "en": "1) Accept from the Ancestor's Disciple at your element's Ancestor area — Wind: North Island, Fire: South Island, Earth: Australia, Water: Antarctica. 2) Go to Brontosaurus Island around (4500, 4185) and pick up the Mysterious Scroll under a coconut tree — the hint is 'the heart of the dinosaur'. 3) Return and hand over the three items to awaken the scroll. 4) Fight all four Ancestors: Lv160, 13,168 HP each. Bring a party.",
-   "th": "1) รับเควสจากศิษย์ของบรรพชน ในพื้นที่บรรพชนธาตุเดียวกับตัวเอง — ลม: เกาะเหนือ / ไฟ: เกาะใต้ / ดิน: ออสเตรเลีย / น้ำ: ขั้วโลกใต้  2) ไปเกาะมังกรสายฟ้า พิกัดราว (4500, 4185) เก็บม้วนคัมภีร์ปริศนาใต้ต้นมะพร้าว คำใบ้คือ 'ตำแหน่งหัวใจของไดโนเสาร์'  3) กลับไปส่งของทั้งสามอย่างเพื่อปลุกพลังในม้วนคัมภีร์  4) สู้กับบรรพชนทั้งสี่ เลเวล 160 HP ตัวละ 13,168 — ควรไปเป็นทีม"
+   "th": "1) รับเควสจากศิษย์ของวีรชน ในพื้นที่วีรชนธาตุเดียวกับตัวเอง — ลม: เกาะเหนือ / ไฟ: เกาะใต้ / ดิน: ออสเตรเลีย / น้ำ: ขั้วโลกใต้  2) ไปเกาะมังกรสายฟ้า พิกัดราว (4500, 4185) เก็บม้วนคัมภีร์ปริศนาใต้ต้นมะพร้าว คำใบ้คือ 'ตำแหน่งหัวใจของไดโนเสาร์'  3) กลับไปส่งของทั้งสามอย่างเพื่อปลุกพลังในม้วนคัมภีร์  4) สู้กับวีรชนทั้งสี่ เลเวล 160 HP ตัวละ 13,168 — ควรไปเป็นทีม"
   },
   "confidence": "RE-verified",
   "note": {
-   "en": "One source says 80 Star Dust instead of 100 — trust what the client shows. Skills: Earth 戰意宣言 forced taunt 3 turns, unresistable · Water 天恩甘霖 heal and revive 6 allies · Fire 焰心解放 crit rate and damage up 3 turns · Wind 御風護佑 evasion up 3 turns.",
-   "th": "มีแหล่งหนึ่งบอกว่าใช้ผงดารา 80 ไม่ใช่ 100 ให้ยึดตามที่เกมแสดง สกิล: ดิน 戰意宣言 บังคับดึงเป้า 3 เทิร์น ต้านไม่ได้ · น้ำ 天恩甘霖 ฟื้น HP และชุบชีวิตพวกพ้อง 6 คน · ไฟ 焰心解放 เพิ่มอัตราและความแรงคริ 3 เทิร์น · ลม 御風護佑 เพิ่มการหลบ 3 เทิร์น"
+   "en": "Confirmed in KK’s Thai client: the quest reads [สกิลพิเศษ] การชี้นำของวีรบุรุษ. The site calls the system วีรชน for consistency, but the quest keeps the client’s own wording so players can find it in game. Cost: Magic Jade (0/1), Star (5/5), Star Dust (0/100) — settling the 80-vs-100 conflict at 100.",
+   "th": "ยืนยันจากไคลเอนต์ไทยแล้ว: ในเกมเควสแสดงเป็น [สกิลพิเศษ] การชี้นำของวีรบุรุษ เว็บนี้เรียกระบบนี้ว่า “วีรชน” ให้สั้นและตรงกันทั้งเว็บ แต่ชื่อเควสคงคำตามที่เกมแสดงไว้ เพื่อให้ค้นหาในเกมเจอ · ของที่ใช้ หยกวิเศษ (0/1) ดวงดาว (5/5) ผงประกายดาว (0/100) — ปิดประเด็นที่เคยขัดกันว่าใช้ 80 หรือ 100 คำตอบคือ 100"
   },
   "sources": [
    {
@@ -6678,7 +6678,7 @@
   "name": {
    "en": "Daily Ancestor Challenge",
    "cn": "每日英傑任務 / 挑戰英傑",
-   "th": "เควสท้าบรรพชนรายวัน"
+   "th": "เควสท้าวีรชนรายวัน"
   },
   "thConfirmed": false,
   "lv": 35,
@@ -6690,13 +6690,13 @@
   },
   "reward": {
    "en": "Star Dust — random element and quantity",
-   "th": "ผงดารา สุ่มธาตุและจำนวน"
+   "th": "ผงประกายดาว สุ่มธาตุและจำนวน"
   },
   "stars": 0,
   "starCost": 0,
   "detail": {
    "en": "The four Ancestors rotate together between three fixed spot sets. Check the Kelan cave mouth first, then the Holy Village tree; if neither, it is the third set. Fleeing does not consume an attempt.",
-   "th": "บรรพชนทั้งสี่ย้ายที่พร้อมกันระหว่างชุดตำแหน่ง 3 ชุด ให้ดูที่ปากถ้ำหมู่บ้านเคลันก่อน แล้วดูใต้ต้นไม้หน้าหมู่บ้านคริสเตียน ถ้าไม่มีทั้งสองที่คือชุดที่สาม การหนีไม่เสียจำนวนครั้ง"
+   "th": "วีรชนทั้งสี่ย้ายที่พร้อมกันระหว่างชุดตำแหน่ง 3 ชุด ให้ดูที่ปากถ้ำหมู่บ้านเคลันก่อน แล้วดูใต้ต้นไม้หน้าหมู่บ้านคริสเตียน ถ้าไม่มีทั้งสองที่คือชุดที่สาม การหนีไม่เสียจำนวนครั้ง"
   },
   "confidence": "RE-verified",
   "note": null,
