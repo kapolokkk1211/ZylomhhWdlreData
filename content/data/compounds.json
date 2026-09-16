@@ -18592,7 +18592,7 @@
   "name": {
    "en": "Warm Thick Leather Boots",
    "cn": "保暖厚皮靴",
-   "th": "รองเท้าบู๊ตหนังหนาอุ่น"
+   "th": "รองเท้าหนังหนาอบอุ่น"
   },
   "stats": [
    {
@@ -18610,10 +18610,12 @@
    "en": "Buy — Antarctica",
    "th": "ซื้อ — แอนตาร์กติกา"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16: the structure-material line reads [หลัก]หนังสัตว์ [รอง]ขนสัตว์ — Leather primary, Fur secondary, not a dual family. Lv item 13, level limit 26, DEF+5 SPD+8, boots."
  },
  {
   "id": "short-horse-boots-r14",

@@ -1872,13 +1872,13 @@
   "updated": "2026-09-07"
  },
  {
-  "id": "fur-r13-fur-boots",
-  "family": "Fur",
+  "id": "leather-r13-warm-thick-leather-boots",
+  "family": "Leather",
   "rank": 13,
   "name": {
-   "en": "Fur Boots",
+   "en": "Warm Thick Leather Boots",
    "cn": "毛皮靴",
-   "th": "รองเท้าบู๊ตขนสัตว์"
+   "th": "รองเท้าหนังหนาอบอุ่น"
   },
   "sources": [
    {
@@ -1896,8 +1896,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "Skin/Fur dual. Antarctica is open on TH",
-  "updated": "2026-09-07"
+  "note": "ยืนยันจากไคลเอนต์ไทยของ KK 16 ก.ย. 2026: วัสดุโครงสร้าง [หลัก]หนังสัตว์ [รอง]ขนสัตว์ — เป็นหนังเป็นหลัก ขนเป็นรอง ไม่ใช่สองตระกูลเท่ากัน · เลเวลไอเทม 13 ลิมิตเลเวล 26 DEF +5 SPD +8 ประเภทรองเท้าบูต",
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "gem-r5-emerald",
@@ -6079,7 +6080,7 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "Tin/Jade dual family. Australia is open on TH",
+  "note": "Tin primary, Jade secondary. Australia is open on TH",
   "updated": "2026-09-07"
  },
  {
