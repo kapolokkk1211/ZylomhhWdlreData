@@ -2765,10 +2765,12 @@
    "en": "Buy — Easter Island",
    "th": "ซื้อ — เกาะอีสเตอร์"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16, from the Easter Island weapon shop list."
  },
  {
   "id": "iron-war-boots-r16",
@@ -4993,7 +4995,7 @@
   "name": {
    "en": "Strange Rock Axe",
    "cn": "奇岩斧",
-   "th": "ขวานหินประหลาด"
+   "th": "ขวานหินแปลก"
   },
   "stats": [
    {
@@ -5011,10 +5013,12 @@
    "en": "Buy — Easter Island",
    "th": "ซื้อ — เกาะอีสเตอร์"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16, from the Easter Island weapon shop list."
  },
  {
   "id": "bronze-sabre-r13",
@@ -9892,10 +9896,12 @@
    "en": "Buy — Easter Island; or Silver Ore + Silver Ore",
    "th": "ซื้อ — เกาะอีสเตอร์ · or Silver Ore + แร่เงิน"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16, from the Easter Island weapon shop list."
  },
  {
   "id": "pure-silver-ring-r10",
@@ -15771,7 +15777,7 @@
   "name": {
    "en": "Water Mage Gloves",
    "cn": "水法手套",
-   "th": "ถุงมือเมจน้ำ"
+   "th": "ถุงมือเวทมนตร์น้ำ"
   },
   "stats": [
    {
@@ -15789,10 +15795,12 @@
    "en": "Buy — Easter Island",
    "th": "ซื้อ — เกาะอีสเตอร์"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16, from the Easter Island weapon shop list."
  },
  {
   "id": "cloth-robe-r12",
@@ -21961,7 +21969,7 @@
   "name": {
    "en": "Spirit Stone Staff",
    "cn": "靈石法杖",
-   "th": "ไม้เท้าหินวิญญาณ"
+   "th": "คทาศิลาวิญญาณ"
   },
   "stats": [
    {
@@ -21979,10 +21987,12 @@
    "en": "Buy — Easter Island",
    "th": "ซื้อ — เกาะอีสเตอร์"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Confirmed in KK's Thai client 2026-09-16, from the Easter Island weapon shop list."
  },
  {
   "id": "stone-hammer-r12",

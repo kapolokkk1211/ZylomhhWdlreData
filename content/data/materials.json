@@ -751,14 +751,14 @@
   "name": {
    "en": "Strange Rock Axe",
    "cn": "奇岩斧",
-   "th": "ขวานหินประหลาด"
+   "th": "ขวานหินแปลก"
   },
   "sources": [
    {
     "type": "shop",
     "town": "easter-island",
-    "price": null,
-    "priceProvenance": null,
+    "price": 370,
+    "priceProvenance": "kk-client",
     "provenance": "re-sheet"
    }
   ],
@@ -769,8 +769,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "note": "ยืนยันจากไคลเอนต์ไทยของ KK วันที่ 16 ก.ย. 2026 จากรายการร้านอาวุธเกาะอีสเตอร์",
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "copper-r12-copper-bracers",
@@ -1667,14 +1668,14 @@
   "name": {
    "en": "Water Mage Gloves",
    "cn": "水法手套",
-   "th": "ถุงมือเมจน้ำ"
+   "th": "ถุงมือเวทมนตร์น้ำ"
   },
   "sources": [
    {
     "type": "shop",
     "town": "easter-island",
     "price": 370,
-    "priceProvenance": "legacy-wlohub",
+    "priceProvenance": "kk-client",
     "provenance": "re-sheet"
    }
   ],
@@ -1685,8 +1686,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "note": "ยืนยันจากไคลเอนต์ไทยของ KK วันที่ 16 ก.ย. 2026 จากรายการร้านอาวุธเกาะอีสเตอร์",
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "flower-r13-qipao-warm-cloth-robe",
@@ -2983,8 +2985,8 @@
    {
     "type": "shop",
     "town": "easter-island",
-    "price": null,
-    "priceProvenance": null,
+    "price": 560,
+    "priceProvenance": "kk-client",
     "provenance": "re-sheet"
    }
   ],
@@ -2996,7 +2998,8 @@
   },
   "confidence": "RE-reported",
   "note": "Best high-rank iron behind no level gate — and Easter Island is open on TH",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "iron-r17-iron-hemp-shoes",
@@ -4490,15 +4493,7 @@
    "cn": "皮鎧",
    "th": "เกราะหนัง"
   },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "easter-island",
-    "price": 560,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "legacy-wlohub"
-   }
-  ],
+  "sources": [],
   "flags": {
    "cheapestOfFamily": false,
    "highestBuyable": false,
@@ -4506,7 +4501,7 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": null,
+  "note": "ร้านอาวุธเกาะอีสเตอร์ไม่มีเกราะหนังธรรมดา — ยืนยันจากไคลเอนต์ไทยของ KK 16 ก.ย. 2026 ตัวที่ขายจริงคือเกราะหนังเหนียว 560g ราคานี้เคยถูกใส่ผิดมาที่แถวนี้ · ยังไม่ทราบว่าใน Re ขายที่ไหน",
   "updated": "2026-09-07"
  },
  {
@@ -5335,14 +5330,14 @@
   "name": {
    "en": "Spirit Stone Staff",
    "cn": "靈石法杖",
-   "th": "ไม้เท้าหินวิญญาณ"
+   "th": "คทาศิลาวิญญาณ"
   },
   "sources": [
    {
     "type": "shop",
     "town": "easter-island",
     "price": 240,
-    "priceProvenance": "legacy-wlohub",
+    "priceProvenance": "kk-client",
     "provenance": "re-sheet"
    }
   ],
@@ -5353,8 +5348,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "note": "ยืนยันจากไคลเอนต์ไทยของ KK วันที่ 16 ก.ย. 2026 จากรายการร้านอาวุธเกาะอีสเตอร์",
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "rock-r14-giant-stone-hammer",
@@ -5517,7 +5513,7 @@
     "type": "shop",
     "town": "easter-island",
     "price": 240,
-    "priceProvenance": "legacy-wlohub",
+    "priceProvenance": "kk-client",
     "provenance": "re-sheet"
    }
   ],
@@ -5529,7 +5525,8 @@
   },
   "confidence": "RE-reported",
   "note": "Easter Island is open on TH",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "silver-r9-silvery-sand",

@@ -62,7 +62,7 @@ export default function MaterialTable({ rows, labels, strings, options, lang }) 
       .filter((s) => s.type === 'shop')
       .map((s) => {
         const t = labels.town[s.town];
-        return { where: t?.label || s.town, status: t?.status, price: s.price, re: s.priceProvenance === 're-sheet' };
+        return { where: t?.label || s.town, status: t?.status, price: s.price, re: s.priceProvenance !== 'legacy-wlohub' };
       });
 
   const statusLabel = (st) =>
