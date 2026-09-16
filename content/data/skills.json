@@ -106,7 +106,6 @@
     {
       "key": "fairy",
       "abbr": "FS",
-      "era": "legacy",
       "group": "element",
       "name": {
         "en": "Fairy Skill",
@@ -256,16 +255,11 @@
           "kind": "wiki",
           "url": "https://wonderlandonline.fandom.com/wiki/Goddess_Erina"
         }
-      ],
-      "legacyNote": {
-        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
-        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
-      }
+      ]
     },
     {
       "key": "dragon",
       "abbr": "DS",
-      "era": "legacy",
       "group": "element",
       "name": {
         "en": "Dragon Soul",
@@ -415,16 +409,11 @@
           "kind": "wiki",
           "url": "https://wonderlandonline.fandom.com/wiki/Dragon_Spirit's_trial"
         }
-      ],
-      "legacyNote": {
-        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
-        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
-      }
+      ]
     },
     {
       "key": "job",
       "abbr": "JS",
-      "era": "legacy",
       "group": "job",
       "name": {
         "en": "Job Skill",
@@ -628,11 +617,7 @@
           "kind": "wiki",
           "url": "https://wonderlandonline.fandom.com/wiki/The_Emperor's_bedroom"
         }
-      ],
-      "legacyNote": {
-        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
-        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
-      }
+      ]
     }
   ]
 }

@@ -30,7 +30,7 @@ export default function SkillBook({ families, questFor, strings }) {
             key={f.key}
             role="tab"
             aria-selected={f.key === tab}
-            className={`skill-tab${f.key === tab ? ' on' : ''}${f.era === 'legacy' ? ' legacy' : ''}`}
+            className={`skill-tab${f.key === tab ? ' on' : ''}`}
             onClick={() => setTab(f.key)}
           >
             {f.label}
@@ -43,15 +43,9 @@ export default function SkillBook({ families, questFor, strings }) {
         <p className="sk-tagline">
           <span className="sk-tag">{fam.tag}</span>
           {fam.tagConfirmed && <span className="dot-th ok" title={strings.confirmedTh} />}
-          {fam.era === 'legacy' && <span className="sk-era">{strings.legacyBadge}</span>}
         </p>
         <p>{fam.intro}</p>
       </div>
-
-      {/* A whole tab of pre-Re data needs to say so before anything else on it is read. */}
-      {fam.era === 'legacy' && fam.legacyNote && (
-        <div className="note warn sk-legacy">⚠ {fam.legacyNote}</div>
-      )}
 
       {quest && (
         <div className="sk-quest">
