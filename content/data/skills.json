@@ -102,6 +102,537 @@
         { "kind": "baha", "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=303" },
         { "kind": "baha", "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=355" }
       ]
+    },
+    {
+      "key": "fairy",
+      "abbr": "FS",
+      "era": "legacy",
+      "group": "element",
+      "name": {
+        "en": "Fairy Skill",
+        "cn": null,
+        "th": "สกิลภูต"
+      },
+      "thConfirmed": false,
+      "tag": {
+        "en": "Special Skill",
+        "cn": null,
+        "th": "สกิลพิเศษ"
+      },
+      "tagThConfirmed": true,
+      "questId": "skill-fairy",
+      "intro": {
+        "en": "Each element has its own Fairy, and you learn the one that matches your element. Power scales off INT, and every cast spends a Glaze Stone of your element — so unlike the other sets, this one costs you something every time you use it. Three of the four are support; only Fire deals damage.",
+        "th": "แต่ละธาตุมีภูตประจำธาตุของตัวเอง และคุณจะได้เรียนของธาตุตัวเองเท่านั้น ความแรงคิดจาก INT และทุกครั้งที่ร่ายต้องใช้หินเคลือบธาตุเดียวกับตัวเอง — ต่างจากชุดอื่นตรงที่ชุดนี้เสียของทุกครั้งที่ใช้ · สามในสี่เป็นสายสนับสนุน มีแค่ธาตุไฟที่ทำดาเมจ"
+      },
+      "skills": [
+        {
+          "id": "fairy-earth",
+          "element": "earth",
+          "name": {
+            "en": "Gaea's Guard",
+            "cn": null,
+            "th": "การคุ้มครองของไกอา"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The earth fairy Gaea shields the party.",
+            "th": "ไกอา ภูตแห่งดิน กางเกราะให้ทั้งปาร์ตี้"
+          },
+          "target": {
+            "en": "Whole team",
+            "th": "ทั้งทีม"
+          },
+          "effect": {
+            "en": "Raises DEF and MDEF for every team member.",
+            "th": "เพิ่ม DEF และ MDEF ให้ทุกคนในทีม"
+          },
+          "sp": null,
+          "turns": null,
+          "kind": "buff",
+          "note": {
+            "en": null,
+            "th": null
+          }
+        },
+        {
+          "id": "fairy-water",
+          "element": "water",
+          "name": {
+            "en": "Naja's Memory",
+            "cn": null,
+            "th": "ความทรงจำของนาจา"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The water fairy Naja returns what was spent.",
+            "th": "นาจา ภูตแห่งน้ำ คืนสิ่งที่เสียไป"
+          },
+          "target": {
+            "en": "Whole team",
+            "th": "ทั้งทีม"
+          },
+          "effect": {
+            "en": "Restores HP and SP for the whole team — but the caster gets HP only.",
+            "th": "ฟื้น HP และ SP ให้ทั้งทีม แต่ตัวคนร่ายเองได้คืนแค่ HP"
+          },
+          "sp": null,
+          "turns": null,
+          "kind": "heal",
+          "note": {
+            "en": "The only party SP restore in the set. The caster being cut out of the SP half is the catch — plan for someone else to carry your SP.",
+            "th": "เป็นสกิลคืน SP ให้ทั้งทีมตัวเดียวในชุดนี้ จุดที่ต้องระวังคือคนร่ายไม่ได้ SP คืน ต้องวางแผนให้คนอื่นช่วยดูแล SP ของเราแทน"
+          }
+        },
+        {
+          "id": "fairy-fire",
+          "element": "fire",
+          "name": {
+            "en": "Zavrl's Wing",
+            "cn": null,
+            "th": "ปีกของซาฟเวิล"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The fire fairy Zavrl sweeps the field.",
+            "th": "ซาฟเวิล ภูตแห่งไฟ กวาดทั้งสนาม"
+          },
+          "target": {
+            "en": "All enemies",
+            "th": "ศัตรูทั้งหมด"
+          },
+          "effect": {
+            "en": "Fire damage to every enemy at once.",
+            "th": "โจมตีธาตุไฟใส่ศัตรูทุกตัวพร้อมกัน"
+          },
+          "sp": null,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": "The only damaging Fairy Skill, and it scales off INT rather than ATK.",
+            "th": "เป็นสกิลภูตตัวเดียวที่ทำดาเมจ และคิดความแรงจาก INT ไม่ใช่ ATK"
+          }
+        },
+        {
+          "id": "fairy-wind",
+          "element": "wind",
+          "name": {
+            "en": "Gephil's Mutter",
+            "cn": null,
+            "th": "เสียงกระซิบของเกฟิล"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The wind fairy Gephil hurries the party along.",
+            "th": "เกฟิล ภูตแห่งลม เร่งฝีเท้าให้ทั้งปาร์ตี้"
+          },
+          "target": {
+            "en": "Whole team",
+            "th": "ทั้งทีม"
+          },
+          "effect": {
+            "en": "Raises SPD for every team member.",
+            "th": "เพิ่ม SPD ให้ทุกคนในทีม"
+          },
+          "sp": null,
+          "turns": null,
+          "kind": "buff",
+          "note": {
+            "en": "SPD decides turn order, so this moves your whole line earlier in the round.",
+            "th": "SPD เป็นตัวกำหนดลำดับเทิร์น สกิลนี้จึงดันทั้งแถวของเราให้ได้ออกเร็วขึ้นในรอบนั้น"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Fairy_Skill"
+        },
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Valkyrie's_Trial"
+        },
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Goddess_Erina"
+        }
+      ],
+      "legacyNote": {
+        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
+        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
+      }
+    },
+    {
+      "key": "dragon",
+      "abbr": "DS",
+      "era": "legacy",
+      "group": "element",
+      "name": {
+        "en": "Dragon Soul",
+        "cn": null,
+        "th": "สกิลวิญญาณมังกร"
+      },
+      "thConfirmed": false,
+      "tag": {
+        "en": "Special Skill",
+        "cn": null,
+        "th": "สกิลพิเศษ"
+      },
+      "tagThConfirmed": true,
+      "questId": "skill-dragon",
+      "intro": {
+        "en": "Four physical strikes, one per element, all costing 191 SP and all scaling off ATK. Each carries a 14% chance to seal the target. The catch is the elemental rule: your Dragon Soul always misses the element yours is weak to, so it is a strong opener that goes dead against one enemy in four.",
+        "th": "สกิลโจมตีกายภาพสี่ตัว ธาตุละหนึ่ง ใช้ SP 191 เท่ากันทุกตัว และคิดความแรงจาก ATK · ทุกตัวมีโอกาส 14% ที่จะผนึกเป้าหมาย · ข้อจำกัดคือกฎธาตุ: วิญญาณมังกรของเราจะพลาดใส่ธาตุที่ธาตุเราแพ้เสมอ จึงเป็นสกิลเปิดที่แรงมาก แต่ใช้ไม่ได้เลยกับศัตรูหนึ่งในสี่แบบ"
+      },
+      "skills": [
+        {
+          "id": "dragon-earth",
+          "element": "earth",
+          "name": {
+            "en": "Collapse",
+            "cn": null,
+            "th": "ทลายพสุธา"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The ground gives way under the target.",
+            "th": "พื้นดินถล่มลงใต้เท้าเป้าหมาย"
+          },
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "Physical earth damage. 14% chance to seal with Terrafication. Cannot be used against Wind enemies.",
+            "th": "โจมตีกายภาพธาตุดิน มีโอกาส 14% ผนึกด้วยสถานะกลายเป็นหิน · ใช้กับศัตรูธาตุลมไม่ได้"
+          },
+          "sp": 191,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": "Described as the best of the four for combo chains.",
+            "th": "มีบันทึกว่าเป็นตัวที่ต่อคอมโบได้ดีที่สุดในสี่ตัว"
+          }
+        },
+        {
+          "id": "dragon-water",
+          "element": "water",
+          "name": {
+            "en": "Curdle",
+            "cn": null,
+            "th": "จับตัวแข็ง"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "The target's blood thickens and stops.",
+            "th": "เลือดของเป้าหมายข้นและหยุดไหล"
+          },
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "Physical water damage. 14% chance to seal with Freeze. Cannot be used against Earth enemies.",
+            "th": "โจมตีกายภาพธาตุน้ำ มีโอกาส 14% ผนึกด้วยสถานะแช่แข็ง · ใช้กับศัตรูธาตุดินไม่ได้"
+          },
+          "sp": 191,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": null,
+            "th": null
+          }
+        },
+        {
+          "id": "dragon-fire",
+          "element": "fire",
+          "name": {
+            "en": "Fervidity",
+            "cn": null,
+            "th": "เพลิงระอุ"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "Heat builds until the target cannot think straight.",
+            "th": "ความร้อนสะสมจนเป้าหมายคิดอะไรไม่เป็น"
+          },
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "Physical fire damage. 14% chance to seal with Mess. Cannot be used against Water enemies.",
+            "th": "โจมตีกายภาพธาตุไฟ มีโอกาส 14% ผนึกด้วยสถานะสับสน · ใช้กับศัตรูธาตุน้ำไม่ได้"
+          },
+          "sp": 191,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": "Still connects on a Wind enemy that has used Vanish — one of only two ways through it.",
+            "th": "ยังโดนศัตรูธาตุลมที่ใช้ล่องหนไปแล้ว เป็นหนึ่งในสองทางที่เจาะล่องหนได้"
+          }
+        },
+        {
+          "id": "dragon-wind",
+          "element": "wind",
+          "name": {
+            "en": "Fast",
+            "cn": null,
+            "th": "วายุจู่โจม"
+          },
+          "flavour": {
+            "cn": null,
+            "en": "An attack out of the air itself.",
+            "th": "การจู่โจมที่มาจากอากาศเอง"
+          },
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "Physical wind damage. 14% chance to seal with Coma. Cannot be used against Fire enemies.",
+            "th": "โจมตีกายภาพธาตุลม มีโอกาส 14% ผนึกด้วยสถานะสลบ · ใช้กับศัตรูธาตุไฟไม่ได้"
+          },
+          "sp": 191,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": "Still connects on an enemy behind Stone Wall — the other way through a defensive skill.",
+            "th": "ยังโดนศัตรูที่ตั้งกำแพงหินอยู่ เป็นอีกทางที่เจาะสกิลป้องกันได้"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Dragon_Soul_Skill"
+        },
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Xu_Fu's_Trial"
+        },
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Dragon_Spirit's_trial"
+        }
+      ],
+      "legacyNote": {
+        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
+        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
+      }
+    },
+    {
+      "key": "job",
+      "abbr": "JS",
+      "era": "legacy",
+      "group": "job",
+      "name": {
+        "en": "Job Skill",
+        "cn": null,
+        "th": "สกิลอาชีพ"
+      },
+      "thConfirmed": false,
+      "tag": {
+        "en": "Special Skill",
+        "cn": null,
+        "th": "สกิลพิเศษ"
+      },
+      "tagThConfirmed": true,
+      "questId": "skill-job",
+      "intro": {
+        "en": "The only set keyed to your rebirth job rather than your element — six jobs, six skills, and you get exactly the one your class gives. They are the most situational skills in the game: none is a plain damage button, and each answers one specific problem, from breaking a seal to stopping a revive.",
+        "th": "เป็นชุดเดียวที่ยึดตามอาชีพที่จุติ ไม่ใช่ธาตุ — หกอาชีพ หกสกิล และได้ตัวที่ตรงกับคลาสตัวเองเท่านั้น · เป็นสกิลที่เลือกใช้ตามสถานการณ์มากที่สุดในเกม ไม่มีตัวไหนเป็นปุ่มตีเปล่า ๆ แต่ละตัวแก้ปัญหาเฉพาะอย่าง ตั้งแต่ปลดผนึกไปจนถึงกันการชุบชีวิต"
+      },
+      "skills": [
+        {
+          "id": "job-killer",
+          "job": "killer",
+          "name": {
+            "en": "Murder",
+            "cn": null,
+            "th": "ฆาตกรรม"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "1 sealed enemy",
+            "th": "ศัตรูที่ถูกผนึก 1 ตัว"
+          },
+          "effect": {
+            "en": "Bashes a sealed target, and hits harder the more sealed it is. Effective against the element yours is weak to.",
+            "th": "กระหน่ำใส่เป้าหมายที่ถูกผนึก ยิ่งติดผนึกยิ่งแรง · ใช้ได้ผลกับธาตุที่ธาตุเราแพ้"
+          },
+          "sp": 132,
+          "turns": null,
+          "kind": "damage",
+          "note": {
+            "en": "The mirror image of Dragon Soul: this one is strongest exactly where Dragon Soul misses.",
+            "th": "เป็นภาพสะท้อนของวิญญาณมังกร ตัวนี้แรงที่สุดตรงจุดที่วิญญาณมังกรพลาดพอดี"
+          }
+        },
+        {
+          "id": "job-warrior",
+          "job": "warrior",
+          "name": {
+            "en": "Holy Shield",
+            "cn": null,
+            "th": "โล่ศักดิ์สิทธิ์"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "1 ally",
+            "th": "พวกพ้อง 1 คน"
+          },
+          "effect": {
+            "en": "Guards one ally against single-target magic and reflects up to 2,000 damage back at the caster.",
+            "th": "ป้องกันพวกพ้องหนึ่งคนจากเวทเดี่ยว และสะท้อนดาเมจกลับไปหาคนร่ายได้สูงสุด 2,000"
+          },
+          "sp": 142,
+          "turns": null,
+          "kind": "buff",
+          "note": {
+            "en": null,
+            "th": null
+          }
+        },
+        {
+          "id": "job-knight",
+          "job": "knight",
+          "name": {
+            "en": "Knight's Spirit",
+            "cn": null,
+            "th": "จิตวิญญาณอัศวิน"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "3 allies",
+            "th": "พวกพ้อง 3 คน"
+          },
+          "effect": {
+            "en": "Makes three party members immune to seals for 2 turns.",
+            "th": "ทำให้พวกพ้องสามคนผนึกไม่เข้า 2 เทิร์น"
+          },
+          "sp": 146,
+          "turns": 2,
+          "kind": "buff",
+          "note": {
+            "en": null,
+            "th": null
+          }
+        },
+        {
+          "id": "job-wit",
+          "job": "wit",
+          "name": {
+            "en": "Cuss",
+            "cn": null,
+            "th": "คำสาปแช่ง"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "Target takes 50% more damage for 3 turns.",
+            "th": "เป้าหมายรับดาเมจเพิ่มขึ้น 50% เป็นเวลา 3 เทิร์น"
+          },
+          "sp": 152,
+          "turns": 3,
+          "kind": "debuff",
+          "note": {
+            "en": "A bigger damage increase than Shrink, so it replaces it rather than stacking with it.",
+            "th": "เพิ่มดาเมจได้มากกว่าสกิลย่อตัว จึงใช้แทนกันมากกว่าจะซ้อนกัน"
+          }
+        },
+        {
+          "id": "job-priest",
+          "job": "priest",
+          "name": {
+            "en": "Rest",
+            "cn": null,
+            "th": "พักผ่อนนิรันดร์"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "1 fallen enemy",
+            "th": "ศัตรูที่ล้มแล้ว 1 ตัว"
+          },
+          "effect": {
+            "en": "Stops a dead target from being revived for 3 turns.",
+            "th": "กันไม่ให้เป้าหมายที่ตายแล้วถูกชุบขึ้นมาได้ 3 เทิร์น"
+          },
+          "sp": 188,
+          "turns": 3,
+          "kind": "debuff",
+          "note": {
+            "en": "The counter to revive-stalling — the highest SP cost of the six.",
+            "th": "เป็นตัวแก้ทางการยื้อด้วยการชุบ และใช้ SP สูงที่สุดในหกตัว"
+          }
+        },
+        {
+          "id": "job-seer",
+          "job": "seer",
+          "name": {
+            "en": "Foretell",
+            "cn": null,
+            "th": "คำทำนาย"
+          },
+          "flavour": {
+            "cn": null,
+            "en": null,
+            "th": null
+          },
+          "target": {
+            "en": "Self",
+            "th": "ตัวเอง"
+          },
+          "effect": {
+            "en": "Clears every seal on the caster at the end of each turn, for 3 turns.",
+            "th": "ล้างผนึกทั้งหมดของตัวเองเมื่อจบเทิร์น ต่อเนื่อง 3 เทิร์น"
+          },
+          "sp": 147,
+          "turns": 3,
+          "kind": "buff",
+          "note": {
+            "en": "Self-only. It cleans up at end of turn, so a seal landed on you still costs you that turn.",
+            "th": "ใช้กับตัวเองเท่านั้น และล้างตอนจบเทิร์น ถ้าโดนผนึกในเทิร์นนั้นก็ยังเสียเทิร์นนั้นไปอยู่ดี"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/Job_Skill"
+        },
+        {
+          "kind": "wiki",
+          "url": "https://wonderlandonline.fandom.com/wiki/The_Emperor's_bedroom"
+        }
+      ],
+      "legacyNote": {
+        "en": "Legacy Wonderland Online, not Re. Every number here is from the original game's wiki and none of it has been seen in Re: Star Ark. Re reworked the special-skill systems once already — the Hero Battle Arts tab is the Re one. Read this tab as history until someone confirms it in the Thai client.",
+        "th": "ข้อมูลจากเกมเวอร์ชันเก่า ไม่ใช่ Re ตัวเลขทุกตัวในแท็บนี้มาจากวิกิของเกมต้นฉบับ และยังไม่มีใครเห็นใน Re: Star Ark เลย · Re เคยรื้อระบบสกิลพิเศษไปแล้วรอบหนึ่ง แท็บสกิลวีรชนคือของ Re · ให้อ่านแท็บนี้เป็นข้อมูลย้อนหลังไปก่อน จนกว่าจะมีคนยืนยันในไคลเอนต์ไทย"
+      }
     }
   ]
 }

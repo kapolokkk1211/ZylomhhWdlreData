@@ -121,7 +121,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
   // The 中文 name stays in the data for matching against TW sources, but never reaches the page.
   const altName = (r) => (lang === 'th' ? r[6] : r[8]) || '';
   const recipe = (r) => (lang === 'th' ? r[11] || r[10] : r[10]);
-  const fullRecipe = (r) => [recipe(r) || '—', r[17]].filter(Boolean).join('\n');
+  // Row notes stay in the data but are not shown here: they are our commentary on the recipe
+  // (what the site does not model yet, where a name came from), not a step anyone crafts.
+  const fullRecipe = (r) => recipe(r) || '—';
   // Two clamped lines fit roughly 60 characters at this column width; longer rows get the hover panel.
   const isLong = (r) => fullRecipe(r).length > 58;
 
@@ -258,10 +260,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     title={isLong(g.row) ? fullRecipe(g.row) : undefined}
                     onClick={() => isLong(g.row) && setOpenRc((v) => (v === g.row[0] ? null : g.row[0]))}
                   >
-                    <div className="rc-in">
-                      {recipe(g.row) || '—'}
-                      {g.row[17] && <div className="rc-note">{g.row[17]}</div>}
-                    </div>
+                    <div className="rc-in">{recipe(g.row) || '—'}</div>
                   </td>
                   <td className="c-add">
                     <button
