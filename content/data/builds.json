@@ -216,7 +216,7 @@
       "line": "warrior",
       "name": {
         "en": "Samurai",
-        "th": "ซามูไร"
+        "th": "นักสู้"
       },
       "cape": "DEF",
       "passive": "+10% DEF",
@@ -247,7 +247,7 @@
       },
       "failure": {
         "en": "Be honest about this one: the dedicated tank is out-tanked by the Priest, whose hidden passive converts MDEF into effective DEF on top of its own MDEF bonus. Veteran players call Samurai the job with no particular advantage, and pick an Earth Priest instead. Take it because you want the reflect, not because you want to be the wall.",
-        "th": "พูดกันตรง ๆ: อาชีพแทงก์ตัวจริงกลับอึดสู้นักบวชไม่ได้ เพราะพาสซีฟซ่อนของนักบวชแปลง MDEF เป็น DEF ใช้งานจริง ทับบนโบนัส MDEF ของตัวเองอีกที · ผู้เล่นเก๋าเรียกซามูไรว่าอาชีพที่ไม่มีจุดเด่นอะไรเป็นพิเศษ แล้วไปเล่นนักบวชธาตุดินแทน · เลือกอาชีพนี้เพราะอยากได้สกิลสะท้อน ไม่ใช่เพราะอยากเป็นกำแพง"
+        "th": "พูดกันตรง ๆ: อาชีพแทงก์ตัวจริงกลับอึดสู้นักบวชไม่ได้ เพราะพาสซีฟซ่อนของนักบวชแปลง MDEF เป็น DEF ใช้งานจริง ทับบนโบนัส MDEF ของตัวเองอีกที · ผู้เล่นเก๋าเรียกนักสู้ว่าอาชีพที่ไม่มีจุดเด่นอะไรเป็นพิเศษ แล้วไปเล่นนักบวชธาตุดินแทน · เลือกอาชีพนี้เพราะอยากได้สกิลสะท้อน ไม่ใช่เพราะอยากเป็นกำแพง"
       }
     },
     {
@@ -372,7 +372,7 @@
       },
       "why": {
         "en": "MATK is the healing stat, so INT leads. WIS then triple-dips: SP, MDEF, and the hidden passive that turns MDEF into effective defence — which is why the Earth Priest, not the Samurai, is the toughest thing in the game.",
-        "th": "MATK คือค่าที่กำหนดพลังฮีล INT จึงมาก่อน · แล้ว WIS คุ้มสามต่อ: SP, MDEF และพาสซีฟซ่อนที่เปลี่ยน MDEF เป็นพลังป้องกันจริง — เพราะแบบนี้นักบวชธาตุดินถึงเป็นตัวที่อึดที่สุดในเกม ไม่ใช่ซามูไร"
+        "th": "MATK คือค่าที่กำหนดพลังฮีล INT จึงมาก่อน · แล้ว WIS คุ้มสามต่อ: SP, MDEF และพาสซีฟซ่อนที่เปลี่ยน MDEF เป็นพลังป้องกันจริง — เพราะแบบนี้นักบวชธาตุดินถึงเป็นตัวที่อึดที่สุดในเกม ไม่ใช่นักสู้"
       },
       "failure": {
         "en": "Poor at offensive status — no Wit seal bonus, and Dream Bind lands badly. Pair with a Wit rather than trying to control on your own. One caveat worth testing yourself: a legacy tester measured that at equal MATK, lower INT healed more, which would mean building heal power through gear and level rather than raw INT. It is one confounded test — replicate before building around it.",
@@ -384,7 +384,7 @@
       "line": "mage",
       "name": {
         "en": "Seer",
-        "th": "ผู้หยั่งรู้"
+        "th": "นักพยากรณ์"
       },
       "cape": "SPD",
       "passive": "+10% SPD",
@@ -415,7 +415,7 @@
       },
       "why": {
         "en": "Here is the mechanic that justifies the job: landing a status is TWO rolls — a hit roll, then the target's resistance roll. INT only improves the first. The Seer's bonus attacks the second, which is why a Seer beats a Wit against targets no amount of INT can seal.",
-        "th": "นี่คือกลไกที่ทำให้อาชีพนี้มีที่ยืน: การลงสถานะคิดสองจังหวะ — จังหวะแม่น แล้วจังหวะที่เป้าหมายต้านทาน · INT ช่วยแค่จังหวะแรก ส่วนโบนัสของผู้หยั่งรู้ไปแก้จังหวะที่สอง เพราะแบบนี้ผู้หยั่งรู้ถึงชนะนักปราชญ์เมื่อเจอเป้าที่ INT เท่าไรก็ผนึกไม่ลง"
+        "th": "นี่คือกลไกที่ทำให้อาชีพนี้มีที่ยืน: การลงสถานะคิดสองจังหวะ — จังหวะแม่น แล้วจังหวะที่เป้าหมายต้านทาน · INT ช่วยแค่จังหวะแรก ส่วนโบนัสของนักพยากรณ์ไปแก้จังหวะที่สอง เพราะแบบนี้นักพยากรณ์ถึงชนะนักปราชญ์เมื่อเจอเป้าที่ INT เท่าไรก็ผนึกไม่ลง"
       },
       "failure": {
         "en": "Against a target with no seal resistance the bonus is literally worth nothing, and you are simply a worse Wit. That makes Seer a PvP and hard-boss job rather than a questing one. It also shares the Knight's +10% SPD without the riding bonus, so a Knight still takes the turn before you.",
@@ -590,7 +590,7 @@
         "band": "Enemy 650 +",
         "what": {
           "en": "High-INT bosses make you miss often — this is the wall INT alone cannot break, and the reason the Seer exists.",
-          "th": "บอสที่ INT สูงทำให้เราพลาดบ่อย — นี่คือกำแพงที่ INT อย่างเดียวทุบไม่ได้ และเป็นเหตุผลที่อาชีพผู้หยั่งรู้มีอยู่"
+          "th": "บอสที่ INT สูงทำให้เราพลาดบ่อย — นี่คือกำแพงที่ INT อย่างเดียวทุบไม่ได้ และเป็นเหตุผลที่อาชีพนักพยากรณ์มีอยู่"
         }
       }
     ]
