@@ -6618,7 +6618,7 @@
   "name": {
    "en": "Crimson Ring",
    "cn": "赤紅之環",
-   "th": "ห่วงแดงเข้ม"
+   "th": "วงแหวนแดงชาด"
   },
   "stats": [
    {
@@ -6629,13 +6629,15 @@
   "statsNote": "seal resist +6%",
   "statsRaw": "ATK+8, seal resist +6%",
   "recipe": {
-   "en": "Flame Thorn Bracers + Immaculate Sapphire + Dragon Scale Marrow",
-   "th": "ปลอกแขนหนามเพลิง + ไพลินไร้ตำหนิ + ไขกระดูกเกล็ดมังกร"
+   "en": "Pure Iron + Gem + Magic Jade",
+   "th": "เหล็กแดง + พลอย + ของเสริมพลัง"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "KK compounded it 2026-09-21: เหล็กแดง + พลอย + ของเสริมพลัง — PureIron + Gem + MagicJade, exactly the families this row declares. Recipe now states the families, which is what the pot actually checks; the compendium's specific-item form (Flame Thorn Bracers r16 + Immaculate Sapphire r16 + Dragon Scale Marrow r16) is one working instantiation of the same three. Thai name and bracer slot confirmed from the client's armour compendium."
  },
  {
   "id": "pure-iron-sabre-r15",
