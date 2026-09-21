@@ -19311,7 +19311,7 @@
   "name": {
    "en": "Winged Dragon Leather Boots",
    "cn": "翼龍皮靴",
-   "th": "รองเท้าบู๊ตหนังมังกรมีปีก"
+   "th": "รองเท้าหนังพบุกเพราะ"
   },
   "stats": [
    {
@@ -19332,7 +19332,9 @@
   "confidence": "RE-reported",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Thai name taken verbatim from KK's client 2026-09-21. It is a garbled machine translation — the description underneath reads properly as รองเท้าบูตหนังเย็บจากหนังเหนียวของมังกรปีก — but the client string is what a player can search for, so it wins over our cleaner รองเท้าบู๊ตหนังมังกรมีปีก. Rank 22 and the boots slot both confirmed by the same tooltip. OPEN: the client shows SPD+13 where this row says SPD+14; MDEF+8 agrees. Not changed — the tooltip marks both stats with a ▲ and shows a greyed ATK line, so the displayed numbers may include a modifier."
  },
  {
   "id": "red-lotus-boots-r23",
