@@ -2425,7 +2425,7 @@
   "statsRaw": "ATK+14 DEF+14",
   "recipe": {
    "en": "Samurai Gold Helm + Bamboo Hat",
-   "th": "หมวกเกราะทองซามูไร + งอบไม้ไผ่"
+   "th": "หมวกเกราะทองนักสู้ + งอบไม้ไผ่"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2549,7 +2549,7 @@
   "name": {
    "en": "Samurai Blade",
    "cn": "武士刀",
-   "th": "มีดซามูไร"
+   "th": "มีดนักสู้"
   },
   "stats": [
    {
@@ -2596,7 +2596,7 @@
   "statsRaw": "ATK+30",
   "recipe": {
    "en": "Samurai Gold Helm + Bamboo Hat",
-   "th": "หมวกเกราะทองซามูไร + งอบไม้ไผ่"
+   "th": "หมวกเกราะทองนักสู้ + งอบไม้ไผ่"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2616,7 +2616,7 @@
   "name": {
    "en": "Samurai Gold Helm",
    "cn": "武者金兜",
-   "th": "หมวกเกราะทองซามูไร"
+   "th": "หมวกเกราะทองนักสู้"
   },
   "stats": [
    {
@@ -2699,7 +2699,7 @@
   "statsRaw": "ATK+32",
   "recipe": {
    "en": "Samurai Gold Helm + Gold Silk Qipao",
-   "th": "หมวกเกราะทองซามูไร + กี่เพ้าไหมทอง"
+   "th": "หมวกเกราะทองนักสู้ + กี่เพ้าไหมทอง"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2831,7 +2831,7 @@
   "statsRaw": "ATK+34",
   "recipe": {
    "en": "Samurai Gold Helm + Gold Silk Qipao",
-   "th": "หมวกเกราะทองซามูไร + กี่เพ้าไหมทอง"
+   "th": "หมวกเกราะทองนักสู้ + กี่เพ้าไหมทอง"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -2866,7 +2866,7 @@
   "statsRaw": "ATK+17 DEF+17",
   "recipe": {
    "en": "Samurai Gold Helm + Bamboo Hat",
-   "th": "หมวกเกราะทองซามูไร + งอบไม้ไผ่"
+   "th": "หมวกเกราะทองนักสู้ + งอบไม้ไผ่"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -3596,7 +3596,7 @@
   "name": {
    "en": "Primordial Samurai Blade",
    "cn": "太初武士刀",
-   "th": "มีดซามูไรบรรพกาล"
+   "th": "มีดนักสู้บรรพกาล"
   },
   "stats": [
    {
@@ -16069,7 +16069,7 @@
   "statsRaw": "DEF+17 SPD−2",
   "recipe": {
    "en": "White Spirit Gloves + Samurai Gold Helm",
-   "th": "ถุงมือวิญญาณขาว + หมวกเกราะทองซามูไร"
+   "th": "ถุงมือวิญญาณขาว + หมวกเกราะทองนักสู้"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18808,7 +18808,7 @@
   "statsRaw": "DEF+16",
   "recipe": {
    "en": "Galloping Horse Boots + Samurai Gold Helm + r21 Wood",
-   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองซามูไร + ไม้ r21"
+   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองนักสู้ + ไม้ r21"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18907,7 +18907,7 @@
   "statsRaw": "MDEF+13 SPD+4",
   "recipe": {
    "en": "Galloping Horse Boots + Samurai Gold Helm + r21 Wood",
-   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองซามูไร + ไม้ r21"
+   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองนักสู้ + ไม้ r21"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18942,7 +18942,7 @@
   "statsRaw": "SPD+13 DEF+4",
   "recipe": {
    "en": "Galloping Horse Boots + Samurai Gold Helm + r21 Wood",
-   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองซามูไร + ไม้ r21"
+   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองนักสู้ + ไม้ r21"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19065,7 +19065,7 @@
   "statsRaw": "DEF+13 MDEF+5",
   "recipe": {
    "en": "Galloping Horse Boots + Samurai Gold Helm + r21 Wood",
-   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองซามูไร + ไม้ r21"
+   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองนักสู้ + ไม้ r21"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19158,7 +19158,7 @@
   "statsRaw": "DEF+15 SPD+4",
   "recipe": {
    "en": "Galloping Horse Boots + Samurai Gold Helm + Silk Qipao",
-   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองซามูไร + กี่เพ้าไหม"
+   "th": "รองเท้าบู๊ตม้าควบ + หมวกเกราะทองนักสู้ + กี่เพ้าไหม"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
