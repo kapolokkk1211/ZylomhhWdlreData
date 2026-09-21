@@ -975,3 +975,71 @@ html[data-view="mobile"] table.cgtable.floors td.c-name { grid-column: 1 / -1 !i
 html[data-view="mobile"] table.cgtable.floors td.c-floor { grid-column: auto !important; margin-top: 6px; text-align: left; }
 html[data-view="mobile"] table.cgtable.floors td.c-floor::before { content: attr(data-l); display: block; font-family: var(--font-mono); font-size: 10px; color: var(--ink-faint); }
 html[data-view="mobile"] .cg-h2 { font-size: 19px; }
+
+/* ---- แนวทางปั้นตัว (builds) page ----
+   The job card is the unit of this page: a player reads one card, not the grid. So the card
+   carries everything needed to commit — priority order, element, skill, and the failure mode
+   folded away behind a click because it is the part you read second. */
+.bg-lede { margin-top: -4px; }
+.bg-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.bg-stat { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 14px 16px; }
+.bg-stat header { display: flex; align-items: baseline; gap: 8px; }
+.bg-stat-key { font-family: var(--font-mono); font-size: 15px; letter-spacing: .04em; color: var(--star); }
+.bg-stat-name { font-size: 13px; color: var(--ink-faint); }
+.bg-gives { margin: 8px 0 0; font-weight: 600; font-size: 14.5px; }
+.bg-per { margin: 2px 0 0; font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-soft); }
+.bg-note { margin: 9px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
+.bg-formula { margin: 0 0 4px; font-size: 15px; }
+.bg-formula b { font-family: var(--font-mono); color: var(--star); margin-left: 6px; }
+
+/* Only four cells in the growth table beat baseline — highlight those, leave the rest quiet. */
+.bg-el .lv.hot { color: var(--star); font-weight: 700; }
+.el-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; }
+.el-fire { background: #b33a2b; } .el-water { background: #2b6390; }
+.el-earth { background: #a8812f; } .el-wind { background: #1f7a43; }
+.el-t-fire { color: #b33a2b; } .el-t-water { color: #2b6390; }
+.el-t-earth { color: #a8812f; } .el-t-wind { color: #1f7a43; }
+.bg-elnotes { margin-top: 14px; }
+.bg-elnotes p { margin: 0 0 9px; font-size: 14px; line-height: 1.65; color: var(--ink-soft); }
+
+.bg-line { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--ink-soft);
+  margin: 22px 0 12px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
+.bg-jobs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.bg-job { border: 1px solid var(--line); border-top: 4px solid var(--star); border-radius: var(--radius);
+  background: var(--surface); padding: 15px 17px; box-shadow: var(--shadow); }
+.bg-job h4 { margin: 0; font-family: var(--font-display); font-size: 19px; font-weight: 600; }
+.bg-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+.bg-chip { border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: 11.5px; color: var(--ink-soft); background: var(--surface-2); }
+.bg-chip.on { border-color: var(--star); color: var(--star); background: var(--star-bg); }
+
+/* Priority reads as a descending ramp, so the eye gets the order without reading the legend. */
+.bg-order { display: flex; gap: 5px; margin: 13px 0; }
+.bg-pri { flex: 1; text-align: center; font-family: var(--font-mono); font-size: 12px; letter-spacing: .03em;
+  padding: 5px 0; border-radius: 5px; background: var(--star-bg); color: var(--star); border: 1px solid transparent; }
+.bg-pri.p1 { opacity: .82; } .bg-pri.p2 { opacity: .64; }
+.bg-pri.p3 { background: var(--surface-2); color: var(--ink-faint); }
+.bg-pri.p4 { background: var(--surface-2); color: var(--ink-faint); opacity: .72; }
+
+.bg-job .sk-facts { margin-bottom: 11px; }
+.bg-why { margin: 0 0 11px; font-size: 14px; line-height: 1.65; }
+.bg-more { border: 0; background: transparent; padding: 0; font: inherit; font-size: 13px; color: var(--star); cursor: pointer; }
+.bg-more:hover { text-decoration: underline; }
+.bg-fail { margin: 10px 0 0; padding: 11px 13px; border-left: 3px solid #8a2e26; background: #fdf1f0;
+  border-radius: 0 7px 7px 0; font-size: 13.5px; line-height: 1.65; color: #6d2a24; }
+
+.bg-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.bg-sub { font-size: 15.5px; font-weight: 600; margin: 0 0 10px; }
+.bg-ladder { min-width: 0; width: 100%; }
+.bg-ladder th { font-family: var(--font-mono); white-space: nowrap; width: 92px; color: var(--star); text-align: right; padding-right: 14px; }
+.bg-ladder td { font-size: 14px; }
+
+.bg-rules { display: grid; gap: 14px; }
+.bg-rules article { border-left: 3px solid var(--line); padding-left: 15px; }
+.bg-rules h3 { margin: 0 0 5px; font-size: 15.5px; font-weight: 600; }
+.bg-rules p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); max-width: 68ch; }
+.bg-gate li { margin-bottom: 8px; }
+
+html[data-view="mobile"] .bg-stats,
+html[data-view="mobile"] .bg-jobs,
+html[data-view="mobile"] .bg-two { grid-template-columns: 1fr; }
+html[data-view="mobile"] .bg-ladder th { width: 76px; }

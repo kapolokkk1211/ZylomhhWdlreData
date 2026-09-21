@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const ITEMS = [
+  ['/builds', 'builds'],
   ['/compounds', 'compounds'],
   ['/materials', 'materials'],
   ['/simulator', 'simulator'],

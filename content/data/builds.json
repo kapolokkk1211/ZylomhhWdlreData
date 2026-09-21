@@ -1,0 +1,627 @@
+{
+  "stats": [
+    {
+      "key": "STR",
+      "name": {
+        "en": "Strength",
+        "th": "พลัง"
+      },
+      "gives": {
+        "en": "ATK",
+        "th": "พลังโจมตี"
+      },
+      "perPoint": "+2.00 ATK",
+      "note": {
+        "en": "Every physical skill multiplies ATK by its own coefficient, up to ×1.8 — so ATK compounds harder than the raw number suggests.",
+        "th": "สกิลกายภาพทุกตัวเอา ATK ไปคูณด้วยค่าสัมประสิทธิ์ของตัวเอง สูงสุดถึง ×1.8 ดังนั้น ATK ทบต้นแรงกว่าที่ตัวเลขดิบบอก"
+      }
+    },
+    {
+      "key": "CON",
+      "name": {
+        "en": "Constitution",
+        "th": "ความอดทน"
+      },
+      "gives": {
+        "en": "Max HP + DEF",
+        "th": "HP สูงสุด + พลังป้องกัน"
+      },
+      "perPoint": "+10 HP · +1.75 DEF",
+      "note": {
+        "en": "The one stat you cannot fix later with gear — your character gets HP from nowhere else. At CON 0 you sit at roughly 180 + level HP, which is not survivable.",
+        "th": "เป็นค่าเดียวที่แก้ทีหลังด้วยของไม่ได้ ตัวละครไม่ได้ HP จากทางอื่นเลย ถ้า CON 0 จะเหลือ HP ราว 180 + เลเวล ซึ่งเอาตัวไม่รอด"
+      }
+    },
+    {
+      "key": "INT",
+      "name": {
+        "en": "Intelligence",
+        "th": "สติปัญญา"
+      },
+      "gives": {
+        "en": "MATK — and status accuracy",
+        "th": "พลังโจมตีเวท และความแม่นของสถานะ"
+      },
+      "perPoint": "+2.00 MATK",
+      "note": {
+        "en": "The hidden half matters more than the tooltip half. Landing a seal and resisting one are both INT-vs-INT checks — roughly +1% support-magic accuracy per 10 INT. A 0-INT build is maximally easy to seal.",
+        "th": "ครึ่งที่ซ่อนอยู่สำคัญกว่าครึ่งที่ tooltip บอก การลงผนึกและการต้านผนึกคิดจาก INT ปะทะ INT ทั้งคู่ ราว +1% ความแม่นเวทสนับสนุนต่อ INT 10 แต้ม ตัวที่ INT 0 จะโดนผนึกง่ายที่สุด"
+      }
+    },
+    {
+      "key": "WIS",
+      "name": {
+        "en": "Wisdom",
+        "th": "จิตใจ"
+      },
+      "gives": {
+        "en": "Max SP + MDEF",
+        "th": "SP สูงสุด + พลังป้องกันเวท"
+      },
+      "perPoint": "+2.20 MDEF",
+      "note": {
+        "en": "Keep enough SP to use your kit — a common target is 300–400, about one grape-juice refill. For a Priest, WIS triple-dips.",
+        "th": "มี SP พอใช้สกิลของตัวเองก็พอ เป้าหมายที่คนตั้งกันคือ 300–400 ราว ๆ น้ำองุ่นฟื้น SP หนึ่งขวด ถ้าเป็นนักบวช WIS จะคุ้มสามต่อ"
+      }
+    },
+    {
+      "key": "AGI",
+      "name": {
+        "en": "Agility",
+        "th": "ความคล่องแคล่ว"
+      },
+      "gives": {
+        "en": "SPD — turn order, fleeing, combo",
+        "th": "ความเร็ว — ลำดับเทิร์น หนี และคอมโบ"
+      },
+      "perPoint": "+1.80 SPD",
+      "note": {
+        "en": "Turn order is the whole game for controllers: a seal that lands after the boss moves saved nobody. But do not dump everything here — see the rules below.",
+        "th": "ลำดับเทิร์นคือทุกอย่างของสายคุมเกม ผนึกที่ลงหลังบอสออกไปแล้วไม่ได้ช่วยใครเลย แต่อย่าทุ่มทุกแต้มลงตรงนี้ — ดูกฎด้านล่าง"
+      }
+    }
+  ],
+  "elements": [
+    {
+      "key": "fire",
+      "name": {
+        "en": "Fire",
+        "th": "ไฟ"
+      },
+      "growth": {
+        "atk": "2.0",
+        "def": "2.0",
+        "matk": "1.6",
+        "mdef": "2.0",
+        "spd": "1.6"
+      },
+      "bonus": {
+        "en": "ATK +0.6 · MATK +0.2 per level",
+        "th": "ATK +0.6 · MATK +0.2 ต่อเลเวล"
+      },
+      "personality": {
+        "en": "The only element that boosts both physical and magical scaling. Thin defence — you will be focused.",
+        "th": "เป็นธาตุเดียวที่ดันทั้งสายกายภาพและสายเวท แต่ป้องกันบาง จะโดนรุมแน่นอน"
+      }
+    },
+    {
+      "key": "wind",
+      "name": {
+        "en": "Wind",
+        "th": "ลม"
+      },
+      "growth": {
+        "atk": "1.4",
+        "def": "2.0",
+        "matk": "1.4",
+        "mdef": "2.0",
+        "spd": "2.1"
+      },
+      "bonus": {
+        "en": "SPD +0.5 per level",
+        "th": "SPD +0.5 ต่อเลเวล"
+      },
+      "personality": {
+        "en": "The fastest element, and it is not close — 2.1 SPD per level against everyone else's 1.6. A wind cape or wind ring then doubles your naked SPD, which no other element gets.",
+        "th": "เป็นธาตุที่เร็วที่สุด และทิ้งห่างชัดเจน — SPD 2.1 ต่อเลเวล ขณะที่ธาตุอื่นได้ 1.6 · ใส่ผ้าคลุมลมหรือแหวนลมแล้ว SPD เปล่าจะคูณสอง ซึ่งไม่มีธาตุอื่นได้"
+      }
+    },
+    {
+      "key": "earth",
+      "name": {
+        "en": "Earth",
+        "th": "ดิน"
+      },
+      "growth": {
+        "atk": "1.4",
+        "def": "2.6",
+        "matk": "1.4",
+        "mdef": "2.2",
+        "spd": "1.6"
+      },
+      "bonus": {
+        "en": "DEF +0.6 · MDEF +0.2 per level",
+        "th": "DEF +0.6 · MDEF +0.2 ต่อเลเวล"
+      },
+      "personality": {
+        "en": "The durability element. Stone Wall shuts physical attackers out entirely.",
+        "th": "ธาตุสายอึด · กำแพงหินปิดทางสายกายภาพได้หมดเลย"
+      }
+    },
+    {
+      "key": "water",
+      "name": {
+        "en": "Water",
+        "th": "น้ำ"
+      },
+      "growth": {
+        "atk": "1.4",
+        "def": "2.0",
+        "matk": "1.4",
+        "mdef": "2.0",
+        "spd": "1.6"
+      },
+      "bonus": {
+        "en": "No growth bonus at all",
+        "th": "ไม่มีโบนัสการเติบโตเลย"
+      },
+      "personality": {
+        "en": "The only element with no free growth — it pays you in kit instead: the only full-restore revive, party HP+SP restore, dual freeze, and an innate 5% absolute seal immunity.",
+        "th": "เป็นธาตุเดียวที่ไม่ได้โบนัสการเติบโตเลย แต่ไปได้คืนที่ชุดสกิลแทน — มีสกิลชุบชีวิตแบบฟื้นเต็มตัวเดียวในเกม ฟื้น HP+SP ทั้งทีม แช่แข็งสองเป้า และต้านผนึกแบบสัมบูรณ์ติดตัว 5%"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "key": "killer",
+      "line": "warrior",
+      "name": {
+        "en": "Killer",
+        "th": "นักฆ่า"
+      },
+      "cape": "ATK",
+      "passive": "+10% ATK",
+      "skill": {
+        "name": {
+          "en": "Assassinate",
+          "th": "ลอบสังหาร"
+        },
+        "effect": {
+          "en": "Base 2000, and non-elemental — it ignores the counter cycle entirely.",
+          "th": "ฐาน 2000 และไม่มีธาตุ — ข้ามวงจรธาตุไปทั้งหมด"
+        }
+      },
+      "order": [
+        "STR",
+        "CON",
+        "AGI",
+        "WIS",
+        "INT"
+      ],
+      "element": {
+        "en": "Fire",
+        "th": "ไฟ"
+      },
+      "why": {
+        "en": "Every multiplier points the same way: fire's lv×2.0 ATK growth, an ATK cape, a +10% ATK passive, and skill coefficients up to ×1.8. Assassinate being non-elemental is what patches fire's crippling ×0.5 into water.",
+        "th": "ตัวคูณทุกตัวชี้ไปทางเดียวกัน — ไฟโตเลเวลละ ×2.0 ATK ผ้าคลุมเพิ่ม ATK พาสซีฟ +10% ATK และสกิลคูณได้ถึง ×1.8 · การที่ลอบสังหารไม่มีธาตุคือสิ่งที่อุดจุดตายของไฟที่โดนน้ำลดเหลือ ×0.5"
+      },
+      "failure": {
+        "en": "Zero INT means zero status resistance, so you get sealed constantly — run a Knight for cover. And Stone Wall shuts you out completely; bring wind to break it or a Wit who ignores walls.",
+        "th": "INT ศูนย์แปลว่าไม่มีภูมิต้านสถานะเลย จะโดนผนึกตลอด — ควรมีอัศวินคอยคุ้มกัน · และกำแพงหินปิดทางเราสนิท ต้องพาสายลมไปทุบ หรือนักปราชญ์ที่ข้ามกำแพงได้"
+      }
+    },
+    {
+      "key": "samurai",
+      "line": "warrior",
+      "name": {
+        "en": "Samurai",
+        "th": "ซามูไร"
+      },
+      "cape": "DEF",
+      "passive": "+10% DEF",
+      "skill": {
+        "name": {
+          "en": "Temple Shield",
+          "th": "โล่วิหาร"
+        },
+        "effect": {
+          "en": "Puts a barrier on one ally that reflects single-target attack magic, up to 2000 damage back at the caster.",
+          "th": "กางเกราะให้พวกพ้องหนึ่งคน สะท้อนเวทโจมตีเป้าเดี่ยวกลับไปหาคนร่าย สูงสุด 2,000"
+        }
+      },
+      "order": [
+        "CON",
+        "STR",
+        "AGI",
+        "WIS",
+        "INT"
+      ],
+      "element": {
+        "en": "Earth",
+        "th": "ดิน"
+      },
+      "why": {
+        "en": "Earth is the only element that compounds the job's own DEF bonus. Note the shield can be cast on someone else, which is the job's real use.",
+        "th": "ดินเป็นธาตุเดียวที่ทบกับโบนัส DEF ของอาชีพนี้ · ข้อสังเกต: โล่ร่ายให้คนอื่นได้ ซึ่งคือประโยชน์จริงของอาชีพนี้"
+      },
+      "failure": {
+        "en": "Be honest about this one: the dedicated tank is out-tanked by the Priest, whose hidden passive converts MDEF into effective DEF on top of its own MDEF bonus. Veteran players call Samurai the job with no particular advantage, and pick an Earth Priest instead. Take it because you want the reflect, not because you want to be the wall.",
+        "th": "พูดกันตรง ๆ: อาชีพแทงก์ตัวจริงกลับอึดสู้นักบวชไม่ได้ เพราะพาสซีฟซ่อนของนักบวชแปลง MDEF เป็น DEF ใช้งานจริง ทับบนโบนัส MDEF ของตัวเองอีกที · ผู้เล่นเก๋าเรียกซามูไรว่าอาชีพที่ไม่มีจุดเด่นอะไรเป็นพิเศษ แล้วไปเล่นนักบวชธาตุดินแทน · เลือกอาชีพนี้เพราะอยากได้สกิลสะท้อน ไม่ใช่เพราะอยากเป็นกำแพง"
+      }
+    },
+    {
+      "key": "knight",
+      "line": "warrior",
+      "name": {
+        "en": "Knight",
+        "th": "อัศวิน"
+      },
+      "cape": "SPD",
+      "passive": "+10% SPD",
+      "extra": {
+        "en": "Innate riding",
+        "th": "ขี่พาหนะได้ติดตัว"
+      },
+      "skill": {
+        "name": {
+          "en": "Knight's Spirit",
+          "th": "จิตวิญญาณอัศวิน"
+        },
+        "effect": {
+          "en": "Shields three allies from status effects — specifically the three in one column of the formation, so your party positioning is part of the build.",
+          "th": "กันสถานะให้พวกพ้องสามคน — เจาะจงว่าคือสามคนในแนวตั้งเดียวกันของฟอร์เมชัน ดังนั้นการจัดตำแหน่งทีมคือส่วนหนึ่งของบิลด์"
+        }
+      },
+      "order": [
+        "CON",
+        "AGI",
+        "STR",
+        "WIS",
+        "INT"
+      ],
+      "element": {
+        "en": "Wind",
+        "th": "ลม"
+      },
+      "why": {
+        "en": "Wind Knight is the fastest thing in the game — 2.1 SPD growth, a SPD cape, +10% SPD, the cape's doubling, and riding on top. Players split it three ways: Pure Knight dumps everything into AGI for buffs and riding EXP; Warrior-Knight balances STR and AGI; INT-Knight takes the first turn and casts control before anyone acts.",
+        "th": "อัศวินสายลมคือสิ่งที่เร็วที่สุดในเกม — โต SPD 2.1 ผ้าคลุมเพิ่ม SPD พาสซีฟ +10% SPD ผ้าคลุมคูณสองอีก แถมขี่พาหนะได้ · คนเล่นแบ่งเป็นสามสาย: อัศวินบริสุทธิ์ทุ่ม AGI ล้วนเพื่อบัฟกับ EXP จากการขี่ · อัศวินนักรบเกลี่ย STR กับ AGI · อัศวินสายเวทออกก่อนแล้วร่ายคุมก่อนใครทั้งหมด"
+      },
+      "failure": {
+        "en": "Two traps. All-AGI Knights go anaemic — low HP, and the monster AI attacks whoever has the least HP, so you become the target you built to avoid. And a full-AGI character falls out of combo range with their own party, which costs you the 2–2.5× EXP bonus.",
+        "th": "มีสองหลุม · อัศวินที่ลง AGI ล้วนจะเลือดจาง HP น้อย และ AI ของมอนสเตอร์เลือกตีคนที่ HP ต่ำที่สุด กลายเป็นว่าเราเองคือเป้าที่พยายามหลบ · อีกอย่าง ตัวที่ AGI ล้วนจะหลุดระยะคอมโบกับทีมตัวเอง ทำให้เสียโบนัส EXP 2–2.5 เท่าไป"
+      }
+    },
+    {
+      "key": "wit",
+      "line": "mage",
+      "name": {
+        "en": "Wit",
+        "th": "นักปราชญ์"
+      },
+      "cape": "MATK",
+      "passive": "+10% MATK",
+      "extra": {
+        "en": "Raises seal hit rate",
+        "th": "เพิ่มอัตราการลงผนึก"
+      },
+      "skill": {
+        "name": {
+          "en": "Curse",
+          "th": "คำสาปแช่ง"
+        },
+        "effect": {
+          "en": "The cursed target takes 1.5× damage from everything.",
+          "th": "เป้าที่โดนสาปรับดาเมจ ×1.5 จากทุกอย่าง"
+        }
+      },
+      "order": [
+        "INT",
+        "CON",
+        "AGI",
+        "WIS",
+        "STR"
+      ],
+      "element": {
+        "en": "Water or Earth for control · Fire for damage",
+        "th": "น้ำหรือดินถ้าเล่นสายคุม · ไฟถ้าเล่นสายดาเมจ"
+      },
+      "why": {
+        "en": "The job lives or dies on landing its control, and control lands on INT. People pick Wit as much for the seal and petrify success-rate boost as for the raw MATK. Confusion landing on you barely matters either, which it does to a physical attacker.",
+        "th": "อาชีพนี้อยู่หรือตายที่ลงสกิลคุมได้ไหม และการลงคุมคิดจาก INT · คนเลือกนักปราชญ์เพราะโบนัสอัตราลงผนึกและกลายเป็นหินพอ ๆ กับเพราะ MATK ดิบ · แถมโดนสับสนก็แทบไม่กระทบ ต่างจากสายตีกายภาพ"
+      },
+      "failure": {
+        "en": "INT and SPD compete for the same points and splitting them evenly ruins both — the classic mistake is an even spread. Buying SPD with gear instead of points is whale-tier expensive, so a free-to-play Wit takes the high-INT route and accepts going second.",
+        "th": "INT กับ SPD แย่งแต้มก้อนเดียวกัน ถ้าเกลี่ยเท่ากันจะพังทั้งคู่ — ความผิดพลาดคลาสสิกคือลงแต้มเฉลี่ย ๆ · การซื้อ SPD ด้วยของแทนการลงแต้มแพงระดับเติมหนัก สายฟรีจึงควรไปทาง INT สูงแล้วยอมออกทีหลัง"
+      }
+    },
+    {
+      "key": "priest",
+      "line": "mage",
+      "name": {
+        "en": "Priest",
+        "th": "นักบวช"
+      },
+      "cape": "MDEF",
+      "passive": "+10% MDEF",
+      "extra": {
+        "en": "Hidden damage reduction",
+        "th": "ลดดาเมจแบบซ่อนไว้"
+      },
+      "skill": {
+        "name": {
+          "en": "Requiem",
+          "th": "พักผ่อนนิรันดร์"
+        },
+        "effect": {
+          "en": "The target cannot be revived for 5 rounds. A denial tool, not a heal — do not pick Priest expecting this to help you heal.",
+          "th": "เป้าหมายถูกชุบไม่ได้ 5 รอบ · เป็นสกิลตัดทาง ไม่ใช่สกิลฮีล — อย่าเลือกนักบวชโดยหวังว่าสกิลนี้จะช่วยฮีล"
+        }
+      },
+      "order": [
+        "INT",
+        "WIS",
+        "CON",
+        "AGI",
+        "STR"
+      ],
+      "element": {
+        "en": "Water to heal · Earth to tank",
+        "th": "น้ำถ้าเล่นสายฮีล · ดินถ้าเล่นสายอึด"
+      },
+      "why": {
+        "en": "MATK is the healing stat, so INT leads. WIS then triple-dips: SP, MDEF, and the hidden passive that turns MDEF into effective defence — which is why the Earth Priest, not the Samurai, is the toughest thing in the game.",
+        "th": "MATK คือค่าที่กำหนดพลังฮีล INT จึงมาก่อน · แล้ว WIS คุ้มสามต่อ: SP, MDEF และพาสซีฟซ่อนที่เปลี่ยน MDEF เป็นพลังป้องกันจริง — เพราะแบบนี้นักบวชธาตุดินถึงเป็นตัวที่อึดที่สุดในเกม ไม่ใช่ซามูไร"
+      },
+      "failure": {
+        "en": "Poor at offensive status — no Wit seal bonus, and Dream Bind lands badly. Pair with a Wit rather than trying to control on your own. One caveat worth testing yourself: a legacy tester measured that at equal MATK, lower INT healed more, which would mean building heal power through gear and level rather than raw INT. It is one confounded test — replicate before building around it.",
+        "th": "อ่อนเรื่องลงสถานะใส่ศัตรู ไม่มีโบนัสผนึกแบบนักปราชญ์ และสกิลเข้าฝันก็ลงยาก ควรจับคู่กับนักปราชญ์แทนที่จะคุมเอง · มีข้อควรลองเองอยู่หนึ่งข้อ: มีคนทดสอบในเกมเก่าแล้วพบว่าที่ MATK เท่ากัน ตัวที่ INT ต่ำกว่ากลับฮีลได้มากกว่า ถ้าจริงแปลว่าควรดันพลังฮีลจากของกับเลเวลมากกว่าลง INT ดิบ · แต่เป็นการทดสอบที่ตัวแปรปนกันและมีแหล่งเดียว ควรลองซ้ำก่อนยึดเป็นหลัก"
+      }
+    },
+    {
+      "key": "seer",
+      "line": "mage",
+      "name": {
+        "en": "Seer",
+        "th": "ผู้หยั่งรู้"
+      },
+      "cape": "SPD",
+      "passive": "+10% SPD",
+      "extra": {
+        "en": "Lowers magic and seal failure rate",
+        "th": "ลดอัตราพลาดของเวทและผนึก"
+      },
+      "skill": {
+        "name": {
+          "en": "Prophecy",
+          "th": "คำทำนาย"
+        },
+        "effect": {
+          "en": "Clears status effects from one ally at the end of the turn, for 2 rounds. Round one is still exploitable — an enemy can seal that ally before the clear fires.",
+          "th": "ล้างสถานะให้พวกพ้องหนึ่งคนตอนจบเทิร์น ต่อเนื่อง 2 รอบ · รอบแรกยังโดนเล่นงานได้ ศัตรูผนึกคนนั้นก่อนที่การล้างจะทำงานได้อยู่"
+        }
+      },
+      "order": [
+        "INT",
+        "AGI",
+        "CON",
+        "WIS",
+        "STR"
+      ],
+      "element": {
+        "en": "Earth, or Wind for a cheaper version",
+        "th": "ดิน หรือลมถ้าอยากได้เวอร์ชันประหยัด"
+      },
+      "why": {
+        "en": "Here is the mechanic that justifies the job: landing a status is TWO rolls — a hit roll, then the target's resistance roll. INT only improves the first. The Seer's bonus attacks the second, which is why a Seer beats a Wit against targets no amount of INT can seal.",
+        "th": "นี่คือกลไกที่ทำให้อาชีพนี้มีที่ยืน: การลงสถานะคิดสองจังหวะ — จังหวะแม่น แล้วจังหวะที่เป้าหมายต้านทาน · INT ช่วยแค่จังหวะแรก ส่วนโบนัสของผู้หยั่งรู้ไปแก้จังหวะที่สอง เพราะแบบนี้ผู้หยั่งรู้ถึงชนะนักปราชญ์เมื่อเจอเป้าที่ INT เท่าไรก็ผนึกไม่ลง"
+      },
+      "failure": {
+        "en": "Against a target with no seal resistance the bonus is literally worth nothing, and you are simply a worse Wit. That makes Seer a PvP and hard-boss job rather than a questing one. It also shares the Knight's +10% SPD without the riding bonus, so a Knight still takes the turn before you.",
+        "th": "ถ้าเจอเป้าที่ไม่มีภูมิต้านผนึก โบนัสนี้ไม่มีค่าอะไรเลย และเราก็เป็นแค่นักปราชญ์ที่ด้อยกว่า · อาชีพนี้จึงเหมาะกับ PvP และบอสยาก มากกว่าการเดินเควส · แถมได้ +10% SPD เท่าอัศวินแต่ไม่มีโบนัสขี่พาหนะ อัศวินก็ยังออกก่อนเราอยู่ดี"
+      }
+    }
+  ],
+  "gate": {
+    "title": {
+      "en": "The job change at Lv100",
+      "th": "การเปลี่ยนอาชีพที่เลเวล 100"
+    },
+    "points": [
+      {
+        "en": "The line is decided by one comparison: STR greater than INT sends you to the warrior line, INT greater than STR to the mage line, and if they are exactly equal you choose freely.",
+        "th": "สายอาชีพตัดสินจากการเทียบค่าเดียว: STR มากกว่า INT ไปสายนักรบ · INT มากกว่า STR ไปสายเวท · ถ้าเท่ากันพอดีจะให้เลือกเอง"
+      },
+      {
+        "en": "It is permanent. You cannot change jobs afterwards.",
+        "th": "เปลี่ยนแล้วเปลี่ยนอีกไม่ได้ ถาวร"
+      },
+      {
+        "en": "Your level drops by 99 — the quest levels you up one, then subtracts 100. Lv100 becomes Lv1, Lv150 becomes Lv51. Stat points are kept.",
+        "th": "เลเวลลดลง 99 — เควสจะดันเลเวลขึ้นหนึ่งก่อน แล้วค่อยหัก 100 · เลเวล 100 เหลือ 1 · เลเวล 150 เหลือ 51 · แต้มสถานะยังอยู่ครบ"
+      },
+      {
+        "en": "All your equipment is force-unequipped and you are handed a job cape, so make inventory room first.",
+        "th": "ของที่ใส่อยู่จะถูกถอดออกทั้งหมด แล้วได้ผ้าคลุมอาชีพมาหนึ่งชิ้น ควรเคลียร์ช่องกระเป๋าไว้ก่อน"
+      },
+      {
+        "en": "You also receive five Scrolls of Forgetting. That is five free respecs, which means your pre-100 spread is not final — only the STR-versus-INT relation at the moment of the trial is.",
+        "th": "และจะได้ม้วนคัมภีร์แห่งการลืมเลือนมาห้าอัน คือรีเซ็ตแต้มฟรีห้าครั้ง แปลว่าแต้มที่ลงไว้ก่อนเลเวล 100 ยังแก้ได้ · สิ่งที่ล็อกจริงคือความสัมพันธ์ของ STR กับ INT ณ ตอนทำบททดสอบเท่านั้น"
+      },
+      {
+        "en": "The job's unique skill does not come from the change itself — it is taught later, by its own quest.",
+        "th": "สกิลเฉพาะอาชีพไม่ได้มาจากการเปลี่ยนอาชีพ แต่มีเควสของตัวเองสอนให้ทีหลัง"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "key": "aggro",
+      "title": {
+        "en": "The monster AI picks its target by level and HP",
+        "th": "AI ของมอนสเตอร์เลือกเป้าจากเลเวลและ HP"
+      },
+      "body": {
+        "en": "Enemies aim control skills at whoever has the highest level or HP, and direct attacks at whoever has the lowest HP. This cuts both ways, and it is the single most useful reason to order your stats the way you do: a deliberately fragile speed character is a lightning rod for damage, and your biggest, healthiest character is a lightning rod for seals.",
+        "th": "ศัตรูจะเล็งสกิลคุมไปที่คนเลเวลสูงสุดหรือ HP สูงสุด และเล็งการตีตรงไปที่คน HP ต่ำสุด · กฎนี้ตัดสองทาง และเป็นเหตุผลที่ดีที่สุดว่าทำไมต้องเรียงลำดับแต้มแบบนี้ — ตัวเร็วที่จงใจทำให้บางคือสายล่อดาเมจ ส่วนตัวที่ใหญ่และอึดที่สุดคือสายล่อผนึก"
+      }
+    },
+    {
+      "key": "flatdef",
+      "title": {
+        "en": "DEF is subtracted flat, not as a percentage",
+        "th": "DEF ถูกลบออกตรง ๆ ไม่ใช่คิดเป็นเปอร์เซ็นต์"
+      },
+      "body": {
+        "en": "Damage is skill base + ATK × coefficient − DEF. So against high-DEF targets the high-coefficient skills win, and against low-DEF trash the high flat-base skills win. AoE skills divide the target's DEF by 1.3 to 1.5, which makes them disproportionately good into tanky groups. It also means chasing raw DEF on armour is a trap — bosses out-scale it. Take HP and status resistance instead.",
+        "th": "ดาเมจ = ฐานสกิล + ATK × สัมประสิทธิ์ − DEF · เจอเป้า DEF สูงให้ใช้สกิลที่สัมประสิทธิ์สูง เจอมอบ DEF ต่ำให้ใช้สกิลที่ฐานสูง · สกิล AoE จะหาร DEF ของเป้าด้วย 1.3–1.5 จึงแรงผิดส่วนเมื่อเจอกลุ่มที่อึด · และแปลว่าการไล่ล่า DEF ดิบบนชุดเกราะคือกับดัก บอสโตแซงอยู่ดี — เอา HP กับภูมิต้านสถานะดีกว่า"
+      }
+    },
+    {
+      "key": "thresholds",
+      "title": {
+        "en": "Hidden skills unlock at exact stat numbers",
+        "th": "สกิลลับปลดล็อกที่ตัวเลขสถานะเป๊ะ ๆ"
+      },
+      "body": {
+        "en": "This is why real builds have odd numbers in them. The wind ladder is the clearest: Shadow Attack at AGI 85, After Image at AGI 103 with STR 50, Storm Attack at AGI 124 with STR 65 — and AGI 124 is treated as mandatory by Knight players because it is what completes the warrior skill set. Water has its own: Sleep at WIS 47, Revival at WIS 53, Recover at WIS 58. Buy the threshold, not a round number.",
+        "th": "นี่คือเหตุผลที่บิลด์จริงมีตัวเลขแปลก ๆ · บันไดของสายลมชัดที่สุด: เงาจู่โจมที่ AGI 85 · ภาพติดตาที่ AGI 103 คู่กับ STR 50 · พายุจู่โจมที่ AGI 124 คู่กับ STR 65 — และคนเล่นอัศวินถือว่า AGI 124 เป็นค่าบังคับ เพราะเป็นตัวที่ทำให้ชุดสกิลนักรบครบ · สายน้ำก็มีของตัวเอง: หลับที่ WIS 47 · ชุบชีวิตที่ WIS 53 · ฟื้นฟูที่ WIS 58 · ซื้อให้ถึงเส้น ไม่ใช่ซื้อให้ลงตัวสวย"
+      }
+    },
+    {
+      "key": "nofullagi",
+      "title": {
+        "en": "Never dump everything into one stat",
+        "th": "อย่าทุ่มทุกแต้มลงค่าเดียว"
+      },
+      "body": {
+        "en": "Two separate reasons, and veterans are blunt about both. An even spread across all five leaves you mediocre at everything. But a full dump is worse in a specific way: combat is turn-based, so extra SPD past what you need does not raise your damage per unit of time, and a character who is far faster than their own party falls out of combo range — costing the 2 to 2.5× EXP bonus the combo attack exists to give you.",
+        "th": "มีสองเหตุผล และผู้เล่นเก๋าพูดตรง ๆ ทั้งสองข้อ · เกลี่ยเท่ากันทั้งห้าค่าจะได้ตัวที่กลาง ๆ ไปหมด · แต่ทุ่มลงค่าเดียวแย่กว่าในแบบเฉพาะตัว: การต่อสู้เป็นเทิร์น SPD ที่เกินจากที่ต้องใช้ไม่ได้เพิ่มดาเมจต่อหน่วยเวลา และตัวที่เร็วกว่าทีมตัวเองมาก ๆ จะหลุดระยะคอมโบ — เสียโบนัส EXP 2–2.5 เท่าที่คอมโบมีไว้ให้"
+      }
+    },
+    {
+      "key": "con",
+      "title": {
+        "en": "CON is the stat you cannot fix later",
+        "th": "CON คือค่าที่แก้ทีหลังไม่ได้"
+      },
+      "body": {
+        "en": "Your character has no gear that grants HP, so every point of HP you will ever have comes from CON. Veteran advice is a 2 CON to 1 damage-stat ratio until around level 20 to 30, and the warning is stark: build to level 30 with CON 0 and the accepted fix is to delete the character and start again. Hot springs add a little — 10 max HP and SP each, seven springs, 70 total.",
+        "th": "ตัวละครไม่มีของที่ให้ HP เลย ดังนั้น HP ทุกแต้มที่จะมีมาจาก CON ทั้งหมด · คำแนะนำของผู้เล่นเก๋าคือลง CON 2 ต่อค่าดาเมจ 1 ไปจนถึงราวเลเวล 20–30 และคำเตือนก็ตรงไปตรงมา: ถ้าเล่นถึงเลเวล 30 โดย CON 0 ทางแก้ที่ยอมรับกันคือลบตัวแล้วสร้างใหม่ · บ่อน้ำพุร้อนช่วยได้นิดหน่อย — เพิ่ม HP และ SP สูงสุดอย่างละ 10 มีเจ็ดบ่อ รวม 70"
+      }
+    }
+  ],
+  "spdLadder": {
+    "title": {
+      "en": "What SPD actually buys you",
+      "th": "SPD ซื้ออะไรให้เราได้บ้าง"
+    },
+    "note": {
+      "en": "These are endgame numbers from Taiwanese players and they index specific content, so treat them as targets to aim at rather than a smooth curve.",
+      "th": "ตัวเลขชุดนี้มาจากผู้เล่นไต้หวันสายท้ายเกม และอ้างอิงเนื้อหาเฉพาะจุด ให้ถือเป็นเป้าที่เล็ง ไม่ใช่เส้นโค้งต่อเนื่อง"
+    },
+    "rows": [
+      {
+        "spd": "901",
+        "what": {
+          "en": "Enough for most small and mid quests, including the twelve-palace content",
+          "th": "พอสำหรับเควสเล็กถึงกลางเกือบทั้งหมด รวมถึงเนื้อหาสิบสองวัง"
+        }
+      },
+      {
+        "spd": "957",
+        "what": {
+          "en": "Outruns stage 18",
+          "th": "วิ่งชนะด่าน 18"
+        }
+      },
+      {
+        "spd": "1,700",
+        "what": {
+          "en": "Outruns stage 19",
+          "th": "วิ่งชนะด่าน 19"
+        }
+      },
+      {
+        "spd": "3,001",
+        "what": {
+          "en": "Outruns every enemy that uses support skills",
+          "th": "วิ่งชนะศัตรูทุกตัวที่ใช้สกิลสนับสนุน"
+        }
+      },
+      {
+        "spd": "3,601",
+        "what": {
+          "en": "The deadly-tier bosses",
+          "th": "บอสระดับอันตรายถึงตาย"
+        }
+      }
+    ]
+  },
+  "intBands": {
+    "title": {
+      "en": "What INT actually buys a controller",
+      "th": "INT ซื้ออะไรให้สายคุมเกมได้บ้าง"
+    },
+    "rows": [
+      {
+        "band": "< 400",
+        "what": {
+          "en": "You cannot hold control in large content. Dream Bind in particular has poor base accuracy.",
+          "th": "คุมเกมในเนื้อหาใหญ่ไม่อยู่ โดยเฉพาะสกิลเข้าฝันที่ความแม่นฐานต่ำอยู่แล้ว"
+        }
+      },
+      {
+        "band": "400 – 500",
+        "what": {
+          "en": "Lands reliably on most named targets.",
+          "th": "ลงได้แน่นอนพอควรกับเป้าที่มีชื่อส่วนใหญ่"
+        }
+      },
+      {
+        "band": "500 +",
+        "what": {
+          "en": "Reliable sealing in endgame content.",
+          "th": "ผนึกได้แน่นอนในเนื้อหาท้ายเกม"
+        }
+      },
+      {
+        "band": "Enemy 650 +",
+        "what": {
+          "en": "High-INT bosses make you miss often — this is the wall INT alone cannot break, and the reason the Seer exists.",
+          "th": "บอสที่ INT สูงทำให้เราพลาดบ่อย — นี่คือกำแพงที่ INT อย่างเดียวทุบไม่ได้ และเป็นเหตุผลที่อาชีพผู้หยั่งรู้มีอยู่"
+        }
+      }
+    ]
+  },
+  "openQuestions": [
+    {
+      "en": "The SP formula. We know WIS raises it and that 300–400 is a working target, but no source we can reach prints the per-point number.",
+      "th": "สูตร SP · รู้ว่า WIS เป็นตัวเพิ่ม และ 300–400 คือเป้าที่ใช้ได้จริง แต่ไม่มีแหล่งไหนที่เราเข้าถึงได้พิมพ์ตัวเลขต่อแต้มไว้"
+    },
+    {
+      "en": "Whether AGI feeds dodge. One wiki lists SPD as turn order, fleeing and combo only; another says agility gives attack speed and evasion.",
+      "th": "AGI ช่วยเรื่องหลบหรือเปล่า · วิกิหนึ่งบอกว่า SPD มีผลแค่ลำดับเทิร์น การหนี และคอมโบ อีกวิกิบอกว่าความคล่องแคล่วให้ทั้งความเร็วโจมตีและการหลบ"
+    },
+    {
+      "en": "Priest's hidden passive is described two ways — about 30% reduction on all damage types, or 50% of MDEF converted into DEF. They may be the same thing seen twice, or two separate passives.",
+      "th": "พาสซีฟซ่อนของนักบวชถูกอธิบายสองแบบ — ลดดาเมจทุกประเภทราว 30% หรือแปลง MDEF ครึ่งหนึ่งเป็น DEF · อาจเป็นเรื่องเดียวกันที่มองคนละมุม หรือเป็นพาสซีฟคนละตัวก็ได้"
+    },
+    {
+      "en": "Job-skill durations disagree between sources — Temple Shield 2 or 3 rounds, Knight's Spirit 1, 2 or 3. Almost certainly patch drift.",
+      "th": "ระยะเวลาของสกิลอาชีพไม่ตรงกันระหว่างแหล่งข้อมูล — โล่วิหาร 2 หรือ 3 รอบ · จิตวิญญาณอัศวิน 1, 2 หรือ 3 · เกือบแน่ว่าเป็นเพราะแพตช์เปลี่ยนไปคนละยุค"
+    },
+    {
+      "en": "Crit rate is a real stat in Re and physical gear stacks it, but nobody has documented how it works.",
+      "th": "อัตราคริติคอลเป็นค่าที่มีจริงใน Re และของสายกายภาพก็สะสมค่านี้ แต่ยังไม่มีใครบันทึกไว้ว่ามันทำงานยังไง"
+    }
+  ],
+  "hp": {
+    "formula": "HP ≈ 180 + Lv + (CON × 10)",
+    "note": {
+      "en": "Pieced together from two independent statements — 10 max HP per CON point, and a floor of 180 plus level at CON 0. Nobody prints it as one formula, so check it against your own character before trusting it.",
+      "th": "ประกอบขึ้นจากข้อมูลสองชิ้นที่แยกกัน — CON หนึ่งแต้มให้ HP สูงสุด 10 และถ้า CON 0 จะเหลือพื้น 180 บวกเลเวล · ไม่มีใครเขียนเป็นสูตรเดียว ควรลองเทียบกับตัวเองก่อนเชื่อ"
+    }
+  }
+}
