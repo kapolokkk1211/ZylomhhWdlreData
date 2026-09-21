@@ -6629,15 +6629,15 @@
   "statsNote": "seal resist +6%",
   "statsRaw": "ATK+8, seal resist +6%",
   "recipe": {
-   "en": "Pure Iron + Gem + Magic Jade",
-   "th": "เหล็กแดง + พลอย + ของเสริมพลัง"
+   "en": "Pure Iron Heavy Boots + Delicate Emerald + Polish Dragon Bone + book",
+   "th": "รองเท้าบู๊ตหนักเหล็กแดง + มรกตประณีต + กระดูกมังกรขัดเงา + หนังสือเล่นแร่"
   },
   "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "KK compounded it 2026-09-21: เหล็กแดง + พลอย + ของเสริมพลัง — PureIron + Gem + MagicJade, exactly the families this row declares. Recipe now states the families, which is what the pot actually checks; the compendium's specific-item form (Flame Thorn Bracers r16 + Immaculate Sapphire r16 + Dragon Scale Marrow r16) is one working instantiation of the same three. Thai name and bracer slot confirmed from the client's armour compendium."
+  "note": "KK compounded it 2026-09-21: เหล็กแดง + พลอย + ของเสริมพลัง — PureIron + Gem + MagicJade, exactly the families this row declares. Recipe now states the families, which is what the pot actually checks; the compendium's specific-item form (Flame Thorn Bracers r16 + Immaculate Sapphire r16 + Dragon Scale Marrow r16) is one working instantiation of the same three. Thai name and bracer slot confirmed from the client's armour compendium. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. The item-level form of the families KK tested earlier: PureIron + Gem + MagicJade, all three at r10."
  },
  {
   "id": "pure-iron-sabre-r15",
@@ -8086,13 +8086,14 @@
   "statsNote": null,
   "statsRaw": "DEF+25 SPD−6",
   "recipe": {
-   "en": "Grey Wolf Bracers + Wolf Fang",
-   "th": "ปลอกแขนหมาป่าเทา + เขี้ยวหมาป่า"
+   "en": "Grey Wolf Bracers + book",
+   "th": "ปลอกแขนหมาป่าเทา + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ปลอกแขนหมาป่าเทา + เขี้ยวหมาป่า; the wolf fang is not part of it. Titan r16 climbing to Titan r19."
  },
  {
   "id": "dusk-horn-helm-r20",
@@ -8189,15 +8190,15 @@
   "statsNote": null,
   "statsRaw": "ATK+30 DEF+14",
   "recipe": {
-   "en": "Strong Guard Armor + r19 Wood; Dusk Horn Helm + r20 Wood",
-   "th": "เกราะรบป้องกันแกร่ง + ไม้ r19 · หมวกเกราะเขาสนธยา + ไม้ r20"
+   "en": "Strong Guard War Armor + r19 Wood + book",
+   "th": "เกราะรบป้องกันแกร่ง + ไม้ r19 + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "Thai name from KK's client 2026-09-21. We had ดาบใหญ่ทะลวงวิญญาณ; the client says ดาบใหญ่คร่าวิญญาณ, which is also the closer reading of 戮靈 — คร่า is to take a life, ทะลวง only to pierce. Rank 22, level limit 44, sword slot, and the structure materials [หลัก]ไทเทเนียม [รอง]ไม้ all confirm this row's Titan primary + Wood secondary. OPEN: the client shows ATK+33 DEF+15 where this row says ATK+30 DEF+14."
+  "note": "Thai name from KK's client 2026-09-21. We had ดาบใหญ่ทะลวงวิญญาณ; the client says ดาบใหญ่คร่าวิญญาณ, which is also the closer reading of 戮靈 — คร่า is to take a life, ทะลวง only to pierce. Rank 22, level limit 44, sword slot, and the structure materials [หลัก]ไทเทเนียม [รอง]ไม้ all confirm this row's Titan primary + Wood secondary. OPEN: the client shows ATK+33 DEF+15 where this row says ATK+30 DEF+14. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. We held two alternatives; this is the confirmed one. The other, หมวกเกราะเขาสนธยา + ไม้ r20, is unconfirmed and no longer shown."
  },
  {
   "id": "poleaxe-r22",
@@ -9934,13 +9935,14 @@
   "statsNote": null,
   "statsRaw": "MDEF+7 MATK+3",
   "recipe": {
-   "en": "Pure Silver Earring + Fire Hemp Shoes",
-   "th": "ต่างหูเงินบริสุทธิ์ + รองเท้าป่านไฟ"
+   "en": "Pure Silver Earring + Fire Hemp Shoes + book",
+   "th": "ต่างหูเงินบริสุทธิ์ + รองเท้าป่านไฟ + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Ingredients were already right; the book was missing."
  },
  {
   "id": "white-bell-ring-r14",
@@ -9967,15 +9969,15 @@
   "statsNote": "seal resist +6%",
   "statsRaw": "SPD+8, seal resist +6%",
   "recipe": {
-   "en": "r18 Silver + Immaculate Sapphire + Airship Steering + Dragon Scale Marrow",
-   "th": "เงิน r18 + ไพลินไร้ตำหนิ + อุปกรณ์บังคับเรือเหาะ + ไขกระดูกเกล็ดมังกร"
+   "en": "Pure Silver Ring x2 + Pure Ruby + Adjusted Valve + Polish Dragon Bone + book",
+   "th": "แหวนเงินบริสุทธิ์ x2 + ทับทิมบริสุทธิ์ + วาล์วปรับแต่ง + กระดูกมังกรขัดเงา + หนังสือเล่นแร่"
   },
   "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-10",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "KK reported the Thai client name รองเท้ากระดิ่งขาว and could not find it on the site — we had it as an accessory called White Bell Ring, so the Thai name came out as ห่วงกระดิ่งขาว and the row was unfindable. WLOHUB (items/1345), wlopedia and the legacy Bahamut alchemy encyclopedia all agree: it is a white bell ankle-ring worn in the SHOES slot, r14 lv28, Silver + Aluminum + Corundum + Magic, SPD+8 and 6% seal resist. The community sheet writes the name as “radiant ring”, a mis-transcription of “ankle-ring” — which is where our wrong name came from."
+  "note": "KK reported the Thai client name รองเท้ากระดิ่งขาว and could not find it on the site — we had it as an accessory called White Bell Ring, so the Thai name came out as ห่วงกระดิ่งขาว and the row was unfindable. WLOHUB (items/1345), wlopedia and the legacy Bahamut alchemy encyclopedia all agree: it is a white bell ankle-ring worn in the SHOES slot, r14 lv28, Silver + Aluminum + Corundum + Magic, SPD+8 and 6% seal resist. The community sheet writes the name as “radiant ring”, a mis-transcription of “ankle-ring” — which is where our wrong name came from. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Five ingredients with Pure Silver Ring used twice — Silver, Silver, Gem, Alum, MagicJade, which is this row's Silver primary plus all three secondaries."
  },
  {
   "id": "silver-blade-claw-r14",
@@ -18840,13 +18842,14 @@
   "statsNote": null,
   "statsRaw": "MATK+17",
   "recipe": {
-   "en": "Leather + Fang (Primary alchemy)",
-   "th": "ถุงมือหนัง + มีดเขี้ยวพิษ (Primary alchemy)"
+   "en": "Warm Thick Leather Boots + book",
+   "th": "รองเท้าหนังหนาอบอุ่น + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ถุงมือหนัง + มีดเขี้ยวพิษ, which is not this chain. A Leather r13 climbing to Leather r17."
  },
  {
   "id": "thick-leather-guards-r17",
@@ -19328,15 +19331,15 @@
   "statsNote": null,
   "statsRaw": "SPD+14 MDEF+8",
   "recipe": {
-   "en": "Wind Demon Gloves + Copper Mage Crown",
-   "th": "ถุงมือปีศาจลม + มงกุฎเมจทองแดง"
+   "en": "Witch Leather Hat + book",
+   "th": "หมวกหนังแม่มด + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "Thai name taken verbatim from KK's client 2026-09-21. It is a garbled machine translation — the description underneath reads properly as รองเท้าบูตหนังเย็บจากหนังเหนียวของมังกรปีก — but the client string is what a player can search for, so it wins over our cleaner รองเท้าบู๊ตหนังมังกรมีปีก. Rank 22 and the boots slot both confirmed by the same tooltip. OPEN: the client shows SPD+13 where this row says SPD+14; MDEF+8 agrees. Not changed — the tooltip marks both stats with a ▲ and shows a greyed ATK line, so the displayed numbers may include a modifier."
+  "note": "Thai name taken verbatim from KK's client 2026-09-21. It is a garbled machine translation — the description underneath reads properly as รองเท้าบูตหนังเย็บจากหนังเหนียวของมังกรปีก — but the client string is what a player can search for, so it wins over our cleaner รองเท้าบู๊ตหนังมังกรมีปีก. Rank 22 and the boots slot both confirmed by the same tooltip. OPEN: the client shows SPD+13 where this row says SPD+14; MDEF+8 agrees. Not changed — the tooltip marks both stats with a ▲ and shows a greyed ATK line, so the displayed numbers may include a modifier. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ถุงมือปีศาจลม + มงกุฎเมจทองแดง. Leather r17 climbing to Leather r22."
  },
  {
   "id": "red-lotus-boots-r23",
@@ -19703,13 +19706,14 @@
   "statsNote": null,
   "statsRaw": "ATK+28",
   "recipe": {
-   "en": "Steel Thorn Bracers + Spirit-Piercing Greatsword + book",
-   "th": "ปลอกแขนหนามเหล็กกล้า + ดาบใหญ่ทะลวงวิญญาณ + หนังสือเล่นแร่"
+   "en": "Winged Dragon Leather Boots + Spirit-Piercing Greatsword + book",
+   "th": "รองเท้าหนังพบุกเพราะ + ดาบใหญ่คร่าวิญญาณ + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ปลอกแขนหนามเหล็กกล้า as the first ingredient — that item carries Copper and Steel, neither of which this row's families allow. The boots are Leather, matching the primary."
  },
  {
   "id": "wool-r3",
@@ -21264,7 +21268,9 @@
  {
   "id": "evening-gown-r27",
   "family": "MagicJade",
-  "secondary": [],
+  "secondary": [
+   "Wood"
+  ],
   "rank": 27,
   "lv": 54,
   "slot": "armor",
@@ -21282,13 +21288,14 @@
   "statsNote": null,
   "statsRaw": "MATK+27",
   "recipe": {
-   "en": "Magic Jade Stone + Vertical Wing / Bone Steel Sword + book",
-   "th": "หินหยกเวท + ปีกตั้ง / ดาบเหล็กกล้ากระดูก + หนังสือเล่นแร่"
+   "en": "Magic Jade Stone + Vertical Wing + book",
+   "th": "หินหยกเวท + ปีกตั้ง + หนังสือเล่นแร่"
   },
-  "confidence": "RE-reported",
+  "confidence": "KK-tested",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Wood added to the secondaries: Vertical Wing is a Wood item and the row listed no secondary at all. The unconfirmed alternative ดาบเหล็กกล้ากระดูก is no longer shown."
  },
  {
   "id": "black-frost-robe-r28",
