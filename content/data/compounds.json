@@ -8174,7 +8174,7 @@
   "name": {
    "en": "Spirit-Piercing Greatsword",
    "cn": "戮靈巨劍",
-   "th": "ดาบใหญ่ทะลวงวิญญาณ"
+   "th": "ดาบใหญ่คร่าวิญญาณ"
   },
   "stats": [
    {
@@ -8195,7 +8195,9 @@
   "confidence": "RE-reported",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Thai name from KK's client 2026-09-21. We had ดาบใหญ่ทะลวงวิญญาณ; the client says ดาบใหญ่คร่าวิญญาณ, which is also the closer reading of 戮靈 — คร่า is to take a life, ทะลวง only to pierce. Rank 22, level limit 44, sword slot, and the structure materials [หลัก]ไทเทเนียม [รอง]ไม้ all confirm this row's Titan primary + Wood secondary. OPEN: the client shows ATK+33 DEF+15 where this row says ATK+30 DEF+14."
  },
  {
   "id": "poleaxe-r22",
