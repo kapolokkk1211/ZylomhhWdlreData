@@ -1,0 +1,138 @@
+{
+  "quest": {
+    "name": {
+      "en": "Rift Survey Team",
+      "th": "ทีมสำรวจรอยแยก"
+    }
+  },
+  "intro": {
+    "en": "A daily quest. Pollution demons appear at random points on the world map, and clearing each one costs one elemental Recycle Core — the quest window has its own button to go and craft them. This is KK's running record from play, not a guide; blanks below are blanks, not omissions.",
+    "th": "เป็นเควสรายวัน · ปีศาจมลพิษจะโผล่แบบสุ่มตามจุดต่าง ๆ บนแผนที่โลก และการเคลียร์แต่ละตัวต้องใช้แกนรีไซเคิลธาตุหนึ่งอัน — ในหน้าต่างเควสมีปุ่มไปสร้างแกนอยู่ในตัว · หน้านี้คือบันทึกจากการเล่นจริงของ KK ไม่ใช่ไกด์ · ช่องที่ว่างคือยังไม่รู้จริง ๆ ไม่ใช่ลืมใส่"
+  },
+  "facts": [
+    {
+      "en": "Randomised daily — which demons appear, and where, changes each day.",
+      "th": "สุ่มใหม่ทุกวัน — ว่าจะเจอปีศาจตัวไหนและโผล่ตรงไหน เปลี่ยนทุกวัน"
+    },
+    {
+      "en": "Each clear costs one Core, and there are four, one per element.",
+      "th": "เคลียร์หนึ่งตัวใช้แกนหนึ่งอัน และมีแกนสี่แบบ ธาตุละหนึ่ง"
+    },
+    {
+      "en": "Cores are crafted, not bought — the quest window links straight to ไปสร้างแกนรีไซเคิล.",
+      "th": "แกนได้จากการสร้าง ไม่ใช่ซื้อ — ในหน้าต่างเควสมีปุ่ม ไปสร้างแกนรีไซเคิล ลิงก์ไปให้เลย"
+    },
+    {
+      "en": "Demons are placed on the world map, so the run is a route, not a single stop.",
+      "th": "ปีศาจกระจายอยู่บนแผนที่โลก การเก็บแต่ละวันจึงเป็นการวิ่งเป็นเส้นทาง ไม่ใช่ไปจุดเดียวจบ"
+    }
+  ],
+  "demons": [
+    {
+      "id": "plastic-bag",
+      "name": {
+        "en": "Plastic Bag Demon",
+        "th": "ปีศาจถุงพลาสติก"
+      },
+      "core": "wind",
+      "icon": "green",
+      "thConfirmed": true
+    },
+    {
+      "id": "metal-dust",
+      "name": {
+        "en": "Metal Dust Demon",
+        "th": "ปีศาจฝุ่นโลหะ"
+      },
+      "core": "wind",
+      "icon": "blue",
+      "thConfirmed": true
+    },
+    {
+      "id": "rusted-fishing-gear",
+      "name": {
+        "en": "Rusted Fishing Gear Demon",
+        "th": "ปีศาจอุปกรณ์ประมงขึ้นสนิม"
+      },
+      "core": null,
+      "icon": "blue",
+      "thConfirmed": true
+    },
+    {
+      "id": "plastic-foam",
+      "name": {
+        "en": "Plastic Foam Demon",
+        "th": "ปีศาจโฟมพลาสติก"
+      },
+      "core": "wind",
+      "icon": "green",
+      "thConfirmed": true
+    },
+    {
+      "id": "lead-cadmium",
+      "name": {
+        "en": "Lead-Cadmium Demon",
+        "th": "ปีศาจตะกั่ว – แคดเมียม"
+      },
+      "core": null,
+      "icon": "blue",
+      "thConfirmed": true
+    }
+  ],
+  "cores": [
+    {
+      "key": "wind",
+      "name": {
+        "en": "Wind Core",
+        "th": "แกนลม"
+      },
+      "seen": true
+    },
+    {
+      "key": "fire",
+      "name": {
+        "en": "Fire Core",
+        "th": "แกนไฟ"
+      },
+      "seen": false
+    },
+    {
+      "key": "water",
+      "name": {
+        "en": "Water Core",
+        "th": "แกนน้ำ"
+      },
+      "seen": false
+    },
+    {
+      "key": "earth",
+      "name": {
+        "en": "Earth Core",
+        "th": "แกนดิน"
+      },
+      "seen": false
+    }
+  ],
+  "open": [
+    {
+      "en": "The Core names for fire, water and earth are our guesses at the pattern — only the Wind Core has actually been seen in the client.",
+      "th": "ชื่อแกนของธาตุไฟ น้ำ และดิน เป็นการเดาตามแพตเทิร์นเท่านั้น — ที่เห็นในเกมจริงมีแค่แกนลม"
+    },
+    {
+      "en": "Which Core each demon takes is only known for three of the five so far.",
+      "th": "รู้แล้วว่าปีศาจตัวไหนใช้แกนอะไร แค่สามตัวจากห้าตัว"
+    },
+    {
+      "en": "The list icons come in two colours, green and blue, and we do not know what the colour means. It is not the Core: ปีศาจฝุ่นโลหะ has a blue icon and still takes a Wind Core.",
+      "th": "ไอคอนในลิสต์มีสองสี เขียวกับน้ำเงิน และยังไม่รู้ว่าสีหมายถึงอะไร · ไม่ใช่สีของแกนแน่ ๆ เพราะปีศาจฝุ่นโลหะไอคอนน้ำเงินแต่ใช้แกนลม"
+    },
+    {
+      "en": "How a Core is crafted, and what a clear pays out, are both unrecorded.",
+      "th": "ยังไม่ได้บันทึกว่าสร้างแกนยังไง และเคลียร์แล้วได้อะไร"
+    },
+    {
+      "en": "Whether the five demons here are the full roster, or just what turned up on one day, is unknown.",
+      "th": "ยังไม่รู้ว่าปีศาจห้าตัวนี้คือทั้งหมด หรือเป็นแค่ที่สุ่มมาในวันเดียว"
+    }
+  ]
+}

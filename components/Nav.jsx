@@ -8,6 +8,7 @@ const ITEMS = [
   ['/materials', 'materials'],
   ['/simulator', 'simulator'],
   ['/quests', 'quests'],
+  ['/recycle', 'recycle'],
   ['/skills', 'skills'],
   ['/companions', 'companions'],
   ['/feedback', 'feedback'],
