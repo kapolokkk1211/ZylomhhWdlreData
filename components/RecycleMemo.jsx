@@ -1,12 +1,29 @@
 'use client';
+import { useMemo, useState } from 'react';
 
 /* A running record, not a guide. The one question a player has each day is "which Core does
    this demon want", so the demon table leads and everything unknown says so out loud rather
    than being left blank and hopeful. */
 export default function RecycleMemo({ data, strings, lang }) {
+  const [q, setQ] = useState('');
   const pick = (o) => (o ? (lang === 'th' ? o.th || o.en : o.en || o.th) || '' : '');
   const coreOf = (k) => data.cores.find((c) => c.key === k);
   const known = data.demons.filter((d) => d.core).length;
+
+  /* Searching the Core as well as the demon makes the table work backwards too: you craft a
+     Core first, so "I have a แกนลม, what does it clear" is the other half of the question. */
+  const shown = useMemo(() => {
+    const term = q.trim().toLowerCase();
+    if (!term) return data.demons;
+    return data.demons.filter((d) => {
+      const core = coreOf(d.core);
+      return [d.name.th, d.name.en, core?.name.th, core?.name.en, core?.key]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase()
+        .includes(term);
+    });
+  }, [q, data]);
 
   return (
     <>
@@ -21,7 +38,21 @@ export default function RecycleMemo({ data, strings, lang }) {
       </ul>
 
       <h2 className="cg-h2">{strings.demonsTitle}</h2>
-      <p className="cg-dim">{strings.demonsLede.replace('{known}', known).replace('{total}', data.demons.length)}</p>
+      <div className="controls rc-controls">
+        <input
+          type="search"
+          id="rc-search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={strings.searchDemon}
+          aria-label={strings.searchDemon}
+        />
+        <span className="count">
+          {q.trim()
+            ? strings.showing.replace('{n}', shown.length).replace('{total}', data.demons.length)
+            : strings.demonsLede.replace('{known}', known).replace('{total}', data.demons.length)}
+        </span>
+      </div>
       <div className="scroll">
         <table className="cgtable rc-table">
           <thead>
@@ -32,7 +63,7 @@ export default function RecycleMemo({ data, strings, lang }) {
             </tr>
           </thead>
           <tbody>
-            {data.demons.map((d) => {
+            {shown.map((d) => {
               const core = coreOf(d.core);
               return (
                 <tr key={d.id}>
@@ -55,6 +86,7 @@ export default function RecycleMemo({ data, strings, lang }) {
           </tbody>
         </table>
       </div>
+      {shown.length === 0 && <div className="empty">{strings.noResults}</div>}
 
       <h2 className="cg-h2">{strings.coresTitle}</h2>
       <div className="rc-cores">

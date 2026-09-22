@@ -1068,3 +1068,5 @@ html[data-view="mobile"] .bg-ladder th { width: 76px; }
 .rc-patterns article { border-left: 3px solid var(--star); background: var(--star-bg); padding: 13px 16px; border-radius: 0 var(--radius) var(--radius) 0; }
 .rc-patterns h3 { margin: 0 0 5px; font-size: 15.5px; font-weight: 600; }
 .rc-patterns p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); max-width: 68ch; }
+.rc-controls { position: static; margin-bottom: 12px; }
+.rc-controls input[type="search"] { flex: 1 1 260px; }
