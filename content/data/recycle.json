@@ -74,7 +74,7 @@
         "en": "Lead-Cadmium Demon",
         "th": "ปีศาจตะกั่ว – แคดเมียม"
       },
-      "core": null,
+      "core": "earth",
       "icon": "blue",
       "thConfirmed": true
     }
@@ -110,28 +110,28 @@
         "en": "Earth Core",
         "th": "แกนดิน"
       },
-      "seen": false
+      "seen": true
     }
   ],
   "open": [
     {
-      "en": "The Core names for fire, water and earth are our guesses at the pattern — only the Wind Core has actually been seen in the client.",
-      "th": "ชื่อแกนของธาตุไฟ น้ำ และดิน เป็นการเดาตามแพตเทิร์นเท่านั้น — ที่เห็นในเกมจริงมีแค่แกนลม"
+      "en": "The Fire and Water Core names are still our guess at the pattern — wind and earth are the two actually seen in the client.",
+      "th": "ชื่อแกนไฟกับแกนน้ำยังเป็นการเดาตามแพตเทิร์นอยู่ — ที่เห็นในเกมจริงแล้วมีแกนลมกับแกนดิน"
     },
     {
-      "en": "Which Core each demon takes is only known for three of the five so far.",
-      "th": "รู้แล้วว่าปีศาจตัวไหนใช้แกนอะไร แค่สามตัวจากห้าตัว"
+      "en": "One demon left without a Core: ปีศาจอุปกรณ์ประมงขึ้นสนิม.",
+      "th": "เหลือปีศาจที่ยังไม่รู้แกนอยู่ตัวเดียว คือปีศาจอุปกรณ์ประมงขึ้นสนิม"
     },
     {
-      "en": "The list icons come in two colours, green and blue, and we do not know what the colour means. It is not the Core: ปีศาจฝุ่นโลหะ has a blue icon and still takes a Wind Core.",
-      "th": "ไอคอนในลิสต์มีสองสี เขียวกับน้ำเงิน และยังไม่รู้ว่าสีหมายถึงอะไร · ไม่ใช่สีของแกนแน่ ๆ เพราะปีศาจฝุ่นโลหะไอคอนน้ำเงินแต่ใช้แกนลม"
+      "en": "The list icon colour is definitely not the Core, and this is now settled rather than suspected: ปีศาจฝุ่นโลหะ and ปีศาจตะกั่ว – แคดเมียม both have blue icons and take different Cores — wind and earth. Whatever blue and green mean, it is something else.",
+      "th": "สีไอคอนในลิสต์ไม่ใช่สีของแกนแน่นอน และตอนนี้ปิดประเด็นได้แล้ว ไม่ใช่แค่สงสัย: ปีศาจฝุ่นโลหะกับปีศาจตะกั่ว – แคดเมียม ไอคอนน้ำเงินเหมือนกันทั้งคู่ แต่ใช้แกนคนละอัน — ลมกับดิน · สีเขียวกับน้ำเงินหมายถึงอะไรก็ตาม ไม่ใช่แกนแน่ ๆ"
     },
     {
       "en": "How a Core is crafted, and what a clear pays out, are both unrecorded.",
       "th": "ยังไม่ได้บันทึกว่าสร้างแกนยังไง และเคลียร์แล้วได้อะไร"
     },
     {
-      "en": "Whether the five demons here are the full roster, or just what turned up on one day, is unknown.",
+      "en": "Whether these five are the full roster, or just what turned up on one day, is unknown.",
       "th": "ยังไม่รู้ว่าปีศาจห้าตัวนี้คือทั้งหมด หรือเป็นแค่ที่สุ่มมาในวันเดียว"
     }
   ]
