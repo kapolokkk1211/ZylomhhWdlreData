@@ -67,6 +67,20 @@ export default function RecycleMemo({ data, strings, lang }) {
         ))}
       </div>
 
+      {data.patterns?.length > 0 && (
+        <>
+          <h2 className="cg-h2">{strings.patternsTitle}</h2>
+          <div className="rc-patterns">
+            {data.patterns.map((pt, i) => (
+              <article key={i}>
+                <h3>{pick(pt.title)}</h3>
+                <p>{pick(pt.body)}</p>
+              </article>
+            ))}
+          </div>
+        </>
+      )}
+
       <h2 className="cg-h2">{strings.openTitle}</h2>
       <ul className="cg-list">
         {data.open.map((o, i) => <li key={i}>{pick(o)}</li>)}

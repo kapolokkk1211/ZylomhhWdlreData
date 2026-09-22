@@ -54,7 +54,7 @@
         "en": "Rusted Fishing Gear Demon",
         "th": "ปีศาจอุปกรณ์ประมงขึ้นสนิม"
       },
-      "core": null,
+      "core": "water",
       "icon": "blue",
       "thConfirmed": true
     },
@@ -102,7 +102,7 @@
         "en": "Water Core",
         "th": "แกนน้ำ"
       },
-      "seen": false
+      "seen": true
     },
     {
       "key": "earth",
@@ -115,24 +115,38 @@
   ],
   "open": [
     {
-      "en": "The Fire and Water Core names are still our guess at the pattern — wind and earth are the two actually seen in the client.",
-      "th": "ชื่อแกนไฟกับแกนน้ำยังเป็นการเดาตามแพตเทิร์นอยู่ — ที่เห็นในเกมจริงแล้วมีแกนลมกับแกนดิน"
+      "en": "Both patterns below fit all five demons, but five is a small sample and neither is a confirmed rule — they are written down so they can be tested, not relied on.",
+      "th": "แพตเทิร์นทั้งสองข้อด้านล่างเข้ากับปีศาจครบทั้งห้าตัว แต่ห้าตัวถือว่ากลุ่มตัวอย่างเล็ก และยังไม่ใช่กฎที่ยืนยันแล้ว — เขียนไว้เพื่อให้ลองพิสูจน์ ไม่ใช่เพื่อให้เชื่อเลย"
     },
     {
-      "en": "One demon left without a Core: ปีศาจอุปกรณ์ประมงขึ้นสนิม.",
-      "th": "เหลือปีศาจที่ยังไม่รู้แกนอยู่ตัวเดียว คือปีศาจอุปกรณ์ประมงขึ้นสนิม"
-    },
-    {
-      "en": "The list icon colour is definitely not the Core, and this is now settled rather than suspected: ปีศาจฝุ่นโลหะ and ปีศาจตะกั่ว – แคดเมียม both have blue icons and take different Cores — wind and earth. Whatever blue and green mean, it is something else.",
-      "th": "สีไอคอนในลิสต์ไม่ใช่สีของแกนแน่นอน และตอนนี้ปิดประเด็นได้แล้ว ไม่ใช่แค่สงสัย: ปีศาจฝุ่นโลหะกับปีศาจตะกั่ว – แคดเมียม ไอคอนน้ำเงินเหมือนกันทั้งคู่ แต่ใช้แกนคนละอัน — ลมกับดิน · สีเขียวกับน้ำเงินหมายถึงอะไรก็ตาม ไม่ใช่แกนแน่ ๆ"
+      "en": "The Fire Core has still never been seen. If the four Cores really are all used, at least one demon is missing from this list.",
+      "th": "แกนไฟยังไม่เคยเจอเลย ถ้าแกนทั้งสี่ถูกใช้งานจริงทั้งหมด แปลว่ายังมีปีศาจที่ยังไม่อยู่ในลิสต์นี้อย่างน้อยหนึ่งตัว"
     },
     {
       "en": "How a Core is crafted, and what a clear pays out, are both unrecorded.",
       "th": "ยังไม่ได้บันทึกว่าสร้างแกนยังไง และเคลียร์แล้วได้อะไร"
+    }
+  ],
+  "patterns": [
+    {
+      "title": {
+        "en": "The icon colour is the waste type, not the Core",
+        "th": "สีไอคอนคือประเภทของขยะ ไม่ใช่แกน"
+      },
+      "body": {
+        "en": "All five fit: the two green demons are the plastics — ถุงพลาสติก and โฟมพลาสติก — and all three blue ones are metals: ฝุ่นโลหะ, ขึ้นสนิม (rust is metal), and ตะกั่ว–แคดเมียม. It cannot be the Core, because the three blues take three different Cores. Test it on the next new demon you see: a green one should be plastic.",
+        "th": "เข้ากันครบทั้งห้าตัว: ไอคอนเขียวสองตัวคือพวกพลาสติก — ถุงพลาสติกกับโฟมพลาสติก — ส่วนน้ำเงินสามตัวเป็นโลหะหมด: ฝุ่นโลหะ, ขึ้นสนิม (สนิมคือโลหะ) และตะกั่ว–แคดเมียม · เป็นสีของแกนไม่ได้แน่ เพราะน้ำเงินสามตัวใช้แกนคนละอันทั้งสามตัว · ลองเช็กกับปีศาจตัวใหม่ที่เจอ: ถ้าเขียวก็ควรเป็นพลาสติก"
+      }
     },
     {
-      "en": "Whether these five are the full roster, or just what turned up on one day, is unknown.",
-      "th": "ยังไม่รู้ว่าปีศาจห้าตัวนี้คือทั้งหมด หรือเป็นแค่ที่สุ่มมาในวันเดียว"
+      "title": {
+        "en": "The Core matches where the pollution lives",
+        "th": "แกนที่ใช้ตรงกับว่ามลพิษนั้นอยู่ตรงไหน"
+      },
+      "body": {
+        "en": "Also fits all five, and it is the more useful of the two. Airborne or wind-blown litter takes wind — plastic bags, foam, metal dust. Rusted fishing gear, which is waterlogged sea waste, takes water. Lead and cadmium, which are soil contaminants, take earth. If the rule holds, the missing Fire Core belongs to a demon we have not met — something burnt, smoke or ash.",
+        "th": "เข้าครบทั้งห้าตัวเหมือนกัน และเป็นแพตเทิร์นที่ใช้ประโยชน์ได้มากกว่า · ขยะที่ลอยในอากาศหรือปลิวตามลมใช้แกนลม — ถุงพลาสติก โฟม ฝุ่นโลหะ · อุปกรณ์ประมงขึ้นสนิมคือขยะทะเลที่แช่น้ำ ใช้แกนน้ำ · ตะกั่วกับแคดเมียมคือสารปนเปื้อนในดิน ใช้แกนดิน · ถ้ากฎนี้จริง แกนไฟที่ยังไม่เจอน่าจะเป็นของปีศาจที่เรายังไม่พบ — พวกของไหม้ ควัน หรือเถ้า"
+      }
     }
   ]
 }
