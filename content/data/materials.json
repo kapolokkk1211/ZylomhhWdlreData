@@ -4554,34 +4554,6 @@
   "updated": "2026-09-09"
  },
  {
-  "id": "magicjade-r14-dragon-staff",
-  "family": "MagicJade",
-  "rank": 14,
-  "name": {
-   "en": "Dragon Staff",
-   "cn": "龍杖",
-   "th": "ไม้เท้ามังกร"
-  },
-  "sources": [
-   {
-    "type": "shop",
-    "town": "china",
-    "price": 460,
-    "priceProvenance": "legacy-wlohub",
-    "provenance": "re-sheet"
-   }
-  ],
-  "flags": {
-   "cheapestOfFamily": true,
-   "highestBuyable": false,
-   "keyMaterial": false,
-   "priceConfirmedRe": false
-  },
-  "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
- },
- {
   "id": "magicjade-r18-magic-crystal-powder",
   "family": "MagicJade",
   "rank": 18,
@@ -6795,8 +6767,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": "Heavily used mid-tier wood ingredient",
-  "updated": "2026-09-07"
+  "note": "ตระกูลไม้ ยืนยันจาก KK 23 ก.ย. 2026 — ร้านหมู่บ้านประมงจีนเคยขึ้นไม้เท้ามังกรสองแถว ตระกูลไม้แถวหนึ่งกับของเสริมพลังอีกแถวหนึ่ง ซึ่งเป็นของชิ้นเดียวกันถูกนับซ้ำ · แถวของเสริมพลังถูกลบแล้ว",
+  "updated": "2026-09-07",
+  "thConfirmed": true
  },
  {
   "id": "wood-r14-vine-bamboo-hat-wooden-clogs",
