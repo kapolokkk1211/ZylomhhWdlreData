@@ -3450,7 +3450,8 @@
   "confidence": "RE-reported",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "A second Taiwanese ladder lists this as a halberd rather than a spear. Same rank, equip level, stats and Iron + Pure Iron families, so it is this row."
  },
  {
   "id": "orc-halberd-r22",
@@ -8198,7 +8199,7 @@
   "updated": "2026-09-07",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "Thai name from KK's client 2026-09-21. We had ดาบใหญ่ทะลวงวิญญาณ; the client says ดาบใหญ่คร่าวิญญาณ, which is also the closer reading of 戮靈 — คร่า is to take a life, ทะลวง only to pierce. Rank 22, level limit 44, sword slot, and the structure materials [หลัก]ไทเทเนียม [รอง]ไม้ all confirm this row's Titan primary + Wood secondary. OPEN: the client shows ATK+33 DEF+15 where this row says ATK+30 DEF+14. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. We held two alternatives; this is the confirmed one. The other, หมวกเกราะเขาสนธยา + ไม้ r20, is unconfirmed and no longer shown."
+  "note": "Thai name from KK's client 2026-09-21. We had ดาบใหญ่ทะลวงวิญญาณ; the client says ดาบใหญ่คร่าวิญญาณ, which is also the closer reading of the original name — คร่า is to take a life, ทะลวง only to pierce. Rank 22, level limit 44, sword slot, and the structure materials [หลัก]ไทเทเนียม [รอง]ไม้ all confirm this row's Titan primary + Wood secondary. OPEN: the client shows ATK+33 DEF+15 where this row says ATK+30 DEF+14. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. We held two alternatives; this is the confirmed one. The other, หมวกเกราะเขาสนธยา + ไม้ r20, is unconfirmed and no longer shown."
  },
  {
   "id": "poleaxe-r22",
@@ -24877,7 +24878,8 @@
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
   "updated": "2026-09-07",
-  "thConfirmed": true
+  "thConfirmed": true,
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-dust-fire-wind-water-earth-r3",
@@ -24904,7 +24906,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starlight-wand-r4",
@@ -24942,7 +24945,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-sabre-r4",
@@ -24980,7 +24984,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-robe-r5",
@@ -25018,7 +25023,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-scale-armor-r5",
@@ -25056,7 +25062,9 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "note": "A second Taiwanese ladder spells this one “Starmark Light Armour” rather than “Scale Armour”. Same rank, same stats, same Copper secondary — the same row under a different reading of the name.",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starlight-gloves-r7",
@@ -25090,7 +25098,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-bracers-r7",
@@ -25124,7 +25133,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starlight-crown-r8",
@@ -25158,7 +25168,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-helm-r8",
@@ -25192,7 +25203,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starlight-boots-r9",
@@ -25230,7 +25242,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-war-boots-r9",
@@ -25268,7 +25281,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starfire-hammer-r11",
@@ -25306,7 +25320,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ring-longsword-r11",
@@ -25345,7 +25360,8 @@
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
   "lvAnomaly": true,
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starfire-robe-r13",
@@ -25383,7 +25399,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ring-battle-dress-r13",
@@ -25421,7 +25438,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starfire-gloves-r15",
@@ -25459,7 +25477,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ring-bracers-r15",
@@ -25497,7 +25516,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starfire-magic-crown-r17",
@@ -25535,7 +25555,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ring-helm-r17",
@@ -25573,7 +25594,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starfire-magic-boots-r19",
@@ -25611,7 +25633,9 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "note": "A second Taiwanese ladder spells this one “Starfire Spirit Boots” rather than “Magic Boots”. Same rank, stats and Grass secondary.",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ring-war-boots-r19",
@@ -25649,7 +25673,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-war-bow-r21",
@@ -25687,7 +25712,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-essence-r22",
@@ -25714,7 +25740,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-robe-r23",
@@ -25752,7 +25779,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-edge-battle-armor-r23",
@@ -25790,7 +25818,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-goldwood-r24",
@@ -25817,7 +25846,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-gloves-r25",
@@ -25855,7 +25885,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-edge-bracers-r25",
@@ -25893,7 +25924,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-glass-r26",
@@ -25920,7 +25952,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-crown-r27",
@@ -25958,7 +25991,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-helm-r27",
@@ -25996,7 +26030,9 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "note": "A second Taiwanese ladder spells this one “Starpoint Helm” rather than “Starsplendour Helm”. Same rank, stats and Pure Iron secondary.",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-mithril-r28",
@@ -26023,7 +26059,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-boots-r29",
@@ -26061,7 +26098,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-peak-war-boots-r29",
@@ -26099,7 +26137,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-blade-r30",
@@ -26137,7 +26176,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-sword-r30",
@@ -26176,7 +26216,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-hat-r30",
@@ -26214,7 +26255,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-bracers-r30",
@@ -26252,7 +26294,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-tunic-r30",
@@ -26290,7 +26333,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-stardust-shoes-r30",
@@ -26328,7 +26372,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-splendor-ring-r30",
@@ -26366,7 +26411,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-edge-ring-r30",
@@ -26404,7 +26450,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-magic-axe-r31",
@@ -26443,7 +26490,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-blade-claw-r31",
@@ -26482,7 +26530,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-feather-r32",
@@ -26509,7 +26558,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-robe-r33",
@@ -26544,7 +26594,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-battle-armor-r33",
@@ -26579,7 +26630,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-ice-crystal-r34",
@@ -26606,7 +26658,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-gloves-r35",
@@ -26645,7 +26698,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-bracers-r35",
@@ -26684,7 +26738,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-crown-r37",
@@ -26723,7 +26778,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-helm-r37",
@@ -26762,7 +26818,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-divine-rune-r38",
@@ -26789,7 +26846,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-boots-r39",
@@ -26828,7 +26886,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-war-boots-r39",
@@ -26867,7 +26926,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-frost-necklace-r40",
@@ -26906,7 +26966,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-star-burst-necklace-r40",
@@ -26945,7 +27006,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-constellation-magic-staff-r41",
@@ -26985,7 +27047,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-steel-axe-r41",
@@ -27025,7 +27088,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-constellation-robe-r43",
@@ -27061,7 +27125,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-battle-armor-r43",
@@ -27097,7 +27162,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-constellation-gloves-r45",
@@ -27137,7 +27203,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-bracers-r45",
@@ -27177,7 +27244,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-constellation-crown-r47",
@@ -27217,7 +27285,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-helm-r47",
@@ -27257,7 +27326,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-constellation-boots-r49",
@@ -27297,7 +27367,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-war-boots-r49",
@@ -27337,7 +27408,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-flawless-star-crystalwood-r51",
@@ -27364,7 +27436,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-magic-sword-r51",
@@ -27401,7 +27474,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-scythe-r51",
@@ -27438,7 +27512,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-magic-ring-r52",
@@ -27475,7 +27550,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-war-ring-r52",
@@ -27512,7 +27588,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-robe-r53",
@@ -27549,7 +27626,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-battle-armor-r53",
@@ -27586,7 +27664,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-flawless-star-feather-r54",
@@ -27613,7 +27692,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-magic-sword-r54",
@@ -27650,7 +27730,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-war-blade-r54",
@@ -27687,7 +27768,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-gloves-r55",
@@ -27724,7 +27806,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-bracers-r55",
@@ -27761,7 +27844,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-dragon-fan-r56",
@@ -27798,7 +27882,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-war-halberd-r56",
@@ -27835,7 +27920,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-flawless-star-glass-r57",
@@ -27862,7 +27948,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-crown-r57",
@@ -27899,7 +27986,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-helm-r57",
@@ -27936,7 +28024,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-magic-staff-r58",
@@ -27973,7 +28062,9 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "note": "OPEN: a second Taiwanese ladder (Bahamut thread snA=139) reads this row's second secondary as Crystal, not Jade. Rank, equip level and stats agree on both sides; only that one family differs, so treat the Jade here as unconfirmed until someone reads the compound window in-client.",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-firmament-claw-r58",
@@ -28010,7 +28101,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-flawless-star-mithril-r59",
@@ -28037,7 +28129,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-boots-r59",
@@ -28074,7 +28167,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-war-boots-r59",
@@ -28111,7 +28205,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starmark-ring-r60",
@@ -28148,7 +28243,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "star-starshadow-ring-r60",
@@ -28185,7 +28281,8 @@
   "confidence": "RE-reported",
   "source": "star-codex-kucha",
   "familyCoverage": "complete",
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "crossChecked": "star-ladder-kucha"
  },
  {
   "id": "magicjade-bead-diamond-r29",

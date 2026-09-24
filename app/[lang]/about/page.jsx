@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { t } from '@/lib/ui';
-import { counts, codes, nm, DATA_DATE } from '@/lib/data';
+import { counts, codes, nm, threadSources, DATA_DATE } from '@/lib/data';
 
 export async function generateMetadata({ params }) {
   const { lang } = await params;
@@ -82,6 +82,17 @@ export default async function Home({ params }) {
           {s.footer.updated} <strong>{DATA_DATE}</strong>.
         </p>
       </div>
+
+      <h2>{s.home.threadsTitle}</h2>
+      <p className="prose">{s.home.threadsLede}</p>
+      <ul className="cg-list srcsheets">
+        {threadSources(lang).map((th) => (
+          <li key={th.id}>
+            <a href={th.url} target="_blank" rel="noopener noreferrer">{th.title}</a>
+            <div className="cg-dim">{th.used}</div>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

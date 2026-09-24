@@ -1070,3 +1070,173 @@ html[data-view="mobile"] .bg-ladder th { width: 76px; }
 .rc-patterns p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); max-width: 68ch; }
 .rc-controls { position: static; margin-bottom: 12px; }
 .rc-controls input[type="search"] { flex: 1 1 260px; }
+
+/* ---- grouped nav ------------------------------------------------------- */
+.nav-group { position: relative; display: inline-flex; }
+.nav-group > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 11px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 14px;
+  line-height: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nav-group > button:hover { background: var(--surface-2); color: var(--ink); }
+.nav-group > button[aria-current='page'] { background: var(--star-bg); color: var(--star); font-weight: 600; }
+.nav-caret {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  opacity: 0.55;
+  transition: transform 0.12s ease;
+}
+.nav-group.open .nav-caret { transform: rotate(180deg); }
+.nav-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 190px;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.nav-menu[hidden] { display: none; }
+.nav-menu a { padding: 7px 10px; }
+
+/* ---- การไต่แรงค์รวมของ ------------------------------------------------- */
+.rk-source { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 0 0 14px; }
+.rk-slabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+}
+.rk-source a { color: var(--metal); }
+.rk-board { margin: 0; }
+.rk-intro { line-height: 1.7; margin: 0 0 20px; }
+.rk-cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-bottom: 10px; }
+.rk-cards article {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.rk-cards h3 { margin: 0 0 6px; font-size: 15px; font-family: var(--font-display); }
+.rk-cards p { margin: 0; font-size: 14px; line-height: 1.65; color: var(--ink-soft); }
+.rk-shortcut {
+  background: var(--good-bg);
+  border-left: 3px solid var(--good);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 14px;
+  margin: 12px 0 0;
+  line-height: 1.65;
+}
+.rk-steps { margin: 0 0 14px; padding-left: 22px; display: grid; gap: 8px; line-height: 1.65; color: var(--ink-soft); }
+.rk-steps li::marker { color: var(--star); font-weight: 600; }
+.rk-table { min-width: 620px; }
+.rk-rank { font-family: var(--font-mono); font-size: 13px; color: var(--star); font-weight: 600; }
+.rk-items { display: flex; flex-wrap: wrap; gap: 6px; }
+.rk-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 3px 9px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  font-size: 13.5px;
+}
+.rk-item em { font-style: normal; font-size: 11.5px; color: var(--ink-faint); }
+.rk-tldr { background: var(--star-bg); border-radius: 10px; padding: 12px 16px; line-height: 1.7; margin: 20px 0 0; }
+.rk-tldr b { color: var(--star); }
+.rk-credit { font-size: 12.5px; color: var(--ink-faint); margin: 18px 0 0; word-break: break-all; }
+.rk-credit a { color: var(--metal); }
+
+/* ---- จุติ 1 / จุติ 2 ---------------------------------------------------- */
+.ad-table { min-width: 760px; }
+.ad-sp {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--magic);
+  background: var(--magic-bg);
+  border-radius: 999px;
+  padding: 2px 7px;
+  margin-left: 7px;
+  white-space: nowrap;
+}
+.ad-line { margin-top: 26px; }
+.ad-lineh {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  font-family: var(--font-display);
+  font-size: 17px;
+  margin: 0 0 10px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.ad-lineh .cg-dim { margin: 0; font-size: 12px; }
+.ad-branches { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); }
+.ad-branch {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  padding: 15px 17px;
+}
+.ad-branch h4 { margin: 0 0 9px; font-size: 16px; font-family: var(--font-display); color: var(--star); }
+.ad-traits { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+.ad-trait {
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--star-bg);
+  color: var(--star);
+}
+.ad-skills { list-style: none; margin: 0; padding: 0; display: grid; gap: 11px; }
+.ad-skill { border-top: 1px solid var(--line-soft); padding-top: 10px; }
+.ad-skill:first-child { border-top: 0; padding-top: 0; }
+.ad-sk-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px; }
+.ad-sk-head b { font-size: 14.5px; }
+.ad-tag {
+  font-size: 11px;
+  margin-left: 7px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--ink-faint);
+}
+.ad-skill.pas .ad-sp { color: var(--ink-faint); background: var(--surface-2); }
+.ad-target { margin: 3px 0 5px; font-size: 12.5px; }
+.ad-skill p { margin: 0; font-size: 13.5px; line-height: 1.62; color: var(--ink-soft); }
+.ad-warn {
+  margin: 12px 0 0;
+  padding: 10px 13px;
+  background: var(--warn-bg);
+  border-left: 3px solid var(--warn);
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+html[data-view="mobile"] .nav-menu { min-width: 170px; }
+html[data-view="mobile"] .nav-group > button { font-size: 13.5px; padding: 6px 10px; }
+html[data-view="mobile"] .rk-table,
+html[data-view="mobile"] .ad-table { min-width: 0; }
+html[data-view="mobile"] .ad-branches,
+html[data-view="mobile"] .rk-cards { grid-template-columns: 1fr; }

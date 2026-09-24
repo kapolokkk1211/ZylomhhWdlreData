@@ -27,5 +27,43 @@
       },
       "lang": "cn"
     }
+  ],
+  "threads": [
+    {
+      "id": "star-ladder-kucha",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=139&tnum=15&subbsn=7",
+      "title": {
+        "en": "[Info] Star family ladder — equip levels, ranks and families, ~Lv120",
+        "th": "[ข้อมูล]ตารางไต่ตระกูลประกายดาว — ลิมิต เลเวลไอเทม และตระกูล ถึงราวเลเวล 120"
+      },
+      "used": {
+        "en": "Cross-checked against all 92 Star rows: every rank and equip level agreed, and only one secondary family disagreed.",
+        "th": "ใช้ตรวจทานแถวตระกูลประกายดาวทั้ง 92 แถว · เลเวลไอเทมและลิมิตตรงกันหมด มีตระกูลรองไม่ตรงอยู่แค่แถวเดียว"
+      }
+    },
+    {
+      "id": "rank-climb-kucha",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=445&tnum=1&subbsn=7",
+      "title": {
+        "en": "[Tips] How to compound materials / recommended filler items",
+        "th": "[แบ่งปัน]วิธีรวมวัสดุ และของถมที่แนะนำ"
+      },
+      "used": {
+        "en": "Translated in full on the Climbing item rank page.",
+        "th": "แปลทั้งโพสต์ไว้ในหน้าการไต่แรงค์รวมของ"
+      }
+    },
+    {
+      "id": "advancement-kucha",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=447&tnum=4",
+      "title": {
+        "en": "[Question] (being rebalanced) Second-advancement job comparison",
+        "th": "[คำถาม](อยู่ระหว่างปรับสมดุล) เปรียบเทียบอาชีพจุติ 2"
+      },
+      "used": {
+        "en": "Translated as the จุติ 2 section of the Main character page.",
+        "th": "แปลเป็นหัวข้อจุติ 2 ในหน้าตัวละครหลัก"
+      }
+    }
   ]
 }

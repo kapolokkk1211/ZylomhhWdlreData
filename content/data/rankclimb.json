@@ -1,0 +1,350 @@
+{
+  "source": {
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=445&tnum=1&subbsn=7",
+    "title": {
+      "en": "[Tips] How to compound materials / recommended filler items",
+      "th": "[แบ่งปัน]วิธีรวมวัสดุ และของถมที่แนะนำ"
+    },
+    "board": {
+      "en": "Bahamut · Wonderland Online Re: Star Ark board",
+      "th": "บอร์ดบาฮามุท · Wonderland Online Re: Star Ark"
+    }
+  },
+  "intro": {
+    "en": "Climbing an item's rank means compounding it with something of the same rank, over and over. That second item is a filler — its only job is to be there. This page is a translation of a Taiwanese player's guide to choosing fillers, plus the one rule that decides which fillers are safe.",
+    "th": "การไต่แรงค์คือการเอาของไปรวมกับของอีกชิ้นที่เลเวลไอเทมเท่ากัน วนแบบนี้ไปเรื่อย ๆ ของชิ้นที่สองนั้นเรียกว่า “ของถม” หน้าที่เดียวของมันคือมีอยู่เฉย ๆ · หน้านี้แปลจากไกด์ของผู้เล่นไต้หวัน ว่าจะเลือกของถมยังไง พร้อมกฎข้อเดียวที่ตัดสินว่าของถมชิ้นไหนปลอดภัย"
+  },
+  "concepts": [
+    {
+      "title": {
+        "en": "What a filler is",
+        "th": "ของถมคืออะไร"
+      },
+      "body": {
+        "en": "When people write “X + filler”, the filler is any material or piece of equipment of any family. It contributes nothing but its rank. Everything can be a filler — the question is only whether it is a SAFE one.",
+        "th": "เวลาเห็นคนเขียนว่า “X + ของถม” ของถมคือวัสดุหรืออุปกรณ์ตระกูลอะไรก็ได้ · มันไม่ได้ให้อะไรนอกจากเลเวลไอเทมของมัน · อะไรก็เป็นของถมได้ คำถามมีแค่ว่าชิ้นนั้นปลอดภัยหรือเปล่า"
+      }
+    },
+    {
+      "title": {
+        "en": "Rank is the green number",
+        "th": "เลเวลไอเทมคือตัวเลขสีเขียว"
+      },
+      "body": {
+        "en": "The green number at the top-left of an item's icon is its rank. Both items you put in must be the same rank.",
+        "th": "ตัวเลขสีเขียวมุมบนซ้ายของไอคอนคือเลเวลไอเทม · ของสองชิ้นที่ใส่ลงไปต้องเลเวลไอเทมเท่ากัน"
+      }
+    },
+    {
+      "title": {
+        "en": "Ignore the secondary family on a filler",
+        "th": "ของถมไม่ต้องดูตระกูลรอง"
+      },
+      "body": {
+        "en": "A piece of equipment is built from more than one family, so it has a primary and a secondary. When it is used AS an ingredient, only its primary counts. A cotton garment is Flower plus Grass, but as an ingredient it is simply a Flower item.",
+        "th": "อุปกรณ์สร้างจากหลายตระกูล จึงมีตระกูลหลักกับตระกูลรอง · แต่เวลาเอามันไปเป็นวัตถุดิบ นับแค่ตระกูลหลักอย่างเดียว · เสื้อผ้าฝ้ายเป็นดอกไม้+หญ้า แต่ตอนเอาไปรวมมันคือของตระกูลดอกไม้เฉย ๆ"
+      }
+    }
+  ],
+  "rule": {
+    "title": {
+      "en": "The one rule: do not hand it a recipe by accident",
+      "th": "กฎข้อเดียว: อย่าเผลอป้อนสูตรให้มันโดยไม่ตั้งใจ"
+    },
+    "body": {
+      "en": "If your item's family and your filler's family happen to be a real equipment recipe at that rank, the pot can give you the equipment instead of the higher-rank material you wanted. So before you climb, look at what the target family pairs with. Flower equipment at rank 14 and below takes Grass, Leaf, Copper or Iron as its secondary — so those four are exactly the fillers to avoid when climbing Flower. Every other family is safe.",
+      "th": "ถ้าตระกูลของของเรากับตระกูลของของถมบังเอิญเป็นสูตรอุปกรณ์จริงที่เลเวลนั้น หม้อจะให้อุปกรณ์ออกมาแทนวัสดุเลเวลสูงที่เราต้องการ · ก่อนไต่จึงต้องดูว่าตระกูลเป้าหมายจับคู่กับตระกูลอะไรได้บ้าง · อุปกรณ์ตระกูลดอกไม้ที่เลเวล 14 ลงมา ใช้ตระกูลรองเป็นหญ้า ใบไม้ ทองแดง หรือเหล็ก — สี่ตัวนี้แหละคือของถมที่ต้องเลี่ยงตอนไต่ดอกไม้ · ตระกูลอื่นปลอดภัยหมด"
+    },
+    "shortcut": {
+      "en": "The shortcut: FOOD never forms equipment with a secondary. If you do not want to check the recipe table at all, feed it food.",
+      "th": "ทางลัด: “อาหาร” ไม่เคยกลายเป็นอุปกรณ์ที่มีตระกูลรองเลย · ถ้าไม่อยากเปิดตารางสูตรเลย ก็ถมด้วยอาหาร"
+    }
+  },
+  "climb": {
+    "title": {
+      "en": "How far one compound climbs",
+      "th": "รวมหนึ่งครั้งไต่ได้เท่าไร"
+    },
+    "rows": [
+      {
+        "k": {
+          "en": "Advanced Alchemy (the default)",
+          "th": "เล่นแร่ขั้นสูง (ค่าเริ่มต้น)"
+        },
+        "v": {
+          "en": "Raises rank by up to 4. Rank 10 + rank 10 filler can reach rank 14.",
+          "th": "ดันเลเวลไอเทมขึ้นได้สูงสุด 4 · เลเวล 10 + ของถมเลเวล 10 ไปได้ถึงเลเวล 14"
+        }
+      },
+      {
+        "k": {
+          "en": "Primary Alchemy",
+          "th": "เล่นแร่ขั้นต้น"
+        },
+        "v": {
+          "en": "Barely climbs at all, rank 1 to 2. Switch to it at the bottom-left when you actually WANT a rank-1 item and Advanced keeps overshooting — pure water, ink, strawberry, daisy, bamboo, musk, sea salt.",
+          "th": "แทบไม่ไต่เลย อยู่ที่เลเวล 1–2 · สลับได้ที่มุมล่างซ้าย ใช้ตอนที่เราอยากได้ของเลเวล 1 จริง ๆ แต่ขั้นสูงมันดันเกินตลอด — น้ำบริสุทธิ์ หมึก สตรอว์เบอร์รี เดซี ไผ่ ชะมด เกลือทะเล"
+        }
+      },
+      {
+        "k": {
+          "en": "Alchemy Encyclopedia",
+          "th": "สารานุกรมเล่นแร่"
+        },
+        "v": {
+          "en": "Add one and the rank cannot drop.",
+          "th": "ใส่เพิ่มหนึ่งเล่ม แล้วเลเวลไอเทมจะไม่ตก"
+        }
+      }
+    ]
+  },
+  "worked": {
+    "title": {
+      "en": "Worked example — climbing to a rank-14 Purple Rose",
+      "th": "ตัวอย่างจริง — ไต่ไปหากุหลาบม่วงเลเวล 14"
+    },
+    "steps": [
+      {
+        "en": "Purple Rose is rank 14, primary Flower, no secondary. Plain materials usually have no secondary.",
+        "th": "กุหลาบม่วงเลเวลไอเทม 14 ตระกูลหลักดอกไม้ ไม่มีตระกูลรอง · วัสดุเปล่า ๆ ส่วนใหญ่ไม่มีตระกูลรอง"
+      },
+      {
+        "en": "So you need a rank-10 Flower item plus a rank-10 filler, and Advanced Alchemy carries it the four ranks up.",
+        "th": "ดังนั้นต้องใช้ของตระกูลดอกไม้เลเวล 10 บวกของถมเลเวล 10 แล้วเล่นแร่ขั้นสูงจะดันขึ้นสี่เลเวลให้เอง"
+      },
+      {
+        "en": "The filler must not be Grass, Leaf, Copper or Iron — those are Flower's equipment partners at this rank and you would risk getting a garment instead.",
+        "th": "ของถมต้องไม่ใช่หญ้า ใบไม้ ทองแดง หรือเหล็ก — สี่ตัวนี้คือคู่สูตรอุปกรณ์ของดอกไม้ที่เลเวลนี้ เสี่ยงได้เสื้อผ้าออกมาแทน"
+      },
+      {
+        "en": "Seafood at rank 10 does the job. Repeat the same shape to climb any family: an item of the family you want, plus a same-rank filler that is not one of its partners.",
+        "th": "ของทะเลเลเวล 10 ใช้ได้สบาย · ตระกูลอื่นก็ใช้รูปแบบเดียวกัน คือของตระกูลที่อยากได้ บวกของถมเลเวลเท่ากันที่ไม่ใช่คู่สูตรของมัน"
+      }
+    ]
+  },
+  "fillers": {
+    "food": {
+      "title": {
+        "en": "Food fillers — the safe ones",
+        "th": "ของถมสายอาหาร — พวกที่ปลอดภัย"
+      },
+      "note": {
+        "en": "Food can never turn into equipment, so none of this needs checking against a recipe table.",
+        "th": "อาหารกลายเป็นอุปกรณ์ไม่ได้เลย ของกลุ่มนี้จึงไม่ต้องไปเทียบกับตารางสูตร"
+      },
+      "rows": [
+        {
+          "rank": "1–8",
+          "name": {
+            "en": "Fish and seafood",
+            "th": "ปลาและของทะเล"
+          },
+          "why": {
+            "en": "Cannot be sold for currency, so there is nothing else to do with it. Vegetables, fruit and beans work the same way.",
+            "th": "ขายเป็นเงินไม่ได้ เลยไม่รู้จะเอาไปทำอะไรอยู่แล้ว · ผัก ผลไม้ และถั่ว ก็ใช้ได้เหมือนกัน"
+          }
+        },
+        {
+          "rank": "9",
+          "name": {
+            "en": "Meat",
+            "th": "เนื้อสัตว์"
+          },
+          "why": {
+            "en": "Ordinary seafood stops at rank 8, so rank 9 is where meat takes over.",
+            "th": "ของทะเลธรรมดาไปจบที่เลเวล 8 พอถึงเลเวล 9 จึงต้องใช้เนื้อแทน"
+          }
+        },
+        {
+          "rank": "10",
+          "name": {
+            "en": "Expedition materials",
+            "th": "วัสดุจากการออกสำรวจ"
+          },
+          "why": {
+            "en": "The Re-only expedition system, which opens at level 100, hands these out in quantities you will get tired of. Below level 100, use milk or titanium instead — platinum works but is a waste.",
+            "th": "ระบบออกสำรวจที่มีเฉพาะใน Re เปิดตอนเลเวล 100 และจะได้มาจนเบื่อ · ถ้ายังไม่ถึงเลเวล 100 ใช้นมหรือไทเทเนียมแทน — เงินแท้ก็ได้แต่เสียของ"
+          }
+        },
+        {
+          "rank": "11–12",
+          "name": {
+            "en": "Milk and medicinal herbs",
+            "th": "นมและสมุนไพร"
+          },
+          "why": {
+            "en": "Goat milk at 11, yak and llama milk at 12 — though milk needs a level-80 dairy cow. For herbs, expedition turmeric compounds up into rank-12 ginseng and lingzhi.",
+            "th": "นมแพะเลเวล 11 · นมจามรีกับนมลามะเลเวล 12 — แต่นมต้องมีวัวนมเลเวล 80 ก่อน · ส่วนสมุนไพร เอาขมิ้นจากการออกสำรวจมารวมขึ้นเป็นโสมกับเห็ดหลินจือเลเวล 12 ได้"
+          }
+        },
+        {
+          "rank": "13",
+          "name": {
+            "en": "Salmon roe",
+            "th": "ไข่ปลาแซลมอน"
+          },
+          "why": {
+            "en": "Compounded up from rank-10 expedition seafood. It fills what would otherwise be a gap at 13.",
+            "th": "รวมขึ้นมาจากของทะเลเลเวล 10 ที่ได้จากการออกสำรวจ · เติมช่องว่างที่เลเวล 13 ซึ่งไม่งั้นจะขาด"
+          }
+        }
+      ]
+    },
+    "gear": {
+      "title": {
+        "en": "Above rank 13 — no more food",
+        "th": "เลเวล 14 ขึ้นไป — ไม่มีอาหารแล้ว"
+      },
+      "note": {
+        "en": "From here fillers are equipment and materials, so the family rule matters again.",
+        "th": "จากตรงนี้ขึ้นไป ของถมคืออุปกรณ์และวัสดุ กฎเรื่องตระกูลจึงกลับมาสำคัญอีกครั้ง"
+      },
+      "rows": [
+        {
+          "rank": "14",
+          "items": [
+            {
+              "th": "กรงเล็บมังกรไฟ",
+              "en": "Fire Dragon Claw",
+              "fam": "Bone"
+            },
+            {
+              "th": "หยกน้ำ",
+              "en": "Water Jade",
+              "fam": "Jade"
+            }
+          ]
+        },
+        {
+          "rank": "15",
+          "items": [
+            {
+              "th": "ตุ๊กตาหุ่นไม้",
+              "en": "Wooden Dummy Doll",
+              "fam": "Wood"
+            },
+            {
+              "th": "เงินหลวง",
+              "en": "Official Silver",
+              "fam": "Silver"
+            }
+          ]
+        },
+        {
+          "rank": "16",
+          "items": [
+            {
+              "th": "เขี้ยวมังกรเวท",
+              "en": "Magic Dragon Fang",
+              "fam": "Bone"
+            },
+            {
+              "th": "หยกม่วง",
+              "en": "Purple Jade",
+              "fam": "Jade"
+            },
+            {
+              "th": "อุปกรณ์บังคับเรือเหาะ",
+              "en": "Airship Steering Device",
+              "fam": "Alum",
+              "craft": true
+            }
+          ]
+        },
+        {
+          "rank": "19",
+          "items": [
+            {
+              "th": "แป้นเหยียบไม้",
+              "en": "Wooden Pedals",
+              "fam": "Wood",
+              "craft": true
+            }
+          ]
+        },
+        {
+          "rank": "20",
+          "items": [
+            {
+              "th": "เขี้ยวหมาป่า",
+              "en": "Wolf Fang",
+              "fam": "Bone",
+              "star": true
+            },
+            {
+              "th": "ใบพัด",
+              "en": "Propeller",
+              "fam": "Wood"
+            },
+            {
+              "th": "แร่ยูเรเนียมกลั่น",
+              "en": "Refined Uranium Ore",
+              "fam": "—"
+            }
+          ]
+        },
+        {
+          "rank": "21",
+          "items": [
+            {
+              "th": "ปีกตั้ง",
+              "en": "Vertical Wing",
+              "fam": "Wood",
+              "craft": true
+            }
+          ]
+        },
+        {
+          "rank": "22",
+          "items": [
+            {
+              "th": "แร่ยูเรเนียมพลังสูง",
+              "en": "Super Uranium Ore",
+              "fam": "—"
+            }
+          ]
+        },
+        {
+          "rank": "25",
+          "items": [
+            {
+              "th": "หยกดำ",
+              "en": "Black Jade",
+              "fam": "Jade"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Wolf Fang is the one to remember",
+        "th": "เขี้ยวหมาป่าคือตัวที่ต้องจำ"
+      },
+      "body": {
+        "en": "Fire Dragon Claw and Magic Dragon Fang — the rank-14 and rank-16 Bone fillers — cannot be obtained as drops at all. Wolf Fang can. So you farm rank-20 Wolf Fang and compound it DOWNWARD to make the 14 and 16 Bone you actually needed. Climbing is not the only direction.",
+        "th": "กรงเล็บมังกรไฟกับเขี้ยวมังกรเวท ซึ่งเป็นของถมตระกูลกระดูกสัตว์เลเวล 14 กับ 16 ดรอปไม่ได้เลยสักตัว · แต่เขี้ยวหมาป่าดรอปได้ · วิธีคือฟาร์มเขี้ยวหมาป่าเลเวล 20 แล้วรวมลงมาให้ได้กระดูกสัตว์เลเวล 14 กับ 16 ที่ต้องการ · การไต่ไม่ได้มีแต่ทางขึ้น"
+      }
+    },
+    {
+      "title": {
+        "en": "Collagen covers every odd rank",
+        "th": "คอลลาเจนครอบทุกเลเวลคี่"
+      },
+      "body": {
+        "en": "Only one weapon in the game takes Collagen as a secondary, which means Collagen almost never forms equipment by accident — and it exists at every odd rank from 1 to 25. Ranks 15, 17, 19, 21, 23 and 25 are the useful ones, and rank-25 Collagen can be mass-produced, which makes it a practical replacement for Black Jade.",
+        "th": "มีอาวุธแค่ชิ้นเดียวในเกมที่ใช้คอลลาเจนเป็นตระกูลรอง แปลว่าคอลลาเจนแทบไม่มีทางกลายเป็นอุปกรณ์โดยบังเอิญ — และมันมีครบทุกเลเวลคี่ตั้งแต่ 1 ถึง 25 · ที่ใช้จริงคือเลเวล 15, 17, 19, 21, 23 และ 25 · คอลลาเจนเลเวล 25 ปั๊มทีละมาก ๆ ได้ จึงใช้แทนหยกดำที่หายากได้จริง"
+      },
+      "check": {
+        "en": "Our own material index agrees: every Collagen row we hold sits on an odd rank.",
+        "th": "ข้อมูลวัสดุของเราเองก็ตรงกัน: แถวคอลลาเจนทุกแถวที่เรามีอยู่บนเลเวลคี่ทั้งหมด"
+      }
+    }
+  ],
+  "tldr": {
+    "en": "Rank-x item plus rank-x filler, climb slowly. Anything can be a filler. Avoid the families your target pairs with for equipment, or just use food and stop thinking about it. If it keeps failing, change the filler.",
+    "th": "ของเลเวล x บวกของถมเลเวล x แล้วค่อย ๆ ไต่ขึ้น · อะไรก็เป็นของถมได้ · เลี่ยงตระกูลที่เป็นคู่สูตรอุปกรณ์ของเป้าหมาย หรือจะใช้อาหารแล้วเลิกคิดเลยก็ได้ · ถ้าพลาดซ้ำ ๆ ให้เปลี่ยนของถม"
+  }
+}

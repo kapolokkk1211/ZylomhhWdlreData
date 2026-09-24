@@ -155,6 +155,34 @@ const spot=[
    for(const c of comp) seen.add(c.family+':'+c.rank);
    return ['Copper:1','Wood:1','Grass:1','Flower:1','Feather:1','Coal:1','Gum:1','Leaf:1','Leather:1','WaterUndrinkable:1','Cluster:1'].every(k=>seen.has(k));
  }],
+ ['Every advancement job and branch parent resolves to a real job',()=>{
+   const adv=J('advancement.json'), b=J('builds.json');
+   const keys=new Set(b.jobs.map(j=>j.key));
+   return adv.one.jobs.every(j=>keys.has(j.key))
+     && adv.two.branches.every(x=>keys.has(x.parent))
+     && adv.one.jobs.length===keys.size;
+ }],
+ ['Each จุติ 1 job splits into exactly two จุติ 2 branches, each keeping its Special Skill',()=>{
+   const adv=J('advancement.json');
+   return adv.one.jobs.every(j=>{
+     const br=adv.two.branches.filter(x=>x.parent===j.key);
+     return br.length===2 && br.every(x=>x.skills.some(s=>s.kind==='upgrade'));
+   });
+ }],
+ ['Both translated threads still carry their source URL',()=>{
+   const ok=u=>typeof u==='string'&&u.startsWith('https://forum.gamer.com.tw/');
+   return ok(J('rankclimb.json').source.url) && ok(J('advancement.json').source.url);
+ }],
+ ['No note or prose field carries CJK — the cn keys are the archive, notes reach the page',()=>{
+   const cjk=/[\u4e00-\u9fff\u3400-\u4dbf]/;
+   const walk=(o,k)=>{
+     if(typeof o==='string') return k==='cn'?false:cjk.test(o);
+     if(Array.isArray(o)) return o.some(v=>walk(v,k));
+     if(o&&typeof o==='object') return Object.entries(o).some(([kk,v])=>walk(v,kk));
+     return false;
+   };
+   return !walk({comp,mats,quests:null},null);
+ }],
  ['Every rank-21 key material present (Wood/Diamond/MagicJade)',()=>['Wood','Diamond','MagicJade'].every(f=>mats.some(m=>m.family===f&&m.rank===21))],
 ];
 console.log('=== SCHEMA ===');

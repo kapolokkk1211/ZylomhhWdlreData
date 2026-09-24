@@ -1,0 +1,931 @@
+{
+  "source": {
+    "url": "https://forum.gamer.com.tw/C.php?bsn=82442&snA=447&tnum=4",
+    "title": {
+      "en": "[Question] (being rebalanced) Second-advancement job comparison",
+      "th": "[คำถาม](อยู่ระหว่างปรับสมดุล) เปรียบเทียบอาชีพจุติ 2"
+    },
+    "board": {
+      "en": "Bahamut · Wonderland Online Re: Star Ark board",
+      "th": "บอร์ดบาฮามุท · Wonderland Online Re: Star Ark"
+    },
+    "note": {
+      "en": "Posted 27 August 2026, last revised 10 September 2026 after the first skill rebalance.",
+      "th": "โพสต์ 27 สิงหาคม 2026 แก้ไขล่าสุด 10 กันยายน 2026 หลังการปรับสมดุลสกิลครั้งแรก"
+    }
+  },
+  "one": {
+    "title": {
+      "en": "First advancement",
+      "th": "จุติ 1"
+    },
+    "intro": {
+      "en": "The first job change happens at Lv100 and splits the character into six jobs. The rules of the change itself are in the section above; this is what each job walks away with — a cape that raises one stat, a passive, the signature skill the job is known for, and one Special Skill taught later by its own quest.",
+      "th": "การจุติครั้งแรกเกิดที่เลเวล 100 และแยกตัวละครออกเป็นหกอาชีพ · กติกาของตัวการเปลี่ยนอาชีพอยู่ในหัวข้อด้านบน · ตรงนี้คือสิ่งที่แต่ละอาชีพได้ติดตัวไป — ผ้าคลุมที่เพิ่มค่าสถานะหนึ่งตัว พาสซีฟ สกิลประจำอาชีพ และสกิลพิเศษอีกหนึ่งตัวที่มีเควสของมันเองมาสอนทีหลัง"
+    },
+    "jobs": [
+      {
+        "key": "killer",
+        "special": {
+          "name": {
+            "en": "Murder",
+            "th": "ฆาตกรรม"
+          },
+          "sp": 132,
+          "target": {
+            "en": "1 sealed enemy",
+            "th": "ศัตรูที่ถูกผนึก 1 ตัว"
+          },
+          "effect": {
+            "en": "Adds 2,000 non-elemental damage against a sealed target. The bonus is flat, so it matters most early and against the element yours is weak to.",
+            "th": "เพิ่มดาเมจไร้ธาตุ 2,000 ใส่เป้าหมายที่ถูกผนึก · เป็นค่าคงที่ จึงมีผลมากตอนต้นเกม และใช้แก้ทางธาตุที่ธาตุเราแพ้"
+          }
+        }
+      },
+      {
+        "key": "samurai",
+        "special": {
+          "name": {
+            "en": "Holy Shield",
+            "th": "โล่ศักดิ์สิทธิ์"
+          },
+          "sp": 142,
+          "target": {
+            "en": "1 ally",
+            "th": "พวกพ้อง 1 คน"
+          },
+          "effect": {
+            "en": "Guards one ally against single-target magic and reflects the damage back, up to 2,000. DEF raises how much comes back.",
+            "th": "ป้องกันพวกพ้องหนึ่งคนจากเวทเดี่ยว และสะท้อนดาเมจกลับไปสูงสุด 2,000 · ค่า DEF ยิ่งสูงยิ่งสะท้อนได้มาก"
+          }
+        }
+      },
+      {
+        "key": "knight",
+        "special": {
+          "name": {
+            "en": "Knight's Spirit",
+            "th": "จิตวิญญาณอัศวิน"
+          },
+          "sp": 146,
+          "target": {
+            "en": "3 allies",
+            "th": "พวกพ้อง 3 คน"
+          },
+          "effect": {
+            "en": "Three party members become immune to seals for 2 turns.",
+            "th": "ทำให้พวกพ้องสามคนผนึกไม่เข้า 2 เทิร์น"
+          }
+        }
+      },
+      {
+        "key": "wit",
+        "special": {
+          "name": {
+            "en": "Cuss",
+            "th": "คำสาปแช่ง"
+          },
+          "sp": 152,
+          "target": {
+            "en": "1 enemy",
+            "th": "ศัตรูเดี่ยว 1 ตัว"
+          },
+          "effect": {
+            "en": "The cursed target takes 50% more damage for 3 turns. It replaces Shrink rather than stacking with it.",
+            "th": "เป้าหมายที่ติดคำสาปรับดาเมจเพิ่ม 50% เป็นเวลา 3 เทิร์น · ใช้แทนสกิลย่อตัว ไม่ซ้อนกัน"
+          }
+        }
+      },
+      {
+        "key": "priest",
+        "special": {
+          "name": {
+            "en": "Rest",
+            "th": "พักผ่อนนิรันดร์"
+          },
+          "sp": 188,
+          "target": {
+            "en": "1 fallen enemy",
+            "th": "ศัตรูที่ล้มแล้ว 1 ตัว"
+          },
+          "effect": {
+            "en": "A dead target cannot be revived for 3 turns. The highest SP cost of the six.",
+            "th": "เป้าหมายที่ตายแล้วถูกชุบไม่ได้ 3 เทิร์น · ใช้ SP สูงที่สุดในหกตัว"
+          }
+        }
+      },
+      {
+        "key": "seer",
+        "special": {
+          "name": {
+            "en": "Foretell",
+            "th": "คำทำนาย"
+          },
+          "sp": 147,
+          "target": {
+            "en": "Self",
+            "th": "ตัวเอง"
+          },
+          "effect": {
+            "en": "Clears every seal on you at the end of each turn, for 3 turns. A seal landed on you still costs you that turn.",
+            "th": "ล้างผนึกทั้งหมดของตัวเองตอนจบเทิร์น ต่อเนื่อง 3 เทิร์น · ถ้าโดนผนึกในเทิร์นนั้นก็ยังเสียเทิร์นนั้นไปอยู่ดี"
+          }
+        }
+      }
+    ],
+    "note": {
+      "en": "These six are what the second advancement upgrades. Every branch below keeps its job's Special Skill and rewrites its numbers, so reading this table first makes the next one legible.",
+      "th": "หกตัวนี้คือของที่จุติ 2 เอาไปอัปเกรด · ทุกสายด้านล่างยังถือสกิลพิเศษของอาชีพตัวเองอยู่ แค่เขียนตัวเลขใหม่ · อ่านตารางนี้ก่อนแล้วตารางถัดไปจะอ่านง่ายขึ้นมาก"
+    }
+  },
+  "two": {
+    "title": {
+      "en": "Second advancement",
+      "th": "จุติ 2"
+    },
+    "gate": [
+      {
+        "en": "It went live on the Taiwan server on 27 August 2026. The Thai server does not have it yet, so every name on this list is our translation of the Taiwanese one, not a name you can read in your client.",
+        "th": "เปิดในเซิร์ฟไต้หวันวันที่ 27 สิงหาคม 2026 · เซิร์ฟไทยยังไม่มี ชื่อทุกชื่อในหัวข้อนี้จึงเป็นคำแปลจากฝั่งไต้หวัน ไม่ใช่ชื่อที่หาเจอในเกมตัวเอง"
+      },
+      {
+        "en": "The prerequisite quest opens at Lv189 after the first advancement, and the change itself happens at Lv190.",
+        "th": "เควสปลดล็อกเปิดที่เลเวล 189 หลังจุติ 1 และตัวการจุติทำที่เลเวล 190"
+      },
+      {
+        "en": "Each of the six first-advancement jobs splits into two, so there are twelve. Both branches keep the job's Special Skill and rewrite its numbers in opposite directions — usually one branch buys a bigger effect and the other buys more turns or more targets.",
+        "th": "อาชีพจุติ 1 ทั้งหกแตกออกเป็นสองสาย รวมเป็นสิบสอง · ทั้งสองสายยังถือสกิลพิเศษของอาชีพเดิม แต่เขียนตัวเลขใหม่คนละทาง — ส่วนใหญ่สายหนึ่งซื้อผลที่แรงกว่า อีกสายซื้อจำนวนเทิร์นหรือจำนวนเป้าหมาย"
+      },
+      {
+        "en": "Numbers written 7 / 8 / 9 are the skill's values as it levels, lowest first.",
+        "th": "ตัวเลขที่เขียนแบบ 7 / 8 / 9 คือค่าของสกิลตามเลเวลสกิล เรียงจากต่ำไปสูง"
+      },
+      {
+        "en": "Players who have made the change report that second-advancement skills take your own element, so you no longer need to carry a non-elemental damage crest for them.",
+        "th": "ผู้เล่นที่จุติแล้วรายงานว่าสกิลจุติ 2 ใช้ธาตุของตัวละครเอง จึงไม่ต้องเตรียมตรารูนดาเมจไร้ธาตุไว้ให้มันอีกแล้ว"
+      }
+    ],
+    "starVein": {
+      "en": "Star Vein traits are the passive block a branch carries when its Star Vein is fully filled. They are listed here as the source lists them, at full.",
+      "th": "คุณสมบัติสายดาวคือบล็อกพาสซีฟที่แต่ละสายได้เมื่อเปิดสายดาวเต็มแล้ว · ที่เขียนไว้ตรงนี้คือค่าเต็มตามที่ต้นทางระบุ"
+    },
+    "branches": [
+      {
+        "parent": "killer",
+        "key": "azure-valiant",
+        "name": {
+          "en": "Azure Valiant",
+          "th": "ผู้กล้าแห่งนภา"
+        },
+        "traits": [
+          {
+            "en": "Physical damage +5%",
+            "th": "ดาเมจกายภาพ +5%"
+          },
+          {
+            "en": "Extra damage when assassinating a low-HP target",
+            "th": "เพิ่มดาเมจตอนลอบสังหารเป้าหมายเลือดน้อย"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Heaven-Shaking Strike",
+              "th": "หมัดสะท้านฟ้า"
+            },
+            "sp": 238,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "Deals damage and buffs your own crit rate and crit damage. The buff grows each turn, up to 7 / 7 / 8 / 9 / 10% crit rate and 36 / 40 / 43 / 46 / 50% crit damage. It stacks with Flame Heart Release.",
+              "th": "ตีแล้วติดบัฟเพิ่มอัตราคริติคอลและดาเมจคริติคอลให้ตัวเอง · บัฟแรงขึ้นทุกเทิร์น สูงสุด 7 / 7 / 8 / 9 / 10% อัตราคริ และ 36 / 40 / 43 / 46 / 50% ดาเมจคริ · ซ้อนกับปลดปล่อยหัวใจเพลิงได้"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Valiant Thrust",
+              "th": "ทิ่มแทงผู้กล้า"
+            },
+            "sp": 132,
+            "target": {
+              "en": "1 sealed enemy",
+              "th": "ศัตรูที่ถูกผนึก 1 ตัว"
+            },
+            "effect": {
+              "en": "The upgraded Murder. +2,000 damage against a sealed enemy, and if its HP is below 80%, a further +5 / 10 / 15 / 20%.",
+              "th": "ฆาตกรรมฉบับอัปเกรด · เพิ่มดาเมจ 2,000 ใส่ศัตรูที่ถูกผนึก และถ้าเลือดมันต่ำกว่า 80% เพิ่มให้อีก 5 / 10 / 15 / 20%"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "killer",
+        "key": "chaos-warrior",
+        "name": {
+          "en": "Chaos Warrior",
+          "th": "นักรบโกลาหล"
+        },
+        "traits": [
+          {
+            "en": "PK damage +10%",
+            "th": "ดาเมจใน PK +10%"
+          },
+          {
+            "en": "Extra assassination damage",
+            "th": "เพิ่มดาเมจลอบสังหาร"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Black Soul Blade",
+              "th": "ดาบวิญญาณดำ"
+            },
+            "sp": 290,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "Deals damage, then in PVP has a 5 / 8 / 11 / 15 / 20% chance to kill the target outright. A higher-level target lowers that chance.",
+              "th": "ตีแล้วใน PVP มีโอกาส 5 / 8 / 11 / 15 / 20% ที่เป้าหมายจะตายทันที · ถ้าเป้าหมายเลเวลสูงกว่า โอกาสจะลดลง"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Warrior Assault",
+              "th": "จู่โจมนักรบ"
+            },
+            "sp": 132,
+            "target": {
+              "en": "1 sealed enemy",
+              "th": "ศัตรูที่ถูกผนึก 1 ตัว"
+            },
+            "effect": {
+              "en": "The upgraded Murder. +2,500 / 3,000 / 3,500 / 4,000 damage against a sealed enemy — the flat number instead of Azure Valiant's percentage.",
+              "th": "ฆาตกรรมฉบับอัปเกรด · เพิ่มดาเมจ 2,500 / 3,000 / 3,500 / 4,000 ใส่ศัตรูที่ถูกผนึก — เป็นตัวเลขตรง ๆ แทนที่จะเป็นเปอร์เซ็นต์แบบผู้กล้าแห่งนภา"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "samurai",
+        "key": "holy-shield-fighter",
+        "name": {
+          "en": "Holy Shield Fighter",
+          "th": "นักสู้โล่ศักดิ์สิทธิ์"
+        },
+        "traits": [
+          {
+            "en": "Damage reduction +5%",
+            "th": "ลดดาเมจที่ได้รับ +5%"
+          },
+          {
+            "en": "Holy Shield specialised for PVE",
+            "th": "โล่ศักดิ์สิทธิ์เน้น PVE"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Holy Shield Barrier",
+              "th": "เกราะกำบังศักดิ์สิทธิ์"
+            },
+            "sp": 256,
+            "target": {
+              "en": "1 ally",
+              "th": "พวกพ้อง 1 คน"
+            },
+            "effect": {
+              "en": "Puts a guardian barrier on one ally. The barrier removes 10 / 15 / 20 / 25 / 30% of the damage they take and transfers it to you, for 10 / 11 turns.",
+              "th": "ใส่เกราะกำบังให้พวกพ้องหนึ่งคน · เกราะจะหักดาเมจที่เขาได้รับ 10 / 15 / 20 / 25 / 30% แล้วโอนมาที่เราแทน เป็นเวลา 10 / 11 เทิร์น"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Fighter's Holy Shield",
+              "th": "โล่ศักดิ์สิทธิ์นักสู้"
+            },
+            "sp": 142,
+            "target": {
+              "en": "1 ally",
+              "th": "พวกพ้อง 1 คน"
+            },
+            "effect": {
+              "en": "The upgraded Holy Shield. Still reflects single-target magic, and DEF still raises the reflected amount — but in PVE the reflect and its cap rise to 125 / 150 / 175 / 200% of the base shield, for 2 / 3 turns.",
+              "th": "โล่ศักดิ์สิทธิ์ฉบับอัปเกรด · ยังสะท้อนเวทเดี่ยว และ DEF ยังเพิ่มปริมาณที่สะท้อนเหมือนเดิม — แต่ใน PVE ทั้งดาเมจสะท้อนและเพดานขึ้นเป็น 125 / 150 / 175 / 200% ของโล่เดิม เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "samurai",
+        "key": "asura-fighter",
+        "name": {
+          "en": "Asura Fighter",
+          "th": "นักสู้อสูร"
+        },
+        "traits": [
+          {
+            "en": "HP locked for 2 turns",
+            "th": "ล็อกเลือดไว้ 2 เทิร์น"
+          },
+          {
+            "en": "Holy Shield specialised for PVP",
+            "th": "โล่ศักดิ์สิทธิ์เน้น PVP"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Asura Karmic Flame",
+              "th": "เพลิงกรรมอสูร"
+            },
+            "sp": "50% HP",
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "Costs half your current HP. A heavy strike that also cuts the target's healing by 30% for 2 / 3 turns.",
+              "th": "จ่ายด้วยเลือดครึ่งหนึ่งของที่มีอยู่ · ตีหนักหนึ่งครั้ง พร้อมลดการฟื้นฟูของเป้าหมาย 30% เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Dying Invincibility",
+              "th": "อมตะก่อนดับ"
+            },
+            "sp": null,
+            "target": {
+              "en": "Self",
+              "th": "ตัวเอง"
+            },
+            "effect": {
+              "en": "Passive. The first time you die you enter an invincible state instead: you take no damage and your HP cannot drop below 1, for 1 / 2 turns. You die when it ends. Once per battle.",
+              "th": "พาสซีฟ · ครั้งแรกที่ตายจะเข้าสถานะอมตะแทน คือไม่รับดาเมจใด ๆ และเลือดจะไม่ต่ำกว่า 1 เป็นเวลา 1 / 2 เทิร์น · หมดสถานะแล้วจึงตายจริง · หนึ่งครั้งต่อหนึ่งการต่อสู้"
+            },
+            "kind": "passive"
+          },
+          {
+            "name": {
+              "en": "Fighter's Heavy Shield",
+              "th": "โล่หนักนักสู้"
+            },
+            "sp": 142,
+            "target": {
+              "en": "1 ally",
+              "th": "พวกพ้อง 1 คน"
+            },
+            "effect": {
+              "en": "The upgraded Holy Shield, pointed the other way: in PVP the reflect and its cap rise to 112 / 124 / 136 / 150% of the base shield, for 2 / 3 turns.",
+              "th": "โล่ศักดิ์สิทธิ์ฉบับอัปเกรด แต่ชี้ไปอีกทาง · ใน PVP ดาเมจสะท้อนและเพดานขึ้นเป็น 112 / 124 / 136 / 150% ของโล่เดิม เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "knight",
+        "key": "blazing-blood-lord",
+        "name": {
+          "en": "Blazing Blood Lord",
+          "th": "เจ้าแห่งเลือดเพลิง"
+        },
+        "traits": [
+          {
+            "en": "Seal resistance +10%",
+            "th": "ต้านผนึก +10%"
+          },
+          {
+            "en": "SPD +30",
+            "th": "SPD +30"
+          },
+          {
+            "en": "Knight's Spirit lasts longer",
+            "th": "จิตวิญญาณอัศวินอยู่นานขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Blazing Blood Frenzy",
+              "th": "กระหน่ำเลือดเพลิง"
+            },
+            "sp": 234,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "Damage plus a parasite state that drains the target's HP every turn. The drain grows each turn and lasts 4 / 4 / 5 / 5 / 6 turns; SPD adds up to 500 more, and the per-turn ceiling is 1,000 / 2,000 / 3,000 / 4,000 / 5,000.",
+              "th": "ตีแล้วติดสถานะฝังตัว ดูดเลือดเป้าหมายทุกเทิร์น · ปริมาณดูดเพิ่มขึ้นทุกเทิร์น คงอยู่ 4 / 4 / 5 / 5 / 6 เทิร์น · ค่า SPD เพิ่มให้ได้อีกสูงสุด 500 และเพดานต่อเทิร์นคือ 1,000 / 2,000 / 3,000 / 4,000 / 5,000"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Lord's Aegis",
+              "th": "ปกป้องแห่งเจ้า"
+            },
+            "sp": 146,
+            "target": {
+              "en": "3 allies in a vertical line",
+              "th": "พวกพ้อง 3 คนแนวตั้ง"
+            },
+            "effect": {
+              "en": "The upgraded Knight's Spirit. Allies are immune to every negative state, not just seals, for 2 / 3 turns.",
+              "th": "จิตวิญญาณอัศวินฉบับอัปเกรด · พวกพ้องภูมิคุ้มกันสถานะผิดปกติทุกชนิด ไม่ใช่แค่ผนึก เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "knight",
+        "key": "imperial-guard-knight",
+        "name": {
+          "en": "Imperial Guard Knight",
+          "th": "อัศวินพิทักษ์"
+        },
+        "traits": [
+          {
+            "en": "Counter rate +10%",
+            "th": "อัตราสวนกลับ +10%"
+          },
+          {
+            "en": "SPD +30",
+            "th": "SPD +30"
+          },
+          {
+            "en": "Knight's Spirit covers more allies",
+            "th": "จิตวิญญาณอัศวินครอบคลุมกว้างขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Forbidden Realm Strike",
+              "th": "ทุบแดนต้องห้าม"
+            },
+            "sp": 286,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "Damage plus an AGI-down of 30 / 35 / 40 / 45 / 50%. In PVP it also has a 7 / 11 / 15 / 20 / 25% chance to strip 20% of the target's MaxHP. A higher-level target lowers that chance.",
+              "th": "ตีแล้วลด AGI 30 / 35 / 40 / 45 / 50% · ใน PVP ยังมีโอกาส 7 / 11 / 15 / 20 / 25% ที่จะหักเลือดสูงสุดของเป้าหมายไป 20% · ถ้าเป้าหมายเลเวลสูงกว่า โอกาสจะลดลง"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Knight's Oath",
+              "th": "คำสาบานอัศวิน"
+            },
+            "sp": 146,
+            "target": {
+              "en": "4 allies around you",
+              "th": "พวกพ้อง 4 คนรอบตัว"
+            },
+            "effect": {
+              "en": "The upgraded Knight's Spirit, traded the other way: a wider group, immune to every negative state, but only 1 / 2 turns.",
+              "th": "จิตวิญญาณอัศวินฉบับอัปเกรด แต่แลกอีกทาง · ครอบคลุมกว้างกว่า ภูมิคุ้มกันสถานะผิดปกติทุกชนิด แต่อยู่แค่ 1 / 2 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "wit",
+        "key": "calamity-sorcerer",
+        "name": {
+          "en": "Calamity Sorcerer",
+          "th": "นักเวทหายนะ"
+        },
+        "traits": [
+          {
+            "en": "Magic damage +5%",
+            "th": "ดาเมจเวท +5%"
+          },
+          {
+            "en": "MATK +18",
+            "th": "MATK +18"
+          },
+          {
+            "en": "Curse lasts longer",
+            "th": "คำสาปอยู่นานขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Doomsday Cataclysm",
+              "th": "หายนะวันสิ้นโลก"
+            },
+            "sp": 289,
+            "target": {
+              "en": "1 enemy → 2 in a row → 4 around you",
+              "th": "ศัตรู 1 ตัว → 2 ตัวแนวนอน → 4 ตัวรอบตัว"
+            },
+            "effect": {
+              "en": "Damage plus a calamity state that drains HP every turn, growing as the turns pass, up to 50 / 60 / 70 / 80% of your MATK, for 10 / 11 turns. The number of targets widens as the skill levels.",
+              "th": "ตีแล้วติดสถานะหายนะ หักเลือดทุกเทิร์น และหักมากขึ้นเรื่อย ๆ สูงสุด 50 / 60 / 70 / 80% ของ MATK ตัวเอง เป็นเวลา 10 / 11 เทิร์น · จำนวนเป้าหมายกว้างขึ้นตามเลเวลสกิล"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Sorcerer's Forbidden Curse",
+              "th": "คำสาปต้องห้ามนักเวท"
+            },
+            "sp": 152,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "The upgraded Cuss. Same +50% damage taken, but it holds for 3 / 4 turns instead of 3.",
+              "th": "คำสาปแช่งฉบับอัปเกรด · ยังเพิ่มดาเมจที่เป้าหมายรับ 50% เท่าเดิม แต่อยู่ได้ 3 / 4 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "wit",
+        "key": "void-sage",
+        "name": {
+          "en": "Void Sage",
+          "th": "ปราชญ์แห่งความว่าง"
+        },
+        "traits": [
+          {
+            "en": "PK damage +10%",
+            "th": "ดาเมจใน PK +10%"
+          },
+          {
+            "en": "Curse damage bonus raised",
+            "th": "คำสาปเพิ่มดาเมจได้มากขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Void Source-Devour",
+              "th": "กลืนกินพลังสู่ความว่าง"
+            },
+            "sp": 350,
+            "target": {
+              "en": "1 enemy → 2 in a row",
+              "th": "ศัตรู 1 ตัว → 2 ตัวแนวนอน"
+            },
+            "effect": {
+              "en": "Damage plus a devour state that drains SP every turn, growing as the turns pass, up to 6 / 7 / 8 / 9 / 10% of your MATK, for 10 / 11 turns. The Calamity Sorcerer's mirror: same shape, aimed at SP instead of HP.",
+              "th": "ตีแล้วติดสถานะกลืนกิน ดูด SP ทุกเทิร์น และดูดมากขึ้นเรื่อย ๆ สูงสุด 6 / 7 / 8 / 9 / 10% ของ MATK ตัวเอง เป็นเวลา 10 / 11 เทิร์น · เป็นภาพสะท้อนของนักเวทหายนะ รูปแบบเดียวกันแต่เล่นกับ SP แทนเลือด"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Sage's Law Curse",
+              "th": "คำสาปกฎปราชญ์"
+            },
+            "sp": 152,
+            "target": {
+              "en": "1 enemy",
+              "th": "ศัตรู 1 ตัว"
+            },
+            "effect": {
+              "en": "The upgraded Cuss, traded the other way: damage taken climbs to 57 / 64 / 72 / 80%, but only for 2 / 3 turns.",
+              "th": "คำสาปแช่งฉบับอัปเกรด แต่แลกอีกทาง · ดาเมจที่เป้าหมายรับขึ้นเป็น 57 / 64 / 72 / 80% แต่อยู่แค่ 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "priest",
+        "key": "temple-bishop",
+        "name": {
+          "en": "Temple Bishop",
+          "th": "บิชอปแห่งวิหาร"
+        },
+        "traits": [
+          {
+            "en": "Resists a status twice",
+            "th": "ต้านสถานะผิดปกติได้ 2 ครั้ง"
+          },
+          {
+            "en": "MDEF +20",
+            "th": "MDEF +20"
+          },
+          {
+            "en": "Rest's attack-down is stronger",
+            "th": "พักผ่อนนิรันดร์ลดพลังโจมตีได้มากขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Holy Light Judgment",
+              "th": "คำตัดสินแสงศักดิ์สิทธิ์"
+            },
+            "sp": 304,
+            "target": {
+              "en": "1 enemy → 3 in a line → 4 in a line",
+              "th": "ศัตรู 1 ตัว → 3 ตัวแนวตั้ง → 4 ตัวแนวตั้ง"
+            },
+            "effect": {
+              "en": "Initiative −1, so you act last — but it always crits, and the crit damage scales with your MaxHP, up to +80 / 90 / 90 / 100 / 100%.",
+              "th": "ค่าออกก่อน −1 จึงออกท้ายสุด — แต่เข้าคริติคอลแน่นอน และดาเมจคริเพิ่มตามเลือดสูงสุดของเรา สูงสุด +80 / 90 / 90 / 100 / 100%"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Holy Light Guard",
+              "th": "ปกปักแสงศักดิ์สิทธิ์"
+            },
+            "sp": null,
+            "target": {
+              "en": "Self",
+              "th": "ตัวเอง"
+            },
+            "effect": {
+              "en": "Passive. Immune to 1 / 2 abnormal states. Once per battle.",
+              "th": "พาสซีฟ · ภูมิคุ้มกันสถานะผิดปกติ 1 / 2 ครั้ง · หนึ่งครั้งต่อหนึ่งการต่อสู้"
+            },
+            "kind": "passive"
+          },
+          {
+            "name": {
+              "en": "Bishop's Requiem",
+              "th": "บทสวดบิชอป"
+            },
+            "sp": 188,
+            "target": {
+              "en": "3 enemies in a line",
+              "th": "ศัตรู 3 ตัวแนวตั้ง"
+            },
+            "effect": {
+              "en": "The upgraded Rest. The dead still cannot be revived, and the living lose 17 / 24 / 32 / 40% attack, for 2 / 3 turns.",
+              "th": "พักผ่อนนิรันดร์ฉบับอัปเกรด · คนตายยังถูกชุบไม่ได้ และคนเป็นเสียพลังโจมตี 17 / 24 / 32 / 40% เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "priest",
+        "key": "abyss-priest",
+        "name": {
+          "en": "Abyss Priest",
+          "th": "นักบวชแห่งเหวลึก"
+        },
+        "traits": [
+          {
+            "en": "+8% SP recovered every turn",
+            "th": "ฟื้น SP +8% ทุกเทิร์น"
+          },
+          {
+            "en": "MDEF +30",
+            "th": "MDEF +30"
+          },
+          {
+            "en": "Rest lasts longer",
+            "th": "พักผ่อนนิรันดร์อยู่นานขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Abyssal Touch",
+              "th": "สัมผัสเหวลึก"
+            },
+            "sp": "368 → 311",
+            "target": {
+              "en": "2 in a row → rear cone",
+              "th": "2 ตัวแนวนอน → กรวยด้านหลัง"
+            },
+            "effect": {
+              "en": "Damage plus a 100% healing cut — the target cannot be healed at all — for 2 / 3 turns. The SP cost falls as the skill levels.",
+              "th": "ตีแล้วลดการฟื้นฟู 100% คือเป้าหมายฟื้นเลือดไม่ได้เลย เป็นเวลา 2 / 3 เทิร์น · ค่า SP ถูกลงเมื่อสกิลเลเวลสูงขึ้น"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Abyssal Resonance",
+              "th": "เสียงสะท้อนเหวลึก"
+            },
+            "sp": null,
+            "target": {
+              "en": "Self",
+              "th": "ตัวเอง"
+            },
+            "effect": {
+              "en": "Passive. Recover 2 / 4 / 6 / 8% SP every turn.",
+              "th": "พาสซีฟ · ฟื้น SP 2 / 4 / 6 / 8% ทุกเทิร์น"
+            },
+            "kind": "passive"
+          },
+          {
+            "name": {
+              "en": "Priest's Solace",
+              "th": "ปลอบขวัญนักบวช"
+            },
+            "sp": 188,
+            "target": {
+              "en": "3 enemies in a line",
+              "th": "ศัตรู 3 ตัวแนวตั้ง"
+            },
+            "effect": {
+              "en": "The upgraded Rest, traded the other way: only 10% attack down, but it holds for 3 / 4 turns.",
+              "th": "พักผ่อนนิรันดร์ฉบับอัปเกรด แต่แลกอีกทาง · ลดพลังโจมตีแค่ 10% แต่อยู่ได้ 3 / 4 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "seer",
+        "key": "star-prophet",
+        "name": {
+          "en": "Star-Speech Prophet",
+          "th": "ผู้พยากรณ์ภาษาดาว"
+        },
+        "traits": [
+          {
+            "en": "Evasion +10%",
+            "th": "อัตราหลบ +10%"
+          },
+          {
+            "en": "Foretell covers more allies and gives more evasion",
+            "th": "คำทำนายครอบคลุมกว้างขึ้นและเพิ่มการหลบมากขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Revelation of Truth",
+              "th": "วิวรณ์แห่งสัจธรรม"
+            },
+            "sp": "299 → 242",
+            "target": {
+              "en": "2 allies in a row",
+              "th": "พวกพ้อง 2 คนแนวนอน"
+            },
+            "effect": {
+              "en": "Gives allies an Insight state that nullifies 1 / 1 / 2 / 2 / 3 incoming attacks outright, then expires. The SP cost falls as the skill levels.",
+              "th": "ให้พวกพ้องติดสถานะหยั่งรู้ ซึ่งลบล้างการโจมตีที่เข้ามาได้ 1 / 1 / 2 / 2 / 3 ครั้ง แล้วหมดไป · ค่า SP ถูกลงเมื่อสกิลเลเวลสูงขึ้น"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Future Sense",
+              "th": "สัมผัสอนาคต"
+            },
+            "sp": null,
+            "target": {
+              "en": "Self",
+              "th": "ตัวเอง"
+            },
+            "effect": {
+              "en": "Passive. Evasion +2 / 4 / 7 / 10%.",
+              "th": "พาสซีฟ · อัตราหลบ +2 / 4 / 7 / 10%"
+            },
+            "kind": "passive"
+          },
+          {
+            "name": {
+              "en": "Prophet's Decree",
+              "th": "พระบัญชาผู้พยากรณ์"
+            },
+            "sp": 147,
+            "target": {
+              "en": "2 allies in a row → 4 around you",
+              "th": "พวกพ้อง 2 คนแนวนอน → 4 คนรอบตัว"
+            },
+            "effect": {
+              "en": "The upgraded Foretell. While you hold the prophecy and carry no negative state, negative states are cleared at end of turn — and you also gain 10 / 15 / 20 / 25% evasion for 2 / 3 turns. If several evasion buffs overlap, only the highest counts.",
+              "th": "คำทำนายฉบับอัปเกรด · ระหว่างที่ถือคำทำนายอยู่และไม่มีสถานะลบติดตัว จะล้างสถานะลบตอนจบเทิร์น — และยังได้อัตราหลบ 10 / 15 / 20 / 25% เป็นเวลา 2 / 3 เทิร์น · ถ้ามีบัฟหลบซ้อนกันหลายตัว นับตัวที่สูงสุดตัวเดียว"
+            },
+            "kind": "upgrade"
+          }
+        ]
+      },
+      {
+        "parent": "seer",
+        "key": "nether-bard",
+        "name": {
+          "en": "Nether Bard",
+          "th": "กวีแห่งยมโลก"
+        },
+        "traits": [
+          {
+            "en": "Physical damage taken −2%",
+            "th": "ดาเมจกายภาพที่รับ −2%"
+          },
+          {
+            "en": "Magic damage taken −2%",
+            "th": "ดาเมจเวทที่รับ −2%"
+          },
+          {
+            "en": "Crit damage taken −3%",
+            "th": "ดาเมจคริติคอลที่รับ −3%"
+          },
+          {
+            "en": "PK damage reduction +15%",
+            "th": "ลดดาเมจใน PK +15%"
+          },
+          {
+            "en": "Foretell gives more evasion",
+            "th": "คำทำนายเพิ่มการหลบมากขึ้น"
+          }
+        ],
+        "skills": [
+          {
+            "name": {
+              "en": "Nether Requiem",
+              "th": "บทเพลงกล่อมวิญญาณ"
+            },
+            "sp": 414,
+            "target": {
+              "en": "6 enemies around you",
+              "th": "ศัตรู 6 ตัวรอบตัว"
+            },
+            "effect": {
+              "en": "A chance to strike first, putting Nether on six enemies for 2 / 3 turns. Nether: each turn an 80% chance to be unable to act, cleared the moment the victim is attacked. Chance-to-strike-first: it only fires when your SPD is below the enemy's highest, and the smaller the gap the better the odds — 60% at best, 10% at worst.",
+              "th": "มีโอกาสออกก่อน แล้วใส่สถานะยมโลกให้ศัตรูหกตัว เป็นเวลา 2 / 3 เทิร์น · สถานะยมโลก: ทุกเทิร์นมีโอกาส 80% ที่จะขยับไม่ได้ และจะหลุดทันทีที่โดนโจมตี · โอกาสออกก่อน: ทำงานเฉพาะตอนที่ SPD เราต่ำกว่าศัตรูที่สูงสุด และยิ่งห่างน้อยยิ่งมีโอกาสมาก — ดีที่สุด 60% แย่ที่สุด 10%"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Nether World-Ending Song",
+              "th": "บทเพลงสิ้นโลก"
+            },
+            "sp": 372,
+            "target": {
+              "en": "All enemies",
+              "th": "ศัตรูทั้งหมด"
+            },
+            "effect": {
+              "en": "A chance to strike first. In PVP it takes 10 / 20% of every target's current HP, in PVE 5 / 9%, capped at 100% of your MATK. It cannot kill: a target already at 1 HP takes nothing. No effect on world bosses, Nether Raid bosses or Star Vault Trial bosses.",
+              "th": "มีโอกาสออกก่อน · ใน PVP หักเลือดปัจจุบันของทุกเป้าหมาย 10 / 20% ใน PVE 5 / 9% เพดานคือ 100% ของ MATK ตัวเอง · ฆ่าไม่ได้ ถ้าเป้าหมายเหลือเลือด 1 จะไม่เข้าดาเมจเลย · ใช้ไม่ได้กับบอสโลก บอสยมโลกจู่โจม และบอสบททดสอบหอดารา"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Nether Gale Song",
+              "th": "บทเพลงลมกรด"
+            },
+            "sp": 335,
+            "target": {
+              "en": "All allies",
+              "th": "พวกพ้องทั้งหมด"
+            },
+            "effect": {
+              "en": "Initiative +1. Strikes first to raise every ally's SPD to 1.5 / 2×, but you cannot act next turn.",
+              "th": "ค่าออกก่อน +1 · ออกก่อนเพื่อดัน SPD ของพวกพ้องทั้งหมดเป็น 1.5 / 2 เท่า แต่เทิร์นถัดไปเราขยับไม่ได้"
+            },
+            "kind": "active"
+          },
+          {
+            "name": {
+              "en": "Bard's Rhapsody",
+              "th": "แรปโซดีกวี"
+            },
+            "sp": 147,
+            "target": {
+              "en": "1 ally",
+              "th": "พวกพ้อง 1 คน"
+            },
+            "effect": {
+              "en": "The upgraded Foretell. Same end-of-turn cleanse as the Prophet's, but the evasion it grants is far larger: 20 / 30 / 40 / 50% for 2 / 3 turns.",
+              "th": "คำทำนายฉบับอัปเกรด · ล้างสถานะลบตอนจบเทิร์นเหมือนของผู้พยากรณ์ แต่ให้อัตราหลบสูงกว่ามาก คือ 20 / 30 / 40 / 50% เป็นเวลา 2 / 3 เทิร์น"
+            },
+            "kind": "upgrade"
+          }
+        ],
+        "warning": {
+          "en": "This is the branch the developers said was too strong. Both Nether songs used to strike first outright, at the cost of losing your next turn; the 10 September 2026 patch made striking first a chance instead, and rewrote the damage formula so the Bard does not out-damage the damage jobs. Read every Nether number here as a moving target.",
+          "th": "นี่คือสายที่ทีมงานออกมาบอกเองว่าแรงเกินไป · เดิมบทเพลงยมโลกทั้งสองออกก่อนแน่นอน โดยแลกกับการเสียเทิร์นถัดไป · แพตช์ 10 กันยายน 2026 เปลี่ยนเป็นออกก่อนแบบมีโอกาส และเขียนสูตรดาเมจใหม่ไม่ให้กวีตีแรงกว่าสายดาเมจ · ตัวเลขของสายยมโลกทั้งหมดในหน้านี้จึงยังขยับได้อีก"
+        }
+      }
+    ]
+  }
+}
