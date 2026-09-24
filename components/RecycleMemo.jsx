@@ -77,8 +77,14 @@ export default function RecycleMemo({ data, strings, lang }) {
                       : <span className="rc-unknown">{strings.notYetKnown}</span>}
                   </td>
                   <td className="fm" data-l={strings.icon}>
-                    <span className={`rc-icon rc-icon-${d.icon}`} />
-                    <span className="cg-dim rc-iconname">{strings.icons[d.icon]}</span>
+                    {d.icon ? (
+                      <>
+                        <span className={`rc-icon rc-icon-${d.icon}`} />
+                        <span className="cg-dim rc-iconname">{strings.icons[d.icon]}</span>
+                      </>
+                    ) : (
+                      <span className="rc-unknown">{strings.notYetKnown}</span>
+                    )}
                   </td>
                 </tr>
               );
