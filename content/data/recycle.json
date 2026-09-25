@@ -127,6 +127,36 @@
       "core": "wind",
       "icon": null,
       "thConfirmed": true
+    },
+    {
+      "id": "plastic-bottle",
+      "name": {
+        "en": "Plastic Bottle Demon",
+        "th": "ปีศาจขวดพลาสติก"
+      },
+      "core": "water",
+      "icon": null,
+      "thConfirmed": true
+    },
+    {
+      "id": "used-battery",
+      "name": {
+        "en": "Used Battery Demon",
+        "th": "ปีศาจแบตเตอรี่ใช้แล้ว"
+      },
+      "core": "earth",
+      "icon": null,
+      "thConfirmed": true
+    },
+    {
+      "id": "used-circuit",
+      "name": {
+        "en": "Used Electrical Circuit Demon",
+        "th": "ปีศาจวงจรไฟฟ้าใช้แล้ว"
+      },
+      "core": "fire",
+      "icon": null,
+      "thConfirmed": true
     }
   ],
   "cores": [
@@ -165,16 +195,20 @@
   ],
   "open": [
     {
-      "en": "Icon colour is not recorded for the five demons added on 2026-09-24, so the first pattern below cannot be checked against them yet. Note the colour next time one appears.",
-      "th": "ปีศาจห้าตัวที่เพิ่มเมื่อ 24 ก.ย. 2026 ยังไม่ได้บันทึกสีไอคอน แพตเทิร์นข้อแรกด้านล่างจึงยังเช็กกับพวกมันไม่ได้ · ครั้งหน้าที่เจอ ให้จดสีไว้ด้วย"
+      "en": "Two circuit demons are recorded with different Cores: แผงวงจร takes earth, วงจรไฟฟ้าใช้แล้ว takes fire. If those are actually the same demon read twice, one of the two is wrong — worth checking the exact name next time one appears.",
+      "th": "มีปีศาจสายวงจรสองตัวที่ใช้แกนคนละอัน: แผงวงจรใช้แกนดิน ส่วนวงจรไฟฟ้าใช้แล้วใช้แกนไฟ · ถ้าจริง ๆ แล้วเป็นตัวเดียวกันที่อ่านชื่อมาสองรอบ แปลว่ามีข้อหนึ่งผิด — ครั้งหน้าที่เจอ ลองเช็กชื่อเต็ม ๆ ให้ชัด"
     },
     {
-      "en": "เชือกพลาสติก is the one demon that does not fit the second pattern. It is a plastic, like ถุงพลาสติก and โฟมพลาสติก, but it takes fire where they take wind — so either the rule is about something other than where the waste sits, or rope is filed as something burnt.",
-      "th": "เชือกพลาสติกเป็นตัวเดียวที่ไม่เข้าแพตเทิร์นข้อสอง · มันเป็นพลาสติกเหมือนถุงพลาสติกกับโฟมพลาสติก แต่ใช้แกนไฟในขณะที่สองตัวนั้นใช้แกนลม — แปลว่ากฎอาจไม่ได้อยู่ที่ว่าขยะอยู่ตรงไหน หรือไม่ก็เกมจัดเชือกไว้เป็นพวกของไหม้"
+      "en": "Icon colour is not recorded for any demon added after the first five, so the first pattern below still cannot be checked. Note the colour next time.",
+      "th": "ปีศาจทุกตัวที่เพิ่มหลังจากห้าตัวแรกยังไม่ได้บันทึกสีไอคอน แพตเทิร์นข้อแรกด้านล่างจึงยังเช็กไม่ได้ · ครั้งหน้าเจอให้จดสีไว้ด้วย"
     },
     {
-      "en": "Ten demons are recorded, and no list anywhere says how many there are. Keep adding the ones you meet.",
-      "th": "ตอนนี้บันทึกไว้สิบตัว และยังไม่มีที่ไหนบอกว่ามีทั้งหมดกี่ตัว · เจอตัวใหม่ก็เพิ่มไปเรื่อย ๆ"
+      "en": "เชือกพลาสติก is still the one demon no reading explains. Every other Fire demon so far is electrical.",
+      "th": "เชือกพลาสติกยังเป็นตัวเดียวที่อธิบายไม่ได้ด้วยกฎไหนเลย · ปีศาจแกนไฟตัวอื่นที่เจอจนถึงตอนนี้เป็นของไฟฟ้าหมด"
+    },
+    {
+      "en": "Thirteen demons are recorded, and no list anywhere says how many there are. Keep adding the ones you meet.",
+      "th": "ตอนนี้บันทึกไว้สิบสามตัว และยังไม่มีที่ไหนบอกว่ามีทั้งหมดกี่ตัว · เจอตัวใหม่ก็เพิ่มไปเรื่อย ๆ"
     },
     {
       "en": "How a Core is crafted, and what a clear pays out, are both unrecorded.",
@@ -188,8 +222,8 @@
         "th": "สีไอคอนคือประเภทของขยะ ไม่ใช่แกน"
       },
       "body": {
-        "en": "It held for the first five: the two green demons were the plastics — ถุงพลาสติก and โฟมพลาสติก — and all three blue ones were metals: ฝุ่นโลหะ, ขึ้นสนิม (rust is metal), and ตะกั่ว–แคดเมียม. It cannot be the Core, because those three blues took three different Cores. The five demons added since have no colour recorded, so the pattern is neither confirmed nor broken — it is waiting. Note the colour next time.",
-        "th": "ห้าตัวแรกเข้ากันหมด: ไอคอนเขียวสองตัวคือพวกพลาสติก — ถุงพลาสติกกับโฟมพลาสติก — ส่วนน้ำเงินสามตัวเป็นโลหะ: ฝุ่นโลหะ, ขึ้นสนิม (สนิมคือโลหะ) และตะกั่ว–แคดเมียม · เป็นสีของแกนไม่ได้ เพราะน้ำเงินสามตัวใช้แกนคนละอัน · ส่วนห้าตัวที่เพิ่มมาทีหลังยังไม่ได้จดสี แพตเทิร์นนี้จึงยังไม่ยืนยันและยังไม่ล้ม — รอข้อมูลอยู่ · ครั้งหน้าเจอให้จดสีด้วย"
+        "en": "It held for the first five: the two green demons were the plastics — ถุงพลาสติก and โฟมพลาสติก — and all three blue ones were metals: ฝุ่นโลหะ, ขึ้นสนิม (rust is metal), and ตะกั่ว–แคดเมียม. It cannot be the Core, because those three blues took three different Cores. Nothing added since has a colour recorded, so the pattern is neither confirmed nor broken — it is waiting. เชือกพลาสติก and ขวดพลาสติก are the quickest test: if the rule holds, both should be green even though they take fire and water.",
+        "th": "ห้าตัวแรกเข้ากันหมด: ไอคอนเขียวสองตัวคือพวกพลาสติก — ถุงพลาสติกกับโฟมพลาสติก — ส่วนน้ำเงินสามตัวเป็นโลหะ: ฝุ่นโลหะ, ขึ้นสนิม (สนิมคือโลหะ) และตะกั่ว–แคดเมียม · เป็นสีของแกนไม่ได้ เพราะน้ำเงินสามตัวใช้แกนคนละอัน · ตัวที่เพิ่มมาทีหลังยังไม่ได้จดสีเลย แพตเทิร์นนี้จึงยังไม่ยืนยันและยังไม่ล้ม — รอข้อมูลอยู่ · ตัวที่เช็กได้ไวที่สุดคือเชือกพลาสติกกับขวดพลาสติก: ถ้ากฎนี้จริง สองตัวนี้ต้องเป็นสีเขียว ทั้งที่ใช้แกนไฟกับแกนน้ำ"
       }
     },
     {
@@ -198,8 +232,8 @@
         "th": "แกนที่ใช้ตรงกับว่ามลพิษนั้นอยู่ตรงไหน"
       },
       "body": {
-        "en": "Nine of ten fit. Airborne or wind-blown waste takes wind — plastic bags, foam, metal dust, the communication tower, and bleach as fumes. Liquids take water: rusted fishing gear soaked in the sea, and strong acid. Soil contaminants take earth: lead and cadmium, and circuit boards buried as e-waste. The one that does not fit is เชือกพลาสติก, a plastic that takes fire where the other plastics take wind. Fire has only ever been seen on that one demon.",
-        "th": "เข้า 9 จาก 10 ตัว · ขยะที่ลอยในอากาศหรือปลิวตามลมใช้แกนลม — ถุงพลาสติก โฟม ฝุ่นโลหะ เสาสื่อสาร และน้ำยาฟอกขาวในรูปไอระเหย · ของเหลวใช้แกนน้ำ: อุปกรณ์ประมงที่แช่น้ำทะเลจนขึ้นสนิม และกรดรุนแรง · สารปนเปื้อนในดินใช้แกนดิน: ตะกั่วกับแคดเมียม และแผงวงจรที่ถูกฝังเป็นขยะอิเล็กทรอนิกส์ · ตัวที่ไม่เข้าคือเชือกพลาสติก ซึ่งเป็นพลาสติกแต่ใช้แกนไฟ ต่างจากพลาสติกตัวอื่นที่ใช้แกนลม · และแกนไฟก็เจอที่ตัวนี้ตัวเดียวเท่านั้น"
+        "en": "The plastics are what make this readable. ถุงพลาสติก and โฟมพลาสติก take wind, ขวดพลาสติก takes water, เชือกพลาสติก takes fire — same material, three different Cores, so the Core is not about what the waste is made of. It tracks where the waste ends up. Airborne: bags, foam, metal dust, the communication tower, bleach as fumes. In water: bottles washed out to sea, fishing gear soaked in it, strong acid. In soil: lead and cadmium, circuit boards, used batteries. Fire is the thin one — วงจรไฟฟ้าใช้แล้ว fits if fire means electrical, but เชือกพลาสติก does not fit anything.",
+        "th": "พวกพลาสติกคือกุญแจที่ทำให้อ่านออก · ถุงพลาสติกกับโฟมพลาสติกใช้แกนลม ขวดพลาสติกใช้แกนน้ำ เชือกพลาสติกใช้แกนไฟ — วัสดุเดียวกันแต่ใช้แกนคนละอันถึงสามแบบ แปลว่าแกนไม่ได้ขึ้นกับว่าขยะทำจากอะไร · แต่ขึ้นกับว่าขยะนั้นไปจบที่ไหน · ลอยในอากาศ: ถุง โฟม ฝุ่นโลหะ เสาสื่อสาร และน้ำยาฟอกขาวในรูปไอระเหย · อยู่ในน้ำ: ขวดที่ลอยลงทะเล อุปกรณ์ประมงที่แช่น้ำ และกรดรุนแรง · อยู่ในดิน: ตะกั่วกับแคดเมียม แผงวงจร และแบตเตอรี่ใช้แล้ว · แกนไฟคือข้อที่ยังบาง — วงจรไฟฟ้าใช้แล้วเข้าได้ถ้าไฟหมายถึงไฟฟ้า แต่เชือกพลาสติกไม่เข้ากับอะไรเลย"
       }
     }
   ]
