@@ -238,7 +238,7 @@
    "thConfirmed": false,
    "group": "a",
    "coverage": "complete",
-   "note": "The client’s filter prints ขนสัตว์ for both 毛皮 (Fur) and 羽毛 (Feather) — KK confirms that is a mistranslation in the client, not two families with one name. We keep ขนนก so the two stay apart."
+   "note": "The client’s filter prints ขนสัตว์ for both 毛皮 (Fur) and 羽毛 (Feather) — KK confirms that is a mistranslation in the client, not two families with one name. We keep ขนนก so the two stay apart. Confirmed twice now, on ขนนกนางนวล and on ขนห่าน — both plainly bird feathers, both printed [หลัก]ขนสัตว์."
   },
   {
    "key": "Bone",

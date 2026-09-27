@@ -144,6 +144,11 @@ const spot=[
    return m&&m.rank===4&&m.family==='Feather'&&m.confidence==='KK-tested'&&m.thConfirmed
      &&m.name.th==='ขนนกนางนวล'&&!m.sources.some(s=>s.type==='shop');
  }],
+ ['Goose Feather is the KK-confirmed rank-2 Feather, buyable nowhere',()=>{
+   const m=mats.find(x=>x.id==='feather-r2-goose-feather');
+   return m&&m.rank===2&&m.family==='Feather'&&m.confidence==='KK-tested'&&m.thConfirmed
+     &&m.name.th==='ขนห่าน'&&!m.sources.some(s=>s.type==='shop');
+ }],
  ['A material may have no 中文 name, but never a Thai one it has not earned',()=>mats.every(m=>
    !m.thConfirmed||!!m.name.th)],
  ['No Star (ประกายดาว) material is sold in any shop — KK confirmed 2026-09-10',

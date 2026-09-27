@@ -1135,6 +1135,27 @@
   "updated": "2026-09-07"
  },
  {
+  "id": "feather-r2-goose-feather",
+  "family": "Feather",
+  "rank": 2,
+  "name": {
+   "en": "Goose Feather",
+   "cn": null,
+   "th": "ขนห่าน"
+  },
+  "sources": [],
+  "flags": {
+   "cheapestOfFamily": false,
+   "highestBuyable": false,
+   "keyMaterial": false,
+   "priceConfirmedRe": false
+  },
+  "confidence": "KK-tested",
+  "note": "KK read this off a live tooltip 2026-09-27: rank 2, [หลัก]ขนสัตว์, category วัสดุสัตว์, ไม่สามารถซื้อขาย, described as a feather taken from a goose. Where it comes from is not recorded — it cannot be bought, so it drops or is gathered. This is the rank-2 rung of the Feather ladder, which we did not have.",
+  "updated": "2026-09-27",
+  "thConfirmed": true
+ },
+ {
   "id": "feather-r4-seagull-feather",
   "family": "Feather",
   "rank": 4,
