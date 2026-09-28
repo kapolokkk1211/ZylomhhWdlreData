@@ -4533,7 +4533,7 @@
   "name": {
    "en": "Wind Demon Gloves",
    "cn": "風魔手套",
-   "th": "ถุงมือปีศาจลม"
+   "th": "ถุงมือฟูมะ"
   },
   "sources": [
    {
@@ -4551,8 +4551,9 @@
    "priceConfirmedRe": false
   },
   "confidence": "RE-reported",
-  "note": null,
-  "updated": "2026-09-07"
+  "note": "Thai name from KK's client 2026-09-28: ถุงมือฟูมะ. The client reads the original name as the proper name Fūma (the ninja clan), not as 'wind demon'.",
+  "updated": "2026-09-28",
+  "thConfirmed": true
  },
  {
   "id": "leather-r18-delicate-leather",

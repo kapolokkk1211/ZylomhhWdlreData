@@ -197,7 +197,7 @@ console.log('compounds',comp.length,'| companions',pets.length,'| materials',mat
 console.log('errors:',err.length); err.slice(0,20).forEach(e=>console.log('  ✗',e));
 console.log('warnings:',warn.length); warn.slice(0,10).forEach(w=>console.log('  ⚠',w));
 console.log('\n=== SPOT CHECKS ===');
-spot.forEach(([name,fn])=>{let ok=false;try{ok=fn()}catch(e){}console.log(ok?'  ✓':'  ✗',name)});
+spot.forEach(([name,fn])=>{let ok=false;try{ok=fn()}catch(e){}console.log(ok?'  ✓':'  ✗',name);if(!ok)err.push('spot check failed: '+name)});
 console.log('\n=== COVERAGE ===');
 const th=comp.filter(r=>r.name.th).length;
 console.log(`Thai item names: ${th}/${comp.length} (${(th/comp.length*100).toFixed(1)}%) — tier 3 work, expected low`);

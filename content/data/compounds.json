@@ -3275,7 +3275,7 @@
   "statsRaw": "ATK+12 MDEF+8",
   "recipe": {
    "en": "Iron Hemp Shoes + Wind Demon Gloves + Iron Hemp Shoes",
-   "th": "รองเท้าป่านเหล็ก + ถุงมือปีศาจลม + รองเท้าป่านเหล็ก"
+   "th": "รองเท้าป่านเหล็ก + ถุงมือฟูมะ + รองเท้าป่านเหล็ก"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -5599,7 +5599,7 @@
   "statsRaw": "DEF+16 ATK+5",
   "recipe": {
    "en": "Copper Mage Crown + Wind Demon Gloves (low chance)",
-   "th": "มงกุฎเมจทองแดง + ถุงมือปีศาจลม (low chance)"
+   "th": "มงกุฎเมจทองแดง + ถุงมือฟูมะ (low chance)"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -5704,7 +5704,7 @@
   "statsRaw": "SPD+15 DEF+7",
   "recipe": {
    "en": "Copper Mage Crown + Wind Demon Gloves",
-   "th": "มงกุฎเมจทองแดง + ถุงมือปีศาจลม"
+   "th": "มงกุฎเมจทองแดง + ถุงมือฟูมะ"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -10700,7 +10700,7 @@
   "statsRaw": "SPD+12 DEF+9",
   "recipe": {
    "en": "Silver Ring + Wind Demon Gloves",
-   "th": "แหวนเงินขาว + ถุงมือปีศาจลม"
+   "th": "แหวนเงินขาว + ถุงมือฟูมะ"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -11545,7 +11545,7 @@
   "statsRaw": "MATK+26 ATK+18",
   "recipe": {
    "en": "Forest Staff + Water Jade Necklace + Wind Demon Gloves",
-   "th": "ไม้เท้าวิญญาณป่า + สร้อยคอหยกน้ำ + ถุงมือปีศาจลม"
+   "th": "ไม้เท้าวิญญาณป่า + สร้อยคอหยกน้ำ + ถุงมือฟูมะ"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18518,7 +18518,7 @@
   "statsRaw": "SPD+9 MDEF+3",
   "recipe": {
    "en": "Wind Demon Gloves + r18 Crystal",
-   "th": "ถุงมือปีศาจลม + คริสตัล r18"
+   "th": "ถุงมือฟูมะ + คริสตัล r18"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -18784,7 +18784,7 @@
   "statsRaw": "MATK+5 SPD+11",
   "recipe": {
    "en": "Wind Demon Gloves + Black Jade",
-   "th": "ถุงมือปีศาจลม + หยกดำ"
+   "th": "ถุงมือฟูมะ + หยกดำ"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19026,7 +19026,7 @@
   "name": {
    "en": "Wind Demon Gloves",
    "cn": "風魔手套",
-   "th": "ถุงมือปีศาจลม"
+   "th": "ถุงมือฟูมะ"
   },
   "stats": [
    {
@@ -19042,8 +19042,10 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-09-28",
+  "familyCoverage": "complete",
+  "thConfirmed": true,
+  "note": "Thai name from KK's client 2026-09-28: ถุงมือฟูมะ. The client reads the original name as the proper name Fūma (the ninja clan), not as 'wind demon'."
  },
  {
   "id": "noble-leather-boots-r18",
@@ -19131,7 +19133,7 @@
   "statsRaw": "SPD+19",
   "recipe": {
    "en": "Wind Demon Gloves + Copper Mage Crown",
-   "th": "ถุงมือปีศาจลม + มงกุฎเมจทองแดง"
+   "th": "ถุงมือฟูมะ + มงกุฎเมจทองแดง"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19201,7 +19203,7 @@
   "statsRaw": "MATK+18 SP+20",
   "recipe": {
    "en": "Wind Demon Gloves + r18 Crystal / Dragon Scale Marrow / r18 Magic Jade",
-   "th": "ถุงมือปีศาจลม + คริสตัล r18 / ไขกระดูกเกล็ดมังกร / หยกเวทมนตร์ r18"
+   "th": "ถุงมือฟูมะ + คริสตัล r18 / ไขกระดูกเกล็ดมังกร / หยกเวทมนตร์ r18"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19300,7 +19302,7 @@
   "statsRaw": "ATK+22",
   "recipe": {
    "en": "Wind Demon Gloves + Copper Mage Crown + Sea Blue Armor",
-   "th": "ถุงมือปีศาจลม + มงกุฎเมจทองแดง + เกราะเกล็ดน้ำเงินทะเล"
+   "th": "ถุงมือฟูมะ + มงกุฎเมจทองแดง + เกราะเกล็ดน้ำเงินทะเล"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
@@ -19340,7 +19342,7 @@
   "updated": "2026-09-07",
   "familyCoverage": "complete",
   "thConfirmed": true,
-  "note": "Thai name taken verbatim from KK's client 2026-09-21. It is a garbled machine translation — the description underneath reads properly as รองเท้าบูตหนังเย็บจากหนังเหนียวของมังกรปีก — but the client string is what a player can search for, so it wins over our cleaner รองเท้าบู๊ตหนังมังกรมีปีก. Rank 22 and the boots slot both confirmed by the same tooltip. OPEN: the client shows SPD+13 where this row says SPD+14; MDEF+8 agrees. Not changed — the tooltip marks both stats with a ▲ and shows a greyed ATK line, so the displayed numbers may include a modifier. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ถุงมือปีศาจลม + มงกุฎเมจทองแดง. Leather r17 climbing to Leather r22."
+  "note": "Thai name taken verbatim from KK's client 2026-09-21. It is a garbled machine translation — the description underneath reads properly as รองเท้าบูตหนังเย็บจากหนังเหนียวของมังกรปีก — but the client string is what a player can search for, so it wins over our cleaner รองเท้าบู๊ตหนังมังกรมีปีก. Rank 22 and the boots slot both confirmed by the same tooltip. OPEN: the client shows SPD+13 where this row says SPD+14; MDEF+8 agrees. Not changed — the tooltip marks both stats with a ▲ and shows a greyed ATK line, so the displayed numbers may include a modifier. · Recipe confirmed by KK in game 2026-09-21, recorded from the planner tree KK built. Was ถุงมือฟูมะ + มงกุฎเมจทองแดง. Leather r17 climbing to Leather r22."
  },
  {
   "id": "red-lotus-boots-r23",
@@ -23744,7 +23746,7 @@
   "name": {
    "en": "Wind Demon Ninja Suit",
    "cn": "風魔忍者服",
-   "th": "ชุดนินจาปีศาจลม"
+   "th": "ชุดนินจาฟูมะ"
   },
   "stats": [
    {
@@ -23761,7 +23763,8 @@
   "confidence": "RE-reported",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Thai name follows ถุงมือฟูมะ, which KK read off the client 2026-09-28: the client renders that prefix as ฟูมะ. Not yet seen in the client itself."
  },
  {
   "id": "hidden-ninja-garb-r26",
@@ -24161,7 +24164,7 @@
   "name": {
    "en": "Wind Demon Speed Suit",
    "cn": "風魔疾速裝",
-   "th": "ชุดความเร็วปีศาจลม"
+   "th": "ชุดความเร็วฟูมะ"
   },
   "stats": [
    {
@@ -24182,7 +24185,8 @@
   "confidence": "RE-reported",
   "source": "compendium-kucha",
   "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "familyCoverage": "complete",
+  "note": "Thai name follows ถุงมือฟูมะ, which KK read off the client 2026-09-28: the client renders that prefix as ฟูมะ. Not yet seen in the client itself."
  },
  {
   "id": "kiwi-feather-shoes-r24",
