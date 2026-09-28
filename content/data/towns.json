@@ -78,10 +78,11 @@
   "name": {
    "en": "Maya",
    "cn": "瑪雅",
-   "th": "มายา"
+   "th": "ป่ามายา"
   },
-  "thStatus": "closed",
-  "note": null
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28 — the port reads ป่ามายา. Opens the Maya shop, including the rank-10 Steel boots (รองเท้าบู๊ตหนักหนังทองแดง) that players buy to mass-wash into Steel.",
+  "thConfirmed": true
  },
  {
   "key": "inca",
@@ -162,7 +163,7 @@
    "th": "กรุงเทพฯ"
   },
   "thStatus": "open",
-  "note": "Opened by the 2026-09 patch — confirmed on KK's in-client map.",
+  "note": "Opened by the 2026-09 patch. Lv 125 gate, read off KK's in-client voyage map, 2026-09-28.",
   "thConfirmed": true
  },
  {
@@ -223,7 +224,7 @@
    "th": "ฮาวาย"
   },
   "thStatus": "not-in-re",
-  "note": "⚠️ The Re sheet has NO Hawaii shop. Every rank-18 refined material in Re comes from the Advanced Alchemy Scroll (Re), bought at 8-12, instead. Legacy Hawaii rows are kept only as a legacy note."
+  "note": "The ports are on the TH map — KK's in-client voyage map, 2026-09-28 shows two, เกาะเล็กฮาวาย and เกาะใหญ่ฮาวาย — but the Re sheet lists NO shop there. Every rank-18 refined material in Re comes from the Advanced Alchemy Scroll (Re), bought at 8-12, instead. The legacy Hawaii shop rows are kept as a legacy note and are NOT counted as buyable. If a shop turns up when someone lands, flip this to open."
  },
  {
   "key": "madagascar",
@@ -268,5 +269,60 @@
   "thStatus": "open",
   "thConfirmed": true,
   "note": "Open on KK's map. Where the Ancestor skill quest's Mysterious Scroll is picked up, around (4500, 4185). No shop list yet."
+ },
+ {
+  "key": "edo",
+  "name": {
+   "en": "Edo",
+   "cn": "江戶",
+   "th": "เอโดะ"
+  },
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28. No shop list yet. Our Japan shop rows are filed under a separate town (legacy transcriptions call it \"Kyoto\") and stay closed until someone confirms whether that shop is here.",
+  "thConfirmed": true
+ },
+ {
+  "key": "north-island",
+  "name": {
+   "en": "North Island",
+   "cn": "北島",
+   "th": "เกาะเหนือ"
+  },
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28, Lv 5 gate. A farming port — no shop rows in the material index.",
+  "thConfirmed": true
+ },
+ {
+  "key": "south-island",
+  "name": {
+   "en": "South Island",
+   "cn": "南島",
+   "th": "เกาะใต้"
+  },
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28, Lv 25 gate. A farming port — no shop rows in the material index.",
+  "thConfirmed": true
+ },
+ {
+  "key": "new-zealand",
+  "name": {
+   "en": "New Zealand",
+   "cn": "紐西蘭",
+   "th": "เกาะนิวซีแลนด์"
+  },
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28, Lv 45 gate. A farming port — no shop rows in the material index.",
+  "thConfirmed": true
+ },
+ {
+  "key": "snow-island",
+  "name": {
+   "en": "Snow Island",
+   "cn": "雪島",
+   "th": "เกาะหิมะ"
+  },
+  "thStatus": "open",
+  "note": "Open on KK's in-client voyage map, 2026-09-28. A farming port — no shop rows in the material index.",
+  "thConfirmed": true
  }
 ]
