@@ -130,18 +130,32 @@ export default function Simulator({ rows, mats, labels, strings, lang }) {
   const startTree = (itemId) => { const n = mkItem(itemId); setTree(n); setSelected(n.id); };
   const findNode = (id) => { const f = (n) => (n.id === id ? n : n.children.map(f).find(Boolean)); return tree ? f(tree) : null; };
   const selectedNode = selected ? findNode(selected) : null;
+  /* Rank-18 ingredients are not obtainable on the Thai server this patch — Egypt, the whole
+     rank-18 tier, is closed, and Hawaii has no shop in Re. So auto-fill never proposes one: for
+     each ingredient it takes the first option that is not rank 18, and it takes the first
+     alternative where every ingredient has such an option. If no alternative gets by without a
+     rank-18 ingredient, it fills nothing and says so on the node. Adding a rank-18 item by hand
+     still works — this only changes what the planner suggests. */
+  const HARD_RANK = 18;
+  const isHard = (nd) => nd && typeof nd.rank === 'number' && nd.rank === HARD_RANK;
   const loadRecipe = (n) => {
     const r = byId.get(n.itemId); if (!r) return;
     const alts = parseRecipe(r[10]); if (!alts.length) return;
-    const kids = alts[0].ingredients.map((ing) => {
-      const opt = ing.options[0]; const node = resolve(opt.text, idx);
+    if (depthOf(n.id) >= MAX_DEPTH - 1) return;
+    let chosen = null;
+    for (const alt of alts) {
+      const picks = alt.ingredients.map((ing) =>
+        ing.options.map((opt) => resolve(opt.text, idx)).find((nd) => !isHard(nd)));
+      if (picks.every(Boolean)) { chosen = picks; break; }
+    }
+    if (!chosen) { update(n.id, (x) => ({ ...x, note: strings.r18Blocked })); return; }
+    const kids = chosen.map((node) => {
       if (node.kind === 'item') return mkItem(node.row[0]);
       if (node.kind === 'material') return byId.has(`mat:${node.mat.id}`) ? mkItem(`mat:${node.mat.id}`) : mkMat(node.mat.id);
       if (node.kind === 'book') return mkText(node.vol ? `${strings.book} Vol.${node.vol}` : strings.anyBook);
       if (node.kind === 'shop') return mkText(`${strings.shop}: ${node.town}`);
-      return mkText(node.kind === 'family' ? `${labels.family[node.family]?.label || node.family} r${node.rank}` : node.en || opt.text);
+      return mkText(node.kind === 'family' ? `${labels.family[node.family]?.label || node.family} r${node.rank}` : node.en);
     });
-    if (depthOf(n.id) >= MAX_DEPTH - 1) return;
     update(n.id, (x) => ({ ...x, children: [...x.children, ...kids] }));
   };
 
