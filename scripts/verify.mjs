@@ -178,6 +178,8 @@ const spot=[
    const ok=u=>typeof u==='string'&&u.startsWith('https://forum.gamer.com.tw/');
    return ok(J('rankclimb.json').source.url) && ok(J('advancement.json').source.url);
  }],
+ ['No piece of equipment carries Water as a structural family — that reading was a mis-import of Nylon',
+   ()=>!comp.some(r=>!['material','manufacture'].includes(r.slot)&&(r.family==='Water'||r.secondary.includes('Water')))],
  ['No note or prose field carries CJK — the cn keys are the archive, notes reach the page',()=>{
    const cjk=/[\u4e00-\u9fff\u3400-\u4dbf]/;
    const walk=(o,k)=>{

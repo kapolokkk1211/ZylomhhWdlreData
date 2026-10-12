@@ -7904,7 +7904,7 @@
   "family": "Titan",
   "secondary": [
    "Grass",
-   "Water"
+   "Nylon"
   ],
   "rank": 14,
   "lv": 28,
@@ -7932,8 +7932,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "note": "Third family corrected from Water to Nylon. The legacy item (wlohub 'Blessed Bow', r14, Lv28, SPD+18 ATK+10) is Titanium / Grass / Nylon, and a 2026 Re tutorial gives the same three, Titanium + Grass + Nylon."
  },
  {
   "id": "grey-wolf-bracers-r16",
@@ -13357,7 +13358,7 @@
   "family": "Wood",
   "secondary": [
    "Grass",
-   "Water"
+   "Nylon"
   ],
   "rank": 12,
   "lv": 24,
@@ -13385,8 +13386,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "note": "Third family corrected from Water to Nylon. The legacy item at this rank (wlohub 'Sun Bow', r12, Lv24, ATK+13 SPD+11 — the same row) is Wood / Grass / Nylon, and KK flagged the Water reading 2026-10-12."
  },
  {
   "id": "orc-crossbow-r13",
@@ -14019,7 +14021,7 @@
   "id": "jade-green-clogs-r27",
   "family": "Wood",
   "secondary": [
-   "Water"
+   "Nylon"
   ],
   "rank": 27,
   "lv": 54,
@@ -14047,8 +14049,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "note": "Family corrected from Water to Nylon by pattern, not by a direct check of this row: no piece of equipment carries Water as a structural family, and the two rows from the same import that could be checked against another source (the r12 and r14 bows) were both Nylon. Confirm with the item tooltip's [รอง] line."
  },
  {
   "id": "grass-shoes-r3",
@@ -20005,7 +20008,7 @@
   "id": "azure-blue-gloves-r29",
   "family": "Fur",
   "secondary": [
-   "Water"
+   "Nylon"
   ],
   "rank": 29,
   "lv": 58,
@@ -20029,8 +20032,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "note": "Family corrected from Water to Nylon by pattern, not by a direct check of this row: no piece of equipment carries Water as a structural family, and the two rows from the same import that could be checked against another source (the r12 and r14 bows) were both Nylon. Confirm with the item tooltip's [รอง] line."
  },
  {
   "id": "hidden-masked-suit-r30",
@@ -24156,7 +24160,7 @@
   "id": "wind-demon-speed-suit-r21",
   "family": "Feather",
   "secondary": [
-   "Water"
+   "Nylon"
   ],
   "rank": 21,
   "lv": 42,
@@ -24184,9 +24188,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
+  "updated": "2026-10-12",
   "familyCoverage": "complete",
-  "note": "Thai name follows ถุงมือฟูมะ, which KK read off the client 2026-09-28: the client renders that prefix as ฟูมะ. Not yet seen in the client itself."
+  "note": "Thai name follows ถุงมือฟูมะ, which KK read off the client 2026-09-28: the client renders that prefix as ฟูมะ. Not yet seen in the client itself. · Family corrected from Water to Nylon by pattern, not by a direct check of this row: no piece of equipment carries Water as a structural family, and the two rows from the same import that could be checked against another source (the r12 and r14 bows) were both Nylon. Confirm with the item tooltip's [รอง] line."
  },
  {
   "id": "kiwi-feather-shoes-r24",
@@ -24292,7 +24296,7 @@
   "family": "Feather",
   "secondary": [
    "Leather",
-   "Water"
+   "Nylon"
   ],
   "rank": 27,
   "lv": 54,
@@ -24320,8 +24324,9 @@
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "note": "Family corrected from Water to Nylon by pattern, not by a direct check of this row: no piece of equipment carries Water as a structural family, and the two rows from the same import that could be checked against another source (the r12 and r14 bows) were both Nylon. Confirm with the item tooltip's [รอง] line."
  },
  {
   "id": "dazzle-feather-boots-r28",
