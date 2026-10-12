@@ -616,13 +616,14 @@
   "statsNote": "seal resist +5%",
   "statsRaw": "ATK+30, seal resist +5%",
   "recipe": {
-   "en": "Volcano event reward",
-   "th": "รางวัลอีเวนต์ภูเขาไฟ"
+   "en": "Dungeon reward — Storm the Flaming Mountain",
+   "th": "รางวัลดันเจี้ยน — บุกพิชิตเขาเปลวอัคคี"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "dungeon": "flame-mountain"
  },
  {
   "id": "poison-fang-r15",
@@ -6237,13 +6238,14 @@
   "statsNote": null,
   "statsRaw": "DEF+30",
   "recipe": {
-   "en": "Eighteen Bronze Men formation",
-   "th": "Eighteen Bronze Men formation"
+   "en": "Dungeon reward — Eighteen Bronze Men Formation",
+   "th": "รางวัลดันเจี้ยน — ค่ายกลคนทอง 18 อรหันต์"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "dungeon": "bronze-18"
  },
  {
   "id": "pure-iron-ore-r4",
@@ -7695,13 +7697,14 @@
   "statsNote": null,
   "statsRaw": "MATK+40 SPD+10",
   "recipe": {
-   "en": "Wind set — Egypt priest",
-   "th": "Wind set — Egypt priest"
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "dungeon": "egypt-priest"
  },
  {
   "id": "dark-green-long-boots-r27",
@@ -10606,13 +10609,14 @@
   "statsNote": "seal resist +5%",
   "statsRaw": "MATK+25, seal resist +5%",
   "recipe": {
-   "en": "Volcano event reward",
-   "th": "รางวัลอีเวนต์ภูเขาไฟ"
+   "en": "Dungeon reward — Storm the Flaming Mountain",
+   "th": "รางวัลดันเจี้ยน — บุกพิชิตเขาเปลวอัคคี"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "dungeon": "flame-mountain"
  },
  {
   "id": "refined-white-silver-r18",
@@ -20777,13 +20781,14 @@
   "statsNote": null,
   "statsRaw": "MATK+30 MDEF+20",
   "recipe": {
-   "en": "Water set — Egypt priest",
-   "th": "Water set — Egypt priest"
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
   },
   "confidence": "RE-reported",
   "source": "compendium-kucha",
-  "updated": "2026-09-07",
-  "familyCoverage": "complete"
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "dungeon": "egypt-priest"
  },
  {
   "id": "ice-snow-circlet-r30",
@@ -42542,5 +42547,922 @@
   "familyCoverage": "complete",
   "thConfirmed": false,
   "note": null
+ },
+ {
+  "id": "fire-set-weapon-r25",
+  "family": "PureIron",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "spear",
+  "name": {
+   "en": "Fire Set Weapon",
+   "cn": "火系套裝刃",
+   "th": "อาวุธเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 50
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+50",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "fire-set-staff-r25",
+  "family": "Jade",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "staff",
+  "name": {
+   "en": "Fire Set Staff",
+   "cn": "火系套裝杖",
+   "th": "ไม้เท้าเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "MATK",
+    "v": 40
+   },
+   {
+    "stat": "ATK",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "MATK+40 ATK+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "fire-set-clothes-r25",
+  "family": "Flower",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "armor",
+  "name": {
+   "en": "Fire Set Clothes",
+   "cn": "火系套裝服",
+   "th": "ชุดเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 15
+   },
+   {
+    "stat": "DEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+15 DEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "fire-set-hat-r25",
+  "family": "PureIron",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "helm",
+  "name": {
+   "en": "Fire Set Hat",
+   "cn": "火系套裝帽",
+   "th": "หมวกเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 15
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+15 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "fire-set-bracers-r25",
+  "family": "Leather",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "bracer",
+  "name": {
+   "en": "Fire Set Bracers",
+   "cn": "火系套裝腕",
+   "th": "ปลอกแขนเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 15
+   },
+   {
+    "stat": "MATK",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+15 MATK+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "fire-set-boots-r25",
+  "family": "Flower",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "boots",
+  "name": {
+   "en": "Fire Set Boots",
+   "cn": "火系套裝靴",
+   "th": "รองเท้าเซ็ตธาตุไฟ"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 15
+   },
+   {
+    "stat": "MATK",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+15 MATK+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-weapon-r25",
+  "family": "Gold",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "sword",
+  "name": {
+   "en": "Earth Set Weapon",
+   "cn": "地系套裝刃",
+   "th": "อาวุธเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 50
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+50",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-staff-r25",
+  "family": "Copper",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "staff",
+  "name": {
+   "en": "Earth Set Staff",
+   "cn": "地系套裝杖",
+   "th": "ไม้เท้าเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "MATK",
+    "v": 35
+   },
+   {
+    "stat": "DEF",
+    "v": 15
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "MATK+35 DEF+15",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-clothes-r25",
+  "family": "Nylon",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "armor",
+  "name": {
+   "en": "Earth Set Clothes",
+   "cn": "地系套裝服",
+   "th": "ชุดเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-hat-r25",
+  "family": "Tin",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "helm",
+  "name": {
+   "en": "Earth Set Hat",
+   "cn": "地系套裝帽",
+   "th": "หมวกเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-bracers-r25",
+  "family": "Copper",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "bracer",
+  "name": {
+   "en": "Earth Set Bracers",
+   "cn": "地系套裝腕",
+   "th": "ปลอกแขนเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "MDEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 MDEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "earth-set-boots-r25",
+  "family": "Leather",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "boots",
+  "name": {
+   "en": "Earth Set Boots",
+   "cn": "地系套裝靴",
+   "th": "รองเท้าเซ็ตธาตุดิน"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "wind-set-weapon-r25",
+  "family": "Copper",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "blade",
+  "name": {
+   "en": "Wind Set Weapon",
+   "cn": "風系套裝刃",
+   "th": "อาวุธเซ็ตธาตุลม"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 50
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+50",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "wind-set-clothes-r25",
+  "family": "Grass",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "armor",
+  "name": {
+   "en": "Wind Set Clothes",
+   "cn": "風系套裝服",
+   "th": "ชุดเซ็ตธาตุลม"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 15
+   },
+   {
+    "stat": "DEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+15 DEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "wind-set-hat-r25",
+  "family": "Leaf",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "helm",
+  "name": {
+   "en": "Wind Set Hat",
+   "cn": "風系套裝帽",
+   "th": "หมวกเซ็ตธาตุลม"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 20
+   },
+   {
+    "stat": "ATK",
+    "v": 5
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+20 ATK+5",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "wind-set-bracers-r25",
+  "family": "Grass",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "bracer",
+  "name": {
+   "en": "Wind Set Bracers",
+   "cn": "風系套裝腕",
+   "th": "ปลอกแขนเซ็ตธาตุลม"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 15
+   },
+   {
+    "stat": "ATK",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+15 ATK+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "wind-set-boots-r25",
+  "family": "Leaf",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "boots",
+  "name": {
+   "en": "Wind Set Boots",
+   "cn": "風系套裝靴",
+   "th": "รองเท้าเซ็ตธาตุลม"
+  },
+  "stats": [
+   {
+    "stat": "SPD",
+    "v": 20
+   },
+   {
+    "stat": "MATK",
+    "v": 5
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "SPD+20 MATK+5",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "water-set-weapon-r25",
+  "family": "Steel",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "sword",
+  "name": {
+   "en": "Water Set Weapon",
+   "cn": "水系套裝刃",
+   "th": "อาวุธเซ็ตธาตุน้ำ"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 40
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+40 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values. A Bahamut table gives this one ATK+40 DEF+10 rather than SPD+10."
+ },
+ {
+  "id": "water-set-clothes-r25",
+  "family": "Leather",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "armor",
+  "name": {
+   "en": "Water Set Clothes",
+   "cn": "水系套裝服",
+   "th": "ชุดเซ็ตธาตุน้ำ"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "MDEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 MDEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "water-set-hat-r25",
+  "family": "Iron",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "helm",
+  "name": {
+   "en": "Water Set Hat",
+   "cn": "水系套裝帽",
+   "th": "หมวกเซ็ตธาตุน้ำ"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "SPD",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 SPD+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "water-set-bracers-r25",
+  "family": "Crystal",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "bracer",
+  "name": {
+   "en": "Water Set Bracers",
+   "cn": "水系套裝腕",
+   "th": "ปลอกแขนเซ็ตธาตุน้ำ"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "MDEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 MDEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "water-set-boots-r25",
+  "family": "Steel",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "boots",
+  "name": {
+   "en": "Water Set Boots",
+   "cn": "水系套裝靴",
+   "th": "รองเท้าเซ็ตธาตุน้ำ"
+  },
+  "stats": [
+   {
+    "stat": "DEF",
+    "v": 15
+   },
+   {
+    "stat": "MDEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "DEF+15 MDEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Egyptian Priest's Plot",
+   "th": "รางวัลดันเจี้ยน — แผนร้ายของนักบวชอียิปต์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "egypt-priest",
+  "note": "Family, slot and stats from the legacy item database (the Egyptian-priest dungeon's elemental 'Aurora' set, Lv 50); the Thai client's reward preview shows the same four sets of six. Stats roll randomly around these values."
+ },
+ {
+  "id": "sea-wing-helm-r25",
+  "family": "Diamond",
+  "secondary": [],
+  "rank": 25,
+  "lv": 50,
+  "slot": "helm",
+  "name": {
+   "en": "Sea Wing Helm",
+   "cn": "海翼頭盔",
+   "th": "หมวกเกราะปีกทะเล"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 20
+   },
+   {
+    "stat": "DEF",
+    "v": 10
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+20 DEF+10",
+  "recipe": {
+   "en": "Dungeon reward — The Great Undersea Muster",
+   "th": "รางวัลดันเจี้ยน — รวมพลครั้งใหญ่ใต้สมุทร"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "undersea",
+  "note": "Family, slot and stats from the legacy item database; the legacy dungeon table lists it as this dungeon's reward."
+ },
+ {
+  "id": "kings-ring-r32",
+  "family": "Jade",
+  "secondary": [],
+  "rank": 32,
+  "lv": 64,
+  "slot": "accessory",
+  "name": {
+   "en": "King's Ring",
+   "cn": "王者之戒",
+   "th": "แหวนราชา"
+  },
+  "stats": [
+   {
+    "stat": "ATK",
+    "v": 16
+   },
+   {
+    "stat": "SPD",
+    "v": 16
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "ATK+16 SPD+16",
+  "recipe": {
+   "en": "Dungeon reward — Alexander the Great",
+   "th": "รางวัลดันเจี้ยน — พระเจ้าอเล็กซานเดอร์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "alexander",
+  "note": "Family, slot and stats from the legacy item database; the legacy dungeon table lists it as this dungeon's reward."
+ },
+ {
+  "id": "lords-ring-r32",
+  "family": "Gem",
+  "secondary": [],
+  "rank": 32,
+  "lv": 64,
+  "slot": "accessory",
+  "name": {
+   "en": "Lord's Ring",
+   "cn": "法王之戒",
+   "th": "แหวนธรรมราชา"
+  },
+  "stats": [
+   {
+    "stat": "MATK",
+    "v": 16
+   },
+   {
+    "stat": "SPD",
+    "v": 16
+   }
+  ],
+  "statsNote": null,
+  "statsRaw": "MATK+16 SPD+16",
+  "recipe": {
+   "en": "Dungeon reward — Alexander the Great",
+   "th": "รางวัลดันเจี้ยน — พระเจ้าอเล็กซานเดอร์"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "alexander",
+  "note": "Family, slot and stats from the legacy item database; the legacy dungeon table lists it as this dungeon's reward. The legacy database files this under Corundum; the Re sheet files Corundum items under our Gem family — the same mapping as the water set staff."
+ },
+ {
+  "id": "smiling-clay-bodhisattva-r7",
+  "family": "Jade",
+  "secondary": [
+   "Grass"
+  ],
+  "rank": 7,
+  "lv": 14,
+  "slot": "accessory",
+  "name": {
+   "en": "Smiling Clay Bodhisattva",
+   "cn": "笑臉泥菩薩",
+   "th": "โพธิสัตว์ดินเหนียวยิ้ม"
+  },
+  "stats": [],
+  "statsNote": "seal resist +50%",
+  "statsRaw": "seal resist +50%",
+  "recipe": {
+   "en": "Dungeon reward — Storm the Flaming Mountain",
+   "th": "รางวัลดันเจี้ยน — บุกพิชิตเขาเปลวอัคคี"
+  },
+  "confidence": "LEGACY",
+  "source": "wlohub",
+  "updated": "2026-10-12",
+  "familyCoverage": "complete",
+  "randomStats": true,
+  "dungeon": "flame-mountain",
+  "note": "Family, slot and stats from the legacy item database; the legacy dungeon table lists it as this dungeon's reward. The statue in the Thai client's reward list for this dungeon. Its only stat is the legacy 'Special' line, which the Re sheet reads as seal resistance elsewhere."
  }
 ]

@@ -18,9 +18,17 @@ const cmp = { '>': (a, b) => a > b, '>=': (a, b) => a >= b, '=': (a, b) => a ===
 
 /*  row indices — see lib/data.js
     0 id 1 family 2 secondary 3 rank 4 lv 5 slot 6 en 7 cn 8 th 9 statsRaw 10 recipeEn 11 recipeTh
-    12 confidence 13 coverage 14 line 15 random 16 lvAnomaly 17 note 18 thConfirmed 19 band 20 stats[] */
+    12 confidence 13 coverage 14 line 15 random 16 lvAnomaly 17 note 18 thConfirmed 19 band 20 stats[]
+    21 dungeon key (null unless the item is a dungeon reward) */
+
+const DUNGEON = '__dungeon';
 
 export default function CompoundTable({ rows, labels, strings, options, lang }) {
+  const dungeonTitle = (k) => {
+    const d = labels.dungeon?.[k];
+    if (!d) return strings.dungeon;
+    return `${d.label}${d.lv ? ` · Lv ${d.lv}` : ''}${d.players ? ` · ${d.players} ${strings.players}` : ''}${d.guild ? ` · ${strings.guild}` : ''}`;
+  };
   const [q, setQ] = useState('');
   const [fam, setFam] = useState('');       // main structural family
   const [fam2, setFam2] = useState('');      // secondary family — its own filter, so 'main only' is possible
@@ -55,7 +63,9 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
     return rows.filter((r) => {
       if (fam && r[1] !== fam) return false;
       if (fam2 && !(r[2] || []).includes(fam2)) return false;
-      if (slot && r[5] !== slot) return false;
+      // "Dungeon" sits in the slot filter as KK asked: it is not a slot, it is where the item
+      // comes from, but it is the list a player opens to ask "what can I wear from a dungeon".
+      if (slot === DUNGEON) { if (!r[21]) return false; } else if (slot && r[5] !== slot) return false;
       if (r[3] < L || r[3] > H) return false;
       if (verified && !TRUSTED.has(r[12])) return false;
       if (statActive) {
@@ -140,7 +150,7 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
         />
         <Combobox value={fam} onChange={setFam} options={options.families} allLabel={strings.allFamilies} ariaLabel={strings.mainFamily} width={190} />
         <Combobox value={fam2} onChange={setFam2} options={options.secondaries} allLabel={strings.allSecondaries} ariaLabel={strings.secondFamily} width={190} />
-        <Combobox value={slot} onChange={setSlot} options={options.slots} allLabel={strings.allSlots} width={170} />
+        <Combobox value={slot} onChange={setSlot} options={[...options.slots, { key: DUNGEON, label: strings.dungeon, alt: 'dungeon' }]} allLabel={strings.allSlots} width={170} />
 
         <span className="rng">
           {strings.rank}
@@ -245,7 +255,12 @@ export default function CompoundTable({ rows, labels, strings, options, lang }) 
                     )}
                     {g.row[15] === 1 && <span className="badge b-infer" style={{ marginLeft: 5 }}>{strings.random}</span>}
                   </td>
-                  <td className="c-slot"><span className="slot-pill">{labels.slot[g.row[5]]?.label}</span></td>
+                  <td className="c-slot">
+                    <span className="slot-pill">{labels.slot[g.row[5]]?.label}</span>
+                    {g.row[21] && (
+                      <span className="dg-pill" title={dungeonTitle(g.row[21])}>{strings.dungeon}</span>
+                    )}
+                  </td>
                   <td className="fm c-fam" data-l={strings.families}>
                     <b className={fam && g.row[1] === fam ? 'fam-hit' : undefined}>{labels.family[g.row[1]]?.label}</b>
                     {g.row[2].map((f) => (

@@ -1240,3 +1240,17 @@ html[data-view="mobile"] .rk-table,
 html[data-view="mobile"] .ad-table { min-width: 0; }
 html[data-view="mobile"] .ad-branches,
 html[data-view="mobile"] .rk-cards { grid-template-columns: 1fr; }
+
+/* ---- dungeon reward tag on the compound table ---- */
+.dg-pill {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--magic-bg);
+  color: var(--magic);
+  white-space: nowrap;
+}
+html[data-view="mobile"] .dg-pill { margin-left: 0; margin-top: 3px; }

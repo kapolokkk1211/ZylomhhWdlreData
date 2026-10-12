@@ -180,6 +180,11 @@ const spot=[
  }],
  ['No piece of equipment carries Water as a structural family — that reading was a mis-import of Nylon',
    ()=>!comp.some(r=>!['material','manufacture'].includes(r.slot)&&(r.family==='Water'||r.secondary.includes('Water')))],
+ ['Every dungeon-tagged row names a dungeon that exists, and every dungeon has rewards',()=>{
+   const keys=new Set((J('codes.json').dungeons||[]).map(d=>d.key));
+   const tagged=comp.filter(r=>r.dungeon);
+   return tagged.length>0 && tagged.every(r=>keys.has(r.dungeon)) && [...keys].every(k=>tagged.some(r=>r.dungeon===k));
+ }],
  ['No note or prose field carries CJK — the cn keys are the archive, notes reach the page',()=>{
    const cjk=/[\u4e00-\u9fff\u3400-\u4dbf]/;
    const walk=(o,k)=>{

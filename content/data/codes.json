@@ -801,5 +801,77 @@
   "notYetMatched": {
    "Feather": "Deliberate. The client mislabels 羽毛 as ขนสัตว์, the same word it uses for 毛皮 (Fur). KK confirmed it is a translation bug in the client; we keep ขนนก."
   }
- }
+ },
+ "dungeons": [
+  {
+   "key": "egypt-priest",
+   "name": {
+    "en": "The Egyptian Priest's Plot",
+    "cn": "埃及祭司的陰謀",
+    "th": "แผนร้ายของนักบวชอียิปต์"
+   },
+   "players": "6~12",
+   "minutes": 25,
+   "lv": 50,
+   "guild": true,
+   "thConfirmed": true,
+   "note": "Guild dungeon, marked hard in the Thai client. The reward is a set piece matching your own element — four elements, six pieces each. Level from the legacy dungeon table."
+  },
+  {
+   "key": "alexander",
+   "name": {
+    "en": "Alexander the Great",
+    "cn": "亞歷山大帝",
+    "th": "พระเจ้าอเล็กซานเดอร์"
+   },
+   "players": "2~8",
+   "minutes": 20,
+   "lv": 60,
+   "guild": false,
+   "thConfirmed": true,
+   "note": "Level from the legacy dungeon table."
+  },
+  {
+   "key": "flame-mountain",
+   "name": {
+    "en": "Storm the Flaming Mountain",
+    "cn": "勇闖火燄山",
+    "th": "บุกพิชิตเขาเปลวอัคคี"
+   },
+   "players": "2~12",
+   "minutes": 20,
+   "lv": 80,
+   "guild": false,
+   "thConfirmed": true,
+   "note": "Lv 80, read off the Thai client's dungeon page."
+  },
+  {
+   "key": "undersea",
+   "name": {
+    "en": "The Great Undersea Muster",
+    "cn": "海底全動員",
+    "th": "รวมพลครั้งใหญ่ใต้สมุทร"
+   },
+   "players": "2~12",
+   "minutes": 15,
+   "lv": 50,
+   "guild": false,
+   "thConfirmed": true,
+   "note": "Level from the legacy dungeon table."
+  },
+  {
+   "key": "bronze-18",
+   "name": {
+    "en": "Eighteen Bronze Men Formation",
+    "cn": "十八銅人陣",
+    "th": "ค่ายกลคนทอง 18 อรหันต์"
+   },
+   "players": "2~10",
+   "minutes": 10,
+   "lv": 80,
+   "guild": false,
+   "thConfirmed": true,
+   "note": "Level from the legacy dungeon table."
+  }
+ ]
 }
