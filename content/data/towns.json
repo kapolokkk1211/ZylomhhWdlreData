@@ -130,10 +130,11 @@
   "name": {
    "en": "Japan",
    "cn": "日本",
-   "th": "ญี่ปุ่น"
+   "th": "คันไซ"
   },
-  "thStatus": "closed",
-  "note": "Legacy transcriptions call this shop \"Kyoto\""
+  "thStatus": "open",
+  "note": "Open on KK's in-client warp map, 2026-10-12: the port reads คันไซ (Kansai), Lv 145 gate. Our Japan shop rows sit here because legacy transcriptions call this shop \"Kyoto\", and Kyoto is in Kansai — matched by geography, so confirm the stock on landing.",
+  "thConfirmed": true
  },
  {
   "key": "korea",
@@ -278,7 +279,7 @@
    "th": "เอโดะ"
   },
   "thStatus": "open",
-  "note": "Open on KK's in-client voyage map, 2026-09-28. No shop list yet. Our Japan shop rows are filed under a separate town (legacy transcriptions call it \"Kyoto\") and stay closed until someone confirms whether that shop is here.",
+  "note": "Open since KK's map of 2026-09-28. No shop list. With คันไซ now open as the Kyoto-side port, the Japan shop rows are filed there, not here.",
   "thConfirmed": true
  },
  {
@@ -323,6 +324,28 @@
   },
   "thStatus": "open",
   "note": "Open on KK's in-client voyage map, 2026-09-28. A farming port — no shop rows in the material index.",
+  "thConfirmed": true
+ },
+ {
+  "key": "orc-island",
+  "name": {
+   "en": "Orc Island",
+   "cn": null,
+   "th": "เกาะออร์ค"
+  },
+  "thStatus": "open",
+  "note": "New on KK's in-client warp map, 2026-10-12, beside Madagascar. No shop list and no data yet — a shop screenshot from here would be new information.",
+  "thConfirmed": true
+ },
+ {
+  "key": "iceberg",
+  "name": {
+   "en": "Iceberg",
+   "cn": "冰山",
+   "th": "ภูเขาน้ำแข็ง"
+  },
+  "thStatus": "open",
+  "note": "On the warp list in KK's in-client warp map, 2026-10-12. A farming port: the legacy Ice Cave gather node (White, Purple, Red, Water and Black Jade), Snow and Silver Foxes for White Fox Fur, and Snowmen for metal sands. No shop rows in the material index.",
   "thConfirmed": true
  }
 ]
